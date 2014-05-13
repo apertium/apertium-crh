@@ -1,0 +1,54 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Multichar_Symbols 
+
+%<n%>             ! Noun                        !
+%<adj%>           ! Adjective                   !
+%<cnjcoo%>        ! Coordinating conjunction    !
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Conjunctions ; 
+Numerals ; 
+Nouns ; 
+Adjectives ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON N1 
+
+%<n%>: # ; 
+
+LEXICON A2
+
+%<adj%>: # ; 
+
+LEXICON NUM 
+
+%<num%>: # ;
+
+LEXICON CC
+
+%<cnjcoo%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions 
+
+ve:ve CC ; ! "и"
+
+LEXICON Numerals 
+
+bir:bir NUM ; ! "один"
+
+LEXICON Nouns 
+
+til:til N1 ; ! "язык"
+
+LEXICON Adjectives 
+
+yoq:yoq A2 ; ! "нет"

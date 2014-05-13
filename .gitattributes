@@ -1,0 +1,2 @@
+* text=auto !eol
+/apertium-crh.crh.lexc -text
