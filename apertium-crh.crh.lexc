@@ -8,6 +8,28 @@ Multichar_Symbols
 %<adj%>           ! Adjective                   !
 %<cnjcoo%>        ! Coordinating conjunction    !
 
+%<nom%>           ! Nominative                  !
+%<loc%>           ! Locative                    ! 
+%<abl%>           ! Ablative                    !
+
+%<px1sg%>         !
+%<px2sg%>         !
+%<px3sp%>         !
+%<px1pl%>         !
+%<px2pl%>         !
+
+%<pl%>            ! Plural                      !
+
+%<attr%>          ! Attributive                 !
+
+%{D%}             !                             
+%{A%}             !
+%{I%}             !
+%{s%}             !
+%{n%}             !
+ 
+%>                !
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
@@ -19,9 +41,38 @@ Adjectives ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON CASES 
+
+%<nom%>: # ;
+%<abl%>:%>%{D%}%{A%}n # ;
+%<loc%>:%>%{D%}%{A%} # ;
+
+LEXICON CASES-ETC 
+
+CASES ;
+
+LEXICON POSSESSIVES
+
+%<px1sg%>:%>%{I%}m CASES-ETC ;
+%<px2sg%>:%>%{I%}ñ CASES-ETC ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ;
+%<px1pl%>:%>%{I%}m%{I%}z CASES-ETC ;
+%<px2pl%>:%>%{I%}ñ%{I%}z CASES-ETC ;
+
+LEXICON PLURAL
+
+%<pl%>:%>l%{A%}r CASES-ETC ;
+
+LEXICON FULL-NOMINAL-INFLECTION
+
+PLURAL ;
+CASES-ETC ;
+POSSESSIVES ;
+
 LEXICON N1 
 
-%<n%>: # ; 
+%<n%>: FULL-NOMINAL-INFLECTION ; 
+%<n%>%<attr%>: # ;
 
 LEXICON A2
 
@@ -40,6 +91,7 @@ LEXICON CC
 LEXICON Conjunctions 
 
 ve:ve CC ; ! "и"
+amma:amma CC ; ! "но"
 
 LEXICON Numerals 
 
@@ -48,6 +100,7 @@ bir:bir NUM ; ! "один"
 LEXICON Nouns 
 
 til:til N1 ; ! "язык"
+baş:baş N1 ; ! "голова, председатель"
 
 LEXICON Adjectives 
 
