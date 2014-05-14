@@ -21,6 +21,7 @@ Multichar_Symbols
 %<pl%>            ! Plural                      !
 
 %<attr%>          ! Attributive                 !
+%<subst%>         ! Substantive                 !
 
 %{D%}             !                             
 %{A%}             !
@@ -81,6 +82,7 @@ LEXICON A2
 LEXICON NUM 
 
 %<num%>: # ;
+%<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON CC
 
@@ -96,11 +98,22 @@ amma:amma CC ; ! "но"
 LEXICON Numerals 
 
 bir:bir NUM ; ! "один"
+eki:eki  NUM ; ! ""
+üç:üç NUM ; ! ""
+dört:dört NUM ; ! ""
+altı:altı NUM ; ! ""
+beş:beş NUM ; ! ""
+sekiz:sekiz NUM ; ! ""
+yedi:yedi  NUM ; ! ""
+doquz:doquz  NUM ; ! ""
+on:on NUM ; ! ""
 
 LEXICON Nouns 
 
 til:til N1 ; ! "язык"
 baş:baş N1 ; ! "голова, председатель"
+rayon:rayon N1 ; ! "район"
+devlet:devlet N1 ; ! "государство"
 
 LEXICON Adjectives 
 
