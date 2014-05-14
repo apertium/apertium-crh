@@ -5,6 +5,7 @@
 Multichar_Symbols 
 
 %<n%>             ! Noun                        !
+%<np%>            ! Proper noun                 !
 %<adj%>           ! Adjective                   !
 %<cnjcoo%>        ! Coordinating conjunction    !
 
@@ -23,6 +24,18 @@ Multichar_Symbols
 %<attr%>          ! Attributive                 !
 %<subst%>         ! Substantive                 !
 
+%<top%>           ! Toponym
+
+%<sent%>          ! Sentence marker
+%<guio%>          ! Hyphen
+%<cm%>            ! Comma
+%<apos%>          ! Apostrophe
+%<rquot%>         ! Quote marker (right hand side)
+%<lquot%>         ! Quote marker (left hand side)
+%<rpar%>          ! Parenthetical marker (right hand side)
+%<lpar%>          ! Parenthetical marker (left hand side)
+
+
 %{D%}             !                             
 %{A%}             !
 %{I%}             !
@@ -38,7 +51,9 @@ LEXICON Root
 Conjunctions ; 
 Numerals ; 
 Nouns ; 
+ProperNouns ; 
 Adjectives ; 
+Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -74,6 +89,10 @@ LEXICON N1
 
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>%<attr%>: # ;
+
+LEXICON NP-TOP 
+
+%<np%>%<top%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON A2
 
@@ -114,7 +133,62 @@ til:til N1 ; ! "язык"
 baş:baş N1 ; ! "голова, председатель"
 rayon:rayon N1 ; ! "район"
 devlet:devlet N1 ; ! "государство"
+imperiya:imperiya N1 ; ! "империя"
+dünya:dünya N1 ; ! "мир"
+zaman:zaman N1 ; ! ""
+okean:okean N1 ; ! ""
+mektep:mektep N1 ; ! ""
+kitap:kitap N1 ; ! ""
+delegat:delegat N1 ; ! ""
+fakultet:fakultet N1 ; ! ""
+poliklinika:poliklinika N1 ; ! ""
+kinoteatr:kinoteatr N1 ; ! ""
+muzıka:muzıka N1 ; ! ""
+sport:sport N1 ; ! ""
+
+
+
+LEXICON ProperNouns 
+
+Afrika:Afrika NP-TOP ; ! ""
+
+Rusiye:Rusiye NP-TOP ; ! "Россия"
+Tataristan:Tataristan NP-TOP ; ! ""
+Türkiye:Türkiye NP-TOP ; ! ""
+Meksika:Meksika NP-TOP ; ! ""
+Litvaniya:Litvaniya NP-TOP ; ! ""
+Kanada:Kanada NP-TOP ; ! ""
+Peru:Peru NP-TOP ; ! ""
+
+Paris:Paris NP-TOP ; ! ""
+İzmir:İzmir NP-TOP ; ! ""
 
 LEXICON Adjectives 
 
 yoq:yoq A2 ; ! "нет"
+
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
+
