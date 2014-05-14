@@ -1,0 +1,18 @@
+Alphabet
+
+ a b c ç d e f g ğ h ı i j k l m n ñ o ö p q r s ş t u ü v y z
+ A B C Ç D E F G Ğ H I   J K L M N Ñ O Ö P Q R S Ş T U Ü V Y Z
+
+ %{I%}:i %{A%}:a %{D%}:d %{s%}:0 %{n%}:0
+
+ %>:0 ;
+
+Sets
+
+Vow = a o ı u i ö ü 
+      A O I U   Ö Ü ;  
+
+Rules
+
+"Remove morpheme boundary"
+%>:0 <=> _ ;

@@ -1,2 +1,5 @@
 * text=auto !eol
+/Makefile -text
 /apertium-crh.crh.lexc -text
+/apertium-crh.crh.twol -text
+dev/countstems.sh -text
