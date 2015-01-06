@@ -267,6 +267,8 @@ amma:amma CC ; ! "но"
 LEXICON Postpositions
 
 ile:ile POST ; ! "с"
+içün:içün POST ; ! "for/для, за"
+soñ:soñ POST ; ! "after/после"
 
 LEXICON Pronouns 
 
@@ -371,6 +373,7 @@ arif:arif N1 ; ! "буква"
 arman:arman N1 ; ! "ток"
 arzu:arzu N1 ; ! "мечта"
 aş:aş N1 ; ! "пища, продовольствие"
+asır:asır N1 ; ! "century/век"
 asker:asker N1 ; ! "воин"
 ateş:ateş N1 ; ! "огонь"
 atlı:atlı N1 ; ! "всадник, ездок"
@@ -734,7 +737,7 @@ sebep:sebep N1 ; ! "мотив"
 şeer:şeer N1 ; ! "город"
 şeker:şeker N1 ; ! "сахар"
 selbi:selbi N1 ; ! "poplar/тополь" (сельби)
-seneler:seneler N1 ; ! "год"
+sene:sene N1 ; ! "год"
 ses:ses N1 ; ! "голос"
 sevgi:sevgi N1 ; ! "любовь"
 seyaatçı:seyaatçı N1 ; ! "путешественник"
