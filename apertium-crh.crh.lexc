@@ -29,6 +29,10 @@ Multichar_Symbols
 
 %<iv%>            !
 
+%<imp%>
+%<aor%>
+%<past%>
+
 %<px1sg%>         !
 %<px2sg%>         !
 %<px3sp%>         !
@@ -62,6 +66,7 @@ Multichar_Symbols
 %{G%}             !
 %{D%}             !                             
 %{A%}             !
+%{E%}
 %{I%}             !
 %{s%}             !
 %{n%}             !
@@ -221,9 +226,16 @@ LEXICON V-PERS-S1
 
 %<p3%>%<sg%>: # ; 
 
+LEXICON V-PERS-AOR
+
+%<p3%>%<sg%>: # ;
+%<p3%>%<pl%>:%>l%{A%}r # ;
+
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
 %<past%>:%>%{G%}%{A%}n V-PERS-S1 ; 
+%<aor%>:%>%{E%} V-PERS-AOR ;
+%<imp%>: # ;
 
 LEXICON V-COMMON 
 
@@ -721,6 +733,7 @@ sebat:sebat N1 ; ! "упрямство"
 sebep:sebep N1 ; ! "мотив"
 şeer:şeer N1 ; ! "город"
 şeker:şeker N1 ; ! "сахар"
+selbi:selbi N1 ; ! "poplar/тополь" (сельби)
 seneler:seneler N1 ; ! "год"
 ses:ses N1 ; ! "голос"
 sevgi:sevgi N1 ; ! "любовь"
@@ -966,10 +979,12 @@ yoq:yoq A2 ; ! "нет"
 LEXICON Adverbs
 
 çoq:çoq ADV ; ! "много, очень"
+ebediy:ebediy ADV ; ! "eternally/вечно"
 
 LEXICON Verbs 
 
 ol:ol V-IV ; ! "быть"
+yaşa:yaşa V-IV ; ! "live/жить"
 
 LEXICON Punctuation
 

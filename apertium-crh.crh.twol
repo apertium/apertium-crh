@@ -6,6 +6,7 @@ Alphabet
  %{I%}:i %{A%}:a %{G%}:k %{D%}:d %{s%}:0 %{n%}:0
  %{I%}:ı %{A%}:e %{G%}:ğ %{D%}:t %{s%}:s %{n%}:n
                  %{G%}:g
+ %{E%}:a %{E%}:e
 
  %>:0 ;
 
@@ -18,3 +19,6 @@ Rules
 
 "Remove morpheme boundary"
 %>:0 <=> _ ;
+
+"{E} to y after vowel"
+%{E%}:y <=> :Vow :0* _ ;
