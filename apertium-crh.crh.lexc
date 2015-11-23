@@ -18,6 +18,7 @@ Multichar_Symbols
 %<adv%>           ! Adverb                      !
 %<v%>             ! Verb                        !
 %<cnjcoo%>        ! Coordinating conjunction    !
+%<qst%>           ! 
 
 %<nom%>           ! Nominative                  !
 %<gen%>           !
@@ -28,10 +29,15 @@ Multichar_Symbols
 %<ins%>           !
 
 %<iv%>            !
+%<tv%>            !
 
 %<imp%>
 %<aor%>
+%<fut%>
+%<fut2%>          ! -EcAG
 %<past%>
+
+%<prc_perf%>      ! -Ip 
 
 %<px1sg%>         !
 %<px2sg%>         !
@@ -68,7 +74,9 @@ Multichar_Symbols
 %{A%}             !
 %{E%}
 %{I%}             !
+%{i%}             !
 %{s%}             !
+%{y%}             !
 %{n%}             !
  
 %>                !
@@ -77,9 +85,11 @@ Multichar_Symbols
 
 LEXICON Root
 
+Copula ; 
 Conjunctions ; 
 Postpositions ;
 Pronouns ; 
+Determiners ;
 Numerals ; 
 Nouns ; 
 ProperNouns ; 
@@ -90,14 +100,24 @@ Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON CLIT-QST-MI 
+
+%+mı%<qst%>:%>m%{I%} # ;
+
+LEXICON CLIT-COP
+
+%+e%<cop%>%<aor%>: V-PERS-S1 ; 
+
 LEXICON CLITICS-NO-COP 
 
+CLIT-QST-MI ;
 # ;
 
 LEXICON CLITICS-INCL-COP 
 
+CLITICS-NO-COP ;
+CLIT-COP ;
 # ;
-
 
 LEXICON CASES-COMMON
 
@@ -133,11 +153,11 @@ GENERAL-POSSESSIVE-ETC ;
 
 LEXICON POSSESSIVES
 
-%<px1sg%>:%>%{I%}m CASES-ETC ;
-%<px2sg%>:%>%{I%}ñ CASES-ETC ;
+%<px1sg%>:%>%{i%}m CASES-ETC ;
+%<px2sg%>:%>%{i%}ñ CASES-ETC ;
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ;
-%<px1pl%>:%>%{I%}m%{I%}z CASES-ETC ;
-%<px2pl%>:%>%{I%}ñ%{I%}z CASES-ETC ;
+%<px1pl%>:%>%{i%}m%{I%}z CASES-ETC ;
+%<px2pl%>:%>%{i%}ñ%{I%}z CASES-ETC ;
 
 LEXICON PLURAL
 
@@ -159,6 +179,20 @@ LEXICON NP-TOP
 
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+
+
+
+LEXICON A1
+
+%<adj%>: # ; 
+
 LEXICON A2
 
 %<adj%>: # ; 
@@ -167,6 +201,12 @@ LEXICON NUM
 
 %<num%>: # ;
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
+%<num%>%<ord%>:%>%{I%}nc%{I%} # ;
+%<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
+
+LEXICON PRON-REF 
+
+%<prn%>%<ref%>: # ;
 
 LEXICON PRON-PERS-MEN 
 
@@ -222,28 +262,121 @@ LEXICON PRON-PERS-OLAR
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:da # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:dan # ;
 
+LEXICON DET-DEM
+
+%<det%>%<dem%>: # ;
+
 LEXICON V-PERS-S1 
 
-%<p3%>%<sg%>: # ; 
+%<p1%>%<sg%>:%>%{i%}m CLITICS-NO-COP ; 
+%<p2%>%<sg%>:%>s%{I%}ñ CLITICS-NO-COP ; 
+%<p3%>%<sg%>: CLITICS-NO-COP ; 
+%<p1%>%<pl%>:%>%{i%}m%{I%}z CLITICS-NO-COP ; 
+%<p2%>%<pl%>:%>s%{I%}z CLITICS-NO-COP ; 
+%<p2%>%<pl%>:%>s%{I%}ñ%{I%}z CLITICS-NO-COP ;  ! FIXME: diff? -sIz/-sIñIz ?
+%<p3%>%<pl%>:%>l%{A%}r CLITICS-NO-COP ; 
+
+LEXICON V-PERS-S1-NO1
+
+%<p2%>%<sg%>:%>s%{I%}ñ CLITICS-NO-COP ; 
+%<p3%>%<sg%>: CLITICS-NO-COP ; 
+%<p2%>%<pl%>:%>s%{I%}z CLITICS-NO-COP ; 
+%<p2%>%<pl%>:%>s%{I%}ñ%{I%}z CLITICS-NO-COP ;  ! FIXME: diff? -sIz/-sIñIz ?
+%<p3%>%<pl%>:%>l%{A%}r CLITICS-NO-COP ; 
+
+LEXICON V-PERS-S2
+
+%<p1%>%<sg%>:%>%{i%}m CLITICS-NO-COP ; 
+%<p2%>%<sg%>:%>%{i%}ñ CLITICS-NO-COP ; 
+%<p3%>%<sg%>: CLITICS-NO-COP ; 
+%<p1%>%<pl%>:%>%{G%} CLITICS-NO-COP ; 
+%<p2%>%<pl%>:%>%{i%}ñ%{I%}z CLITICS-NO-COP ; 
+%<p3%>%<pl%>:%>l%{A%}r CLITICS-NO-COP ; 
 
 LEXICON V-PERS-AOR
 
+%<p1%>%<sg%>:%>%{i%}m CLITICS-NO-COP ; 
 %<p3%>%<sg%>: # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
+%<prog%>:%>m%{A%}kt%{A%} V-PERS-S1 ;
 %<past%>:%>%{G%}%{A%}n V-PERS-S1 ; 
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<aor%>:%>%{E%} V-PERS-AOR ;
-%<imp%>: # ;
+%<fut2%>:%>%{E%}c%{A%}%{G%} V-PERS-S1 ;
+
+%<imp%>%<p2%>%<sg%>: # ;
+%<imp%>%<p2%>%<sg%>:%>%{I%}ñ%{I%}z # ;
+
+%<imp%>%<p1%>%<sg%>:%>%{A%}y%{I%}m # ;
+%<imp%>%<p3%>%<sg%>:%>s%{I%}n # ;
+%<imp%>%<p1%>%<pl%>:%>%{A%}y%{I%}%{G%} # ;
+%<imp%>%<p3%>%<pl%>:%>s%{I%}nl%{A%}r # ;
+
+%<opt%>:%>%{G%}%{A%}y V-PERS-S2 ; 
+
+LEXICON V-FUT-COMMON
+
+%<neg%>%<fut%>:m%{A%}z V-PERS-S1-NO1 ;
+%<neg%>%<fut%>%<p1%>%<sg%>:m%{A%}m CLITICS-NO-COP ;
+%<neg%>%<fut%>%<p1%>%<pl%>:m%{A%}m%{I%}z CLITICS-NO-COP ;
+
+LEXICON V-FUT-IR
+
+%<fut%>:%{I%}r V-PERS-S1 ;
+%<gpr_fut%>:%{I%}r # ;
+V-FUT-COMMON ;
+
+LEXICON V-FUT-AR 
+
+%<fut%>:%{A%}r V-PERS-S1 ;
+%<gpr_fut%>:%{A%}r # ;
+V-FUT-COMMON ;
+
+LEXICON V-NONFINITE
+
+%<prc_perf%>:%>%{I%}p # ;
+%<prc_impf%>:%>%{E%} # ;
+
+%<prc_cond%>:%>s%{A%} V-PERS-S2 ;
+
+%<ger%>:%>m%{A%}%{G%} FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
+
+%<gna_cond%>:%>s%{A%} V-PERS-S2 ;
+%<gna_pres%>:%>%{y%}%{A%}r%{A%}%{G%} # ;
+
+%<gpr_past%>:%>%{G%}%{A%}n # ;
+
+%<gpr_fut2%>:%>%{E%}c%{A%}%{G%} # ;
 
 LEXICON V-COMMON 
 
 V-FINITE-REGULAR_NEGATIVE ;
+%<neg%>:%>m%{A%} V-FINITE-REGULAR_NEGATIVE ;
+
+V-NONFINITE ; 
 
 LEXICON V-IV 
 
 %<v%>%<iv%>: V-COMMON ; 
+%<v%>%<iv%>: V-FUT-IR ; 
+
+LEXICON V-TV 
+
+%<v%>%<tv%>: V-COMMON ; 
+%<v%>%<tv%>: V-FUT-IR ; 
+
+LEXICON V-IV-AR
+
+%<v%>%<iv%>: V-COMMON ; 
+%<v%>%<iv%>: V-FUT-AR ; 
+
+LEXICON V-TV-AR
+
+%<v%>%<tv%>: V-COMMON ; 
+%<v%>%<tv%>: V-FUT-AR ; 
 
 LEXICON ADV 
 
@@ -259,16 +392,43 @@ LEXICON CC
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Copula
+
+e%<cop%>%<ifi%>:edi V-PERS-S2 ; 
+e%<cop%>%<aor%>%<evid%>:eken V-PERS-S1 ;
+
 LEXICON Conjunctions 
 
 ve:ve CC ; ! "и"
 amma:amma CC ; ! "но"
+lakin:lakin CC ; ! ""
+ise:ise CC ; ! ""
 
 LEXICON Postpositions
 
-ile:ile POST ; ! "с"
+!! Dative
+doğru:doğru POST ; ! "straight to"
+qadar:qadar POST ; ! "until/до"
+kore:kore POST ; ! "according to"
+taba:taba POST ; ! "towards"
+
+!! Genitive
+ile:ile POST ; ! "with/с"
+ile:le POST ; ! "with/с" ! Dir/LR
+dayın:dayın POST ; ! "as, like"
+sayın:sayın POST ; ! "as far as"
 içün:içün POST ; ! "for/для, за"
+kibi:kibi POST ; ! "as, like"
+
+!! Ablative 
+başqa:başqa POST ; ! "except"
+ğayrı:ğayrı POST ; ! "except"
 soñ:soñ POST ; ! "after/после"
+ögüne:ögüne POST ; ! "before/перед"
+sebep:sebep POST ; ! "because of/благодаря"
+berli:berli POST ; ! "from that time"
+evel:evel POST ; ! "before"
+burun:burun POST ; ! "before"
 
 LEXICON Pronouns 
 
@@ -282,6 +442,13 @@ olar:olar PRON-PERS-OLAR ; ! "они"
 !bu:bu PRON-DEM-BU ; ! ""
 !şu:şu PRON-DEM-SU ; ! ""
 !o:o PRON-DEM-O ; ! ""
+
+öz:öz PRON-REF ; ! ""
+
+LEXICON Determiners
+
+bu:bu DET-DEM ;
+er:er DET-DEM ;
 
 LEXICON Numerals 
 
@@ -305,8 +472,23 @@ ara:ara N1 ; ! "among"
 ast:ast N1 ; ! ""
 art:art N1 ; ! ""
 yan:yan N1 ; ! "next to"
+taraf:taraf N1 ; ! "towards"
+alt:alt N1 ; ! ""
+ald:ald N1 ; ! ""
+baş:baş N1 ; ! ""
+zarf:zarf N1 ; ! ""
+iç:iç N1 ; ! ""
+üzer:üzer N1 ; ! ""
+üst:üst N1 ; ! ""
+tüb:tüb N1 ; ! ""
+ög:ög N1 ; ! ""
+yan:yan N1 ; ! ""
+orta:orta N1 ; ! ""
+tışarı:tışarı N1 ; ! ""
+qarşı:qarşı N1 ; ! ""
+aqq:aqq N1 ; ! ""
 
-
+krovat:krovat N1 ; ! "кроват"
 til:til N1 ; ! "язык"
 baş:baş N1 ; ! "голова, председатель"
 rayon:rayon N1 ; ! "район"
@@ -333,6 +515,7 @@ universitet:universitet N1 ; ! ""
 internet:internet N1 ; ! ""
 halq:halq N1 ; ! ""
 söz:söz N1 ; ! ""
+şey:şey N1 ; ! "вещь"
 
 abide:abide N1 ; ! "памятка"
 açlıq:açlıq N1 ; ! "голод"
@@ -882,6 +1065,12 @@ moğol:moğol N1 ; ! "монгол"
 qırımtatar:qırımtatar N1 ; ! ""
 tatar:tatar N1 ; ! ""
 
+qartbaba:qartbaba N1 ; ! "дядя"
+masal:masal N1 ; ! "сказка"	
+adise:adise N1 ; ! "авария"
+bala:bala N1 ; ! "ребёнок"
+mektür:mektür N1 ; ! "письмо"
+
 LEXICON ProperNouns 
 
 Afrika:Afrika NP-TOP ; ! ""
@@ -975,19 +1164,60 @@ Yalta:Yalta NP-TOP ; ! ""
 Şırnak:Şırnak NP-TOP ; ! ""
 Oslo:Oslo NP-TOP ; ! ""
 
+Mustafa:Mustafa NP-ANT-M ; ! ""
+Asan:Asan NP-ANT-M ; ! ""
+Veli:Veli NP-ANT-M ; ! ""
+Ayşe:Ayşe NP-ANT-F ; ! ""
+Hüner:Hüner NP-ANT-F ; ! ""
+Lenara:Lenara NP-ANT-F ; ! ""
+Remziye:Remziye NP-ANT-F ; ! ""
+Mafuze:Mafuze NP-ANT-F ; ! ""
+
 LEXICON Adjectives 
 
 yoq:yoq A2 ; ! "нет"
 
+mümkün:mümkün A2 ; ! "possible/возможно"
+kerek:kerek A2 ; ! "necessary/должно"
+
+razı:razı A1 ; ! ""
+
 LEXICON Adverbs
 
 çoq:çoq ADV ; ! "много, очень"
+çoq%-çoq:çoq%-çoq ADV ; ! "много, очень"
 ebediy:ebediy ADV ; ! "eternally/вечно"
+
+şimdi:şimdi ADV ; ! "now/сейчас"
+meger:meger ADV ; ! "apparently"
 
 LEXICON Verbs 
 
-ol:ol V-IV ; ! "быть"
+ol:ol V-IV ; ! "be/быть"
 yaşa:yaşa V-IV ; ! "live/жить"
+kör:kör V-TV ; ! "see/видеть"
+al:al V-TV ; ! "take"
+ket:ket V-IV ; ! "go/идти"
+sev:sev V-TV-AR ; ! "love/любить"
+qal:qal V-IV-AR ; ! "stay/стоить"
+kel:kel V-IV ; ! "come/прийти"
+yap:yap V-TV-AR ; ! "do/делать"
+tüş:tüş V-IV ; ! "fall"
+qayt:qayt V-IV ; ! "return/вернуться"
+ber:ber V-TV ; ! "give"
+ayt:ayt V-TV ; ! "tell"
+unut:unut V-TV ; ! "forget/забыть"
+oqu:oqu V-TV ; ! "learn/учить"
+iste:iste V-TV ; ! "want/хотеть"
+işle:işle V-TV ; ! "work/работать"
+bil:bil V-TV ; ! "know/знать"
+temizle:temizle V-TV ; ! "clean/чистить"
+başla:başla V-TV ; ! "start/начать"
+qoy:qoy V-TV ; ! ""
+yaz:yaz V-TV ; ! "write/писать"
+yırla:yırla V-TV ; ! ""
+oyna:oyna V-TV ; ! ""
+
 
 LEXICON Punctuation
 
@@ -1013,4 +1243,11 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
+
+! Temporary numeral lexicon
+<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+
+LEXICON DIGITLEX
+
+%<num%>: # ;
 

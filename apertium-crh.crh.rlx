@@ -1,6 +1,8 @@
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 DELIMITERS = "<.>" ;
 
+SUBREADINGS = LTR ;
+
 # We can define sets for common tag clusters
 LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
 

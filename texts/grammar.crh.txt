@@ -1,0 +1,39 @@
+		Menim ağam bu evde yaşay.
+		Menim ağam er kün şeerde ola.
+		Menim ağam er kün şeerde olmay.
+		O mektepke keç qalıp kelir.
+66	142	Men mektüp yazsam dostlarım maña kelecek.
+66	144	Qırımğa keldik.
+67	146	Bir-eki şey bergenler.
+67	147	Qomşular qaytıp kelgenler.
+67	148	Mümkün olsa bu şeylerni alır edim.
+68	149	Qartbabam bizge çoq-çoq masallar ayta edi.
+68	150	Men bu şeerge 1948 senesinde kelgen edim.
+68	151	Men bu kitapnı alacaq edim amma maña bermediler.
+69	152	Meger terekten tüşken eken.
+69	153	Men bu adiseni unutacaq ekenim.
+69	154	Men dostum evde yaşasa onıñ qorantası çoq razı.
+71		Tünevin kelmegeydiñ.
+71	159	Men bu işni yapmalım.
+71	160	Men bu işni yapmağa mecburım.
+72	161	Bala oqumağa borçlu.
+72	162	Bala oqumaq kerek.
+72	163	Bu kitapnı oqumaq lazim.
+75		Işlemek kerek.
+75		Men işlemege isteyim.
+75		Yazmağa bilem.
+77	170	Bu işni başlayaraq bitirmeli.
+77	171	Asan evge kelip evni temizledi.
+83	180	Men kitapnı yaşikniñ içine qoydım.
+83	181	Men kitapnı krovat tübünden aldım.
+84	183	Bala kitapnı oquy.
+85	184	Siz mektürni yazdıñiz.
+85	185	Sen qırımtatarsıñ.
+85	187	Men yedi evni körem.
+86	188	Men evlerniñ birincisinde yaşayım.
+86	190	Asan ve Veli evge keldiler.
+87	191	Bu qarandaş degil amma qalemdir.
+87	192	Remziye yırlay Mafuze ise oynay.
+87	193	O bala oynay.
+87	193	Qayıq battı.
+87	194	O bala tünevin kitapnı oqudı.

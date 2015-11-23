@@ -3,10 +3,15 @@ Alphabet
  a b c ç d e f g ğ h ı i j k l m n ñ o ö p q r s ş t u ü v y z
  A B C Ç D E F G Ğ H I   J K L M N Ñ O Ö P Q R S Ş T U Ü V Y Z
 
- %{I%}:i %{A%}:a %{G%}:k %{D%}:d %{s%}:0 %{n%}:0
- %{I%}:ı %{A%}:e %{G%}:ğ %{D%}:t %{s%}:s %{n%}:n
-                 %{G%}:g
- %{E%}:a %{E%}:e
+ %{i%}:0 %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü
+ %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü
+ %{A%}:a %{A%}:e
+ %{D%}:t %{D%}:d 
+ %{G%}:g %{G%}:q %{G%}:ğ %{G%}:k
+ %{E%}:a %{E%}:e %{E%}:y
+ %{s%}:0 %{s%}:s
+ %{n%}:0 %{n%}:n
+ %{y%}:0 %{y%}:y
 
  %>:0 ;
 
