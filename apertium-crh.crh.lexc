@@ -191,11 +191,11 @@ LEXICON NP-ANT-F
 
 LEXICON A1
 
-%<adj%>: # ; 
+%<adj%>: CLITICS-INCL-COP ; 
 
 LEXICON A2
 
-%<adj%>: # ; 
+%<adj%>: CLITICS-INCL-COP ; 
 
 LEXICON NUM 
 
@@ -237,30 +237,32 @@ LEXICON PRON-PERS-O
 
 LEXICON PRON-PERS-BIZ
 
-%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:im # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ge # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:ni # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:de # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ge # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:ni # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:den # ;
 
 LEXICON PRON-PERS-SIZ
 
-%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:iñ # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ge # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:ni # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:de # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:iñ # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ge # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:ni # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
 
 LEXICON PRON-PERS-OLAR
 
-%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nıñ # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ğa # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nı # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:da # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:dan # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:nıñ # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:ğa # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:nı # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
 
 LEXICON DET-DEM
 
@@ -268,7 +270,7 @@ LEXICON DET-DEM
 
 LEXICON V-PERS-S1 
 
-%<p1%>%<sg%>:%>%{i%}m CLITICS-NO-COP ; 
+%<p1%>%<sg%>:%>%{I%}m CLITICS-NO-COP ; 
 %<p2%>%<sg%>:%>s%{I%}ñ CLITICS-NO-COP ; 
 %<p3%>%<sg%>: CLITICS-NO-COP ; 
 %<p1%>%<pl%>:%>%{i%}m%{I%}z CLITICS-NO-COP ; 
@@ -346,6 +348,7 @@ LEXICON V-NONFINITE
 
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_pres%>:%>%{y%}%{A%}r%{A%}%{G%} # ;
+%<gna_perf%>:%>%{I%}p # ;
 
 %<gpr_past%>:%>%{G%}%{A%}n # ;
 
@@ -386,6 +389,11 @@ LEXICON POST
 
 %<post%>: # ;
 
+LEXICON CS
+
+%<cnjsub%>: # ;
+
+
 LEXICON CC
 
 %<cnjcoo%>: # ;
@@ -403,6 +411,14 @@ ve:ve CC ; ! "и"
 amma:amma CC ; ! "но"
 lakin:lakin CC ; ! ""
 ise:ise CC ; ! ""
+a:a CC ; ! ""
+
+ki:ki CS ; ! ""
+çünki:çünki CS ; ! ""
+sanki:sanki CS ; ! ""
+bile:bile CS ; ! ""
+tışta:tışta CS ; ! ""
+guya:guya CS ; ! ""
 
 LEXICON Postpositions
 
@@ -448,6 +464,8 @@ olar:olar PRON-PERS-OLAR ; ! "они"
 LEXICON Determiners
 
 bu:bu DET-DEM ;
+şu:şu DET-DEM ;
+o:o DET-DEM ;
 er:er DET-DEM ;
 
 LEXICON Numerals 
@@ -462,6 +480,8 @@ sekiz:sekiz NUM ; ! ""
 yedi:yedi  NUM ; ! ""
 doquz:doquz  NUM ; ! ""
 on:on NUM ; ! ""
+
+qırq:qırq NUM ; ! ""
 
 LEXICON Nouns 
 
@@ -815,7 +835,7 @@ numayış:numayış N1 ; ! "демонстрация"
 oca:oca N1 ; ! "учитель"
 ocapçe:ocapçe N1 ; ! "учительница"
 oda:oda N1 ; ! "комната"
-oğul:oğul N1 ; ! "сын"
+oğul:oğ%{y%}l N1 ; ! "сын"
 ögüt:ögüt N1 ; ! "мораль"
 okean:okean N1 ; ! "океан"
 ölüm:ölüm N1 ; ! "смерть"
@@ -1070,6 +1090,19 @@ masal:masal N1 ; ! "сказка"
 adise:adise N1 ; ! "авария"
 bala:bala N1 ; ! "ребёнок"
 mektür:mektür N1 ; ! "письмо"
+çeçek:çeçek N1 ; ! "цветок"
+qızçıq:qızçıq N1 ; ! ""
+oğlançıq:oğlançıq N1 ; ! ""
+qızbala:qızbala N1 ; ! ""
+köz:köz N1 ; ! "глаз"
+filcan:filcan N1 ; ! "чашка"
+taban:taban N1 ; ! ""
+tuz:tuz N1 ; ! ""
+alma:alma N1 ; ! "яблоко"
+rica:rica N1 ; ! ""
+
+
+
 
 LEXICON ProperNouns 
 
@@ -1164,6 +1197,8 @@ Yalta:Yalta NP-TOP ; ! ""
 Şırnak:Şırnak NP-TOP ; ! ""
 Oslo:Oslo NP-TOP ; ! ""
 
+Bağçasaray:Bağçasaray NP-TOP ; ! ""
+
 Mustafa:Mustafa NP-ANT-M ; ! ""
 Asan:Asan NP-ANT-M ; ! ""
 Veli:Veli NP-ANT-M ; ! ""
@@ -1176,25 +1211,38 @@ Mafuze:Mafuze NP-ANT-F ; ! ""
 LEXICON Adjectives 
 
 yoq:yoq A2 ; ! "нет"
+bar:bar A2 ; ! "есть"
 
 mümkün:mümkün A2 ; ! "possible/возможно"
 kerek:kerek A2 ; ! "necessary/должно"
 
 razı:razı A1 ; ! ""
+yahşı:yahşı A1 ; ! ""
+dülber:dülber A1 ; ! ""
+kok:kok A1 ; ! ""
+tez:tez A1 ; ! ""
+qart:qart A1 ; ! ""
+sıcaq:sıcaq A1 ; ! ""
 
 LEXICON Adverbs
 
 çoq:çoq ADV ; ! "много, очень"
+pek:pek ADV ; ! "очень"
 çoq%-çoq:çoq%-çoq ADV ; ! "много, очень"
 ebediy:ebediy ADV ; ! "eternally/вечно"
+
+tünevin:tünevin ADV ; ! "" ! NOTE: takes -ki
 
 şimdi:şimdi ADV ; ! "now/сейчас"
 meger:meger ADV ; ! "apparently"
 
 LEXICON Verbs 
 
+bitir:bitir V-TV ; ! ""                        ! AUX
+
 ol:ol V-IV ; ! "be/быть"
 yaşa:yaşa V-IV ; ! "live/жить"
+otur:otur V-IV ; ! "sit/"
 kör:kör V-TV ; ! "see/видеть"
 al:al V-TV ; ! "take"
 ket:ket V-IV ; ! "go/идти"
@@ -1217,6 +1265,19 @@ qoy:qoy V-TV ; ! ""
 yaz:yaz V-TV ; ! "write/писать"
 yırla:yırla V-TV ; ! ""
 oyna:oyna V-TV ; ! ""
+çıq:çıq V-IV ; ! ""
+baq:baq V-TV ; ! ""
+aylan:aylan V-IV ; ! ""
+tur:tur V-IV ; ! ""
+bas:bas V-TV ; ! ""
+rastkel:rastkel V-IV ;
+üz:üz V-TV ; ! ""
+bat:bat V-IV ; ! ""
+bar:bar V-IV ; ! ""
+ös:ös V-IV ; ! ""
+köç:köç V-IV ; ! ""
+
+
 
 
 LEXICON Punctuation

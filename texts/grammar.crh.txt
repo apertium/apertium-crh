@@ -37,3 +37,120 @@
 87	193	O bala oynay.
 87	193	Qayıq battı.
 87	194	O bala tünevin kitapnı oqudı.
+88	195	Men saba erte turup başta bir azbarlarnı aylanıp baqıp çıqam.
+88	196	Biz bir kesek bala yata yuqlay edik.
+88	197	Bala kitap oquy. 
+88	198	Bizler yahşı qomşular edik.
+89	199	O bala tünevin kitapnı qızçıqqa berdi.
+89	200	Bala kitap oquy. 
+89	201	Men hamır bastım. 
+89	202	O ketip turğanda bir bala rastkele.
+89	203	Qızçıq dülber çeçekni üzdi.
+89	204	Qızçıq dülber çeçek üzdi.
+90	205	Evni temizlemek kerek. 
+90	206	Ev temizlemek kerek.
+90	207	Men onıñ evini kördim. 
+90	208	Qızbalanıñ dostunı men yahşı bilem. 
+90	209	Qırımnı aldılar. 
+90	210	Qızçıq bu çeçek üzdi.
+91	211	Men bunı bilem. 
+91	212	Mısırboğaynı aşadılar.
+91	213	Menim ağamnıñ közleri kok.
+91	215	Filcan tabanğa tüşti. 
+91	216	Suvğa tuz qoşmaq kerek.
+92	217	Ana balasına yardım etti.
+92	218	Işlemege isteyim.
+92	219	Menim dostum bu evde yaşay.
+93	220	Anamda musafir bar.
+93	221	Okupatsiyada oldıq.
+93	222	Bala evden saat beşte ketti.
+93	223	Bala divanda otura.
+93	224	Qırq dörtünci seneleri bizlerni qırımtatarlarnı Qırımdan çeşittürlü yerlerge köçürdiler.
+93	225	Ağam kimni pencereden kördi.
+94		Men bundan bezdim.
+94	227	O bala tünevin kitabını bu qızçıqqa berdi.
+94	228	O bala tünevin kitabını bir qızçıqqa berdi.
+94	229	O bala tünevin bir qızçıqqa alma berdi.
+94	230	O bala tünevin şu qızçıqqa alma berdi.
+95	231	Bala evden tez çıqtı.
+95	232	Gemi battı.
+95	233	Deñizci gemini batırdı.
+95	234	Deñizci kapitannıñ ricasına kore gemini battırdı.
+96	235	Bala suv içe.
+96	236	Ana balasına suv içirdi.
+96	237	Ana balasına suv içtirdi.
+96	238	Ana balasına suv içtirtdi.
+96	239	Ana balasına qızçıqqa oyuncağını berdirtti.
+97	240	Bu evni alelacele satacaqlar.
+97	241	Bu ev tezden satılacaq.
+97	242	Qapı yelden açıldı.
+97	243	Bu qapıdan kirilmez.
+97	244	Men köründim.
+98	245	Bala anasını taptı
+98	246	Ana-bala tapıştılar.
+98	247	Olar birbirinen aytıştılar.
+98	248	Gemi battı.
+98	249	O bala kitap oquy.
+98	250	Menim ağam qızçıqqa alma berdi.
+99	251	Men Yaltağa tünevin bardım.
+99	252	Menim dostum bu evde yaşay.
+99	253	Yaltağa bardı.
+99	253	Yaltağa bardım.
+99	254	Menim ocam qart adam.
+99	254	Menim ocam qart adamdır.
+99	255	Menim ocam qart adam edi.
+99	256	Menim ocam qart adam olacaq.
+100	257	Menim ağam er kün şeerde ola.
+100	258	Menim ocam semiz.
+100	258	Menim ocam semizdir.
+100	259	Menim ocam semiz edi soñ azdı.
+100	260	Bu adam belli olacaq.
+100	261	Bu evde üç dane oda bar.
+100	262	Terekte almalar bar edi.
+100	263	Terekte almalar yoq edi.
+101	264	Şimdi bizde musafir bar.
+101	265	Mende kitap bar.
+101	266	Bağçasarayda Remziyeniñ eki dostu bar.
+101	267	Menim kitabım bar.
+101	268	Onıñ ocası qart adammı?
+101	269	O bala kitap oquymı?
+102	270	Evde birev barmı?
+102	271	Evde kimse yoqmı?
+102	272	Ağam kimni pencereden kördi?
+102	273	Kim kimni pencereden kördi?
+102	274	Kim kimge yardım etti?
+102	275	Ağam bunı nerede yaptı?
+103	276	Kuneş çıqtı ve ava qızıp başladı.
+103	277	Mısırboğday cıyıp keldiler a bitası pişirip qoydı.
+103	278	O ayttı amma işni yapmadı.
+103	279	Bu mesele murekkep degil lakin çezilmele.
+103	280	Mafuze yırlay Remziye ise oynay.
+103	281	Ya yağmur yağar ya da biz yuvunmağa ketermiz.
+104	282	Ağam ka keler ka kelmez.
+104	283	Bazan men anda baram bazan bar barmayım.
+104	284	Oña aytmaq kerek yoqsa o kelmez.
+104	285	Men çoq aş aladcağım çünki oğlum kelecek.
+105	286	O kelecegini men bilem.
+105	287	Kelecegini men bilem.
+105	288	O kelmecegini men bilem.
+105	289	O kelecegini men bilmem.
+105	290	Men onıñ kelgenini isteyim.
+105	291	Yaltada sıcaq olğanını eşittim.
+105	292	Men onıñ kelgeninden qorqam.
+106	293	O Remziyeni körgenini ayttı.
+106	294	O remziyeni körgenini ayttımı?
+106	295	O kelecegini ayttı.
+106	296	O men kelirim dep ayttı.
+106	297	O Remziye Mafuzeni körgenini ayttı.
+107	298	Qızçıqnı körgen oğlançıq bu evde yaşay.
+107	299	Men alma aşağan qızçıqnı körem.
+107	300	O oturğan odada ava sıcaq edi.
+107	301	Men oğlançıq alma bergen qızçıqnı körem.
+107	302	Qızçıq körgen oğlançıq bu evde yaşay.
+108	305	Mektür yazır oturğan adam Qırımda yaşay.
+109	309	Oğlançıq körgen qızçıq ketken.
+109	310	Qoqlasını coyğan qızçıq kederlendi.
+109	311	Balaları ösken soñ olar kiçik evge köçtiler.
+109	312	Mektürni yazır bitirgenden berli o iç bir şey aytmadı.
+
+
