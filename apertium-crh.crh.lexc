@@ -273,7 +273,7 @@ soñ:soñ POST ; ! "after/после"
 LEXICON Pronouns 
 
 men:m PRON-PERS-MEN ; ! "я"
-sen:s PRON-PERS-MEN ; ! "ты"
+sen:s PRON-PERS-SEN ; ! "ты"
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
