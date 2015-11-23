@@ -1,5 +1,18 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
 /Makefile -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-crh.crh.lexc -text
+/apertium-crh.crh.rlx -text
 /apertium-crh.crh.twol -text
+/apertium-crh.pc.in -text
+/apertium-crh.post-crh.dix -text
+/autogen.sh -text
+/configure.ac -text
+/crh.prob -text svneol=unset#unset
 dev/countstems.sh -text
+/modes.xml -text

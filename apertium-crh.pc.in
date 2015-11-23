@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-crh
+srcdir=@datarootdir@/apertium/apertium-crh
+
+Name: apertium-crh
+Description: Finite-state morphological transducer and constraint grammar for Crimean Turkish 
+Version: @VERSION@
+
