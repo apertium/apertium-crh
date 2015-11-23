@@ -1,7 +1,23 @@
+46	84	Men bunı tünevin kördim.
+46	85	Men bundan qorqam.
+47	87	Men episini oqudım.
+47	89	Bu adamlar tek özlerini tüşüne.
+47	90	O sıq özbaşına laqırdı ete.
+47	91	O bu evni özüne satın aldı.
+48	94	Erkes bir şeyden qorqa.
+49	96	Men iç bir şey iç birine yazmadım.
+49	98	Bizimkinıñ boyu siziñkine köre alçaqtır.
+52	108	Bu kitap digerisinden balabancadır.
+52	109	Koyniñ eñ balaban evi yandı.
+52	110	Onıñ evi koyde eñ balabandır.
+52	111	O episinden tatlı pahlava pişire.
+58	122	Bu qadum menim tatamdan güzel yırlay.
+
 		Menim ağam bu evde yaşay.
 		Menim ağam er kün şeerde ola.
 		Menim ağam er kün şeerde olmay.
 		O mektepke keç qalıp kelir.
+
 66	142	Men mektüp yazsam dostlarım maña kelecek.
 66	144	Qırımğa keldik.
 67	146	Bir-eki şey bergenler.
@@ -152,5 +168,14 @@
 109	310	Qoqlasını coyğan qızçıq kederlendi.
 109	311	Balaları ösken soñ olar kiçik evge köçtiler.
 109	312	Mektürni yazır bitirgenden berli o iç bir şey aytmadı.
-
+109	313	Raatlanmazdan evel men içimni bitirmek keregim.
+110	314	Men kiçkene olğanımda bala bağçasına bara edim.
+110	315	Eger yorulğan olsañ yarın devam etermiz.
+110	316	Eger sen ertece tursa ediñ mektepke keç qalmaz ediñ.
+110	317	Eger bala aqşam keç yatsa o mektepke keç qalıp kelir.
+111	318	Ekimge evelden telefon açqan olsañ güzel olur.
+111	319	Ekimge evelden telefon açqan olsañ güzel olur edi.
+111	320	Eger Mafuze aş pişirse o tedaviylendi.
+111	321	Eger uçaq saat üçte uçsa biz aeroportta saat birde olmaq kerekmiz.
+112	322	Men oña bunı aytmadım.
 

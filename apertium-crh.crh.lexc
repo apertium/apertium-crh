@@ -204,9 +204,27 @@ LEXICON NUM
 %<num%>%<ord%>:%>%{I%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
+LEXICON PRON-REF-ADV 
+
+CASES-ETC ;
+
 LEXICON PRON-REF 
 
 %<prn%>%<ref%>: # ;
+%<prn%>%<ref%>%<px1sg%>:%>%{i%}m PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2sg%>:%>%{i%}ñ PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3sg%>:%>%{i%} PRON-REF-ADV ;
+%<prn%>%<ref%>%<px1pl%>:%>%{i%}m%{I%}z PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2pl%>:%>%{i%}ñ%{I%}z PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3pl%>:%>l%{A%}r%>%{i%} PRON-REF-ADV ;
+
+LEXICON PRON-DEM-BU
+
+%<prn%>%<dem%>%<nom%>: # ;
+%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<gen%>:nıñ # ;
+%<prn%>%<dem%>%<loc%>:nda # ;
+%<prn%>%<dem%>%<abl%>:ndan # ;
 
 LEXICON PRON-PERS-MEN 
 
@@ -263,6 +281,11 @@ LEXICON PRON-PERS-OLAR
 %<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:nı # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
+
+LEXICON DET-IND
+
+%<det%>%<ind%>: # ;
+
 
 LEXICON DET-DEM
 
@@ -345,6 +368,7 @@ LEXICON V-NONFINITE
 %<prc_cond%>:%>s%{A%} V-PERS-S2 ;
 
 %<ger%>:%>m%{A%}%{G%} FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
+%<ger_past%>:%>%{G%}%{A%}n FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_pres%>:%>%{y%}%{A%}r%{A%}%{G%} # ;
@@ -385,6 +409,15 @@ LEXICON ADV
 
 %<adv%>: # ;
 
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ; 
+
+LEXICON ADV-LANG
+
+ADV ;
+N1 ; 
+
 LEXICON POST
 
 %<post%>: # ;
@@ -419,6 +452,7 @@ sanki:sanki CS ; ! ""
 bile:bile CS ; ! ""
 tışta:tışta CS ; ! ""
 guya:guya CS ; ! ""
+eger:eger CS ; ! "если"
 
 LEXICON Postpositions
 
@@ -455,7 +489,7 @@ biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 olar:olar PRON-PERS-OLAR ; ! "они"
 
-!bu:bu PRON-DEM-BU ; ! ""
+bu:bu PRON-DEM-BU ; ! ""
 !şu:şu PRON-DEM-SU ; ! ""
 !o:o PRON-DEM-O ; ! ""
 
@@ -467,6 +501,8 @@ bu:bu DET-DEM ;
 şu:şu DET-DEM ;
 o:o DET-DEM ;
 er:er DET-DEM ;
+
+iç% bir:iç% bir DET-IND ; 
 
 LEXICON Numerals 
 
@@ -1100,7 +1136,12 @@ taban:taban N1 ; ! ""
 tuz:tuz N1 ; ! ""
 alma:alma N1 ; ! "яблоко"
 rica:rica N1 ; ! ""
-
+devam:devam N1 ; ! ""
+ekim:ekim N1 ; ! "врач"
+telefon:telefon N1 ; ! ""
+aeroport:aeroport N1 ; ! ""
+uçaq:uçaq N1 ; ! "самолёт"
+koy:koy N1 ; ! ""
 
 
 
@@ -1217,23 +1258,78 @@ mümkün:mümkün A2 ; ! "possible/возможно"
 kerek:kerek A2 ; ! "necessary/должно"
 
 razı:razı A1 ; ! ""
+balaban:balaban A1 ; ! ""
 yahşı:yahşı A1 ; ! ""
 dülber:dülber A1 ; ! ""
 kok:kok A1 ; ! ""
 tez:tez A1 ; ! ""
 qart:qart A1 ; ! ""
+yaramay:yaramay A1 ; ! ""
+yavaş:yavaş A1 ; ! ""
+güzel:güzel A1 ; ! ""
 sıcaq:sıcaq A1 ; ! ""
 
 LEXICON Adverbs
+
+!! Interrogative
+
+qayda:qayda ADV-ITG ; 
+qaydan:qaydan ADV-ITG ; 
+ne% yerde:ne% yerde ADV-ITG ; 
+nerede:nerede ADV-ITG ; 
+qayerde:qayerde ADV-ITG ;
+ne% vaqıt:ne% vaqıt ADV-ITG ; ! "когда"
+ne% zaman:ne% zaman ADV-ITG ; ! "когда"
+qaçan:qaçan ADV-ITG ; ! "когда"
+neday:neday ADV-ITG ;
+nasıl:nasıl ADV-ITG ;
+ne% içün:ne% içün ADV-ITG ;
+niçün:niçün ADV-ITG ;
+nege:nege ADV-ITG ;
+
 
 çoq:çoq ADV ; ! "много, очень"
 pek:pek ADV ; ! "очень"
 çoq%-çoq:çoq%-çoq ADV ; ! "много, очень"
 ebediy:ebediy ADV ; ! "eternally/вечно"
+az:az ADV ; ! "мало"
+biraz:biraz ADV ; ! ""
+
+!! Place 
+munda:munda ADV ; ! ""
+anda:anda ADV ; ! ""
+uzaqta:uzaqta ADV ; ! ""
+aşağta:aşağta ADV ; ! ""
+yuqarıda:yuqarıda ADV ; ! ""
+mundan:mundan ADV ; ! ""
+andan:andan ADV ; ! ""
+uzaqtan:uzaqtan ADV ; ! ""
+aşağtan:aşağtan ADV ; ! ""
+yuqarıdan:yuqarıdan ADV ; ! ""
+
+!! Time
+şimdi:şimdi ADV ; ! "now/сейчас"
+çoqtan:çoqtan ADV ; 
+baştan:baştan ADV ; ! ""
+evelden:evelden ADV ; ! ""
+tezden:tezden ADV ; ! ""
+
+!! Language
+
+arapça:arapça ADV-LANG ;
+rusça:rusça ADV-LANG ;
+hırvatça:hırvatça ADV-LANG ;
+qazahça:qazahça ADV-LANG ;
+belarusça:belarusça ADV-LANG ;
+
+
 
 tünevin:tünevin ADV ; ! "" ! NOTE: takes -ki
+yarın:yarın ADV ; ! ""
 
-şimdi:şimdi ADV ; ! "now/сейчас"
+tek:tek ADV ; ! ""
+eñ:eñ ADV ; ! ""
+
 meger:meger ADV ; ! "apparently"
 
 LEXICON Verbs 
@@ -1276,6 +1372,12 @@ bat:bat V-IV ; ! ""
 bar:bar V-IV ; ! ""
 ös:ös V-IV ; ! ""
 köç:köç V-IV ; ! ""
+et:et V-TV-AR ; ! ""
+aç:aç V-TV ; ! ""
+uç:uç V-IV ; ! ""
+qorq:qorq V-TV ; ! ""
+tüşün:tüşün V-TV ; ! ""
+yan:yan V-IV ; ! ""
 
 
 
