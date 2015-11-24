@@ -6,6 +6,7 @@ Alphabet
  %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
  %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü
  %{A%}:a %{A%}:e
+ %{C%}:c %{C%}:ç
  %{D%}:t %{D%}:d 
  %{G%}:g %{G%}:q %{G%}:ğ %{G%}:k
  %{E%}:a %{E%}:e %{E%}:y
@@ -48,7 +49,12 @@ Cx:Cy <=>  Vow _ %>: %{s%}:0 :Vow ;
 ! t a p >:0 {i}:ı p
 
 "Deletion of dative {G} after px1sg, px2sg"
-%{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
+%{G%}:0 <=>  [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
+             %{G%}: %>:0 _ ;
+
+! ö z b a ş >:0 {i}:ı {n}:n >:0 {G}:0 {A}:a
+
+! y a p >:0 m {A}:a {G}:ğ >:0 {G}:0 {A}:a
 
 "Epenthesis in some stems"
 %{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;

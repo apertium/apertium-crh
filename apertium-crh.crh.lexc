@@ -58,6 +58,10 @@ Multichar_Symbols
 %<subst%>         ! Substantive                 !
 
 %<pers%>          ! Personal                    !
+%<dem%>
+%<ref%>
+%<itg%>
+%<ind%>
 
 %<top%>           ! Toponym
 
@@ -75,6 +79,7 @@ Multichar_Symbols
 %{D%}             !                             
 %{A%}             !
 %{E%}
+%{C%}             !
 %{I%}             !
 %{i%}             !
 %{l%}             !
@@ -249,6 +254,11 @@ LEXICON A3
 %<adj%>: CLITICS-INCL-COP ; 
 %<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
+LEXICON A4 
+
+%<adj%>: CLITICS-INCL-COP ; 
+%<adj%>%<comp%>:%>%{C%}%{A%} CLITICS-INCL-COP ; 
+
 LEXICON NUM 
 
 %<num%>: # ;
@@ -275,7 +285,7 @@ LEXICON PRON-REF
 %<prn%>%<ref%>: # ;
 %<prn%>%<ref%>%<px1sg%>:%>%{i%}m PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2sg%>:%>%{i%}ñ PRON-REF-ADV ;
-%<prn%>%<ref%>%<px3sg%>:%>%{i%} PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3sg%>:%>%{i%}%{n%} PRON-REF-ADV ;
 %<prn%>%<ref%>%<px1pl%>:%>%{i%}m%{I%}z PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2pl%>:%>%{i%}ñ%{I%}z PRON-REF-ADV ;
 %<prn%>%<ref%>%<px3pl%>:%>l%{A%}r%>%{i%} PRON-REF-ADV ;
@@ -326,6 +336,7 @@ LEXICON PRON-PERS-MEN
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enim # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:enimk%{i%}%{n%} CASES ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:aña # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ; 
@@ -335,6 +346,7 @@ LEXICON PRON-PERS-SEN
 
 %<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:en # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:eniñ # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>%<subst%>:eniñk%{i%}%{n%} CASES ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:aña # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:eni # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ende # ; 
@@ -354,6 +366,7 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ge # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
@@ -364,6 +377,7 @@ LEXICON PRON-PERS-SIZ
 
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:iñ # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:iñk%{i%}%{n%} CASES ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ge # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
@@ -439,6 +453,8 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{E%} V-PERS-AOR ;
 %<fut2%>:%>%{E%}c%{A%}%{G%} V-PERS-S1 ;
 
+%<oblig%>:%>m%{A%}l%{I%} V-PERS-S1 ;
+
 %<imp%>%<p2%>%<sg%>: CLITICS-AFTER-IMP ;
 %<imp%>%<p2%>%<pl%>:%>%{I%}ñ%{I%}z CLITICS-AFTER-IMP ;
 
@@ -448,6 +464,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<imp%>%<p3%>%<pl%>:%>s%{I%}nl%{A%}r # ;
 
 %<opt%>:%>%{G%}%{A%}y V-PERS-S2 ; 
+%<opt%>:%>%{G%}%{A%}y%{D%}%{I%} V-PERS-S2 ;  ! Dir/LR
 
 LEXICON V-FUT-COMMON
 
@@ -548,6 +565,11 @@ LEXICON POST
 
 %<post%>: # ;
 
+LEXICON CA
+
+%<cnjadv%>: # ;
+
+
 LEXICON CS
 
 %<cnjsub%>: # ;
@@ -587,6 +609,7 @@ em:em CC ; ! ""
 em% de:em% de CC ; ! ""
 ya:ya CC ; ! ""
 ya% da:ya% da CC ; ! ""
+ka:ka CC ; ! ""
 
 ki:ki CS ; ! ""
 çünki:çünki CS ; ! ""
@@ -595,6 +618,8 @@ bile:bile CS ; ! ""
 tışta:tışta CS ; ! ""
 guya:guya CS ; ! ""
 eger:eger CS ; ! "если"
+
+yoqsa:yoqsa CA ; ! ""
 
 LEXICON Postpositions
 
@@ -636,11 +661,17 @@ bu:bu PRON-DEM-BU ; ! ""
 o:o PRON-DEM-O ; ! ""
 
 öz:öz PRON-REF ; ! ""
+özbaş:özbaş PRON-REF ; ! ""
 kendi:kendi PRON-REF ; ! ""
 
 ep:ep PRON-IND-EP ; ! ""
 bütün:bütün PRON-IND-BUTUN ; ! ""
 cümle:cümle PRON-IND-BUTUN ; ! ""
+erkes:erkes PRON-IND ; ! "все люди"
+
+!! FIXME: Check these
+diger:diger PRON-IND ; ! ""
+diger:digeri PRON-IND ; ! "" ! Dir/LR 
 
 iç% bir% şey:iç% bir% şey PRON-IND ; ! ""
 
@@ -1339,6 +1370,7 @@ köy:köy N1 ; ! "дерево"
 kere:kere N1 ; ! "раз"
 raket:raket N1 ; ! "ракета"
 
+pahlava:pahlava N1 ; ! "баклава"
 qasaba:qasaba N1 ; ! ""
 neşir:neşir N1 ; ! ""
 
@@ -1391,6 +1423,7 @@ mobilizatsiya:mobilizatsiya N1 ; ! ""
 notatsiya:notatsiya N1 ; ! ""
 obligatsiya:obligatsiya N1 ; ! ""
 okkupatsiya:okkupatsiya N1 ; ! ""
+okupatsiya:okupatsiya N1 ; ! ""
 operatsiya:operatsiya N1 ; ! ""
 radiatsiya:radiatsiya N1 ; ! ""
 reabilitatsiya:reabilitatsiya N1 ; ! ""
@@ -1902,6 +1935,14 @@ saatçı:saatçı N1 ; ! ""
 knâz:knâz N5 ; ! ""
 han:han N1 ; ! ""
 paytaht:paytaht N1 ; ! ""
+laqırdı:laqırdı N1 ; ! ""
+tata:tata N1 ; ! "сестра"
+bita:bita N1 ; ! ""
+yaşik:yaşik N5 ; ! "ящик"
+qarandaş:qarandaş N5 ; ! "карандаш"
+qayıq:qayıq N1 ; ! ""
+mısırboğday:mısırboğday N1 ; ! ""
+divan:divan N1 ; ! ""
 
 burun:bur%{y%}n N1 ; ! ""
 boyun:boy%{y%}n N1 ; ! ""
@@ -3161,6 +3202,8 @@ bar:bar A2 ; ! "есть"
 
 mümkün:mümkün A2 ; ! "possible/возможно"
 kerek:kerek A2 ; ! "necessary/должно"
+borçlu:borçlu A2 ; ! ""
+lâzim:lâzim A2 ; ! "нужен"
 
 ak:ak A1 ; ! ""
 resmiy:resmiy A1 ; ! ""
@@ -3168,7 +3211,7 @@ belli:belli A1 ; ! ""
 milliy:milliy A1 ; ! ""
 büyük:büyük A3 ; ! ""
 razı:razı A1 ; ! ""
-balaban:balaban A1 ; ! ""
+balaban:balaban A4 ; ! ""
 yahşı:yahşı A3 ; ! ""
 dülber:dülber A1 ; ! ""
 kok:kok A1 ; ! ""
@@ -3529,7 +3572,6 @@ köçüci:köçüci A1 ; ! "передвижной, перелетный"
 körümli:körümli A1 ; ! "видный, заметный"
 külkünçli:külkünçli A1 ; ! "комический, смешной, чудной"
 kütleviy:kütleviy A1 ; ! "массовый"
-lâzim:lâzim A1 ; ! "нужен"
 leh:leh A1 ; ! "чешский"
 lekeli:lekeli A1 ; ! "крапленый, пятнистый"
 maalliy:maalliy A1 ; ! "локальный"
@@ -3688,6 +3730,9 @@ garbiy:garbiy A1 ; ! ""
 şimaliy:şimaliy A1 ; ! "северный"
 cenübiy:cenübiy A1 ; ! "южный"
 
+semiz:semiz A1 ; ! "тольстый"
+az:az A1 ; ! "длинный"
+
 LEXICON Adverbs
 
 !! Interrogative
@@ -3728,6 +3773,7 @@ yuqarıdan:yuqarıdan ADV ; ! ""
 
 !! Time
 şimdi:şimdi ADV ; ! "now/сейчас"
+bazan:bazan ADV ; ! "sometimes/иногда"
 çoqtan:çoqtan ADV ; 
 baştan:baştan ADV ; ! ""
 evelden:evelden ADV ; ! ""
@@ -3761,6 +3807,8 @@ tek:tek ADV ; ! ""
 eñ:eñ ADV ; ! ""
 
 meger:meger ADV ; ! "apparently"
+çeşittürlü:çeşittürlü ADV ; ! ""
+alelacele:alelacele ADV ; ! ""
 beraber:beraber ADV ; ! "вместе"
 
 LEXICON Verbs 
@@ -3774,10 +3822,10 @@ yaşa:yaşa V-IV ; ! "live/жить"
 otur:otur V-IV ; ! "sit/"
 kör:kör V-TV ; ! "see/видеть"
 al:al V-TV ; ! "take"
-ket:ket V-IV ; ! "go/идти"
+ket:ket V-IV-AR ; ! "go/идти"
 sev:sev V-TV-AR ; ! "love/любить"
 qal:qal V-IV-AR ; ! "stay/стоить"
-kel:kel V-IV ; ! "come/прийти"
+kel:kel V-IV-AR ; ! "come/прийти"
 yap:yap V-TV-AR ; ! "do/делать"
 yapıl:yapıl V-TV-AR ; ! "be done/" ! Der/Pass
 tüş:tüş V-IV ; ! "fall"
@@ -3898,6 +3946,25 @@ yuv:yuv V-TV ; ! "wash/мыть"
 sora:sora V-TV ; ! "ask/спросить"
 ele:ele V-TV ; ! "sift"
 bulun:bulun V-IV ; ! ""
+piş:piş V-TV ; ! ""
+pişir:pişir V-TV ; ! ""
+yuqla:yuqla V-IV ; ! "sleep/спать"
+köçür:köçür V-TV ; ! ""
+batır:batır V-TV ; ! "" ! Der/Caus
+battır:battır V-TV ; ! "" ! Der/Caus
+iç:iç V-TV ; ! "drink/"
+içir:içir V-TV ; ! "" ! Der/Caus
+içtir:içtir V-TV ; ! "" ! Der/Caus
+içtirt:içtirt V-TV ; ! "" ! Der/Caus ! Der/Caus
+
+sat:sat V-TV ; ! "sell/"
+satıl:satıl V-TV ; ! "sell/" ! Der/Pass
+qız:qız V-IV ; ! ""
+çezil:çezil V-IV ; ! "" ! Der/Pass
+yağ:yağ V-IV-AR ; ! "rain"
+coy:coy V-TV ; ! ""
+kederlen:kederlen V-IV ; ! ""
+yorul:yorul V-IV ; ! "" ! Der/Pass
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""

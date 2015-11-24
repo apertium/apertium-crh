@@ -9,10 +9,10 @@
 49	96	Men iç bir şey iç birine yazmadım.
 49	98	Bizimkinıñ boyu siziñkine köre alçaqtır.
 52	108	Bu kitap digerisinden balabancadır.
-52	109	Koyniñ eñ balaban evi yandı.
+52	109	Köyniñ eñ balaban evi yandı.
 52	110	Onıñ evi köyde eñ balabandır.
 52	111	O episinden tatlı pahlava pişire.
-58	122	Bu qadum menim tatamdan güzel yırlay.
+58	122	Bu qadın menim tatamdan güzel yırlay.
 
 		Menim ağam bu evde yaşay.
 		Menim ağam er kün şeerde ola.
@@ -35,7 +35,7 @@
 71	160	Men bu işni yapmağa mecburım.
 72	161	Bala oqumağa borçlu.
 72	162	Bala oqumaq kerek.
-72	163	Bu kitapnı oqumaq lazim.
+72	163	Bu kitapnı oqumaq lâzim.
 75		Işlemek kerek.
 75		Men işlemege isteyim.
 75		Yazmağa bilem.
@@ -137,16 +137,16 @@
 102	273	Kim kimni pencereden kördi?
 102	274	Kim kimge yardım etti?
 102	275	Ağam bunı nerede yaptı?
-103	276	Kuneş çıqtı ve ava qızıp başladı.
+103	276	Küneş çıqtı ve ava qızıp başladı.
 103	277	Mısırboğday cıyıp keldiler a bitası pişirip qoydı.
 103	278	O ayttı amma işni yapmadı.
-103	279	Bu mesele murekkep degil lakin çezilmele.
+103	279	Bu mesele mürekkep degil lakin çezilmeli.
 103	280	Mafuze yırlay Remziye ise oynay.
 103	281	Ya yağmur yağar ya da biz yuvunmağa ketermiz.
 104	282	Ağam ka keler ka kelmez.
 104	283	Bazan men anda baram bazan bar barmayım.
 104	284	Oña aytmaq kerek yoqsa o kelmez.
-104	285	Men çoq aş aladcağım çünki oğlum kelecek.
+104	285	Men çoq aş alacağım çünki oğlum kelecek.
 105	286	O kelecegini men bilem.
 105	287	Kelecegini men bilem.
 105	288	O kelmecegini men bilem.
@@ -155,7 +155,7 @@
 105	291	Yaltada sıcaq olğanını eşittim.
 105	292	Men onıñ kelgeninden qorqam.
 106	293	O Remziyeni körgenini ayttı.
-106	294	O remziyeni körgenini ayttımı?
+106	294	O Remziyeni körgenini ayttımı?
 106	295	O kelecegini ayttı.
 106	296	O men kelirim dep ayttı.
 106	297	O Remziye Mafuzeni körgenini ayttı.
