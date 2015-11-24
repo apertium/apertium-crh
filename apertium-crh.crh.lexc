@@ -80,6 +80,7 @@ Multichar_Symbols
 %{n%}             !
  
 %>                !
+%+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -107,7 +108,7 @@ LEXICON CLIT-QST-MI
 
 LEXICON CLIT-COP
 
-%+e%<cop%>%<aor%>: V-PERS-S1 ; 
+%+e%<cop%>%<aor%>: V-PERS-S1-COP ; 
 
 LEXICON CLITICS-NO-COP 
 
@@ -188,7 +189,9 @@ LEXICON NP-ANT-F
 
 %<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
+LEXICON NP-COG-MF 
 
+%<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON A1
 
@@ -320,6 +323,12 @@ LEXICON DET-DEM
 
 %<det%>%<dem%>: # ;
 
+LEXICON V-PERS-S1-COP
+
+%<p3%>%<sg%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
+%<p3%>%<pl%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
+V-PERS-S1 ;
+
 LEXICON V-PERS-S1 
 
 %<p1%>%<sg%>:%>%{I%}m CLITICS-NO-COP ; 
@@ -391,7 +400,7 @@ V-FUT-COMMON ;
 
 LEXICON V-NONFINITE
 
-%<prc_perf%>:%>%{I%}p # ;
+%<prc_perf%>:%>%{i%}p # ;
 %<prc_impf%>:%>%{E%} # ;
 
 %<prc_cond%>:%>s%{A%} V-PERS-S2 ;
@@ -543,6 +552,7 @@ ep:ep DET-IND ;
 iç% bir:iç% bir DET-IND ; 
 bütün:bütün DET-IND ; 
 cümle:cümle DET-IND ; 
+diger:diger DET-IND ; ! ""
 
 
 LEXICON Numerals 
@@ -1194,6 +1204,21 @@ köy:köy N1 ; ! "дерево"
 kere:kere N1 ; ! "раз"
 raket:raket N1 ; ! "ракета"
 
+qasaba:qasaba N1 ; ! ""
+neşir:neşir N1 ; ! ""
+
+yanvar:yanvar N1 ; ! ""
+fevral:fevral N1 ; ! ""
+mart:mart N1 ; ! ""
+aprel:aprel N1 ; ! ""
+iyün:iyün  N1 ; ! ""
+temmuz:temmuz N1 ; ! ""
+iyül:iyül N1 ; ! ""
+sentâbr:sentâbr  N1 ; ! ""
+oktâbr:oktâbr N1 ; ! ""
+qasım:qasım  N1 ; ! ""
+noyabr:noyabr N1 ; ! ""
+dekabr:dekabr N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -1213,8 +1238,10 @@ Estoniya:Estoniya NP-TOP ; ! ""
 Finlandiya:Finlandiya NP-TOP ; ! ""
 Çuvaşiya:Çuvaşiya NP-TOP ; ! ""
 Qırım:Qırım NP-TOP ; ! ""
+Qırım:Kırım NP-TOP ; ! "" ! Dir/LR ! Err/Orth
 Strasburg:Strasburg NP-TOP ; ! ""
 Ukraina:Ukraina NP-TOP ; ! ""
+Lugansk:Lugansk NP-TOP ; ! ""
 Özbekistan:Özbekistan NP-TOP ; ! ""
 Bulğaristan:Bulğaristan NP-TOP ; ! ""
 Nigeriya:Nigeriya NP-TOP ; ! ""
@@ -2119,6 +2146,9 @@ Lenara:Lenara NP-ANT-F ; ! ""
 Remziye:Remziye NP-ANT-F ; ! ""
 Mafuze:Mafuze NP-ANT-F ; ! ""
 
+Geray:Geray NP-COG-MF ; ! ""
+
+
 LEXICON Adjectives 
 
 yoq:yoq A2 ; ! "нет"
@@ -2485,6 +2515,7 @@ bar:bar V-IV ; ! ""
 ös:ös V-IV ; ! ""
 köç:köç V-IV ; ! ""
 et:et V-TV-AR ; ! ""
+etil:etil V-IV ; ! "" ! Der/Pass
 aç:aç V-TV ; ! ""
 uç:uç V-IV ; ! ""
 qorq:qorq V-TV ; ! ""
