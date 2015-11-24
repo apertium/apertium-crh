@@ -97,6 +97,7 @@ Adjectives ;
 Adverbs ; 
 Verbs ;
 Punctuation ;
+!Temp ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -201,7 +202,7 @@ LEXICON NUM
 
 %<num%>: # ;
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
-%<num%>%<ord%>:%>%{I%}nc%{I%} # ;
+%<num%>%<ord%>:%>%{i%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
 LEXICON NUM-ORD
@@ -235,6 +236,24 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<gen%>:nıñ # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
+
+LEXICON PRON-DEM-SU
+
+%<prn%>%<dem%>%<nom%>: # ;
+%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<gen%>:nıñ # ;
+%<prn%>%<dem%>%<loc%>:nda # ;
+%<prn%>%<dem%>%<abl%>:ndan # ;
+
+LEXICON PRON-DEM-O
+
+%<prn%>%<dem%>%<nom%>: # ;
+%<prn%>%<dem%>%<gen%>:nıñ # ;
+%<prn%>%<dem%>%<dat%>:ña # ;
+%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<loc%>:nda # ;
+%<prn%>%<dem%>%<abl%>:ndan # ;
+
 
 LEXICON PRON-PERS-MEN 
 
@@ -415,6 +434,12 @@ LEXICON V-TV-AR
 %<v%>%<tv%>: V-COMMON ; 
 %<v%>%<tv%>: V-FUT-AR ; 
 
+!LEXICON V-TD-XR
+!
+!%<v%>%<TD%>: V-COMMON ; 
+!%<v%>%<TD%>: V-FUT-AR ; 
+!%<v%>%<TD%>: V-FUT-IR ; 
+
 LEXICON ADV 
 
 %<adv%>: # ;
@@ -500,8 +525,8 @@ siz:siz PRON-PERS-SIZ ; ! "вы"
 olar:olar PRON-PERS-OLAR ; ! "они"
 
 bu:bu PRON-DEM-BU ; ! ""
-!şu:şu PRON-DEM-SU ; ! ""
-!o:o PRON-DEM-O ; ! ""
+şu:şu PRON-DEM-SU ; ! ""
+o:o PRON-DEM-O ; ! ""
 
 öz:öz PRON-REF ; ! ""
 
@@ -512,10 +537,13 @@ LEXICON Determiners
 bu:bu DET-DEM ;
 şu:şu DET-DEM ;
 o:o DET-DEM ;
-er:er DET-DEM ;
 
+er:er DET-IND ; ! FIXME: Check
+ep:ep DET-IND ; 
 iç% bir:iç% bir DET-IND ; 
 bütün:bütün DET-IND ; 
+cümle:cümle DET-IND ; 
+
 
 LEXICON Numerals 
 
@@ -560,6 +588,8 @@ orta:orta N1 ; ! ""
 tışarı:tışarı N1 ; ! ""
 qarşı:qarşı N1 ; ! ""
 aqq:aqq N1 ; ! ""
+
+!!
 
 krovat:krovat N1 ; ! "кроват"
 til:til N1 ; ! "язык"
@@ -1162,6 +1192,7 @@ vilâyet:vilâyet N1 ; ! ""
 sayı:sayı N1 ; ! "число"
 köy:köy N1 ; ! "дерево"
 kere:kere N1 ; ! "раз"
+raket:raket N1 ; ! "ракета"
 
 
 LEXICON ProperNouns 
@@ -1249,6 +1280,7 @@ Ankara:Ankara NP-TOP ; ! ""
 Donetsk:Donetsk NP-TOP ; ! ""
 Paris:Paris NP-TOP ; ! ""
 İzmir:İzmir NP-TOP ; ! ""
+İtaliya:İtaliya NP-TOP ; ! ""
 Qazan:Qazan NP-TOP ; ! ""
 Taşkent:Taşkent NP-TOP ; ! ""
 Harkov:Harkov NP-TOP ; ! ""
@@ -2112,6 +2144,241 @@ güzel:güzel A1 ; ! ""
 yaqın:yaqın A1 ; ! ""
 sıcaq:sıcaq A1 ; ! ""
 
+abortiv:abortiv A1 ; ! ""
+abraziv:abraziv A1 ; ! ""
+absolüt:absolüt A1 ; ! ""
+acayip:acayip A1 ; ! ""
+accı:accı A1 ; ! ""
+aççı:aççı A1 ; ! ""
+aciz:aciz A1 ; ! ""
+ağlavuq:ağlavuq A1 ; ! ""
+agrar:agrar A1 ; ! ""
+ahlâqsız:ahlâqsız A1 ; ! ""
+akis:akis A1 ; ! ""
+allegim:allegim A1 ; ! ""
+analıq:analıq A1 ; ! ""
+aq:aq A1 ; ! ""
+arnavut:arnavut A1 ; ! ""
+arsız:arsız A1 ; ! ""
+aruv:aruv A1 ; ! ""
+aşpit:aşpit A1 ; ! ""
+avantüristik:avantüristik A1 ; ! ""
+avlaq:avlaq A1 ; ! ""
+avtomatik:avtomatik A1 ; ! ""
+avur:avur A1 ; ! ""
+aylıq:aylıq A1 ; ! ""
+azaqay:azaqay A1 ; ! ""
+azçıq:azçıq A1 ; ! ""
+azğana:azğana A1 ; ! ""
+bay:bay A1 ; ! ""
+bayğuş:bayğuş A1 ; ! ""
+beyaz:beyaz A1 ; ! ""
+birtalay:birtalay A1 ; ! ""
+bitaraf:bitaraf A1 ; ! ""
+bulğar:bulğar A1 ; ! ""
+calanğaş:calanğaş A1 ; ! ""
+calbaş:calbaş A1 ; ! ""
+çalbaş:çalbaş A1 ; ! ""
+calpaq:calpaq A1 ; ! ""
+cañı:cañı A1 ; ! ""
+capıldaq:capıldaq A1 ; ! ""
+caravsız:caravsız A1 ; ! ""
+carıq:carıq A1 ; ! ""
+cartı:cartı A1 ; ! ""
+caş:caş A1 ; ! ""
+cayav:cayav A1 ; ! ""
+cayraq:cayraq A1 ; ! ""
+çeber:çeber A1 ; ! ""
+cengil:cengil A1 ; ! ""
+çıdamsız:çıdamsız A1 ; ! ""
+cılavuq:cılavuq A1 ; ! ""
+cıllı:cıllı A1 ; ! ""
+çılqa:çılqa A1 ; ! ""
+cıltıravuq:cıltıravuq A1 ; ! ""
+cımşaq:cımşaq A1 ; ! ""
+cınasır:cınasır A1 ; ! ""
+çıpalaq:çıpalaq A1 ; ! ""
+çıplaq:çıplaq A1 ; ! ""
+çontuq:çontuq A1 ; ! ""
+cuqa:cuqa A1 ; ! ""
+cuvaş:cuvaş A1 ; ! ""
+dımlı:dımlı A1 ; ! ""
+dörtkül:dörtkül A1 ; ! ""
+edebiy:edebiy A1 ; ! ""
+elektrik:elektrik A1 ; ! ""
+embrional:embrional A1 ; ! ""
+endokrin:endokrin A1 ; ! ""
+energetik:energetik A1 ; ! ""
+entsiklopedik:entsiklopedik A1 ; ! ""
+erek:erek A1 ; ! ""
+erinçek:erinçek A1 ; ! ""
+erinşek:erinşek A1 ; ! ""
+erke:erke A1 ; ! ""
+erte:erte A1 ; ! ""
+ertece:ertece A1 ; ! ""
+eserli:eserli A1 ; ! ""
+estetik:estetik A1 ; ! ""
+evolütsion:evolütsion A1 ; ! ""
+federativ:federativ A1 ; ! ""
+fenomenal:fenomenal A1 ; ! ""
+ferah:ferah A1 ; ! ""
+figuralı:figuralı A1 ; ! ""
+filtrlev:filtrlev A1 ; ! ""
+fin:fin A1 ; ! ""
+final:final A1 ; ! ""
+fiziologik:fiziologik A1 ; ! ""
+folklor:folklor A1 ; ! ""
+fonetik:fonetik A1 ; ! ""
+formal:formal A1 ; ! ""
+fransız:fransız A1 ; ! ""
+frazeologik:frazeologik A1 ; ! ""
+frenk:frenk A1 ; ! ""
+frontal:frontal A1 ; ! ""
+fuqare:fuqare A1 ; ! ""
+halqara:halqara A1 ; ! ""
+hucur:hucur A1 ; ! ""
+icviy:icviy A1 ; ! ""
+ilez:ilez A1 ; ! ""
+ince:ince A1 ; ! ""
+ingliz:ingliz A1 ; ! ""
+ırcanke:ırcanke A1 ; ! ""
+issi:issi A1 ; ! ""
+ıştan:ıştan A1 ; ! ""
+iyik:iyik A1 ; ! ""
+kapital:kapital A1 ; ! ""
+kapitalistik:kapitalistik A1 ; ! ""
+keç:keç A1 ; ! ""
+kence:kence A1 ; ! ""
+keniş:keniş A1 ; ! ""
+keş:keş A1 ; ! ""
+kiçik:kiçik A1 ; ! ""
+kiçkene:kiçkene A1 ; ! ""
+kişkene:kişkene A1 ; ! ""
+klassik:klassik A1 ; ! ""
+kodifikatsion:kodifikatsion A1 ; ! ""
+kommunal:kommunal A1 ; ! ""
+kommunist:kommunist A1 ; ! ""
+kommunistik:kommunistik A1 ; ! ""
+kompleks:kompleks A1 ; ! ""
+konkret:konkret A1 ; ! ""
+konspirativ:konspirativ A1 ; ! ""
+konsul:konsul A1 ; ! ""
+kontakt:kontakt A1 ; ! ""
+kontinental:kontinental A1 ; ! ""
+kooperativ:kooperativ A1 ; ! ""
+küçlü:küçlü A1 ; ! ""
+kulminatsion:kulminatsion A1 ; ! ""
+kvadrat:kvadrat A1 ; ! ""
+lirik:lirik A1 ; ! ""
+magistral:magistral A1 ; ! ""
+maksimal:maksimal A1 ; ! ""
+matematik:matematik A1 ; ! ""
+materialistik:materialistik A1 ; ! ""
+matüv:matüv A1 ; ! ""
+mazalı:mazalı A1 ; ! ""
+mazallı:mazallı A1 ; ! ""
+memorial:memorial A1 ; ! ""
+memuriy:memuriy A1 ; ! ""
+meteorologik:meteorologik A1 ; ! ""
+metrik:metrik A1 ; ! ""
+mineral:mineral A1 ; ! ""
+minimal:minimal A1 ; ! ""
+minsiz:minsiz A1 ; ! ""
+mıqıy:mıqıy A1 ; ! ""
+mücerret:mücerret A1 ; ! ""
+muhtar:muhtar A1 ; ! ""
+nufuzlı:nufuzlı A1 ; ! ""
+oñ:oñ A1 ; ! ""
+osal:osal A1 ; ! ""
+paalı:paalı A1 ; ! ""
+puqare:puqare A1 ; ! ""
+qaarli:qaarli A1 ; ! ""
+qalp:qalp A1 ; ! ""
+qanlı:qanlı A1 ; ! ""
+qaranğı:qaranğı A1 ; ! ""
+qattı:qattı A1 ; ! ""
+qaviy:qaviy A1 ; ! ""
+qaysı:qaysı A1 ; ! ""
+qısqa:qısqa A1 ; ! ""
+qıyın:qıyın A1 ; ! ""
+qıyış:qıyış A1 ; ! ""
+qopuq:qopuq A1 ; ! ""
+qucur:qucur A1 ; ! ""
+qudretli:qudretli A1 ; ! ""
+quvetli:quvetli A1 ; ! ""
+raat:raat A1 ; ! ""
+radikal:radikal A1 ; ! ""
+rafinirlev:rafinirlev A1 ; ! ""
+reaktiv:reaktiv A1 ; ! ""
+real:real A1 ; ! ""
+reformator:reformator A1 ; ! ""
+regional:regional A1 ; ! ""
+rekreatsion:rekreatsion A1 ; ! ""
+rentabel:rentabel A1 ; ! ""
+riyaziy:riyaziy A1 ; ! ""
+salqın:salqın A1 ; ! ""
+şamatalı:şamatalı A1 ; ! ""
+sanitar:sanitar A1 ; ! ""
+saqav:saqav A1 ; ! ""
+sasıq:sasıq A1 ; ! ""
+şeber:şeber A1 ; ! ""
+senelik:senelik A1 ; ! ""
+şeñ:şeñ A1 ; ! ""
+sersem:sersem A1 ; ! ""
+sevgili:sevgili A1 ; ! ""
+sıfır:sıfır A1 ; ! ""
+sılaq:sılaq A1 ; ! ""
+sıq:sıq A1 ; ! ""
+sıylı:sıylı A1 ; ! ""
+sol:sol A1 ; ! ""
+solaqay:solaqay A1 ; ! ""
+şontuq:şontuq A1 ; ! ""
+soqur:soqur A1 ; ! ""
+sovet:sovet A1 ; ! ""
+şuraviy:şuraviy A1 ; ! ""
+sütlü:sütlü A1 ; ! ""
+suvuq:suvuq A1 ; ! ""
+süygili:süygili A1 ; ! ""
+tam:tam A1 ; ! ""
+taqta:taqta A1 ; ! ""
+tarafsız:tarafsız A1 ; ! ""
+tartınğaş:tartınğaş A1 ; ! ""
+taşlı:taşlı A1 ; ! ""
+taze:taze A1 ; ! ""
+tegiz:tegiz A1 ; ! ""
+temelli:temelli A1 ; ! ""
+tenbel:tenbel A1 ; ! ""
+teran:teran A1 ; ! ""
+tilsiz:tilsiz A1 ; ! ""
+tişli:tişli A1 ; ! ""
+tolu:tolu A1 ; ! ""
+ufaq:ufaq A1 ; ! ""
+ufaq%-tüfek:ufaq%-tüfek A1 ; ! ""
+ülken:ülken A1 ; ! ""
+üşinci:üşinci A1 ; ! ""
+utançaq:utançaq A1 ; ! ""
+vaq:vaq A1 ; ! ""
+vaq%-tüyek:vaq%-tüyek A1 ; ! ""
+vertikal:vertikal A1 ; ! ""
+vira:vira A1 ; ! ""
+vızlı:vızlı A1 ; ! ""
+yalpaq:yalpaq A1 ; ! ""
+yañı:yañı A1 ; ! ""
+yañlış:yañlış A1 ; ! ""
+yaramaz:yaramaz A1 ; ! ""
+yarıq:yarıq A1 ; ! ""
+yaş:yaş A1 ; ! ""
+yavuz:yavuz A1 ; ! ""
+yengil:yengil A1 ; ! ""
+yıllıq:yıllıq A1 ; ! ""
+yıltıravuq:yıltıravuq A1 ; ! ""
+yımşaq:yımşaq A1 ; ! ""
+yosma:yosma A1 ; ! ""
+yuvaş:yuvaş A1 ; ! ""
+zappar:zappar A1 ; ! ""
+ziyade:ziyade A1 ; ! ""
+zor:zor A1 ; ! ""
+
 LEXICON Adverbs
 
 !! Interrogative
@@ -2180,8 +2447,10 @@ beraber:beraber ADV ; ! "вместе"
 LEXICON Verbs 
 
 bitir:bitir V-TV ; ! ""                        ! AUX
+tur:tur V-IV ; ! ""
 
 ol:ol V-IV ; ! "be/быть"
+ol:bol V-IV ; ! "be/быть" ! Dial/North ! Dir/LR
 yaşa:yaşa V-IV ; ! "live/жить"
 otur:otur V-IV ; ! "sit/"
 kör:kör V-TV ; ! "see/видеть"
@@ -2207,9 +2476,7 @@ yaz:yaz V-TV ; ! "write/писать"
 yırla:yırla V-TV ; ! ""
 oyna:oyna V-TV ; ! ""
 çıq:çıq V-IV ; ! ""
-baq:baq V-TV ; ! ""
-aylan:aylan V-IV ; ! ""
-tur:tur V-IV ; ! ""
+baq:baq V-TV ; ! "look at/смотреть"
 bas:bas V-TV ; ! ""
 rastkel:rastkel V-IV ;
 üz:üz V-TV ; ! ""
@@ -2224,8 +2491,88 @@ qorq:qorq V-TV ; ! ""
 tüşün:tüşün V-TV ; ! ""
 yan:yan V-IV ; ! ""
 
+ağır:ağır V-IV ; ! "become ill"
+ağla:ağla V-IV ; ! "cry"
+aşa:aşa V-TV ; ! "eat/кушать"
+aşıq:aşıq V-IV ; ! "hurry"
+aşı:aşı V-TV ; ! ""
+avuştır:avuştır V-TV ; ! ""
+ayda:ayda V-TV ; ! "drive"
+aylan:aylan V-IV ; ! "turn"
 
-
+çal:çal V-TV ; ! "play"
+can:can V-IV ; ! "burn"
+cav:cav V-IV ; ! "rain"
+çert:çert V-TV ; ! "flip"
+çez:çez V-TV ; ! "untie"
+cıyıştır:cıyıştır V-TV ; ! "gather" ! Der/Caus
+cıy:cıy V-TV ; ! "hide"
+coytul:coytul V-IV ; ! "be lost" ! Der/Pass
+coyt:coyt V-TV ; ! "mislay"
+deñiş:deñiş V-IV ; ! "change"
+deñiştir:deñiştir V-TV ; ! "change" ! Der/Caus
+de:de V-TV ; ! "say"
+doğur:doğur V-TV ; ! ""
+doğ:doğ V-TV ; ! ""
+eglen:eglen V-IV ; ! ""
+eriş:eriş V-IV ; ! ""
+esir:esir V-IV ; ! ""
+eşit:eşit V-TV ; ! "hear"
+eş:eş V-TV ; ! "scratch"
+gizle:gizle V-TV ; ! "hide"
+iriş:iriş V-IV ; ! "reach"
+keliş:keliş V-IV ; ! "fit"
+keliştir:keliştir V-TV ; ! "make fit" ! Der/Caus
+kir:kir V-IV ; ! "enter"
+kiriş:kiriş V-TV ; ! "interfere"
+köster:köster V-TV ; ! "show"
+köter:köter V-TV ; ! "lift"
+kül:kül V-IV ; ! "laugh"
+min:min V-IV ; ! "mount"
+pekit:pekit V-TV ; ! "strengthen"
+qala:qala V-IV ; ! "build a wall"
+qara:qara V-TV ; ! "look at"
+qatna:qatna V-TV ; ! "visit"
+qaytar:qaytar V-TV ; ! "send back"
+qıdır:qıdır V-TV ; ! "seek/искать"
+qılın:qılın V-IV ; ! ""
+qır:qır V-TV ; ! "rub"
+qoş:qoş V-TV ; ! "add"
+saldır:saldır V-TV ; ! "construct/создать"
+sal:sal V-TV ; ! "put"
+sayla:sayla V-TV ; ! "select/выбрать"
+sıla:sıla V-TV ; ! "seal"
+sil:sil V-TV ; ! "delete"
+sımarla:sımarla V-TV ; ! "order"
+sındır:sındır V-TV ; ! "crack"
+sıyla:sıyla V-TV ; ! "entertain"
+söyle:söyle V-TV ; ! "say"
+soy:soy V-TV ; ! ""
+soz:soz V-TV ; ! "lengthen"
+süy:süy V-TV ; ! "love/любить"
+tabış:tabış V-TV ; ! "come together" ! Der/?
+tab:tab V-TV ; ! "bear"
+tala:tala V-IV ; ! "bark"
+tap:tap V-TV ; ! "find/найти"
+taşla:taşla V-TV ; ! "put"
+taşlan:taşlan V-TV ; ! "undress"
+tay:tay V-IV ; ! "ski"
+tırış:tırış V-TV ; ! "endeavour"
+tırmaş:tırmaş V-IV ; ! "ascend"
+tiy:tiy V-TV ; ! "touch"
+ton:ton V-IV ; ! "feel cold"
+toñ:toñ V-IV ; ! "freeze"
+tüş:tüş V-IV ; ! "climb down"
+tuv:tuv V-IV ; ! "be born/родиться"
+tüzet:tüzet V-TV ; ! "correct/проверить"
+üy:üy V-IV ; ! "clump"
+yan:yan V-IV ; ! "burn"
+yat:yat V-IV ; ! "lie"
+yiber:yiber V-TV ; ! "send"
+yıqıl:yıqıl V-IV ; ! "fall down"
+yıq:yıq V-TV ; ! "knock over"
+yür:yür V-IV ; ! "walk/ходить"
+yuv:yuv V-TV ; ! "wash/мыть"
 
 LEXICON Punctuation
 
@@ -2258,4 +2605,6 @@ LEXICON Punctuation
 LEXICON DIGITLEX
 
 %<num%>: # ;
+
+!LEXICON Temp
 

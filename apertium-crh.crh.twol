@@ -25,6 +25,10 @@ Rules
 %{E%}:y <=> :Vow :0* _ ;
 
 "Voicing at morpheme boundary"
-k:g <=>  Vow _ %>: :Vow ; 
+Cx:Cy <=>  Vow _ %>: :Vow ; 
+      where Cx in ( k ) ! p t 
+            Cy in ( g ) ! b d
+      matched ;
 
 ! k e r e k:g >:0 {I}:i m
+!!! k i t a p:b >:0 {s}:0 {I}:ı {n}:0
