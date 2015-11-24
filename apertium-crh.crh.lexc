@@ -271,6 +271,11 @@ LEXICON NUM-ORD
 %<num%>%<ord%>: # ;
 %<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
+LEXICON NUM-COLL
+
+%<num%>%<coll%>%<subst%>: FULL-NOMINAL-INFLECTION ;
+%<num%>%<coll%>%<advl%>: # ;
+
 LEXICON NUM-ROMAN
 
 %<num%>%<ord%>: # ;
@@ -668,6 +673,7 @@ ep:ep PRON-IND-EP ; ! ""
 bütün:bütün PRON-IND-BUTUN ; ! ""
 cümle:cümle PRON-IND-BUTUN ; ! ""
 erkes:erkes PRON-IND ; ! "все люди"
+birev:birev PRON-IND ; ! "someone/кто-нибудь"
 
 !! FIXME: Check these
 diger:diger PRON-IND ; ! ""
@@ -713,6 +719,10 @@ on:on NUM ; ! ""
 qırq:qırq NUM ; ! ""
 
 biñ:biñ NUM ; ! ""
+
+birev:birev NUM-COLL ; ! ""
+ekev:ekev NUM-COLL ; ! ""
+
 
 I:I NUM-ROMAN ; ! ""
 II:II NUM-ROMAN ; ! ""
