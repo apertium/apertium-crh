@@ -9,7 +9,7 @@
 49	98	Bizimkinıñ boyu siziñkine köre alçaqtır.
 52	108	Bu kitap digerisinden balabancadır.
 52	109	Koyniñ eñ balaban evi yandı.
-52	110	Onıñ evi koyde eñ balabandır.
+52	110	Onıñ evi köyde eñ balabandır.
 52	111	O episinden tatlı pahlava pişire.
 58	122	Bu qadum menim tatamdan güzel yırlay.
 

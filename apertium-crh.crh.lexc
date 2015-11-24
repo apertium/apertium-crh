@@ -204,6 +204,11 @@ LEXICON NUM
 %<num%>%<ord%>:%>%{I%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
+LEXICON NUM-ORD
+
+%<num%>%<ord%>: # ;
+%<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
+
 
 LEXICON PRON-REF-ADV 
 
@@ -510,8 +515,11 @@ o:o DET-DEM ;
 er:er DET-DEM ;
 
 iç% bir:iç% bir DET-IND ; 
+bütün:bütün DET-IND ; 
 
 LEXICON Numerals 
+
+ilk:ilk NUM-ORD ; ! ""
 
 bir:bir NUM ; ! "один"
 eki:eki  NUM ; ! ""
@@ -525,6 +533,8 @@ doquz:doquz  NUM ; ! ""
 on:on NUM ; ! ""
 
 qırq:qırq NUM ; ! ""
+
+biñ:biñ NUM ; ! ""
 
 LEXICON Nouns 
 
@@ -1148,9 +1158,10 @@ ekim:ekim N1 ; ! "врач"
 telefon:telefon N1 ; ! ""
 aeroport:aeroport N1 ; ! ""
 uçaq:uçaq N1 ; ! "самолёт"
-koy:koy N1 ; ! ""
 vilâyet:vilâyet N1 ; ! ""
-
+sayı:sayı N1 ; ! "число"
+köy:köy N1 ; ! "дерево"
+kere:kere N1 ; ! "раз"
 
 
 LEXICON ProperNouns 
@@ -2066,8 +2077,10 @@ Zvenıgorodka:Zvenıgorodka NP-TOP ; ! ""
 Bağçasaray:Bağçasaray NP-TOP ; ! ""
 
 Mustafa:Mustafa NP-ANT-M ; ! ""
+İsmail:İsmail NP-ANT-M ; ! ""
 Asan:Asan NP-ANT-M ; ! ""
 Veli:Veli NP-ANT-M ; ! ""
+
 Ayşe:Ayşe NP-ANT-F ; ! ""
 Hüner:Hüner NP-ANT-F ; ! ""
 Lenara:Lenara NP-ANT-F ; ! ""
@@ -2082,6 +2095,10 @@ bar:bar A2 ; ! "есть"
 mümkün:mümkün A2 ; ! "possible/возможно"
 kerek:kerek A2 ; ! "necessary/должно"
 
+resmiy:resmiy A1 ; ! ""
+belli:belli A1 ; ! ""
+milliy:milliy A1 ; ! ""
+büyük:büyük A1 ; ! ""
 razı:razı A1 ; ! ""
 balaban:balaban A1 ; ! ""
 yahşı:yahşı A1 ; ! ""
@@ -2092,6 +2109,7 @@ qart:qart A1 ; ! ""
 yaramay:yaramay A1 ; ! ""
 yavaş:yavaş A1 ; ! ""
 güzel:güzel A1 ; ! ""
+yaqın:yaqın A1 ; ! ""
 sıcaq:sıcaq A1 ; ! ""
 
 LEXICON Adverbs
@@ -2138,6 +2156,7 @@ yuqarıdan:yuqarıdan ADV ; ! ""
 baştan:baştan ADV ; ! ""
 evelden:evelden ADV ; ! ""
 tezden:tezden ADV ; ! ""
+soñra:soñra ADV ; ! "later/позже"
 
 !! Language
 
@@ -2156,6 +2175,7 @@ tek:tek ADV ; ! ""
 eñ:eñ ADV ; ! ""
 
 meger:meger ADV ; ! "apparently"
+beraber:beraber ADV ; ! "вместе"
 
 LEXICON Verbs 
 
