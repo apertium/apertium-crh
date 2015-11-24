@@ -44,7 +44,7 @@
 83	180	Men kitapnı yaşikniñ içine qoydım.
 83	181	Men kitapnı krovat tübünden aldım.
 84	183	Bala kitapnı oquy.
-85	184	Siz mektürni yazdıñiz.
+85	184	Siz mektürni yazdıñız.
 85	185	Sen qırımtatarsıñ.
 85	187	Men yedi evni körem.
 86	188	Men evlerniñ birincisinde yaşayım.
@@ -72,7 +72,7 @@
 90	210	Qızçıq bu çeçek üzdi.
 91	211	Men bunı bilem. 
 91	212	Mısırboğaynı aşadılar.
-91	213	Menim ağamnıñ közleri kok.
+91	213	Menim ağamnıñ közleri kök.
 91	215	Filcan tabanğa tüşti. 
 91	216	Suvğa tuz qoşmaq kerek.
 92	217	Ana balasına yardım etti.
