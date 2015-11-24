@@ -36,6 +36,7 @@ Rules
 
 "Voicing at morpheme boundary"
 Cx:Cy <=>  Vow _ %>: %{s%}:0 :Vow ; 
+               _ %>: %{I%}:  ;
       except
            _ %{☭%}: %>: ; 
       where Cx in ( k p ) ! t 

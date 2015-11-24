@@ -39,6 +39,11 @@ Multichar_Symbols
 %<fut2%>          ! -EcAG
 %<past%>
 
+%<ger%>
+%<ger_pres%>
+%<ger_fut2%>
+%<ger_past%>
+
 %<prc_perf%>      ! -Ip 
 
 %<px1sg%>         !
@@ -136,6 +141,7 @@ LEXICON CLIT-QST-MI
 LEXICON CLIT-COP
 
 %+e%<cop%>%<aor%>: V-PERS-S1-COP ; 
+%+e%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-S1-COP ; 
 
 LEXICON CLITICS-NO-COP 
 
@@ -477,9 +483,11 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 
 LEXICON V-FUT-COMMON
 
-%<neg%>%<fut%>:m%{A%}z V-PERS-S1-NO1 ;
-%<neg%>%<fut%>%<p1%>%<sg%>:m%{A%}m CLITICS-NO-COP ;
-%<neg%>%<fut%>%<p1%>%<pl%>:m%{A%}m%{I%}z CLITICS-NO-COP ;
+%<neg%>%<fut%>:%>m%{A%}z V-PERS-S1-NO1 ;
+%<neg%>%<fut%>%<p1%>%<sg%>:%>m%{A%}m CLITICS-NO-COP ;
+%<neg%>%<fut%>%<p1%>%<pl%>:%>m%{A%}m%{I%}z CLITICS-NO-COP ;
+
+%<neg%>%<ger_fut%>:%>m%{A%}z FULL-NOMINAL-INFLECTION ; 
 
 LEXICON V-FUT-IR
 
@@ -502,6 +510,8 @@ LEXICON V-NONFINITE
 
 %<ger%>:%>m%{A%}%{G%} FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 %<ger_past%>:%>%{G%}%{A%}n FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
+%<ger_pres%>:%>%{j%}%{A%}r%{A%}%{G%} FULL-NOMINAL-INFLECTION ;
+%<ger_fut2%>:%>%{E%}c%{A%}%{G%} FULL-NOMINAL-INFLECTION ;
 
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_pres%>:%>%{j%}%{A%}r%{A%}%{G%} # ;
@@ -517,6 +527,7 @@ V-FINITE-REGULAR_NEGATIVE ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEGATIVE ;
 
 V-NONFINITE ; 
+%<neg%>:%>m%{A%} V-NONFINITE ; 
 
 LEXICON V-DER
 
@@ -1125,6 +1136,7 @@ orta:orta N1 ; ! "середина"
 ösümlik:ösümlik N1 ; ! "растение"
 ötmek:ötmek N1 ; ! "хлеб"
 oyun:oyun N1 ; ! "игра"
+oyuncağ:oyuncağ N1 ; ! ""
 özen:özen N1 ; ! "река"
 padişa:padişa N1 ; ! "император, царь"
 para:para N1 ; ! "деньги"
@@ -1962,6 +1974,7 @@ qarandaş:qarandaş N5 ; ! "карандаш"
 qayıq:qayıq N1 ; ! ""
 mısırboğday:mısırboğday N1 ; ! ""
 divan:divan N1 ; ! ""
+kesek:kesek N1 ; ! ""
 
 burun:bur%{y%}n N1 ; ! ""
 boyun:boy%{y%}n N1 ; ! ""
@@ -3986,9 +3999,13 @@ yağ:yağ V-IV-AR ; ! "rain"
 coy:coy V-TV ; ! ""
 kederlen:kederlen V-IV ; ! ""
 yorul:yorul V-IV ; ! "" ! Der/Pass
+tedaviylen:tedaviylen V-IV ; ! "" ! Der/Pass
+raatlan:raatlan V-IV ; ! "" 
+bez:bez V-IV ; ! ""
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""
+
 LEXICON Abbreviations
 
 Dr%.:Dr%. ABBR ;
