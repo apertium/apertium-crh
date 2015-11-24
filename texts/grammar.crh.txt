@@ -91,8 +91,8 @@
 94	230	O bala tünevin şu qızçıqqa alma berdi.
 95	231	Bala evden tez çıqtı.
 95	232	Gemi battı.
-95	233	Deñizci gemini batırdı.
-95	234	Deñizci kapitannıñ ricasına kore gemini battırdı.
+95	233	Deñizci gemini battırdı.
+95	234	Deñizci kapitannıñ ricasına köre gemini battırdı.
 96	235	Bala suv içe.
 96	236	Ana balasına suv içirdi.
 96	237	Ana balasına suv içtirdi.
