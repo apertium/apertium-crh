@@ -1798,13 +1798,32 @@ zikir:zikir N1 ; ! "радение"
 ziraatçılıq:ziraatçılıq N1 ; ! "хлебопашество"
 zoologiya:zoologiya N1 ; ! "зоология"
 
+arheologiya:arheologiya N1 ; ! ""
+biologiya:biologiya N1 ; ! ""
+dramaturgiya:dramaturgiya N1 ; ! ""
+ekologiya:ekologiya N1 ; ! ""
+etimologiyası:etimologiya N1 ; ! ""
+etnologiya:etnologiya N1 ; ! ""
+filologiya:filologiya N1 ; ! ""
+fiziologiya:fiziologiya N1 ; ! ""
+hititologiya:hititologiya N1 ; ! ""
+hronologiya:hronologiya N1 ; ! ""
+ideologiya:ideologiya N1 ; ! ""
+morfologiya:morfologiya N1 ; ! ""
+sotsiologiya:sotsiologiya N1 ; ! ""
+strategiya:strategiya N1 ; ! ""
+
+
 
 deputat:deputat N5 ; ! ""
 eşek:eşek N1 ; ! ""
+tarihçı:tarihçı N1 ; ! ""
+saatçı:saatçı N1 ; ! ""
 
 burun:bur%{y%}n N1 ; ! ""
 boyun:boy%{y%}n N1 ; ! ""
 ayız:ay%{y%}z N1 ; ! ""
+şekil:şek%{y%}l N1 ; ! ""
 
 million:million N1 ; ! "миллион"
 
@@ -1818,6 +1837,7 @@ Asiya:Asiya NP-TOP ; ! ""
 Avropa:Avropa NP-TOP ; ! ""
 Avrasiya:Avrasiya NP-TOP ; ! ""
 
+Norvegiya:Norvegiya NP-TOP ; ! ""
 Lehistan:Lehistan NP-TOP ; ! ""
 Qazahistan:Qazahistan NP-TOP ; ! ""
 Arabistan:Arabistan NP-TOP ; ! ""

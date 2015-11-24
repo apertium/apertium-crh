@@ -15,4 +15,5 @@
 /crh.prob -text svneol=unset#unset
 dev/countstems.sh -text
 /modes.xml -text
+tests/voicing.yaml -text
 texts/grammar.crh.txt -text

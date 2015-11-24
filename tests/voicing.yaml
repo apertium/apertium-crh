@@ -1,0 +1,60 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../crh.autogen.hfst
+    Morph: ../crh.automorf.hfst
+
+Tests:
+  "Voicing alternations (no voicing, a)":
+    tüs<n><nom> : tüs 
+    tüs<n><px3sp><nom> : tüsü
+    tüs<n><loc> : tüste
+    baş<n><nom> : baş 
+    baş<n><px3sp><nom> : başı
+    baş<n><loc> : başta
+    tiş<n><nom> : tiş 
+    tiş<n><px3sp><nom> : tişi
+    tiş<n><loc> : tişte
+    at<n><nom> : at 
+    at<n><px3sp><nom> : atı
+    at<n><loc> : atta
+
+  "Voicing alternations (voicing, b)":
+    qas<n><nom> : qas 
+    qas<n><px3sp><nom> : qazı
+    qas<n><loc> : qazda
+    uç<n><nom> : uç 
+    uç<n><px3sp><nom> : ucı
+    uç<n><loc> : ucda
+    garaş<n><nom> : garaş
+    garaş<n><px3sp><nom> : garajı
+    garaş<n><loc> : garajda
+    küs<n><nom> : küs 
+    küs<n><px3sp><nom> : küzü
+    küs<n><loc> : küzde
+    at<n><nom> : at 
+    at<n><px3sp><nom> : adı
+    at<n><loc> : adda
+
+  "Voicing alternations (voicing, c)":
+    tüp<n><nom> : tüp 
+    tüp<n><px3sp><nom> : tübü
+    tüp<n><loc> : tüpte
+    kitap<n><nom> : kitap 
+    kitap<n><px3sp><nom> : kitabı
+    kitap<n><loc> : kitapta
+    bilek<n><nom> : bilek 
+    bilek<n><px3sp><nom> : bilegi 
+    bilek<n><loc> : bilekte
+    qulaq<n><nom> : qulaq 
+    qulaq<n><px3sp><nom> : qulağı
+    qulaq<n><loc> : qulaqta
+
+  "Voicing alternations (voicing, d)":
+    koy<n><nom> : koy 
+    koy<n><px3sp><nom> : koyu
+    koy<n><loc> : koyda
+    araba<n><nom> : araba 
+    araba<n><px3sp><nom> : arabası
+    araba<n><loc> : arabada
+ 
