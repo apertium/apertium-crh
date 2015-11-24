@@ -33,6 +33,7 @@ Multichar_Symbols
 %<iv%>            !
 %<tv%>            !
 
+%<nec%>
 %<imp%>
 %<aor%>
 %<fut%>
@@ -468,7 +469,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{E%} V-PERS-AOR ;
 %<fut2%>:%>%{E%}c%{A%}%{G%} V-PERS-S1 ;
 
-%<oblig%>:%>m%{A%}l%{I%} V-PERS-S1 ;
+%<nec%>:%>m%{A%}l%{I%} V-PERS-S1 ;
 
 %<imp%>%<p2%>%<sg%>: CLITICS-AFTER-IMP ;
 %<imp%>%<p2%>%<pl%>:%>%{I%}ñ%{I%}z CLITICS-AFTER-IMP ;
