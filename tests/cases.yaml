@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../crh.autogen.hfst
+    Morph: ../crh.automorf.hfst
+
+Tests:
+  "Cases (singular)":
+    bala<n><nom> : bala
+    bala<n><acc> : balanı
+    bala<n><gen> : balanıñ
+    bala<n><dat> : balağa
+    bala<n><loc> : balada
+    bala<n><abl> : baladan
+    ev<n><nom> : ev
+    ev<n><acc> : evni
+    ev<n><gen> : evniñ
+    ev<n><dat> : evge
+    ev<n><loc> : evde
+    ev<n><abl> : evden
+    dost<n><nom> : dost
+    dost<n><acc> : dostnı
+    dost<n><gen> : dostnıñ
+    dost<n><dat> : dostqa
+    dost<n><loc> : dostta
+    dost<n><abl> : dosttan
+
+  "Cases (plural)":
+    bala<n><pl><nom> : balalar
+    bala<n><pl><acc> : balalarnı
+    bala<n><pl><gen> : balalarnıñ
+    bala<n><pl><dat> : balalarğa
+    bala<n><pl><loc> : balalarda
+    bala<n><pl><abl> : balalardan
+    ev<n><pl><nom> : evler
+    ev<n><pl><acc> : evlerni
+    ev<n><pl><gen> : evlerniñ
+    ev<n><pl><dat> : evlerge
+    ev<n><pl><loc> : evlerde
+    ev<n><pl><abl> : evlerden
+    dost<n><pl><nom> : dostlar
+    dost<n><pl><acc> : dostlarnı
+    dost<n><pl><gen> : dostlarnıñ
+    dost<n><pl><dat> : dostlarğa
+    dost<n><pl><loc> : dostlarda
+    dost<n><pl><abl> : dostlardan

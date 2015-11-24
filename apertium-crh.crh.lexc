@@ -92,6 +92,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+Miscellaneous ;
 Copula ; 
 Conjunctions ; 
 Postpositions ;
@@ -115,6 +116,10 @@ LEXICON CLIT-EMPH-CHI
 %+çı%<emph%>:%>ç%{I%} # ;
 # ;
 
+LEXICON CLIT-DA
+
+%+da%<postadv%>:%>d%{A%} # ;
+
 LEXICON CLIT-EMPH 
 
 CLIT-EMPH-CHI ;
@@ -130,6 +135,7 @@ LEXICON CLIT-COP
 LEXICON CLITICS-NO-COP 
 
 CLIT-QST-MI ;
+CLIT-DA ;
 # ;
 
 LEXICON CLITICS-INCL-COP 
@@ -251,6 +257,10 @@ LEXICON NUM-ORD
 %<num%>%<ord%>: # ;
 %<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ;
+
 
 LEXICON PRON-REF-ADV 
 
@@ -266,9 +276,21 @@ LEXICON PRON-REF
 %<prn%>%<ref%>%<px2pl%>:%>%{i%}ñ%{I%}z PRON-REF-ADV ;
 %<prn%>%<ref%>%<px3pl%>:%>l%{A%}r%>%{i%} PRON-REF-ADV ;
 
+LEXICON PRON-IND-EP
+
+%<prn%>%<ind%>:i POSSESSIVES ; 
+
+LEXICON PRON-IND-BUTUN 
+
+%<prn%>%<ind%>: POSSESSIVES ; 
+
 LEXICON PRON-IND 
 
 %<prn%>%<ind%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+
+LEXICON PRON-INTERR
+
+%<prn%>%<itg%>: CASES-ETC ; 
 
 LEXICON PRON-DEM-BU
 
@@ -351,6 +373,11 @@ LEXICON PRON-PERS-OLAR
 %<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:nı # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
+
+LEXICON DET-INTERR
+
+%<det%>%<itg%>: # ;
+
 
 LEXICON DET-IND
 
@@ -531,6 +558,12 @@ LEXICON ABBR
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Miscellaneous 
+
+da%<postadv%>:da # ; ! Dir/LR
+da%<postadv%>:de # ; ! Dir/LR
+da%<postadv%>:%~da # ; ! Dir/RL
+
 LEXICON Copula
 
 e%<cop%>%<ifi%>:edi V-PERS-S2 ; 
@@ -543,6 +576,11 @@ amma:amma CC ; ! "но"
 lakin:lakin CC ; ! ""
 ise:ise CC ; ! ""
 a:a CC ; ! ""
+
+em:em CC ; ! ""
+em% de:em% de CC ; ! ""
+ya:ya CC ; ! ""
+ya% da:ya% da CC ; ! ""
 
 ki:ki CS ; ! ""
 çünki:çünki CS ; ! ""
@@ -592,8 +630,16 @@ bu:bu PRON-DEM-BU ; ! ""
 o:o PRON-DEM-O ; ! ""
 
 öz:öz PRON-REF ; ! ""
+kendi:kendi PRON-REF ; ! ""
+
+ep:ep PRON-IND-EP ; ! ""
+bütün:bütün PRON-IND-BUTUN ; ! ""
+cümle:cümle PRON-IND-BUTUN ; ! ""
 
 iç% bir% şey:iç% bir% şey PRON-IND ; ! ""
+
+kim:kim PRON-INTERR ;
+ne:ne PRON-INTERR ;
 
 LEXICON Determiners
 
@@ -601,12 +647,15 @@ bu:bu DET-DEM ;
 şu:şu DET-DEM ;
 o:o DET-DEM ;
 
-er:er DET-IND ; ! FIXME: Check
-ep:ep DET-IND ; 
+er:er DET-IND ; ! "every"
+ep:ep DET-IND ; ! "all"
 iç% bir:iç% bir DET-IND ; 
 bütün:bütün DET-IND ; 
 cümle:cümle DET-IND ; 
 diger:diger DET-IND ; ! ""
+
+qaysı:qaysı DET-INTERR ; ! ""
+angi:angi DET-INTERR ; ! ""
 
 
 LEXICON Numerals 
@@ -627,6 +676,30 @@ on:on NUM ; ! ""
 qırq:qırq NUM ; ! ""
 
 biñ:biñ NUM ; ! ""
+
+I:I NUM-ROMAN ; ! ""
+II:II NUM-ROMAN ; ! ""
+III:III NUM-ROMAN ; ! ""
+IV:IV NUM-ROMAN ; ! ""
+IX:IX NUM-ROMAN ; ! ""
+V:V NUM-ROMAN ; ! ""
+VI:VI NUM-ROMAN ; ! ""
+VII:VII NUM-ROMAN ; ! ""
+VIII:VIII NUM-ROMAN ; ! ""
+X:X NUM-ROMAN ; ! ""
+XI:XI NUM-ROMAN ; ! ""
+XII:XII NUM-ROMAN ; ! ""
+XIII:XIII NUM-ROMAN ; ! ""
+XIV:XIV NUM-ROMAN ; ! ""
+XIX:XIX NUM-ROMAN ; ! ""
+XV:XV NUM-ROMAN ; ! ""
+XVI:XVI NUM-ROMAN ; ! ""
+XVII:XVII NUM-ROMAN ; ! ""
+XVIII:XVIII NUM-ROMAN ; ! ""
+XX:XX NUM-ROMAN ; ! ""
+XXI:XXI NUM-ROMAN ; ! ""
+XXII:XXII NUM-ROMAN ; ! ""
+
 
 LEXICON Nouns 
 
@@ -1270,6 +1343,7 @@ aprel:aprel N1 ; ! ""
 iyün:iyün  N1 ; ! ""
 temmuz:temmuz N1 ; ! ""
 iyül:iyül N1 ; ! ""
+avgust:avgust N1 ; ! ""
 sentâbr:sentâbr  N1 ; ! ""
 oktâbr:oktâbr N1 ; ! ""
 qasım:qasım  N1 ; ! ""
@@ -2762,6 +2836,54 @@ Zvenıgorodka:Zvenıgorodka NP-TOP ; ! ""
 
 Bağçasaray:Bağçasaray NP-TOP ; ! ""
 
+
+Abhaziya:Abhaziya NP-TOP ; ! ""
+Almaniya:Almaniya NP-TOP ; ! ""
+Avstraliya:Avstraliya NP-TOP ; ! ""
+Avstriya:Avstriya NP-TOP ; ! ""
+Boliviya:Boliviya NP-TOP ; ! ""
+Britaniya:Britaniya NP-TOP ; ! ""
+Çehiya:Çehiya NP-TOP ; ! ""
+Grenlandiya:Grenlandiya NP-TOP ; ! ""
+İndoneziya:İndoneziya NP-TOP ; ! ""
+İrlandiya:İrlandiya NP-TOP ; ! ""
+İslandiya:İslandiya NP-TOP ; ! ""
+İspaniya:İspaniya NP-TOP ; ! ""
+İsveçiya:İsveçiya NP-TOP ; ! ""
+Kamboçiya:Kamboçiya NP-TOP ; ! ""
+Kaşubiya:Kaşubiya NP-TOP ; ! ""
+Kataloniya:Kataloniya NP-TOP ; ! ""
+Kolombiya:Kolombiya NP-TOP ; ! ""
+Latviya:Latviya NP-TOP ; ! ""
+Libiya:Libiya NP-TOP ; ! ""
+Livadiya:Livadiya NP-TOP ; ! ""
+Livaniya:Livaniya NP-TOP ; ! ""
+Lombardiya:Lombardiya NP-TOP ; ! ""
+Lusiya:Lusiya NP-TOP ; ! ""
+Makedoniya:Makedoniya NP-TOP ; ! ""
+Malayziya:Malayziya NP-TOP ; ! ""
+Mesopotamiya:Mesopotamiya NP-TOP ; ! ""
+Mikroneziya:Mikroneziya NP-TOP ; ! ""
+Moldaviya:Moldaviya NP-TOP ; ! ""
+Novorossiya:Novorossiya NP-TOP ; ! ""
+Okeaniya:Okeaniya NP-TOP ; ! ""
+Osetiya:Osetiya NP-TOP ; ! ""
+Poloniya:Poloniya NP-TOP ; ! ""
+Pomeraniya:Pomeraniya NP-TOP ; ! ""
+Portugaliya:Portugaliya NP-TOP ; ! ""
+Romaniya:Romaniya NP-TOP ; ! ""
+Sardiniya:Sardiniya NP-TOP ; ! ""
+Sileziya:Sileziya NP-TOP ; ! ""
+Skandinaviya:Skandinaviya NP-TOP ; ! ""
+Slovakiya:Slovakiya NP-TOP ; ! ""
+Sloveniya:Sloveniya NP-TOP ; ! ""
+Sofiya:Sofiya NP-TOP ; ! ""
+Trakiya:Trakiya NP-TOP ; ! ""
+Udmurtiya:Udmurtiya NP-TOP ; ! ""
+Valensiya:Valensiya NP-TOP ; ! ""
+Yaponiya:Yaponiya NP-TOP ; ! ""
+Zelandiya:Zelandiya NP-TOP ; ! ""
+
 Mustafa:Mustafa NP-ANT-M ; ! ""
 Nasreddin:Nasreddin NP-ANT-M ; ! ""
 İsmail:İsmail NP-ANT-M ; ! ""
@@ -2990,7 +3112,6 @@ qanlı:qanlı A1 ; ! ""
 qaranğı:qaranğı A1 ; ! ""
 qattı:qattı A1 ; ! ""
 qaviy:qaviy A1 ; ! ""
-qaysı:qaysı A1 ; ! ""
 qısqa:qısqa A1 ; ! ""
 qıyın:qıyın A1 ; ! ""
 qıyış:qıyış A1 ; ! ""
@@ -3550,13 +3671,18 @@ yıq:yıq V-TV ; ! "knock over"
 yür:yür V-IV ; ! "walk/ходить"
 yuv:yuv V-TV ; ! "wash/мыть"
 
+sora:sora V-TV ; ! "ask/спросить"
+ele:ele V-TV ; ! "sift"
+
 LEXICON Abbreviations
 
+Dr%.:Dr%. ABBR ;
 km:km ABBR ; 
 mm:mm ABBR ; 
 sm:sm ABBR ; 
 kg:kg ABBR ; 
 s%.:s%. ABBR ; 
+d%.:d%. ABBR ; 
 
 LEXICON Punctuation
 
