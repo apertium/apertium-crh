@@ -71,7 +71,7 @@
 90	209	Qırımnı aldılar. 
 90	210	Qızçıq bu çeçek üzdi.
 91	211	Men bunı bilem. 
-91	212	Mısırboğaynı aşadılar.
+91	212	Mısırboğdaynı aşadılar.
 91	213	Menim ağamnıñ közleri kök.
 91	215	Filcan tabanğa tüşti. 
 91	216	Suvğa tuz qoşmaq kerek.
@@ -105,7 +105,7 @@
 97	244	Men köründim.
 98	245	Bala anasını taptı
 98	246	Ana-bala tapıştılar.
-98	247	Olar birbirinen aytıştılar.
+98	247	Olar bir-birinen aytıştılar.
 98	248	Gemi battı.
 98	249	O bala kitap oquy.
 98	250	Menim ağam qızçıqqa alma berdi.

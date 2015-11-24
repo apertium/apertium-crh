@@ -311,6 +311,10 @@ LEXICON PRON-INTERR
 
 %<prn%>%<itg%>: CASES-ETC ; 
 
+LEXICON PRON-RECIP
+
+%<prn%>%<recip%>: POSSESSIVES ; 
+
 LEXICON PRON-DEM-BU
 
 %<prn%>%<dem%>%<nom%>: # ;
@@ -679,10 +683,15 @@ birev:birev PRON-IND ; ! "someone/кто-нибудь"
 diger:diger PRON-IND ; ! ""
 diger:digeri PRON-IND ; ! "" ! Dir/LR 
 
+kimse:kimse PRON-IND ; ! ""
+
 iç% bir% şey:iç% bir% şey PRON-IND ; ! ""
 
 kim:kim PRON-INTERR ;
 ne:ne PRON-INTERR ;
+
+bir%-bir:bir%-bir PRON-RECIP ; ! ""
+bir%-bir:birbir PRON-RECIP ; ! "" ! Dir/LR
 
 LEXICON Determiners
 
@@ -3841,6 +3850,8 @@ yapıl:yapıl V-TV-AR ; ! "be done/" ! Der/Pass
 tüş:tüş V-IV ; ! "fall"
 qayt:qayt V-IV ; ! "return/вернуться"
 ber:ber V-TV ; ! "give"
+berdir:berdir V-TV ; ! "" ! Der/Caus
+berdirt:berdirt V-TV ; ! "" ! Der/Caus
 ayt:ayt V-TV ; ! "tell"
 unut:unut V-TV ; ! "forget/забыть"
 oqu:oqu V-TV ; ! "learn/учить"
