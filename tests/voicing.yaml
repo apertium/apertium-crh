@@ -10,6 +10,8 @@ Tests:
     tüs<n><px3sp><nom> : tüsü
     tüs<n><loc> : tüste
     baş<n><nom> : baş 
+    baş<n><dat> : başqa 
+    baş<n><px3sp><dat> : başına
     baş<n><px3sp><nom> : başı
     baş<n><loc> : başta
     tiş<n><nom> : tiş 
