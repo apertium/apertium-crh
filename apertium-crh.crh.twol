@@ -7,7 +7,7 @@ Alphabet
  %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü
  %{A%}:a %{A%}:e
  %{C%}:c %{C%}:ç
- %{D%}:t %{D%}:d 
+ %{D%}:d ! %{D%}:t 
  %{G%}:g %{G%}:q %{G%}:ğ %{G%}:k
  %{E%}:a %{E%}:e %{E%}:y
  %{s%}:0 %{s%}:s
@@ -24,23 +24,33 @@ Sets
 Vow = a e ı i o u ö ü 
       A E I   O U Ö Ü ; 
 
-Cns = b c ç d f g ğ h j k l m n ñ r q r s ş t v y z 
-      B C Ç D F G Ğ H J K L M N Ñ R Q R S Ş T V Y Z ; 
+Cns = b c ç d f g ğ h j k l m n ñ r p q r s ş t v y z 
+      B C Ç D F G Ğ H J K L M N Ñ R P Q R S Ş T V Y Z ; 
 
 NasalCns = m n ñ ; 
+
+VoicelessCns = ç f h k p q s ş t
+               Ç F H K P Q S Ş T ;
 
 Rules
 
 "{E} to y after vowel"
 %{E%}:y <=> :Vow :0* _ ;
 
-"Voicing at morpheme boundary"
-Cx:Cy <=>  Vow _ %>: %{s%}:0 :Vow ; 
-               _ %>: %{I%}:  ;
-      except
-           _ %{☭%}: %>: ; 
-      where Cx in ( k p ) ! t 
-            Cy in ( g b ) ! d
+!"Voicing at morpheme boundary"
+!Cx:Cy <=>  Vow _ %>: %{s%}:0 :Vow ; 
+!               _ %>: %{I%}:  ;
+!      except
+!           _ %{☭%}: %>: ; 
+!      where Cx in ( k p ) ! t 
+!            Cy in ( g b ) ! d
+!      matched ;
+
+"Devoicing of non-coronal stem-final voiceless consonants"
+Cx:Cy <=> _ .#. ;
+          _ %>: :Cns/:0* ;
+      where Cx in ( b g ğ )
+            Cy in ( p k q )
       matched ;
 
 ! k e r e k:g >:0 {I}:i m
@@ -48,6 +58,14 @@ Cx:Cy <=>  Vow _ %>: %{s%}:0 :Vow ;
 ! k i t a p:b >:0 {s}:0 {I}:ı {n}:0
 ! y a p >:0 {E}:a 
 ! t a p >:0 {i}:ı p
+
+"Devoicing of coronal stem-final voiceless consonants"
+Cx:Cy <=> _ .#. ;
+          _ %>: [ :Cns - %{D%}: ]/:0* ;
+      where Cx in ( d c j )
+            Cy in ( t ç ş )
+      matched ;
+
 
 "Deletion of dative {G} after px1sg, px2sg"
 %{G%}:0 <=>  [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
@@ -59,4 +77,7 @@ Cx:Cy <=>  Vow _ %>: %{s%}:0 :Vow ;
 
 "Epenthesis in some stems"
 %{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;
+
+"Voicing assimilation of {D}"
+%{D%}:t <=> [ :VoicelessCns ]/[ :0 ]* _ ;
 

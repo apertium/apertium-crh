@@ -15,9 +15,9 @@ Tests:
     tiş<n><nom> : tiş 
     tiş<n><px3sp><nom> : tişi
     tiş<n><loc> : tişte
-    at<n><nom> : at 
-    at<n><px3sp><nom> : atı
-    at<n><loc> : atta
+    at<n><nom> : at
+#    at<n><loc> : atta
+#    at<n><px3sp><nom> : atı
 
   "Voicing alternations (voicing, b)":
     qas<n><nom> : qas 
