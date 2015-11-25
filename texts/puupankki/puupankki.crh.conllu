@@ -2,7 +2,7 @@
 2	bunı	bu	_	prn	dem|acc	4	dobj	_	_
 3	tünevin	tünevin	_	adv	_	4	advmod	_	_
 4	kördim	kör	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct @punct	_	_
+5	.	.	_	sent	_	4	punct	punct	_	_
 
 1	Köyniñ	köy	_	n	gen	4	nmod:poss	_	_
 2	eñ	eñ	_	adv	_	3	advmod	_	_
