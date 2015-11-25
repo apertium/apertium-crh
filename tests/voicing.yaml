@@ -61,4 +61,5 @@ Tests:
   "Miscellaneous":
     mektep<n><px3sp><loc> : mektebinde
     birlik<n><nom> : birlik
+    birlik<n><px3sp><nom> : birligi
     doğ<v><tv><ifi><p3><sg> : doğdı
