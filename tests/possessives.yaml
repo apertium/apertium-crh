@@ -65,7 +65,7 @@ Tests:
     dost<n><px3sp><loc> : dostunda
     dost<n><px3sp><abl> : dostundan
 
-  "Cases and possessives (p1.sg)":
+  "Cases and possessives (p1.pl)":
     bala<n><px1pl><nom> : balamız
     bala<n><px1pl><acc> : balamıznı
     bala<n><px1pl><gen> : balamıznıñ
@@ -86,7 +86,7 @@ Tests:
     dost<n><px1pl><abl> : dostumızdan
 
 
-  "Cases and possessives (p2.sg)":
+  "Cases and possessives (p2.pl)":
     bala<n><px1pl><nom> : balañız
     bala<n><px1pl><acc> : balañıznı
     bala<n><px1pl><gen> : balañıznıñ
@@ -105,5 +105,4 @@ Tests:
     dost<n><px1pl><dat> : dostuñızga
     dost<n><px1pl><loc> : dostuñızda
     dost<n><px1pl><abl> : dostuñızdan
-
 
