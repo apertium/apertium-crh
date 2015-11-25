@@ -647,7 +647,7 @@ LEXICON Postpositions
 !! Dative
 doğru:doğru POST ; ! "straight to"
 qadar:qadar POST ; ! "until/до"
-kore:kore POST ; ! "according to"
+köre:köre POST ; ! "according to"
 taba:taba POST ; ! "towards"
 
 !! Genitive
@@ -661,12 +661,12 @@ kibi:kibi POST ; ! "as, like"
 !! Ablative 
 başqa:başqa POST ; ! "except"
 ğayrı:ğayrı POST ; ! "except"
-soñ:soñ POST ; ! "after/после"
 ögüne:ögüne POST ; ! "before/перед"
 sebep:sebep POST ; ! "because of/благодаря"
 berli:berli POST ; ! "from that time"
 evel:evel POST ; ! "before"
 burun:burun POST ; ! "before"
+soñ:soñ POST ; ! "after/после"
 
 LEXICON Pronouns 
 
@@ -697,6 +697,7 @@ diger:digeri PRON-IND ; ! "" ! Dir/LR
 
 kimse:kimse PRON-IND ; ! ""
 
+iç% bir:iç% bir PRON-IND ; 
 iç% bir% şey:iç% bir% şey PRON-IND ; ! ""
 
 kim:kim PRON-INTERR ;
@@ -711,6 +712,7 @@ bu:bu DET-DEM ;
 şu:şu DET-DEM ;
 o:o DET-DEM ;
 
+bir:bir DET-IND ; ! ""
 er:er DET-IND ; ! "every"
 ep:ep DET-IND ; ! "all"
 iç% bir:iç% bir DET-IND ; 
@@ -793,6 +795,7 @@ orta:orta N1 ; ! ""
 tışarı:tışarı N1 ; ! ""
 qarşı:qarşı N1 ; ! ""
 aqq:aqq N1 ; ! ""
+soñ:soñ N1 ; ! ""
 
 !!
 
@@ -3244,6 +3247,7 @@ kerek:kerek A2 ; ! "necessary/должно"
 borçlu:borçlu A2 ; ! ""
 lâzim:lâzim A2 ; ! "нужен"
 
+tatlı:tatlı A1 ; ! "сладкий"
 ak:ak A1 ; ! ""
 resmiy:resmiy A1 ; ! ""
 belli:belli A1 ; ! ""

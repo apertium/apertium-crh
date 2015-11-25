@@ -1,0 +1,176 @@
+1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
+2	bunı	bu	_	prn	dem|acc	4	dobj	_	_
+3	tünevin	tünevin	_	adv	_	4	advmod	_	_
+4	kördim	kör	_	v	tv|ifi|p1|sg	0	root	_	_
+5	.	.	_	sent	_	4	punct @punct	_	_
+
+1	Köyniñ	köy	_	n	gen	4	nmod:poss	_	_
+2	eñ	eñ	_	adv	_	3	advmod	_	_
+3	balaban	balaban	_	adj	_	4	amod	_	_
+4	evi	ev	_	n	px3sp|nom	5	nsubj	_	_
+5	yandı	yan	_	v	iv|ifi|p3|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	O	o	_	prn	pers|p3|sg|nom	5	nsubj	_	_
+2	episinden	ep	_	prn	ind|px3sp|abl	5	nmod	_	_
+3	tatlı	tatlı	_	adj	_	4	amod	_	_
+4	pahlava	pahlava	_	n	nom	5	dobj	_	_
+5	pişire	pişir	_	v	tv|aor|p3|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Bu	bu	_	det	dem	2	det	_	_
+2	qadın	qadın	_	n	nom	6	nsubj	_	_
+3	menim	men	_	prn	pers|p1|sg|gen	4	nmod:poss	_	_
+4	tatamdan	tata	_	n	px1sg|abl	6	nmod	_	_
+5	güzel	güzel	_	adj	advl	6	advmod	_	_
+6	yırlay	yırla	_	v	tv|aor|p3|sg	0	root	_	_
+7	.	.	_	sent	_	6	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	3	nsubj	_	_
+2	şeerge	şeer	_	n	dat	3	nmod	_	_
+3	ketem	ket	_	v	iv|aor|p1|sg	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
+2	ağam	ağa	_	n	px1sg|nom	5	nsubj	_	_
+3	bu	bu	_	det	dem	4	det	_	_
+4	evde	ev	_	n	loc	5	nmod	_	_
+5	yaşay	yaşa	_	v	iv|aor|p3|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
+2	ağam	ağa	_	n	px1sg|nom	6	nsubj	_	_
+3	er	er	_	det	ind	4	det	_	_
+4	kün	kün	_	n	nom	6	nmod	_	_
+5	şeerde	şeer	_	n	loc	6	nmod	_	_
+6	ola	ol	_	v	iv|aor|p3|sg	0	root	_	_
+7	.	.	_	sent	_	6	punct	_	_
+
+1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
+2	ağam	ağa	_	n	px1sg|nom	6	nsubj	_	_
+3	er	er	_	det	ind	4	det	_	_
+4	kün	kün	_	n	nom	6	nmod	_	_
+5	şeerde	şeer	_	n	loc	6	nmod	_	_
+6	olmay	ol	_	v	iv|neg|aor|p3|sg	0	root	_	_
+7	.	.	_	sent	_	6	punct	_	_
+
+1	Sen	sen	_	prn	pers|p2|sg|nom	4	nsubj	_	_
+2	şimdi	şimdi	_	adv	_	4	advmod	_	_
+3	bunı	bu	_	prn	dem|acc	4	dobj	_	_
+4	alırsıñ	al	_	v	tv|fut|p2|sg	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	3	nsubj	_	_
+2	mektüp	mektüp	_	n	nom	3	dobj	_	_
+3	yazsam	yaz	_	v	tv|gna_cond|p1|sg	6	advcl	_	_
+4	dostlarım	dost	_	n	pl|px1sg|nom	6	nsubj	_	_
+5	maña	men	_	prn	pers|p1|sg|dat	6	nmod	_	_
+6	kelecek	kel	_	v	iv|fut2|p3|sg	0	root	_	_
+7	.	.	_	sent	_	6	punct	_	_
+
+1	Qırımğa	Qırım	_	np	top|dat	2	nmod	_	_
+2	keldik	kel	_	v	iv|ifi|p1|pl	0	root	_	_
+3	.	.	_	sent	_	2	punct	_	_
+
+1	Mümkün	mümkün	_	adj	_	5	advcl	_	_
+2	olsa	ol	_	v	iv|gna_cond|p3|sg	1	cop	_	_
+3	bu	bu	_	det	dem	4	det	_	_
+4	şeylerni	şey	_	n	pl|acc	5	dobj	_	_
+5	alır	al	_	v	tv|gpr_fut	0	root	_	_
+6	edim	e	_	cop	ifi|p1|sg	5	cop	_	_
+7	.	.	_	sent	_	6	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	6	nsubj	_	_
+2	bu	bu	_	det	dem	3	det	_	_
+3	şeerge	şeer	_	n	dat	6	nmod	_	_
+4	1948	1948	_	num	_	5	amod	_	_
+5	senesinde	sene	_	n	px3sp|loc	6	nmod	_	_
+6	kelgen	kel	_	v	iv|gpr_past	0	root	_	_
+7	edim	e	_	cop	ifi|p1|sg	6	aux	_	_
+8	.	.	_	sent	_	6	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	8	nsubj	_	_
+2	bu	bu	_	det	dem	3	det	_	_
+3	kitapnı	kitap	_	n	acc	4	dobj	_	_
+4	alacaq	al	_	v	tv|gpr_fut2	8	conj	_	_
+5	edim	e	_	cop	ifi|p1|sg	4	aux	_	_
+6	amma	amma	_	cnjcoo	_	4	cc	_	_
+7	maña	men	_	prn	pers|p1|sg|dat	8	nmod	_	_
+8	bermediler	ber	_	v	tv|neg|ifi|p3|pl	0	root	_	_
+9	.	.	_	sent	_	8	punct	_	_
+
+1	Meger	meger	_	adv	_	3	advmod	_	_
+2	terekten	terek	_	n	abl	3	nmod	_	_
+3	tüşken	tüş	_	v	iv|gpr_past	0	root	_	_
+4	eken	e	_	cop	aor|evid|p3|sg	3	aux	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
+2	bu	bu	_	det	dem	3	det	_	_
+3	adiseni	adise	_	n	acc	4	dobj	_	_
+4	unutacaq	unut	_	v	tv|gpr_fut2	0	root	_	_
+5	ekenim	e	_	cop	aor|evid|p1|sg	4	aux	_	_
+6	.	.	_	sent	_	4	punct	_	_
+
+1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
+2	dostum	dost	_	n	px1sg|nom	4	nsubj	_	_
+3	evde	ev	_	n	loc	4	nmod	_	_
+4	yaşasa	yaşa	_	v	iv|gna_cond|p3|sg	8	advcl	_	_
+5	onıñ	o	_	prn	pers|p3|sg|gen	6	nmod:poss	_	_
+6	qorantası	qoranta	_	n	px3sp|nom	8	nsubj	_	_
+7	çoq	çoq	_	adv	_	8	advmod	_	_
+8-9	razı	_	_	_	_	_	_	_	_
+8	_	razı	_	adj	_	0	root	_	_
+9	_	e	_	cop	aor|p3|sg	8	cop	_	_
+10	.	.	_	sent	_	8	punct	_	_
+
+1	Tünevin	tünevin	_	adv	_	2	advmod	_	_
+2	kelmegeydiñ	kel	_	v	iv|neg|opt|p2|sg	0	root	_	_
+3	.	.	_	sent	_	2	punct	_	_
+
+1	Bala	bala	_	n	nom	2	nsubj	_	_
+2	oqumaq	oqu	_	v	tv|ger|nom	3	csubj	_	_
+3-4	kerek	_	_	_	_	_	_	_	_
+3	_	kerek	_	adj	_	0	root	_	_
+4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+1	Bu	bu	_	det	dem	2	det	_	_
+2	kitapnı	kitap	_	n	acc	3	dobj	_	_
+3	oqumaq	oqu	_	v	tv|ger|nom	4	csubj	_	_
+4-5	lâzim	_	_	_	_	_	_	_	_
+4	_	lâzim	_	adj	_	0	root	_	_
+5	_	e	_	cop	aor|p3|sg	4	cop	_	_
+6	.	.	_	sent	_	4	punct	_	_
+
+1	Işlemek	işle	_	v	tv|ger|nom	2	csubj	_	_
+2-3	kerek	_	_	_	_	_	_	_	_
+2	_	kerek	_	adj	_	0	root	_	_
+3	_	e	_	cop	aor|p3|sg	2	cop	_	_
+4	.	.	_	sent	_	2	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	3	nsubj	_	_
+2	işlemege	işle	_	v	tv|ger|dat	3	ccomp	_	_
+3	isteyim	iste	_	v	tv|aor|p1|sg	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Bu	bu	_	det	dem	2	det	_	_
+2	işni	iş	_	n	acc	4	dobj	_	_
+3	başlayaraq	başla	_	v	tv|gna_pres	4	advcl	_	_
+4	bitirmeli	bitir	_	v	tv|nec|p3|sg	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+1	Asan	Asan	_	np	ant|m|nom	5	nsubj	_	_
+2	evge	ev	_	n	dat	3	nmod	_	_
+3	kelip	kel	_	v	iv|gna_perf	5	advcl	_	_
+4	evni	ev	_	n	acc	5	dobj	_	_
+5	temizledi	temizle	_	v	tv|ifi|p3|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	5	nsubj	_	_
+2	kitapnı	kitap	_	n	acc	5	dobj	_	_
+3	yaşikniñ	yaşik	_	n	gen	4	nmod:poss	_	_
+4	içine	iç	_	n	px3sp|dat	5	nmod	_	_
+5	qoydım	qoy	_	v	tv|ifi|p1|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+

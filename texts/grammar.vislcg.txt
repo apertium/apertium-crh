@@ -1,0 +1,3580 @@
+"<Bir>"
+	"bir" num
+"<kün>"
+	"kün" n nom
+"<Nasreddin>"
+	"Nasreddin" np ant m nom
+"<oca>"
+	"oca" n nom
+"<eşegine>"
+	"*eşegine"
+"<minip>"
+	"min" v iv gna_perf
+"<yolğa>"
+	"yol" n dat
+"<çıqa>"
+	"çıq" v iv aor p3 sg
+"<.>"
+	"." sent @punct
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->4
+"<bunı>"
+	"bu" prn dem acc @dobj #2->4
+"<tünevin>" 
+	"tünevin" adv @advmod #3->4
+"<kördim>"
+	"kör" v tv ifi p1 sg @root #4->0
+"<.>"
+	"." sent @punct @punct #5->4
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj
+"<bundan>"
+	"bu" prn dem abl
+"<qorqam>"
+	"qorq" v tv aor p1 sg @root
+"<.>"
+	"." sent @punct @punct
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj
+"<episini>"
+	"ep" prn ind px3sp acc 
+"<oqudım>"
+	"oqu" v tv ifi p1 sg @root
+"<.>"
+	"." sent @punct @punct
+
+"<Bu>"
+	"bu" det dem
+"<adamlar>"
+	"adam" n pl nom
+"<tek>"
+	"tek" adv
+"<özlerini>"
+	"öz" prn ref px3pl acc
+"<tüşüne>"
+	"tüşün" v tv aor p3 sg
+"<.>"
+	"." sent @punct
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<sıq>"
+	"sıq" adj
+"<özbaşına>"
+	"özbaş" prn ref px3sg dat
+"<laqırdı>"
+	"laqırdı" n nom
+"<ete>"
+	"et" v tv aor p3 sg
+	"et" v tv prc_impf
+"<.>"
+	"." sent @punct
+
+"<O>"
+	"o" prn pers p3 sg nom @nsubj
+"<bu>"
+	"bu" det dem @det
+"<evni>"
+	"ev" n acc @dobj
+"<özüne>"
+	"öz" prn ref px3sg dat @nmod
+"<satın>"
+	"*sat" 
+"<aldı>"
+	"al" v tv ifi p3 sg @root
+"<.>"
+	"." sent @punct
+
+"<Erkes>"
+	"erkes" prn ind nom @nsubj
+"<bir>"
+	"bir" det ind @det
+"<şeyden>"
+	"şey" n abl @x
+"<qorqa>"
+	"qorq" v tv aor p3 sg @root
+"<.>"
+	"." sent @punct
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj
+"<iç bir şey>"
+	"iç bir şey" prn ind nom @dobj
+"<iç birine>"
+	"iç bir" prn ind px3sp dat @nmod
+"<yazmadım>"
+	"yaz" v tv neg ifi p1 sg @root
+"<.>"
+	"." sent @punct
+
+"<Bizimkinıñ>"
+	"biz" prn pers p1 pl gen @x
+		"ki" subst gen @x
+"<boyu>"
+	"boy" n px3sp nom @x
+"<siziñkine>"
+	"siz" prn pers p2 pl gen @x
+		"ki" subst dat @x
+"<köre>"
+	"köre" post @case
+"<alçaqtır>"
+	"alçaq" adj @root
+		"e" cop aor p3 sg @cop
+"<.>"
+	"." sent @punct
+
+"<Bu>"
+	"bu" det dem @det
+"<kitap>"
+	"kitap" n nom @nsubj
+"<digerisinden>"
+	"diger" prn ind px3sp abl
+"<balabancadır>"
+	"balaban" adj comp @root
+		"e" cop aor p3 sg @cop
+"<.>"
+	"." sent @punct
+
+"<Köyniñ>"
+	"köy" n gen @nmod:poss #1->4
+"<eñ>"
+	"eñ" adv @advmod #2->3
+"<balaban>"
+	"balaban" adj @amod #3->4
+"<evi>"
+	"ev" n px3sp nom @nsubj #4->5
+"<yandı>"
+	"yan" v iv ifi p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+"<Onıñ>"
+	"o" prn pers p3 sg gen @nmod:poss
+"<evi>"
+	"ev" n px3sp nom @nsubj
+"<köyde>"
+	"köy" n loc @x
+"<eñ>"
+	"eñ" adv @admov
+"<balabandır>"
+	"balaban" adj @root
+		"e" cop aor p3 sg @cop
+"<.>"
+	"." sent @punct
+
+"<O>"
+	"o" prn pers p3 sg nom @nsubj #1->5
+"<episinden>"
+	"ep" prn ind px3sp abl @nmod #2->5
+"<tatlı>"
+	"tatlı" adj @amod #3->4
+"<pahlava>"
+	"pahlava" n nom @dobj #4->5
+"<pişire>"
+	"pişir" v tv aor p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+"<Bu>"
+	"bu" det dem @det #1->2
+"<qadın>"
+	"qadın" n nom @nsubj #2->6
+"<menim>"
+	"men" prn pers p1 sg gen @nmod:poss #3->4
+"<tatamdan>"
+	"tata" n px1sg abl @nmod #4->6
+"<güzel>"
+	"güzel" adj advl @advmod #5->6
+"<yırlay>"
+	"yırla" v tv aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->3
+"<şeerge>"
+	"şeer" n dat @nmod #2->3
+"<ketem>"
+	"ket" v iv aor p1 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Menim>"
+	"men" prn pers p1 sg gen @nmod:poss #1->2
+"<ağam>" 
+	"ağa" n px1sg nom @nsubj #2->5
+"<bu>"
+	"bu" det dem @det #3->4
+"<evde>"
+	"ev" n loc @nmod #4->5
+"<yaşay>"
+	"yaşa" v iv aor p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+"<Menim>"
+	"men" prn pers p1 sg gen @nmod:poss #1->2
+"<ağam>"
+	"ağa" n px1sg nom @nsubj #2->6
+"<er>"
+	"er" det ind @det #3->4
+"<kün>"
+	"kün" n nom @nmod #4->6
+"<şeerde>"
+	"şeer" n loc @nmod #5->6
+"<ola>"
+	"ol" v iv aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+"<Menim>"
+	"men" prn pers p1 sg gen @nmod:poss #1->2
+"<ağam>"
+	"ağa" n px1sg nom @nsubj #2->6
+"<er>"
+	"er" det ind @det #3->4
+"<kün>"
+	"kün" n nom @nmod #4->6
+"<şeerde>"
+	"şeer" n loc @nmod #5->6
+"<olmay>"
+	"ol" v iv neg aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+"<Sen>"
+	"sen" prn pers p2 sg nom @nsubj #1->4
+"<şimdi>"
+	"şimdi" adv @advmod #2->4
+"<bunı>"
+	"bu" prn dem acc @dobj #3->4
+"<alırsıñ>"
+	"al" v tv fut p2 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<O>"
+	"o" det dem @det #1->2
+"<mektepke>"
+	"mektep" n dat @nmod #2->
+"<keç>"
+	"keç" adj @x
+"<qalıp>"
+	"qal" v iv gna_perf @x
+"<kelir>"
+	"kel" v iv fut p3 sg @x
+"<.>"
+	"." sent @punct #6->5
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->3
+"<mektüp>"
+	"mektüp" n nom @dobj #2->3
+"<yazsam>"
+	"yaz" v tv gna_cond p1 sg @advcl #3->6
+"<dostlarım>"
+	"dost" n pl px1sg nom @nsubj #4->6
+"<maña>"
+	"men" prn pers p1 sg dat @nmod #5->6
+"<kelecek>"
+	"kel" v iv fut2 p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+"<Qırımğa>"
+	"Qırım" np top dat @nmod #1->2
+"<keldik>"
+	"kel" v iv ifi p1 pl @root #2->0
+"<.>"
+	"." sent @punct #3->2
+
+"<Bir>"
+	"bir" num
+"<->"
+	"-" guio
+"<eki>"
+	"eki" num
+"<şey>"
+	"şey" n nom @dobj
+"<bergenler>"
+	"ber" v tv past p3 pl @root
+"<.>"
+	"." sent @punct
+
+"<Qomşular>"
+	"qomşu" n pl nom @nsubj
+"<qaytıp>"
+	"qayt" v iv prc_perf
+	"qayt" v iv gna_perf
+"<kelgenler>"
+	"kel" v iv past p3 pl
+"<.>"
+	"." sent @punct
+
+"<Mümkün>"
+	"mümkün" adj @advcl #1->5
+"<olsa>"
+	"ol" v iv gna_cond p3 sg @cop #2->1
+"<bu>"
+	"bu" det dem @det #3->4
+"<şeylerni>"
+	"şey" n pl acc @dobj #4->5
+"<alır>"
+	"al" v tv gpr_fut @root #5->0
+"<edim>"
+	"e" cop ifi p1 sg @cop #6->5
+"<.>"
+	"." sent @punct #7->6
+
+"<Qartbabam>"
+	"qartbaba" n px1sg nom
+"<bizge>"
+	"biz" prn pers p1 pl dat
+"<çoq-çoq>"
+	"çoq-çoq" adv
+"<masallar>"
+	"masal" n pl nom
+"<ayta>"
+	"ayt" v tv prc_impf
+	"ayt" v tv prc_impf
+"<edi>"
+	"e" cop ifi p3 sg @aux
+"<.>"
+	"." sent @punct
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->6
+"<bu>"
+	"bu" det dem @det #2->3
+"<şeerge>"
+	"şeer" n dat @nmod #3->6
+"<1948>"
+	"1948" num @amod #4->5
+"<senesinde>"
+	"sene" n px3sp loc @nmod #5->6
+"<kelgen>"
+	"kel" v iv gpr_past @root #6->0
+"<edim>"
+	"e" cop ifi p1 sg @aux #7->6
+"<.>"
+	"." sent @punct #8->6
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->8
+"<bu>"
+	"bu" det dem @det #2->3
+"<kitapnı>"
+	"kitap" n acc @dobj #3->4
+"<alacaq>"
+	"al" v tv gpr_fut2 @conj #4->8
+"<edim>"
+	"e" cop ifi p1 sg @aux #5->4
+"<amma>"
+	"amma" cnjcoo @cc #6->4
+"<maña>"
+	"men" prn pers p1 sg dat @nmod #7->8
+"<bermediler>"
+	"ber" v tv neg ifi p3 pl @root #8->0
+"<.>"
+	"." sent @punct #9->8
+
+"<Meger>"
+	"meger" adv @advmod #1->3
+"<terekten>"
+	"terek" n abl @nmod #2->3
+"<tüşken>"
+	"tüş" v iv gpr_past @root #3->0
+"<eken>"
+	"e" cop aor evid p3 sg @aux #4->3
+"<.>"
+	"." sent @punct #5->3
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->4
+"<bu>"
+	"bu" det dem @det #2->3
+"<adiseni>"
+	"adise" n acc @dobj #3->4
+"<unutacaq>"
+	"unut" v tv gpr_fut2 @root #4->0
+"<ekenim>"
+	"e" cop aor evid p1 sg @aux #5->4
+"<.>"
+	"." sent @punct #6->4
+
+"<Menim>"
+	"men" prn pers p1 sg gen @nmod:poss #1->2
+"<dostum>"
+	"dost" n px1sg nom @nsubj #2->4
+"<evde>"
+	"ev" n loc @nmod #3->4
+"<yaşasa>"
+	"yaşa" v iv gna_cond p3 sg @advcl #4->8
+"<onıñ>"
+	"o" prn pers p3 sg gen @nmod:poss #5->6
+"<qorantası>"
+	"qoranta" n px3sp nom @nsubj #6->8
+"<çoq>"
+	"çoq" adv @advmod #7->8
+"<razı>"
+	"razı" adj @root #8->0
+		"e" cop aor p3 sg @cop #9->8
+"<.>"
+	"." sent @punct #10->8
+
+"<Tünevin>"
+	"tünevin" adv @advmod #1->2
+"<kelmegeydiñ>"
+	"kel" v iv neg opt p2 sg @root #2->0
+"<.>"
+	"." sent @punct #3->2
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<işni>"
+	"iş" n acc
+"<yapmalım>"
+	"*yapmalım"
+"<.>"
+	"." sent @punct
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj
+"<bu>"
+	"bu" det dem @det
+"<işni>"
+	"iş" n acc @dobj
+"<yapmağa>"
+	"yap" v tv ger dat
+"<mecburım>"
+	"mecbur" adj @root
+		"e" cop aor p1 sg @cop
+"<.>"
+	"." sent @punct
+
+"<Bala>"
+	"bala" n nom @nsubj
+"<oqumağa>"
+	"oqu" v tv ger dat
+"<borçlu>"
+	"borçlu" adj @root
+		"e" cop aor p3 sg @cop
+"<.>"
+	"." sent @punct
+
+"<Bala>"
+	"bala" n nom @nsubj #1->2
+"<oqumaq>"
+	"oqu" v tv ger nom @csubj #2->3
+"<kerek>"
+	"kerek" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
+"<.>"
+	"." sent @punct #5->3
+
+"<Bu>"
+	"bu" det dem @det #1->2
+"<kitapnı>"
+	"kitap" n acc @dobj #2->3
+"<oqumaq>"
+	"oqu" v tv ger nom @csubj #3->4
+"<lâzim>"
+	"lâzim" adj @root #4->0
+		"e" cop aor p3 sg @cop #5->4
+"<.>"
+	"." sent @punct #6->4
+
+"<Yazmağa>"
+	"yaz" v tv ger dat
+"<bilem>"
+	"bil" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+"<Yazmağa>"
+	"yaz" v tv ger dat
+"<bilmem>"
+	"bil" v tv neg fut p1 sg
+"<.>"
+	"." sent @punct
+
+"<Yazıp>"
+	"yaz" v tv prc_perf
+	"yaz" v tv gna_perf
+"<olam>"
+	"ol" v iv aor p1 sg
+"<.>"
+	"." sent @punct
+
+"<Maña>"
+	"men" prn pers p1 sg dat
+"<yazmaq>"
+	"yaz" v tv ger nom
+"<mümkün>"
+	"mümkün" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+"<Maña>"
+	"men" prn pers p1 sg dat
+"<yazmaq>"
+	"yaz" v tv ger nom
+"<mümkün>"
+	"mümkün" adj
+"<degil>"
+	"degil" postadv
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+"<Işlemek>"
+	"işle" v tv ger nom @csubj #1->2
+"<kerek>" 
+	"kerek" adj @root #2->0
+		"e" cop aor p3 sg @cop #3->2
+"<.>"
+	"." sent @punct #4->2
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->3
+"<işlemege>"
+	"işle" v tv ger dat @ccomp #2->3
+"<isteyim>"
+	"iste" v tv aor p1 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Yazmağa>"
+	"yaz" v tv ger dat
+"<bilem>"
+	"bil" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+"<Bu>"
+	"bu" det dem @det #1->2
+"<işni>"
+	"iş" n acc @dobj #2->4
+"<başlayaraq>"
+	"başla" v tv gna_pres @advcl #3->4
+"<bitirmeli>"
+	"bitir" v tv nec p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<Asan>"
+	"Asan" np ant m nom @nsubj #1->5
+"<evge>"
+	"ev" n dat @nmod #2->3
+"<kelip>"
+	"kel" v iv gna_perf @advcl #3->5
+"<evni>"
+	"ev" n acc @dobj #4->5
+"<temizledi>"
+	"temizle" v tv ifi p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+"<Men>"
+	"men" prn pers p1 sg nom @nsubj #1->5
+"<kitapnı>"
+	"kitap" n acc @dobj #2->5
+"<yaşikniñ>"
+	"yaşik" n gen @nmod:poss #3->4
+"<içine>"
+	"iç" n px3sp dat @nmod #4->5
+"<qoydım>"
+	"qoy" v tv ifi p1 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<kitapnı>"
+	"kitap" n acc
+"<krovat>"
+	"krovat" n nom
+	"krovat" n attr
+	"krovat" n nom
+		"e" cop aor p3 sg
+"<tübünden>"
+	"tüp" n px3sp abl
+	"tüp" n px3sp abl
+		"e" cop aor p3 sg
+"<aldım>"
+	"ald" n nom
+		"e" cop aor p1 sg
+	"al" v tv ifi p1 sg
+	"ald" n px1sg nom
+	"ald" n px1sg nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<kitapnı>"
+	"kitap" n acc
+"<oquy>"
+	"oqu" v tv aor p3 sg
+	"oqu" v tv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Siz>"
+	"siz" prn pers p2 pl nom
+"<mektürni>"
+	"mektür" n acc
+"<yazdıñız>"
+	"yaz" v tv ifi p2 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Sen>"
+	"sen" prn pers p2 sg nom
+"<qırımtatarsıñ>"
+	"qırımtatar" n nom
+		"e" cop aor p2 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<yedi>"
+	"yedi" num
+	"yedi" num subst nom
+	"yedi" num subst nom
+		"e" cop aor p3 sg
+"<evni>"
+	"ev" n acc
+"<körem>"
+	"kör" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<evlerniñ>"
+	"ev" n pl gen
+"<birincisinde>"
+	"bir" num ord subst px3sp loc
+	"bir" num ord subst px3sp nom
+		"da" postadv
+	"bir" num ord subst px3sp nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"bir" num ord subst px3sp loc
+		"e" cop aor p3 sg
+"<yaşayım>"
+	"yaşa" v iv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Asan>"
+	"Asan" np ant m nom
+	"Asan" np ant m nom
+		"e" cop aor p3 sg
+"<ve>"
+	"ve" cnjcoo
+"<Veli>"
+	"Veli" np ant m nom
+	"Veli" np ant m nom
+		"e" cop aor p3 sg
+"<evge>"
+	"ev" n dat
+"<keldiler>"
+	"kel" v iv ifi p3 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<qarandaş>"
+	"qarandaş" n attr
+	"qarandaş" n nom
+	"qarandaş" n nom
+		"e" cop aor p3 sg
+"<degil>"
+	"degil" postadv
+		"e" cop aor p3 sg
+"<amma>"
+	"amma" cnjcoo
+"<qalemdir>"
+	"qale" n px1sg nom
+		"e" cop aor p3 pl
+	"qale" n px1sg nom
+		"e" cop aor p3 sg
+	"qalem" n nom
+		"e" cop aor p3 pl
+	"qalem" n nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Remziye>"
+	"Remziye" np ant f nom
+	"Remziye" np ant f nom
+		"e" cop aor p3 sg
+"<yırlay>"
+	"yırla" v tv aor p3 sg
+	"yırla" v tv prc_impf
+"<Mafuze>"
+	"Mafuze" np ant f nom
+	"Mafuze" np ant f nom
+		"e" cop aor p3 sg
+"<ise>"
+	"ise" cnjcoo
+"<oynay>"
+	"oyna" v tv aor p3 sg
+	"oyna" v tv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<oynay>"
+	"oyna" v tv aor p3 sg
+	"oyna" v tv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Qayıq>"
+	"qayıq" n nom
+	"qayıq" n attr
+	"qayıq" n nom
+		"e" cop aor p3 sg
+"<battı>"
+	"bat" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<tünevin>"
+	"tünevin" adv
+"<kitapnı>"
+	"kitap" n acc
+"<oqudı>"
+	"oqu" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<saba>"
+	"saba" n nom
+	"saba" n attr
+	"saba" n nom
+		"e" cop aor p3 sg
+"<erte>"
+	"erte" adj
+	"erte" adj
+		"e" cop aor p3 sg
+"<turup>"
+	"tur" v iv prc_perf
+	"tur" v iv gna_perf
+"<başta>"
+	"baş" n loc
+	"baş" n loc
+		"e" cop aor p3 sg
+"<bir>"
+	"bir" num
+	"bir" num subst nom
+	"bir" num subst nom
+		"e" cop aor p3 sg
+"<azbarlarnı>"
+	"azbar" n pl acc
+"<aylanıp>"
+	"aylan" v iv prc_perf
+	"aylan" v iv gna_perf
+"<baqıp>"
+	"baq" v tv prc_perf
+	"baq" v tv gna_perf
+"<çıqam>"
+	"çıq" v iv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Biz>"
+	"biz" prn pers p1 pl nom
+"<bir>"
+	"bir" num
+	"bir" num subst nom
+	"bir" num subst nom
+		"e" cop aor p3 sg
+"<kesek>"
+	"kesek" n nom
+	"kesek" n attr
+	"kesek" n nom
+		"e" cop aor p3 sg
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<yata>"
+	"yat" v iv aor p3 sg
+	"yat" v iv prc_impf
+"<yuqlay>"
+	"yuqla" v iv aor p3 sg
+	"yuqla" v iv prc_impf
+"<edik>"
+	"e" cop ifi p1 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<kitap>"
+	"kitap" n nom
+	"kitap" n attr
+	"kitap" n nom
+		"e" cop aor p3 sg
+"<oquy>"
+	"oqu" v tv aor p3 sg
+	"oqu" v tv prc_impf
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Bizler>"
+	"biz" prn pers p1 pl nom
+"<yahşı>"
+	"yahşı" adj
+	"yahşı" adj subst nom
+	"yahşı" adj
+		"e" cop aor p3 sg
+	"yahşı" adj subst nom
+		"e" cop aor p3 sg
+"<qomşular>"
+	"qomşu" n nom
+		"e" cop aor p3 pl
+	"qomşu" n pl nom
+	"qomşu" n pl nom
+		"e" cop aor p3 sg
+"<edik>"
+	"e" cop ifi p1 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<tünevin>"
+	"tünevin" adv
+"<kitapnı>"
+	"kitap" n acc
+"<qızçıqqa>"
+	"qızçıq" n dat
+"<berdi>"
+	"ber" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<kitap>"
+	"kitap" n nom
+	"kitap" n attr
+	"kitap" n nom
+		"e" cop aor p3 sg
+"<oquy>"
+	"oqu" v tv aor p3 sg
+	"oqu" v tv prc_impf
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<hamır>"
+	"hamır" n nom
+	"hamır" n attr
+	"hamır" n nom
+		"e" cop aor p3 sg
+"<bastım>"
+	"bas" v tv ifi p1 sg
+"<.>"
+	"." sent @punct
+ 
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<ketip>"
+	"ket" v iv prc_perf
+	"ket" v iv gna_perf
+"<turğanda>"
+	"tur" v iv ger_past loc
+	"tur" v iv ger_past nom
+		"da" postadv
+	"tur" v iv past p3 sg
+		"da" postadv
+	"tur" v iv ger_past nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"tur" v iv ger_past loc
+		"e" cop aor p3 sg
+"<bir>"
+	"bir" num
+	"bir" num subst nom
+	"bir" num subst nom
+		"e" cop aor p3 sg
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<rastkele>"
+	"rastkel" v iv aor p3 sg
+	"rastkel" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Qızçıq>"
+	"qızçıq" n nom
+	"qızçıq" n attr
+	"qızçıq" n nom
+		"e" cop aor p3 sg
+"<dülber>"
+	"dülber" adj
+	"dülber" adj
+		"e" cop aor p3 sg
+"<çeçekni>"
+	"çeçek" n acc
+"<üzdi>"
+	"üz" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Qızçıq>"
+	"qızçıq" n nom
+	"qızçıq" n attr
+	"qızçıq" n nom
+		"e" cop aor p3 sg
+"<dülber>"
+	"dülber" adj
+	"dülber" adj
+		"e" cop aor p3 sg
+"<çeçek>"
+	"çeçek" n nom
+	"çeçek" n attr
+	"çeçek" n nom
+		"e" cop aor p3 sg
+"<üzdi>"
+	"üz" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Evni>"
+	"ev" n acc
+"<temizlemek>"
+	"temizle" v tv ger nom
+	"temizle" v tv ger nom
+		"e" cop aor p3 sg
+"<kerek>"
+	"kerek" adj
+	"kerek" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Ev>"
+	"ev" n nom
+	"ev" n attr
+	"ev" n nom
+		"e" cop aor p3 sg
+"<temizlemek>"
+	"temizle" v tv ger nom
+	"temizle" v tv ger nom
+		"e" cop aor p3 sg
+"<kerek>"
+	"kerek" adj
+	"kerek" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<onıñ>"
+	"o" prn dem gen
+	"on" num subst px2sg nom
+	"o" prn pers p3 sg gen
+	"on" num subst px2sg nom
+		"e" cop aor p3 sg
+"<evini>"
+	"ev" n px3sp acc
+"<kördim>"
+	"kör" v tv ifi p1 sg
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Qızbalanıñ>"
+	"qızbala" n gen
+"<dostunı>"
+	"dost" n px3sp acc
+"<men>"
+	"men" prn pers p1 sg nom
+"<yahşı>"
+	"yahşı" adj
+	"yahşı" adj subst nom
+	"yahşı" adj
+		"e" cop aor p3 sg
+	"yahşı" adj subst nom
+		"e" cop aor p3 sg
+"<bilem>"
+	"bil" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Qırımnı>"
+	"qır" n px1sg acc
+	"Qırım" np top acc
+"<aldılar>"
+	"al" v tv ifi p3 pl
+	"al" n nom
+		"e" cop ifi p3 pl
+	"ald" n px3sp nom
+		"e" cop aor p3 pl
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Qızçıq>"
+	"qızçıq" n nom
+	"qızçıq" n attr
+	"qızçıq" n nom
+		"e" cop aor p3 sg
+"<bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<çeçek>"
+	"çeçek" n nom
+	"çeçek" n attr
+	"çeçek" n nom
+		"e" cop aor p3 sg
+"<üzdi>"
+	"üz" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<bunı>"
+	"bu" prn dem acc
+"<bilem>"
+	"bil" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Mısırboğdaynı>"
+	"mısırboğday" n acc
+"<aşadılar>"
+	"aşa" v tv ifi p3 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ağamnıñ>"
+	"ağa" n px1sg gen
+"<közleri>"
+	"köz" n pl px3sp nom
+	"köz" n pl px3sp nom
+		"e" cop aor p3 sg
+"<kök>"
+	"kök" n nom
+	"kök" n attr
+	"kök" n nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Filcan>"
+	"filcan" n nom
+	"filcan" n attr
+	"filcan" n nom
+		"e" cop aor p3 sg
+"<tabanğa>"
+	"taban" n dat
+"<tüşti>"
+	"tüş" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+ 
+
+
+"<Suvğa>"
+	"suv" n dat
+"<tuz>"
+	"tuz" n nom
+	"tuz" n attr
+	"tuz" n nom
+		"e" cop aor p3 sg
+"<qoşmaq>"
+	"qoş" v tv ger nom
+	"qoş" v tv ger nom
+		"e" cop aor p3 sg
+"<kerek>"
+	"kerek" adj
+	"kerek" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Ana>"
+	"ana" n nom
+	"ana" n attr
+	"ana" n nom
+		"e" cop aor p3 sg
+"<balasına>"
+	"bala" n px3sp dat
+"<yardım>"
+	"yardım" n nom
+	"yardım" n attr
+	"yardım" n nom
+		"e" cop aor p3 sg
+"<etti>"
+	"et" v tv ifi p3 sg
+	"et" n nom
+		"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Işlemege>"
+	"işle" v tv ger dat
+"<isteyim>"
+	"iste" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<dostum>"
+	"dost" n nom
+		"e" cop aor p1 sg
+	"dost" n px1sg nom
+	"dost" n px1sg nom
+		"e" cop aor p3 sg
+"<bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<evde>"
+	"ev" n loc
+	"ev" n nom
+		"da" postadv
+	"ev" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ev" n loc
+		"e" cop aor p3 sg
+"<yaşay>"
+	"yaşa" v iv aor p3 sg
+	"yaşa" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Anamda>"
+	"ana" n px1sg loc
+	"ana" n px1sg nom
+		"da" postadv
+	"ana" n px1sg nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ana" n px1sg loc
+		"e" cop aor p3 sg
+"<musafir>"
+	"musafir" n nom
+	"musafir" n attr
+	"musafir" n nom
+		"e" cop aor p3 sg
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Okupatsiyada>"
+	"okupatsiya" n loc
+	"okupatsiya" n nom
+		"da" postadv
+	"okupatsiya" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"okupatsiya" n loc
+		"e" cop aor p3 sg
+"<oldıq>"
+	"ol" v iv ifi p1 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<evden>"
+	"ev" n abl
+	"ev" n abl
+		"e" cop aor p3 sg
+"<saat>"
+	"saat" n nom
+	"saat" n attr
+	"saat" n nom
+		"e" cop aor p3 sg
+"<beşte>"
+	"beş" num subst loc
+	"beş" num subst loc
+		"e" cop aor p3 sg
+"<ketti>"
+	"ket" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<divanda>"
+	"divan" n loc
+	"divan" n nom
+		"da" postadv
+	"divan" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"divan" n loc
+		"e" cop aor p3 sg
+"<otura>"
+	"otur" v iv aor p3 sg
+	"otur" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Qırq>"
+	"qırq" num
+	"qırq" num subst nom
+	"qırq" num subst nom
+		"e" cop aor p3 sg
+"<dörtünci>"
+	"dört" num ord
+	"dört" num ord subst nom
+	"dört" num ord subst nom
+		"e" cop aor p3 sg
+"<seneleri>"
+	"sene" n pl px3sp nom
+	"sene" n pl px3sp nom
+		"e" cop aor p3 sg
+"<bizlerni>"
+	"biz" prn pers p1 pl acc
+"<qırımtatarlarnı>"
+	"qırımtatar" n pl acc
+"<Qırımdan>"
+	"qır" n px1sg abl
+	"Qırım" np top abl
+	"qır" n px1sg abl
+		"e" cop aor p3 sg
+	"Qırım" np top abl
+		"e" cop aor p3 sg
+"<çeşittürlü>"
+	"çeşittürlü" adv
+"<yerlerge>"
+	"yer" n pl dat
+"<köçürdiler>"
+	"köçür" v tv ifi p3 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Ağam>"
+	"ağa" n px1sg nom
+	"ağa" n px1sg nom
+		"e" cop aor p3 sg
+"<kimni>"
+	"kim" prn itg acc
+"<pencereden>"
+	"pencere" n abl
+	"pencere" n abl
+		"e" cop aor p3 sg
+"<kördi>"
+	"kör" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<bundan>"
+	"bu" prn dem abl
+"<bezdim>"
+	"bez" v iv ifi p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<tünevin>"
+	"tünevin" adv
+"<kitabını>"
+	"kitap" n px3sp acc
+"<bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<qızçıqqa>"
+	"qızçıq" n dat
+"<berdi>"
+	"ber" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<tünevin>"
+	"tünevin" adv
+"<kitabını>"
+	"kitap" n px3sp acc
+"<bir>"
+	"bir" num
+	"bir" num subst nom
+	"bir" num subst nom
+		"e" cop aor p3 sg
+"<qızçıqqa>"
+	"qızçıq" n dat
+"<berdi>"
+	"ber" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<tünevin>"
+	"tünevin" adv
+"<bir>"
+	"bir" num
+	"bir" num subst nom
+	"bir" num subst nom
+		"e" cop aor p3 sg
+"<qızçıqqa>"
+	"qızçıq" n dat
+"<alma>"
+	"al" n px1sg dat
+	"alma" n nom
+	"alma" n attr
+	"al" v tv neg imp p2 sg
+	"alma" n nom
+		"e" cop aor p3 sg
+"<berdi>"
+	"ber" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<tünevin>"
+	"tünevin" adv
+"<şu>"
+	"şu" prn dem nom
+	"şu" det dem
+"<qızçıqqa>"
+	"qızçıq" n dat
+"<alma>"
+	"al" n px1sg dat
+	"alma" n nom
+	"alma" n attr
+	"al" v tv neg imp p2 sg
+	"alma" n nom
+		"e" cop aor p3 sg
+"<berdi>"
+	"ber" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<evden>"
+	"ev" n abl
+	"ev" n abl
+		"e" cop aor p3 sg
+"<tez>"
+	"tez" adj
+	"tez" adj
+		"e" cop aor p3 sg
+"<çıqtı>"
+	"çıq" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Gemi>"
+	"gemi" n nom
+	"gemi" n attr
+	"gemi" n nom
+		"e" cop aor p3 sg
+"<battı>"
+	"bat" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Deñizci>"
+	"deñizci" n nom
+	"deñizci" n attr
+	"deñizci" n nom
+		"e" cop aor p3 sg
+"<gemini>"
+	"gemi" n acc
+"<batırdı>"
+	"batır" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Deñizci>"
+	"deñizci" n nom
+	"deñizci" n attr
+	"deñizci" n nom
+		"e" cop aor p3 sg
+"<kapitannıñ>"
+	"kapitan" n gen
+"<ricasına>"
+	"rica" n px3sp dat
+"<köre>"
+	"kör" v tv aor p3 sg
+	"kör" v tv prc_impf
+"<gemini>"
+	"gemi" n acc
+"<battırdı>"
+	"battır" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<suv>"
+	"suv" n nom
+	"suv" n attr
+	"suv" n nom
+		"e" cop aor p3 sg
+"<içe>"
+	"iç" v tv aor p3 sg
+	"iç" v tv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Ana>"
+	"ana" n nom
+	"ana" n attr
+	"ana" n nom
+		"e" cop aor p3 sg
+"<balasına>"
+	"bala" n px3sp dat
+"<suv>"
+	"suv" n nom
+	"suv" n attr
+	"suv" n nom
+		"e" cop aor p3 sg
+"<içirdi>"
+	"içir" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Ana>"
+	"ana" n nom
+	"ana" n attr
+	"ana" n nom
+		"e" cop aor p3 sg
+"<balasına>"
+	"bala" n px3sp dat
+"<suv>"
+	"suv" n nom
+	"suv" n attr
+	"suv" n nom
+		"e" cop aor p3 sg
+"<içtirdi>"
+	"içtir" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Ana>"
+	"ana" n nom
+	"ana" n attr
+	"ana" n nom
+		"e" cop aor p3 sg
+"<balasına>"
+	"bala" n px3sp dat
+"<suv>"
+	"suv" n nom
+	"suv" n attr
+	"suv" n nom
+		"e" cop aor p3 sg
+"<içtirtdi>"
+	"*içtirtdi"
+"<.>"
+	"." sent @punct
+
+
+
+"<Ana>"
+	"ana" n nom
+	"ana" n attr
+	"ana" n nom
+		"e" cop aor p3 sg
+"<balasına>"
+	"bala" n px3sp dat
+"<qızçıqqa>"
+	"qızçıq" n dat
+"<oyuncağını>"
+	"oyuncağ" n px3sp acc
+"<berdirtti>"
+	"berdirt" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<evni>"
+	"ev" n acc
+"<alelacele>"
+	"alelacele" adv
+"<satacaqlar>"
+	"sat" v tv fut2 p3 pl
+	"sat" v tv ger_fut2 nom
+		"e" cop aor p3 pl
+	"sat" v tv ger_fut2 pl nom
+	"sat" v tv ger_fut2 pl nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<ev>"
+	"ev" n nom
+	"ev" n attr
+	"ev" n nom
+		"e" cop aor p3 sg
+"<tezden>"
+	"tezden" adv
+"<satılacaq>"
+	"satıl" v tv ger_fut2 nom
+	"sat" v tv pass ger_fut2 nom
+	"satıl" v tv fut2 p3 sg
+	"sat" v tv pass fut2 p3 sg
+	"satıl" v tv gpr_fut2
+	"sat" v tv pass gpr_fut2
+	"satıl" v tv ger_fut2 nom
+		"e" cop aor p3 sg
+	"sat" v tv pass ger_fut2 nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Qapı>"
+	"qapı" n nom
+	"qapı" n attr
+	"qapı" n nom
+		"e" cop aor p3 sg
+"<yelden>"
+	"yel" n abl
+	"yel" n abl
+		"e" cop aor p3 sg
+"<açıldı>"
+	"aç" v tv pass ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<qapıdan>"
+	"qapı" n abl
+	"qapı" n abl
+		"e" cop aor p3 sg
+"<kirilmez>"
+	"kir" v iv pass neg fut p3 sg
+	"kir" v iv pass neg ger_fut nom
+	"kir" v iv pass neg ger_fut nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<köründim>"
+	"kör" v tv pass ifi p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<anasını>"
+	"ana" n px3sp acc
+"<taptı>"
+	"tab" v tv ifi p3 sg
+	"tap" v tv ifi p3 sg
+
+
+"<Ana>"
+	"ana" n nom
+	"ana" n attr
+	"ana" n nom
+		"e" cop aor p3 sg
+"<->"
+	"-" guio
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<tapıştılar>"
+	"tap" v tv coop ifi p3 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Olar>"
+	"olar" prn pers p3 pl nom
+"<bir-birinen>"
+	"bir-bir" prn recip px3sp ins
+	"bir-bir" prn recip px3sp ins
+		"e" cop aor p3 sg
+"<aytıştılar>"
+	"ayt" v tv coop ifi p3 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Gemi>"
+	"gemi" n nom
+	"gemi" n attr
+	"gemi" n nom
+		"e" cop aor p3 sg
+"<battı>"
+	"bat" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<kitap>"
+	"kitap" n nom
+	"kitap" n attr
+	"kitap" n nom
+		"e" cop aor p3 sg
+"<oquy>"
+	"oqu" v tv aor p3 sg
+	"oqu" v tv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ağam>"
+	"ağa" n px1sg nom
+	"ağa" n px1sg nom
+		"e" cop aor p3 sg
+"<qızçıqqa>"
+	"qızçıq" n dat
+"<alma>"
+	"al" n px1sg dat
+	"alma" n nom
+	"alma" n attr
+	"al" v tv neg imp p2 sg
+	"alma" n nom
+		"e" cop aor p3 sg
+"<berdi>"
+	"ber" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<Yaltağa>"
+	"Yalta" np top dat
+"<tünevin>"
+	"tünevin" adv
+"<bardım>"
+	"bar" v iv ifi p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<dostum>"
+	"dost" n nom
+		"e" cop aor p1 sg
+	"dost" n px1sg nom
+	"dost" n px1sg nom
+		"e" cop aor p3 sg
+"<bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<evde>"
+	"ev" n loc
+	"ev" n nom
+		"da" postadv
+	"ev" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ev" n loc
+		"e" cop aor p3 sg
+"<yaşay>"
+	"yaşa" v iv aor p3 sg
+	"yaşa" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Yaltağa>"
+	"Yalta" np top dat
+"<bardı>"
+	"bar" v iv ifi p3 sg
+	"bar" adj
+		"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Yaltağa>"
+	"Yalta" np top dat
+"<bardım>"
+	"bar" v iv ifi p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ocam>"
+	"oca" n px1sg nom
+	"oca" n px1sg nom
+		"e" cop aor p3 sg
+"<qart>"
+	"qart" adj
+	"qart" adj subst nom
+	"qart" adj
+		"e" cop aor p3 sg
+	"qart" adj subst nom
+		"e" cop aor p3 sg
+"<adam>"
+	"ada" n px1sg nom
+	"adam" n nom
+	"adam" n attr
+	"ada" n px1sg nom
+		"e" cop aor p3 sg
+	"adam" n nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ocam>"
+	"oca" n px1sg nom
+	"oca" n px1sg nom
+		"e" cop aor p3 sg
+"<qart>"
+	"qart" adj
+	"qart" adj subst nom
+	"qart" adj
+		"e" cop aor p3 sg
+	"qart" adj subst nom
+		"e" cop aor p3 sg
+"<adamdır>"
+	"ada" n px1sg nom
+		"e" cop aor p3 pl
+	"ada" n px1sg nom
+		"e" cop aor p3 sg
+	"adam" n nom
+		"e" cop aor p3 pl
+	"adam" n nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ocam>"
+	"oca" n px1sg nom
+	"oca" n px1sg nom
+		"e" cop aor p3 sg
+"<qart>"
+	"qart" adj
+	"qart" adj subst nom
+	"qart" adj
+		"e" cop aor p3 sg
+	"qart" adj subst nom
+		"e" cop aor p3 sg
+"<adam>"
+	"ada" n px1sg nom
+	"adam" n nom
+	"adam" n attr
+	"ada" n px1sg nom
+		"e" cop aor p3 sg
+	"adam" n nom
+		"e" cop aor p3 sg
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ocam>"
+	"oca" n px1sg nom
+	"oca" n px1sg nom
+		"e" cop aor p3 sg
+"<qart>"
+	"qart" adj
+	"qart" adj subst nom
+	"qart" adj
+		"e" cop aor p3 sg
+	"qart" adj subst nom
+		"e" cop aor p3 sg
+"<adam>"
+	"ada" n px1sg nom
+	"adam" n nom
+	"adam" n attr
+	"ada" n px1sg nom
+		"e" cop aor p3 sg
+	"adam" n nom
+		"e" cop aor p3 sg
+"<olacaq>"
+	"ol" v iv ger_fut2 nom
+	"ol" v iv fut2 p3 sg
+	"ol" v iv gpr_fut2
+	"ol" v iv ger_fut2 nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ağam>"
+	"ağa" n px1sg nom
+	"ağa" n px1sg nom
+		"e" cop aor p3 sg
+"<er>"
+	"er" n nom
+	"er" n attr
+	"er" det ind
+	"er" n nom
+		"e" cop aor p3 sg
+"<kün>"
+	"kün" n nom
+	"kün" n attr
+	"kün" n nom
+		"e" cop aor p3 sg
+"<şeerde>"
+	"şeer" n loc
+	"şeer" n nom
+		"da" postadv
+	"şeer" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"şeer" n loc
+		"e" cop aor p3 sg
+"<ola>"
+	"ol" v iv aor p3 sg
+	"ol" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ocam>"
+	"oca" n px1sg nom
+	"oca" n px1sg nom
+		"e" cop aor p3 sg
+"<semiz>"
+	"semiz" adj
+	"semiz" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ocam>"
+	"oca" n px1sg nom
+	"oca" n px1sg nom
+		"e" cop aor p3 sg
+"<semizdir>"
+	"semiz" adj
+		"e" cop aor p3 pl
+	"semiz" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<ocam>"
+	"oca" n px1sg nom
+	"oca" n px1sg nom
+		"e" cop aor p3 sg
+"<semiz>"
+	"semiz" adj
+	"semiz" adj
+		"e" cop aor p3 sg
+"<edi>"
+	"e" cop ifi p3 sg
+"<soñ>"
+	"soñ" post
+	"soñ" n nom
+	"soñ" n attr
+	"soñ" n nom
+		"e" cop aor p3 sg
+"<azdı>"
+	"az" adj
+		"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<adam>"
+	"ada" n px1sg nom
+	"adam" n nom
+	"adam" n attr
+	"ada" n px1sg nom
+		"e" cop aor p3 sg
+	"adam" n nom
+		"e" cop aor p3 sg
+"<belli>"
+	"belli" adj
+	"belli" adj
+		"e" cop aor p3 sg
+"<olacaq>"
+	"ol" v iv ger_fut2 nom
+	"ol" v iv fut2 p3 sg
+	"ol" v iv gpr_fut2
+	"ol" v iv ger_fut2 nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<evde>"
+	"ev" n loc
+	"ev" n nom
+		"da" postadv
+	"ev" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ev" n loc
+		"e" cop aor p3 sg
+"<üç>"
+	"üç" num
+	"üç" num subst nom
+	"üç" num subst nom
+		"e" cop aor p3 sg
+"<dane>"
+	"dane" n nom
+	"dane" n attr
+	"dane" n nom
+		"e" cop aor p3 sg
+"<oda>"
+	"oda" n nom
+	"oda" n attr
+	"oda" n nom
+		"e" cop aor p3 sg
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Terekte>"
+	"terek" n loc
+	"terek" n loc
+		"e" cop aor p3 sg
+"<almalar>"
+	"alma" n nom
+		"e" cop aor p3 pl
+	"alma" n pl nom
+	"alma" n pl nom
+		"e" cop aor p3 sg
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Terekte>"
+	"terek" n loc
+	"terek" n loc
+		"e" cop aor p3 sg
+"<almalar>"
+	"alma" n nom
+		"e" cop aor p3 pl
+	"alma" n pl nom
+	"alma" n pl nom
+		"e" cop aor p3 sg
+"<yoq>"
+	"yoq" adj
+	"yoq" adj
+		"e" cop aor p3 sg
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Şimdi>"
+	"şimdi" adv
+"<bizde>"
+	"biz" prn pers p1 pl loc
+"<musafir>"
+	"musafir" n nom
+	"musafir" n attr
+	"musafir" n nom
+		"e" cop aor p3 sg
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Mende>"
+	"men" prn pers p1 sg loc
+"<kitap>"
+	"kitap" n nom
+	"kitap" n attr
+	"kitap" n nom
+		"e" cop aor p3 sg
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bağçasarayda>"
+	"Bağçasaray" np top loc
+	"Bağçasaray" np top nom
+		"da" postadv
+	"Bağçasaray" np top nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"Bağçasaray" np top loc
+		"e" cop aor p3 sg
+"<Remziyeniñ>"
+	"Remziye" np ant f gen
+"<eki>"
+	"eki" num
+	"eki" num subst nom
+	"eki" num subst nom
+		"e" cop aor p3 sg
+"<dostu>"
+	"dost" n px3sp nom
+	"dost" n px3sp nom
+		"e" cop aor p3 sg
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Menim>"
+	"men" prn pers p1 sg gen
+"<kitabım>"
+	"kitap" n nom
+		"e" cop aor p1 sg
+	"kitap" n px1sg nom
+	"kitap" n px1sg nom
+		"e" cop aor p3 sg
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Onıñ>"
+	"o" prn dem gen
+	"on" num subst px2sg nom
+	"o" prn pers p3 sg gen
+	"on" num subst px2sg nom
+		"e" cop aor p3 sg
+"<ocası>"
+	"oca" n px3sp nom
+	"oca" n px3sp nom
+		"e" cop aor p3 sg
+"<qart>"
+	"qart" adj
+	"qart" adj subst nom
+	"qart" adj
+		"e" cop aor p3 sg
+	"qart" adj subst nom
+		"e" cop aor p3 sg
+"<adammı>"
+	"ada" n px1sg nom
+		"mı" qst
+	"adam" n nom
+		"mı" qst
+	"ada" n px1sg nom
+		"e" cop aor p3 sg
+			"mı" qst
+	"adam" n nom
+		"e" cop aor p3 sg
+			"mı" qst
+"<?>"
+	"?" sent
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<kitap>"
+	"kitap" n nom
+	"kitap" n attr
+	"kitap" n nom
+		"e" cop aor p3 sg
+"<oquymı>"
+	"*oquymı"
+"<?>"
+	"?" sent
+
+
+"<Evde>"
+	"ev" n loc
+	"ev" n nom
+		"da" postadv
+	"ev" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ev" n loc
+		"e" cop aor p3 sg
+"<birev>"
+	"birev" prn ind nom
+	"birev" num coll subst nom
+	"birev" prn ind nom
+		"e" cop aor p3 sg
+	"birev" num coll advl
+	"birev" num coll subst nom
+		"e" cop aor p3 sg
+"<barmı>"
+	"bar" adj
+		"mı" qst
+	"bar" adj
+		"e" cop aor p3 sg
+			"mı" qst
+"<?>"
+	"?" sent
+
+
+"<Evde>"
+	"ev" n loc
+	"ev" n nom
+		"da" postadv
+	"ev" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ev" n loc
+		"e" cop aor p3 sg
+"<kimse>"
+	"kimse" prn ind nom
+	"kimse" prn ind nom
+		"e" cop aor p3 sg
+"<yoqmı>"
+	"yoq" adj
+		"mı" qst
+	"yoq" adj
+		"e" cop aor p3 sg
+			"mı" qst
+"<?>"
+	"?" sent
+
+
+"<Ağam>"
+	"ağa" n px1sg nom
+	"ağa" n px1sg nom
+		"e" cop aor p3 sg
+"<kimni>"
+	"kim" prn itg acc
+"<pencereden>"
+	"pencere" n abl
+	"pencere" n abl
+		"e" cop aor p3 sg
+"<kördi>"
+	"kör" v tv ifi p3 sg
+"<?>"
+	"?" sent
+
+
+"<Kim>"
+	"kim" prn itg nom
+	"kim" prn itg nom
+		"e" cop aor p3 sg
+"<kimni>"
+	"kim" prn itg acc
+"<pencereden>"
+	"pencere" n abl
+	"pencere" n abl
+		"e" cop aor p3 sg
+"<kördi>"
+	"kör" v tv ifi p3 sg
+"<?>"
+	"?" sent
+
+
+"<Kim>"
+	"kim" prn itg nom
+	"kim" prn itg nom
+		"e" cop aor p3 sg
+"<kimge>"
+	"kim" prn itg dat
+"<yardım>"
+	"yardım" n nom
+	"yardım" n attr
+	"yardım" n nom
+		"e" cop aor p3 sg
+"<etti>"
+	"et" v tv ifi p3 sg
+	"et" n nom
+		"e" cop ifi p3 sg
+"<?>"
+	"?" sent
+
+
+"<Ağam>"
+	"ağa" n px1sg nom
+	"ağa" n px1sg nom
+		"e" cop aor p3 sg
+"<bunı>"
+	"bu" prn dem acc
+"<nerede>"
+	"nerede" adv itg
+"<yaptı>"
+	"yap" v tv ifi p3 sg
+"<?>"
+	"?" sent
+
+
+"<Küneş>"
+	"küneş" n nom
+	"küneş" n attr
+	"küneş" n nom
+		"e" cop aor p3 sg
+"<çıqtı>"
+	"çıq" v iv ifi p3 sg
+"<ve>"
+	"ve" cnjcoo
+"<ava>"
+	"ava" n nom
+	"ava" n attr
+	"ava" n nom
+		"e" cop aor p3 sg
+"<qızıp>"
+	"qız" v iv prc_perf
+	"qız" v iv gna_perf
+"<başladı>"
+	"başla" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Mısırboğday>"
+	"mısırboğday" n nom
+	"mısırboğday" n attr
+	"mısırboğday" n nom
+		"e" cop aor p3 sg
+"<cıyıp>"
+	"cıy" v tv prc_perf
+	"cıy" v tv gna_perf
+"<keldiler>"
+	"kel" v iv ifi p3 pl
+"<a>"
+	"a" cnjcoo
+"<bitası>"
+	"bita" n px3sp nom
+	"bita" n px3sp nom
+		"e" cop aor p3 sg
+"<pişirip>"
+	"pişir" v tv prc_perf
+	"pişir" v tv gna_perf
+"<qoydı>"
+	"qoy" v tv ifi p3 sg
+	"qoy" n nom
+		"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<ayttı>"
+	"ayt" v tv ifi p3 sg
+"<amma>"
+	"amma" cnjcoo
+"<işni>"
+	"iş" n acc
+"<yapmadı>"
+	"yap" v tv neg ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<mesele>"
+	"mesele" n nom
+	"mesele" n attr
+	"mesele" n nom
+		"e" cop aor p3 sg
+"<mürekkep>"
+	"mürekkep" adj
+	"mürekkep" adj
+		"e" cop aor p3 sg
+"<degil>"
+	"degil" postadv
+		"e" cop aor p3 sg
+"<lakin>"
+	"lakin" cnjcoo
+"<çezilmeli>"
+	"çezil" v iv nec p3 sg
+	"çez" v tv pass nec p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Mafuze>"
+	"Mafuze" np ant f nom
+	"Mafuze" np ant f nom
+		"e" cop aor p3 sg
+"<yırlay>"
+	"yırla" v tv aor p3 sg
+	"yırla" v tv prc_impf
+"<Remziye>"
+	"Remziye" np ant f nom
+	"Remziye" np ant f nom
+		"e" cop aor p3 sg
+"<ise>"
+	"ise" cnjcoo
+"<oynay>"
+	"oyna" v tv aor p3 sg
+	"oyna" v tv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Ya>"
+	"ya" cnjcoo
+"<yağmur>"
+	"yağmur" n nom
+	"yağmur" n attr
+	"yağmur" n nom
+		"e" cop aor p3 sg
+"<yağar>"
+	"yağ" v iv fut p3 sg
+	"yağ" v iv gpr_fut
+"<ya da>"
+	"ya da" cnjcoo
+"<biz>"
+	"biz" prn pers p1 pl nom
+"<yuvunmağa>"
+	"yuv" v tv pass ger dat
+"<ketermiz>"
+	"ket" v iv fut p1 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Ağam>"
+	"ağa" n px1sg nom
+	"ağa" n px1sg nom
+		"e" cop aor p3 sg
+"<ka>"
+	"ka" cnjcoo
+"<keler>"
+	"kel" v iv fut p3 sg
+	"kel" v iv gpr_fut
+"<ka>"
+	"ka" cnjcoo
+"<kelmez>"
+	"kel" v iv neg fut p3 sg
+	"kel" v iv neg ger_fut nom
+	"kel" v iv neg ger_fut nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Bazan>"
+	"bazan" adv
+"<men>"
+	"men" prn pers p1 sg nom
+"<anda>"
+	"an" n loc
+	"anda" adv
+	"an" n nom
+		"da" postadv
+	"an" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"an" n loc
+		"e" cop aor p3 sg
+"<baram>"
+	"bar" v iv aor p1 sg
+"<bazan>"
+	"bazan" adv
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+"<barmayım>"
+	"bar" v iv neg aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Oña>"
+	"o" prn dem dat
+	"o" prn pers p3 sg dat
+"<aytmaq>"
+	"ayt" v tv ger nom
+	"ayt" v tv ger nom
+		"e" cop aor p3 sg
+"<kerek>"
+	"kerek" adj
+	"kerek" adj
+		"e" cop aor p3 sg
+"<yoqsa>"
+	"yoqsa" cnjadv
+"<o>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<kelmez>"
+	"kel" v iv neg fut p3 sg
+	"kel" v iv neg ger_fut nom
+	"kel" v iv neg ger_fut nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<çoq>"
+	"çoq" adv
+"<aş>"
+	"aş" n nom
+	"aş" n attr
+	"aş" n nom
+		"e" cop aor p3 sg
+"<alacağım>"
+	"al" v tv fut2 p1 sg
+	"al" v tv ger_fut2 nom
+		"e" cop aor p1 sg
+	"al" v tv ger_fut2 px1sg nom
+	"al" v tv ger_fut2 px1sg nom
+		"e" cop aor p3 sg
+"<çünki>"
+	"çünki" cnjsub
+"<oğlum>"
+	"oğul" n nom
+		"e" cop aor p1 sg
+	"oğul" n px1sg nom
+	"oğul" n px1sg nom
+		"e" cop aor p3 sg
+"<kelecek>"
+	"kel" v iv ger_fut2 nom
+	"kel" v iv fut2 p3 sg
+	"kel" v iv gpr_fut2
+	"kel" v iv ger_fut2 nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<kelecegini>"
+	"kel" v iv ger_fut2 px3sp acc
+"<men>"
+	"men" prn pers p1 sg nom
+"<bilem>"
+	"bil" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Kelecegini>"
+	"kel" v iv ger_fut2 px3sp acc
+"<men>"
+	"men" prn pers p1 sg nom
+"<bilem>"
+	"bil" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<kelmecegini>"
+	"*kelmecegini"
+"<men>"
+	"men" prn pers p1 sg nom
+"<bilem>"
+	"bil" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<kelecegini>"
+	"kel" v iv ger_fut2 px3sp acc
+"<men>"
+	"men" prn pers p1 sg nom
+"<bilmem>"
+	"bil" v tv neg fut p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<onıñ>"
+	"o" prn dem gen
+	"on" num subst px2sg nom
+	"o" prn pers p3 sg gen
+	"on" num subst px2sg nom
+		"e" cop aor p3 sg
+"<kelgenini>"
+	"kel" v iv ger_past px3sp acc
+"<isteyim>"
+	"iste" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Yaltada>"
+	"Yalta" np top loc
+	"Yalta" np top nom
+		"da" postadv
+	"Yalta" np top nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"Yalta" np top loc
+		"e" cop aor p3 sg
+"<sıcaq>"
+	"sıcaq" adj
+	"sıcaq" adj
+		"e" cop aor p3 sg
+"<olğanını>"
+	"ol" v iv ger_past px3sp acc
+"<eşittim>"
+	"eşit" v tv ifi p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<onıñ>"
+	"o" prn dem gen
+	"on" num subst px2sg nom
+	"o" prn pers p3 sg gen
+	"on" num subst px2sg nom
+		"e" cop aor p3 sg
+"<kelgeninden>"
+	"kel" v iv ger_past px3sp abl
+	"kel" v iv ger_past px3sp abl
+		"e" cop aor p3 sg
+"<qorqam>"
+	"qorq" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<Remziyeni>"
+	"Remziye" np ant f acc
+"<körgenini>"
+	"kör" v tv ger_past px3sp acc
+"<ayttı>"
+	"ayt" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<Remziyeni>"
+	"Remziye" np ant f acc
+"<körgenini>"
+	"kör" v tv ger_past px3sp acc
+"<ayttımı>"
+	"ayt" v tv ifi p3 sg
+		"mı" qst
+"<?>"
+	"?" sent
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<kelecegini>"
+	"kel" v iv ger_fut2 px3sp acc
+"<ayttı>"
+	"ayt" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<men>"
+	"men" prn pers p1 sg nom
+"<kelirim>"
+	"kelir" n nom
+		"e" cop aor p1 sg
+	"kelir" n px1sg nom
+	"kelir" n px1sg nom
+		"e" cop aor p3 sg
+"<dep>"
+	"de" v tv prc_perf
+"<ayttı>"
+	"ayt" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<Remziye>"
+	"Remziye" np ant f nom
+	"Remziye" np ant f nom
+		"e" cop aor p3 sg
+"<Mafuzeni>"
+	"Mafuze" np ant f acc
+"<körgenini>"
+	"kör" v tv ger_past px3sp acc
+"<ayttı>"
+	"ayt" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Qızçıqnı>"
+	"qızçıq" n acc
+"<körgen>"
+	"kör" v tv ger_past nom
+	"kör" v tv past p3 sg
+	"kör" v tv gpr_past
+	"kör" v tv ger_past nom
+		"e" cop aor p3 sg
+"<oğlançıq>"
+	"oğlançıq" n nom
+	"oğlançıq" n attr
+	"oğlançıq" n nom
+		"e" cop aor p3 sg
+"<bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<evde>"
+	"ev" n loc
+	"ev" n nom
+		"da" postadv
+	"ev" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ev" n loc
+		"e" cop aor p3 sg
+"<yaşay>"
+	"yaşa" v iv aor p3 sg
+	"yaşa" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<alma>"
+	"al" n px1sg dat
+	"alma" n nom
+	"alma" n attr
+	"al" v tv neg imp p2 sg
+	"alma" n nom
+		"e" cop aor p3 sg
+"<aşağan>"
+	"aşa" v tv ger_past nom
+	"aşa" v tv past p3 sg
+	"aşa" v tv gpr_past
+	"aşa" v tv ger_past nom
+		"e" cop aor p3 sg
+"<qızçıqnı>"
+	"qızçıq" n acc
+"<körem>"
+	"kör" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<oturğan>"
+	"otur" v iv ger_past nom
+	"otur" v iv past p3 sg
+	"otur" v iv gpr_past
+	"otur" v iv ger_past nom
+		"e" cop aor p3 sg
+"<odada>"
+	"oda" n loc
+	"oda" n nom
+		"da" postadv
+	"oda" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"oda" n loc
+		"e" cop aor p3 sg
+"<ava>"
+	"ava" n nom
+	"ava" n attr
+	"ava" n nom
+		"e" cop aor p3 sg
+"<sıcaq>"
+	"sıcaq" adj
+	"sıcaq" adj
+		"e" cop aor p3 sg
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<oğlançıq>"
+	"oğlançıq" n nom
+	"oğlançıq" n attr
+	"oğlançıq" n nom
+		"e" cop aor p3 sg
+"<alma>"
+	"al" n px1sg dat
+	"alma" n nom
+	"alma" n attr
+	"al" v tv neg imp p2 sg
+	"alma" n nom
+		"e" cop aor p3 sg
+"<bergen>"
+	"ber" v tv ger_past nom
+	"ber" v tv past p3 sg
+	"ber" v tv gpr_past
+	"ber" v tv ger_past nom
+		"e" cop aor p3 sg
+"<qızçıqnı>"
+	"qızçıq" n acc
+"<körem>"
+	"kör" v tv aor p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Qızçıq>"
+	"qızçıq" n nom
+	"qızçıq" n attr
+	"qızçıq" n nom
+		"e" cop aor p3 sg
+"<körgen>"
+	"kör" v tv ger_past nom
+	"kör" v tv past p3 sg
+	"kör" v tv gpr_past
+	"kör" v tv ger_past nom
+		"e" cop aor p3 sg
+"<oğlançıq>"
+	"oğlançıq" n nom
+	"oğlançıq" n attr
+	"oğlançıq" n nom
+		"e" cop aor p3 sg
+"<bu>"
+	"bu" prn dem nom
+	"bu" det dem
+"<evde>"
+	"ev" n loc
+	"ev" n nom
+		"da" postadv
+	"ev" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ev" n loc
+		"e" cop aor p3 sg
+"<yaşay>"
+	"yaşa" v iv aor p3 sg
+	"yaşa" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Mektür>"
+	"mektür" n nom
+	"mektür" n attr
+	"mektür" n nom
+		"e" cop aor p3 sg
+"<yazır>"
+	"yaz" v tv fut p3 sg
+	"yaz" v tv gpr_fut
+"<oturğan>"
+	"otur" v iv ger_past nom
+	"otur" v iv past p3 sg
+	"otur" v iv gpr_past
+	"otur" v iv ger_past nom
+		"e" cop aor p3 sg
+"<adam>"
+	"ada" n px1sg nom
+	"adam" n nom
+	"adam" n attr
+	"ada" n px1sg nom
+		"e" cop aor p3 sg
+	"adam" n nom
+		"e" cop aor p3 sg
+"<Qırımda>"
+	"qır" n px1sg loc
+	"Qırım" np top loc
+	"qır" n nom
+		"e" cop aor p1 sg
+			"da" postadv
+	"qır" n px1sg nom
+		"da" postadv
+	"Qırım" np top nom
+		"da" postadv
+	"qır" n px1sg nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"Qırım" np top nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"qır" n px1sg loc
+		"e" cop aor p3 sg
+	"Qırım" np top loc
+		"e" cop aor p3 sg
+"<yaşay>"
+	"yaşa" v iv aor p3 sg
+	"yaşa" v iv prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Oğlançıq>"
+	"oğlançıq" n nom
+	"oğlançıq" n attr
+	"oğlançıq" n nom
+		"e" cop aor p3 sg
+"<körgen>"
+	"kör" v tv ger_past nom
+	"kör" v tv past p3 sg
+	"kör" v tv gpr_past
+	"kör" v tv ger_past nom
+		"e" cop aor p3 sg
+"<qızçıq>"
+	"qızçıq" n nom
+	"qızçıq" n attr
+	"qızçıq" n nom
+		"e" cop aor p3 sg
+"<ketken>"
+	"ket" v iv ger_past nom
+	"ket" v iv past p3 sg
+	"ket" v iv gpr_past
+	"ket" v iv ger_past nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Qoqlasını>"
+	"qoqla" n px3sp acc
+"<coyğan>"
+	"coy" v tv ger_past nom
+	"coy" v tv past p3 sg
+	"coy" v tv gpr_past
+	"coy" v tv ger_past nom
+		"e" cop aor p3 sg
+"<qızçıq>"
+	"qızçıq" n nom
+	"qızçıq" n attr
+	"qızçıq" n nom
+		"e" cop aor p3 sg
+"<kederlendi>"
+	"kederlen" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Balaları>"
+	"bala" n pl px3sp nom
+	"bala" n pl px3sp nom
+		"e" cop aor p3 sg
+"<ösken>"
+	"ös" v iv ger_past nom
+	"ös" v iv past p3 sg
+	"ös" v iv gpr_past
+	"ös" v iv ger_past nom
+		"e" cop aor p3 sg
+"<soñ>"
+	"soñ" post
+	"soñ" n nom
+	"soñ" n attr
+	"soñ" n nom
+		"e" cop aor p3 sg
+"<olar>"
+	"olar" prn pers p3 pl nom
+"<kiçik>"
+	"kiçik" adj
+	"kiçik" adj
+		"e" cop aor p3 sg
+"<evge>"
+	"ev" n dat
+"<köçtiler>"
+	"köç" v iv ifi p3 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Mektürni>"
+	"mektür" n acc
+"<yazır>"
+	"yaz" v tv fut p3 sg
+	"yaz" v tv gpr_fut
+"<bitirgenden>"
+	"bitir" v tv ger_past abl
+	"bitir" v tv ger_past abl
+		"e" cop aor p3 sg
+"<berli>"
+	"berli" post
+"<o>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<iç bir şey>"
+	"iç bir şey" prn ind nom
+	"iç bir şey" prn ind nom
+		"e" cop aor p3 sg
+"<aytmadı>"
+	"ayt" v tv neg ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Raatlanmazdan>"
+	"raatlan" v iv neg ger_fut abl
+	"raatlan" v iv neg ger_fut abl
+		"e" cop aor p3 sg
+"<evel>"
+	"evel" post
+"<men>"
+	"men" prn pers p1 sg nom
+"<içimni>"
+	"iç" n px1sg acc
+"<bitirmek>"
+	"bitir" v tv ger nom
+	"bitir" v tv ger nom
+		"e" cop aor p3 sg
+"<keregim>"
+	"*keregim"
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<kiçkene>"
+	"kiçkene" adj
+	"kiçkene" adj
+		"e" cop aor p3 sg
+"<olğanımda>"
+	"ol" v iv ger_past px1sg loc
+	"ol" v iv past p1 sg
+		"da" postadv
+	"ol" v iv ger_past nom
+		"e" cop aor p1 sg
+			"da" postadv
+	"ol" v iv ger_past px1sg nom
+		"da" postadv
+	"ol" v iv ger_past px1sg nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ol" v iv ger_past px1sg loc
+		"e" cop aor p3 sg
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<bağçasına>"
+	"bağça" n px3sp dat
+"<bara>"
+	"bar" v iv aor p3 sg
+	"bar" v iv prc_impf
+"<edim>"
+	"e" cop ifi p1 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Eger>"
+	"eger" cnjsub
+"<yorulğan>"
+	"yorul" v iv ger_past nom
+	"yorul" v iv past p3 sg
+	"yorul" v iv gpr_past
+	"yorul" v iv ger_past nom
+		"e" cop aor p3 sg
+"<olsañ>"
+	"ol" v iv prc_cond p2 sg
+	"ol" v iv gna_cond p2 sg
+"<yarın>"
+	"yarın" adv
+"<devam>"
+	"devam" n nom
+	"devam" n attr
+	"devam" n nom
+		"e" cop aor p3 sg
+"<etermiz>"
+	"et" v tv fut p1 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Eger>"
+	"eger" cnjsub
+"<sen>"
+	"sen" prn pers p2 sg nom
+"<ertece>"
+	"ertece" adj
+	"ertece" adj
+		"e" cop aor p3 sg
+"<tursa>"
+	"tur" v iv prc_cond p3 sg
+	"tur" v iv gna_cond p3 sg
+"<ediñ>"
+	"e" cop ifi p2 sg
+"<mektepke>"
+	"mektep" n dat
+"<keç>"
+	"keç" adj
+	"keç" adj
+		"e" cop aor p3 sg
+"<qalmaz>"
+	"qal" v iv neg fut p3 sg
+	"qal" v iv neg ger_fut nom
+	"qal" v iv neg ger_fut nom
+		"e" cop aor p3 sg
+"<ediñ>"
+	"e" cop ifi p2 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Eger>"
+	"eger" cnjsub
+"<bala>"
+	"bala" n nom
+	"bala" n attr
+	"bala" n nom
+		"e" cop aor p3 sg
+"<aqşam>"
+	"aqşam" n nom
+	"aqşam" n attr
+	"aqşam" n nom
+		"e" cop aor p3 sg
+"<keç>"
+	"keç" adj
+	"keç" adj
+		"e" cop aor p3 sg
+"<yatsa>"
+	"yat" v iv prc_cond p3 sg
+	"yat" v iv gna_cond p3 sg
+"<o>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<mektepke>"
+	"mektep" n dat
+"<keç>"
+	"keç" adj
+	"keç" adj
+		"e" cop aor p3 sg
+"<qalıp>"
+	"qal" v iv prc_perf
+	"qal" v iv gna_perf
+"<kelir>"
+	"kelir" n nom
+	"kelir" n attr
+	"kelir" n nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Ekimge>"
+	"ekim" n dat
+"<evelden>"
+	"evelden" adv
+"<telefon>"
+	"telefon" n nom
+	"telefon" n attr
+	"telefon" n nom
+		"e" cop aor p3 sg
+"<açqan>"
+	"aç" v tv ger_past nom
+	"aç" v tv past p3 sg
+	"aç" v tv gpr_past
+	"aç" v tv ger_past nom
+		"e" cop aor p3 sg
+"<olsañ>"
+	"ol" v iv prc_cond p2 sg
+	"ol" v iv gna_cond p2 sg
+"<güzel>"
+	"güzel" adj
+	"güzel" adj
+		"e" cop aor p3 sg
+"<olur>"
+	"ol" v iv fut p3 sg
+	"ol" v iv gpr_fut
+"<.>"
+	"." sent @punct
+
+
+
+"<Ekimge>"
+	"ekim" n dat
+"<evelden>"
+	"evelden" adv
+"<telefon>"
+	"telefon" n nom
+	"telefon" n attr
+	"telefon" n nom
+		"e" cop aor p3 sg
+"<açqan>"
+	"aç" v tv ger_past nom
+	"aç" v tv past p3 sg
+	"aç" v tv gpr_past
+	"aç" v tv ger_past nom
+		"e" cop aor p3 sg
+"<olsañ>"
+	"ol" v iv prc_cond p2 sg
+	"ol" v iv gna_cond p2 sg
+"<güzel>"
+	"güzel" adj
+	"güzel" adj
+		"e" cop aor p3 sg
+"<olur>"
+	"ol" v iv fut p3 sg
+	"ol" v iv gpr_fut
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Eger>"
+	"eger" cnjsub
+"<Mafuze>"
+	"Mafuze" np ant f nom
+"<aş>"
+	"aş" n nom
+	"aş" n attr
+	"aş" n nom
+		"e" cop aor p3 sg
+"<pişirse>"
+	"pişir" v tv prc_cond p3 sg
+	"pişir" v tv gna_cond p3 sg
+"<o>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<tedaviylendi>"
+	"tedaviylen" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+
+
+"<Eger>"
+	"eger" cnjsub
+"<uçaq>"
+	"uçaq" n nom
+	"uçaq" n attr
+	"uçaq" n nom
+		"e" cop aor p3 sg
+"<saat>"
+	"saat" n nom
+	"saat" n attr
+	"saat" n nom
+		"e" cop aor p3 sg
+"<üçte>"
+	"üç" num subst loc
+	"üç" num subst loc
+		"e" cop aor p3 sg
+"<uçsa>"
+	"uç" v iv prc_cond p3 sg
+	"uç" v iv gna_cond p3 sg
+"<biz>"
+	"biz" prn pers p1 pl nom
+"<aeroportta>"
+	"aeroport" n loc
+	"aeroport" n loc
+		"e" cop aor p3 sg
+"<saat>"
+	"saat" n nom
+	"saat" n attr
+	"saat" n nom
+		"e" cop aor p3 sg
+"<birde>"
+	"bir" num subst loc
+	"bir" num subst nom
+		"da" postadv
+	"bir" num subst nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"bir" num subst loc
+		"e" cop aor p3 sg
+"<olmaq>"
+	"ol" v iv ger nom
+	"ol" v iv ger nom
+		"e" cop aor p3 sg
+"<kerekmiz>"
+	"kerek" adj
+		"e" cop aor p1 pl
+"<.>"
+	"." sent @punct
+
+
+
+"<Men>"
+	"men" prn pers p1 sg nom
+"<oña>"
+	"o" prn dem dat
+	"o" prn pers p3 sg dat
+"<bunı>"
+	"bu" prn dem acc
+"<aytmadım>"
+	"ayt" v tv neg ifi p1 sg
+"<.>"
+	"." sent @punct
+

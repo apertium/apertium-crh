@@ -13,11 +13,12 @@
 52	110	Onıñ evi köyde eñ balabandır.
 52	111	O episinden tatlı pahlava pişire.
 58	122	Bu qadın menim tatamdan güzel yırlay.
-
-		Menim ağam bu evde yaşay.
-		Menim ağam er kün şeerde ola.
+64	134	Men şeerge ketem.
+64	135	Menim ağam bu evde yaşay.
+64	136	Menim ağam er kün şeerde ola.
 		Menim ağam er kün şeerde olmay.
-		O mektepke keç qalıp kelir.
+65	138	Sen şimdi bunı alırsıñ.
+65	139	O mektepke keç qalıp kelir.
 
 66	142	Men mektüp yazsam dostlarım maña kelecek.
 66	144	Qırımğa keldik.
@@ -29,13 +30,18 @@
 68	151	Men bu kitapnı alacaq edim amma maña bermediler.
 69	152	Meger terekten tüşken eken.
 69	153	Men bu adiseni unutacaq ekenim.
-69	154	Men dostum evde yaşasa onıñ qorantası çoq razı.
+69	154	Menim dostum evde yaşasa onıñ qorantası çoq razı.
 71		Tünevin kelmegeydiñ.
 71	159	Men bu işni yapmalım.
 71	160	Men bu işni yapmağa mecburım.
 72	161	Bala oqumağa borçlu.
 72	162	Bala oqumaq kerek.
 72	163	Bu kitapnı oqumaq lâzim.
+72		Yazmağa bilem. 
+72		Yazmağa bilmem.
+72		Yazıp olam.
+72		Maña yazmaq mümkün. 
+72		Maña yazmaq mümkün degil.
 75		Işlemek kerek.
 75		Men işlemege isteyim.
 75		Yazmağa bilem.
