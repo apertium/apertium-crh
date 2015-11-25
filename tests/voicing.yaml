@@ -58,3 +58,7 @@ Tests:
     araba<n><px3sp><nom> : arabası
     araba<n><loc> : arabada
  
+  "Miscellaneous":
+    mektep<n><px3sp><loc> : mektebinde
+    birlik<n><nom> : birlik
+    doğ<v><tv><ifi><p3><sg> : doğdı
