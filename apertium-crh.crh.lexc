@@ -1509,8 +1509,8 @@ artqaç:artqaç N1 ; ! "излишек"
 arttırma:arttırma N1 ; ! "сбережение"
 aşağıda:aşağıda N1 ; ! "судьбы"
 asılı:asılı N1 ; ! "повешенный"
-at:at N1 ; ! "конь"
-at:ad N1 ; ! "имя" FIXME: check
+at¹:at N1 ; ! "конь"
+at²:ad N1 ; ! "имя" FIXME: check
 ata:ata N1 ; ! "пращур"
 atlas:atlas N1 ; ! "атлас"
 atom:atom N1 ; ! "атом"

@@ -17,9 +17,9 @@ Tests:
     tiş<n><nom> : tiş 
     tiş<n><px3sp><nom> : tişi
     tiş<n><loc> : tişte
-    at<n><nom> : at
-#    at<n><loc> : atta
-#    at<n><px3sp><nom> : atı
+    at¹<n><nom> : at
+    at¹<n><loc> : atta
+    at¹<n><px3sp><nom> : atı
 
   "Voicing alternations (voicing, b)":
     qas<n><nom> : qas 
@@ -34,15 +34,16 @@ Tests:
     küs<n><nom> : küs 
     küs<n><px3sp><nom> : küzü
     küs<n><loc> : küzde
-    at<n><nom> : at 
-    at<n><px3sp><nom> : adı
-    at<n><loc> : adda
+    at²<n><nom> : at 
+    at²<n><px3sp><nom> : adı
+    at²<n><loc> : adda
 
   "Voicing alternations (voicing, c)":
     tüp<n><nom> : tüp 
     tüp<n><px3sp><nom> : tübü
     tüp<n><loc> : tüpte
     kitap<n><nom> : kitap 
+    kitap<n><dat> : kitapqa
     kitap<n><px3sp><nom> : kitabı
     kitap<n><loc> : kitapta
     bilek<n><nom> : bilek 
