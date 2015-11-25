@@ -16,6 +16,7 @@
 dev/countstems.sh -text
 /modes.xml -text
 tests/cases.yaml -text
+tests/possessives.yaml -text
 tests/voicing.yaml -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
