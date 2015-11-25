@@ -66,3 +66,5 @@ Tests:
     birlik<n><nom> : birlik
     birlik<n><px3sp><nom> : birligi
     doğ<v><tv><ifi><p3><sg> : doğdı
+    doğ<v><tv><past><p3><sg> : doğğan
+    doğ<v><tv><imp><p2><sg> : doğ
