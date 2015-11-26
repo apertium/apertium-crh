@@ -598,2647 +598,1495 @@
 	"." sent @punct #6->5
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->5
 "<kitapnı>"
-	"kitap" n acc
+	"kitap" n acc @dobj #2->5
 "<krovat>"
-	"krovat" n nom
-	"krovat" n attr
-	"krovat" n nom
-		"e" cop aor p3 sg
+	"krovat" n nom @nmod:poss #3->4
 "<tübünden>"
-	"tüp" n px3sp abl
-	"tüp" n px3sp abl
-		"e" cop aor p3 sg
+	"tüp" n px3sp abl @nmod #4->5
 "<aldım>"
-	"ald" n nom
-		"e" cop aor p1 sg
-	"al" v tv ifi p1 sg
-	"ald" n px1sg nom
-	"ald" n px1sg nom
-		"e" cop aor p3 sg
+	"al" v tv ifi p1 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #1->3
 "<kitapnı>"
-	"kitap" n acc
+	"kitap" n acc @dobj #2->3
 "<oquy>"
-	"oqu" v tv aor p3 sg
-	"oqu" v tv prc_impf
+	"oqu" v tv aor p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Siz>"
-	"siz" prn pers p2 pl nom
+	"siz" prn pers p2 pl nom @nsubj #1->3
 "<mektürni>"
-	"mektür" n acc
+	"mektür" n acc @dobj #2->3
 "<yazdıñız>"
-	"yaz" v tv ifi p2 pl
+	"yaz" v tv ifi p2 pl @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Sen>"
-	"sen" prn pers p2 sg nom
+	"sen" prn pers p2 sg nom @nsubj #1->2
 "<qırımtatarsıñ>"
-	"qırımtatar" n nom
-		"e" cop aor p2 sg
-"<.>"
-	"." sent @punct
-
-
+	"qırımtatar" n nom @root #2->0
+		"e" cop aor p2 sg @cop #3->2
+"<.>" 
+	"." sent @punct #4->2
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<yedi>"
-	"yedi" num
-	"yedi" num subst nom
-	"yedi" num subst nom
-		"e" cop aor p3 sg
+	"yedi" num @nummod #2->3
 "<evni>"
-	"ev" n acc
+	"ev" n acc @dobj #3->4
 "<körem>"
-	"kör" v tv aor p1 sg
+	"kör" v tv aor p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<evlerniñ>"
-	"ev" n pl gen
+	"ev" n pl gen @nmod:poss #2->3
 "<birincisinde>"
-	"bir" num ord subst px3sp loc
-	"bir" num ord subst px3sp nom
-		"da" postadv
-	"bir" num ord subst px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"bir" num ord subst px3sp loc
-		"e" cop aor p3 sg
+	"bir" num ord subst px3sp loc @nmod #3->4
 "<yaşayım>"
-	"yaşa" v iv aor p1 sg
+	"yaşa" v iv aor p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Asan>"
-	"Asan" np ant m nom
-	"Asan" np ant m nom
-		"e" cop aor p3 sg
+	"Asan" np ant m nom @conj #1->3
 "<ve>"
-	"ve" cnjcoo
+	"ve" cnjcoo @cc #2->3
 "<Veli>"
-	"Veli" np ant m nom
-	"Veli" np ant m nom
-		"e" cop aor p3 sg
+	"Veli" np ant m nom @nsubj #3->5
 "<evge>"
-	"ev" n dat
+	"ev" n dat @nmod #4->5
 "<keldiler>"
-	"kel" v iv ifi p3 pl
+	"kel" v iv ifi p3 pl @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Bu>"
 	"bu" prn dem nom
 	"bu" det dem
 "<qarandaş>"
-	"qarandaş" n attr
 	"qarandaş" n nom
-	"qarandaş" n nom
-		"e" cop aor p3 sg
 "<degil>"
 	"degil" postadv
 		"e" cop aor p3 sg
 "<amma>"
 	"amma" cnjcoo
 "<qalemdir>"
-	"qale" n px1sg nom
-		"e" cop aor p3 pl
-	"qale" n px1sg nom
-		"e" cop aor p3 sg
 	"qalem" n nom
 		"e" cop aor p3 pl
 	"qalem" n nom
 		"e" cop aor p3 sg
 "<.>"
 	"." sent @punct
-
-
 
 "<Remziye>"
-	"Remziye" np ant f nom
-	"Remziye" np ant f nom
-		"e" cop aor p3 sg
+	"Remziye" np ant f nom @nsubj #1->2
 "<yırlay>"
-	"yırla" v tv aor p3 sg
-	"yırla" v tv prc_impf
+	"yırla" v tv aor p3 sg @conj #2->5
 "<Mafuze>"
-	"Mafuze" np ant f nom
-	"Mafuze" np ant f nom
-		"e" cop aor p3 sg
+	"Mafuze" np ant f nom @nsubj #3->5
 "<ise>"
-	"ise" cnjcoo
+	"ise" cnjcoo @cc #4->5
 "<oynay>"
-	"oyna" v tv aor p3 sg
-	"oyna" v tv prc_impf
+	"oyna" v tv aor p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->3
 "<oynay>"
-	"oyna" v tv aor p3 sg
-	"oyna" v tv prc_impf
+	"oyna" v tv aor p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Qayıq>"
-	"qayıq" n nom
-	"qayıq" n attr
-	"qayıq" n nom
-		"e" cop aor p3 sg
+	"qayıq" n nom @nsubj #1->2
 "<battı>"
-	"bat" v iv ifi p3 sg
+	"bat" v iv ifi p3 sg @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->0
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
-"<tünevin>"
-	"tünevin" adv
+	"bala" n nom @nsubj #2->5
+"<tünevin>" 
+	"tünevin" adv @advmod #3->5
 "<kitapnı>"
-	"kitap" n acc
+	"kitap" n acc @dobj #4->5
 "<oqudı>"
-	"oqu" v tv ifi p3 sg
+	"oqu" v tv ifi p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Men>"
 	"men" prn pers p1 sg nom
 "<saba>"
 	"saba" n nom
-	"saba" n attr
-	"saba" n nom
-		"e" cop aor p3 sg
 "<erte>"
 	"erte" adj
-	"erte" adj
-		"e" cop aor p3 sg
 "<turup>"
 	"tur" v iv prc_perf
 	"tur" v iv gna_perf
 "<başta>"
 	"baş" n loc
-	"baş" n loc
-		"e" cop aor p3 sg
 "<bir>"
-	"bir" num
-	"bir" num subst nom
-	"bir" num subst nom
-		"e" cop aor p3 sg
+	"bir" det ind @det
 "<azbarlarnı>"
 	"azbar" n pl acc
 "<aylanıp>"
-	"aylan" v iv prc_perf
 	"aylan" v iv gna_perf
 "<baqıp>"
-	"baq" v tv prc_perf
 	"baq" v tv gna_perf
 "<çıqam>"
 	"çıq" v iv aor p1 sg
 "<.>"
 	"." sent @punct
 
-
-
 "<Biz>"
-	"biz" prn pers p1 pl nom
+	"biz" prn pers p1 pl nom @nsubj
 "<bir>"
-	"bir" num
-	"bir" num subst nom
-	"bir" num subst nom
-		"e" cop aor p3 sg
+	"bir" num @det
 "<kesek>"
-	"kesek" n nom
 	"kesek" n attr
-	"kesek" n nom
-		"e" cop aor p3 sg
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom 
 "<yata>"
-	"yat" v iv aor p3 sg
 	"yat" v iv prc_impf
 "<yuqlay>"
-	"yuqla" v iv aor p3 sg
 	"yuqla" v iv prc_impf
 "<edik>"
 	"e" cop ifi p1 pl
 "<.>"
 	"." sent @punct
 
-
-
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #1->3
 "<kitap>"
-	"kitap" n nom
-	"kitap" n attr
-	"kitap" n nom
-		"e" cop aor p3 sg
+	"kitap" n nom @dobj #2->3
 "<oquy>"
-	"oqu" v tv aor p3 sg
-	"oqu" v tv prc_impf
+	"oqu" v tv aor p3 sg @root #3->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #4->3
 
 "<Bizler>"
-	"biz" prn pers p1 pl nom
+	"biz" prn pers p1 pl nom @nsubj #1->3
 "<yahşı>"
-	"yahşı" adj
-	"yahşı" adj subst nom
-	"yahşı" adj
-		"e" cop aor p3 sg
-	"yahşı" adj subst nom
-		"e" cop aor p3 sg
+	"yahşı" adj @amod #2->3
 "<qomşular>"
-	"qomşu" n nom
-		"e" cop aor p3 pl
-	"qomşu" n pl nom
-	"qomşu" n pl nom
-		"e" cop aor p3 sg
+	"qomşu" n pl nom @root #3->0
 "<edik>"
-	"e" cop ifi p1 pl
+	"e" cop ifi p1 pl @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->6
 "<tünevin>"
-	"tünevin" adv
+	"tünevin" adv @advmod #3->6
 "<kitapnı>"
-	"kitap" n acc
+	"kitap" n acc @dobj #4->6
 "<qızçıqqa>"
-	"qızçıq" n dat
+	"qızçıq" n dat @nmod:rcp #5->6
 "<berdi>"
-	"ber" v tv ifi p3 sg
+	"ber" v tv ifi p3 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #1->3
 "<kitap>"
-	"kitap" n nom
-	"kitap" n attr
-	"kitap" n nom
-		"e" cop aor p3 sg
+	"kitap" n nom @dobj #2->3
 "<oquy>"
-	"oqu" v tv aor p3 sg
-	"oqu" v tv prc_impf
+	"oqu" v tv aor p3 sg @root #3->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #4->3
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->3
 "<hamır>"
-	"hamır" n nom
-	"hamır" n attr
-	"hamır" n nom
-		"e" cop aor p3 sg
+	"hamır" n nom @dobj #2->3
 "<bastım>"
-	"bas" v tv ifi p1 sg
+	"bas" v tv ifi p1 sg @root #3->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #4->3
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->6
 "<ketip>"
-	"ket" v iv prc_perf
-	"ket" v iv gna_perf
+	"ket" v iv prc_perf @advcl #2->6
 "<turğanda>"
-	"tur" v iv ger_past loc
-	"tur" v iv ger_past nom
-		"da" postadv
-	"tur" v iv past p3 sg
-		"da" postadv
-	"tur" v iv ger_past nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"tur" v iv ger_past loc
-		"e" cop aor p3 sg
+	"tur" vaux ger_past loc @aux #3->2
 "<bir>"
-	"bir" num
-	"bir" num subst nom
-	"bir" num subst nom
-		"e" cop aor p3 sg
+	"bir" det ind @det #4->5
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @dobj #5->6
 "<rastkele>"
-	"rastkel" v iv aor p3 sg
-	"rastkel" v iv prc_impf
+	"rastkel" v iv aor p3 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Qızçıq>"
-	"qızçıq" n nom
-	"qızçıq" n attr
-	"qızçıq" n nom
-		"e" cop aor p3 sg
+	"qızçıq" n nom @nsubj #1->4
 "<dülber>"
-	"dülber" adj
-	"dülber" adj
-		"e" cop aor p3 sg
+	"dülber" adj @amod #2->3
 "<çeçekni>"
-	"çeçek" n acc
+	"çeçek" n acc @dobj #3->4
 "<üzdi>"
-	"üz" v tv ifi p3 sg
+	"üz" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Qızçıq>"
-	"qızçıq" n nom
-	"qızçıq" n attr
-	"qızçıq" n nom
-		"e" cop aor p3 sg
+	"qızçıq" n nom @nsubj #1->4
 "<dülber>"
-	"dülber" adj
-	"dülber" adj
-		"e" cop aor p3 sg
+	"dülber" adj @amod #2->3
 "<çeçek>"
-	"çeçek" n nom
-	"çeçek" n attr
-	"çeçek" n nom
-		"e" cop aor p3 sg
+	"çeçek" n nom @dobj #3->4
 "<üzdi>"
-	"üz" v tv ifi p3 sg
+	"üz" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Evni>"
-	"ev" n acc
+	"ev" n acc @dobj #1->2
 "<temizlemek>"
-	"temizle" v tv ger nom
-	"temizle" v tv ger nom
-		"e" cop aor p3 sg
+	"temizle" v tv ger nom @csubj #2->3
 "<kerek>"
-	"kerek" adj
-	"kerek" adj
-		"e" cop aor p3 sg
+	"kerek" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #5->3
 
 "<Ev>"
-	"ev" n nom
-	"ev" n attr
-	"ev" n nom
-		"e" cop aor p3 sg
+	"ev" n nom @dobj #1->2
 "<temizlemek>"
-	"temizle" v tv ger nom
-	"temizle" v tv ger nom
-		"e" cop aor p3 sg
+	"temizle" v tv ger nom @csubj #2->3
 "<kerek>"
-	"kerek" adj
-	"kerek" adj
-		"e" cop aor p3 sg
+	"kerek" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<onıñ>"
-	"o" prn dem gen
-	"on" num subst px2sg nom
-	"o" prn pers p3 sg gen
-	"on" num subst px2sg nom
-		"e" cop aor p3 sg
+	"o" prn pers p3 sg gen @nmod:poss #2->3
 "<evini>"
-	"ev" n px3sp acc
+	"ev" n px3sp acc @dobj #3->4
 "<kördim>"
-	"kör" v tv ifi p1 sg
+	"kör" v tv ifi p1 sg @root #4->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #5->4
 
 "<Qızbalanıñ>"
-	"qızbala" n gen
+	"qızbala" n gen @nmod:poss #1->2
 "<dostunı>"
-	"dost" n px3sp acc
+	"dost" n px3sp acc @dobj #2->5
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #3->5
 "<yahşı>"
-	"yahşı" adj
-	"yahşı" adj subst nom
-	"yahşı" adj
-		"e" cop aor p3 sg
-	"yahşı" adj subst nom
-		"e" cop aor p3 sg
+	"yahşı" adj @advmod #4->5
 "<bilem>"
-	"bil" v tv aor p1 sg
+	"bil" v tv aor p1 sg @root #5->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #6->5
 
 "<Qırımnı>"
-	"qır" n px1sg acc
-	"Qırım" np top acc
+	"Qırım" np top acc @dobj #1->2
 "<aldılar>"
-	"al" v tv ifi p3 pl
-	"al" n nom
-		"e" cop ifi p3 pl
-	"ald" n px3sp nom
-		"e" cop aor p3 pl
+	"al" v tv ifi p3 pl @root #2->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #3->2
 
 "<Qızçıq>"
-	"qızçıq" n nom
-	"qızçıq" n attr
-	"qızçıq" n nom
-		"e" cop aor p3 sg
+	"qızçıq" n nom @nsubj #1->4
 "<bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #2->3
 "<çeçek>"
-	"çeçek" n nom
-	"çeçek" n attr
-	"çeçek" n nom
-		"e" cop aor p3 sg
+	"çeçek" n nom @dobj #3->4
 "<üzdi>"
-	"üz" v tv ifi p3 sg
+	"üz" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->3
 "<bunı>"
-	"bu" prn dem acc
+	"bu" prn dem acc @dobj #2->3
 "<bilem>"
-	"bil" v tv aor p1 sg
+	"bil" v tv aor p1 sg @root #3->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #4->3
 
 "<Mısırboğdaynı>"
-	"mısırboğday" n acc
+	"mısırboğday" n acc @dobj #1->2
 "<aşadılar>"
-	"aşa" v tv ifi p3 pl
+	"aşa" v tv ifi p3 pl @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ağamnıñ>"
-	"ağa" n px1sg gen
+	"ağa" n px1sg gen @nmod:poss #2->3
 "<közleri>"
-	"köz" n pl px3sp nom
-	"köz" n pl px3sp nom
-		"e" cop aor p3 sg
+	"köz" n pl px3sp nom @nsubj #3->4
 "<kök>"
-	"kök" n nom
-	"kök" n attr
-	"kök" n nom
-		"e" cop aor p3 sg
+	"kök" adj @root #4->0
+		"e" cop aor p3 sg @cop #5->4
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->4
 
 "<Filcan>"
-	"filcan" n nom
-	"filcan" n attr
-	"filcan" n nom
-		"e" cop aor p3 sg
+	"filcan" n nom @nsubj #1->3
 "<tabanğa>"
-	"taban" n dat
+	"taban" n dat @nmod #2->3
 "<tüşti>"
-	"tüş" v iv ifi p3 sg
+	"tüş" v iv ifi p3 sg @root #3->0
 "<.>"
-	"." sent @punct
- 
-
+	"." sent @punct #4->3
 
 "<Suvğa>"
-	"suv" n dat
+	"suv" n dat @nmod #1->3
 "<tuz>"
-	"tuz" n nom
-	"tuz" n attr
-	"tuz" n nom
-		"e" cop aor p3 sg
+	"tuz" n nom @dobj #2->3
 "<qoşmaq>"
-	"qoş" v tv ger nom
-	"qoş" v tv ger nom
-		"e" cop aor p3 sg
+	"qoş" v tv ger nom @csubj #3->4
 "<kerek>"
-	"kerek" adj
-	"kerek" adj
-		"e" cop aor p3 sg
+	"kerek" adj @root #4->0
+		"e" cop aor p3 sg @cop #5->4
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->4
 
 "<Ana>"
-	"ana" n nom
-	"ana" n attr
-	"ana" n nom
-		"e" cop aor p3 sg
+	"ana" n nom @nsubj #1->4
 "<balasına>"
-	"bala" n px3sp dat
+	"bala" n px3sp dat @nmod:rcp #2->4
 "<yardım>"
-	"yardım" n nom
-	"yardım" n attr
-	"yardım" n nom
-		"e" cop aor p3 sg
+	"yardım" n nom @dobj #3->4
 "<etti>"
-	"et" v tv ifi p3 sg
-	"et" n nom
-		"e" cop ifi p3 sg
+	"et" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Işlemege>"
-	"işle" v tv ger dat
+	"işle" v tv ger dat @ccomp #1->2
 "<isteyim>"
-	"iste" v tv aor p1 sg
+	"iste" v tv aor p1 sg @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<dostum>"
-	"dost" n nom
-		"e" cop aor p1 sg
-	"dost" n px1sg nom
-	"dost" n px1sg nom
-		"e" cop aor p3 sg
+	"dost" n px1sg nom @nsubj #2->5
 "<bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #3->4
 "<evde>"
-	"ev" n loc
-	"ev" n nom
-		"da" postadv
-	"ev" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ev" n loc
-		"e" cop aor p3 sg
+	"ev" n loc @nmod #4->5
 "<yaşay>"
-	"yaşa" v iv aor p3 sg
-	"yaşa" v iv prc_impf
+	"yaşa" v iv aor p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Anamda>"
-	"ana" n px1sg loc
-	"ana" n px1sg nom
-		"da" postadv
-	"ana" n px1sg nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ana" n px1sg loc
-		"e" cop aor p3 sg
+	"ana" n px1sg loc @nmod #1->3
 "<musafir>"
-	"musafir" n nom
-	"musafir" n attr
-	"musafir" n nom
-		"e" cop aor p3 sg
+	"musafir" n nom @nsubj #2->3
 "<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
+	"bar" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Okupatsiyada>"
-	"okupatsiya" n loc
-	"okupatsiya" n nom
-		"da" postadv
-	"okupatsiya" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"okupatsiya" n loc
-		"e" cop aor p3 sg
+	"okupatsiya" n loc @nmod #1->2
 "<oldıq>"
-	"ol" v iv ifi p1 pl
+	"ol" v iv ifi p1 pl @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj
 "<evden>"
-	"ev" n abl
-	"ev" n abl
-		"e" cop aor p3 sg
+	"ev" n abl @nmod
 "<saat>"
-	"saat" n nom
 	"saat" n attr
-	"saat" n nom
-		"e" cop aor p3 sg
 "<beşte>"
 	"beş" num subst loc
-	"beş" num subst loc
-		"e" cop aor p3 sg
 "<ketti>"
-	"ket" v iv ifi p3 sg
+	"ket" v iv ifi p3 sg @root
 "<.>"
 	"." sent @punct
-
-
 
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #1->3
 "<divanda>"
-	"divan" n loc
-	"divan" n nom
-		"da" postadv
-	"divan" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"divan" n loc
-		"e" cop aor p3 sg
+	"divan" n loc @nmod #2->3
 "<otura>"
-	"otur" v iv aor p3 sg
-	"otur" v iv prc_impf
+	"otur" v iv aor p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Qırq>"
-	"qırq" num
-	"qırq" num subst nom
-	"qırq" num subst nom
-		"e" cop aor p3 sg
+	"qırq" num @cmpnd #1->2
 "<dörtünci>"
 	"dört" num ord
-	"dört" num ord subst nom
-	"dört" num ord subst nom
-		"e" cop aor p3 sg
 "<seneleri>"
-	"sene" n pl px3sp nom
-	"sene" n pl px3sp nom
-		"e" cop aor p3 sg
+	"sene" n pl px3sp nom @nmod
 "<bizlerni>"
-	"biz" prn pers p1 pl acc
+	"biz" prn pers p1 pl acc @x
 "<qırımtatarlarnı>"
-	"qırımtatar" n pl acc
+	"qırımtatar" n pl acc @x
 "<Qırımdan>"
-	"qır" n px1sg abl
-	"Qırım" np top abl
-	"qır" n px1sg abl
-		"e" cop aor p3 sg
-	"Qırım" np top abl
-		"e" cop aor p3 sg
+	"Qırım" np top abl @nmod
 "<çeşittürlü>"
-	"çeşittürlü" adv
+	"çeşittürlü" adv @advmod
 "<yerlerge>"
-	"yer" n pl dat
+	"yer" n pl dat @nmod
 "<köçürdiler>"
-	"köçür" v tv ifi p3 pl
+	"köçür" v tv ifi p3 pl @root
 "<.>"
 	"." sent @punct
-
-
 
 "<Ağam>"
-	"ağa" n px1sg nom
-	"ağa" n px1sg nom
-		"e" cop aor p3 sg
+	"ağa" n px1sg nom @nsubj #1->4
 "<kimni>"
-	"kim" prn itg acc
+	"kim" prn itg acc @dobj #2->4
 "<pencereden>"
-	"pencere" n abl
-	"pencere" n abl
-		"e" cop aor p3 sg
+	"pencere" n abl @nmod #3->4
 "<kördi>"
-	"kör" v tv ifi p3 sg
+	"kör" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->3
 "<bundan>"
-	"bu" prn dem abl
+	"bu" prn dem abl @nmod #2->3
 "<bezdim>"
-	"bez" v iv ifi p1 sg
+	"bez" v iv ifi p1 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->7
 "<tünevin>"
-	"tünevin" adv
+	"tünevin" adv @advmod #3->7
 "<kitabını>"
-	"kitap" n px3sp acc
+	"kitap" n px3sp acc @dobj #4->7
 "<bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #5->6
 "<qızçıqqa>"
-	"qızçıq" n dat
+	"qızçıq" n dat @nmod:rcp #6->7
 "<berdi>"
-	"ber" v tv ifi p3 sg
+	"ber" v tv ifi p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->7
 "<tünevin>"
-	"tünevin" adv
+	"tünevin" adv @advmod #3->7
 "<kitabını>"
-	"kitap" n px3sp acc
+	"kitap" n px3sp acc @dobj #4->7
 "<bir>"
-	"bir" num
-	"bir" num subst nom
-	"bir" num subst nom
-		"e" cop aor p3 sg
+	"bir" det ind @det #5->6
 "<qızçıqqa>"
-	"qızçıq" n dat
+	"qızçıq" n dat @nmod:rcp #6->7
 "<berdi>"
-	"ber" v tv ifi p3 sg
+	"ber" v tv ifi p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->7
 "<tünevin>"
-	"tünevin" adv
+	"tünevin" adv @advmod #3->7
 "<bir>"
-	"bir" num
-	"bir" num subst nom
-	"bir" num subst nom
-		"e" cop aor p3 sg
+	"bir" det ind @det #4->5
 "<qızçıqqa>"
-	"qızçıq" n dat
+	"qızçıq" n dat @nmod:rcp #5->7
 "<alma>"
-	"al" n px1sg dat
-	"alma" n nom
-	"alma" n attr
-	"al" v tv neg imp p2 sg
-	"alma" n nom
-		"e" cop aor p3 sg
+	"alma" n nom @dobj #6->7
 "<berdi>"
-	"ber" v tv ifi p3 sg
+	"ber" v tv ifi p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->7
 "<tünevin>"
-	"tünevin" adv
+	"tünevin" adv @advmod #3->7
 "<şu>"
-	"şu" prn dem nom
-	"şu" det dem
+	"şu" det dem @det #4->5
 "<qızçıqqa>"
-	"qızçıq" n dat
+	"qızçıq" n dat @nmod:rcp #5->7
 "<alma>"
-	"al" n px1sg dat
-	"alma" n nom
-	"alma" n attr
-	"al" v tv neg imp p2 sg
-	"alma" n nom
-		"e" cop aor p3 sg
+	"alma" n nom @dobj #6->7
 "<berdi>"
-	"ber" v tv ifi p3 sg
+	"ber" v tv ifi p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #1->4
 "<evden>"
-	"ev" n abl
-	"ev" n abl
-		"e" cop aor p3 sg
+	"ev" n abl @nmod #2->4
 "<tez>"
-	"tez" adj
-	"tez" adj
-		"e" cop aor p3 sg
+	"tez" adj @advmod #3->4
 "<çıqtı>"
-	"çıq" v iv ifi p3 sg
+	"çıq" v iv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Gemi>"
-	"gemi" n nom
-	"gemi" n attr
-	"gemi" n nom
-		"e" cop aor p3 sg
+	"gemi" n nom @nsubj #1->2
 "<battı>"
-	"bat" v iv ifi p3 sg
+	"bat" v iv ifi p3 sg @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<Deñizci>"
-	"deñizci" n nom
-	"deñizci" n attr
-	"deñizci" n nom
-		"e" cop aor p3 sg
-"<gemini>"
-	"gemi" n acc
+	"deñizci" n nom @nsubj #1->3
+"<gemini>" 
+	"gemi" n acc @dobj #2->3
 "<batırdı>"
-	"batır" v tv ifi p3 sg
+	"batır" v tv ifi p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Deñizci>"
-	"deñizci" n nom
-	"deñizci" n attr
-	"deñizci" n nom
-		"e" cop aor p3 sg
+	"deñizci" n nom @nsubj #1->6
 "<kapitannıñ>"
-	"kapitan" n gen
+	"kapitan" n gen @nmod:poss #2->3
 "<ricasına>"
-	"rica" n px3sp dat
+	"rica" n px3sp dat @nmod #3->6
 "<köre>"
-	"kör" v tv aor p3 sg
-	"kör" v tv prc_impf
+	"köre" post @case #4->3
 "<gemini>"
-	"gemi" n acc
+	"gemi" n acc @dobj #5->6
 "<battırdı>"
-	"battır" v tv ifi p3 sg
+	"battır" v tv ifi p3 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #1->3
 "<suv>"
-	"suv" n nom
-	"suv" n attr
-	"suv" n nom
-		"e" cop aor p3 sg
+	"suv" n nom @dobj #2->3
 "<içe>"
-	"iç" v tv aor p3 sg
-	"iç" v tv prc_impf
+	"iç" v tv aor p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Ana>"
-	"ana" n nom
-	"ana" n attr
-	"ana" n nom
-		"e" cop aor p3 sg
+	"ana" n nom @nsubj #1->4
 "<balasına>"
-	"bala" n px3sp dat
+	"bala" n px3sp dat @nmod:rcp #2->4
 "<suv>"
-	"suv" n nom
-	"suv" n attr
-	"suv" n nom
-		"e" cop aor p3 sg
+	"suv" n nom @dobj #3->4
 "<içirdi>"
-	"içir" v tv ifi p3 sg
+	"içir" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Ana>"
-	"ana" n nom
-	"ana" n attr
-	"ana" n nom
-		"e" cop aor p3 sg
+	"ana" n nom @nsubj #1->4
 "<balasına>"
-	"bala" n px3sp dat
+	"bala" n px3sp dat @nmod:rcp #2->4
 "<suv>"
-	"suv" n nom
-	"suv" n attr
-	"suv" n nom
-		"e" cop aor p3 sg
+	"suv" n nom @dobj #3->4
 "<içtirdi>"
-	"içtir" v tv ifi p3 sg
+	"içtir" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Ana>"
-	"ana" n nom
-	"ana" n attr
-	"ana" n nom
-		"e" cop aor p3 sg
+	"ana" n nom @nsubj #1->4
 "<balasına>"
-	"bala" n px3sp dat
+	"bala" n px3sp dat @nmod:rcp #2->4
 "<suv>"
-	"suv" n nom
-	"suv" n attr
-	"suv" n nom
-		"e" cop aor p3 sg
-"<içtirtdi>"
-	"*içtirtdi"
+	"suv" n nom @dobj #3->4
+"<içtirtti>"
+	"içtirt" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Ana>"
-	"ana" n nom
-	"ana" n attr
-	"ana" n nom
-		"e" cop aor p3 sg
+	"ana" n nom @nsubj #1->5
 "<balasına>"
-	"bala" n px3sp dat
+	"bala" n px3sp dat @nsubj:caus #2->5
 "<qızçıqqa>"
-	"qızçıq" n dat
+	"qızçıq" n dat @nmod:rcp #3->5
 "<oyuncağını>"
-	"oyuncağ" n px3sp acc
+	"oyuncağ" n px3sp acc @dobj #4->5
 "<berdirtti>"
-	"berdirt" v tv ifi p3 sg
+	"berdirt" v tv ifi p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #1->2
 "<evni>"
-	"ev" n acc
+	"ev" n acc @dobj #2->4
 "<alelacele>"
-	"alelacele" adv
+	"alelacele" adv @advmod #3->4
 "<satacaqlar>"
-	"sat" v tv fut2 p3 pl
-	"sat" v tv ger_fut2 nom
-		"e" cop aor p3 pl
-	"sat" v tv ger_fut2 pl nom
-	"sat" v tv ger_fut2 pl nom
-		"e" cop aor p3 sg
+	"sat" v tv fut2 p3 pl @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #1->2
 "<ev>"
-	"ev" n nom
-	"ev" n attr
-	"ev" n nom
-		"e" cop aor p3 sg
+	"ev" n nom @nsubj #2->4
 "<tezden>"
-	"tezden" adv
+	"tezden" adv @advmod #3->4
 "<satılacaq>"
-	"satıl" v tv ger_fut2 nom
-	"sat" v tv pass ger_fut2 nom
-	"satıl" v tv fut2 p3 sg
-	"sat" v tv pass fut2 p3 sg
-	"satıl" v tv gpr_fut2
-	"sat" v tv pass gpr_fut2
-	"satıl" v tv ger_fut2 nom
-		"e" cop aor p3 sg
-	"sat" v tv pass ger_fut2 nom
-		"e" cop aor p3 sg
+	"sat" v tv pass fut2 p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Qapı>"
-	"qapı" n nom
-	"qapı" n attr
-	"qapı" n nom
-		"e" cop aor p3 sg
+	"qapı" n nom @nsubj #1->3
 "<yelden>"
-	"yel" n abl
-	"yel" n abl
-		"e" cop aor p3 sg
+	"yel" n abl @nmod #2->3
 "<açıldı>"
-	"aç" v tv pass ifi p3 sg
+	"aç" v tv pass ifi p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #1->2
 "<qapıdan>"
-	"qapı" n abl
-	"qapı" n abl
-		"e" cop aor p3 sg
+	"qapı" n abl @nmod #2->3
 "<kirilmez>"
-	"kir" v iv pass neg fut p3 sg
-	"kir" v iv pass neg ger_fut nom
-	"kir" v iv pass neg ger_fut nom
-		"e" cop aor p3 sg
+	"kir" v iv pass neg fut p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->2
 "<köründim>"
-	"kör" v tv pass ifi p1 sg
+	"kör" v tv pass ifi p1 sg @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<Bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #1->3
 "<anasını>"
-	"ana" n px3sp acc
+	"ana" n px3sp acc @dobj #2->3
 "<taptı>"
-	"tab" v tv ifi p3 sg
-	"tap" v tv ifi p3 sg
-
+	"tap" v tv ifi p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
 
 "<Ana>"
-	"ana" n nom
-	"ana" n attr
-	"ana" n nom
-		"e" cop aor p3 sg
+	"ana" n nom @conj #1->3
 "<->"
-	"-" guio
+	"-" guio @cc #2->3
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #3->4
 "<tapıştılar>"
-	"tap" v tv coop ifi p3 pl
+	"tap" v tv coop ifi p3 pl @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Olar>"
-	"olar" prn pers p3 pl nom
+	"olar" prn pers p3 pl nom @nsubj #1->3
 "<bir-birinen>"
-	"bir-bir" prn recip px3sp ins
-	"bir-bir" prn recip px3sp ins
-		"e" cop aor p3 sg
+	"bir-bir" prn recip px3sp ins @nmod #2->3
 "<aytıştılar>"
-	"ayt" v tv coop ifi p3 pl
+	"ayt" v tv coop ifi p3 pl @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<Gemi>"
-	"gemi" n nom
-	"gemi" n attr
-	"gemi" n nom
-		"e" cop aor p3 sg
+	"gemi" n nom @nsubj #1->2
 "<battı>"
-	"bat" v iv ifi p3 sg
+	"bat" v iv ifi p3 sg @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->4
 "<kitap>"
-	"kitap" n nom
-	"kitap" n attr
-	"kitap" n nom
-		"e" cop aor p3 sg
+	"kitap" n nom @dobj #3->4
 "<oquy>"
-	"oqu" v tv aor p3 sg
-	"oqu" v tv prc_impf
+	"oqu" v tv aor p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ağam>"
-	"ağa" n px1sg nom
-	"ağa" n px1sg nom
-		"e" cop aor p3 sg
+	"ağa" n px1sg nom @nsubj #2->5
 "<qızçıqqa>"
-	"qızçıq" n dat
+	"qızçıq" n dat @nmod:rcp #3->5
 "<alma>"
-	"al" n px1sg dat
-	"alma" n nom
-	"alma" n attr
-	"al" v tv neg imp p2 sg
-	"alma" n nom
-		"e" cop aor p3 sg
+	"alma" n nom @dobj #4->5
 "<berdi>"
-	"ber" v tv ifi p3 sg
+	"ber" v tv ifi p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<Yaltağa>"
-	"Yalta" np top dat
+	"Yalta" np top dat @nmod #2->4
 "<tünevin>"
-	"tünevin" adv
+	"tünevin" adv @advmod #3->4
 "<bardım>"
-	"bar" v iv ifi p1 sg
+	"bar" v iv ifi p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<dostum>"
-	"dost" n nom
-		"e" cop aor p1 sg
-	"dost" n px1sg nom
-	"dost" n px1sg nom
-		"e" cop aor p3 sg
+	"dost" n px1sg nom @nsubj #2->5
 "<bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #3->4
 "<evde>"
-	"ev" n loc
-	"ev" n nom
-		"da" postadv
-	"ev" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ev" n loc
-		"e" cop aor p3 sg
-"<yaşay>"
-	"yaşa" v iv aor p3 sg
-	"yaşa" v iv prc_impf
+	"ev" n loc @nmod #4->5
+"<yaşay>" 
+	"yaşa" v iv aor p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Yaltağa>"
-	"Yalta" np top dat
+	"Yalta" np top dat @nmod #1->2
 "<bardı>"
-	"bar" v iv ifi p3 sg
-	"bar" adj
-		"e" cop ifi p3 sg
+	"bar" v iv ifi p3 sg @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<Yaltağa>"
-	"Yalta" np top dat
+	"Yalta" np top dat @nmod #1->2
 "<bardım>"
-	"bar" v iv ifi p1 sg
+	"bar" v iv ifi p1 sg @root #2->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #3->2
 
 "<Menim>"
-	"men" prn pers p1 sg gen
-"<ocam>"
-	"oca" n px1sg nom
-	"oca" n px1sg nom
-		"e" cop aor p3 sg
+	"men" prn pers p1 sg gen @nmod:poss #1->2
+"<ocam>" 
+	"oca" n px1sg nom @nsubj #2->4
 "<qart>"
-	"qart" adj
-	"qart" adj subst nom
-	"qart" adj
-		"e" cop aor p3 sg
-	"qart" adj subst nom
-		"e" cop aor p3 sg
+	"qart" adj @amod #3->4
 "<adam>"
-	"ada" n px1sg nom
-	"adam" n nom
-	"adam" n attr
-	"ada" n px1sg nom
-		"e" cop aor p3 sg
-	"adam" n nom
-		"e" cop aor p3 sg
+	"adam" n nom @root #4->0
+		"e" cop aor p3 sg @cop #5->4
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->4
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ocam>"
-	"oca" n px1sg nom
-	"oca" n px1sg nom
-		"e" cop aor p3 sg
+	"oca" n px1sg nom @nsubj #2->4
 "<qart>"
-	"qart" adj
-	"qart" adj subst nom
-	"qart" adj
-		"e" cop aor p3 sg
-	"qart" adj subst nom
-		"e" cop aor p3 sg
+	"qart" adj @amod #3->4
 "<adamdır>"
-	"ada" n px1sg nom
-		"e" cop aor p3 pl
-	"ada" n px1sg nom
-		"e" cop aor p3 sg
-	"adam" n nom
-		"e" cop aor p3 pl
-	"adam" n nom
-		"e" cop aor p3 sg
+	"adam" n nom @root #4->0
+		"e" cop aor p3 frm sg @cop #5->4
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->4
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ocam>"
-	"oca" n px1sg nom
-	"oca" n px1sg nom
-		"e" cop aor p3 sg
+	"oca" n px1sg nom @nsubj #2->4
 "<qart>"
-	"qart" adj
-	"qart" adj subst nom
-	"qart" adj
-		"e" cop aor p3 sg
-	"qart" adj subst nom
-		"e" cop aor p3 sg
+	"qart" adj @amod #3->4
 "<adam>"
-	"ada" n px1sg nom
-	"adam" n nom
-	"adam" n attr
-	"ada" n px1sg nom
-		"e" cop aor p3 sg
-	"adam" n nom
-		"e" cop aor p3 sg
+	"adam" n nom @root #4->0
 "<edi>"
-	"e" cop ifi p3 sg
+	"e" cop ifi p3 sg @cop #5->4
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->4
 
-
-
-"<Menim>"
-	"men" prn pers p1 sg gen
+"<Menim>" 
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ocam>"
-	"oca" n px1sg nom
-	"oca" n px1sg nom
-		"e" cop aor p3 sg
+	"oca" n px1sg nom @subj #2->4
 "<qart>"
-	"qart" adj
-	"qart" adj subst nom
-	"qart" adj
-		"e" cop aor p3 sg
-	"qart" adj subst nom
-		"e" cop aor p3 sg
+	"qart" adj @amod #3->4
 "<adam>"
-	"ada" n px1sg nom
-	"adam" n nom
-	"adam" n attr
-	"ada" n px1sg nom
-		"e" cop aor p3 sg
-	"adam" n nom
-		"e" cop aor p3 sg
+	"adam" n nom @root #4->0
 "<olacaq>"
-	"ol" v iv ger_fut2 nom
-	"ol" v iv fut2 p3 sg
-	"ol" v iv gpr_fut2
-	"ol" v iv ger_fut2 nom
-		"e" cop aor p3 sg
+	"ol" v iv fut2 p3 sg @cop #5->4
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->4
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ağam>"
-	"ağa" n px1sg nom
-	"ağa" n px1sg nom
-		"e" cop aor p3 sg
+	"ağa" n px1sg nom @nsubj #2->5
 "<er>"
-	"er" n nom
-	"er" n attr
-	"er" det ind
-	"er" n nom
-		"e" cop aor p3 sg
+	"er" det ind @det #3->4
 "<kün>"
-	"kün" n nom
-	"kün" n attr
-	"kün" n nom
-		"e" cop aor p3 sg
+	"kün" n nom @nmod #4->5
 "<şeerde>"
-	"şeer" n loc
-	"şeer" n nom
-		"da" postadv
-	"şeer" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"şeer" n loc
-		"e" cop aor p3 sg
+	"şeer" n loc @root #5->0
 "<ola>"
-	"ol" v iv aor p3 sg
-	"ol" v iv prc_impf
+	"ol" v iv aor p3 sg @cop #6->5
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->5
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ocam>"
-	"oca" n px1sg nom
-	"oca" n px1sg nom
-		"e" cop aor p3 sg
+	"oca" n px1sg nom @nsubj #2->3
 "<semiz>"
-	"semiz" adj
-	"semiz" adj
-		"e" cop aor p3 sg
+	"semiz" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ocam>"
-	"oca" n px1sg nom
-	"oca" n px1sg nom
-		"e" cop aor p3 sg
+	"oca" n px1sg nom @nsubj #2->3
 "<semizdir>"
-	"semiz" adj
-		"e" cop aor p3 pl
-	"semiz" adj
-		"e" cop aor p3 sg
+	"semiz" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ocam>"
-	"oca" n px1sg nom
-	"oca" n px1sg nom
-		"e" cop aor p3 sg
+	"oca" n px1sg nom @nsubj #2->3
 "<semiz>"
-	"semiz" adj
-	"semiz" adj
-		"e" cop aor p3 sg
+	"semiz" adj @conj #3->6
 "<edi>"
-	"e" cop ifi p3 sg
+	"e" cop ifi p3 sg @cop #4->3
 "<soñ>"
-	"soñ" post
-	"soñ" n nom
-	"soñ" n attr
-	"soñ" n nom
-		"e" cop aor p3 sg
+	"soñ" cnjadv @cc #5->6
 "<azdı>"
-	"az" adj
-		"e" cop ifi p3 sg
+	"az" adj @root #6->0
+		"e" cop ifi p3 sg @cop #7->6
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->6
 
 "<Bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #1->2
 "<adam>"
-	"ada" n px1sg nom
-	"adam" n nom
-	"adam" n attr
-	"ada" n px1sg nom
-		"e" cop aor p3 sg
-	"adam" n nom
-		"e" cop aor p3 sg
+	"adam" n nom @nsubj #2->3
 "<belli>"
-	"belli" adj
-	"belli" adj
-		"e" cop aor p3 sg
+	"belli" adj @root #3->0
 "<olacaq>"
-	"ol" v iv ger_fut2 nom
-	"ol" v iv fut2 p3 sg
-	"ol" v iv gpr_fut2
-	"ol" v iv ger_fut2 nom
-		"e" cop aor p3 sg
+	"ol" v iv fut2 p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det
 "<evde>"
-	"ev" n loc
-	"ev" n nom
-		"da" postadv
-	"ev" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ev" n loc
-		"e" cop aor p3 sg
+	"ev" n loc @nmod
 "<üç>"
-	"üç" num
-	"üç" num subst nom
-	"üç" num subst nom
-		"e" cop aor p3 sg
+	"üç" num @nummod
 "<dane>"
 	"dane" n nom
 	"dane" n attr
-	"dane" n nom
-		"e" cop aor p3 sg
 "<oda>"
-	"oda" n nom
-	"oda" n attr
-	"oda" n nom
-		"e" cop aor p3 sg
+	"oda" n nom 
 "<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
+	"bar" adj @root
+		"e" cop aor p3 sg @cop
 "<.>"
 	"." sent @punct
 
-
-
 "<Terekte>"
-	"terek" n loc
-	"terek" n loc
-		"e" cop aor p3 sg
+	"terek" n loc @nmod #1->3
 "<almalar>"
-	"alma" n nom
-		"e" cop aor p3 pl
-	"alma" n pl nom
-	"alma" n pl nom
-		"e" cop aor p3 sg
+	"alma" n pl nom @nsubj #2->3
 "<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
+	"bar" adj @root #3->0
 "<edi>"
-	"e" cop ifi p3 sg
+	"e" cop ifi p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Terekte>"
-	"terek" n loc
-	"terek" n loc
-		"e" cop aor p3 sg
+	"terek" n loc @nmod #1->3
 "<almalar>"
-	"alma" n nom
-		"e" cop aor p3 pl
-	"alma" n pl nom
-	"alma" n pl nom
-		"e" cop aor p3 sg
+	"alma" n pl nom @nsubj #2->3
 "<yoq>"
-	"yoq" adj
-	"yoq" adj
-		"e" cop aor p3 sg
+	"yoq" adj @root #3->0
 "<edi>"
-	"e" cop ifi p3 sg
+	"e" cop ifi p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Şimdi>"
-	"şimdi" adv
+	"şimdi" adv @advmod #1->4
 "<bizde>"
-	"biz" prn pers p1 pl loc
+	"biz" prn pers p1 pl loc @nmod #2->3
 "<musafir>"
-	"musafir" n nom
-	"musafir" n attr
-	"musafir" n nom
-		"e" cop aor p3 sg
+	"musafir" n nom @nsubj #3->4
 "<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
+	"bar" adj @root #4->0 
+		"e" cop aor p3 sg @cop #5->4
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->4
 
 "<Mende>"
-	"men" prn pers p1 sg loc
+	"men" prn pers p1 sg loc @nmod #1->3
 "<kitap>"
-	"kitap" n nom
-	"kitap" n attr
-	"kitap" n nom
-		"e" cop aor p3 sg
+	"kitap" n nom @nsubj #2->3
 "<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
-"<.>"
-	"." sent @punct
-
-
+	"bar" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
+"<.>" 
+	"." sent @punct #5->3
 
 "<Bağçasarayda>"
-	"Bağçasaray" np top loc
-	"Bağçasaray" np top nom
-		"da" postadv
-	"Bağçasaray" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"Bağçasaray" np top loc
-		"e" cop aor p3 sg
+	"Bağçasaray" np top loc @nmod #1->5
 "<Remziyeniñ>"
-	"Remziye" np ant f gen
+	"Remziye" np ant f gen @nmod:poss #2->4
 "<eki>"
-	"eki" num
-	"eki" num subst nom
-	"eki" num subst nom
-		"e" cop aor p3 sg
-"<dostu>"
-	"dost" n px3sp nom
-	"dost" n px3sp nom
-		"e" cop aor p3 sg
+	"eki" num @nummod #3->4
+"<dostu>" 
+	"dost" n px3sp nom @nsubj #4->5
 "<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
+	"bar" adj @root #5->0
+		"e" cop aor p3 sg @cop #6->5
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->5
 
 "<Menim>"
-	"men" prn pers p1 sg gen
+	"men" prn pers p1 sg gen @nmod:poss #1->3
 "<kitabım>"
-	"kitap" n nom
-		"e" cop aor p1 sg
-	"kitap" n px1sg nom
-	"kitap" n px1sg nom
-		"e" cop aor p3 sg
+	"kitap" n nom @nsubj #2->3
 "<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
+	"bar" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->3
 
 "<Onıñ>"
-	"o" prn dem gen
-	"on" num subst px2sg nom
-	"o" prn pers p3 sg gen
-	"on" num subst px2sg nom
-		"e" cop aor p3 sg
+	"o" prn pers p3 sg gen @nmod:poss #1->2
 "<ocası>"
-	"oca" n px3sp nom
-	"oca" n px3sp nom
-		"e" cop aor p3 sg
+	"oca" n px3sp nom @nsubj #2->4
 "<qart>"
-	"qart" adj
-	"qart" adj subst nom
-	"qart" adj
-		"e" cop aor p3 sg
-	"qart" adj subst nom
-		"e" cop aor p3 sg
+	"qart" adj @amod #3->4
 "<adammı>"
-	"ada" n px1sg nom
-		"mı" qst
-	"adam" n nom
-		"mı" qst
-	"ada" n px1sg nom
-		"e" cop aor p3 sg
-			"mı" qst
-	"adam" n nom
-		"e" cop aor p3 sg
-			"mı" qst
+	"adam" n nom @root #4->0
+		"e" cop aor p3 sg @cop #5->4
+			"mı" qst @disc #6->4
 "<?>"
-	"?" sent
-
+	"?" sent @punct #7->4
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" det dem @det #1->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nsubj #2->4
 "<kitap>"
-	"kitap" n nom
-	"kitap" n attr
-	"kitap" n nom
-		"e" cop aor p3 sg
+	"kitap" n nom @dobj #3->4
 "<oquymı>"
-	"*oquymı"
+	"oqu" v tv aor p3 sg @root #4->0
+		"mı" qst @disc #5->4
 "<?>"
-	"?" sent
-
+	"?" sent @punct #6->4
 
 "<Evde>"
-	"ev" n loc
-	"ev" n nom
-		"da" postadv
-	"ev" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ev" n loc
-		"e" cop aor p3 sg
+	"ev" n loc @nmod #1->3
 "<birev>"
-	"birev" prn ind nom
-	"birev" num coll subst nom
-	"birev" prn ind nom
-		"e" cop aor p3 sg
-	"birev" num coll advl
-	"birev" num coll subst nom
-		"e" cop aor p3 sg
+	"birev" prn ind nom @nsubj #2->3
 "<barmı>"
-	"bar" adj
-		"mı" qst
-	"bar" adj
-		"e" cop aor p3 sg
-			"mı" qst
-"<?>"
-	"?" sent
-
+	"bar" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
+			"mı" qst @disc #5->3
+"<?>" 
+	"?" sent @punct #6->3
 
 "<Evde>"
-	"ev" n loc
-	"ev" n nom
-		"da" postadv
-	"ev" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ev" n loc
-		"e" cop aor p3 sg
+	"ev" n loc @nmod #1->3
 "<kimse>"
-	"kimse" prn ind nom
-	"kimse" prn ind nom
-		"e" cop aor p3 sg
+	"kimse" prn ind nom @nsubj #2->3
 "<yoqmı>"
-	"yoq" adj
-		"mı" qst
-	"yoq" adj
-		"e" cop aor p3 sg
-			"mı" qst
-"<?>"
-	"?" sent
-
+	"yoq" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
+			"mı" qst @disc #5->3
+"<?>" 
+	"?" sent @punct #6->3
 
 "<Ağam>"
-	"ağa" n px1sg nom
-	"ağa" n px1sg nom
-		"e" cop aor p3 sg
+	"ağa" n px1sg nom @nsubj #1->4
 "<kimni>"
-	"kim" prn itg acc
+	"kim" prn itg acc @dobj #2->4
 "<pencereden>"
-	"pencere" n abl
-	"pencere" n abl
-		"e" cop aor p3 sg
+	"pencere" n abl @nmod #3->4
 "<kördi>"
-	"kör" v tv ifi p3 sg
+	"kör" v tv ifi p3 sg @root #4->0
 "<?>"
-	"?" sent
-
+	"?" sent @punct #5->4
 
 "<Kim>"
-	"kim" prn itg nom
-	"kim" prn itg nom
-		"e" cop aor p3 sg
+	"kim" prn itg nom @nsubj #1->4
 "<kimni>"
-	"kim" prn itg acc
+	"kim" prn itg acc @dobj #2->4
 "<pencereden>"
-	"pencere" n abl
-	"pencere" n abl
-		"e" cop aor p3 sg
+	"pencere" n abl @nmod #3->4
 "<kördi>"
-	"kör" v tv ifi p3 sg
+	"kör" v tv ifi p3 sg @root #4->0
 "<?>"
-	"?" sent
-
+	"?" sent @punct #5->4
 
 "<Kim>"
-	"kim" prn itg nom
-	"kim" prn itg nom
-		"e" cop aor p3 sg
+	"kim" prn itg nom @nsubj #1->4
 "<kimge>"
-	"kim" prn itg dat
+	"kim" prn itg dat @nmod:rcp #2->4
 "<yardım>"
-	"yardım" n nom
-	"yardım" n attr
-	"yardım" n nom
-		"e" cop aor p3 sg
+	"yardım" n nom @dobj #3->4
 "<etti>"
-	"et" v tv ifi p3 sg
-	"et" n nom
-		"e" cop ifi p3 sg
+	"et" v tv ifi p3 sg @root #4->0
 "<?>"
-	"?" sent
-
+	"?" sent @punct #5->4
 
 "<Ağam>"
-	"ağa" n px1sg nom
-	"ağa" n px1sg nom
-		"e" cop aor p3 sg
+	"ağa" n px1sg nom @nsubj #1->4
 "<bunı>"
-	"bu" prn dem acc
+	"bu" prn dem acc @dobj #2->4
 "<nerede>"
-	"nerede" adv itg
+	"nerede" adv itg @advmod #3->4
 "<yaptı>"
-	"yap" v tv ifi p3 sg
+	"yap" v tv ifi p3 sg @root #4->0
 "<?>"
-	"?" sent
-
+	"?" sent @punct #5->4
 
 "<Küneş>"
-	"küneş" n nom
-	"küneş" n attr
-	"küneş" n nom
-		"e" cop aor p3 sg
+	"küneş" n nom @nsubj
 "<çıqtı>"
-	"çıq" v iv ifi p3 sg
+	"çıq" v iv ifi p3 sg @conj
 "<ve>"
-	"ve" cnjcoo
+	"ve" cnjcoo @cc
 "<ava>"
-	"ava" n nom
-	"ava" n attr
-	"ava" n nom
-		"e" cop aor p3 sg
+	"ava" n nom @nsubj
 "<qızıp>"
-	"qız" v iv prc_perf
-	"qız" v iv gna_perf
+	"qız" v iv gna_perf @x
 "<başladı>"
-	"başla" v tv ifi p3 sg
+	"başla" v tv ifi p3 sg @x
 "<.>"
 	"." sent @punct
-
-
 
 "<Mısırboğday>"
-	"mısırboğday" n nom
-	"mısırboğday" n attr
-	"mısırboğday" n nom
-		"e" cop aor p3 sg
-"<cıyıp>"
-	"cıy" v tv prc_perf
-	"cıy" v tv gna_perf
+	"mısırboğday" n nom @dobj #1->2
+"<cıyıp>" 
+	"cıy" v tv gna_perf @advcl #2->3
 "<keldiler>"
-	"kel" v iv ifi p3 pl
+	"kel" v iv ifi p3 pl @conj #3->7
 "<a>"
-	"a" cnjcoo
+	"a" cnjcoo @cc #4->7
 "<bitası>"
-	"bita" n px3sp nom
-	"bita" n px3sp nom
-		"e" cop aor p3 sg
+	"bita" n px3sp nom @nsubj #5->7
 "<pişirip>"
-	"pişir" v tv prc_perf
-	"pişir" v tv gna_perf
+	"pişir" v tv gna_perf @x #6->7
 "<qoydı>"
-	"qoy" v tv ifi p3 sg
-	"qoy" n nom
-		"e" cop ifi p3 sg
+	"qoy" v tv ifi p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->5
 "<ayttı>"
-	"ayt" v tv ifi p3 sg
+	"ayt" v tv ifi p3 sg @conj #2->5
 "<amma>"
-	"amma" cnjcoo
+	"amma" cnjcoo @cc #3->5
 "<işni>"
-	"iş" n acc
+	"iş" n acc @dobj #4->5
 "<yapmadı>"
-	"yap" v tv neg ifi p3 sg
+	"yap" v tv neg ifi p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Bu>"
-	"bu" prn dem nom
-	"bu" det dem
-"<mesele>"
-	"mesele" n nom
-	"mesele" n attr
-	"mesele" n nom
-		"e" cop aor p3 sg
+	"bu" det dem @det #1->2
+"<mesele>" 
+	"mesele" n nom @nsubj #2->3
 "<mürekkep>"
-	"mürekkep" adj
-	"mürekkep" adj
-		"e" cop aor p3 sg
+	"mürekkep" adj @conj #3->7
 "<degil>"
-	"degil" postadv
-		"e" cop aor p3 sg
+	"degil" postadv @advmod #4->3
+		"e" cop aor p3 sg @cop #5->3
 "<lakin>"
-	"lakin" cnjcoo
+	"lakin" cnjcoo @cc #6->7
 "<çezilmeli>"
-	"çezil" v iv nec p3 sg
-	"çez" v tv pass nec p3 sg
+	"çez" v tv pass nec p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<Mafuze>"
-	"Mafuze" np ant f nom
-	"Mafuze" np ant f nom
-		"e" cop aor p3 sg
+	"Mafuze" np ant f nom @nsubj #1->2
 "<yırlay>"
-	"yırla" v tv aor p3 sg
-	"yırla" v tv prc_impf
+	"yırla" v tv aor p3 sg @conj #2->5
 "<Remziye>"
-	"Remziye" np ant f nom
-	"Remziye" np ant f nom
-		"e" cop aor p3 sg
+	"Remziye" np ant f nom @nsubj #3->5
 "<ise>"
-	"ise" cnjcoo
+	"ise" cnjcoo @cc #4->5
 "<oynay>"
-	"oyna" v tv aor p3 sg
-	"oyna" v tv prc_impf
+	"oyna" v tv aor p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Ya>"
-	"ya" cnjcoo
+	"ya" cnjcoo @cc #1->8
 "<yağmur>"
-	"yağmur" n nom
-	"yağmur" n attr
-	"yağmur" n nom
-		"e" cop aor p3 sg
+	"yağmur" n nom @nsubj #2->3
 "<yağar>"
-	"yağ" v iv fut p3 sg
-	"yağ" v iv gpr_fut
+	"yağ" v iv fut p3 sg @conj #4->8
 "<ya da>"
-	"ya da" cnjcoo
+	"ya da" cnjcoo @cc #5->8
 "<biz>"
-	"biz" prn pers p1 pl nom
+	"biz" prn pers p1 pl nom @nsubj #6->8
 "<yuvunmağa>"
-	"yuv" v tv pass ger dat
+	"yuv" v tv pass ger dat @advcl #7->8
 "<ketermiz>"
-	"ket" v iv fut p1 pl
+	"ket" v iv fut p1 pl @root #8->0
 "<.>"
-	"." sent @punct
-
-
-
+	"." sent @punct #9->8
+ 
 "<Ağam>"
-	"ağa" n px1sg nom
-	"ağa" n px1sg nom
-		"e" cop aor p3 sg
+	"ağa" n px1sg nom @nsubj #1->5
 "<ka>"
-	"ka" cnjcoo
+	"ka" cnjcoo @cc #2->5
 "<keler>"
-	"kel" v iv fut p3 sg
-	"kel" v iv gpr_fut
+	"kel" v iv fut p3 sg @conj #3->5
 "<ka>"
-	"ka" cnjcoo
+	"ka" cnjcoo @cc #4->5
 "<kelmez>"
-	"kel" v iv neg fut p3 sg
-	"kel" v iv neg ger_fut nom
-	"kel" v iv neg ger_fut nom
-		"e" cop aor p3 sg
+	"kel" v iv neg fut p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Bazan>"
-	"bazan" adv
+	"bazan" adv @advmod #1->4
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #2->4
 "<anda>"
-	"an" n loc
-	"anda" adv
-	"an" n nom
-		"da" postadv
-	"an" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"an" n loc
-		"e" cop aor p3 sg
+	"anda" adv @advmod #3->4
 "<baram>"
-	"bar" v iv aor p1 sg
+	"bar" v iv aor p1 sg @conj #4->6
 "<bazan>"
-	"bazan" adv
-"<bar>"
-	"bar" adj
-	"bar" v iv imp p2 sg
-	"bar" adj
-		"e" cop aor p3 sg
+	"bazan" adv @advmod #5->6
 "<barmayım>"
-	"bar" v iv neg aor p1 sg
+	"bar" v iv neg aor p1 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Oña>"
-	"o" prn dem dat
-	"o" prn pers p3 sg dat
+	"o" prn pers p3 sg dat @nmod:rcp #1->2
 "<aytmaq>"
-	"ayt" v tv ger nom
-	"ayt" v tv ger nom
-		"e" cop aor p3 sg
+	"ayt" v tv ger nom @csubj #2->3
 "<kerek>"
-	"kerek" adj
-	"kerek" adj
-		"e" cop aor p3 sg
+	"kerek" adj @conj #3->7
+		"e" cop aor p3 sg @cop #4->3
 "<yoqsa>"
-	"yoqsa" cnjadv
+	"yoqsa" cnjadv @cc #5->7
 "<o>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #6->7
 "<kelmez>"
-	"kel" v iv neg fut p3 sg
-	"kel" v iv neg ger_fut nom
-	"kel" v iv neg ger_fut nom
-		"e" cop aor p3 sg
+	"kel" v iv neg fut p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<çoq>"
-	"çoq" adv
+	"çoq" det qnt @det #2->3
 "<aş>"
-	"aş" n nom
-	"aş" n attr
-	"aş" n nom
-		"e" cop aor p3 sg
+	"aş" n nom @dobj #3->4
 "<alacağım>"
-	"al" v tv fut2 p1 sg
-	"al" v tv ger_fut2 nom
-		"e" cop aor p1 sg
-	"al" v tv ger_fut2 px1sg nom
-	"al" v tv ger_fut2 px1sg nom
-		"e" cop aor p3 sg
+	"al" v tv fut2 p1 sg @root #4->0
 "<çünki>"
-	"çünki" cnjsub
+	"çünki" cnjadv @mark #5->7
 "<oğlum>"
-	"oğul" n nom
-		"e" cop aor p1 sg
-	"oğul" n px1sg nom
-	"oğul" n px1sg nom
-		"e" cop aor p3 sg
+	"oğul" n px1sg nom @nsubj #6->7
 "<kelecek>"
-	"kel" v iv ger_fut2 nom
-	"kel" v iv fut2 p3 sg
-	"kel" v iv gpr_fut2
-	"kel" v iv ger_fut2 nom
-		"e" cop aor p3 sg
+	"kel" v iv fut2 p3 sg @advcl #7->4
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->4
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->2
 "<kelecegini>"
-	"kel" v iv ger_fut2 px3sp acc
+	"kel" v iv ger_fut2 px3sp acc @ccomp #2->4
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #3->4
 "<bilem>"
-	"bil" v tv aor p1 sg
+	"bil" v tv aor p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Kelecegini>"
-	"kel" v iv ger_fut2 px3sp acc
+	"kel" v iv ger_fut2 px3sp acc @ccomp #1->3
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #2->3
 "<bilem>"
-	"bil" v tv aor p1 sg
+	"bil" v tv aor p1 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
-"<kelmecegini>"
-	"*kelmecegini"
+	"o" prn pers p3 sg nom @nsubj #1->2
+"<kelmecegini>" 
+	"kel" v iv neg ger_fut2 px3sp acc @ccomp #2->4
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #3->4
 "<bilem>"
-	"bil" v tv aor p1 sg
+	"bil" v tv aor p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->2
 "<kelecegini>"
-	"kel" v iv ger_fut2 px3sp acc
+	"kel" v iv ger_fut2 px3sp acc @ccomp #2->4
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #3->4
 "<bilmem>"
-	"bil" v tv neg fut p1 sg
+	"bil" v tv neg fut p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<onıñ>"
-	"o" prn dem gen
-	"on" num subst px2sg nom
-	"o" prn pers p3 sg gen
-	"on" num subst px2sg nom
-		"e" cop aor p3 sg
+	"o" prn pers p3 sg gen @nsubj #2->3
 "<kelgenini>"
-	"kel" v iv ger_past px3sp acc
+	"kel" v iv ger_past px3sp acc @ccomp #3->4
 "<isteyim>"
-	"iste" v tv aor p1 sg
+	"iste" v tv aor p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Yaltada>"
-	"Yalta" np top loc
-	"Yalta" np top nom
-		"da" postadv
-	"Yalta" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"Yalta" np top loc
-		"e" cop aor p3 sg
+	"Yalta" np top loc @nmod #1->2
 "<sıcaq>"
-	"sıcaq" adj
-	"sıcaq" adj
-		"e" cop aor p3 sg
+	"sıcaq" adj @ccomp #2->4
 "<olğanını>"
-	"ol" v iv ger_past px3sp acc
+	"ol" v iv ger_past px3sp acc @cop #3->2
 "<eşittim>"
-	"eşit" v tv ifi p1 sg
+	"eşit" v tv ifi p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<onıñ>"
-	"o" prn dem gen
-	"on" num subst px2sg nom
-	"o" prn pers p3 sg gen
-	"on" num subst px2sg nom
-		"e" cop aor p3 sg
+	"o" prn pers p3 sg gen @nsubj #2->3
 "<kelgeninden>"
-	"kel" v iv ger_past px3sp abl
-	"kel" v iv ger_past px3sp abl
-		"e" cop aor p3 sg
+	"kel" v iv ger_past px3sp abl @ccomp #3->4
 "<qorqam>"
-	"qorq" v tv aor p1 sg
+	"qorq" v tv aor p1 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->4
 "<Remziyeni>"
-	"Remziye" np ant f acc
+	"Remziye" np ant f acc @dobj #2->3
 "<körgenini>"
-	"kör" v tv ger_past px3sp acc
+	"kör" v tv ger_past px3sp acc @ccomp #3->4
 "<ayttı>"
-	"ayt" v tv ifi p3 sg
+	"ayt" v tv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->4
 "<Remziyeni>"
-	"Remziye" np ant f acc
+	"Remziye" np ant f acc @dobj #2->3
 "<körgenini>"
-	"kör" v tv ger_past px3sp acc
+	"kör" v tv ger_past px3sp acc @ccomp #3->4
 "<ayttımı>"
-	"ayt" v tv ifi p3 sg
-		"mı" qst
-"<?>"
-	"?" sent
-
+	"ayt" v tv ifi p3 sg @root #4->0
+		"mı" qst @disc #5->4
+"<?>"  
+	"?" sent @punct #6->4
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->3
 "<kelecegini>"
-	"kel" v iv ger_fut2 px3sp acc
+	"kel" v iv ger_fut2 px3sp acc @ccomp #2->3
 "<ayttı>"
-	"ayt" v tv ifi p3 sg
+	"ayt" v tv ifi p3 sg @root #3->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #4->3
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->5
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #2->3
 "<kelirim>"
-	"kelir" n nom
-		"e" cop aor p1 sg
-	"kelir" n px1sg nom
-	"kelir" n px1sg nom
-		"e" cop aor p3 sg
+	"kel" v iv fut p1 sg @ccomp #3->4
 "<dep>"
-	"de" v tv prc_perf
+	"de" v tv gna_perf @ccomp #4->5
 "<ayttı>"
-	"ayt" v tv ifi p3 sg
+	"ayt" v tv ifi p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->5
 "<Remziye>"
-	"Remziye" np ant f nom
-	"Remziye" np ant f nom
-		"e" cop aor p3 sg
+	"Remziye" np ant f nom @nsubj #2->4
 "<Mafuzeni>"
-	"Mafuze" np ant f acc
+	"Mafuze" np ant f acc @dobj #3->4
 "<körgenini>"
-	"kör" v tv ger_past px3sp acc
+	"kör" v tv ger_past px3sp acc @ccomp #4->5
 "<ayttı>"
-	"ayt" v tv ifi p3 sg
+	"ayt" v tv ifi p3 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<Qızçıqnı>"
-	"qızçıq" n acc
+	"qızçıq" n acc @dobj #1->2
 "<körgen>"
-	"kör" v tv ger_past nom
-	"kör" v tv past p3 sg
-	"kör" v tv gpr_past
-	"kör" v tv ger_past nom
-		"e" cop aor p3 sg
+	"kör" v tv gpr_past @acl:relcl #2->3
 "<oğlançıq>"
-	"oğlançıq" n nom
-	"oğlançıq" n attr
-	"oğlançıq" n nom
-		"e" cop aor p3 sg
+	"oğlançıq" n nom @nsubj #3->6
 "<bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #4->5
 "<evde>"
-	"ev" n loc
-	"ev" n nom
-		"da" postadv
-	"ev" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ev" n loc
-		"e" cop aor p3 sg
+	"ev" n loc @nmod #5->6
 "<yaşay>"
-	"yaşa" v iv aor p3 sg
-	"yaşa" v iv prc_impf
+	"yaşa" v iv aor p3 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->5
 "<alma>"
-	"al" n px1sg dat
-	"alma" n nom
-	"alma" n attr
-	"al" v tv neg imp p2 sg
-	"alma" n nom
-		"e" cop aor p3 sg
+	"alma" n nom @dobj #2->3
 "<aşağan>"
-	"aşa" v tv ger_past nom
-	"aşa" v tv past p3 sg
-	"aşa" v tv gpr_past
-	"aşa" v tv ger_past nom
-		"e" cop aor p3 sg
+	"aşa" v tv gpr_past @acl:relcl #3->4
 "<qızçıqnı>"
-	"qızçıq" n acc
+	"qızçıq" n acc @dobj #4->5
 "<körem>"
-	"kör" v tv aor p1 sg
+	"kör" v tv aor p1 sg @root #5->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #6->5
 
 "<O>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #1->2
 "<oturğan>"
-	"otur" v iv ger_past nom
-	"otur" v iv past p3 sg
-	"otur" v iv gpr_past
-	"otur" v iv ger_past nom
-		"e" cop aor p3 sg
+	"otur" v iv gpr_past @acl:relcl #2->3
 "<odada>"
-	"oda" n loc
-	"oda" n nom
-		"da" postadv
-	"oda" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"oda" n loc
-		"e" cop aor p3 sg
+	"oda" n loc @nmod #3->5
 "<ava>"
-	"ava" n nom
-	"ava" n attr
-	"ava" n nom
-		"e" cop aor p3 sg
+	"ava" n nom @nsubj #4->5
 "<sıcaq>"
-	"sıcaq" adj
-	"sıcaq" adj
-		"e" cop aor p3 sg
+	"sıcaq" adj @root #5->0
 "<edi>"
-	"e" cop ifi p3 sg
+	"e" cop ifi p3 sg @cop #6->5
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->5
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->6
 "<oğlançıq>"
-	"oğlançıq" n nom
-	"oğlançıq" n attr
-	"oğlançıq" n nom
-		"e" cop aor p3 sg
-"<alma>"
-	"al" n px1sg dat
-	"alma" n nom
-	"alma" n attr
-	"al" v tv neg imp p2 sg
-	"alma" n nom
-		"e" cop aor p3 sg
+	"oğlançıq" n nom @nsubj #2->4
+"<alma>" 
+	"alma" n nom @dobj #3->4
 "<bergen>"
-	"ber" v tv ger_past nom
-	"ber" v tv past p3 sg
-	"ber" v tv gpr_past
-	"ber" v tv ger_past nom
-		"e" cop aor p3 sg
+	"ber" v tv gpr_past @acl:relcl #4->5
 "<qızçıqnı>"
-	"qızçıq" n acc
+	"qızçıq" n acc @dobj #5->6
 "<körem>"
-	"kör" v tv aor p1 sg
+	"kör" v tv aor p1 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Qızçıq>"
-	"qızçıq" n nom
-	"qızçıq" n attr
-	"qızçıq" n nom
-		"e" cop aor p3 sg
+	"qızçıq" n nom @dobj #1->2
 "<körgen>"
-	"kör" v tv ger_past nom
-	"kör" v tv past p3 sg
-	"kör" v tv gpr_past
-	"kör" v tv ger_past nom
-		"e" cop aor p3 sg
+	"kör" v tv gpr_past @acl:relcl #2->3
 "<oğlançıq>"
-	"oğlançıq" n nom
-	"oğlançıq" n attr
-	"oğlançıq" n nom
-		"e" cop aor p3 sg
+	"oğlançıq" n nom @nsubj #3->6
 "<bu>"
-	"bu" prn dem nom
-	"bu" det dem
+	"bu" det dem @det #4->5
 "<evde>"
-	"ev" n loc
-	"ev" n nom
-		"da" postadv
-	"ev" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ev" n loc
-		"e" cop aor p3 sg
+	"ev" n loc @nmod #5->6
 "<yaşay>"
-	"yaşa" v iv aor p3 sg
-	"yaşa" v iv prc_impf
+	"yaşa" v iv aor p3 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Mektür>"
-	"mektür" n nom
-	"mektür" n attr
-	"mektür" n nom
-		"e" cop aor p3 sg
-"<yazır>"
-	"yaz" v tv fut p3 sg
-	"yaz" v tv gpr_fut
+	"mektür" n nom @dobj #1->2
+"<yazıp>"
+	"yaz" v tv prc_perf @acl:relcl #2->4
 "<oturğan>"
-	"otur" v iv ger_past nom
-	"otur" v iv past p3 sg
-	"otur" v iv gpr_past
-	"otur" v iv ger_past nom
-		"e" cop aor p3 sg
+	"otur" vaux gpr_past @aux #3->2
 "<adam>"
-	"ada" n px1sg nom
-	"adam" n nom
-	"adam" n attr
-	"ada" n px1sg nom
-		"e" cop aor p3 sg
-	"adam" n nom
-		"e" cop aor p3 sg
+	"adam" n nom @nsubj #4->6
 "<Qırımda>"
-	"qır" n px1sg loc
-	"Qırım" np top loc
-	"qır" n nom
-		"e" cop aor p1 sg
-			"da" postadv
-	"qır" n px1sg nom
-		"da" postadv
-	"Qırım" np top nom
-		"da" postadv
-	"qır" n px1sg nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"Qırım" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"qır" n px1sg loc
-		"e" cop aor p3 sg
-	"Qırım" np top loc
-		"e" cop aor p3 sg
+	"Qırım" np top loc @nmod #5->6
 "<yaşay>"
-	"yaşa" v iv aor p3 sg
-	"yaşa" v iv prc_impf
+	"yaşa" v iv aor p3 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Oğlançıq>"
-	"oğlançıq" n nom
-	"oğlançıq" n attr
-	"oğlançıq" n nom
-		"e" cop aor p3 sg
+	"oğlançıq" n nom @x 
 "<körgen>"
-	"kör" v tv ger_past nom
-	"kör" v tv past p3 sg
-	"kör" v tv gpr_past
-	"kör" v tv ger_past nom
-		"e" cop aor p3 sg
+	"kör" v tv gpr_past @x
 "<qızçıq>"
-	"qızçıq" n nom
-	"qızçıq" n attr
-	"qızçıq" n nom
-		"e" cop aor p3 sg
+	"qızçıq" n nom @x
 "<ketken>"
-	"ket" v iv ger_past nom
-	"ket" v iv past p3 sg
-	"ket" v iv gpr_past
-	"ket" v iv ger_past nom
-		"e" cop aor p3 sg
+	"ket" v iv past p3 sg @root
 "<.>"
 	"." sent @punct
-
-
 
 "<Qoqlasını>"
-	"qoqla" n px3sp acc
+	"qoqla" n px3sp acc @dobj #1->2
 "<coyğan>"
-	"coy" v tv ger_past nom
-	"coy" v tv past p3 sg
-	"coy" v tv gpr_past
-	"coy" v tv ger_past nom
-		"e" cop aor p3 sg
+	"coy" v tv gpr_past @acl:relcl #2->3
 "<qızçıq>"
-	"qızçıq" n nom
-	"qızçıq" n attr
-	"qızçıq" n nom
-		"e" cop aor p3 sg
+	"qızçıq" n nom @nsubj #3->4
 "<kederlendi>"
-	"kederlen" v iv ifi p3 sg
+	"kederlen" v iv ifi p3 sg @root #4->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #5->4
 
 "<Balaları>"
 	"bala" n pl px3sp nom
-	"bala" n pl px3sp nom
-		"e" cop aor p3 sg
 "<ösken>"
 	"ös" v iv ger_past nom
-	"ös" v iv past p3 sg
-	"ös" v iv gpr_past
-	"ös" v iv ger_past nom
-		"e" cop aor p3 sg
 "<soñ>"
 	"soñ" post
-	"soñ" n nom
-	"soñ" n attr
-	"soñ" n nom
-		"e" cop aor p3 sg
 "<olar>"
 	"olar" prn pers p3 pl nom
 "<kiçik>"
 	"kiçik" adj
-	"kiçik" adj
-		"e" cop aor p3 sg
 "<evge>"
 	"ev" n dat
 "<köçtiler>"
@@ -3246,116 +2094,70 @@
 "<.>"
 	"." sent @punct
 
-
-
 "<Mektürni>"
-	"mektür" n acc
-"<yazır>"
-	"yaz" v tv fut p3 sg
-	"yaz" v tv gpr_fut
+	"mektür" n acc @dobj #1->2
+"<yazıp>"
+	"yaz" v tv prc_perf @advcl #2->7
 "<bitirgenden>"
-	"bitir" v tv ger_past abl
-	"bitir" v tv ger_past abl
-		"e" cop aor p3 sg
+	"bitir" vaux ger_past abl @aux #3->2
 "<berli>"
-	"berli" post
+	"berli" post @case #4->2
 "<o>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #5->7
 "<iç bir şey>"
-	"iç bir şey" prn ind nom
-	"iç bir şey" prn ind nom
-		"e" cop aor p3 sg
+	"iç bir şey" prn ind nom @dobj #6->7
 "<aytmadı>"
-	"ayt" v tv neg ifi p3 sg
+	"ayt" v tv neg ifi p3 sg @root #7->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->7
 
 "<Raatlanmazdan>"
-	"raatlan" v iv neg ger_fut abl
-	"raatlan" v iv neg ger_fut abl
-		"e" cop aor p3 sg
+	"raatlan" v iv neg ger_fut abl @advcl #1->6
 "<evel>"
-	"evel" post
+	"evel" post @case #2->1
 "<men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #3->5
 "<içimni>"
-	"iç" n px1sg acc
+	"iç" n px1sg acc @dobj #4->5
 "<bitirmek>"
-	"bitir" v tv ger nom
-	"bitir" v tv ger nom
-		"e" cop aor p3 sg
+	"bitir" v tv ger nom @csubj #5->6
 "<keregim>"
-	"*keregim"
+	"kerek" adj @root #6->0
+		"e" cop aor p1 sg @cop #7->6
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->6
 
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->6
 "<kiçkene>"
-	"kiçkene" adj
-	"kiçkene" adj
-		"e" cop aor p3 sg
+	"kiçkene" adj @advcl #2->6
 "<olğanımda>"
-	"ol" v iv ger_past px1sg loc
-	"ol" v iv past p1 sg
-		"da" postadv
-	"ol" v iv ger_past nom
-		"e" cop aor p1 sg
-			"da" postadv
-	"ol" v iv ger_past px1sg nom
-		"da" postadv
-	"ol" v iv ger_past px1sg nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"ol" v iv ger_past px1sg loc
-		"e" cop aor p3 sg
+	"ol" v iv ger_past px1sg loc @cop #3->2
 "<bala>"
-	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
+	"bala" n nom @nmod:poss #4->5
 "<bağçasına>"
-	"bağça" n px3sp dat
+	"bağça" n px3sp dat @nmod #5->6
 "<bara>"
-	"bar" v iv aor p3 sg
-	"bar" v iv prc_impf
+	"bar" v iv prc_impf @root #6->0
 "<edim>"
-	"e" cop ifi p1 sg
+	"e" cop ifi p1 sg @aux #7->6
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #8->6
 
 "<Eger>"
 	"eger" cnjsub
 "<yorulğan>"
-	"yorul" v iv ger_past nom
-	"yorul" v iv past p3 sg
 	"yorul" v iv gpr_past
-	"yorul" v iv ger_past nom
-		"e" cop aor p3 sg
 "<olsañ>"
-	"ol" v iv prc_cond p2 sg
-	"ol" v iv gna_cond p2 sg
+	"ol" v iv gna_cond p2 sg @advcl
 "<yarın>"
-	"yarın" adv
+	"yarın" adv @advmod
 "<devam>"
 	"devam" n nom
-	"devam" n attr
-	"devam" n nom
-		"e" cop aor p3 sg
 "<etermiz>"
 	"et" v tv fut p1 pl
 "<.>"
 	"." sent @punct
-
-
 
 "<Eger>"
 	"eger" cnjsub
@@ -3363,8 +2165,6 @@
 	"sen" prn pers p2 sg nom
 "<ertece>"
 	"ertece" adj
-	"ertece" adj
-		"e" cop aor p3 sg
 "<tursa>"
 	"tur" v iv prc_cond p3 sg
 	"tur" v iv gna_cond p3 sg
@@ -3374,61 +2174,37 @@
 	"mektep" n dat
 "<keç>"
 	"keç" adj
-	"keç" adj
-		"e" cop aor p3 sg
 "<qalmaz>"
 	"qal" v iv neg fut p3 sg
 	"qal" v iv neg ger_fut nom
-	"qal" v iv neg ger_fut nom
-		"e" cop aor p3 sg
 "<ediñ>"
 	"e" cop ifi p2 sg
 "<.>"
 	"." sent @punct
 
-
-
 "<Eger>"
 	"eger" cnjsub
 "<bala>"
 	"bala" n nom
-	"bala" n attr
-	"bala" n nom
-		"e" cop aor p3 sg
 "<aqşam>"
 	"aqşam" n nom
-	"aqşam" n attr
-	"aqşam" n nom
-		"e" cop aor p3 sg
 "<keç>"
 	"keç" adj
-	"keç" adj
-		"e" cop aor p3 sg
 "<yatsa>"
-	"yat" v iv prc_cond p3 sg
 	"yat" v iv gna_cond p3 sg
 "<o>"
-	"o" prn dem nom
 	"o" prn pers p3 sg nom
-	"o" det dem
 "<mektepke>"
 	"mektep" n dat
 "<keç>"
 	"keç" adj
-	"keç" adj
-		"e" cop aor p3 sg
 "<qalıp>"
 	"qal" v iv prc_perf
 	"qal" v iv gna_perf
 "<kelir>"
-	"kelir" n nom
-	"kelir" n attr
-	"kelir" n nom
-		"e" cop aor p3 sg
+	"kel" v iv aor p3 sg 
 "<.>"
 	"." sent @punct
-
-
 
 "<Ekimge>"
 	"ekim" n dat
@@ -3436,29 +2212,17 @@
 	"evelden" adv
 "<telefon>"
 	"telefon" n nom
-	"telefon" n attr
-	"telefon" n nom
-		"e" cop aor p3 sg
 "<açqan>"
 	"aç" v tv ger_past nom
-	"aç" v tv past p3 sg
 	"aç" v tv gpr_past
-	"aç" v tv ger_past nom
-		"e" cop aor p3 sg
 "<olsañ>"
-	"ol" v iv prc_cond p2 sg
 	"ol" v iv gna_cond p2 sg
 "<güzel>"
 	"güzel" adj
-	"güzel" adj
-		"e" cop aor p3 sg
 "<olur>"
 	"ol" v iv fut p3 sg
-	"ol" v iv gpr_fut
 "<.>"
 	"." sent @punct
-
-
 
 "<Ekimge>"
 	"ekim" n dat
@@ -3466,115 +2230,69 @@
 	"evelden" adv
 "<telefon>"
 	"telefon" n nom
-	"telefon" n attr
-	"telefon" n nom
-		"e" cop aor p3 sg
 "<açqan>"
 	"aç" v tv ger_past nom
-	"aç" v tv past p3 sg
 	"aç" v tv gpr_past
-	"aç" v tv ger_past nom
-		"e" cop aor p3 sg
 "<olsañ>"
-	"ol" v iv prc_cond p2 sg
 	"ol" v iv gna_cond p2 sg
 "<güzel>"
 	"güzel" adj
-	"güzel" adj
-		"e" cop aor p3 sg
 "<olur>"
-	"ol" v iv fut p3 sg
 	"ol" v iv gpr_fut
 "<edi>"
 	"e" cop ifi p3 sg
 "<.>"
 	"." sent @punct
 
-
-
 "<Eger>"
-	"eger" cnjsub
+	"eger" cnjsub @x #1->6
 "<Mafuze>"
-	"Mafuze" np ant f nom
+	"Mafuze" np ant f nom @nsubj #2->4
 "<aş>"
-	"aş" n nom
-	"aş" n attr
-	"aş" n nom
-		"e" cop aor p3 sg
+	"aş" n nom @dobj #3->4
 "<pişirse>"
-	"pişir" v tv prc_cond p3 sg
-	"pişir" v tv gna_cond p3 sg
+	"pişir" v tv gna_cond p3 sg @advcl #4->6
 "<o>"
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
-	"o" det dem
+	"o" prn pers p3 sg nom @nsubj #5->6
 "<tedaviylendi>"
-	"tedaviylen" v iv ifi p3 sg
+	"tedaviylen" v iv ifi p3 sg @root #6->0
 "<.>"
-	"." sent @punct
-
-
+	"." sent @punct #7->6
 
 "<Eger>"
 	"eger" cnjsub
 "<uçaq>"
 	"uçaq" n nom
-	"uçaq" n attr
-	"uçaq" n nom
-		"e" cop aor p3 sg
 "<saat>"
 	"saat" n nom
-	"saat" n attr
-	"saat" n nom
-		"e" cop aor p3 sg
 "<üçte>"
 	"üç" num subst loc
-	"üç" num subst loc
-		"e" cop aor p3 sg
 "<uçsa>"
-	"uç" v iv prc_cond p3 sg
 	"uç" v iv gna_cond p3 sg
 "<biz>"
 	"biz" prn pers p1 pl nom
 "<aeroportta>"
 	"aeroport" n loc
-	"aeroport" n loc
-		"e" cop aor p3 sg
 "<saat>"
 	"saat" n nom
-	"saat" n attr
-	"saat" n nom
-		"e" cop aor p3 sg
 "<birde>"
 	"bir" num subst loc
-	"bir" num subst nom
-		"da" postadv
-	"bir" num subst nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"bir" num subst loc
-		"e" cop aor p3 sg
 "<olmaq>"
 	"ol" v iv ger nom
-	"ol" v iv ger nom
-		"e" cop aor p3 sg
 "<kerekmiz>"
 	"kerek" adj
 		"e" cop aor p1 pl
 "<.>"
 	"." sent @punct
 
-
-
 "<Men>"
-	"men" prn pers p1 sg nom
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<oña>"
-	"o" prn dem dat
-	"o" prn pers p3 sg dat
+	"o" prn pers p3 sg dat @nmod:rcp #2->4
 "<bunı>"
-	"bu" prn dem acc
+	"bu" prn dem acc @dobj #3->4
 "<aytmadım>"
-	"ayt" v tv neg ifi p1 sg
+	"ayt" v tv neg ifi p1 sg @root #4->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->4
 

@@ -150,7 +150,7 @@
 103	280	Mafuze yırlay Remziye ise oynay.
 103	281	Ya yağmur yağar ya da biz yuvunmağa ketermiz.
 104	282	Ağam ka keler ka kelmez.
-104	283	Bazan men anda baram bazan bar barmayım.
+104	283	Bazan men anda baram bazan barmayım.
 104	284	Oña aytmaq kerek yoqsa o kelmez.
 104	285	Men çoq aş alacağım çünki oğlum kelecek.
 105	286	O kelecegini men bilem.
@@ -170,11 +170,11 @@
 107	300	O oturğan odada ava sıcaq edi.
 107	301	Men oğlançıq alma bergen qızçıqnı körem.
 107	302	Qızçıq körgen oğlançıq bu evde yaşay.
-108	305	Mektür yazır oturğan adam Qırımda yaşay.
+108	305	Mektür yazıp oturğan adam Qırımda yaşay.
 109	309	Oğlançıq körgen qızçıq ketken.
 109	310	Qoqlasını coyğan qızçıq kederlendi.
 109	311	Balaları ösken soñ olar kiçik evge köçtiler.
-109	312	Mektürni yazır bitirgenden berli o iç bir şey aytmadı.
+109	312	Mektürni yazıp bitirgenden berli o iç bir şey aytmadı.
 109	313	Raatlanmazdan evel men içimni bitirmek keregim.
 110	314	Men kiçkene olğanımda bala bağçasına bara edim.
 110	315	Eger yorulğan olsañ yarın devam etermiz.
