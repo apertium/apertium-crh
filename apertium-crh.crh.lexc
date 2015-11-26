@@ -1768,6 +1768,7 @@ noqta:noqta N1 ; ! "пятнышко, точка"
 nümüne:nümüne N1 ; ! "образец"
 nusha:nusha N1 ; ! "экземпляр"
 obyektiv:obyektiv N5 ; ! "объектив"
+obyekt:obyekt N5 ; ! "объект"
 ödeme:ödeme N1 ; ! "возвращение, искупление, плата, платеж"
 ödünç:ödünç N1 ; ! "заем"
 öksüz:öksüz N1 ; ! "сирота"
@@ -3192,6 +3193,25 @@ Zekkiye:Zekkiye NP-ANT-F ; ! ""
 
 Geray:Geray NP-COG-MF ; ! ""
 
+Doroşenko:Doroşenko NP-COG-MF ; ! ""
+Grıgorenko:Grıgorenko NP-COG-MF ; ! ""
+Kompaniçenko:Kompaniçenko NP-COG-MF ; ! ""
+Kravçenko:Kravçenko NP-COG-MF ; ! ""
+Kuzmenko:Kuzmenko NP-COG-MF ; ! ""
+Küzmenko:Küzmenko NP-COG-MF ; ! ""
+Kuzmenko:Kuzmenko NP-COG-MF ; ! ""
+Litvinenko:Litvinenko NP-COG-MF ; ! ""
+Osipenko:Osipenko NP-COG-MF ; ! ""
+Ovsiyenko:Ovsiyenko NP-COG-MF ; ! ""
+Poroşenko:Poroşenko NP-COG-MF ; ! ""
+Pramenenko:Pramenenko NP-COG-MF ; ! ""
+Şevçenko:Şevçenko NP-COG-MF ; ! ""
+Tımoşenko:Tımoşenko NP-COG-MF ; ! ""
+Üşçenko:Üşçenko NP-COG-MF ; ! ""
+Yerömenko:Yerömenko NP-COG-MF ; ! ""
+Yuşçenko:Yuşçenko NP-COG-MF ; ! ""
+
+
 
 Alminskiy:Alminsk NP-COG-SKIY ; ! ""
 Ayvazovskiy:Ayvazovsk NP-COG-SKIY ; ! ""
@@ -4017,6 +4037,7 @@ yorul:yorul V-IV ; ! "" ! Der/Pass
 tedaviylen:tedaviylen V-IV ; ! "" ! Der/Pass
 raatlan:raatlan V-IV ; ! "" 
 bez:bez V-IV ; ! ""
+ögren:ögren V-IV ; ! ""
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""
