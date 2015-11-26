@@ -1,0 +1,12 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../crh.autogen.hfst
+    Morph: ../crh.automorf.hfst
+
+Tests:
+  "some future forms with E:y":
+    ol<v><iv><neg><fut2><p3><sg> : olmaycaq
+    toqtat<v><tv><neg><fut2><p3><pl> : toqtatmaycaqlar
+    başla<v><tv><fut2><p3><sg> : başlaycaq
+    belgile<v><tv><fut2><p3><sg> : belgileycek

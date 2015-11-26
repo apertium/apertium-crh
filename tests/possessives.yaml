@@ -65,44 +65,44 @@ Tests:
     dost<n><px3sp><loc> : dostunda
     dost<n><px3sp><abl> : dostundan
 
-  "Cases and possessives (p1.pl)":
-    bala<n><px1pl><nom> : balamız
-    bala<n><px1pl><acc> : balamıznı
-    bala<n><px1pl><gen> : balamıznıñ
-    bala<n><px1pl><dat> : balamızğa
-    bala<n><px1pl><loc> : balamızda
-    bala<n><px1pl><abl> : balamızdan
-    ev<n><px1pl><nom> : evimiz
-    ev<n><px1pl><acc> : evimizni
-    ev<n><px1pl><gen> : evimizniñ
-    ev<n><px1pl><dat> : evimizge
-    ev<n><px1pl><loc> : evimizde
-    ev<n><px1pl><abl> : evimizden
-    dost<n><px1pl><nom> : dostumız
-    dost<n><px1pl><acc> : dostumıznı
-    dost<n><px1pl><gen> : dostumıznıñ
-    dost<n><px1pl><dat> : dostumızğa
-    dost<n><px1pl><loc> : dostumızda
-    dost<n><px1pl><abl> : dostumızdan
+  #"Cases and possessives (p1.pl)":
+    #bala<n><px1pl><nom> : balamız
+    #bala<n><px1pl><acc> : balamıznı
+    #bala<n><px1pl><gen> : balamıznıñ
+    #bala<n><px1pl><dat> : balamızğa
+    #bala<n><px1pl><loc> : balamızda
+    #bala<n><px1pl><abl> : balamızdan
+    #ev<n><px1pl><nom> : evimiz
+    #ev<n><px1pl><acc> : evimizni
+    #ev<n><px1pl><gen> : evimizniñ
+    #ev<n><px1pl><dat> : evimizge
+    #ev<n><px1pl><loc> : evimizde
+    #ev<n><px1pl><abl> : evimizden
+    #dost<n><px1pl><nom> : dostumız
+    #dost<n><px1pl><acc> : dostumıznı
+    #dost<n><px1pl><gen> : dostumıznıñ
+    #dost<n><px1pl><dat> : dostumızğa
+    #dost<n><px1pl><loc> : dostumızda
+    #dost<n><px1pl><abl> : dostumızdan
 
 
-  "Cases and possessives (p2.pl)":
-    bala<n><px1pl><nom> : balañız
-    bala<n><px1pl><acc> : balañıznı
-    bala<n><px1pl><gen> : balañıznıñ
-    bala<n><px1pl><dat> : balañızğa
-    bala<n><px1pl><loc> : balañızda
-    bala<n><px1pl><abl> : balañızdan
-    ev<n><px1pl><nom> : eviñiz
-    ev<n><px1pl><acc> : eviñizni
-    ev<n><px1pl><gen> : eviñizniñ
-    ev<n><px1pl><dat> : eviñizge
-    ev<n><px1pl><loc> : eviñizde
-    ev<n><px1pl><abl> : eviñizden
-    dost<n><px1pl><nom> : dostuñız
-    dost<n><px1pl><acc> : dostuñıznı
-    dost<n><px1pl><gen> : dostuñıznıñ
-    dost<n><px1pl><dat> : dostuñızga
-    dost<n><px1pl><loc> : dostuñızda
-    dost<n><px1pl><abl> : dostuñızdan
+  #"Cases and possessives (p2.pl)":
+    #bala<n><px1pl><nom> : balañız
+    #bala<n><px1pl><acc> : balañıznı
+    #bala<n><px1pl><gen> : balañıznıñ
+    #bala<n><px1pl><dat> : balañızğa
+    #bala<n><px1pl><loc> : balañızda
+    #bala<n><px1pl><abl> : balañızdan
+    #ev<n><px1pl><nom> : eviñiz
+    #ev<n><px1pl><acc> : eviñizni
+    #ev<n><px1pl><gen> : eviñizniñ
+    #ev<n><px1pl><dat> : eviñizge
+    #ev<n><px1pl><loc> : eviñizde
+    #ev<n><px1pl><abl> : eviñizden
+    #dost<n><px1pl><nom> : dostuñız
+    #dost<n><px1pl><acc> : dostuñıznı
+    #dost<n><px1pl><gen> : dostuñıznıñ
+    #dost<n><px1pl><dat> : dostuñızga
+    #dost<n><px1pl><loc> : dostuñızda
+    #dost<n><px1pl><abl> : dostuñızdan
 

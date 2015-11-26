@@ -808,7 +808,7 @@ imperiya:imperiya N1 ; ! "империя"
 dünya:dünya N1 ; ! "мир"
 zaman:zaman N1 ; ! ""
 okean:okean N1 ; ! ""
-mektep:mektep N1 ; ! ""
+!mektep:mektep N1 ; ! ""  ! DUP
 !kitap:kitab N1 ; ! "книга"  ! DUP
 delegat:delegat N1 ; ! ""
 fakultet:fakultet N1 ; ! ""
@@ -892,6 +892,7 @@ barışıq:barışıq N1 ; ! "мир, согласие"
 batalyon:batalyon N1 ; ! "батальон"
 batırlıq:batırlıq N1 ; ! "мужество"
 bayram:bayram N1 ; ! "праздник"
+bayraq:bayrağ N1 ; ! "флаг"
 beden:beden N1 ; ! "тело"
 beftan:beftan N1 ; ! "клевета"
 belgi:belgi N1 ; ! "знак"
@@ -1084,7 +1085,7 @@ material:material N1 ; ! "материал"
 mayor:mayor N1 ; ! "майор"
 mecmua:mecmua N1 ; ! "журнал"
 mehanik:mehanik N1 ; ! "механик"
-mektep:mektep N1 ; ! "школа"
+mektep:mekteb N1 ; ! "школа"
 mektüp:mektüp N1 ; ! "лист, письмо"
 melek:melek N1 ; ! "ангел"
 memleket:memleket N1 ; ! "край"
@@ -3846,6 +3847,7 @@ baştan:baştan ADV ; ! ""
 evelden:evelden ADV ; ! ""
 tezden:tezden ADV ; ! ""
 soñra:soñra ADV ; ! "later/позже"
+yañıdan:yañıdan ADV ; ! "anew"
 
 !! Language
 
@@ -4038,6 +4040,9 @@ tedaviylen:tedaviylen V-IV ; ! "" ! Der/Pass
 raatlan:raatlan V-IV ; ! "" 
 bez:bez V-IV ; ! ""
 ögren:ögren V-IV ; ! ""
+
+toqtat:toqtat V-TV ; ! "stop (tv)" ! Der/Caus
+belgile:belgile V-TV ; ! "indicate"
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""
