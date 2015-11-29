@@ -1,21 +1,21 @@
 "<Bir>"
-	"bir" num
+	"bir" det ind @det #1->2
 "<kün>"
-	"kün" n nom
+	"kün" n nom @nmod #2->8
 "<Nasreddin>"
-	"Nasreddin" np ant m nom
+	"Nasreddin" np ant m nom @nsubj #3->8
 "<oca>"
-	"oca" n nom
+	"oca" n nom @appos #4->3
 "<eşegine>"
-	"*eşegine"
-"<minip>"
-	"min" v iv gna_perf
+	"eşek" n px3sp dat @nmod #5->6
+"<minip>" 
+	"min" v iv gna_perf @advcl #6->8
 "<yolğa>"
-	"yol" n dat
+	"yol" n dat @nmod #7->8
 "<çıqa>"
-	"çıq" v iv aor p3 sg
+	"çıq" v iv aor p3 sg @root #8->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #9->8
 
 "<Men>"
 	"men" prn pers p1 sg nom @nsubj #1->4
@@ -71,7 +71,6 @@
 	"laqırdı" n nom
 "<ete>"
 	"et" v tv aor p3 sg
-	"et" v tv prc_impf
 "<.>"
 	"." sent @punct
 
@@ -91,26 +90,26 @@
 	"." sent @punct
 
 "<Erkes>"
-	"erkes" prn ind nom @nsubj
+	"erkes" prn ind nom @nsubj #1->4
 "<bir>"
-	"bir" det ind @det
+	"bir" det ind @det #2->3
 "<şeyden>"
-	"şey" n abl @x
+	"şey" n abl @x #3->4
 "<qorqa>"
-	"qorq" v tv aor p3 sg @root
+	"qorq" v tv aor p3 sg @root #4->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->4
 
 "<Men>"
-	"men" prn pers p1 sg nom @nsubj
+	"men" prn pers p1 sg nom @nsubj #1->4
 "<iç bir şey>"
-	"iç bir şey" prn ind nom @dobj
+	"iç bir şey" prn ind nom @dobj #2->4
 "<iç birine>"
-	"iç bir" prn ind px3sp dat @nmod
+	"iç bir" prn ind px3sp dat @nmod #3->4
 "<yazmadım>"
-	"yaz" v tv neg ifi p1 sg @root
+	"yaz" v tv neg ifi p1 sg @root #4->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->4
 
 "<Bizimkinıñ>"
 	"biz" prn pers p1 pl gen @x
@@ -160,7 +159,7 @@
 "<köyde>"
 	"köy" n loc @x
 "<eñ>"
-	"eñ" adv @admov
+	"eñ" adv @advmod
 "<balabandır>"
 	"balaban" adj @root
 		"e" cop aor p3 sg @cop
@@ -517,12 +516,12 @@
 "<Maña>"
 	"men" prn pers p1 sg dat
 "<yazmaq>"
-	"yaz" v tv ger nom
-"<mümkün>"
-	"mümkün" adj
-		"e" cop aor p3 sg
+	"yaz" v tv ger nom @csubj #2->3
+"<mümkün>" 
+	"mümkün" adj @root #3->0
+		"e" cop aor p3 sg @cop #4->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->3
 
 "<Maña>"
 	"men" prn pers p1 sg dat
@@ -683,9 +682,9 @@
 	"amma" cnjcoo
 "<qalemdir>"
 	"qalem" n nom
-		"e" cop aor p3 pl
+		"e" cop aor p3 frm pl
 	"qalem" n nom
-		"e" cop aor p3 sg
+		"e" cop aor p3 frm sg
 "<.>"
 	"." sent @punct
 
@@ -696,7 +695,7 @@
 "<Mafuze>"
 	"Mafuze" np ant f nom @nsubj #3->5
 "<ise>"
-	"ise" cnjcoo @cc #4->5
+	"ise" postadv @advmod #4->3
 "<oynay>"
 	"oyna" v tv aor p3 sg @root #5->0
 "<.>"

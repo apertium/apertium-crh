@@ -240,6 +240,16 @@ LEXICON NP-COG-SKIY
 %<np%>%<cog%>%<m%>:iy FULL-NOMINAL-INFLECTION ; ! FIXME
 %<np%>%<cog%>%<f%>:aya FULL-NOMINAL-INFLECTION ; ! FIXME
 
+LEXICON NP-COG-IN
+
+%<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<f%>:a FULL-NOMINAL-INFLECTION ; ! FIXME
+
+LEXICON NP-COG-OV
+
+%<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<f%>:a FULL-NOMINAL-INFLECTION ; ! FIXME
+
 LEXICON NP-COG-MF 
 
 %<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
@@ -247,6 +257,10 @@ LEXICON NP-COG-MF
 LEXICON NP-PAT-EVICH
 
 %<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
+
+LEXICON NP-AL-ABBR
+
+%<np%>%<al%>: FULL-NOMINAL-INFLECTION ; ! ""
 
 LEXICON A1
 
@@ -424,8 +438,8 @@ LEXICON DET-DEM
 
 LEXICON V-PERS-S1-COP
 
-%<p3%>%<sg%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
-%<p3%>%<pl%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
+%<p3%>%<frm%>%<pl%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
 V-PERS-S1 ;
 
 LEXICON V-PERS-S1 
@@ -569,6 +583,13 @@ LEXICON V-TV-AR
 !%<v%>%<TD%>: V-FUT-AR ; 
 !%<v%>%<TD%>: V-FUT-IR ; 
 
+LEXICON VAUX
+
+%<vaux%>: V-COMMON ; 
+%<vaux%>: V-FUT-IR ; 
+%<vaux%>: V-DER ; 
+
+
 LEXICON ADV 
 
 %<adv%>: # ;
@@ -668,6 +689,10 @@ evel:evel POST ; ! "before"
 burun:burun POST ; ! "before"
 soñ:soñ POST ; ! "after/после"
 
+!! Check
+
+boyunca:boyunca POST ; ! "during/пока"
+
 LEXICON Pronouns 
 
 men:m PRON-PERS-MEN ; ! "я"
@@ -686,6 +711,7 @@ o:o PRON-DEM-O ; ! ""
 kendi:kendi PRON-REF ; ! ""
 
 ep:ep PRON-IND-EP ; ! ""
+birisi:bir PRON-IND-EP ; ! ""
 bütün:bütün PRON-IND-BUTUN ; ! ""
 cümle:cümle PRON-IND-BUTUN ; ! ""
 erkes:erkes PRON-IND ; ! "все люди"
@@ -741,10 +767,13 @@ on:on NUM ; ! ""
 
 qırq:qırq NUM ; ! ""
 
+yüz:yüz NUM ; ! ""
+
 biñ:biñ NUM ; ! ""
 
 birev:birev NUM-COLL ; ! ""
 ekev:ekev NUM-COLL ; ! ""
+üçev:üçev NUM-COLL ; ! ""
 
 
 I:I NUM-ROMAN ; ! ""
@@ -827,6 +856,23 @@ internet:internet N1 ; ! ""
 halq:halq N1 ; ! ""
 söz:söz N1 ; ! ""
 şey:şey N1 ; ! "вещь"
+
+
+havfsızlıq:havfsızlıq N1 ; ! "безопасность"
+red:red N5 ; ! "отказ"
+ümüt:ümüt N1 ; ! "надежда"
+bağ:bağ N5 ; ! "завязка"
+cinayet:cinayet N1 ; ! ""
+spiker:spiker N1 ; ! ""
+bulunuv:bulunuv N1 ; ! ""
+vatandaş:vatandaş N1 ; ! ""
+qasevet:qasevet N1 ; ! ""
+blok:blok N5 ; ! ""
+ariza:ariza N1 ; ! ""
+tedbir:tedbir N1 ; ! ""
+vesiqa:vesiqa N1 ; ! ""
+öldürüv:öldürüv N1 ; ! ""
+patlav:patlav N1 ; ! ""
 
 abide:abide N1 ; ! "памятка"
 açlıq:açlıq N1 ; ! "голод"
@@ -1094,6 +1140,7 @@ merkez:merkez N1 ; ! "центр"
 mesafe:mesafe N1 ; ! "дистанция, расстояние"
 mesel:mesel N1 ; ! "басня"
 mesele:mesele N1 ; ! "задача"
+meselen:meselen N1 ; ! "задача"
 mesleatçı:mesleatçı N1 ; ! "руководство"
 mevzu:mevzu N1 ; ! "тема"
 meydan:meydan N1 ; ! "поле"
@@ -1426,6 +1473,12 @@ qasım:qasım  N1 ; ! ""
 noyabr:noyabr N1 ; ! ""
 dekabr:dekabr N1 ; ! ""
 
+salı:salı N1 ; ! ""
+cumaaqşamı:cumaaqşamı N1 ; ! ""
+cumaertesi:cumaertesi N1 ; ! ""
+
+qorçalayıcı:qorçalayıcı N1 ; ! ""
+
 didaktizm:didaktizm N1 ; ! ""
 fanatizm:fanatizm N1 ; ! ""
 faşizm:faşizm N1 ; ! ""
@@ -1743,7 +1796,7 @@ millet:millet N1 ; ! "нация"
 milletçi:milletçi N1 ; ! "националист"
 milletçilik:milletçilik N1 ; ! "национализм"
 mimar:mimar N1 ; ! "архитектор"
-miting:miting N1 ; ! "митинг"
+miting:miting N5 ; ! "митинг"
 muarrir:muarrir N1 ; ! "редактор"
 müderris:müderris N1 ; ! "преподаватель"
 müdir:müdir N1 ; ! "заведующий"
@@ -1824,7 +1877,6 @@ ramazan:ramazan N1 ; ! "рамадан, рамазан"
 rametli:rametli N1 ; ! "труп"
 raqam:raqam N1 ; ! "цифра"
 reber:reber N1 ; ! "руководитель"
-red:red N1 ; ! "отказ"
 resimler:resimler N1 ; ! "живопись"
 rıçag:rıçag N1 ; ! "рычаг"
 rıtsar:rıtsar N1 ; ! "рыцарь"
@@ -1989,6 +2041,49 @@ divan:divan N1 ; ! ""
 kesek:kesek N1 ; ! ""
 vicdan:vicdan N1 ; ! ""
 ağa%-qardaşlıq:ağa%-qardaşlıq N1 ; ! "братство"
+referendum:referendum N1 ;! ""
+status:status N1 ; ! ""
+ruble:ruble N1 ; ! ""
+matbuat:matbuat N1 ; ! ""
+işğalcı:işğalcı N1 ; ! ""
+netice:netice N1 ; ! "вывод"
+yarımada:yarımada N1 ; ! "полуостров"
+işğal:işğal N1 ; ! ""
+
+cevap:cevap N1 ; ! ""
+lider:lider N1 ; ! ""
+musulman:musulman N1 ; ! ""
+maşina:maşina N1 ; ! ""
+telekanal:telekanal N1 ; ! ""
+organ:organ N1 ; ! ""
+flot:flot N5 ; ! ""
+muavin:muavin N1 ; ! ""
+nazirlik:nazirlik N1 ; ! "министирство"
+ğaye:ğaye N1 ; ! ""
+reis:reis N1 ; ! ""
+fond:fond N5 ; ! ""
+bücet:bücet N5 ; ! ""
+programma:programma N1 ; ! ""
+dialog:dialog N5 ; ! ""
+blog:blog N5 ; ! ""
+prokuror:prokuror N1 ; ! ""
+foto:foto N1 ; ! ""
+media:media N1 ; ! ""
+student:student N5 ; ! ""
+demokratiya:demokratiya N1 ; ! ""
+ekspert:ekspert N5 ; ! ""
+festival:festival N1 ; ! "" ! VH
+kongress:kongress N1 ; ! ""
+pasport:pasport N5 ; ! ""
+prokuratura:prokuratura N1 ; ! ""
+palata:palata N1 ; ! ""
+separatist:separatist N5 ; ! ""
+yedinstvo:yedinstvo N1 ; ! ""
+litsenziya:litsenziya N1 ; ! ""
+region:region N1 ; ! ""
+rejim:rejim N1 ; ! ""
+
+
 
 burun:bur%{y%}n N1 ; ! ""
 boyun:boy%{y%}n N1 ; ! ""
@@ -3106,6 +3201,16 @@ Volın:Volın NP-TOP ; ! ""
 Zakarpattâ:Zakarpattâ NP-TOP ; ! ""
 Ades:Ades NP-TOP ; ! ""
 
+Andrey:Andrey NP-ANT-M ; ! ""
+Oleg:Oleg NP-ANT-M ; ! ""
+Dmitriy:Dmitriy NP-ANT-M ; ! ""
+Mark:Mark NP-ANT-M ; ! ""
+
+Natalya:Natalya NP-ANT-F ; ! ""
+Mariya:Mariya NP-ANT-F ; ! ""
+
+Nikolayev:Nikolayev NP-COG-OV ; ! ""
+
 Hacı:Hacı NP-ANT-M ; ! ""
 Mustafa:Mustafa NP-ANT-M ; ! ""
 Nasreddin:Nasreddin NP-ANT-M ; ! ""
@@ -3192,6 +3297,9 @@ Naciye:Naciye NP-ANT-F ; ! ""
 Uriye:Uriye NP-ANT-F ; ! ""
 Zekkiye:Zekkiye NP-ANT-F ; ! ""
 
+Petro:Petro NP-ANT-M ; ! ""
+
+Merkel:Merkel NP-COG-MF ; ! ""
 Geray:Geray NP-COG-MF ; ! ""
 
 Doroşenko:Doroşenko NP-COG-MF ; ! ""
@@ -3212,7 +3320,19 @@ Tımoşenko:Tımoşenko NP-COG-MF ; ! ""
 Yerömenko:Yerömenko NP-COG-MF ; ! ""
 Yuşçenko:Yuşçenko NP-COG-MF ; ! ""
 
+Putin:Putin NP-COG-IN ; ! ""
 
+Lavrov:Lavrov NP-COG-OV ; ! ""
+Aksönov:Aksönov NP-COG-OV ; ! ""
+Çubarov:Çubarov NP-COG-OV ; ! ""
+Cemilev:Cemilev NP-COG-OV ; ! ""
+Smedlâyev:Smedlâyev NP-COG-OV ; ! ""
+Konstantinov:Konstantinov NP-COG-OV ; ! ""
+İlyasov:İlyasov NP-COG-OV ; ! ""
+Smirnov:Smirnov NP-COG-OV ; ! ""
+Asanov:Asanov NP-COG-OV ; ! ""
+Kezlev:Kezlev NP-COG-OV ; ! ""
+Medvedev:Medvedev NP-COG-OV ; ! ""
 
 Alminskiy:Alminsk NP-COG-SKIY ; ! ""
 Ayvazovskiy:Ayvazovsk NP-COG-SKIY ; ! ""
@@ -3230,6 +3350,32 @@ Kotsübinskiy:Kotsübinsk NP-COG-SKIY ; ! ""
 Levitskiy:Levitsk NP-COG-SKIY ; ! ""
 Qıpçaqskiy:Qıpçaqsk NP-COG-SKIY ; ! ""
 Zayonçkovskiy:Zayonçkovsk NP-COG-SKIY ; ! ""
+
+
+Vladimiroviç:Vladimirov NP-PAT-EVICH ; ! ""
+Vasilyeviç:Vasilyev NP-PAT-EVICH ; ! ""
+Mihayloviç:Mihaylov NP-PAT-EVICH ; ! ""
+Anatolyeviç:Anatolyev NP-PAT-EVICH ; ! ""
+Petroviç:Petrov NP-PAT-EVICH ; ! ""
+Aleksandroviç:Aleksandrov NP-PAT-EVICH ; ! ""
+Grigoryeviç:Grigoryev NP-PAT-EVICH ; ! ""
+Dmitriyeviç:Dmitriyev NP-PAT-EVICH ; ! ""
+Fedoroviç:Fedorov NP-PAT-EVICH ; ! ""
+Leonidoviç:Leonidov NP-PAT-EVICH ; ! ""
+Yüryeviç:Yüryev NP-PAT-EVICH ; ! ""
+Valeryeviç:Valeryev NP-PAT-EVICH ; ! ""
+Bogdanoviç:Bogdanov NP-PAT-EVICH ; ! ""
+Vitalyeviç:Vitalyev NP-PAT-EVICH ; ! ""
+İosifoviç:İosifov NP-PAT-EVICH ; ! ""
+Viktoroviç:Viktorov NP-PAT-EVICH ; ! ""
+İgoreviç:İgorev NP-PAT-EVICH ; ! ""
+Yaroslavoviç:Yaroslavov NP-PAT-EVICH ; ! ""
+Romanoviç:Romanov NP-PAT-EVICH ; ! ""
+Borisoviç:Borisov NP-PAT-EVICH ; ! ""
+Georgiyeviç:Georgiyev NP-PAT-EVICH ; ! ""
+Stepanoviç:Stepanov NP-PAT-EVICH ; ! ""
+Semenoviç:Semenov NP-PAT-EVICH ; ! ""
+Yakovleviç:Yakovlev NP-PAT-EVICH ; ! ""
 
 Sergeyeviç:Sergeyev NP-PAT-EVICH ; ! ""
 Şinkeviç:Şinkev NP-PAT-EVICH ; ! ""
@@ -3255,10 +3401,33 @@ Markoviç:Markov NP-PAT-EVICH ; ! ""
 Firkoviç:Firkov NP-PAT-EVICH ; ! ""
 
 Aqmescit:Aqmescit NP-TOP ; ! ""
+Dnepropetrovsk:Dnepropetrovsk NP-TOP ; ! ""
+
+Donbass:Donbass NP-TOP ; ! ""
+Tatarstan:Tatarstan NP-TOP ; ! ""
+Çeçenistan:Çeçenistan NP-TOP ; ! ""
+Kırgızistan:Kırgızistan NP-TOP ; ! ""
+Dagestan:Dagestan NP-TOP ; ! ""
+Başkortostan:Başkortostan NP-TOP ; ! ""
+Turkmenistan:Turkmenistan NP-TOP ; ! ""
+Turkestan:Turkestan NP-TOP ; ! ""
+Kürdistan:Kürdistan NP-TOP ; ! ""
+Gurcistan:Gurcistan NP-TOP ; ! ""
+Başkortostan:Başqortostan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Kırgızistan:Qırğızstan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Dagestan:Dağıstan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Astana:Astana NP-TOP ; ! ""
+Kırgızistan:Qırgızistan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+
 
 AB:AB NP-TOP ; ! ""
 ŞSCB:SSCB NP-TOP ; ! "" ! Dir/LR ! Err/Orth
 ŞSCB:ŞSCB NP-TOP ; ! ""
+AQŞ:AQŞ NP-TOP ; ! ""
+
+ATR:ATR NP-AL-ABBR ; ! ""
+UNESCO:UNESCO NP-AL-ABBR ; ! ""
+
 
 LEXICON Adjectives 
 
@@ -3270,6 +3439,9 @@ kerek:kerek A2 ; ! "necessary/должно"
 borçlu:borçlu A2 ; ! ""
 lâzim:lâzim A2 ; ! "нужен"
 
+kök:kök A1 ; ! "синый"
+siyasiy:siyasiy A1 ; ! "политический"
+azat:azat A1 ; ! "свободный"
 ür:ür A1 ; ! "свободный"
 musaviy:musaviy A1 ; ! ""
 tatlı:tatlı A1 ; ! "сладкий"
@@ -3801,6 +3973,22 @@ cenübiy:cenübiy A1 ; ! "южный"
 semiz:semiz A1 ; ! "тольстый"
 az:az A1 ; ! "длинный"
 
+bağlı:bağlı A1 ; ! ""
+
+öyle:öyle A1 ; ! ""
+serbest:serbest A1 ; ! ""
+sürgün:sürgün A1 ; ! ""
+menfiy:menfiy A1 ; ! ""
+tibbiy:tibbiy A1 ; ! ""
+emin:emin A1 ; ! ""
+tanış:tanış A1 ; ! ""
+küçük:küçük A1 ; ! ""
+tışqı:tışqı A1 ; ! ""
+qanuniy:qanuniy A1 ; ! ""
+fevqulâde:fevqulâde A1 ; ! ""
+adlı:adlı A1 ; ! ""
+qabaatlı:qabaatlı A1 ; ! ""
+
 LEXICON Adverbs
 
 !! Interrogative
@@ -3825,9 +4013,12 @@ pek:pek ADV ; ! "очень"
 çoq%-çoq:çoq%-çoq ADV ; ! "много, очень"
 ebediy:ebediy ADV ; ! "eternally/вечно"
 az:az ADV ; ! "мало"
+ğayet:ğayet ADV ; ! "очень"
+belki:belki ADV ; ! ""
 biraz:biraz ADV ; ! ""
 
 !! Place 
+mında:mında ADV ; ! "здесь"
 munda:munda ADV ; ! ""
 anda:anda ADV ; ! ""
 uzaqta:uzaqta ADV ; ! ""
@@ -3848,6 +4039,8 @@ evelden:evelden ADV ; ! ""
 tezden:tezden ADV ; ! ""
 soñra:soñra ADV ; ! "later/позже"
 yañıdan:yañıdan ADV ; ! "anew"
+bugün:bugün ADV ; ! ""
+artıq:artıq ADV ; ! "already/уже"
 
 !! Language
 
@@ -3873,22 +4066,39 @@ tünevin:tünevin ADV ; ! "" ! NOTE: takes -ki
 yarın:yarın ADV ; ! ""
 
 tek:tek ADV ; ! ""
-eñ:eñ ADV ; ! ""
+eñ:eñ ADV ; ! "самый"
+böyle:böyle ADV ; ! "так"
 
 meger:meger ADV ; ! "apparently"
 çeşittürlü:çeşittürlü ADV ; ! ""
 alelacele:alelacele ADV ; ! ""
 beraber:beraber ADV ; ! "вместе"
 
+nisbeten:nisbeten ADV ; ! "более или менее"
+
+ilâhre:ilâhre ADV ; ! ""
+
 LEXICON Verbs 
 
-bitir:bitir V-TV ; ! ""                        ! AUX
-tur:tur V-IV ; ! ""
+tur:tur VAUX ; ! ""
+otur:otur VAUX ; ! ""
+al:al VAUX ; ! ""
+ber:ber VAUX ; ! ""
+qoy:qoy VAUX ; ! ""
+kel:kel VAUX ; ! ""
+bar:bar VAUX ; ! ""
+ket:ket VAUX ; ! ""
+qara:qara VAUX ; ! ""
+yiber:yiber VAUX ; ! ""
+qal:qal VAUX ; ! ""
+başla:başla VAUX ; ! ""
 
 ol:ol V-IV ; ! "be/быть"
 ol:bol V-IV ; ! "be/быть" ! Dial/North ! Dir/LR
-yaşa:yaşa V-IV ; ! "live/жить"
+bitir:bitir V-TV ; ! ""                        ! AUX(?)
 otur:otur V-IV ; ! "sit/"
+tur:tur V-IV ; ! ""
+yaşa:yaşa V-IV ; ! "live/жить"
 kör:kör V-TV ; ! "see/видеть"
 al:al V-TV ; ! "take"
 ket:ket V-IV-AR ; ! "go/идти"
@@ -4040,12 +4250,23 @@ tedaviylen:tedaviylen V-IV ; ! "" ! Der/Pass
 raatlan:raatlan V-IV ; ! "" 
 bez:bez V-IV ; ! ""
 ögren:ögren V-IV ; ! ""
+bildir:bildir V-TV ; ! "" ! Der/Caus
+keçir:keçir V-TV ; ! ""
+keçiril:keçiril V-IV ; ! "" ! Der/Pass
+
+qur:qur V-TV ; ! ""
+tut:tut V-IV ; ! ""
+añla:añla V-TV ; ! ""
+ketir:ketir V-TV ; ! "" ! Der/Caus
 
 toqtat:toqtat V-TV ; ! "stop (tv)" ! Der/Caus
 belgile:belgile V-TV ; ! "indicate"
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""
+işğal% et:işğal% et V-TV-AR ; ! ""
+teşkil% et:teşkil% et V-TV-AR ; ! "organise/организовать"
+yasaq% et:yasaq% et V-TV-AR ; ! ""
 
 LEXICON Abbreviations
 

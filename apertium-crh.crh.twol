@@ -49,6 +49,8 @@ Rules
 "Devoicing of non-coronal stem-final voiceless consonants"
 Cx:Cy <=> _ .#. ;
           _ %>: :Cns/:0* ;
+      except
+           _ %{☭%}: %>: ; 
       where Cx in ( b g ğ )
             Cy in ( p k q )
       matched ;
@@ -60,12 +62,13 @@ Cx:Cy <=> _ .#. ;
 ! t a p >:0 {i}:ı p
 
 "Devoicing of coronal stem-final voiceless consonants"
-Cx:Cy <=> _ .#. ;
+Cx:Cy <=> :Vow _ .#. ;
           _ %>: [ :Cns - %{D%}: ]/:0* ;
       where Cx in ( d c j )
             Cy in ( t ç ş )
       matched ;
 
+! q a y d
 
 "Deletion of dative {G} after px1sg, px2sg"
 %{G%}:0 <=>  [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
