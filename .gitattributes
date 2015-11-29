@@ -22,3 +22,4 @@ tests/voicing.yaml -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
 texts/puupankki/puupankki.crh.conllu -text
+texts/wikipedia.vislcg3.txt -text

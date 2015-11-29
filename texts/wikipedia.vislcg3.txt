@@ -1,0 +1,158 @@
+"<Samand>"
+	"Samand" np ant m attr @name #1->2
+"<Siyabendov>"
+	"Siyabendov" np cog m nom @nsubj #2->12
+"<1909>"
+	"1909" num @x #3->
+"<senesi>"
+	"sene" n px3sp nom @x #4->
+"<noyabr>"
+	"noyabr" n nom @x #5->
+"<14-de>"
+	"14" num subst loc @nmod #6->12
+"<Qars>"
+	"Qars" np top nom @nmod:poss #7->
+"<oblastiniñ>"
+	"oblast" n px3sp gen @nmod:poss #8->
+"<Hesencan>"
+	"Hesencan" np top nom @nmod:poss #9->
+"<köyünde>"
+	"köy" n px3sp loc @nmod #10->12
+"<dünyağa>"
+	"dünya" n dat @nmod #11->12
+"<keldi>"
+	"kel" v iv ifi p3 sg @root #12->0
+"<.>"
+	"." sent @punct #13->12
+
+"<Sumgayıt>"
+	"Sumgayıt" np top nom @nsubj #1->11
+"<—>"
+	"—" guio @punct #2->11
+"<Azerbaycanda>"
+	"Azerbaycan" np top loc @nmod #3->11
+"<,>"
+	"," cm @punct #4->3
+"<Hazar>"
+	"Hazar" np top nom @nmod:poss #5->6
+"<deñiziniñ>"
+	"deñiz" n px3sp gen @nmod:poss #6->7
+"<ğarb>"
+	"ğarb" n nom @nmod:poss #7->8
+"<yalısında>"
+	"yalı" n px3sp loc @nmod #8->9
+"<bulunğan>"
+	"bulun" v iv gpr_past @acl:relcl #9->11
+"<bir>"
+	"bir" det ind @det #10->11
+"<şeerdir>"
+	"şeer" n nom @root #11->0
+		"e" cop aor p3 frm sg @cop #12->11
+"<.>"
+	"." sent @punct #13->11
+
+"<Ayder>"
+	"Ayder" np ant m nom @name #1->2
+"<Osmannıñ>"
+	"Osman" np cog mf gen @nmod:poss #2->3
+"<eserleri>"
+	"eser" n pl px3sp nom @nsubj #3->9
+"<diger>"
+	"diger" det ind @det #4->6
+"<türkiy>"
+	"türkiy" adj @amod #5->6
+"<tillergede>"
+	"til" n pl dat @nmod #6->9
+		"da" postadv @advmod #7->6
+"<tercime>"
+	"tercime" n nom @x #8->9
+"<etildi>"
+	"et" v tv pass ifi p3 sg @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+"<1995>"
+	"1995" num @conj #1->3
+"<–>"
+	"–" guio @punct #2->3
+"<1996>"
+	"1996" num @x #3->4
+"<senelerinde>"
+	"sene" n pl px3sp loc @nmod
+"<Birleşken>"
+	"birleşken" adj @amod
+"<Milletler>"
+	"millet" n pl nom @x
+"<Cemiyetiniñ>"
+	"cemiyet" n px3sp gen @nmod:poss
+"<Moldaviyada>"
+	"Moldaviya" np top loc @x
+"<Gagauzlarnıñ>"
+	"gagauz" n pl gen @nmod:poss
+"<Latin>"
+	"latin" n attr @compound
+"<elifbesine>"
+	"elifbe" n px3sp dat
+"<keçme>"
+	"keçme" n nom @nmod:poss
+"<proyektinde>"
+	"proyekt" n px3sp loc @nmod
+"<muşavir>"
+	"muşavir" n nom @advcl #14->17
+"<olıp>"
+	"ol" v iv gna_perf @cop #15->14
+"<vazife>"
+	"vazife" n nom @x #16->17
+"<aldı>"
+	"al" v tv ifi p3 sg @root #17->0
+"<.>"
+	"." sent @punct #18->17
+
+"<Qaraqalpaq>"
+	"qaraqalpaq" n nom @nmod:poss
+"<tili>"
+	"til" n px3sp nom @nsubj
+"<(>"
+	"(" lpar
+"<öz>"
+	"öz" prn ref
+"<adı>"
+	"ad" n px3sp nom
+	"at²" n px3sp nom
+"<Qaraqalpaq>"
+	"qaraqalpaq" n nom
+"<tili>"
+	"til" n px3sp nom
+"<)>"
+	")" rpar
+"<->"
+	"-" guio
+"<türkiy>"
+	"türkiy" adj @amod
+"<gruppadaki>"
+	"gruppa" n loc attr
+"<qıpçaq>"
+	"qıpçaq" adj @amod
+"<tillerinden>"
+	"til" n pl px3sp abl
+"<bir>"
+	"bir" det ind @det
+"<tildir>"
+	"til" n nom @conj
+		"e" cop aor p3 frm sg
+"<,>"
+	"," cm @punct
+"<Özbekistan>"
+	"Özbekistan" np top nom
+"<terkibindeki>"
+	"terkip" n px3sp loc attr
+"<Qaraqalpaqistannıñ>"
+	"Qaraqalpaqistan" np top gen
+"<resmiy>"
+	"resmiy" adj @amod
+"<tili>"
+	"til" n px3sp nom
+		"e" cop aor p3 sg
+"<..>"
+	".." sent
+

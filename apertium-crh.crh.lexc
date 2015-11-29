@@ -472,7 +472,11 @@ LEXICON V-PERS-S2
 LEXICON V-PERS-AOR
 
 %<p1%>%<sg%>:%>%{i%}m CLITICS-NO-COP ; 
+%<p2%>%<sg%>:%>s%{I%}ñ CLITICS-NO-COP ; 
 %<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{i%}m%{I%}z CLITICS-NO-COP ; 
+%<p2%>%<pl%>:%>s%{I%}z CLITICS-NO-COP ; 
+%<p2%>%<pl%>:%>s%{I%}ñ%{I%}z CLITICS-NO-COP ;  ! FIXME: diff? -sIz/-sIñIz ?
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
@@ -745,6 +749,7 @@ iç% bir:iç% bir DET-IND ;
 bütün:bütün DET-IND ; 
 cümle:cümle DET-IND ; 
 diger:diger DET-IND ; ! ""
+bazı:bazı DET-IND ; ! ""
 
 qaysı:qaysı DET-INTERR ; ! ""
 angi:angi DET-INTERR ; ! ""
@@ -911,7 +916,7 @@ araştırma:araştırma N1 ; ! "поиск"
 arhiv:arhiv N1 ; ! "архив"
 arif:arif N1 ; ! "буква"
 arman:arman N1 ; ! "ток"
-arzu:arzu N1 ; ! "мечта"
+arzu:arzu N1 ; ! "dream/мечта"
 aş:aş N1 ; ! "пища, продовольствие"
 asır:asır N1 ; ! "century/век"
 asker:asker N1 ; ! "воин"
@@ -1333,7 +1338,7 @@ tenqitçi:tenqitçi N1 ; ! "критик"
 teraze:teraze N1 ; ! "вес"
 terek:terek N1 ; ! "дерево"
 terenlik:terenlik N1 ; ! "глубина"
-terkip:terkip N1 ; ! "состав"
+terkip:terkip N5 ; ! "состав"
 tertip:tertip N1 ; ! "порядок"
 terzi:terzi N1 ; ! "портной"
 teşebbüs:teşebbüs N1 ; ! "инициатива"
@@ -2082,8 +2087,14 @@ yedinstvo:yedinstvo N1 ; ! ""
 litsenziya:litsenziya N1 ; ! ""
 region:region N1 ; ! ""
 rejim:rejim N1 ; ! ""
-
-
+bankrot:bankrot N5 ; ! ""
+oblast:oblast N5 ; ! ""
+ğarb:ğarb N5 ; ! ""
+proyekt:proyekt N5 ; ! ""
+latin:latin N1 ; ! ""
+muşavir:muşavir N1 ; ! "" ! FIXME
+il:il N1 ; ! ""
+domen:domen N1 ; ! ""
 
 burun:bur%{y%}n N1 ; ! ""
 boyun:boy%{y%}n N1 ; ! ""
@@ -2095,7 +2106,9 @@ million:million N1 ; ! "миллион"
 
 Osmanlı:Osmanlı N1 ; ! ""
 tacik:tacik N1 ; ! "таджик"
+gagauz:gagauz N1 ; ! ""
 rus:rus N1 ; ! ""
+qaraqalpaq:qaraqalpaq N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -2107,6 +2120,7 @@ Avrasiya:Avrasiya NP-TOP ; ! ""
 
 Norvegiya:Norvegiya NP-TOP ; ! ""
 Lehistan:Lehistan NP-TOP ; ! ""
+Qaraqalpaqistan:Qaraqalpaqistan NP-TOP ; ! ""
 Qazahistan:Qazahistan NP-TOP ; ! ""
 Arabistan:Arabistan NP-TOP ; ! ""
 Macaristan:Macaristan NP-TOP ; ! ""
@@ -3029,6 +3043,9 @@ Zorınsk:Zorınsk NP-TOP ; ! ""
 Zvenıgorodka:Zvenıgorodka NP-TOP ; ! ""
 
 Bağçasaray:Bağçasaray NP-TOP ; ! ""
+Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
+Kirovograd:Kirovograd NP-TOP ; ! ""
+
 
 
 Abhaziya:Abhaziya NP-TOP ; ! ""
@@ -3200,8 +3217,13 @@ Zagreb:Zagreb NP-TOP ; ! ""
 Volın:Volın NP-TOP ; ! ""
 Zakarpattâ:Zakarpattâ NP-TOP ; ! ""
 Ades:Ades NP-TOP ; ! ""
+Qars:Qars NP-TOP ; ! ""
+Hesencan:Hesencan NP-TOP ; ! ""
+Sumgayıt:Sumgayıt NP-TOP ; ! ""
+Hazar:Hazar NP-TOP ; ! ""
 
 Andrey:Andrey NP-ANT-M ; ! ""
+Samand:Samand NP-ANT-M ; ! ""
 Oleg:Oleg NP-ANT-M ; ! ""
 Dmitriy:Dmitriy NP-ANT-M ; ! ""
 Mark:Mark NP-ANT-M ; ! ""
@@ -3210,6 +3232,7 @@ Natalya:Natalya NP-ANT-F ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
 
 Nikolayev:Nikolayev NP-COG-OV ; ! ""
+Siyabendov:Siyabendov NP-COG-OV ; ! ""
 
 Hacı:Hacı NP-ANT-M ; ! ""
 Mustafa:Mustafa NP-ANT-M ; ! ""
@@ -3298,8 +3321,10 @@ Uriye:Uriye NP-ANT-F ; ! ""
 Zekkiye:Zekkiye NP-ANT-F ; ! ""
 
 Petro:Petro NP-ANT-M ; ! ""
+Ayder:Ayder NP-ANT-M ; ! ""
 
 Merkel:Merkel NP-COG-MF ; ! ""
+Osman:Osman NP-COG-MF ; ! ""
 Geray:Geray NP-COG-MF ; ! ""
 
 Doroşenko:Doroşenko NP-COG-MF ; ! ""
@@ -3988,6 +4013,10 @@ qanuniy:qanuniy A1 ; ! ""
 fevqulâde:fevqulâde A1 ; ! ""
 adlı:adlı A1 ; ! ""
 qabaatlı:qabaatlı A1 ; ! ""
+türkiy:türkiy A1 ; ! ""
+
+qıpçaq:qıpçaq A1 ; ! ""
+oğuz:oğuz A1 ; ! ""
 
 LEXICON Adverbs
 
@@ -4034,6 +4063,7 @@ yuqarıdan:yuqarıdan ADV ; ! ""
 şimdi:şimdi ADV ; ! "now/сейчас"
 bazan:bazan ADV ; ! "sometimes/иногда"
 çoqtan:çoqtan ADV ; 
+bazı% bir:bazı% bir ADV ; ! "sometimes/иногда"
 baştan:baştan ADV ; ! ""
 evelden:evelden ADV ; ! ""
 tezden:tezden ADV ; ! ""
@@ -4226,7 +4256,7 @@ yuv:yuv V-TV ; ! "wash/мыть"
 
 sora:sora V-TV ; ! "ask/спросить"
 ele:ele V-TV ; ! "sift"
-bulun:bulun V-IV ; ! ""
+bulun:bulun V-IV ; ! "be/быть"
 piş:piş V-TV ; ! ""
 pişir:pişir V-TV ; ! ""
 yuqla:yuqla V-IV ; ! "sleep/спать"
@@ -4286,8 +4316,9 @@ LEXICON Punctuation
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
-%-%<guio%>:%- # ;
-%—%<guio%>:%— # ;
+%-%<guio%>:%- # ; ! hyphen/minus
+%–%<guio%>:%– # ; ! en dash
+%—%<guio%>:%— # ; ! em dash
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ;
 %'%<apos%>:%' # ;
