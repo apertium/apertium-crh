@@ -26,7 +26,7 @@
 "<kördim>"
 	"kör" v tv ifi p1 sg @root #4->0
 "<.>"
-	"." sent @punct @punct #5->4
+	"." sent @punct #5->4
 
 "<Men>"
 	"men" prn pers p1 sg nom @nsubj
@@ -35,7 +35,7 @@
 "<qorqam>"
 	"qorq" v tv aor p1 sg @root
 "<.>"
-	"." sent @punct @punct
+	"." sent @punct
 
 "<Men>"
 	"men" prn pers p1 sg nom @nsubj
@@ -44,7 +44,7 @@
 "<oqudım>"
 	"oqu" v tv ifi p1 sg @root
 "<.>"
-	"." sent @punct @punct
+	"." sent @punct
 
 "<Bu>"
 	"bu" det dem

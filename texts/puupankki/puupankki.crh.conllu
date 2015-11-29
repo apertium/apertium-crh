@@ -1,8 +1,30 @@
+1	Bir	bir	_	det	ind	2	det	_	_
+2	kün	kün	_	n	nom	8	nmod	_	_
+3	Nasreddin	Nasreddin	_	np	ant|m|nom	8	nsubj	_	_
+4	oca	oca	_	n	nom	3	appos	_	_
+5	eşegine	eşek	_	n	px3sp|dat	6	nmod	_	_
+6	minip	min	_	v	iv|gna_perf	8	advcl	_	_
+7	yolğa	yol	_	n	dat	8	nmod	_	_
+8	çıqa	çıq	_	v	iv|aor|p3|sg	0	root	_	_
+9	.	.	_	sent	_	8	punct	_	_
+
 1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
 2	bunı	bu	_	prn	dem|acc	4	dobj	_	_
 3	tünevin	tünevin	_	adv	_	4	advmod	_	_
 4	kördim	kör	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct @punct	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+1	Erkes	erkes	_	prn	ind|nom	4	nsubj	_	_
+2	bir	bir	_	det	ind	3	det	_	_
+3	şeyden	şey	_	n	abl	4	x	_	_
+4	qorqa	qorq	_	v	tv|aor|p3|sg	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
+2	iç bir şey	iç bir şey	_	bir	prn|ind|nom	4	dobj	_	_
+3	iç birine	iç bir	_	bir	prn|ind|px3sp|dat	4	nmod	_	_
+4	yazmadım	yaz	_	v	tv|neg|ifi|p1|sg	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
 
 1	Köyniñ	köy	_	n	gen	4	nmod:poss	_	_
 2	eñ	eñ	_	adv	_	3	advmod	_	_
@@ -219,7 +241,7 @@
 1	Remziye	Remziye	_	np	ant|f|nom	2	nsubj	_	_
 2	yırlay	yırla	_	v	tv|aor|p3|sg	5	conj	_	_
 3	Mafuze	Mafuze	_	np	ant|f|nom	5	nsubj	_	_
-4	ise	ise	_	cnjcoo	_	5	cc	_	_
+4	ise	ise	_	postadv	_	3	advmod	_	_
 5	oynay	oyna	_	v	tv|aor|p3|sg	0	root	_	_
 6	.	.	_	sent	_	5	punct	_	_
 
