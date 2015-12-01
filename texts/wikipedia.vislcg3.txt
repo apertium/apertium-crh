@@ -11,11 +11,11 @@
 "<14-de>"
 	"14" num subst loc @nmod #6->12
 "<Qars>"
-	"Qars" np top nom @nmod:poss #7->
+	"Qars" np top nom @nmod:poss #7->8
 "<oblastiniñ>"
-	"oblast" n px3sp gen @nmod:poss #8->
+	"oblast" n px3sp gen @nmod:poss #8->10
 "<Hesencan>"
-	"Hesencan" np top nom @nmod:poss #9->
+	"Hesencan" np top nom @nmod:poss #9->10
 "<köyünde>"
 	"köy" n px3sp loc @nmod #10->12
 "<dünyağa>"
@@ -109,50 +109,50 @@
 	"." sent @punct #18->17
 
 "<Qaraqalpaq>"
-	"qaraqalpaq" n nom @nmod:poss
+	"qaraqalpaq" n nom @nmod:poss #1->2
 "<tili>"
-	"til" n px3sp nom @nsubj
+	"til" n px3sp nom @nsubj #2->
 "<(>"
-	"(" lpar
+	"(" lpar @punct #3->
 "<öz>"
-	"öz" prn ref
+	"öz" prn ref @nmod:poss #4->
 "<adı>"
 	"ad" n px3sp nom
 	"at²" n px3sp nom
 "<Qaraqalpaq>"
-	"qaraqalpaq" n nom
+	"qaraqalpaq" n nom @nmod:poss #6->7
 "<tili>"
-	"til" n px3sp nom
-"<)>"
-	")" rpar
+	"til" n px3sp nom @appos #7->
+"<)>" 
+	")" rpar @punct #8->
 "<->"
-	"-" guio
+	"-" guio @punct #9->
 "<türkiy>"
-	"türkiy" adj @amod
+	"türkiy" adj @amod #10->11
 "<gruppadaki>"
-	"gruppa" n loc attr
+	"gruppa" n loc attr @x #11->13
 "<qıpçaq>"
-	"qıpçaq" adj @amod
+	"qıpçaq" adj @amod #12->13
 "<tillerinden>"
-	"til" n pl px3sp abl
+	"til" n pl px3sp abl @nmod #13->
 "<bir>"
-	"bir" det ind @det
+	"bir" det ind @det #14->15
 "<tildir>"
-	"til" n nom @conj
-		"e" cop aor p3 frm sg
+	"til" n nom @conj #15->22
+		"e" cop aor p3 frm sg @cop #16->15
 "<,>"
-	"," cm @punct
+	"," cm @punct #17->22
 "<Özbekistan>"
-	"Özbekistan" np top nom
+	"Özbekistan" np top nom @nmod:poss #18->19
 "<terkibindeki>"
-	"terkip" n px3sp loc attr
+	"terkip" n px3sp loc attr @x #19->20
 "<Qaraqalpaqistannıñ>"
-	"Qaraqalpaqistan" np top gen
+	"Qaraqalpaqistan" np top gen @nmod:poss #20->22
 "<resmiy>"
-	"resmiy" adj @amod
+	"resmiy" adj @amod #21->22
 "<tili>"
-	"til" n px3sp nom
-		"e" cop aor p3 sg
-"<..>"
-	".." sent
+	"til" n px3sp nom @root #22->0
+		"e" cop aor p3 sg @cop #23->22
+"<.>"
+	"." sent @punct #24->22
 
