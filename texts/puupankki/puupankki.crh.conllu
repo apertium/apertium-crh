@@ -21,8 +21,8 @@
 5	.	.	_	sent	_	4	punct	_	_
 
 1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	iç bir şey	iç bir şey	_	bir	prn|ind|nom	4	dobj	_	_
-3	iç birine	iç bir	_	bir	prn|ind|px3sp|dat	4	nmod	_	_
+2	iç bir şey	iç bir şey	_	prn	ind|nom	4	dobj	_	_
+3	iç birine	iç bir	_	prn	ind|px3sp|dat	4	nmod	_	_
 4	yazmadım	yaz	_	v	tv|neg|ifi|p1|sg	0	root	_	_
 5	.	.	_	sent	_	4	punct	_	_
 
@@ -794,7 +794,7 @@
 1	Ya	ya	_	cnjcoo	_	8	cc	_	_
 2	yağmur	yağmur	_	n	nom	3	nsubj	_	_
 3	yağar	yağ	_	v	iv|fut|p3|sg	8	conj	_	_
-4	ya da	ya da	_	da	cnjcoo	8	cc	_	_
+4	ya da	ya da	_	cnjcoo	_	8	cc	_	_
 5	biz	biz	_	prn	pers|p1|pl|nom	8	nsubj	_	_
 6	yuvunmağa	yuv	_	v	tv|pass|ger|dat	8	advcl	_	_
 7	ketermiz	ket	_	v	iv|fut|p1|pl	0	root	_	_
@@ -966,7 +966,7 @@
 3	bitirgenden	bitir	_	vaux	ger_past|abl	2	aux	_	_
 4	berli	berli	_	post	_	2	case	_	_
 5	o	o	_	prn	pers|p3|sg|nom	7	nsubj	_	_
-6	iç bir şey	iç bir şey	_	bir	prn|ind|nom	7	dobj	_	_
+6	iç bir şey	iç bir şey	_	prn	ind|nom	7	dobj	_	_
 7	aytmadı	ayt	_	v	tv|neg|ifi|p3|sg	0	root	_	_
 8	.	.	_	sent	_	7	punct	_	_
 
