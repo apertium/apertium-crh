@@ -21,6 +21,6 @@ tests/possessives.yaml -text
 tests/voicing.yaml -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
-texts/puupankki.crh.conllx -text
 texts/puupankki/puupankki.crh.conllu -text
+texts/puupankki/puupankki.crh.conllx -text
 texts/wikipedia.vislcg3.txt -text
