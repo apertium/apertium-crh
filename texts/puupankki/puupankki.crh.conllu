@@ -614,7 +614,7 @@
 6	.	.	_	sent	_	4	punct	_	_
 
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
-2	ocam	oca	_	n	px1sg|nom	4	subj	_	_
+2	ocam	oca	_	n	px1sg|nom	4	nsubj	_	_
 3	qart	qart	_	adj	_	4	amod	_	_
 4	adam	adam	_	n	nom	0	root	_	_
 5	olacaq	ol	_	v	iv|fut2|p3|sg	4	cop	_	_
