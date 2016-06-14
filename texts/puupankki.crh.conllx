@@ -21,8 +21,8 @@
 5	.	.	_	sent	_	4	punct	_	_
 
 1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	iç bir şey	iç bir şey	_	prn	ind|nom	4	dobj	_	_
-3	iç birine	iç bir	_	prn	ind|px3sp|dat	4	nmod	_	_
+2	iç·bir·şey	iç·bir·şey	_	prn	ind|nom	4	dobj	_	_
+3	iç·birine	iç·bir	_	prn	ind|px3sp|dat	4	nmod	_	_
 4	yazmadım	yaz	_	v	tv|neg|ifi|p1|sg	0	root	_	_
 5	.	.	_	sent	_	4	punct	_	_
 
@@ -141,9 +141,8 @@
 5	onıñ	o	_	prn	pers|p3|sg|gen	6	nmod:poss	_	_
 6	qorantası	qoranta	_	n	px3sp|nom	8	nsubj	_	_
 7	çoq	çoq	_	adv	_	8	advmod	_	_
-8-9	razı	_	_	_	_	_	_	_	_
-8	_	razı	_	adj	_	0	root	_	_
-9	_	e	_	cop	aor|p3|sg	8	cop	_	_
+8	razı	razı	_	adj	_	0	root	_	_
+9	*	e	_	cop	aor|p3|sg	8	cop	_	_
 10	.	.	_	sent	_	8	punct	_	_
 
 1	Tünevin	tünevin	_	adv	_	2	advmod	_	_
@@ -152,23 +151,20 @@
 
 1	Bala	bala	_	n	nom	2	nsubj	_	_
 2	oqumaq	oqu	_	v	tv|ger|nom	3	csubj	_	_
-3-4	kerek	_	_	_	_	_	_	_	_
-3	_	kerek	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	kerek	kerek	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Bu	bu	_	det	dem	2	det	_	_
 2	kitapnı	kitap	_	n	acc	3	dobj	_	_
 3	oqumaq	oqu	_	v	tv|ger|nom	4	csubj	_	_
-4-5	lâzim	_	_	_	_	_	_	_	_
-4	_	lâzim	_	adj	_	0	root	_	_
-5	_	e	_	cop	aor|p3|sg	4	cop	_	_
+4	lâzim	lâzim	_	adj	_	0	root	_	_
+5	*	e	_	cop	aor|p3|sg	4	cop	_	_
 6	.	.	_	sent	_	4	punct	_	_
 
 1	Işlemek	işle	_	v	tv|ger|nom	2	csubj	_	_
-2-3	kerek	_	_	_	_	_	_	_	_
-2	_	kerek	_	adj	_	0	root	_	_
-3	_	e	_	cop	aor|p3|sg	2	cop	_	_
+2	kerek	kerek	_	adj	_	0	root	_	_
+3	*	e	_	cop	aor|p3|sg	2	cop	_	_
 4	.	.	_	sent	_	2	punct	_	_
 
 1	Men	men	_	prn	pers|p1|sg|nom	3	nsubj	_	_
@@ -214,9 +210,8 @@
 4	.	.	_	sent	_	3	punct	_	_
 
 1	Sen	sen	_	prn	pers|p2|sg|nom	2	nsubj	_	_
-2-3	qırımtatarsıñ	_	_	_	_	_	_	_	_
-2	_	qırımtatar	_	n	nom	0	root	_	_
-3	_	e	_	cop	aor|p2|sg	2	cop	_	_
+2	qırımtatarsıñ	qırımtatar	_	n	nom	0	root	_	_
+3	*	e	_	cop	aor|p2|sg	2	cop	_	_
 4	.	.	_	sent	_	2	punct	_	_
 
 1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
@@ -312,16 +307,14 @@
 
 1	Evni	ev	_	n	acc	2	dobj	_	_
 2	temizlemek	temizle	_	v	tv|ger|nom	3	csubj	_	_
-3-4	kerek	_	_	_	_	_	_	_	_
-3	_	kerek	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	kerek	kerek	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Ev	ev	_	n	nom	2	dobj	_	_
 2	temizlemek	temizle	_	v	tv|ger|nom	3	csubj	_	_
-3-4	kerek	_	_	_	_	_	_	_	_
-3	_	kerek	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	kerek	kerek	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Men	men	_	prn	pers|p1|sg|nom	4	nsubj	_	_
@@ -359,9 +352,8 @@
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
 2	ağamnıñ	ağa	_	n	px1sg|gen	3	nmod:poss	_	_
 3	közleri	köz	_	n	pl|px3sp|nom	4	nsubj	_	_
-4-5	kök	_	_	_	_	_	_	_	_
-4	_	kök	_	adj	_	0	root	_	_
-5	_	e	_	cop	aor|p3|sg	4	cop	_	_
+4	kök	kök	_	adj	_	0	root	_	_
+5	*	e	_	cop	aor|p3|sg	4	cop	_	_
 6	.	.	_	sent	_	4	punct	_	_
 
 1	Filcan	filcan	_	n	nom	3	nsubj	_	_
@@ -372,9 +364,8 @@
 1	Suvğa	suv	_	n	dat	3	nmod	_	_
 2	tuz	tuz	_	n	nom	3	dobj	_	_
 3	qoşmaq	qoş	_	v	tv|ger|nom	4	csubj	_	_
-4-5	kerek	_	_	_	_	_	_	_	_
-4	_	kerek	_	adj	_	0	root	_	_
-5	_	e	_	cop	aor|p3|sg	4	cop	_	_
+4	kerek	kerek	_	adj	_	0	root	_	_
+5	*	e	_	cop	aor|p3|sg	4	cop	_	_
 6	.	.	_	sent	_	4	punct	_	_
 
 1	Ana	ana	_	n	nom	4	nsubj	_	_
@@ -396,9 +387,8 @@
 
 1	Anamda	ana	_	n	px1sg|loc	3	nmod	_	_
 2	musafir	musafir	_	n	nom	3	nsubj	_	_
-3-4	bar	_	_	_	_	_	_	_	_
-3	_	bar	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	bar	bar	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Okupatsiyada	okupatsiya	_	n	loc	2	nmod	_	_
@@ -593,17 +583,15 @@
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
 2	ocam	oca	_	n	px1sg|nom	4	nsubj	_	_
 3	qart	qart	_	adj	_	4	amod	_	_
-4-5	adam	_	_	_	_	_	_	_	_
-4	_	adam	_	n	nom	0	root	_	_
-5	_	e	_	cop	aor|p3|sg	4	cop	_	_
+4	adam	adam	_	n	nom	0	root	_	_
+5	*	e	_	cop	aor|p3|sg	4	cop	_	_
 6	.	.	_	sent	_	4	punct	_	_
 
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
 2	ocam	oca	_	n	px1sg|nom	4	nsubj	_	_
 3	qart	qart	_	adj	_	4	amod	_	_
-4-5	adamdır	_	_	_	_	_	_	_	_
-4	_	adam	_	n	nom	0	root	_	_
-5	_	e	_	cop	aor|p3|frm|sg	4	cop	_	_
+4	adamdır	adam	_	n	nom	0	root	_	_
+5	*	e	_	cop	aor|p3|frm|sg	4	cop	_	_
 6	.	.	_	sent	_	4	punct	_	_
 
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
@@ -630,16 +618,14 @@
 
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
 2	ocam	oca	_	n	px1sg|nom	3	nsubj	_	_
-3-4	semiz	_	_	_	_	_	_	_	_
-3	_	semiz	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	semiz	semiz	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
 2	ocam	oca	_	n	px1sg|nom	3	nsubj	_	_
-3-4	semizdir	_	_	_	_	_	_	_	_
-3	_	semiz	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	semizdir	semiz	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Menim	men	_	prn	pers|p1|sg|gen	2	nmod:poss	_	_
@@ -647,9 +633,8 @@
 3	semiz	semiz	_	adj	_	6	conj	_	_
 4	edi	e	_	cop	ifi|p3|sg	3	cop	_	_
 5	soñ	soñ	_	cnjadv	_	6	cc	_	_
-6-7	azdı	_	_	_	_	_	_	_	_
-6	_	az	_	adj	_	0	root	_	_
-7	_	e	_	cop	ifi|p3|sg	6	cop	_	_
+6	azdı	az	_	adj	_	0	root	_	_
+7	*	e	_	cop	ifi|p3|sg	6	cop	_	_
 8	.	.	_	sent	_	6	punct	_	_
 
 1	Bu	bu	_	det	dem	2	det	_	_
@@ -673,65 +658,57 @@
 1	Şimdi	şimdi	_	adv	_	4	advmod	_	_
 2	bizde	biz	_	prn	pers|p1|pl|loc	3	nmod	_	_
 3	musafir	musafir	_	n	nom	4	nsubj	_	_
-4-5	bar	_	_	_	_	_	_	_	_
-4	_	bar	_	adj	_	0	root	_	_
-5	_	e	_	cop	aor|p3|sg	4	cop	_	_
+4	bar	bar	_	adj	_	0	root	_	_
+5	*	e	_	cop	aor|p3|sg	4	cop	_	_
 6	.	.	_	sent	_	4	punct	_	_
 
 1	Mende	men	_	prn	pers|p1|sg|loc	3	nmod	_	_
 2	kitap	kitap	_	n	nom	3	nsubj	_	_
-3-4	bar	_	_	_	_	_	_	_	_
-3	_	bar	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	bar	bar	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Bağçasarayda	Bağçasaray	_	np	top|loc	5	nmod	_	_
 2	Remziyeniñ	Remziye	_	np	ant|f|gen	4	nmod:poss	_	_
 3	eki	eki	_	num	_	4	nummod	_	_
 4	dostu	dost	_	n	px3sp|nom	5	nsubj	_	_
-5-6	bar	_	_	_	_	_	_	_	_
-5	_	bar	_	adj	_	0	root	_	_
-6	_	e	_	cop	aor|p3|sg	5	cop	_	_
+5	bar	bar	_	adj	_	0	root	_	_
+6	*	e	_	cop	aor|p3|sg	5	cop	_	_
 7	.	.	_	sent	_	5	punct	_	_
 
 1	Menim	men	_	prn	pers|p1|sg|gen	3	nmod:poss	_	_
 2	kitabım	kitap	_	n	nom	3	nsubj	_	_
-3-4	bar	_	_	_	_	_	_	_	_
-3	_	bar	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	bar	bar	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	.	.	_	sent	_	3	punct	_	_
 
 1	Onıñ	o	_	prn	pers|p3|sg|gen	2	nmod:poss	_	_
 2	ocası	oca	_	n	px3sp|nom	4	nsubj	_	_
 3	qart	qart	_	adj	_	4	amod	_	_
-4-6	adammı	_	_	_	_	_	_	_	_
-4	_	adam	_	n	nom	0	root	_	_
-5	_	e	_	cop	aor|p3|sg	4	cop	_	_
-6	_	mı	_	qst	_	4	disc	_	_
+4	adammı	adam	_	n	nom	0	root	_	_
+5	*	e	_	cop	aor|p3|sg	4	cop	_	_
+6	*	mı	_	qst	_	4	disc	_	_
 7	?	?	_	sent	_	4	punct	_	_
 
 1	O	o	_	det	dem	2	det	_	_
 2	bala	bala	_	n	nom	4	nsubj	_	_
 3	kitap	kitap	_	n	nom	4	dobj	_	_
-4-5	oquymı	_	_	_	_	_	_	_	_
-4	_	oqu	_	v	tv|aor|p3|sg	0	root	_	_
-5	_	mı	_	qst	_	4	disc	_	_
+4	oquymı	oqu	_	v	tv|aor|p3|sg	0	root	_	_
+5	*	mı	_	qst	_	4	disc	_	_
 6	?	?	_	sent	_	4	punct	_	_
 
 1	Evde	ev	_	n	loc	3	nmod	_	_
 2	birev	birev	_	prn	ind|nom	3	nsubj	_	_
-3-5	barmı	_	_	_	_	_	_	_	_
-3	_	bar	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
-5	_	mı	_	qst	_	3	disc	_	_
+3	barmı	bar	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
+5	*	mı	_	qst	_	3	disc	_	_
 6	?	?	_	sent	_	3	punct	_	_
 
 1	Evde	ev	_	n	loc	3	nmod	_	_
 2	kimse	kimse	_	prn	ind|nom	3	nsubj	_	_
-3-5	yoqmı	_	_	_	_	_	_	_	_
-3	_	yoq	_	adj	_	0	root	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
-5	_	mı	_	qst	_	3	disc	_	_
+3	yoqmı	yoq	_	adj	_	0	root	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
+5	*	mı	_	qst	_	3	disc	_	_
 6	?	?	_	sent	_	3	punct	_	_
 
 1	Ağam	ağa	_	n	px1sg|nom	4	nsubj	_	_
@@ -777,9 +754,8 @@
 1	Bu	bu	_	det	dem	2	det	_	_
 2	mesele	mesele	_	n	nom	3	nsubj	_	_
 3	mürekkep	mürekkep	_	adj	_	7	conj	_	_
-4-5	degil	_	_	_	_	_	_	_	_
-4	_	degil	_	postadv	_	3	advmod	_	_
-5	_	e	_	cop	aor|p3|sg	3	cop	_	_
+4	degil	degil	_	postadv	_	3	advmod	_	_
+5	*	e	_	cop	aor|p3|sg	3	cop	_	_
 6	lakin	lakin	_	cnjcoo	_	7	cc	_	_
 7	çezilmeli	çez	_	v	tv|pass|nec|p3|sg	0	root	_	_
 8	.	.	_	sent	_	7	punct	_	_
@@ -794,7 +770,7 @@
 1	Ya	ya	_	cnjcoo	_	8	cc	_	_
 2	yağmur	yağmur	_	n	nom	3	nsubj	_	_
 3	yağar	yağ	_	v	iv|fut|p3|sg	8	conj	_	_
-4	ya da	ya da	_	cnjcoo	_	8	cc	_	_
+4	ya·da	ya·da	_	cnjcoo	_	8	cc	_	_
 5	biz	biz	_	prn	pers|p1|pl|nom	8	nsubj	_	_
 6	yuvunmağa	yuv	_	v	tv|pass|ger|dat	8	advcl	_	_
 7	ketermiz	ket	_	v	iv|fut|p1|pl	0	root	_	_
@@ -817,9 +793,8 @@
 
 1	Oña	o	_	prn	pers|p3|sg|dat	2	nmod:rcp	_	_
 2	aytmaq	ayt	_	v	tv|ger|nom	3	csubj	_	_
-3-4	kerek	_	_	_	_	_	_	_	_
-3	_	kerek	_	adj	_	7	conj	_	_
-4	_	e	_	cop	aor|p3|sg	3	cop	_	_
+3	kerek	kerek	_	adj	_	7	conj	_	_
+4	*	e	_	cop	aor|p3|sg	3	cop	_	_
 5	yoqsa	yoqsa	_	cnjadv	_	7	cc	_	_
 6	o	o	_	prn	pers|p3|sg|nom	7	nsubj	_	_
 7	kelmez	kel	_	v	iv|neg|fut|p3|sg	0	root	_	_
@@ -884,9 +859,8 @@
 1	O	o	_	prn	pers|p3|sg|nom	4	nsubj	_	_
 2	Remziyeni	Remziye	_	np	ant|f|acc	3	dobj	_	_
 3	körgenini	kör	_	v	tv|ger_past|px3sp|acc	4	ccomp	_	_
-4-5	ayttımı	_	_	_	_	_	_	_	_
-4	_	ayt	_	v	tv|ifi|p3|sg	0	root	_	_
-5	_	mı	_	qst	_	4	disc	_	_
+4	ayttımı	ayt	_	v	tv|ifi|p3|sg	0	root	_	_
+5	*	mı	_	qst	_	4	disc	_	_
 6	?	?	_	sent	_	4	punct	_	_
 
 1	O	o	_	prn	pers|p3|sg|nom	3	nsubj	_	_
@@ -966,7 +940,7 @@
 3	bitirgenden	bitir	_	vaux	ger_past|abl	2	aux	_	_
 4	berli	berli	_	post	_	2	case	_	_
 5	o	o	_	prn	pers|p3|sg|nom	7	nsubj	_	_
-6	iç bir şey	iç bir şey	_	prn	ind|nom	7	dobj	_	_
+6	iç·bir·şey	iç·bir·şey	_	prn	ind|nom	7	dobj	_	_
 7	aytmadı	ayt	_	v	tv|neg|ifi|p3|sg	0	root	_	_
 8	.	.	_	sent	_	7	punct	_	_
 
@@ -975,9 +949,8 @@
 3	men	men	_	prn	pers|p1|sg|nom	5	nsubj	_	_
 4	içimni	iç	_	n	px1sg|acc	5	dobj	_	_
 5	bitirmek	bitir	_	v	tv|ger|nom	6	csubj	_	_
-6-7	keregim	_	_	_	_	_	_	_	_
-6	_	kerek	_	adj	_	0	root	_	_
-7	_	e	_	cop	aor|p1|sg	6	cop	_	_
+6	keregim	kerek	_	adj	_	0	root	_	_
+7	*	e	_	cop	aor|p1|sg	6	cop	_	_
 8	.	.	_	sent	_	6	punct	_	_
 
 1	Men	men	_	prn	pers|p1|sg|nom	6	nsubj	_	_
@@ -1002,6 +975,4 @@
 3	bunı	bu	_	prn	dem|acc	4	dobj	_	_
 4	aytmadım	ayt	_	v	tv|neg|ifi|p1|sg	0	root	_	_
 5	.	.	_	sent	_	4	punct	_	_
-
-
 
