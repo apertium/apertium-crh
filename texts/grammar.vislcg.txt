@@ -1433,7 +1433,7 @@
 "<Menim>" 
 	"men" prn pers p1 sg gen @nmod:poss #1->2
 "<ocam>"
-	"oca" n px1sg nom @subj #2->4
+	"oca" n px1sg nom @nsubj #2->4
 "<qart>"
 	"qart" adj @amod #3->4
 "<adam>"
