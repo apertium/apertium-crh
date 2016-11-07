@@ -1,0 +1,569 @@
+"<Alfred>"
+	"*Alfred"
+"<Nobel>"
+	"*Nobel"
+"<(>"
+	"(" lpar
+"<isveççe>"
+	"*isveççe"
+"<Alfred>"
+	"*Alfred"
+"<Nobel>"
+	"*Nobel"
+"<;>"
+	";" sent
+"<1833>"
+	"1833" num
+"<oktâbr>"
+	"oktâbr" n nom
+	"oktâbr" n attr
+	"oktâbr" n nom
+		"e" cop aor p3 sg
+"<21>"
+	"21" num
+"<->"
+	"-" guio
+"<1896>"
+	"1896" num
+"<dekabr>"
+	"dekabr" n nom
+	"dekabr" n attr
+	"dekabr" n nom
+		"e" cop aor p3 sg
+"<10>"
+	"10" num
+"<)>"
+	")" rpar
+"<->"
+	"-" guio
+"<isveç>"
+	"*isveç"
+"<himiyacı>"
+	"himiyacı" n nom
+	"himiyacı" n attr
+	"himiyacı" n nom
+		"e" cop aor p3 sg
+"<,>"
+	"," cm
+"<müendis>"
+	"müendis" n nom
+	"müendis" n attr
+	"müendis" n nom
+		"e" cop aor p3 sg
+"<,>"
+	"," cm
+"<silâ>"
+	"silâ" n nom
+	"silâ" n attr
+	"silâ" n nom
+		"e" cop aor p3 sg
+"<istisalcısı>"
+	"*istisalcısı"
+"<ve>"
+	"ve" cnjcoo
+"<dinamitniñ>"
+	"*dinamitniñ"
+"<icatçısı>"
+	"*icatçısı"
+"<.>"
+	"." sent
+
+"<Alfred>"
+	"*Alfred"
+"<Nobel>"
+	"*Nobel"
+"<355>"
+	"355" num
+"<çeşit>"
+	"çeşit" n nom
+	"çeşit" n attr
+	"çeşit" n nom
+		"e" cop aor p3 sg
+"<türlü>"
+	"*türlü"
+"<keşif>"
+	"*keşif"
+"<yapqan>"
+	"yap" v tv ger_past nom
+	"yap" v tv past p3 sg
+	"yap" v tv gpr_past
+	"yap" v tv ger_past nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Bofors>"
+	"*Bofors"
+"<kompaniyasında>"
+	"*kompaniyasında"
+"<reberlik>"
+	"reberlik" n nom
+	"reberlik" n attr
+	"reberlik" n nom
+		"e" cop aor p3 sg
+"<etken>"
+	"et" v tv ger_past nom
+	"et" v tv past p3 sg
+	"et" v tv gpr_past
+	"et" v tv ger_past nom
+		"e" cop aor p3 sg
+"<..>"
+	".." sent
+
+
+"<Alfred>"
+	"*Alfred"
+"<Nobel>"
+	"*Nobel"
+"<1833>"
+	"1833" num
+"<senesi>"
+	"sene" n px3sp nom
+	"sene" n px3sp nom
+		"e" cop aor p3 sg
+"<oktâbrniñ>"
+	"oktâbr" n gen
+"<21>"
+	"21" num
+"<->"
+	"-" guio
+"<nde>"
+	"*nde"
+"<İsveç>"
+	"İsveç" np top nom
+	"İsveç" np top nom
+		"e" cop aor p3 sg
+"<paytahtı>"
+	"paytaht" n px3sp nom
+	"paytaht" n px3sp nom
+		"e" cop aor p3 sg
+"<olğan>"
+	"ol" v iv ger_past nom
+	"ol" v iv past p3 sg
+	"ol" v iv gpr_past
+	"ol" v iv ger_past nom
+		"e" cop aor p3 sg
+"<Stokgolm>"
+	"*Stokgolm"
+"<şeerinde>"
+	"şeer" n px3sp loc
+	"şeer" n px3sp nom
+		"da" postadv
+	"şeer" n px3sp nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"şeer" n px3sp loc
+		"e" cop aor p3 sg
+"<İmmanuel>"
+	"*İmmanuel"
+"<ve>"
+	"ve" cnjcoo
+"<Andriette>"
+	"*Andriette"
+"<Nobelniñ>"
+	"*Nobelniñ"
+"<qorantasında>"
+	"qoranta" n px3sp loc
+	"qoranta" n px3sp nom
+		"da" postadv
+	"qoranta" n px3sp nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"qoranta" n px3sp loc
+		"e" cop aor p3 sg
+"<dünyağa>"
+	"dünya" n dat
+"<keldi>"
+	"kel" v iv ifi p3 sg
+	"kel" vaux ifi p3 sg
+"<.>"
+	"." sent
+
+"<O>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<qorantada>"
+	"qoranta" n loc
+	"qoranta" n nom
+		"da" postadv
+	"qoranta" n nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"qoranta" n loc
+		"e" cop aor p3 sg
+"<üçünci>"
+	"üç" num ord
+	"üç" num ord subst nom
+	"üç" num ord subst nom
+		"e" cop aor p3 sg
+"<oğludır>"
+	"oğul" n px3sp nom
+		"e" cop aor p3 frm pl
+	"oğul" n px3sp nom
+		"e" cop aor p3 frm sg
+"<.>"
+	"." sent
+
+"<Babası>"
+	"baba" n px3sp nom
+	"baba" n px3sp nom
+		"e" cop aor p3 sg
+"<faneranıñ>"
+	"*faneranıñ"
+"<icatçısıdır>"
+	"*icatçısıdır"
+"<.>"
+	"." sent
+
+"<1842>"
+	"1842" num
+"<senesi>"
+	"sene" n px3sp nom
+	"sene" n px3sp nom
+		"e" cop aor p3 sg
+"<Nobel>"
+	"*Nobel"
+"<qorantası>"
+	"qoranta" n px3sp nom
+	"qoranta" n px3sp nom
+		"e" cop aor p3 sg
+"<o>"
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+	"o" det dem
+"<vaqıt>"
+	"vaqıt" n nom
+	"vaqıt" n attr
+	"vaqıt" n nom
+		"e" cop aor p3 sg
+"<Rusiye>"
+	"Rusiye" np top nom
+	"Rusiye" np top nom
+		"e" cop aor p3 sg
+"<İmperiyasınıñ>"
+	"imperiya" n px3sp gen
+"<paytahtı>"
+	"paytaht" n px3sp nom
+	"paytaht" n px3sp nom
+		"e" cop aor p3 sg
+"<olğan>"
+	"ol" v iv ger_past nom
+	"ol" v iv past p3 sg
+	"ol" v iv gpr_past
+	"ol" v iv ger_past nom
+		"e" cop aor p3 sg
+"<Sankt>"
+	"*Sankt"
+"<Peterburgğa>"
+	"*Peterburgğa"
+"<keldi>"
+	"kel" v iv ifi p3 sg
+	"kel" vaux ifi p3 sg
+"<.>"
+	"." sent
+
+"<Babası>"
+	"baba" n px3sp nom
+	"baba" n px3sp nom
+		"e" cop aor p3 sg
+"<Sankt>"
+	"*Sankt"
+"<Peterburgda>"
+	"*Peterburgda"
+"<deñiz>"
+	"deñiz" n nom
+	"deñiz" n attr
+	"deñiz" n nom
+		"e" cop aor p3 sg
+"<minasını>"
+	"*minasını"
+"<işlemedi>"
+	"işle" v tv neg ifi p3 sg
+"<.>"
+	"." sent
+
+"<Alfred>"
+	"*Alfred"
+"<professor>"
+	"professor" n nom
+	"professor" n attr
+	"professor" n nom
+		"e" cop aor p3 sg
+"<Nikolay>"
+	"*Nikolay"
+"<Zininden>"
+	"*Zininden"
+"<himiya>"
+	"himiya" n nom
+	"himiya" n attr
+	"himiya" n nom
+		"e" cop aor p3 sg
+"<derslerini>"
+	"ders" n pl px3sp acc
+"<aldı>"
+	"ald" n px3sp nom
+	"al" v tv ifi p3 sg
+	"al" vaux ifi p3 sg
+	"al" n nom
+		"e" cop ifi p3 sg
+	"ald" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Alfred>"
+	"*Alfred"
+"<,>"
+	"," cm
+"<on>"
+	"on" num
+	"on" num subst nom
+	"on" num subst nom
+		"e" cop aor p3 sg
+"<sekiz>"
+	"sekiz" num
+	"sekiz" num subst nom
+	"sekiz" num subst nom
+		"e" cop aor p3 sg
+"<yaşında>"
+	"yaş" n px3sp loc
+	"yaş" n px3sp nom
+		"da" postadv
+	"yaş" n px3sp nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"yaş" n px3sp loc
+		"e" cop aor p3 sg
+"<olğanda>"
+	"ol" v iv ger_past loc
+	"ol" v iv ger_past nom
+		"da" postadv
+	"ol" v iv past p3 sg
+		"da" postadv
+	"ol" v iv ger_past nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"ol" v iv ger_past loc
+		"e" cop aor p3 sg
+"<Amerikağa>"
+	"Amerika" np top dat
+"<kelgen>"
+	"kel" v iv ger_past nom
+	"kel" vaux ger_past nom
+	"kel" v iv past p3 sg
+	"kel" vaux past p3 sg
+	"kel" v iv gpr_past
+	"kel" vaux gpr_past
+	"kel" v iv ger_past nom
+		"e" cop aor p3 sg
+	"kel" vaux ger_past nom
+		"e" cop aor p3 sg
+"<soñ>"
+	"soñ" post
+	"soñ" n nom
+	"soñ" n attr
+	"soñ" n nom
+		"e" cop aor p3 sg
+"<,>"
+	"," cm
+"<dört>"
+	"dört" num
+	"dört" num subst nom
+	"dört" num subst nom
+		"e" cop aor p3 sg
+"<sene>"
+	"sene" n nom
+	"sene" n attr
+	"sene" n nom
+		"e" cop aor p3 sg
+"<içinde>"
+	"iç" n px3sp loc
+	"iç" n px3sp nom
+		"da" postadv
+	"iç" n px3sp nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"iç" n px3sp loc
+		"e" cop aor p3 sg
+"<himiya>"
+	"himiya" n nom
+	"himiya" n attr
+	"himiya" n nom
+		"e" cop aor p3 sg
+"<ögrendi>"
+	"ögren" v iv ifi p3 sg
+"<.>"
+	"." sent
+
+"<1867>"
+	"1867" num
+"<senesi>"
+	"sene" n px3sp nom
+	"sene" n px3sp nom
+		"e" cop aor p3 sg
+"<dinamitniñ>"
+	"*dinamitniñ"
+"<keşfi>"
+	"*keşfi"
+"<Nobelni>"
+	"*Nobelni"
+"<dünyaca>"
+	"*dünyaca"
+"<meşur>"
+	"meşur" adj
+	"meşur" adj
+		"e" cop aor p3 sg
+"<etti>"
+	"et" v tv ifi p3 sg
+	"et" n nom
+		"e" cop ifi p3 sg
+"<.>"
+	"." sent
+
+"<Alfred>"
+	"*Alfred"
+"<Nobel>"
+	"*Nobel"
+"<1895>"
+	"1895" num
+"<senesi>"
+	"sene" n px3sp nom
+	"sene" n px3sp nom
+		"e" cop aor p3 sg
+"<noyabrnıñ>"
+	"noyabr" n gen
+"<27>"
+	"27" num
+"<->"
+	"-" guio
+"<nde>"
+	"*nde"
+"<Frenkistan>"
+	"Frenkistan" np top nom
+	"Frenkistan" np top nom
+		"e" cop aor p3 sg
+"<paytahtı>"
+	"paytaht" n px3sp nom
+	"paytaht" n px3sp nom
+		"e" cop aor p3 sg
+"<olğan>"
+	"ol" v iv ger_past nom
+	"ol" v iv past p3 sg
+	"ol" v iv gpr_past
+	"ol" v iv ger_past nom
+		"e" cop aor p3 sg
+"<Paris>"
+	"Paris" np top nom
+	"Paris" np top nom
+		"e" cop aor p3 sg
+"<şeerinde>"
+	"şeer" n px3sp loc
+	"şeer" n px3sp nom
+		"da" postadv
+	"şeer" n px3sp nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"şeer" n px3sp loc
+		"e" cop aor p3 sg
+"<vasiyetname>"
+	"*vasiyetname"
+"<imzalağan>"
+	"*imzalağan"
+"<.>"
+	"." sent
+
+"<Alfred>"
+	"*Alfred"
+"<Nobel>"
+	"*Nobel"
+"<1896>"
+	"1896" num
+"<senesi>"
+	"sene" n px3sp nom
+	"sene" n px3sp nom
+		"e" cop aor p3 sg
+"<dekabrnıñ>"
+	"dekabr" n gen
+"<10>"
+	"10" num
+"<->"
+	"-" guio
+"<unda>"
+	"*unda"
+"<İtaliyanıñ>"
+	"İtaliya" np top gen
+"<San>"
+	"san" n nom
+	"san" n attr
+	"san" n nom
+		"e" cop aor p3 sg
+"<Remo>"
+	"*Remo"
+"<şeerinde>"
+	"şeer" n px3sp loc
+	"şeer" n px3sp nom
+		"da" postadv
+	"şeer" n px3sp nom
+		"e" cop aor p3 sg
+			"da" postadv
+	"şeer" n px3sp loc
+		"e" cop aor p3 sg
+"<stenokardiyadan>"
+	"*stenokardiyadan"
+"<vefat>"
+	"*vefat"
+"<etti>"
+	"et" v tv ifi p3 sg
+	"et" n nom
+		"e" cop ifi p3 sg
+"<.>"
+	"." sent
+
+"<Soñundaki>"
+	"soñundaki" adj
+	"soñ" n px3sp loc attr
+	"soñ" n px3sp loc subst nom
+	"soñundaki" adj
+		"e" cop aor p3 sg
+	"soñ" n px3sp loc subst nom
+		"e" cop aor p3 sg
+"<Nobelniñ>"
+	"*Nobelniñ"
+"<ükümüna>"
+	"*ükümüna"
+"<köre>"
+	"köre" post
+	"kör" v tv aor p3 sg
+	"kör" v tv prc_impf
+"<halqara>"
+	"halqara" adj
+	"halqara" adj
+		"e" cop aor p3 sg
+"<mukâfatnıñ>"
+	"mukâfat" n gen
+"<fondu>"
+	"fond" n px3sp nom
+	"fond" n px3sp nom
+		"e" cop aor p3 sg
+"<onıñ>"
+	"o" prn dem gen
+	"on" num subst px2sg nom
+	"o" prn pers p3 sg gen
+	"on" num subst px2sg nom
+		"e" cop aor p3 sg
+"<asabalıqıtan>"
+	"*asabalıqıtan"
+"<meydanğa>"
+	"meydan" n dat
+"<ketirgen>"
+	"ketir" v tv ger_past nom
+	"ketir" v tv past p3 sg
+	"ketir" v tv gpr_past
+	"ketir" v tv ger_past nom
+		"e" cop aor p3 sg
+"<..>"
+	".." sent
+
+
+

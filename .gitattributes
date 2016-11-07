@@ -19,8 +19,10 @@ tests/cases.yaml -text
 tests/future.yaml -text
 tests/possessives.yaml -text
 tests/voicing.yaml -text
+texts/alfred_nobel.vislcg.txt -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
 texts/puupankki/puupankki.crh.conllu -text
 texts/puupankki/puupankki.crh.conllx -text
+texts/qarılğaç.vislcg.txt -text
 texts/wikipedia.vislcg3.txt -text
