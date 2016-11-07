@@ -111,22 +111,21 @@
 "<Qaraqalpaq>"
 	"qaraqalpaq" n nom @nmod:poss #1->2
 "<tili>"
-	"til" n px3sp nom @nsubj #2->
+	"til" n px3sp nom @nsubj #2->15
 "<(>"
-	"(" lpar @punct #3->
+	"(" lpar @punct #3->7
 "<öz>"
-	"öz" prn ref @nmod:poss #4->
+	"öz" prn ref @nmod:poss #4->5
 "<adı>"
-	"ad" n px3sp nom
-	"at²" n px3sp nom
+	"ad" n px3sp nom @x #5->
 "<Qaraqalpaq>"
 	"qaraqalpaq" n nom @nmod:poss #6->7
 "<tili>"
-	"til" n px3sp nom @appos #7->
+	"til" n px3sp nom @appos #7->2
 "<)>" 
-	")" rpar @punct #8->
+	")" rpar @punct #8->7
 "<->"
-	"-" guio @punct #9->
+	"-" guio @punct #9->15
 "<türkiy>"
 	"türkiy" adj @amod #10->11
 "<gruppadaki>"
@@ -134,11 +133,11 @@
 "<qıpçaq>"
 	"qıpçaq" adj @amod #12->13
 "<tillerinden>"
-	"til" n pl px3sp abl @nmod #13->
+	"til" n pl px3sp abl @nmod #13->15
 "<bir>"
 	"bir" det ind @det #14->15
 "<tildir>"
-	"til" n nom @conj #15->22
+	"til" n nom @root #15->0
 		"e" cop aor p3 frm sg @cop #16->15
 "<,>"
 	"," cm @punct #17->22
@@ -151,7 +150,7 @@
 "<resmiy>"
 	"resmiy" adj @amod #21->22
 "<tili>"
-	"til" n px3sp nom @root #22->0
+	"til" n px3sp nom @parataxis #22->15
 		"e" cop aor p3 sg @cop #23->22
 "<.>"
 	"." sent @punct #24->22
