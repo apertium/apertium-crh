@@ -1,3 +1,4 @@
+
 1	Bir	bir	_	det	ind	2	det	_	_
 2	kün	kün	_	n	nom	8	nmod	_	_
 3	Nasreddin	Nasreddin	_	np	ant|m|nom	8	nsubj	_	_
@@ -975,4 +976,55 @@
 3	bunı	bu	_	prn	dem|acc	4	dobj	_	_
 4	aytmadım	ayt	_	v	tv|neg|ifi|p1|sg	0	root	_	_
 5	.	.	_	sent	_	4	punct	_	_
+
+1	Sumgayıt	Sumgayıt	_	np	top|nom	11	nsubj	_	_
+2	—	—	_	guio	_	11	punct	_	_
+3	Azerbaycanda	Azerbaycan	_	np	top|loc	11	nmod	_	_
+4	,	,	_	cm	_	3	punct	_	_
+5	Hazar	Hazar	_	np	top|nom	6	nmod:poss	_	_
+6	deñiziniñ	deñiz	_	n	px3sp|gen	7	nmod:poss	_	_
+7	ğarb	ğarb	_	n	nom	8	nmod:poss	_	_
+8	yalısında	yalı	_	n	px3sp|loc	9	nmod	_	_
+9	bulunğan	bulun	_	v	iv|gpr_past	11	acl:relcl	_	_
+10	bir	bir	_	det	ind	11	det	_	_
+11	şeerdir	şeer	_	n	nom	0	root	_	_
+12	*	e	_	cop	aor|p3|frm|sg	11	cop	_	_
+13	.	.	_	sent	_	11	punct	_	_
+
+1	Ayder	Ayder	_	np	ant|m|nom	2	name	_	_
+2	Osmannıñ	Osman	_	np	cog|mf|gen	3	nmod:poss	_	_
+3	eserleri	eser	_	n	pl|px3sp|nom	9	nsubj	_	_
+4	diger	diger	_	det	ind	6	det	_	_
+5	türkiy	türkiy	_	adj	_	6	amod	_	_
+6	tillergede	til	_	n	pl|dat	9	nmod	_	_
+7	*	da	_	postadv	_	6	advmod	_	_
+8	tercime	tercime	_	n	nom	9	x	_	_
+9	etildi	et	_	v	tv|pass|ifi|p3|sg	0	root	_	_
+10	.	.	_	sent	_	9	punct	_	_
+
+1	Qaraqalpaq	qaraqalpaq	_	n	nom	2	nmod:poss	_	_
+2	tili	til	_	n	px3sp|nom	16	nsubj	_	_
+3	(	(	_	lpar	_	7	punct	_	_
+4	öz	öz	_	prn	ref	5	nmod:poss	_	_
+5	adı	ad	_	n	px3sp|nom	7	nsubj	_	_
+6	Qaraqalpaq	qaraqalpaq	_	n	nom	7	nmod:poss	_	_
+7	tili	til	_	n	px3sp|nom	2	parataxis	_	_
+8	*	e	_	cop	aor|p3|sg	7	cop	_	_
+9	)	)	_	rpar	_	7	punct	_	_
+10	-	-	_	guio	_	16	punct	_	_
+11	türkiy	türkiy	_	adj	_	12	amod	_	_
+12	gruppadaki	gruppa	_	n	loc|attr	14	amod	_	_
+13	qıpçaq	qıpçaq	_	adj	_	14	amod	_	_
+14	tillerinden	til	_	n	pl|px3sp|abl	16	nmod	_	_
+15	bir	bir	_	det	ind	16	det	_	_
+16	tildir	til	_	n	nom	0	root	_	_
+17	*	e	_	cop	aor|p3|frm|sg	16	cop	_	_
+18	,	,	_	cm	_	23	punct	_	_
+19	Özbekistan	Özbekistan	_	np	top|nom	20	nmod:poss	_	_
+20	terkibindeki	terkip	_	n	px3sp|loc|attr	21	amod	_	_
+21	Qaraqalpaqistannıñ	Qaraqalpaqistan	_	np	top|gen	23	nmod:poss	_	_
+22	resmiy	resmiy	_	adj	_	23	amod	_	_
+23	tili	til	_	n	px3sp|nom	16	parataxis	_	_
+24	*	e	_	cop	aor|p3|sg	23	cop	_	_
+25	.	.	_	sent	_	23	punct	_	_
 
