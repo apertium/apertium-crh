@@ -371,6 +371,7 @@ LEXICON PRON-PERS-MEN
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:ennen # ; 
 
 LEXICON PRON-PERS-SEN
 
@@ -381,15 +382,18 @@ LEXICON PRON-PERS-SEN
 %<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:eni # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ende # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:enden # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:ennen # ; 
 
 LEXICON PRON-PERS-O 
 
 %<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nıñ # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>%<subst%>:nıñki CASES ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ña # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nı # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ndan # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nıñnen # ;
 
 LEXICON PRON-PERS-BIZ
 
@@ -400,6 +404,7 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:nen # ; 
 
 LEXICON PRON-PERS-BIZLER
 
@@ -410,6 +415,7 @@ LEXICON PRON-PERS-BIZLER
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:nen # ; 
 
 LEXICON PRON-PERS-SIZ
 
@@ -420,6 +426,7 @@ LEXICON PRON-PERS-SIZ
 %<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:nen # ; 
 
 LEXICON PRON-PERS-SIZLER
 
@@ -430,6 +437,7 @@ LEXICON PRON-PERS-SIZLER
 %<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:nen # ; 
 
 
 LEXICON PRON-PERS-OLAR
@@ -440,6 +448,7 @@ LEXICON PRON-PERS-OLAR
 %<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:nı # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:nen # ; 
 
 LEXICON DET-INTERR
 
