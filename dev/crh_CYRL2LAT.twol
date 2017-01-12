@@ -36,18 +36,22 @@ Rules
 
 "Insert y for yot letters"
 %{й%}:y <=> .#. _ Yot: ;
-           Vow:  _ Yot: ;
+            Vow:  _ Yot: ;
+            Cns: ь:0 _ Yot: ;
 
 !! юзюни:yüzüni
 !@ 0:y ю:ü з:z ю:ü н:n и:i
-
 
 ! The other approach
 !"Initial я as ya"
 !я:a <=> .#. 0:y _ ;
 
+
 "я as â after Consonants"
-я:â <=> Cns: :0* _ ;
+я:â <=> Cns: [ :0 - ь: ]* _ ;
+
+!! дюньяны:dünyanı
+!@ д:d ю:ü н:n ь:0 {й}:y я:a н:n ы:ı
 
 !! яраткъан:yaratqan
 !@ 0:y я:a р:r а:a т:t к:q ъ:0 а:a н:n
@@ -124,6 +128,7 @@ Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !! косьтерген:köstergen
 
 !! ольдюрильди:öldürildi
+!! ольдюрильген:öldürilgen
 
 !! бутюн:bütün
 
@@ -149,3 +154,8 @@ Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !! боюнджа:boyunca
 
 !! коюне:köyüne
+
+!! мушкюль:müşkül
+
+!! юзь:yüz
+
