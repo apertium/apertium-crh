@@ -17,9 +17,9 @@ BackVow = а у о ; ! non-first syllable only!
 Rules
 
 "Insert y for yot letters"
-0:y <=> .#. _ Yot ;
+0:y <=> .#. _ Yot: ;
 
 !! юзюни:yüzüni
-!@ ю:y ю:ü з:z ю:ü н:n и:i
+!@ 0:y ю:ü з:z ю:ü н:n и:i
 
 !! 
