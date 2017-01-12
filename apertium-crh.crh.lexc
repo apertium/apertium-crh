@@ -393,7 +393,8 @@ LEXICON PRON-PERS-O
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nı # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ndan # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nıñnen # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nıñnen # ; ! Dir/LR
+%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nen # ; 
 
 LEXICON PRON-PERS-BIZ
 
