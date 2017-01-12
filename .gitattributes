@@ -15,6 +15,7 @@
 /crh.prob -text svneol=unset#unset
 dev/Makefile -text
 dev/countstems.sh -text
+dev/crh_CYRL2LAT.lexc -text
 dev/crh_CYRL2LAT.py -text
 dev/crh_CYRL2LAT.sh -text
 dev/crh_CYRL2LAT.twol -text

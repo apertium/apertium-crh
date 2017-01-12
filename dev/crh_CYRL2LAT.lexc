@@ -1,0 +1,48 @@
+Multichar_Symbols 
+
+%<n%> 
+
+LEXICON Root 
+
+Alpha ; 
+
+LEXICON AlphaLoop
+
+Alpha ;
+ # ;
+
+LEXICON Alpha
+
+а:а AlphaLoop ; 
+б:б AlphaLoop ; 
+в:в AlphaLoop ; 
+г:г AlphaLoop ; 
+д:д AlphaLoop ; 
+е:е AlphaLoop ; 
+ё:ё AlphaLoop ; 
+ж:ж AlphaLoop ; 
+з:з AlphaLoop ; 
+и:и AlphaLoop ; 
+й:й AlphaLoop ; 
+к:к AlphaLoop ; 
+л:л AlphaLoop ; 
+м:м AlphaLoop ; 
+н:н AlphaLoop ; 
+о:о AlphaLoop ; 
+п:п AlphaLoop ; 
+р:р AlphaLoop ; 
+с:с AlphaLoop ; 
+т:т AlphaLoop ; 
+у:у AlphaLoop ; 
+ф:ф AlphaLoop ; 
+х:х AlphaLoop ; 
+ч:ч AlphaLoop ; 
+ш:ш AlphaLoop ; 
+щ:щ AlphaLoop ; 
+ъ:ъ AlphaLoop ; 
+ы:ы AlphaLoop ; 
+ь:ь AlphaLoop ; 
+э:э AlphaLoop ; 
+ю:ю AlphaLoop ; 
+я:я AlphaLoop ; 
+
