@@ -104,11 +104,21 @@ Sx:Sy <=> _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] |
      ! lexical exceptions
           .#. _ н: %{й%}:0 е: н: .#. ;
           .#. б: _ г: у: н: ь: ;
+          .#. %{й%}: е: _ д: и: й: ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
 
 !! бугуньге:bugünge
+
+!! еудийлер:yeudiyler
+
+!! сёзюни:sözüni
+
+!! союндан:soyundan
+
+!-! Исраильге:İsrailge
+!! исраильге:israilge
 
 !! онен:onen
 !@ о:o н:n {й}:0 е:e н:n
