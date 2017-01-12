@@ -83,7 +83,9 @@ Sx:Sy <=> _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 
 "Front vowels in front vowel contexts"
 Sx:Sy <=> _ Unspec:* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
-          _ Unspec:* ю: ;
+          _ Unspec:* ю:  ;
+!Sx:Sy <=> _ [ Unspec:* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ]/0:y ;
+!          _ [ Unspec:* ю: ~[ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ] ]/0:y  ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
@@ -126,6 +128,7 @@ Sx:Sy <=> _ Unspec:* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !! озю:özü
 
 !! къуюны:quyunı
+!@ к:q ъ:0 у:u 0:y ю:u н:n ы:ı
 
 !! корьдим:kördim
 

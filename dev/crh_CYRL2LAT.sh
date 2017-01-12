@@ -7,9 +7,9 @@ for i in `cat crh_CYRL2LAT.twol | grep '!!' | sed 's/ /_/g' | grep -v '^$'`; do
 		echo "$z != $w";
 	fi
 done
-#echo ""
-#for i in `cat crh_CYRL2LAT.twol | grep '!@' | sed 's/ /_/g' | grep -v '^$'`; do
-#	w=`echo $i | sed 's/!@_//g' | sed 's/_/ /g'`;
-#	echo "=== "$w" ========================================"
-#	echo $w | hfst-pair-test crh_CYRL2LAT.hfst;
-#done
+echo ""
+for i in `cat crh_CYRL2LAT.twol | grep '!@' | sed 's/ /_/g' | grep -v '^$'`; do
+	w=`echo $i | sed 's/!@_//g' | sed 's/_/ /g'`;
+	echo "=== "$w" ========================================"
+	echo $w | hfst-pair-test crh_CYRL2LAT.hfst;
+done
