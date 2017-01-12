@@ -9,47 +9,47 @@ LEXICON Root
 
 Alpha ; 
 
-LEXICON AlphaLoop
+LEXICON AlphaLoop 
 
 Alpha ;
  # ;
 
 LEXICON Alpha
 
-б:б AlphaLoop ; 
-в:в AlphaLoop ; 
-г:г AlphaLoop ; 
-д:д AlphaLoop ; 
-ж:ж AlphaLoop ; 
-з:з AlphaLoop ; 
-й:й AlphaLoop ; 
-к:к AlphaLoop ; 
-л:л AlphaLoop ; 
-м:м AlphaLoop ; 
-н:н AlphaLoop ; 
-п:п AlphaLoop ; 
-р:р AlphaLoop ; 
-с:с AlphaLoop ; 
-т:т AlphaLoop ; 
-ф:ф AlphaLoop ; 
-х:х AlphaLoop ; 
-ч:ч AlphaLoop ; 
-ш:ш AlphaLoop ; 
-щ:щ AlphaLoop ; 
-ъ:ъ AlphaLoop ; 
-ь:ь AlphaLoop ; 
+б:б AlphaLoop "weight: 1.0" ; 
+в:в AlphaLoop "weight: 1.0" ; 
+г:г AlphaLoop "weight: 1.0" ; 
+д:д AlphaLoop "weight: 1.0" ; 
+ж:ж AlphaLoop "weight: 1.0" ; 
+з:з AlphaLoop "weight: 1.0" ; 
+й:й AlphaLoop "weight: 1.0" ; 
+к:к AlphaLoop "weight: 1.0" ; 
+л:л AlphaLoop "weight: 1.0" ; 
+м:м AlphaLoop "weight: 1.0" ; 
+н:н AlphaLoop "weight: 1.0" ; 
+п:п AlphaLoop "weight: 1.0" ; 
+р:р AlphaLoop "weight: 1.0" ; 
+с:с AlphaLoop "weight: 1.0" ; 
+т:т AlphaLoop "weight: 1.0" ; 
+ф:ф AlphaLoop "weight: 1.0" ; 
+х:х AlphaLoop "weight: 1.0" ; 
+ч:ч AlphaLoop "weight: 1.0" ; 
+ш:ш AlphaLoop "weight: 1.0" ; 
+щ:щ AlphaLoop "weight: 1.0" ; 
+ъ:ъ AlphaLoop "weight: 1.0" ; 
+ь:ь AlphaLoop "weight: 1.0" ; 
 
-ы:ы AlphaLoop ; 
-и:и AlphaLoop ; 
+ы:ы AlphaLoop "weight: 1.0" ; 
+и:и AlphaLoop "weight: 1.0" ; 
 
-у:у AlphaLoop ; 
-а:а AlphaLoop ; 
-э:э AlphaLoop ; 
-о:о AlphaLoop ; 
+у:у AlphaLoop "weight: 1.0" ; 
+а:а AlphaLoop "weight: 1.0" ; 
+э:э AlphaLoop "weight: 1.0" ; 
+о:о AlphaLoop "weight: 1.0" ; 
 
-ю:%{й%}ю AlphaLoop ; 
-я:%{й%}я AlphaLoop ; 
-е:%{й%}е AlphaLoop ; 
-ё:%{й%}ё AlphaLoop ; 
+ю:%{й%}ю AlphaLoop "weight: 1.0" ; 
+я:%{й%}я AlphaLoop "weight: 1.0" ; 
+е:%{й%}е AlphaLoop "weight: 1.0" ; 
+ё:%{й%}ё AlphaLoop "weight: 1.0" ; 
 
-И:%{İ%} AlphaLoop ; 
+И:%{İ%} AlphaLoop "weight: 0.5" ; 
