@@ -24,8 +24,8 @@ FrontVow = е э и
 BackVow = а у о ы
           А У О Ы ; ! non-first syllable only!
 
-Unspec = б в д ж з л м н п р с т ф x ц ч ш щ ю ё
-         Б В Д Ж З Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ю Ё ;
+Unspec = б в д ж з л м н п р с т ф x ц ч ш щ
+         Б В Д Ж З Л М Н П Р С Т Ф Х Ц Ч Ш Щ ;
 
 Ambig = к г
         К Г ;
@@ -87,22 +87,26 @@ Sx:Sy <=> _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 
 "Front vowels in front vowel contexts"
 Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
-          _ Unspec:*/[ :0 - ъ: ]* ю:  ;
-      !    _ Unspec:*/[ :0 - ъ: ]* ю: [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
+          _ Unspec:*/[ :0 - ъ: ]* ю:ü ;
+          ! _ Unspec:*/[ :0 - ъ: ]* ю: ~[ Unspec:*/:0* [ BackVow: | [ Ambig: ъ: ] ] ] ;
+          ! _ Unspec:*/[ :0 - ъ: ]* ю: [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !Sx:Sy <=> _ [ Unspec:* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ]/0:y ;
 !          _ [ Unspec:* ю: ~[ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ] ]/0:y  ;
       except
           ъ:0 _ ;
+          !_ й:y ю:u ;
           !_ Unspec:*/[ :0 - ъ: ]* ю: Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
 
+!! боюнджа:boyunca
+!@ б:b о:o й:y ю:u н:n д:0 ж:c а:a
 
 
 !! кок:kök
 
-!! озюнинъ:özüniñ
+!! Озюнинъ:Özüniñ
 
 !! экинджи:ekinci
 
@@ -150,8 +154,6 @@ Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !! мумкюн:mümkün
 
 !! къоюлгъан:qoyulğan
-
-!! боюнджа:boyunca
 
 !! коюне:köyüne
 
