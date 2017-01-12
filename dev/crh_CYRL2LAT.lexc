@@ -9,6 +9,7 @@ LEXICON Root
 
 Alpha ; 
 Punct ; 
+Digits ;
 
 LEXICON AlphaLoop 
 
