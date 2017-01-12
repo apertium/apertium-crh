@@ -394,12 +394,20 @@ LEXICON PRON-PERS-O
 LEXICON PRON-PERS-BIZ
 
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ge # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:ni # ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:den # ;
+
+LEXICON PRON-PERS-BIZLER
+
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:nim # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ge # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:den # ;
 
@@ -412,6 +420,17 @@ LEXICON PRON-PERS-SIZ
 %<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:ni # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
+
+LEXICON PRON-PERS-SIZLER
+
+%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:niñ # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:iñk%{i%}%{n%} CASES ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ge # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:ni # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
+
 
 LEXICON PRON-PERS-OLAR
 
@@ -703,7 +722,9 @@ men:m PRON-PERS-MEN ; ! "я"
 sen:s PRON-PERS-SEN ; ! "ты"
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
+bizler:bizler PRON-PERS-BIZLER ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
+sizler:sizler PRON-PERS-SIZLER ; ! "вы"
 olar:olar PRON-PERS-OLAR ; ! "они"
 
 bu:bu PRON-DEM-BU ; ! ""
