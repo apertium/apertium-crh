@@ -22,5 +22,12 @@ Rules
 !! юзюни:yüzüni
 !@ 0:y ю:ü з:z ю:ü н:n и:i
 
+
+"Make къ and гъ and нъ into q and ğ and ñ"
+Cx:Cy <=> _ ъ: ;
+      where Cx in ( k g )
+            Cy in ( q ğ )
+      matched ;
+
 !! ёкъ:yoq
 !@ 0:y ё:o к:q ъ:0
