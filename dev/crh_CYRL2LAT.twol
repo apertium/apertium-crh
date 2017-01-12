@@ -32,6 +32,16 @@ Rules
 !@ 0:y ю:ü з:z ю:ü н:n и:i
 
 
+"Initial я as ya"
+я:a <=> .#. 0:y _ ;
+
+!! яраткъан:yaratqan
+
+!! къыяфетимизге:qıyafetimizge
+
+!! лянет:lânet
+
+
 "Make къ and гъ and нъ into q and ğ and ñ"
 Cx:Cy <=> _ ъ:0 ;
       where Cx in ( к г н К Г Н )
@@ -41,9 +51,19 @@ Cx:Cy <=> _ ъ:0 ;
 !! ёкъ:yoq
 !@ 0:y ё:o к:q ъ:0
 
+!! ер:yer
+
+!! яхшы:yahşı
+
 
 "Back vowels in back vowel contexts"
 Sx:Sy <=> _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
       where Sx in ( ё ю )
             Sy in ( o u )
       matched ;
+
+
+
+!! кок:kök
+
+!! озюнинъ:özüniñ
