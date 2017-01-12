@@ -42,11 +42,6 @@ Rules
 !! юзюни:yüzüni
 !-@ й:y ю:ü з:z й:0 ю:ü н:n и:i
 
-! The other approach
-!"Initial я as ya"
-!я:a <=> .#. 0:y _ ;
-
-
 "я as â after Consonants"
 я:â <=> Cns: [ :0 - ь: ]* _ ;
 
@@ -98,14 +93,6 @@ Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ:
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
-
-          ! _ Unspec:*/[ :0 - ъ: ]* ю: ~[ Unspec:*/:0* [ BackVow: | [ Ambig: ъ: ] ] ] ;
-          ! _ Unspec:*/[ :0 - ъ: ]* ю: [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
-!Sx:Sy <=> _ [ Unspec:* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ]/0:y ;
-!          _ [ Unspec:* ю: ~[ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ] ]/0:y  ;
-          !_ й:y ю:u ;
-          !_ Unspec:*/[ :0 - ъ: ]* ю: Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
-
 
 !! сонъ:soñ
 
