@@ -1,0 +1,10 @@
+Alphabet 
+
+ а б г 
+ a b c d ;
+
+
+Rules
+
+"Rule"
+б:b <=> _ ;

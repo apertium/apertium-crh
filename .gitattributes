@@ -13,8 +13,10 @@
 /autogen.sh -text
 /configure.ac -text
 /crh.prob -text svneol=unset#unset
+dev/Makefile -text
 dev/countstems.sh -text
 dev/crh_CYRL2LAT.py -text
+dev/crh_CYRL2LAT.twol -text
 /modes.xml -text
 tests/cases.yaml -text
 tests/future.yaml -text
