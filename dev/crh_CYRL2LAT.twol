@@ -24,9 +24,9 @@ Rules
 
 
 "Make къ and гъ and нъ into q and ğ and ñ"
-Cx:Cy <=> _ ъ: ;
-      where Cx in ( k g )
-            Cy in ( q ğ )
+Cx:Cy <=> _ ъ:0 ;
+      where Cx in ( к г н К Г Н )
+            Cy in ( q ğ ñ Q Ğ Ñ )
       matched ;
 
 !! ёкъ:yoq
