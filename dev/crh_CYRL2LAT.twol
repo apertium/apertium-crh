@@ -11,8 +11,17 @@ Sets
 Yot = е ё я ю
       Е Ё Я Ю ;
 
-FrontVow = е э и ; ! non-first syllable only!
-BackVow = а у о ; ! non-first syllable only!
+FrontVow = е э и
+           Е Э И ; ! non-first syllable only!
+BackVow = а у о
+          А У О ; ! non-first syllable only!
+
+Unspec = б в д ж з л м н п р с т ф x ц ч ш щ ю ё
+         Б В Д Ж З Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ю Ё ;
+
+Ambig = к г
+        К Г ;
+
 
 Rules
 
@@ -31,3 +40,10 @@ Cx:Cy <=> _ ъ:0 ;
 
 !! ёкъ:yoq
 !@ 0:y ё:o к:q ъ:0
+
+
+"Back vowels in back vowel contexts"
+Sx:Sy <=> _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
+      where Sx in ( ё ю )
+            Sy in ( o u )
+      matched ;
