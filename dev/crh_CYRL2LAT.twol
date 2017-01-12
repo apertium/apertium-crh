@@ -8,6 +8,9 @@ Alphabet
 
 Sets
 
+Cns = б в г д ж з й к л м н п р с т ф х ч ш щ
+	   Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ч Ш Щ ; 
+
 Yot = е ё я ю
       Е Ё Я Ю ;
 
@@ -32,8 +35,12 @@ Rules
 !@ 0:y ю:ü з:z ю:ü н:n и:i
 
 
-"Initial я as ya"
-я:a <=> .#. 0:y _ ;
+! The other approach
+!"Initial я as ya"
+!я:a <=> .#. 0:y _ ;
+
+"я as â after Consonants"
+я:â <=> Cns: :0* _ ;
 
 !! яраткъан:yaratqan
 !@ 0:y я:a р:r а:a т:t к:q ъ:0 а:a н:n
@@ -42,6 +49,7 @@ Rules
 !@ к:q ъ:0 ы:ı 0:y я:a ф:f е:e т:t и:i м:m и:i з:z г:g е:e
 
 !! лянет:lânet
+!@ л:l я:â н:n е:e т:t
 
 
 "Make къ and гъ and нъ into q and ğ and ñ"
@@ -54,6 +62,7 @@ Cx:Cy <=> _ ъ:0 ;
 !@ 0:y ё:o к:q ъ:0
 
 !! ер:yer
+
 
 !! яхшы:yahşı
 
