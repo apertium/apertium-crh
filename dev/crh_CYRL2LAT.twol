@@ -89,6 +89,7 @@ Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !          _ [ Unspec:* ю: ~[ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ] ]/0:y  ;
       except
           ъ:0 _ ;
+          _ Unspec:*/[ :0 - ъ: ]* ю: Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
@@ -146,3 +147,5 @@ Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !! къоюлгъан:qoyulğan
 
 !! боюнджа:boyunca
+
+!! коюне:köyüne
