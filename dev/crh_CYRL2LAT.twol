@@ -42,7 +42,7 @@ Rules
             Cns: ь:0 _ Yot: ;
 
 !! юзюни:yüzüni
-!-@ й:y ю:ü з:z й:0 ю:ü н:n и:i
+!@ {й}:y ю:ü з:z {й}:0 ю:ü н:n и:i
 
 "я as â after Consonants"
 я:â <=> Cns: [ :0 - ь: ]* _ ;
@@ -76,7 +76,7 @@ Cx:Cy <=> _ ъ:0 ;
 
 "Back vowels in back vowel contexts"
 Sx:Sy <=> Vow: ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
-          .#. ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] | [ Unspec: \ь: ] ] ;
+          .#. ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] | [ Unspec: .#. ] ] ;
       where Sx in ( ё ю )
             Sy in ( o u )
       matched ;
@@ -85,19 +85,27 @@ Sx:Sy <=> Vow: ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 
 !! ёнь:yön
 
+!! учь:üç
+
+!! кунь:kün
+
 
 "Front vowels in front vowel contexts"
-Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
-              _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* ю:ü ;
+Sx:Sy <=> _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
+          _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* ю:ü ;
       except
           ъ:0 _ ;
-              _ [ Unspec: ]* %{й%}: ю: [ Unspec: | %{й%}: ]* [ BackVow: | [ Ambig: ъ: ] ] ;
-              _ [ Unspec: | %{й%}: | [ н: ъ: ] ]* [ BackVow: | [ Ambig: ъ: ] ] ;
-              _ [ Unspec: ( ъ: ) ]* .#. ;
-              .#. _ н: %{й%}:0 е: н: .#. ;
+          _ [ Unspec: ]* %{й%}: ю: [ Unspec: | %{й%}: ]* [ BackVow: | [ Ambig: ъ: ] ] ;
+          _ [ Unspec: | %{й%}: | [ н: ъ: ] ]* [ BackVow: | [ Ambig: ъ: ] ] ;
+          _ [ Unspec: ( ъ: ) ]* .#. ;
+     ! lexical exceptions
+          .#. _ н: %{й%}:0 е: н: .#. ;
+          .#. б: _ г: у: н: ь: ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
+
+!! бугуньге:bugünge
 
 !! онен:onen
 !@ о:o н:n {й}:0 е:e н:n
@@ -181,3 +189,12 @@ Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ:
 !! бугунь:bugün
 
 !! ёл:yol
+!@ {й}:y ё:o л:l
+
+!! гъурбетликте:ğurbetlikte
+
+!! къасеветини:qasevetini
+
+!! эвлятларынъ:evlâtlarıñ
+
+!! лякин:lâkin
