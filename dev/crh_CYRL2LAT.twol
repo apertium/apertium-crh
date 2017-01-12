@@ -4,7 +4,7 @@ Alphabet
 	А:A Б:B В:V Г:G Д:D Е:E Ё:Ö Ж:j З:Z И:İ Й:Y К:K Л:L М:M Н:N О:O П:P Р:R С:S Т:T У:U Ф:F Х:H Ч:Ç Ш:Ş Щ:Ş Ъ:0 Ы:I Ь:0 Э:Е Ю:Ü Я:A
 	a â b c ç d e f g ğ h i ı j k l m n ñ o ö p q r s ş t u ü v w x y z
 	A Â B C Ç D E F G Ğ H İ I J K L M N Ñ O Ö P Q R S Ş T U Ú V W X Y Z 
-   %{İ%}:İ ;
+   %{İ%}:İ %{й%}:0 ;
 
 
 Sets
@@ -35,8 +35,8 @@ Rules
 
 
 "Insert y for yot letters"
-0:y <=>  .#. _ Yot: ;
-         Vow:  _ Yot: ;
+%{й%}:y <=> .#. _ Yot: ;
+           Vow:  _ Yot: ;
 
 !! юзюни:yüzüni
 !@ 0:y ю:ü з:z ю:ü н:n и:i
