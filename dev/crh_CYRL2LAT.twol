@@ -24,8 +24,8 @@ FrontVow = е э и
 BackVow = а у о ы
           А У О Ы ; ! non-first syllable only!
 
-Unspec = б в д ж з л м н п р с т ф x ц ч ш щ
-         Б В Д Ж З Л М Н П Р С Т Ф Х Ц Ч Ш Щ ;
+Unspec = б в д ж з л й м н п р с т ф x ц ч ш щ
+         Б В Д Ж З Л й М Н П Р С Т Ф Х Ц Ч Ш Щ ;
 
 Ambig = к г
         К Г ;
@@ -40,7 +40,7 @@ Rules
             Cns: ь:0 _ Yot: ;
 
 !! юзюни:yüzüni
-!@ 0:y ю:ü з:z ю:ü н:n и:i
+!-@ й:y ю:ü з:z й:0 ю:ü н:n и:i
 
 ! The other approach
 !"Initial я as ya"
@@ -51,17 +51,16 @@ Rules
 я:â <=> Cns: [ :0 - ь: ]* _ ;
 
 !! дюньяны:dünyanı
-!@ д:d ю:ü н:n ь:0 {й}:y я:a н:n ы:ı
+!-@ д:d ю:ü н:n ь:0 {й}:y я:a н:n ы:ı
 
 !! яраткъан:yaratqan
-!@ 0:y я:a р:r а:a т:t к:q ъ:0 а:a н:n
+!-@ 0:y я:a р:r а:a т:t к:q ъ:0 а:a н:n
 
 !! къыяфетимизге:qıyafetimizge
-!@ к:q ъ:0 ы:ı 0:y я:a ф:f е:e т:t и:i м:m и:i з:z г:g е:e
+!-@ к:q ъ:0 ы:ı 0:y я:a ф:f е:e т:t и:i м:m и:i з:z г:g е:e
 
 !! лянет:lânet
-!@ л:l я:â н:n е:e т:t
-
+!-@ л:l я:â н:n е:e т:t
 
 "Make къ and гъ and нъ into q and ğ and ñ"
 Cx:Cy <=> _ ъ:0 ;
@@ -70,7 +69,7 @@ Cx:Cy <=> _ ъ:0 ;
       matched ;
 
 !! ёкъ:yoq
-!@ 0:y ё:o к:q ъ:0
+!-@ 0:y ё:o к:q ъ:0
 
 !! ер:yer
 
@@ -86,27 +85,34 @@ Sx:Sy <=> _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 
 
 "Front vowels in front vowel contexts"
-Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
-          _ Unspec:*/[ :0 - ъ: ]* ю:ü ;
-          ! _ Unspec:*/[ :0 - ъ: ]* ю: ~[ Unspec:*/:0* [ BackVow: | [ Ambig: ъ: ] ] ] ;
-          ! _ Unspec:*/[ :0 - ъ: ]* ю: [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
-!Sx:Sy <=> _ [ Unspec:* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ]/0:y ;
-!          _ [ Unspec:* ю: ~[ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ] ]/0:y  ;
+Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
+              _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* ю:ü ;
       except
           ъ:0 _ ;
-          !_ й:y ю:u ;
-          !_ Unspec:*/[ :0 - ъ: ]* ю: Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
+              _ [ Unspec: ]* %{й%}: ю: [ Unspec: | %{й%}: ]* [ BackVow: | [ Ambig: ъ: ] ] ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
 
-!! боюнджа:boyunca
-!@ б:b о:o й:y ю:u н:n д:0 ж:c а:a
+          ! _ Unspec:*/[ :0 - ъ: ]* ю: ~[ Unspec:*/:0* [ BackVow: | [ Ambig: ъ: ] ] ] ;
+          ! _ Unspec:*/[ :0 - ъ: ]* ю: [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
+!Sx:Sy <=> _ [ Unspec:* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ]/0:y ;
+!          _ [ Unspec:* ю: ~[ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ] ]/0:y  ;
+          !_ й:y ю:u ;
+          !_ Unspec:*/[ :0 - ъ: ]* ю: Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 
+!! боюнджа:boyunca
+!@ б:b о:o {й}:y ю:u н:n д:0 ж:c а:a 
+
+!! буюк:büyük
+!@ б:b у:ü {й}:y ю:ü к:k 
+
+!! бутюн:bütün
+!@ б:b у:ü т:t {й}:0 ю:ü н:n
 
 !! кок:kök
 
-!! Озюнинъ:Özüniñ
+!-! Озюнинъ:Özüniñ
 
 !! экинджи:ekinci
 
@@ -117,9 +123,6 @@ Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 д:0 <=> _ ж: ;
 
 !! озь:öz
-
-!! буюк:büyük
-!@ б:b у:ü 0:y ю:ü к:k
 
 !! озю:özü
 
@@ -134,14 +137,13 @@ Sx:Sy <=> _ Unspec:*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
 !! ольдюрильди:öldürildi
 !! ольдюрильген:öldürilgen
 
-!! бутюн:bütün
 
 !! озюнъни:özüñni
 
 !! озю:özü
 
 !! къуюны:quyunı
-!@ к:q ъ:0 у:u 0:y ю:u н:n ы:ı
+!-@ к:q ъ:0 у:u 0:y ю:u н:n ы:ı
 
 !! корьдим:kördim
 
