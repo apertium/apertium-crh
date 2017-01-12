@@ -3,6 +3,7 @@ Multichar_Symbols
 %<n%> 
 
 %{İ%}
+%{й%}
 
 LEXICON Root 
 
@@ -46,9 +47,9 @@ LEXICON Alpha
 э:э AlphaLoop ; 
 о:о AlphaLoop ; 
 
-ю:йу AlphaLoop ; 
-я:йа AlphaLoop ; 
-е:йэ AlphaLoop ; 
-ё:йо AlphaLoop ; 
+ю:%{й%}ю AlphaLoop ; 
+я:%{й%}я AlphaLoop ; 
+е:%{й%}е AlphaLoop ; 
+ё:%{й%}ё AlphaLoop ; 
 
 И:%{İ%} AlphaLoop ; 
