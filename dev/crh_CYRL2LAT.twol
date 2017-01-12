@@ -78,10 +78,13 @@ Cx:Cy <=> _ ъ:0 ;
 
 
 "Back vowels in back vowel contexts"
-Sx:Sy <=> _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
+Sx:Sy <=> Vow: (%{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
+          .#. (%{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
       where Sx in ( ё ю )
             Sy in ( o u )
       matched ;
+
+!! махлюкъларгъа:mahlüqlarğa
 
 
 "Front vowels in front vowel contexts"
@@ -91,7 +94,7 @@ Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ:
           ъ:0 _ ;
               _ [ Unspec: ]* %{й%}: ю: [ Unspec: | %{й%}: ]* [ BackVow: | [ Ambig: ъ: ] ] ;
               _ [ Unspec: | %{й%}: | [ н: ъ: ] ]* [ BackVow: | [ Ambig: ъ: ] ] ;
-              _ Unspec:* .#. ;
+              _ [ Unspec: ( ъ: ) ]* .#. ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
@@ -102,6 +105,9 @@ Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ:
 !          _ [ Unspec:* ю: ~[ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ] ]/0:y  ;
           !_ й:y ю:u ;
           !_ Unspec:*/[ :0 - ъ: ]* ю: Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
+
+
+!! сонъ:soñ
 
 !! олсун:olsun
 !@ о:o л:l с:s у:u н:n
