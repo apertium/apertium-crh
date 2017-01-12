@@ -8,6 +8,7 @@ Multichar_Symbols
 LEXICON Root 
 
 Alpha ; 
+Punct ; 
 
 LEXICON AlphaLoop 
 
@@ -53,3 +54,20 @@ LEXICON Alpha
 ё:%{й%}ё AlphaLoop "weight: 1.0" ; 
 
 И:%{İ%} AlphaLoop "weight: 0.5" ; 
+
+LEXICON Punct
+
+%.:%. # ; 
+%-:%- # ; 
+%,:%, # ; 
+%;:%; # ; 
+%::%: # ; 
+%!:%! # ; 
+%?:%? # ; 
+%“:%“ # ; 
+%”:%” # ; 
+%«:%« # ; 
+%»:%» # ; 
+%(:%( # ; 
+%):%) # ; 
+%–:%– # ; 
