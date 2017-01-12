@@ -39,13 +39,16 @@ Rules
 "Insert y for yot letters"
 %{й%}:y <=> .#. _ Yot: ;
             Vow:  _ Yot: ;
-            Cns: ь:0 _ Yot: ;
+            Cns: [ ь:0 | ъ:0 ] _ Yot: ;
 
 !! юзюни:yüzüni
 !@ {й}:y ю:ü з:z {й}:0 ю:ü н:n и:i
 
 "я as â after Consonants"
-я:â <=> Cns: [ :0 - ь: ]* _ ;
+я:â <=> Cns: [ :0 - [ ь: | ъ: ] ]* _ ;
+
+!-! Ягъя:yağya
+!! ягъя:yağya
 
 !! дюньяны:dünyanı
 !-@ д:d ю:ü н:n ь:0 {й}:y я:a н:n ы:ı
