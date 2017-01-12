@@ -85,11 +85,12 @@ Sx:Sy <=> _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 
 
 "Front vowels in front vowel contexts"
-Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
+Sx:Sy <=>     _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ] * [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
               _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* ю:ü ;
       except
           ъ:0 _ ;
               _ [ Unspec: ]* %{й%}: ю: [ Unspec: | %{й%}: ]* [ BackVow: | [ Ambig: ъ: ] ] ;
+              _ [ Unspec: | %{й%}: | [ н: ъ: ] ]* [ BackVow: | [ Ambig: ъ: ] ] ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
