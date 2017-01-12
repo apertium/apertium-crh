@@ -19,6 +19,7 @@ Rules
 "Insert y for yot letters"
 0:y <=> .#. _ Yot ;
 
-!! юзюни
-!@ yüzüni
+!! юзюни:yüzüni
+!@ ю:y ю:ü з:z ю:ü н:n и:i
 
+!! 
