@@ -49,6 +49,8 @@ LEXICON Alpha
 э:э AlphaLoop "weight: 1.0" ; 
 о:о AlphaLoop "weight: 1.0" ; 
 
+ц:тс AlphaLoop "weight: 1.0" ;
+
 ю:%{й%}ю AlphaLoop "weight: 1.0" ; 
 я:%{й%}я AlphaLoop "weight: 1.0" ; 
 е:%{й%}е AlphaLoop "weight: 1.0" ; 
