@@ -5,7 +5,7 @@ Alphabet
  %{i%}:0 %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü
  %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
  %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü
- %{A%}:a %{A%}:e
+ %{A%}:a
  %{C%}:c %{C%}:ç
  %{D%}:d ! %{D%}:t 
  %{G%}:g %{G%}:q %{G%}:ğ %{G%}:k
@@ -90,9 +90,13 @@ Cx:Cy <=> :Vow _ .#. ;
 %{D%}:t <=> [ :VoicelessCns ]/[ :0 ]* _ ;
 
 
+!!!!! VOWEL HARMONY !!!!!
+
+"Vowel harmony for {A}"
+%{A%}:e <=> [ :FrontVow :Cns :Cns* ]/:0* _ ;
+
 "Vowel harmony for {U}"
 %{U%}:ü <=> [ :FrontVow :Cns :Cns* ]/:0* _ ;
-
 
 "No {U} after vowels"
 %{U%}:0 <=> :Vow/:0* _ ;
