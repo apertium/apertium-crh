@@ -688,6 +688,8 @@ LEXICON Miscellaneous
 
 da%<postadv%>:da # ; ! Dir/LR
 da%<postadv%>:de # ; ! Dir/LR
+da%<postadv%>:ta # ; ! Dir/LR
+da%<postadv%>:te # ; ! Dir/LR
 da%<postadv%>:%~da # ; ! Dir/RL
 
 degil%<postadv%>:degil CLIT-COP ; 
