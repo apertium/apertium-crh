@@ -23,6 +23,7 @@ Multichar_Symbols
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
 %<emph%> 
+%<ij%>
 
 %<nom%>           ! Nominative                  !
 %<gen%>           !
@@ -131,6 +132,7 @@ Nouns ;
 ProperNouns ; 
 Adjectives ; 
 Adverbs ; 
+Interjections ;
 Verbs ;
 Punctuation ;
 Abbreviations ;
@@ -662,6 +664,11 @@ LEXICON ADV-ITG
 %<adv%>%<itg%>: # ;
 %<adv%>%<itg%>: CLIT-COP ; 
 
+LEXICON ADV-ATTR
+
+%<adv%>: # ;
+%<adv%>%<attr%>:%>ki # ;
+
 LEXICON ADV-LANG
 
 ADV ;
@@ -687,6 +694,10 @@ LEXICON CC
 LEXICON ABBR
 
 %<abbr%>: # ;
+
+LEXICON INTERJ
+
+%<ij%>: # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -839,6 +850,8 @@ qırq:qırq NUM ; ! ""
 yüz:yüz NUM ; ! ""
 
 biñ:biñ NUM ; ! ""
+
+milliard:milliard NUM ; ! ""
 
 birev:birev NUM-COLL ; ! ""
 ekev:ekev NUM-COLL ; ! ""
@@ -2366,6 +2379,8 @@ Vyetnam:Vyetnam NP-TOP ; ! ""
 Gürcistan:Gürcistan NP-TOP ; ! ""
 Moldova:Moldova NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
+
+Aqyar:Aqyar NP-TOP ; ! ""
 
 Bangladeş:Bangladeş NP-TOP ; ! ""
 Benin:Benin NP-TOP ; ! ""
@@ -4483,6 +4498,8 @@ az:az ADV ; ! "мало"
 belki:belki ADV ; ! ""
 biraz:biraz ADV ; ! ""
 
+kerçekten:kerçekten ADV ; ! ""
+
 !! Place 
 mında:mında ADV ; ! "здесь"
 munda:munda ADV ; ! ""
@@ -4506,7 +4523,7 @@ evelden:evelden ADV ; ! ""
 tezden:tezden ADV ; ! ""
 soñra:soñra ADV ; ! "later/позже"
 yañıdan:yañıdan ADV ; ! "anew"
-bugün:bugün ADV ; ! ""
+bugün:bugün ADV-ATTR ; ! ""
 artıq:artıq ADV ; ! "already/уже"
 
 !! Language
@@ -4786,6 +4803,10 @@ sm:sm ABBR ;
 kg:kg ABBR ; 
 s%.:s%. ABBR ; 
 d%.:d%. ABBR ; 
+
+LEXICON Interjections 
+
+tamam:tamam INTERJ ; ! ""
 
 LEXICON Punctuation
 
