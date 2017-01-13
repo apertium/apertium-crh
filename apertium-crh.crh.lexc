@@ -608,27 +608,27 @@ LEXICON V-DER
 
 LEXICON V-IV 
 
-%<v%>%<iv%>: V-COMMON ; 
-%<v%>%<iv%>: V-FUT-IR ; 
-%<v%>%<iv%>: V-DER ; 
+%<v%>%<iv%>:%{☭%} V-COMMON ; 
+%<v%>%<iv%>:%{☭%} V-FUT-IR ; 
+%<v%>%<iv%>:%{☭%} V-DER ; 
 
 LEXICON V-TV 
 
-%<v%>%<tv%>: V-COMMON ; 
-%<v%>%<tv%>: V-FUT-IR ; 
-%<v%>%<tv%>: V-DER ; 
+%<v%>%<tv%>:%{☭%} V-COMMON ; 
+%<v%>%<tv%>:%{☭%} V-FUT-IR ; 
+%<v%>%<tv%>:%{☭%} V-DER ; 
 
 LEXICON V-IV-AR
 
-%<v%>%<iv%>: V-COMMON ; 
-%<v%>%<iv%>: V-FUT-AR ; 
-%<v%>%<iv%>: V-DER ; 
+%<v%>%<iv%>:%{☭%} V-COMMON ; 
+%<v%>%<iv%>:%{☭%} V-FUT-AR ; 
+%<v%>%<iv%>:%{☭%} V-DER ; 
 
 LEXICON V-TV-AR
 
-%<v%>%<tv%>: V-COMMON ; 
-%<v%>%<tv%>: V-FUT-AR ; 
-%<v%>%<tv%>: V-DER ; 
+%<v%>%<tv%>:%{☭%} V-COMMON ; 
+%<v%>%<tv%>:%{☭%} V-FUT-AR ; 
+%<v%>%<tv%>:%{☭%} V-DER ; 
 
 !LEXICON V-TD-XR
 !
@@ -880,7 +880,7 @@ yan:yan N1 ; ! ""
 orta:orta N1 ; ! ""
 tışarı:tışarı N1 ; ! ""
 qarşı:qarşı N1 ; ! ""
-aqq:aqq N1 ; ! ""
+aqq:aqq N5 ; ! ""
 soñ:soñ N1 ; ! ""
 
 !!
@@ -910,7 +910,6 @@ institut:institut N1 ; ! ""
 protektorat:protektorat N1 ; ! ""
 universitet:universitet N1 ; ! ""
 internet:internet N1 ; ! ""
-halq:halq N1 ; ! ""
 söz:söz N1 ; ! ""
 şey:şey N1 ; ! "вещь"
 
@@ -995,7 +994,7 @@ barışıq:barışıq N1 ; ! "мир, согласие"
 batalyon:batalyon N1 ; ! "батальон"
 batırlıq:batırlıq N1 ; ! "мужество"
 bayram:bayram N1 ; ! "праздник"
-bayraq:bayrağ N1 ; ! "флаг"
+bayraq:bayraq N1 ; ! "флаг"
 beden:beden N1 ; ! "тело"
 beftan:beftan N1 ; ! "клевета"
 belgi:belgi N1 ; ! "знак"
@@ -1111,7 +1110,7 @@ gruppa:gruppa N1 ; ! "группа"
 gül:gül N1 ; ! "роза"
 güzellik:güzellik N1 ; ! "краса"
 hainlik:hainlik N1 ; ! "измена, предательство"
-halq:halq N1 ; ! "народ"
+halq:halq N5 ; ! "народ"
 hamır:hamır N1 ; ! "тесто"
 hastahane:hastahane N1 ; ! "больница"
 hatıra:hatıra N1 ; ! "память"
@@ -1251,7 +1250,7 @@ oyuncağ:oyuncağ N1 ; ! ""
 padişa:padişa N1 ; ! "император, царь"
 para:para N1 ; ! "деньги"
 parça:parça N1 ; ! "кусок, отрывок, часть"
-park:park N1 ; ! "парк"
+park:park N5 ; ! "парк"
 partizan:partizan N1 ; ! "партизан"
 pencere:pencere N1 ; ! "окно"
 perde:perde N1 ; ! "пелена"
@@ -1301,7 +1300,7 @@ qoranta:qoranta N1 ; ! "семья"
 qorçalav:qorçalav N1 ; ! "оборона"
 qoy:qoy N1 ; ! "баран"
 qul:qul N1 ; ! "раб"
-qulaq:qulağ N1 ; ! "ухо"
+qulaq:qulaq N1 ; ! "ухо"
 qum:qum N1 ; ! "песок"
 qurban:qurban N1 ; ! "жертва"
 qurğaqlıq:qurğaqlıq N1 ; ! "засуха"
@@ -1643,7 +1642,7 @@ bağ:bağ N1 ; ! "завязка"
 bağlar:bağlar N1 ; ! "узы"
 balalayka:balalayka N1 ; ! "балалайка"
 balalıq:balalıq N1 ; ! "детство"
-bank:bank N1 ; ! "банк"
+bank:bank N5 ; ! "банк"
 başlanğıç:başlanğıç N1 ; ! "начало"
 basqı:basqı N1 ; ! "издание"
 bazar:bazar N1 ; ! "рынок"
