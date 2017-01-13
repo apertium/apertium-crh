@@ -1148,6 +1148,7 @@ hainlik:hainlik N1 ; ! "измена, предательство"
 halq:halq N5 ; ! "народ"
 hamır:hamır N1 ; ! "тесто"
 hastahane:hastahane N1 ; ! "больница"
+elçihane:elçihane N1 ; ! ""
 hatıra:hatıra N1 ; ! "память"
 hattat:hattat N1 ; ! "писарь"
 havuz:havuz N1 ; ! "бассейн"
@@ -6063,6 +6064,7 @@ art:art V-IV ; ! ""
 cezala:cezala V-IV ; ! ""
 cezalan:cezalan V-IV ; ! ""
 cezalandır:cezalandır V-TV ; ! "" ! Der/Caus
+çevir:çevir V-IV ; ! ""
 
 
 qabul% et:qabul% et V-TV-AR ; ! ""
