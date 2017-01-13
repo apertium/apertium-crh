@@ -2,7 +2,7 @@ Alphabet
 
  a â b c ç d e f g ğ h ı i j k l m n ñ o ö p q r s ş t u ü v y z
  A Â B C Ç D E F G Ğ H I   J K L M N Ñ O Ö P Q R S Ş T U Ü V Y Z
- %{i%}:0 %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü
+ %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü
  %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
  %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü
  %{A%}:a
@@ -114,5 +114,6 @@ Cx:Cy <=> :Vow _ .#. ;
 "Vowel harmony for {U}"
 %{U%}:ü <=> [ :FrontVow :Cns :Cns* ]/:0* _ ;
 
-"No {U} after vowels"
-%{U%}:0 <=> :Vow/:0* _ ;
+"No {U} or {i} after vowels"
+Vx:0 <=> :Vow/:0* _ ;
+     where Vx in ( %{U%} %{i%} ) ;
