@@ -16,10 +16,8 @@
 dev/Makefile -text
 dev/countstems.sh -text
 dev/crh_CYRL2LAT.lexc -text
-dev/crh_CYRL2LAT.py -text
 dev/crh_CYRL2LAT.sh -text
 dev/crh_CYRL2LAT.twol -text
-dev/crh_CYRL2LAT_y0.twol -text
 /modes.xml -text
 tests/cases.yaml -text
 tests/future.yaml -text
