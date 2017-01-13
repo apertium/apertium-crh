@@ -8,7 +8,7 @@ Alphabet
  %{A%}:a
  %{C%}:c %{C%}:ç
  %{D%}:d ! %{D%}:t 
- %{G%}:g %{G%}:q %{G%}:ğ %{G%}:k
+ %{G%}:g ! %{G%}:q %{G%}:ğ %{G%}:k
  %{E%}:a %{E%}:e %{E%}:y
  %{s%}:0 %{s%}:s
  %{n%}:0 %{n%}:n
@@ -30,16 +30,21 @@ Vow = a â e ı i o u ö ü
 Cns = b c ç d f g ğ h j k l m n ñ r p q r s ş t v y z 
       B C Ç D F G Ğ H J K L M N Ñ R P Q R S Ş T V Y Z ; 
 
-NasalCns = m n ñ ; 
+NasalCns = m n ñ
+           M N Ñ ; 
 
 VoicelessCns = ç f h k p q s ş t
                Ç F H K P Q S Ş T ;
+
+VoicedCns = c d g ğ j l m n ñ r v y z
+            C D G Ğ J L M N Ñ R V Y Z ;
 
 FrontVow = e i ö ü
            E İ Ö Ü ;
 
 BackVow = a â ı o u
           A Â I O U ;
+
 
 Rules
 
@@ -91,12 +96,12 @@ Cx:Cy <=> :Vow _ .#. ;
 ! q a y d
 
 "Deletion of dative {G} after px1sg, px2sg"
-%{G%}:0 <=>  [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
-             %{G%}: %>:0 _ ;
+%{G%}:0 <=> [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
 
 ! ö z b a ş >:0 {i}:ı {n}:n >:0 {G}:0 {A}:a
 
-! y a p >:0 m {A}:a {G}:ğ >:0 {G}:0 {A}:a
+!-!             %{G%}: %>:0 _ ;
+!-! y a p >:0 m {A}:a {G}:ğ >:0 {G}:0 {A}:a
 
 "Epenthesis in some stems"
 %{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;
@@ -117,3 +122,25 @@ Cx:Cy <=> :Vow _ .#. ;
 "No {U} or {i} after vowels"
 Vx:0 <=> :Vow/:0* _ ;
      where Vx in ( %{U%} %{i%} ) ;
+
+
+!!!!! DORSAL CONSONANTS !!!!!
+
+"Voiced back version of {G}"
+%{G%}:ğ <=> :ğ/:0* _ ;
+            [ :BackVow ( :Cns* :VoicedCns ) ]/[ :0 - %{ь%}: ]* _ ;
+        except
+            [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
+
+"Unvoiced back version of {G}"
+%{G%}:q <=> :q/:0* _ ;
+            [ :BackVow :Cns* [ :VoicelessCns - :k ] ]/[ :0 - %{ь%}: ]* _ ;
+        except
+            [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
+
+"Unvoiced front version of {G}"
+%{G%}:k <=> :k/:0* _ ;
+            [ :FrontVow :Cns* [ :VoicelessCns - :q ] ]/[ :0 - %{ь%}: ]* _ ;
+        except
+            [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
+
