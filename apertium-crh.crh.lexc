@@ -276,6 +276,10 @@ LEXICON NP-PAT-EVICH
 
 %<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
 
+LEXICON NP-AL
+
+%<np%>%<al%>: FULL-NOMINAL-INFLECTION ; 
+
 LEXICON NP-AL-ABBR
 
 %<np%>%<al%>: FULL-NOMINAL-INFLECTION ; ! ""
@@ -3825,6 +3829,26 @@ Vernadskiy:Vernadsk NP-COG-SKIY ; ! ""
 Logvinskiy:Logvinsk NP-COG-SKIY ; ! ""
 Poklonskiy:Poklonsk NP-COG-SKIY ; ! ""
 
+Boeing:Boeing NP-AL ; ! ""
+Çernomorneftegaz:Çernomorneftegaz NP-AL ; ! ""
+Charlie% Hebdo:Charlie% Hebdo NP-AL ; ! ""
+Facebook:Facebook NP-AL ; ! ""
+Gazprom:Gazprom NP-AL ; ! ""
+Golos:Golos NP-AL ; ! ""
+İnterfaks:İnterfaks NP-AL ; ! ""
+Krımenergo:Krımenergo NP-AL ; ! ""
+Krıminform:Krıminform NP-AL ; ! ""
+Naftogaz:Naftogaz NP-AL ; ! ""
+PrivatBank:PrivatBank NP-AL ; ! ""
+Qurultay:Qurultay NP-AL ; ! ""
+Roskomnadzor:Roskomnadzor NP-AL ; ! ""
+Rosselhoznadzor:Rosselhoznadzor NP-AL ; ! ""
+Simferopol:Simferopol NP-AL ; ! ""
+Svoboda:Svoboda NP-AL ; ! ""
+Twitter:Twitter NP-AL ; ! ""
+Ukrenergo:Ukrenergo NP-AL ; ! ""
+Ukrinform:Ukrinform NP-AL ; ! ""
+Ukrtelekom:Ukrtelekom NP-AL ; ! ""
 
 AB:AB NP-TOP ; ! ""
 ŞSCB:SSCB NP-TOP ; ! "" ! Dir/LR ! Err/Orth
@@ -3833,6 +3857,12 @@ AQŞ:AQŞ NP-TOP ; ! ""
 
 ATR:ATR NP-AL-ABBR ; ! ""
 UNESCO:UNESCO NP-AL-ABBR ; ! ""
+FSB:FSB NP-AL-ABBR ; ! ""
+GİBDD:GİBDD NP-AL-ABBR ; ! ""
+NATO:NATO NP-AL-ABBR ; ! ""
+OSCE:OSCE NP-AL-ABBR ; ! ""
+RİA:RİA NP-AL-ABBR ; ! ""
+
 
 
 LEXICON Adjectives 
