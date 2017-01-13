@@ -55,14 +55,25 @@ Rules
 !            Cy in ( g b ) ! d
 !      matched ;
 
-"Devoicing of non-coronal stem-final voiceless consonants"
-Cx:Cy <=> _ .#. ;
-          _ %>: :Cns/:0* ;
+!"Devoicing of non-coronal stem-final voiceless consonants"
+!Cx:Cy <=> _ .#. ;
+!          _ %>: :Cns/:0* ;
+!      except
+!           _ %{☭%}: %>: ; 
+!      where Cx in ( b g ğ )
+!            Cy in ( p k q )
+!      matched ;
+
+
+"Voicing of non-coronal stem-final voiceless consonants"
+Cx:Cy <=> _ %>: [ \:Cns ]/:0* ;
       except
-           _ %{☭%}: %>: ; 
-      where Cx in ( b g ğ )
-            Cy in ( p k q )
+          _ %{☭%}: %>: ; 
+      where Cx in ( p k q )
+            Cy in ( b g ğ )
       matched ;
+
+
 
 ! k e r e k:g >:0 {I}:i m
 ! k l a s s i k >:0 {s}:0 {I}:i {n}:0
