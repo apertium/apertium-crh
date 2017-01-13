@@ -80,6 +80,8 @@ Cx:Cy <=> _ ъ:0 ;
 "Back vowels in back vowel contexts"
 Sx:Sy <=> Vow: ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
           .#. ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] | [ Unspec: .#. ] ] ;
+      except
+          BackVow: Unspec:* _ ;
       where Sx in ( ё ю )
             Sy in ( o u )
       matched ;
@@ -91,6 +93,12 @@ Sx:Sy <=> Vow: ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 !! учь:üç
 
 !! кунь:kün
+
+!! уджюм:ucüm
+
+!-! долашыюр:dolaşıyur
+
+!-! резолюция:rezolütsiya
 
 
 "Front vowels in front vowel contexts"
@@ -105,6 +113,7 @@ Sx:Sy <=> _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] |
           .#. _ н: %{й%}:0 е: н: .#. ;
           .#. б: _ г: у: н: ь: ;
           .#. %{й%}: е: _ д: и: й: ;
+          .#. _ д: ж: %{й%}:0 ю: м: ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
