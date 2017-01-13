@@ -357,14 +357,18 @@ LEXICON PRON-DEM-BU
 
 %<prn%>%<dem%>%<nom%>: # ;
 %<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<dat%>:ña # ;
 %<prn%>%<dem%>%<gen%>:nıñ # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
+%<prn%>%<dem%>%<ins%>:nıñnen # ; ! Dir/LR
+%<prn%>%<dem%>%<ins%>:nen # ;
 
 LEXICON PRON-DEM-SU
 
 %<prn%>%<dem%>%<nom%>: # ;
 %<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<dat%>:ña # ;
 %<prn%>%<dem%>%<gen%>:nıñ # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
@@ -389,6 +393,7 @@ LEXICON PRON-PERS-MEN
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:ennen # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:enimce # ; 
 
 LEXICON PRON-PERS-SEN
 
@@ -929,6 +934,7 @@ tedbir:tedbir N1 ; ! ""
 vesiqa:vesiqa N1 ; ! ""
 öldürüv:öldürüv N1 ; ! ""
 patlav:patlav N1 ; ! ""
+printsip:printsip N5 ; ! ""
 
 abide:abide N1 ; ! "памятка"
 açlıq:açlıq N1 ; ! "голод"
@@ -2282,6 +2288,12 @@ ziyaret:ziyaret N1 ; ! ""
 zona:zona N1 ; ! ""
 
 
+grajdan:grajdan N1 ; ! ""
+adaletsizlik:adaletsizlik N1 ; ! ""
+doktor:doktor N1 ; ! ""
+büro:büro N1 ; ! ""
+azatlıq:azatlıq N1 ; ! ""
+
 burun:bur%{y%}n N1 ; ! ""
 boyun:boy%{y%}n N1 ; ! ""
 ayız:ay%{y%}z N1 ; ! ""
@@ -3612,6 +3624,92 @@ Pavloviç:Pavlov NP-PAT-EVICH ; ! ""
 Markoviç:Markov NP-PAT-EVICH ; ! ""
 Firkoviç:Firkov NP-PAT-EVICH ; ! ""
 
+Ahtem:Ahtem NP-ANT-M ; ! ""
+Oleg:Oleg NP-ANT-M ; ! ""
+Celâl:Celâl NP-ANT-M ; ! ""
+Nikolay:Nikolay NP-ANT-M ; ! ""
+Nariman:Nariman NP-ANT-M ; ! ""
+Yuriy:Yuriy NP-ANT-M ; ! ""
+Viktor:Viktor NP-ANT-M ; ! ""
+Eskender:Eskender NP-ANT-M ; ! ""
+İgor:İgor NP-ANT-M ; ! ""
+Leonid:Leonid NP-ANT-M ; ! ""
+Ruslan:Ruslan NP-ANT-M ; ! ""
+Aleksey:Aleksey NP-ANT-M ; ! ""
+Vitaliy:Vitaliy NP-ANT-M ; ! ""
+Anatoliy:Anatoliy NP-ANT-M ; ! ""
+Andriy:Andriy NP-ANT-M ; ! ""
+Valeriy:Valeriy NP-ANT-M ; ! ""
+Rustam:Rustam NP-ANT-M ; ! ""
+Gennadiy:Gennadiy NP-ANT-M ; ! ""
+Vasiliy:Vasiliy NP-ANT-M ; ! ""
+Arseniy:Arseniy NP-ANT-M ; ! ""
+Obama:Obama NP-ANT-M ; ! ""
+İvan:İvan NP-ANT-M ; ! ""
+Rustem:Rustem NP-ANT-M ; ! ""
+Emirali:Emirali NP-ANT-M ; ! ""
+Pavel:Pavel NP-ANT-M ; ! ""
+Yevgeniy:Yevgeniy NP-ANT-M ; ! ""
+Oleksandr:Oleksandr NP-ANT-M ; ! ""
+Georgiy:Georgiy NP-ANT-M ; ! ""
+Roman:Roman NP-ANT-M ; ! ""
+Aslan:Aslan NP-ANT-M ; ! ""
+Saharov:Saharov NP-ANT-M ; ! ""
+Ömer:Ömer NP-ANT-M ; ! ""
+Dmıtro:Dmıtro NP-ANT-M ; ! ""
+Pötr:Pötr NP-ANT-M ; ! ""
+İlyas:İlyas NP-ANT-M ; ! ""
+İlya:İlya NP-ANT-M ; ! ""
+Sergiy:Sergiy NP-ANT-M ; ! ""
+Emil:Emil NP-ANT-M ; ! ""
+Vâçeslav:Vâçeslav NP-ANT-M ; ! ""
+Celâlnıñ:Celâl NP-ANT-M ; ! ""
+Volodımır:Volodımır NP-ANT-M ; ! ""
+Grigoriy:Grigoriy NP-ANT-M ; ! ""
+Ramzan:Ramzan NP-ANT-M ; ! ""
+İonas:İonas NP-ANT-M ; ! ""
+Charlie:Charlie NP-ANT-M ; ! ""
+Valentin:Valentin NP-ANT-M ; ! ""
+Maksim:Maksim NP-ANT-M ; ! ""
+John:John NP-ANT-M ; ! ""
+Yaroslav:Yaroslav NP-ANT-M ; ! ""
+Stanislav:Stanislav NP-ANT-M ; ! ""
+Cınğız:Cınğız NP-ANT-M ; ! ""
+Barack:Barack NP-ANT-M ; ! ""
+Timur:Timur NP-ANT-M ; ! ""
+Serğiy:Serğiy NP-ANT-M ; ! ""
+Muhammed:Muhammed NP-ANT-M ; ! ""
+Vadim:Vadim NP-ANT-M ; ! ""
+İosif:İosif NP-ANT-M ; ! ""
+Vladislav:Vladislav NP-ANT-M ; ! ""
+Barak:Barak NP-ANT-M ; ! ""
+Petr:Petr NP-ANT-M ; ! ""
+Mıhaylo:Mıhaylo NP-ANT-M ; ! ""
+Eduard:Eduard NP-ANT-M ; ! ""
+Slobodân:Slobodân NP-ANT-M ; ! ""
+
+Nadejda:Nadejda NP-ANT-F ; ! ""
+İrina:İrina NP-ANT-F ; ! ""
+Olga:Olga NP-ANT-F ; ! ""
+Lilâ:Lilâ NP-ANT-F ; ! ""
+Yelena:Yelena NP-ANT-F ; ! ""
+Yuliya:Yuliya NP-ANT-F ; ! ""
+Svetlana:Svetlana NP-ANT-F ; ! ""
+Angela:Angela NP-ANT-F ; ! ""
+Tatyana:Tatyana NP-ANT-F ; ! ""
+Yekaterina:Yekaterina NP-ANT-F ; ! ""
+Fatima:Fatima NP-ANT-F ; ! ""
+Lüdmila:Lüdmila NP-ANT-F ; ! ""
+Oksana:Oksana NP-ANT-F ; ! ""
+Yelizaveta:Yelizaveta NP-ANT-F ; ! ""
+Valeriya:Valeriya NP-ANT-F ; ! ""
+Elmira:Elmira NP-ANT-F ; ! ""
+Valentina:Valentina NP-ANT-F ; ! ""
+Aleksandra:Aleksandra NP-ANT-F ; ! ""
+Yevgeniya:Yevgeniya NP-ANT-F ; ! ""
+
+
+
 Aqmescit:Aqmescit NP-TOP ; ! ""
 Dnepropetrovsk:Dnepropetrovsk NP-TOP ; ! ""
 
@@ -3630,6 +3728,30 @@ Kırgızistan:Qırğızstan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
 Dagestan:Dağıstan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
 Astana:Astana NP-TOP ; ! ""
 Kırgızistan:Qırgızistan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+
+Brüssel:Brüssel  NP-TOP ; ! ""
+Canköy:Canköy  NP-TOP ; ! ""
+Groznıy:Groznıy  NP-TOP ; ! ""
+Jeneva:Jeneva  NP-TOP ; ! ""
+Kavkaz:Kavkaz  NP-TOP ; ! ""
+Keriç:Keriç  NP-TOP ; ! ""
+Kosovo:Kosovo  NP-TOP ; ! ""
+Krasnodar:Krasnodar  NP-TOP ; ! ""
+Kreml:Kreml  NP-TOP ; ! ""
+Krım:Krım  NP-TOP ; ! ""
+Lefortovo:Lefortovo  NP-TOP ; ! ""
+Lviv:Lviv  NP-TOP ; ! ""
+Lvov:Lvov  NP-TOP ; ! ""
+Malaysia:Malaysia  NP-TOP ; ! ""
+Novorossiysk:Novorossiysk  NP-TOP ; ! ""
+Odessa:Odessa  NP-TOP ; ! ""
+Peterburg:Peterburg  NP-TOP ; ! ""
+Qıtay:Qıtay  NP-TOP ; ! ""
+Rostov:Rostov  NP-TOP ; ! ""
+Sankt%-Peterburg:Sankt%-Peterburg  NP-TOP ; ! ""
+Turkiye:Turkiye  NP-TOP ; ! ""
+Varşava:Varşava  NP-TOP ; ! ""
+Zaporojye:Zaporojye  NP-TOP ; ! ""
 
 
 AB:AB NP-TOP ; ! ""
