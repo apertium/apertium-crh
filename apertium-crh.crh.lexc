@@ -41,6 +41,7 @@ Multichar_Symbols
 %<fut%>
 %<fut2%>          ! -EcAG
 %<past%>
+%<ifi%>
 
 %<neg%>
 
@@ -53,6 +54,10 @@ Multichar_Symbols
 %<ger_fut2%>
 %<ger_past%>
 %<ger_abst%>      ! -Uv
+
+%<gpr_fut%>
+
+%<gna_while%>
 
 %<prc_perf%>      ! -Ip 
 
@@ -4338,6 +4343,44 @@ ketir:ketir V-TV ; ! "" ! Der/Caus
 
 toqtat:toqtat V-TV ; ! "stop (tv)" ! Der/Caus
 belgile:belgile V-TV ; ! "indicate"
+
+beklen:beklen V-IV; ! ""
+cenkleş:cenkleş V-IV; ! ""
+doğ:doğ V-IV; ! ""
+planlaş:planlaş V-IV; ! ""
+resmiyleş:resmiyleş V-IV; ! ""
+tanıl:tanıl V-IV; ! ""
+yaqalan:yaqalan V-IV; ! ""
+yaralan:yaralan V-IV; ! ""
+yollan:yollan V-IV; ! ""
+añlat:añlat V-TV; ! ""
+bağışlan:bağışlan V-TV; ! ""
+bekle:bekle V-TV; ! ""
+çağır:çağır V-TV; ! ""
+çek:çek V-TV; ! ""
+çıqar:çıqar V-TV; ! ""
+hatırla:hatırla V-TV; ! ""
+hatırlat:hatırlat V-TV; ! ""
+imzala:imzala V-TV; ! ""
+ötker:ötker V-TV; ! ""
+planlaştır:planlaştır V-TV; ! ""
+qaldır:qaldır V-TV; ! ""
+qazan:qazan V-TV; ! ""
+qullan:qullan V-TV; ! ""
+resmiyleştir:resmiyleştir V-TV; ! ""
+saqla:saqla V-TV; ! ""
+say:say V-TV; ! ""
+sür:sür V-TV; ! ""
+tanı:tanı V-TV; ! ""
+tint:tint V-TV; ! ""
+yaqala:yaqala V-TV; ! ""
+yolla:yolla V-TV; ! ""
+öl:öl V-IV ; ! "die"
+öldür:öldür V-TV ; ! "kill"
+boz:boz V-TV ; ! ""
+doğ:doğ V-IV ; ! ""
+at:at V-TV ; ! "throw"
+
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""
