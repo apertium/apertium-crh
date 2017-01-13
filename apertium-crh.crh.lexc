@@ -302,12 +302,12 @@ LEXICON NUM
 %<num%>: # ;
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 %<num%>%<ord%>:%>%{i%}nc%{I%} # ;
-%<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
+%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
 LEXICON NUM-ORD
 
 %<num%>%<ord%>: # ;
-%<num%>%<ord%>%<subst%>:%>%{I%}nc%{I%} FULL-NOMINAL-INFLECTION ;
+%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
 LEXICON NUM-COLL
 
@@ -3755,6 +3755,74 @@ Turkiye:Turkiye  NP-TOP ; ! ""
 Varşava:Varşava  NP-TOP ; ! ""
 Zaporojye:Zaporojye  NP-TOP ; ! ""
 
+Hollande:Hollande NP-COG-MF ; ! ""
+Skripnik:Skripnik NP-COG-MF ; ! ""
+Erdoğan:Erdoğan NP-COG-MF ; ! ""
+Kolçenko:Kolçenko NP-COG-MF ; ! ""
+Sençenko:Sençenko NP-COG-MF ; ! ""
+Geraşçenko:Geraşçenko NP-COG-MF ; ! ""
+Savçenko:Savçenko NP-COG-MF ; ! ""
+Rudenko:Rudenko NP-COG-MF ; ! ""
+Yaremenko:Yaremenko NP-COG-MF ; ! ""
+Klimenko:Klimenko NP-COG-MF ; ! ""
+Grigorenko:Grigorenko NP-COG-MF ; ! ""
+Lısenko:Lısenko NP-COG-MF ; ! ""
+Kerry:Kerry NP-COG-MF ; ! ""
+Berezovets:Berezovets NP-COG-MF ; ! ""
+Davutoğlu:Davutoğlu NP-COG-MF ; ! ""
+Stalin:Stalin NP-COG-IN ; ! ""
+Lenin:Lenin NP-COG-IN ; ! ""
+Gagarin:Gagarin NP-COG-IN ; ! ""
+Baharev:Baharev NP-COG-OV ; ! ""
+Belaventsev:Belaventsev NP-COG-OV ; ! ""
+Mujdabayev:Mujdabayev NP-COG-OV ; ! ""
+Ablayev:Ablayev NP-COG-OV ; ! ""
+Abdullayev:Abdullayev NP-COG-OV ; ! ""
+Nimetullayev:Nimetullayev NP-COG-OV ; ! ""
+Paşayev:Paşayev NP-COG-OV ; ! ""
+Ageyev:Ageyev NP-COG-OV ; ! ""
+Nebiyev:Nebiyev NP-COG-OV ; ! ""
+Şukurciyev:Şukurciyev NP-COG-OV ; ! ""
+Akiyev:Akiyev NP-COG-OV ; ! ""
+Temirgaliyev:Temirgaliyev NP-COG-OV ; ! ""
+Aliyev:Aliyev NP-COG-OV ; ! ""
+Bariyev:Bariyev NP-COG-OV ; ! ""
+Bezaziyev:Bezaziyev NP-COG-OV ; ! ""
+Savelyev:Savelyev NP-COG-OV ; ! ""
+Avakov:Avakov NP-COG-OV ; ! ""
+Tsekov:Tsekov NP-COG-OV ; ! ""
+Şuvaynikov:Şuvaynikov NP-COG-OV ; ! ""
+Markov:Markov NP-COG-OV ; ! ""
+İsmailov:İsmailov NP-COG-OV ; ! ""
+Abilov:Abilov NP-COG-OV ; ! ""
+Jumadilov:Jumadilov NP-COG-OV ; ! ""
+İzmaylov:İzmaylov NP-COG-OV ; ! ""
+İslâmov:İslâmov NP-COG-OV ; ! ""
+Edemov:Edemov NP-COG-OV ; ! ""
+Abduraimov:Abduraimov NP-COG-OV ; ! ""
+Ablâlimov:Ablâlimov NP-COG-OV ; ! ""
+Osmanov:Osmanov NP-COG-OV ; ! ""
+Suleymanov:Suleymanov NP-COG-OV ; ! ""
+Aksenov:Aksenov NP-COG-OV ; ! ""
+Turçinov:Turçinov NP-COG-OV ; ! ""
+Kürbedinov:Kürbedinov NP-COG-OV ; ! ""
+Seleznöv:Seleznöv NP-COG-OV ; ! ""
+Gonçarov:Gonçarov NP-COG-OV ; ! ""
+Gafarov:Gafarov NP-COG-OV ; ! ""
+Cepparov:Cepparov NP-COG-OV ; ! ""
+Ümerov:Ümerov NP-COG-OV ; ! ""
+Bagrov:Bagrov NP-COG-OV ; ! ""
+Kadırov:Kadırov NP-COG-OV ; ! ""
+Bekirov:Bekirov NP-COG-OV ; ! ""
+Bucurov:Bucurov NP-COG-OV ; ! ""
+Nemtsov:Nemtsov NP-COG-OV ; ! ""
+Sentsov:Sentsov NP-COG-OV ; ! ""
+Seitmuratov:Seitmuratov NP-COG-OV ; ! ""
+Ametov:Ametov NP-COG-OV ; ! ""
+Vernadskiy:Vernadsk NP-COG-SKIY ; ! ""
+Logvinskiy:Logvinsk NP-COG-SKIY ; ! ""
+Poklonskiy:Poklonsk NP-COG-SKIY ; ! ""
+
 
 AB:AB NP-TOP ; ! ""
 ŞSCB:SSCB NP-TOP ; ! "" ! Dir/LR ! Err/Orth
@@ -4328,6 +4396,32 @@ türkiy:türkiy A1 ; ! ""
 
 qıpçaq:qıpçaq A1 ; ! ""
 oğuz:oğuz A1 ; ! ""
+
+apansız:apansız  A3 ; ! ""
+avropalı:avropalı  A1 ; ! ""
+böylece:böylece  A1 ; ! ""
+bütünukrain:bütünukrain  A1 ; ! ""
+diniy:diniy  A1 ; ! ""
+ermeni:ermeni  A1 ; ! ""
+etnik:etnik  A1 ; ! ""
+ışıqsız:ışıqsız  A1 ; ! ""
+lâyıq:lâyıq  A1 ; ! ""
+maniasız:maniasız  A1 ; ! ""
+medeniy:medeniy  A1 ; ! ""
+qırımlı:qırımlı  A3 ; ! ""
+qolay:qolay  A1 ; ! ""
+rusiyeli:rusiyeli  A1 ; ! ""
+sıñırlı:sıñırlı  A1 ; ! ""
+taraflı:taraflı  A1 ; ! ""
+temsiliy:temsiliy  A1 ; ! ""
+terroristik:terroristik  A1 ; ! ""
+tilli:tilli  A1 ; ! ""
+türlü:türlü  A1 ; ! ""
+uquqiy:uquqiy  A1 ; ! ""
+vizasız:vizasız  A1 ; ! ""
+yeşil:yeşil  A1 ; ! ""
+zemaneviy:zemaneviy  A1 ; ! ""
+
 
 LEXICON Adverbs
 
