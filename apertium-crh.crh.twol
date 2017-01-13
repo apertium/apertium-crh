@@ -33,6 +33,10 @@ NasalCns = m n ñ ;
 VoicelessCns = ç f h k p q s ş t
                Ç F H K P Q S Ş T ;
 
+FrontVow = e i ö ü
+           E İ Ö Ü ;
+
+
 Rules
 
 "{E} to y after vowel"
@@ -87,7 +91,7 @@ Cx:Cy <=> :Vow _ .#. ;
 
 
 "Vowel harmony for {U}"
-%{U%}:ü <=> [ :Vow :Cns :Cns* ]/:0* _ ;
+%{U%}:ü <=> [ :FrontVow :Cns :Cns* ]/:0* _ ;
 
 
 "No {U} after vowels"
