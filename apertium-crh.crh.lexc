@@ -105,6 +105,8 @@ Multichar_Symbols
 %{n%}             !
 
 %{☭%}
+%{ъ%}             ! force back-vowel harmony
+%{ь%}             ! force front-vowel harmony
  
 %>                !
 %+
@@ -976,7 +978,7 @@ azap:azap N1 ; ! "мука"
 azatlıq:azatlıq N1 ; ! "свобода"
 azbar:azbar N1 ; ! "двор"
 azlıq:azlıq N1 ; ! "меньшинство"
-baar:baar N1 ; ! "весна"
+baar:baar%{ь%} N1 ; ! "весна"
 baba:baba N1 ; ! "отец"
 bağça:bağça N1 ; ! "сад"
 bağlılıq:bağlılıq N1 ; ! "зависимость"
@@ -1340,7 +1342,7 @@ sevgi:sevgi N1 ; ! "любовь"
 seyaatçı:seyaatçı N1 ; ! "путешественник"
 signal:signal N1 ; ! "сигнал"
 şiiriyet:şiiriyet N1 ; ! "поэзия"
-şimal:şimal N1 ; ! "север"
+şimal:şimal%{ь%} N1 ; ! "север"
 sıñır:sıñır N1 ; ! "граница"
 sıra:sıra N1 ; ! "ключ, порядок, стадо"
 sırt:sırt N1 ; ! "север"
@@ -1366,7 +1368,7 @@ tantana:tantana N1 ; ! "торжество"
 tañ:tañ N1 ; ! "рассвет"
 tapa:tapa N1 ; ! "пробка"
 taqdir:taqdir N1 ; ! "судьба, участь"
-tarih:tarih N1 ; ! "история"
+tarih:tarih%{ъ%} N1 ; ! "история"
 tarla:tarla N1 ; ! "пол, участок"
 tarz:tarz N1 ; ! "уклад"
 taun:taun N1 ; ! "чума"
@@ -1510,17 +1512,17 @@ qasaba:qasaba N1 ; ! ""
 neşir:neşir N1 ; ! ""
 
 yanvar:yanvar N1 ; ! ""
-fevral:fevral N1 ; ! ""
+fevral:fevral%{ь%} N1 ; ! ""
 mart:mart N1 ; ! ""
 aprel:aprel N1 ; ! ""
 iyün:iyün  N1 ; ! ""
 temmuz:temmuz N1 ; ! ""
 iyül:iyül N1 ; ! ""
 avgust:avgust N1 ; ! ""
-sentâbr:sentâbr  N1 ; ! ""
+sentâbr:sentâbr%{ь%} N1 ; ! ""
 oktâbr:oktâbr N1 ; ! ""
-qasım:qasım  N1 ; ! ""
-noyabr:noyabr N1 ; ! ""
+qasım:qasım N1 ; ! ""
+noyabr:noyabr%{ь%} N1 ; ! ""
 dekabr:dekabr N1 ; ! ""
 
 salı:salı N1 ; ! ""
@@ -1978,7 +1980,7 @@ taşıyıcı:taşıyıcı N1 ; ! "перевозчик"
 tasvir:tasvir N1 ; ! "изображение"
 tatlı:tatlı N1 ; ! "варенье"
 tayyare:tayyare N1 ; ! "самолет"
-teatr:teatr N1 ; ! "театр"
+teatr:teatr%{ь%} N1 ; ! "театр"
 tecribe:tecribe N1 ; ! "опыт"
 tecvit:tecvit N1 ; ! "чтение"
 tedqiq:tedqiq N1 ; ! "опыт"
@@ -3492,7 +3494,7 @@ Kırgızistan:Qırgızistan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
 
 AB:AB NP-TOP ; ! ""
 ŞSCB:SSCB NP-TOP ; ! "" ! Dir/LR ! Err/Orth
-ŞSCB:ŞSCB NP-TOP ; ! ""
+ŞSCB:ŞSCB%{ь%} NP-TOP ; ! ""
 AQŞ:AQŞ NP-TOP ; ! ""
 
 ATR:ATR NP-AL-ABBR ; ! ""

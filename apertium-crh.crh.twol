@@ -16,6 +16,8 @@ Alphabet
  %{j%}:0 %{j%}:y
  %{U%}:u
 
+ %{ь%}:0
+ %{ъ%}:0
  %{☭%}:0
 
  %>:0 ;
@@ -36,6 +38,8 @@ VoicelessCns = ç f h k p q s ş t
 FrontVow = e i ö ü
            E İ Ö Ü ;
 
+BackVow = a â ı o u
+          A Â I O U ;
 
 Rules
 
@@ -93,7 +97,8 @@ Cx:Cy <=> :Vow _ .#. ;
 !!!!! VOWEL HARMONY !!!!!
 
 "Vowel harmony for {A}"
-%{A%}:e <=> [ :FrontVow :Cns :Cns* ]/:0* _ ;
+%{A%}:e <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{ъ%}: ]* _ ;
+            [ :BackVow :Cns :Cns* %{ь%}:0 :Cns* ]/[ :0 ]* _ ;
 
 "Vowel harmony for {U}"
 %{U%}:ü <=> [ :FrontVow :Cns :Cns* ]/:0* _ ;
