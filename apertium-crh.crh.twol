@@ -14,6 +14,7 @@ Alphabet
  %{n%}:0 %{n%}:n
  %{l%}:l %{l%}:n
  %{j%}:0 %{j%}:y
+ %{U%}:u
 
  %{☭%}:0
 
@@ -84,3 +85,10 @@ Cx:Cy <=> :Vow _ .#. ;
 "Voicing assimilation of {D}"
 %{D%}:t <=> [ :VoicelessCns ]/[ :0 ]* _ ;
 
+
+"Vowel harmony for {U}"
+%{U%}:ü <=> [ :Vow :Cns :Cns* ]/:0* _ ;
+
+
+"No {U} after vowels"
+%{U%}:0 <=> :Vow/:0* _ ;
