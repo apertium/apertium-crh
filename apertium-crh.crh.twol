@@ -128,19 +128,21 @@ Vx:0 <=> :Vow/:0* _ ;
 
 "Voiced back version of {G}"
 %{G%}:ğ <=> :ğ/:0* _ ;
-            [ :BackVow ( :Cns* :VoicedCns ) ]/[ :0 - %{ь%}: ]* _ ;
+            [ :BackVow ( :Cns* :VoicedCns ) ]/[ :0 - %{ь%}: ]* _ :Vow/:0 ;
         except
             [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
 
 "Unvoiced back version of {G}"
 %{G%}:q <=> :q/:0* _ ;
             [ :BackVow :Cns* [ :VoicelessCns - :k ] ]/[ :0 - %{ь%}: ]* _ ;
+            [ :BackVow ]/[ :0 - %{ь%}: ]* _ .#. ;
         except
             [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
 
 "Unvoiced front version of {G}"
 %{G%}:k <=> :k/:0* _ ;
-            [ :FrontVow :Cns* [ :VoicelessCns - :q ] ]/[ :0 - %{ь%}: ]* _ ;
+            [ :FrontVow :Cns* [ :VoicelessCns - :q ] ]/[ :0 - %{ъ%}: ]* _ ;
+            [ :FrontVow ]/[ :0 - %{ъ%}: ]* _ .#. ;
         except
             [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
 
