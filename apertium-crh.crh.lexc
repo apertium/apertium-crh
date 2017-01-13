@@ -20,6 +20,8 @@ Multichar_Symbols
 %<cnjcoo%>        ! Coordinating conjunction    !
 %<qst%>           ! Question word
 %<cop%>           ! Copula
+%<postadv%>       ! 
+%<det%>           ! 
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
 %<emph%> 
@@ -722,6 +724,7 @@ LEXICON Conjunctions
 
 ve:ve CC ; ! "и"
 amma:amma CC ; ! "но"
+amma:ama CC ; ! "но" ! Dir/LR
 lakin:lakin CC ; ! ""
 ise:ise CC ; ! ""
 a:a CC ; ! ""
@@ -771,6 +774,7 @@ soñ:soñ POST ; ! "after/после"
 !! Check
 
 boyunca:boyunca POST ; ! "during/пока"
+itibaren:itibaren POST ; ! "from"
 
 LEXICON Pronouns 
 
@@ -944,6 +948,7 @@ söz:söz N1 ; ! ""
 
 
 havfsızlıq:havfsızlıq N1 ; ! "безопасность"
+havfsızlıq:hafsızlıq N1 ; ! "безопасность" ! Dir/LR ! Err/Orth
 red:red N5 ; ! "отказ"
 ümüt:ümüt N1 ; ! "надежда"
 bağ:bağ N5 ; ! "завязка"
@@ -1193,6 +1198,12 @@ klassik:klassik N5 ; ! "классик"
 köçebe:köçebe N1 ; ! "кочевник"
 kök:kök N1 ; ! "небо"
 kommunizm:kommunizm N1 ; ! "коммунизм"
+separatizm:separatizm N1 ; ! ""
+natsizm:natsizm N1 ; ! ""
+vandalizm:vandalizm N1 ; ! ""
+primitivizm:primitivizm N1 ; ! ""
+antisemitizm:antisemitizm N1 ; ! ""
+sürrealizm:sürrealizm N1 ; ! ""
 köpür:köpür N1 ; ! "мост"
 köşe:köşe N1 ; ! "угол"
 küç:küç N1 ; ! "мощь"
@@ -2388,6 +2399,93 @@ ukrtransinspektsiya:ukrtransinspektsiya N5 ; ! ""
 venetsiya:venetsiya N5 ; ! ""
 videokonferentsiya:videokonferentsiya N5 ; ! ""
 
+bütünlik:bütünlik N1 ; ! ""
+aitlik:aitlik N1 ; ! ""
+aktuallik:aktuallik N1 ; ! ""
+alışqanlıq:alışqanlıq N1 ; ! ""
+amanlıq:amanlıq N1 ; ! ""
+areketçenlik:areketçenlik N1 ; ! ""
+areketsizlik:areketsizlik N1 ; ! ""
+asabalıq:asabalıq N1 ; ! ""
+aylıq:aylıq N1 ; ! ""
+azalıq:azalıq N1 ; ! ""
+azırlıq:azırlıq N1 ; ! ""
+başlıq:başlıq N1 ; ! ""
+baylıq:baylıq N1 ; ! ""
+birdemlik:birdemlik N1 ; ! ""
+canavarlıq:canavarlıq N1 ; ! ""
+cemaatçılıq:cemaatçılıq N1 ; ! ""
+cesaretlik:cesaretlik N1 ; ! ""
+effektivlik:effektivlik N1 ; ! ""
+emekdaşlıq:emekdaşlıq N1 ; ! ""
+eyilik:eyilik N1 ; ! ""
+faallik:faallik N1 ; ! ""
+fedakârlıq:fedakârlıq N1 ; ! ""
+hanlıq:hanlıq N1 ; ! ""
+hırsızlıq:hırsızlıq N1 ; ! ""
+imperatorlıq:imperatorlıq N1 ; ! ""
+i̇şbirlik:i̇şbirlik N1 ; ! ""
+işbirlik:işbirlik N1 ; ! ""
+keñlik:keñlik N1 ; ! ""
+komandanlıq:komandanlıq N1 ; ! ""
+konsullıq:konsullıq N1 ; ! ""
+maarifçilik:maarifçilik N1 ; ! ""
+menlik:menlik N1 ; ! ""
+mensüplik:mensüplik N1 ; ! ""
+mevcutlıq:mevcutlıq N1 ; ! ""
+meydanlıq:meydanlıq N1 ; ! ""
+mezarlıq:mezarlıq N1 ; ! ""
+müdirlik:müdirlik N1 ; ! ""
+müimlik:müimlik N1 ; ! ""
+mümkünlik:mümkünlik N1 ; ! ""
+musaadesizlik:musaadesizlik N1 ; ! ""
+musafirçenlik:musafirçenlik N1 ; ! ""
+musulmanlıq:musulmanlıq N1 ; ! ""
+namuskârlıq:namuskârlıq N1 ; ! ""
+ortaqlıq:ortaqlıq N1 ; ! ""
+qanunsızlıq:qanunsızlıq N1 ; ! ""
+qaramanlıq:qaramanlıq N1 ; ! ""
+qarşılıq:qarşılıq N1 ; ! ""
+qırallıq:qırallıq N1 ; ! ""
+qıtlıq:qıtlıq N1 ; ! ""
+qurucılıq:qurucılıq N1 ; ! ""
+razılıq:razılıq N1 ; ! ""
+reislik:reislik N1 ; ! ""
+rektorlıq:rektorlıq N1 ; ! ""
+saçmalıq:saçmalıq N1 ; ! ""
+sadıqlıq:sadıqlıq N1 ; ! ""
+semerelik:semerelik N1 ; ! ""
+stabillik:stabillik N1 ; ! ""
+temsilcilik:temsilcilik N1 ; ! ""
+terbiyesizlik:terbiyesizlik N1 ; ! ""
+tilşınaslıq:tilşınaslıq N1 ; ! ""
+toplulıq:toplulıq N1 ; ! ""
+toqunmamazlıq:toqunmamazlıq N1 ; ! ""
+ükümdarlıq:ükümdarlıq N1 ; ! ""
+uquqlılıq:uquqlılıq N1 ; ! ""
+vatanperverlik:vatanperverlik N1 ; ! ""
+yaqarlıq:yaqarlıq N1 ; ! ""
+yaqınlıq:yaqınlıq N1 ; ! ""
+yasaqlıq:yasaqlıq N1 ; ! ""
+yetişmemezlik:yetişmemezlik N1 ; ! ""
+yolbaşçlıq:yolbaşçlıq N1 ; ! ""
+yükseklik:yükseklik N1 ; ! ""
+zayıflıq:zayıflıq N1 ; ! ""
+zenginlik:zenginlik N1 ; ! ""
+
+sayğısızlıq:sayğısızlıq N1 ; ! ""
+sessizlik:sessizlik N1 ; ! ""
+diqqatsızlıq:diqqatsızlıq N1 ; ! ""
+diqqasızlıq:diqqasızlıq N1 ; ! ""
+nizamsızlıq:nizamsızlıq N1 ; ! ""
+muqaytsızlıq:muqaytsızlıq N1 ; ! ""
+işançsızlıq:işançsızlıq N1 ; ! ""
+tertipsizlik:tertipsizlik N1 ; ! ""
+ümütsizlik:ümütsizlik N1 ; ! ""
+belgisizlik:belgisizlik N1 ; ! ""
+
+felâket:felâket N5 ; ! ""
+aqibet:aqibet N5 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -5575,6 +5673,8 @@ nisbeten:nisbeten ADV ; ! "более или менее"
 
 ilâhre:ilâhre ADV ; ! ""
 
+tahminen:tahminen ADV ; ! ""
+
 LEXICON Verbs 
 
 tur:tur VAUX ; ! ""
@@ -5818,6 +5918,9 @@ vazgeç:vazgeç V-IV ; ! ""
 ye:ye V-TV ; ! ""
 topla:topla V-TV ; ! ""
 art:art V-IV ; ! ""
+cezala:cezala V-IV ; ! ""
+cezalan:cezalan V-IV ; ! ""
+cezalandır:cezalandır V-TV ; ! "" ! Der/Caus
 
 
 qabul% et:qabul% et V-TV-AR ; ! ""
