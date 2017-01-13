@@ -84,6 +84,7 @@ Multichar_Symbols
 %{G%}             !
 %{D%}             !                             
 %{A%}             !
+%{U%}             !
 %{E%}
 %{C%}             !
 %{I%}             !
@@ -557,6 +558,9 @@ LEXICON V-NONFINITE
 %<prc_cond%>:%>s%{A%} V-PERS-S2 ;
 
 %<ger%>:%>m%{A%}%{G%} FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
+%<ger%>:%>m%{A%} FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
+%<ger_abst%>:%>%{U%}v FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
+
 %<ger_past%>:%>%{G%}%{A%}n FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 %<ger_pres%>:%>%{j%}%{A%}r%{A%}%{G%} FULL-NOMINAL-INFLECTION ;
 %<ger_fut2%>:%>%{E%}c%{A%}%{G%} FULL-NOMINAL-INFLECTION ;
@@ -846,6 +850,7 @@ ast:ast N1 ; ! ""
 art:art N1 ; ! ""
 yan:yan N1 ; ! "next to"
 taraf:taraf N1 ; ! "towards"
+etraf:etraf N1 ; ! "direction"
 alt:alt N1 ; ! ""
 ald:ald N1 ; ! "" FIXME: not the same as above?
 baş:baş N1 ; ! ""
@@ -4325,7 +4330,11 @@ belgile:belgile V-TV ; ! "indicate"
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""
+peyda% et:peyda% et V-TV-AR ; ! ""
 işğal% et:işğal% et V-TV-AR ; ! ""
+qabul% et:qabul% et V-TV-AR ; ! ""
+ziyaret% et:ziyaret% et V-TV-AR ; ! ""
+aşkâr% et:aşkâr% et V-TV-AR ; ! ""
 teşkil% et:teşkil% et V-TV-AR ; ! "organise/организовать"
 yasaq% et:yasaq% et V-TV-AR ; ! ""
 
