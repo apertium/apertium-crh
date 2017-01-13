@@ -136,6 +136,7 @@ Vx:0 <=> :Vow/:0* _ ;
 %{G%}:q <=> :q/:0* _ ;
             [ :BackVow :Cns* [ :VoicelessCns - :k ] ]/[ :0 - %{ь%}: ]* _ ;
             [ :BackVow ]/[ :0 - %{ь%}: ]* _ .#. ;
+            [ :BackVow ]/[ :0 - %{ь%}: ]* _ :Cns/:0 ;
         except
             [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
 
@@ -143,6 +144,7 @@ Vx:0 <=> :Vow/:0* _ ;
 %{G%}:k <=> :k/:0* _ ;
             [ :FrontVow :Cns* [ :VoicelessCns - :q ] ]/[ :0 - %{ъ%}: ]* _ ;
             [ :FrontVow ]/[ :0 - %{ъ%}: ]* _ .#. ;
+            [ :FrontVow ]/[ :0 - %{ъ%}: ]* _ :Cns/:0 ;
         except
             [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
 
