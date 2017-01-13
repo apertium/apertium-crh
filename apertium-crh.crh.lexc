@@ -234,6 +234,7 @@ POSSESSIVES ;
 
 LEXICON N1 
 
+%<n%>%+laş:%>l%{A%}ş V-IV ; 
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>%<attr%>: # ;
 
@@ -4894,6 +4895,8 @@ yolla:yolla V-TV; ! ""
 boz:boz V-TV ; ! ""
 doğ:doğ V-IV ; ! ""
 at:at V-TV ; ! "throw"
+toplaş:toplaş V-IV ; ! ""
+yerlȩs:yerlȩs V-IV ; ! ""
 
 
 qabul% et:qabul% et V-TV-AR ; ! ""
