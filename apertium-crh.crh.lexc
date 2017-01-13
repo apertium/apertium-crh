@@ -158,6 +158,7 @@ LEXICON CLIT-QST-MI
 
 LEXICON CLIT-COP
 
+%+e%<cop%>%<pres%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
 %+e%<cop%>%<aor%>: V-PERS-S1-COP ; 
 %+e%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-S1-COP ; 
 
@@ -654,7 +655,8 @@ LEXICON ADV
 
 LEXICON ADV-ITG
 
-%<adv%>%<itg%>: # ; 
+%<adv%>%<itg%>: # ;
+%<adv%>%<itg%>: CLIT-COP ; 
 
 LEXICON ADV-LANG
 
