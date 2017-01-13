@@ -3992,6 +3992,8 @@ felâket:felâket N5 ; ! ""
 aqibet:aqibet N5 ; ! ""
 ait:ait N1 ; ! "" ! FIXME
 aktivist:aktivist N5 ; ! ""
+qaza:qaza N1 ; ! ""
+tuvğan:tuvğan N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -7880,6 +7882,9 @@ kompensirle:kompensirle V-TV ; ! "компенсувати"
 !yeñ:yeñ V-TD ; ! "перемогти"
 !yetiş:yetiş V-TD ; ! "вистачати"
 !selâmla:selâmla V-TD ; ! "вітати"
+
+aydınla:aydınla V-IV ; ! ""
+aydınlat:aydınlat V-TV ; ! "" ! Der/Caus
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 elâk% ol:elâk% ol V-IV ; ! ""
