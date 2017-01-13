@@ -18,8 +18,10 @@ Multichar_Symbols
 %<adv%>           ! Adverb                      !
 %<v%>             ! Verb                        !
 %<cnjcoo%>        ! Coordinating conjunction    !
-%<qst%>           ! 
-%<abbr%>
+%<qst%>           ! Question word
+%<cop%>           ! Copula
+%<vaux%>          ! Auxiliary verb
+%<abbr%>          ! Abbreviation
 %<emph%> 
 
 %<nom%>           ! Nominative                  !
@@ -40,10 +42,17 @@ Multichar_Symbols
 %<fut2%>          ! -EcAG
 %<past%>
 
+%<neg%>
+
+%<pass%>
+%<coop%>
+%<caus%>
+
 %<ger%>
 %<ger_pres%>
 %<ger_fut2%>
 %<ger_past%>
+%<ger_abst%>      ! -Uv
 
 %<prc_perf%>      ! -Ip 
 
