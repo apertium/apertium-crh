@@ -24,9 +24,9 @@ tests/future.yaml -text
 tests/possessives.yaml -text
 tests/voicing.yaml -text
 texts/alfred_nobel.vislcg.txt -text
+texts/crh-feats.tsv -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
 texts/puupankki/puupankki.crh.conllu -text
-texts/puupankki/puupankki.crh.conllx -text
 texts/qarılğaç.vislcg.txt -text
 texts/wikipedia.vislcg.txt -text
