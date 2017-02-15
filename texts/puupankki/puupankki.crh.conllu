@@ -7,7 +7,7 @@
 5	eşegine	eşek	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
 6	minip	min	VERB	v	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
 7	yolğa	yol	NOUN	n	Case=Dat	8	nmod	_	_
-8	çıqa	çıq	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+8	çıqa	çıq	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = grammar.vislcg.txt:2:18
@@ -15,15 +15,15 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	bunı	bu	PRON	prn	Case=Acc|PronType=Dem	4	dobj	_	_
 3	tünevin	tünevin	ADV	adv	_	4	advmod	_	_
-4	kördim	kör	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	kördim	kör	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:3:29
 # text = Erkes bir şeyden qorqa.
 1	Erkes	erkes	PRON	prn	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	bir	bir	DET	det	PronType=Ind	3	det	_	_
-3	şeyden	şey	NOUN	n	Case=Abl	4	x	_	_
-4	qorqa	qorq	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+3	şeyden	şey	X	n	Case=Abl	4	x	_	_
+4	qorqa	qorq	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:4:40
@@ -33,7 +33,7 @@
 3	bir	bir	X	x	_	5	dep	_	_
 4	iç	iç	X	x	_	5	dep	_	_
 5	birine	bir	PRON	prn	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ind	6	nmod	_	_
-6	yazmadım	yaz	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+6	yazmadım	yaz	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:5:55
@@ -42,7 +42,7 @@
 2	eñ	eñ	ADV	adv	_	3	advmod	_	_
 3	balaban	balaban	ADJ	adj	_	4	amod	_	_
 4	evi	ev	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
-5	yandı	yan	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	yandı	yan	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:6:68
@@ -51,7 +51,7 @@
 2	episinden	ep	PRON	prn	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ind	5	nmod	_	_
 3	tatlı	tatlı	ADJ	adj	_	4	amod	_	_
 4	pahlava	pahlava	NOUN	n	Case=Nom	5	dobj	_	_
-5	pişire	pişir	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+5	pişire	pişir	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:7:81
@@ -61,14 +61,14 @@
 3	menim	men	PRON	prn	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	_
 4	tatamdan	tata	NOUN	n	Case=Abl|Number[psor]=Sing|Person[psor]=1	6	nmod	_	_
 5	güzel	güzel	ADJ	adj	_	6	advmod	_	_
-6	yırlay	yırla	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+6	yırlay	yırla	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:8:96
 # text = Men şeerge ketem.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	şeerge	şeer	NOUN	n	Case=Dat	3	nmod	_	_
-3	ketem	ket	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+3	ketem	ket	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:9:105
@@ -77,7 +77,7 @@
 2	ağam	ağa	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 3	bu	bu	DET	det	PronType=Dem	4	det	_	_
 4	evde	ev	NOUN	n	Case=Loc	5	nmod	_	_
-5	yaşay	yaşa	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+5	yaşay	yaşa	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:10:118
@@ -87,7 +87,7 @@
 3	er	er	DET	det	PronType=Ind	4	det	_	_
 4	kün	kün	NOUN	n	Case=Nom	6	nmod	_	_
 5	şeerde	şeer	NOUN	n	Case=Loc	6	nmod	_	_
-6	ola	ol	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+6	ola	ol	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:11:133
@@ -97,7 +97,7 @@
 3	er	er	DET	det	PronType=Ind	4	det	_	_
 4	kün	kün	NOUN	n	Case=Nom	6	nmod	_	_
 5	şeerde	şeer	NOUN	n	Case=Loc	6	nmod	_	_
-6	olmay	ol	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Aor	0	root	_	_
+6	olmay	ol	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:12:148
@@ -105,7 +105,7 @@
 1	Sen	sen	PRON	prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	şimdi	şimdi	ADV	adv	_	4	advmod	_	_
 3	bunı	bu	PRON	prn	Case=Acc|PronType=Dem	4	dobj	_	_
-4	alırsıñ	al	VERB	v	Number=Sing|Person=2|Tense=Fut	0	root	_	_
+4	alırsıñ	al	VERB	v	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:13:159
@@ -121,17 +121,17 @@
 # sent_id = grammar.vislcg.txt:14:174
 # text = Qırımğa keldik.
 1	Qırımğa	Qırım	PROPN	np	Case=Dat	2	nmod	_	_
-2	keldik	kel	VERB	v	Number=Plur|Person=1|Tense=Past	0	root	_	_
+2	keldik	kel	VERB	v	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:15:181
 # text = Mümkün olsa bu şeylerni alır edim.
 1	Mümkün	mümkün	ADJ	adj	_	5	advcl	_	_
-2	olsa	ol	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	1	cop	_	_
+2	olsa	ol	AUX	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	1	cop	_	_
 3	bu	bu	DET	det	PronType=Dem	4	det	_	_
 4	şeylerni	şey	NOUN	n	Case=Acc|Number=Plur	5	dobj	_	_
 5	alır	al	VERB	v	Tense=Fut|VerbForm=Part	0	root	_	_
-6	edim	e	AUX	cop	Number=Sing|Person=1|Tense=Past	5	cop	_	_
+6	edim	e	AUX	cop	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:16:196
@@ -139,10 +139,10 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	bu	bu	DET	det	PronType=Dem	3	det	_	_
 3	şeerge	şeer	NOUN	n	Case=Dat	6	nmod	_	_
-4	1948	1948	NUM	num	_	5	amod	_	_
+4	1948	1948	NUM	num	NumType=Ord	5	amod	_	_
 5	senesinde	sene	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
 6	kelgen	kel	VERB	v	Tense=Past|VerbForm=Part	0	root	_	_
-7	edim	e	AUX	cop	Number=Sing|Person=1|Tense=Past	6	aux	_	_
+7	edim	e	AUX	cop	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:17:213
@@ -151,10 +151,10 @@
 2	bu	bu	DET	det	PronType=Dem	3	det	_	_
 3	kitapnı	kitap	NOUN	n	Case=Acc	4	dobj	_	_
 4	alacaq	al	VERB	v	_	8	conj	_	_
-5	edim	e	AUX	cop	Number=Sing|Person=1|Tense=Past	4	aux	_	_
+5	edim	e	AUX	cop	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	_
 6	amma	amma	CCONJ	cnjcoo	_	4	cc	_	_
 7	maña	men	PRON	prn	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
-8	bermediler	ber	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+8	bermediler	ber	VERB	v	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = grammar.vislcg.txt:18:232
@@ -162,7 +162,7 @@
 1	Meger	meger	ADV	adv	_	3	advmod	_	_
 2	terekten	terek	NOUN	n	Case=Abl	3	nmod	_	_
 3	tüşken	tüş	VERB	v	Tense=Past|VerbForm=Part	0	root	_	_
-4	eken	e	AUX	cop	Evident=Fh|Number=Sing|Person=3|Tense=Aor	3	aux	_	_
+4	eken	e	AUX	cop	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	aux	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:19:243
@@ -171,7 +171,7 @@
 2	bu	bu	DET	det	PronType=Dem	3	det	_	_
 3	adiseni	adise	NOUN	n	Case=Acc	4	dobj	_	_
 4	unutacaq	unut	VERB	v	_	0	root	_	_
-5	ekenim	e	AUX	cop	Evident=Fh|Number=Sing|Person=1|Tense=Aor	4	aux	_	_
+5	ekenim	e	AUX	cop	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	4	aux	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:20:256
@@ -185,13 +185,13 @@
 7	çoq	çoq	ADV	adv	_	8	advmod	_	_
 8-9	razı	_	_	_	_	_	_	_	_
 8	razı	razı	ADJ	adj	_	0	root	_	_
-9	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	8	cop	_	_
+9	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	8	cop	_	_
 10	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = grammar.vislcg.txt:21:276
 # text = Tünevin kelmegeydiñ.
 1	Tünevin	tünevin	ADV	adv	_	2	advmod	_	_
-2	kelmegeydiñ	kel	VERB	v	Mood=Opt|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+2	kelmegeydiñ	kel	VERB	v	Mood=Opt|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:22:283
@@ -200,7 +200,7 @@
 2	oqumaq	oqu	VERB	v	Case=Nom|VerbForm=Ger	3	csubj	_	_
 3-4	kerek	_	_	_	_	_	_	_	_
 3	kerek	kerek	ADJ	adj	_	0	root	_	_
-4	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:23:293
@@ -210,7 +210,7 @@
 3	oqumaq	oqu	VERB	v	Case=Nom|VerbForm=Ger	4	csubj	_	_
 4-5	lâzim	_	_	_	_	_	_	_	_
 4	lâzim	lâzim	ADJ	adj	_	0	root	_	_
-5	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+5	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:24:305
@@ -218,14 +218,14 @@
 1	Işlemek	işle	VERB	v	Case=Nom|VerbForm=Ger	2	csubj	_	_
 2-3	kerek	_	_	_	_	_	_	_	_
 2	kerek	kerek	ADJ	adj	_	0	root	_	_
-3	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	2	cop	_	_
+3	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:25:313
 # text = Men işlemege isteyim.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	işlemege	işle	VERB	v	Case=Dat|VerbForm=Ger	3	ccomp	_	_
-3	isteyim	iste	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+3	isteyim	iste	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:26:322
@@ -242,7 +242,7 @@
 2	evge	ev	NOUN	n	Case=Dat	3	nmod	_	_
 3	kelip	kel	VERB	v	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 4	evni	ev	NOUN	n	Case=Acc	5	dobj	_	_
-5	temizledi	temizle	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	temizledi	temizle	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:28:346
@@ -251,7 +251,7 @@
 2	kitapnı	kitap	NOUN	n	Case=Acc	5	dobj	_	_
 3	yaşikniñ	yaşik	NOUN	n	Case=Gen	4	nmod:poss	_	_
 4	içine	iç	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	_
-5	qoydım	qoy	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	qoydım	qoy	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:29:359
@@ -260,21 +260,21 @@
 2	kitapnı	kitap	NOUN	n	Case=Acc	5	dobj	_	_
 3	krovat	krovat	NOUN	n	Case=Nom	4	nmod:poss	_	_
 4	tübünden	tüp	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	_
-5	aldım	al	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	aldım	al	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:30:372
 # text = Bala kitapnı oquy.
 1	Bala	bala	NOUN	n	Case=Nom	3	nsubj	_	_
 2	kitapnı	kitap	NOUN	n	Case=Acc	3	dobj	_	_
-3	oquy	oqu	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+3	oquy	oqu	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:31:381
 # text = Siz mektürni yazdıñız.
 1	Siz	siz	PRON	prn	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 2	mektürni	mektür	NOUN	n	Case=Acc	3	dobj	_	_
-3	yazdıñız	yaz	VERB	v	Number=Plur|Person=2|Tense=Past	0	root	_	_
+3	yazdıñız	yaz	VERB	v	Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:32:390
@@ -282,15 +282,15 @@
 1	Sen	sen	PRON	prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2-3	qırımtatarsıñ	_	_	_	_	_	_	_	_
 2	qırımtatar	qırımtatar	NOUN	n	Case=Nom	0	root	_	_
-3	_	e	AUX	cop	Number=Sing|Person=2|Tense=Aor	2	cop	_	_
+3	sıñ	e	AUX	cop	Mood=Ind|Number=Sing|Person=2|Tense=Aor|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:33:398
 # text = Men yedi evni körem.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	yedi	yedi	NUM	num	_	3	nummod	_	_
+2	yedi	yedi	NUM	num	NumType=Card	3	nummod	_	_
 3	evni	ev	NOUN	n	Case=Acc	4	dobj	_	_
-4	körem	kör	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	körem	kör	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:34:409
@@ -298,7 +298,7 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	evlerniñ	ev	NOUN	n	Case=Gen|Number=Plur	3	nmod:poss	_	_
 3	birincisinde	bir	NUM	num	Case=Loc|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	4	nmod	_	_
-4	yaşayım	yaşa	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	yaşayım	yaşa	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:35:420
@@ -307,29 +307,29 @@
 2	ve	ve	CCONJ	cnjcoo	_	3	cc	_	_
 3	Veli	Veli	PROPN	np	Case=Nom|Gender=Masc	5	nsubj	_	_
 4	evge	ev	NOUN	n	Case=Dat	5	nmod	_	_
-5	keldiler	kel	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	_	_
+5	keldiler	kel	VERB	v	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:36:433
 # text = Remziye yırlay Mafuze ise oynay.
 1	Remziye	Remziye	PROPN	np	Case=Nom|Gender=Fem	2	nsubj	_	_
-2	yırlay	yırla	VERB	v	Number=Sing|Person=3|Tense=Aor	5	conj	_	_
+2	yırlay	yırla	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	5	conj	_	_
 3	Mafuze	Mafuze	PROPN	np	Case=Nom|Gender=Fem	5	nsubj	_	_
 4	ise	ise	ADV	postadv	_	3	advmod	_	_
-5	oynay	oyna	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+5	oynay	oyna	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:37:446
 # text = O bala oynay.
 1	O	o	DET	det	PronType=Dem	2	det	_	_
 2	bala	bala	NOUN	n	Case=Nom	3	nsubj	_	_
-3	oynay	oyna	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+3	oynay	oyna	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:38:455
 # text = Qayıq battı.
 1	Qayıq	qayıq	NOUN	n	Case=Nom	2	nsubj	_	_
-2	battı	bat	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	battı	bat	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	0	punct	_	_
 
 # sent_id = grammar.vislcg.txt:39:462
@@ -338,14 +338,14 @@
 2	bala	bala	NOUN	n	Case=Nom	5	nsubj	_	_
 3	tünevin	tünevin	ADV	adv	_	5	advmod	_	_
 4	kitapnı	kitap	NOUN	n	Case=Acc	5	dobj	_	_
-5	oqudı	oqu	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	oqudı	oqu	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:40:475
 # text = Bala kitap oquy.
 1	Bala	bala	NOUN	n	Case=Nom	3	nsubj	_	_
 2	kitap	kitap	NOUN	n	Case=Nom	3	dobj	_	_
-3	oquy	oqu	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+3	oquy	oqu	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:41:484
@@ -353,7 +353,7 @@
 1	Bizler	biz	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	yahşı	yahşı	ADJ	adj	_	3	amod	_	_
 3	qomşular	qomşu	NOUN	n	Case=Nom|Number=Plur	0	root	_	_
-4	edik	e	AUX	cop	Number=Plur|Person=1|Tense=Past	3	cop	_	_
+4	edik	e	AUX	cop	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:42:495
@@ -363,21 +363,21 @@
 3	tünevin	tünevin	ADV	adv	_	6	advmod	_	_
 4	kitapnı	kitap	NOUN	n	Case=Acc	6	dobj	_	_
 5	qızçıqqa	qızçıq	NOUN	n	Case=Dat	6	nmod:rcp	_	_
-6	berdi	ber	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	berdi	ber	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:43:510
 # text = Bala kitap oquy.
 1	Bala	bala	NOUN	n	Case=Nom	3	nsubj	_	_
 2	kitap	kitap	NOUN	n	Case=Nom	3	dobj	_	_
-3	oquy	oqu	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+3	oquy	oqu	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:44:519
 # text = Men hamır bastım.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	hamır	hamır	NOUN	n	Case=Nom	3	dobj	_	_
-3	bastım	bas	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+3	bastım	bas	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:45:528
@@ -387,7 +387,7 @@
 3	turğanda	tur	AUX	vaux	Case=Loc|Tense=Past|VerbForm=Ger	2	aux	_	_
 4	bir	bir	DET	det	PronType=Ind	5	det	_	_
 5	bala	bala	NOUN	n	Case=Nom	6	dobj	_	_
-6	rastkele	rastkel	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+6	rastkele	rastkel	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:46:543
@@ -395,7 +395,7 @@
 1	Qızçıq	qızçıq	NOUN	n	Case=Nom	4	nsubj	_	_
 2	dülber	dülber	ADJ	adj	_	3	amod	_	_
 3	çeçekni	çeçek	NOUN	n	Case=Acc	4	dobj	_	_
-4	üzdi	üz	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	üzdi	üz	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:47:554
@@ -403,7 +403,7 @@
 1	Qızçıq	qızçıq	NOUN	n	Case=Nom	4	nsubj	_	_
 2	dülber	dülber	ADJ	adj	_	3	amod	_	_
 3	çeçek	çeçek	NOUN	n	Case=Nom	4	dobj	_	_
-4	üzdi	üz	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	üzdi	üz	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:48:565
@@ -412,7 +412,7 @@
 2	temizlemek	temizle	VERB	v	Case=Nom|VerbForm=Ger	3	csubj	_	_
 3-4	kerek	_	_	_	_	_	_	_	_
 3	kerek	kerek	ADJ	adj	_	0	root	_	_
-4	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:49:575
@@ -421,7 +421,7 @@
 2	temizlemek	temizle	VERB	v	Case=Nom|VerbForm=Ger	3	csubj	_	_
 3-4	kerek	_	_	_	_	_	_	_	_
 3	kerek	kerek	ADJ	adj	_	0	root	_	_
-4	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:50:585
@@ -429,7 +429,7 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	onıñ	o	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 3	evini	ev	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	4	dobj	_	_
-4	kördim	kör	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	kördim	kör	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:51:596
@@ -438,13 +438,13 @@
 2	dostunı	dost	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	5	dobj	_	_
 3	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	yahşı	yahşı	ADJ	adj	_	5	advmod	_	_
-5	bilem	bil	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+5	bilem	bil	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:52:609
 # text = Qırımnı aldılar.
 1	Qırımnı	Qırım	PROPN	np	Case=Acc	2	dobj	_	_
-2	aldılar	al	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	_	_
+2	aldılar	al	VERB	v	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:53:616
@@ -452,20 +452,20 @@
 1	Qızçıq	qızçıq	NOUN	n	Case=Nom	4	nsubj	_	_
 2	bu	bu	DET	det	PronType=Dem	3	det	_	_
 3	çeçek	çeçek	NOUN	n	Case=Nom	4	dobj	_	_
-4	üzdi	üz	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	üzdi	üz	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:54:627
 # text = Men bunı bilem.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	bunı	bu	PRON	prn	Case=Acc|PronType=Dem	3	dobj	_	_
-3	bilem	bil	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+3	bilem	bil	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:55:636
 # text = Mısırboğdaynı aşadılar.
 1	Mısırboğdaynı	mısırboğday	NOUN	n	Case=Acc	2	dobj	_	_
-2	aşadılar	aşa	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	_	_
+2	aşadılar	aşa	VERB	v	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:56:643
@@ -475,14 +475,14 @@
 3	közleri	köz	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
 4-5	kök	_	_	_	_	_	_	_	_
 4	kök	kök	ADJ	adj	_	0	root	_	_
-5	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+5	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:57:655
 # text = Filcan tabanğa tüşti.
 1	Filcan	filcan	NOUN	n	Case=Nom	3	nsubj	_	_
 2	tabanğa	taban	NOUN	n	Case=Dat	3	nmod	_	_
-3	tüşti	tüş	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	tüşti	tüş	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:58:664
@@ -492,7 +492,7 @@
 3	qoşmaq	qoş	VERB	v	Case=Nom|VerbForm=Ger	4	csubj	_	_
 4-5	kerek	_	_	_	_	_	_	_	_
 4	kerek	kerek	ADJ	adj	_	0	root	_	_
-5	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+5	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:59:676
@@ -500,13 +500,13 @@
 1	Ana	ana	NOUN	n	Case=Nom	4	nsubj	_	_
 2	balasına	bala	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:rcp	_	_
 3	yardım	yardım	NOUN	n	Case=Nom	4	dobj	_	_
-4	etti	et	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	etti	et	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:60:687
 # text = Işlemege isteyim.
 1	Işlemege	işle	VERB	v	Case=Dat|VerbForm=Ger	2	ccomp	_	_
-2	isteyim	iste	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+2	isteyim	iste	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:61:694
@@ -515,7 +515,7 @@
 2	dostum	dost	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 3	bu	bu	DET	det	PronType=Dem	4	det	_	_
 4	evde	ev	NOUN	n	Case=Loc	5	nmod	_	_
-5	yaşay	yaşa	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+5	yaşay	yaşa	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:62:707
@@ -524,20 +524,20 @@
 2	musafir	musafir	NOUN	n	Case=Nom	3	nsubj	_	_
 3-4	bar	_	_	_	_	_	_	_	_
 3	bar	bar	ADJ	adj	_	0	root	_	_
-4	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:63:717
 # text = Okupatsiyada oldıq.
 1	Okupatsiyada	okupatsiya	NOUN	n	Case=Loc	2	nmod	_	_
-2	oldıq	ol	VERB	v	Number=Plur|Person=1|Tense=Past	0	root	_	_
+2	oldıq	ol	VERB	v	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:64:724
 # text = Bala divanda otura.
 1	Bala	bala	NOUN	n	Case=Nom	3	nsubj	_	_
 2	divanda	divan	NOUN	n	Case=Loc	3	nmod	_	_
-3	otura	otur	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+3	otura	otur	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:65:733
@@ -545,14 +545,14 @@
 1	Ağam	ağa	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 2	kimni	kim	PRON	prn	Case=Acc|PronType=Int	4	dobj	_	_
 3	pencereden	pencere	NOUN	n	Case=Abl	4	nmod	_	_
-4	kördi	kör	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	kördi	kör	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:66:744
 # text = Men bundan bezdim.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	bundan	bu	PRON	prn	Case=Abl|PronType=Dem	3	nmod	_	_
-3	bezdim	bez	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+3	bezdim	bez	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:67:753
@@ -563,7 +563,7 @@
 4	kitabını	kitap	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	dobj	_	_
 5	bu	bu	DET	det	PronType=Dem	6	det	_	_
 6	qızçıqqa	qızçıq	NOUN	n	Case=Dat	7	nmod:rcp	_	_
-7	berdi	ber	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	berdi	ber	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = grammar.vislcg.txt:68:770
@@ -574,7 +574,7 @@
 4	kitabını	kitap	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	dobj	_	_
 5	bir	bir	DET	det	PronType=Ind	6	det	_	_
 6	qızçıqqa	qızçıq	NOUN	n	Case=Dat	7	nmod:rcp	_	_
-7	berdi	ber	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	berdi	ber	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = grammar.vislcg.txt:69:787
@@ -585,7 +585,7 @@
 4	bir	bir	DET	det	PronType=Ind	5	det	_	_
 5	qızçıqqa	qızçıq	NOUN	n	Case=Dat	7	nmod:rcp	_	_
 6	alma	alma	NOUN	n	Case=Nom	7	dobj	_	_
-7	berdi	ber	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	berdi	ber	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = grammar.vislcg.txt:70:804
@@ -596,7 +596,7 @@
 4	şu	şu	DET	det	PronType=Dem	5	det	_	_
 5	qızçıqqa	qızçıq	NOUN	n	Case=Dat	7	nmod:rcp	_	_
 6	alma	alma	NOUN	n	Case=Nom	7	dobj	_	_
-7	berdi	ber	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	berdi	ber	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = grammar.vislcg.txt:71:821
@@ -604,20 +604,20 @@
 1	Bala	bala	NOUN	n	Case=Nom	4	nsubj	_	_
 2	evden	ev	NOUN	n	Case=Abl	4	nmod	_	_
 3	tez	tez	ADJ	adj	_	4	advmod	_	_
-4	çıqtı	çıq	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	çıqtı	çıq	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:72:832
 # text = Gemi battı.
 1	Gemi	gemi	NOUN	n	Case=Nom	2	nsubj	_	_
-2	battı	bat	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	battı	bat	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:73:839
 # text = Deñizci gemini batırdı.
 1	Deñizci	deñizci	NOUN	n	Case=Nom	3	nsubj	_	_
 2	gemini	gemi	NOUN	n	Case=Acc	3	dobj	_	_
-3	batırdı	batır	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	batırdı	batır	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:74:848
@@ -627,14 +627,14 @@
 3	ricasına	rica	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
 4	köre	köre	ADP	post	_	3	case	_	_
 5	gemini	gemi	NOUN	n	Case=Acc	6	dobj	_	_
-6	battırdı	battır	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	battırdı	battır	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:75:863
 # text = Bala suv içe.
 1	Bala	bala	NOUN	n	Case=Nom	3	nsubj	_	_
 2	suv	suv	NOUN	n	Case=Nom	3	dobj	_	_
-3	içe	iç	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+3	içe	iç	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:76:872
@@ -642,7 +642,7 @@
 1	Ana	ana	NOUN	n	Case=Nom	4	nsubj	_	_
 2	balasına	bala	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:rcp	_	_
 3	suv	suv	NOUN	n	Case=Nom	4	dobj	_	_
-4	içirdi	içir	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	içirdi	içir	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:77:883
@@ -650,7 +650,7 @@
 1	Ana	ana	NOUN	n	Case=Nom	4	nsubj	_	_
 2	balasına	bala	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:rcp	_	_
 3	suv	suv	NOUN	n	Case=Nom	4	dobj	_	_
-4	içtirdi	içtir	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	içtirdi	içtir	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:78:894
@@ -658,7 +658,7 @@
 1	Ana	ana	NOUN	n	Case=Nom	4	nsubj	_	_
 2	balasına	bala	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:rcp	_	_
 3	suv	suv	NOUN	n	Case=Nom	4	dobj	_	_
-4	içtirtti	içtirt	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	içtirtti	içtirt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:79:905
@@ -667,7 +667,7 @@
 2	balasına	bala	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj:caus	_	_
 3	qızçıqqa	qızçıq	NOUN	n	Case=Dat	5	nmod:rcp	_	_
 4	oyuncağını	oyuncağ	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	5	dobj	_	_
-5	berdirtti	berdirt	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	berdirtti	berdirt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:80:918
@@ -690,27 +690,27 @@
 # text = Qapı yelden açıldı.
 1	Qapı	qapı	NOUN	n	Case=Nom	3	nsubj	_	_
 2	yelden	yel	NOUN	n	Case=Abl	3	nmod	_	_
-3	açıldı	aç	VERB	v	Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	açıldı	aç	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:83:949
 # text = Bu qapıdan kirilmez.
 1	Bu	bu	DET	det	PronType=Dem	2	det	_	_
 2	qapıdan	qapı	NOUN	n	Case=Abl	3	nmod	_	_
-3	kirilmez	kir	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Fut|Voice=Pass	0	root	_	_
+3	kirilmez	kir	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:84:958
 # text = Men köründim.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	köründim	kör	VERB	v	Number=Sing|Person=1|Tense=Past|Voice=Pass	0	root	_	_
+2	köründim	kör	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:85:965
 # text = Bala anasını taptı.
 1	Bala	bala	NOUN	n	Case=Nom	3	nsubj	_	_
 2	anasını	ana	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	3	dobj	_	_
-3	taptı	tap	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	taptı	tap	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:86:974
@@ -718,20 +718,20 @@
 1	Ana	ana	NOUN	n	Case=Nom	3	conj	_	_
 2	-	-	PUNCT	guio	_	3	cc	_	_
 3	bala	bala	NOUN	n	Case=Nom	4	nsubj	_	_
-4	tapıştılar	tap	VERB	v	Number=Plur|Person=3|Tense=Past|Voice=Coop	0	root	_	_
+4	tapıştılar	tap	VERB	v	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:87:985
 # text = Olar bir-birinen aytıştılar.
 1	Olar	olar	PRON	prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	bir-birinen	bir-bir	PRON	prn	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Rcp	3	nmod	_	_
-3	aytıştılar	ayt	VERB	v	Number=Plur|Person=3|Tense=Past|Voice=Coop	0	root	_	_
+3	aytıştılar	ayt	VERB	v	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:88:994
 # text = Gemi battı.
 1	Gemi	gemi	NOUN	n	Case=Nom	2	nsubj	_	_
-2	battı	bat	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	battı	bat	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:89:1001
@@ -739,7 +739,7 @@
 1	O	o	DET	det	PronType=Dem	2	det	_	_
 2	bala	bala	NOUN	n	Case=Nom	4	nsubj	_	_
 3	kitap	kitap	NOUN	n	Case=Nom	4	dobj	_	_
-4	oquy	oqu	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+4	oquy	oqu	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:90:1012
@@ -748,7 +748,7 @@
 2	ağam	ağa	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 3	qızçıqqa	qızçıq	NOUN	n	Case=Dat	5	nmod:rcp	_	_
 4	alma	alma	NOUN	n	Case=Nom	5	dobj	_	_
-5	berdi	ber	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	berdi	ber	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:91:1025
@@ -756,7 +756,7 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	Yaltağa	Yalta	PROPN	np	Case=Dat	4	nmod	_	_
 3	tünevin	tünevin	ADV	adv	_	4	advmod	_	_
-4	bardım	bar	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	bardım	bar	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:92:1036
@@ -765,19 +765,19 @@
 2	dostum	dost	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 3	bu	bu	DET	det	PronType=Dem	4	det	_	_
 4	evde	ev	NOUN	n	Case=Loc	5	nmod	_	_
-5	yaşay	yaşa	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+5	yaşay	yaşa	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:93:1049
 # text = Yaltağa bardı.
 1	Yaltağa	Yalta	PROPN	np	Case=Dat	2	nmod	_	_
-2	bardı	bar	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	bardı	bar	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:94:1056
 # text = Yaltağa bardım.
 1	Yaltağa	Yalta	PROPN	np	Case=Dat	2	nmod	_	_
-2	bardım	bar	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+2	bardım	bar	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = grammar.vislcg.txt:95:1063
@@ -787,7 +787,7 @@
 3	qart	qart	ADJ	adj	_	4	amod	_	_
 4-5	adam	_	_	_	_	_	_	_	_
 4	adam	adam	NOUN	n	Case=Nom	0	root	_	_
-5	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+5	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:96:1075
@@ -797,7 +797,7 @@
 3	qart	qart	ADJ	adj	_	4	amod	_	_
 4-5	adamdır	_	_	_	_	_	_	_	_
 4	adam	adam	NOUN	n	Case=Nom	0	root	_	_
-5	_	e	AUX	cop	Number=Sing|Person=3|Polite=Form|Tense=Aor	4	cop	_	_
+5	dır	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Aor|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:97:1087
@@ -806,7 +806,7 @@
 2	ocam	oca	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 3	qart	qart	ADJ	adj	_	4	amod	_	_
 4	adam	adam	NOUN	n	Case=Nom	0	root	_	_
-5	edi	e	AUX	cop	Number=Sing|Person=3|Tense=Past	4	cop	_	_
+5	edi	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:98:1100
@@ -815,7 +815,7 @@
 2	ocam	oca	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 3	qart	qart	ADJ	adj	_	4	amod	_	_
 4	adam	adam	NOUN	n	Case=Nom	0	root	_	_
-5	olacaq	ol	VERB	v	Number=Sing|Person=3	4	cop	_	_
+5	olacaq	ol	AUX	v	Number=Sing|Person=3	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:99:1113
@@ -825,7 +825,7 @@
 3	er	er	DET	det	PronType=Ind	4	det	_	_
 4	kün	kün	NOUN	n	Case=Nom	5	nmod	_	_
 5	şeerde	şeer	NOUN	n	Case=Loc	0	root	_	_
-6	ola	ol	VERB	v	Number=Sing|Person=3|Tense=Aor	5	cop	_	_
+6	ola	ol	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	5	cop	_	_
 7	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:100:1128
@@ -834,7 +834,7 @@
 2	ocam	oca	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3-4	semiz	_	_	_	_	_	_	_	_
 3	semiz	semiz	ADJ	adj	_	0	root	_	_
-4	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:101:1138
@@ -843,7 +843,7 @@
 2	ocam	oca	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3-4	semizdir	_	_	_	_	_	_	_	_
 3	semiz	semiz	ADJ	adj	_	0	root	_	_
-4	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	dir	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:102:1148
@@ -851,11 +851,11 @@
 1	Menim	men	PRON	prn	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
 2	ocam	oca	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3	semiz	semiz	ADJ	adj	_	6	conj	_	_
-4	edi	e	AUX	cop	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+4	edi	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	soñ	soñ	SCONJ	cnjadv	_	6	cc	_	_
 6-7	azdı	_	_	_	_	_	_	_	_
 6	az	az	ADJ	adj	_	0	root	_	_
-7	_	e	AUX	cop	Number=Sing|Person=3|Tense=Past	6	cop	_	_
+7	dı	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 8	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:103:1164
@@ -863,7 +863,7 @@
 1	Bu	bu	DET	det	PronType=Dem	2	det	_	_
 2	adam	adam	NOUN	n	Case=Nom	3	nsubj	_	_
 3	belli	belli	ADJ	adj	_	0	root	_	_
-4	olacaq	ol	VERB	v	Number=Sing|Person=3	3	cop	_	_
+4	olacaq	ol	AUX	v	Number=Sing|Person=3	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:104:1175
@@ -871,7 +871,7 @@
 1	Terekte	terek	NOUN	n	Case=Loc	3	nmod	_	_
 2	almalar	alma	NOUN	n	Case=Nom|Number=Plur	3	nsubj	_	_
 3	bar	bar	ADJ	adj	_	0	root	_	_
-4	edi	e	AUX	cop	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+4	edi	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:105:1186
@@ -879,7 +879,7 @@
 1	Terekte	terek	NOUN	n	Case=Loc	3	nmod	_	_
 2	almalar	alma	NOUN	n	Case=Nom|Number=Plur	3	nsubj	_	_
 3	yoq	yoq	ADJ	adj	_	0	root	_	_
-4	edi	e	AUX	cop	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+4	edi	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:106:1197
@@ -889,7 +889,7 @@
 3	musafir	musafir	NOUN	n	Case=Nom	4	nsubj	_	_
 4-5	bar	_	_	_	_	_	_	_	_
 4	bar	bar	ADJ	adj	_	0	root	_	_
-5	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+5	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:107:1209
@@ -898,18 +898,18 @@
 2	kitap	kitap	NOUN	n	Case=Nom	3	nsubj	_	_
 3-4	bar	_	_	_	_	_	_	_	_
 3	bar	bar	ADJ	adj	_	0	root	_	_
-4	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:108:1219
 # text = Bağçasarayda Remziyeniñ eki dostu bar.
 1	Bağçasarayda	Bağçasaray	PROPN	np	Case=Loc	5	nmod	_	_
 2	Remziyeniñ	Remziye	PROPN	np	Case=Gen|Gender=Fem	4	nmod:poss	_	_
-3	eki	eki	NUM	num	_	4	nummod	_	_
+3	eki	eki	NUM	num	NumType=Card	4	nummod	_	_
 4	dostu	dost	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
 5-6	bar	_	_	_	_	_	_	_	_
 5	bar	bar	ADJ	adj	_	0	root	_	_
-6	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	5	cop	_	_
+6	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	5	cop	_	_
 7	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:109:1233
@@ -918,7 +918,7 @@
 2	kitabım	kitap	NOUN	n	Case=Nom	3	nsubj	_	_
 3-4	bar	_	_	_	_	_	_	_	_
 3	bar	bar	ADJ	adj	_	0	root	_	_
-4	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:110:1243
@@ -928,7 +928,7 @@
 3	qart	qart	ADJ	adj	_	4	amod	_	_
 4-6	adammı	_	_	_	_	_	_	_	_
 4	adam	adam	NOUN	n	Case=Nom	0	root	_	_
-5	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+5	mı	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
 6	mı	mı	PART	qst	_	4	disc	_	_
 7	?	?	PUNCT	sent	_	4	punct	_	_
 
@@ -938,7 +938,7 @@
 2	bala	bala	NOUN	n	Case=Nom	4	nsubj	_	_
 3	kitap	kitap	NOUN	n	Case=Nom	4	dobj	_	_
 4-5	oquymı	_	_	_	_	_	_	_	_
-4	oqu	oqu	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+4	oqu	oqu	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	mı	mı	PART	qst	_	4	disc	_	_
 6	?	?	PUNCT	sent	_	4	punct	_	_
 
@@ -948,7 +948,7 @@
 2	birev	birev	PRON	prn	Case=Nom|PronType=Ind	3	nsubj	_	_
 3-5	barmı	_	_	_	_	_	_	_	_
 3	bar	bar	ADJ	adj	_	0	root	_	_
-4	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	mı	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	mı	mı	PART	qst	_	3	disc	_	_
 6	?	?	PUNCT	sent	_	3	punct	_	_
 
@@ -958,7 +958,7 @@
 2	kimse	kimse	PRON	prn	Case=Nom|PronType=Ind	3	nsubj	_	_
 3-5	yoqmı	_	_	_	_	_	_	_	_
 3	yoq	yoq	ADJ	adj	_	0	root	_	_
-4	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	mı	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	mı	mı	PART	qst	_	3	disc	_	_
 6	?	?	PUNCT	sent	_	3	punct	_	_
 
@@ -967,7 +967,7 @@
 1	Ağam	ağa	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 2	kimni	kim	PRON	prn	Case=Acc|PronType=Int	4	dobj	_	_
 3	pencereden	pencere	NOUN	n	Case=Abl	4	nmod	_	_
-4	kördi	kör	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	kördi	kör	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:115:1301
@@ -975,7 +975,7 @@
 1	Kim	kim	PRON	prn	Case=Nom|PronType=Int	4	nsubj	_	_
 2	kimni	kim	PRON	prn	Case=Acc|PronType=Int	4	dobj	_	_
 3	pencereden	pencere	NOUN	n	Case=Abl	4	nmod	_	_
-4	kördi	kör	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	kördi	kör	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:116:1312
@@ -983,7 +983,7 @@
 1	Kim	kim	PRON	prn	Case=Nom|PronType=Int	4	nsubj	_	_
 2	kimge	kim	PRON	prn	Case=Dat|PronType=Int	4	nmod:rcp	_	_
 3	yardım	yardım	NOUN	n	Case=Nom	4	dobj	_	_
-4	etti	et	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	etti	et	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:117:1323
@@ -991,27 +991,27 @@
 1	Ağam	ağa	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 2	bunı	bu	PRON	prn	Case=Acc|PronType=Dem	4	dobj	_	_
 3	nerede	nerede	ADV	adv	PronType=Int	4	advmod	_	_
-4	yaptı	yap	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	yaptı	yap	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:118:1334
 # text = Mısırboğday cıyıp keldiler a bitası pişirip qoydı.
 1	Mısırboğday	mısırboğday	NOUN	n	Case=Nom	2	dobj	_	_
 2	cıyıp	cıy	VERB	v	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
-3	keldiler	kel	VERB	v	Number=Plur|Person=3|Tense=Past	7	conj	_	_
+3	keldiler	kel	VERB	v	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
 4	a	a	CCONJ	cnjcoo	_	7	cc	_	_
 5	bitası	bita	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
-6	pişirip	pişir	VERB	v	Aspect=Perf|VerbForm=Conv	7	x	_	_
-7	qoydı	qoy	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	pişirip	pişir	X	v	Aspect=Perf|VerbForm=Conv	7	x	_	_
+7	qoydı	qoy	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = grammar.vislcg.txt:119:1351
 # text = O ayttı amma işni yapmadı.
 1	O	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	ayttı	ayt	VERB	v	Number=Sing|Person=3|Tense=Past	5	conj	_	_
+2	ayttı	ayt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 3	amma	amma	CCONJ	cnjcoo	_	5	cc	_	_
 4	işni	iş	NOUN	n	Case=Acc	5	dobj	_	_
-5	yapmadı	yap	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+5	yapmadı	yap	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:120:1364
@@ -1021,7 +1021,7 @@
 3	mürekkep	mürekkep	ADJ	adj	_	7	conj	_	_
 4-5	degil	_	_	_	_	_	_	_	_
 4	degil	degil	ADV	postadv	_	3	advmod	_	_
-5	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+5	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 6	lakin	lakin	CCONJ	cnjcoo	_	7	cc	_	_
 7	çezilmeli	çez	VERB	v	Number=Sing|Person=3|Voice=Pass	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
@@ -1029,31 +1029,31 @@
 # sent_id = grammar.vislcg.txt:121:1380
 # text = Mafuze yırlay Remziye ise oynay.
 1	Mafuze	Mafuze	PROPN	np	Case=Nom|Gender=Fem	2	nsubj	_	_
-2	yırlay	yırla	VERB	v	Number=Sing|Person=3|Tense=Aor	5	conj	_	_
+2	yırlay	yırla	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	5	conj	_	_
 3	Remziye	Remziye	PROPN	np	Case=Nom|Gender=Fem	5	nsubj	_	_
 4	ise	ise	CCONJ	cnjcoo	_	5	cc	_	_
-5	oynay	oyna	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+5	oynay	oyna	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:122:1393
 # text = Ya yağmur yağar ya da biz yuvunmağa ketermiz.
 1	Ya	ya	CCONJ	cnjcoo	_	9	cc	_	_
 2	yağmur	yağmur	NOUN	n	Case=Nom	3	nsubj	_	_
-3	yağar	yağ	VERB	v	Number=Sing|Person=3|Tense=Fut	9	conj	_	_
+3	yağar	yağ	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
 4	ya	ya	X	x	_	6	dep	_	_
 5	da	da	CCONJ	cnjcoo	_	9	cc	_	_
 6	biz	biz	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 7	yuvunmağa	yuv	VERB	v	Case=Dat|VerbForm=Ger|Voice=Pass	9	advcl	_	_
-8	ketermiz	ket	VERB	v	Number=Plur|Person=1|Tense=Fut	0	root	_	_
+8	ketermiz	ket	VERB	v	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = grammar.vislcg.txt:123:1412
 # text = Ağam ka keler ka kelmez.
 1	Ağam	ağa	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 2	ka	ka	CCONJ	cnjcoo	_	5	cc	_	_
-3	keler	kel	VERB	v	Number=Sing|Person=3|Tense=Fut	5	conj	_	_
+3	keler	kel	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
 4	ka	ka	CCONJ	cnjcoo	_	5	cc	_	_
-5	kelmez	kel	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Fut	0	root	_	_
+5	kelmez	kel	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:124:1425
@@ -1061,9 +1061,9 @@
 1	Bazan	bazan	ADV	adv	_	4	advmod	_	_
 2	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	anda	anda	ADV	adv	_	4	advmod	_	_
-4	baram	bar	VERB	v	Number=Sing|Person=1|Tense=Aor	6	conj	_	_
+4	baram	bar	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	6	conj	_	_
 5	bazan	bazan	ADV	adv	_	6	advmod	_	_
-6	barmayım	bar	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Aor	0	root	_	_
+6	barmayım	bar	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:125:1440
@@ -1072,10 +1072,10 @@
 2	aytmaq	ayt	VERB	v	Case=Nom|VerbForm=Ger	3	csubj	_	_
 3-4	kerek	_	_	_	_	_	_	_	_
 3	kerek	kerek	ADJ	adj	_	7	conj	_	_
-4	e	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+4	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
 5	yoqsa	yoqsa	SCONJ	cnjadv	_	7	cc	_	_
 6	o	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	kelmez	kel	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Fut	0	root	_	_
+7	kelmez	kel	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = grammar.vislcg.txt:126:1456
@@ -1094,14 +1094,14 @@
 1	O	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kelecegini	kel	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	4	ccomp	_	_
 3	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	bilem	bil	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	bilem	bil	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:128:1484
 # text = Kelecegini men bilem.
 1	Kelecegini	kel	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	3	ccomp	_	_
 2	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	bilem	bil	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+3	bilem	bil	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:129:1493
@@ -1109,7 +1109,7 @@
 1	O	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kelmecegini	kel	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg	4	ccomp	_	_
 3	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	bilem	bil	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	bilem	bil	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:130:1504
@@ -1117,7 +1117,7 @@
 1	O	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kelecegini	kel	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	4	ccomp	_	_
 3	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	bilmem	bil	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Fut	0	root	_	_
+4	bilmem	bil	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:131:1515
@@ -1125,15 +1125,15 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	onıñ	o	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	kelgenini	kel	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	4	ccomp	_	_
-4	isteyim	iste	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	isteyim	iste	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:132:1526
 # text = Yaltada sıcaq olğanını eşittim.
 1	Yaltada	Yalta	PROPN	np	Case=Loc	2	nmod	_	_
 2	sıcaq	sıcaq	ADJ	adj	_	4	ccomp	_	_
-3	olğanını	ol	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	2	cop	_	_
-4	eşittim	eşit	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+3	olğanını	ol	AUX	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	2	cop	_	_
+4	eşittim	eşit	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:133:1537
@@ -1141,7 +1141,7 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	onıñ	o	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	kelgeninden	kel	VERB	v	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	4	ccomp	_	_
-4	qorqam	qorq	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	qorqam	qorq	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:134:1548
@@ -1149,7 +1149,7 @@
 1	O	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	Remziyeni	Remziye	PROPN	np	Case=Acc|Gender=Fem	3	dobj	_	_
 3	körgenini	kör	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	4	ccomp	_	_
-4	ayttı	ayt	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	ayttı	ayt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:135:1559
@@ -1158,7 +1158,7 @@
 2	Remziyeni	Remziye	PROPN	np	Case=Acc|Gender=Fem	3	dobj	_	_
 3	körgenini	kör	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	4	ccomp	_	_
 4-5	ayttımı	_	_	_	_	_	_	_	_
-4	ayt	ayt	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	ayt	ayt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	mı	mı	PART	qst	_	4	disc	_	_
 6	?	?	PUNCT	sent	_	4	punct	_	_
 
@@ -1166,16 +1166,16 @@
 # text = O kelecegini ayttı.
 1	O	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	kelecegini	kel	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	3	ccomp	_	_
-3	ayttı	ayt	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	ayttı	ayt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:137:1580
 # text = O men kelirim dep ayttı.
 1	O	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	kelirim	kel	VERB	v	Number=Sing|Person=1|Tense=Fut	4	ccomp	_	_
+3	kelirim	kel	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
 4	dep	de	VERB	v	Aspect=Perf|VerbForm=Conv	5	ccomp	_	_
-5	ayttı	ayt	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	ayttı	ayt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:138:1593
@@ -1184,7 +1184,7 @@
 2	Remziye	Remziye	PROPN	np	Case=Nom|Gender=Fem	4	nsubj	_	_
 3	Mafuzeni	Mafuze	PROPN	np	Case=Acc|Gender=Fem	4	dobj	_	_
 4	körgenini	kör	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	5	ccomp	_	_
-5	ayttı	ayt	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	ayttı	ayt	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:139:1606
@@ -1194,7 +1194,7 @@
 3	oğlançıq	oğlançıq	NOUN	n	Case=Nom	6	nsubj	_	_
 4	bu	bu	DET	det	PronType=Dem	5	det	_	_
 5	evde	ev	NOUN	n	Case=Loc	6	nmod	_	_
-6	yaşay	yaşa	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+6	yaşay	yaşa	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:140:1621
@@ -1203,7 +1203,7 @@
 2	alma	alma	NOUN	n	Case=Nom	3	dobj	_	_
 3	aşağan	aşa	VERB	v	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 4	qızçıqnı	qızçıq	NOUN	n	Case=Acc	5	dobj	_	_
-5	körem	kör	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+5	körem	kör	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:141:1634
@@ -1213,7 +1213,7 @@
 3	odada	oda	NOUN	n	Case=Loc	5	nmod	_	_
 4	ava	ava	NOUN	n	Case=Nom	5	nsubj	_	_
 5	sıcaq	sıcaq	ADJ	adj	_	0	root	_	_
-6	edi	e	AUX	cop	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+6	edi	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 7	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = grammar.vislcg.txt:142:1649
@@ -1223,7 +1223,7 @@
 3	alma	alma	NOUN	n	Case=Nom	4	dobj	_	_
 4	bergen	ber	VERB	v	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 5	qızçıqnı	qızçıq	NOUN	n	Case=Acc	6	dobj	_	_
-6	körem	kör	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+6	körem	kör	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:143:1664
@@ -1233,7 +1233,7 @@
 3	oğlançıq	oğlançıq	NOUN	n	Case=Nom	6	nsubj	_	_
 4	bu	bu	DET	det	PronType=Dem	5	det	_	_
 5	evde	ev	NOUN	n	Case=Loc	6	nmod	_	_
-6	yaşay	yaşa	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+6	yaşay	yaşa	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:144:1679
@@ -1243,7 +1243,7 @@
 3	oturğan	otur	AUX	vaux	Tense=Past|VerbForm=Part	2	aux	_	_
 4	adam	adam	NOUN	n	Case=Nom	6	nsubj	_	_
 5	Qırımda	Qırım	PROPN	np	Case=Loc	6	nmod	_	_
-6	yaşay	yaşa	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+6	yaşay	yaşa	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:145:1694
@@ -1251,7 +1251,7 @@
 1	Qoqlasını	qoqla	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	2	dobj	_	_
 2	coyğan	coy	VERB	v	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
 3	qızçıq	qızçıq	NOUN	n	Case=Nom	4	nsubj	_	_
-4	kederlendi	kederlen	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	kederlendi	kederlen	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:146:1705
@@ -1263,40 +1263,40 @@
 5	o	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 6	iç	iç	X	x	_	8	dep	_	_
 7	bir	bir	X	x	_	8	dep	_	_
-8	aytmadı	ayt	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+8	aytmadı	ayt	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = grammar.vislcg.txt:147:1724
 # text = Raatlanmazdan evel men içimni bitirmek keregim.
-1	Raatlanmazdan	raatlan	VERB	v	Case=Abl|Polarity=Neg	6	advcl	_	_
+1	Raatlanmazdan	raatlan	VERB	v	Case=Abl|Polarity=Neg|Tense=Fut|VerbForm=Ger	6	advcl	_	_
 2	evel	evel	ADP	post	_	1	case	_	_
 3	men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	içimni	iç	NOUN	n	Case=Acc|Number[psor]=Sing|Person[psor]=1	5	dobj	_	_
 5	bitirmek	bitir	VERB	v	Case=Nom|VerbForm=Ger	6	csubj	_	_
 6-7	keregim	_	_	_	_	_	_	_	_
 6	kere	kerek	ADJ	adj	_	0	root	_	_
-7	e	e	AUX	cop	Number=Sing|Person=1|Tense=Aor	6	cop	_	_
+7	_	e	AUX	cop	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	6	cop	_	_
 8	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:148:1740
 # text = Men kiçkene olğanımda bala bağçasına bara edim.
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	kiçkene	kiçkene	ADJ	adj	_	6	advcl	_	_
-3	olğanımda	ol	VERB	v	Case=Loc|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Ger	2	cop	_	_
+3	olğanımda	ol	AUX	v	Case=Loc|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Ger	2	cop	_	_
 4	bala	bala	NOUN	n	Case=Nom	5	nmod:poss	_	_
 5	bağçasına	bağça	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
 6	bara	bar	VERB	v	Aspect=Imp|VerbForm=Cov	0	root	_	_
-7	edim	e	AUX	cop	Number=Sing|Person=1|Tense=Past	6	aux	_	_
+7	edim	e	AUX	cop	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:149:1757
 # text = Eger Mafuze aş pişirse o tedaviylendi.
-1	Eger	eger	SCONJ	cnjsub	_	6	x	_	_
+1	Eger	eger	X	cnjsub	_	6	x	_	_
 2	Mafuze	Mafuze	PROPN	np	Case=Nom|Gender=Fem	4	nsubj	_	_
 3	aş	aş	NOUN	n	Case=Nom	4	dobj	_	_
 4	pişirse	pişir	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	6	advcl	_	_
 5	o	o	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-6	tedaviylendi	tedaviylen	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	tedaviylendi	tedaviylen	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = grammar.vislcg.txt:150:1772
@@ -1304,7 +1304,7 @@
 1	Men	men	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	oña	o	PRON	prn	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	nmod:rcp	_	_
 3	bunı	bu	PRON	prn	Case=Acc|PronType=Dem	4	dobj	_	_
-4	aytmadım	ayt	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+4	aytmadım	ayt	VERB	v	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:1:0
@@ -1321,7 +1321,7 @@
 10	bir	bir	DET	det	PronType=Ind	11	det	_	_
 11-12	şeerdir	_	_	_	_	_	_	_	_
 11	şeer	şeer	NOUN	n	Case=Nom	0	root	_	_
-12	e	e	AUX	cop	Number=Sing|Person=3|Polite=Form|Tense=Aor	11	cop	_	_
+12	dir	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Aor|VerbForm=Fin	11	cop	_	_
 13	.	.	PUNCT	sent	_	11	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:2:25
@@ -1334,8 +1334,8 @@
 6-7	tillergede	_	_	_	_	_	_	_	_
 6	til	til	NOUN	n	Case=Dat|Number=Plur	9	nmod	_	_
 7	d	da	ADV	postadv	_	6	advmod	_	_
-8	tercime	tercime	NOUN	n	Case=Nom	9	x	_	_
-9	etildi	et	VERB	v	Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+8	tercime	tercime	X	n	Case=Nom	9	x	_	_
+9	etildi	et	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:3:45
@@ -1348,7 +1348,7 @@
 6	Qaraqalpaq	qaraqalpaq	NOUN	n	Case=Nom	7	nmod:poss	_	_
 7-8	tili	_	_	_	_	_	_	_	_
 7	til	til	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	2	parataxis	_	_
-8	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	7	cop	_	_
+8	i	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	7	cop	_	_
 9	)	)	PUNCT	rpar	_	7	punct	_	_
 10	-	-	PUNCT	guio	_	16	punct	_	_
 11	türkiy	türkiy	ADJ	adj	_	12	amod	_	_
@@ -1358,7 +1358,7 @@
 15	bir	bir	DET	det	PronType=Ind	16	det	_	_
 16-17	tildir	_	_	_	_	_	_	_	_
 16	til	til	NOUN	n	Case=Nom	0	root	_	_
-17	_	e	AUX	cop	Number=Sing|Person=3|Polite=Form|Tense=Aor	16	cop	_	_
+17	dir	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Aor|VerbForm=Fin	16	cop	_	_
 18	,	,	PUNCT	cm	_	23	punct	_	_
 19	Özbekistan	Özbekistan	PROPN	np	Case=Nom	20	nmod:poss	_	_
 20	terkibindeki	terkip	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	21	amod	_	_
@@ -1366,6 +1366,6 @@
 22	resmiy	resmiy	ADJ	adj	_	23	amod	_	_
 23-24	tili	_	_	_	_	_	_	_	_
 23	til	til	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	parataxis	_	_
-24	_	e	AUX	cop	Number=Sing|Person=3|Tense=Aor	23	cop	_	_
+24	i	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	23	cop	_	_
 25	.	.	PUNCT	sent	_	23	punct	_	_
 
