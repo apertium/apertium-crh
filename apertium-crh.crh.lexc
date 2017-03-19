@@ -22,6 +22,7 @@ Multichar_Symbols
 %<cop%>           ! Copula
 %<postadv%>       ! 
 %<det%>           ! 
+%<num%>           ! 
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
 %<emph%> 
@@ -61,6 +62,7 @@ Multichar_Symbols
 %<gpr_fut%>
 
 %<gna_while%>
+%<gna_perf%>
 
 %<prc_perf%>      ! -Ip 
 
@@ -3314,7 +3316,6 @@ mütefikkir:mütefikkir N1 ; ! "мислитель"
 mutehassıs:mutehassıs N1 ; ! "спеціаліст"
 mutehassıs:mutehassıs N1 ; ! "фахівець"
 muyuş:muyuş N1 ; ! "кут"
-...:... N1 ; ! "уболівальник"
 nağış:nağış N1 ; ! "вишивка"
 namalüm:namalüm N1 ; ! "невідомий"
 namaz:namaz N1 ; ! "моління"
@@ -5110,14 +5111,17 @@ Hesencan:Hesencan NP-TOP ; ! ""
 Sumgayıt:Sumgayıt NP-TOP ; ! ""
 Hazar:Hazar NP-TOP ; ! ""
 
+Amet:Amet NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Samand:Samand NP-ANT-M ; ! ""
 Oleg:Oleg NP-ANT-M ; ! ""
 Dmitriy:Dmitriy NP-ANT-M ; ! ""
 Mark:Mark NP-ANT-M ; ! ""
 
+Nina:Nina NP-ANT-F ; ! ""
 Natalya:Natalya NP-ANT-F ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
+Meryem:Meryem NP-ANT-F ; ! ""
 
 Nikolayev:Nikolayev NP-COG-OV ; ! ""
 Siyabendov:Siyabendov NP-COG-OV ; ! ""
@@ -7886,6 +7890,33 @@ kompensirle:kompensirle V-TV ; ! "компенсувати"
 
 aydınla:aydınla V-IV ; ! ""
 aydınlat:aydınlat V-TV ; ! "" ! Der/Caus
+
+yerleştir:yerleştir  V-TV ; ! "" Der/Caus
+sıqıştır:sıqıştır  V-TV ; ! "" Der/Caus
+teñeştir:teñeştir  V-TV ; ! "" Der/Caus
+sadeleştir:sadeleştir  V-TV ; ! "" Der/Caus
+çekiştir:çekiştir  V-TV ; ! "" Der/Caus
+yapıştır:yapıştır  V-TV ; ! "" Der/Caus
+qaviyleştir:qaviyleştir  V-TV ; ! "" Der/Caus
+qarıştır:qarıştır  V-TV ; ! "" Der/Caus
+milliyleştir:milliyleştir  V-TV ; ! "" Der/Caus
+zenginleştir:zenginleştir  V-TV ; ! "" Der/Caus
+yatıştır:yatıştır  V-TV ; ! "" Der/Caus
+mükemmelleştir:mükemmelleştir  V-TV ; ! "" Der/Caus
+devletleştir:devletleştir  V-TV ; ! "" Der/Caus
+
+tınçlandır:tınçlandır  V-TV ; ! "" Der/Caus
+adlandır:adlandır  V-TV ; ! "" Der/Caus
+aylandır:aylandır  V-TV ; ! "" Der/Caus
+silâsızlandır:silâsızlandır  V-TV ; ! "" Der/Caus
+
+söndür:söndür V-TV ; ! "" Der/Caus
+
+ögret:ögret V-TV ; ! ""
+
+inan:inan V-TV ; ! ""
+
+acı:acı V-IV ; ! ""
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 elâk% ol:elâk% ol V-IV ; ! ""
