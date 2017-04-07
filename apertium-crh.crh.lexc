@@ -940,6 +940,7 @@ krovat:krovat N1 ; ! "кроват"
 til:til N1 ; ! "язык"
 baş:baş N1 ; ! "голова, председатель"
 rayon:rayon N1 ; ! "район"
+zümre:zümre N1 ;
 devlet:devlet N1 ; ! "государство"
 imperiya:imperiya N1 ; ! "империя"
 dünya:dünya N1 ; ! "мир"
