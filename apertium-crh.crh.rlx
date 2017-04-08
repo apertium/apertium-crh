@@ -4,23 +4,23 @@ DELIMITERS = "<.>" ;
 SUBREADINGS = LTR ;
 
 # We can define sets for common tag clusters
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
 LIST Cop = cop;
 LIST Px3sp = px3sp;
 LIST Px1sg = px1sg;
 LIST NOMEN = n np;
 LIST Nom = nom;
 LIST V = vblex cop ;
+LIST Sg3 = (p3 sg) ;
 
 SECTION
-# If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE (n) OR (v) IF (1 (n s)) ;
 
-# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
-SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+# Remove zero copula if it is third person singular [MT]
+REMOVE SUB:1 Cop IF (0/* Sg3); 
 
 REMOVE SUB:1 Cop IF (0 Nom)(1 Px3sp);
+
 REMOVE Px1sg IF (1 Px3sp);
+
 SELECT Cop IF (NOT 0* V);
 
 # Resources:
