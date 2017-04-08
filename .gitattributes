@@ -25,6 +25,7 @@ tests/possessives.yaml -text
 tests/voicing.yaml -text
 texts/alfred_nobel.vislcg.txt -text
 texts/challenge.txt -text
+texts/challenge.vislcg.txt -text
 texts/crh-feats.tsv -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text

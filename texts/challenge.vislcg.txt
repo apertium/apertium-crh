@@ -1,0 +1,2044 @@
+"<Tamamen>"
+	"tamamen" adv @advmod
+"<halq>"
+	"halq" n nom
+"<Qırım>"
+	"Qırım" np top nom @nmod:poss
+"<Hanlığı>"
+	"hanlıq" n px3sp nom @nmod:poss
+"<devrinde>"
+	"devir" n px3sp loc @obl
+"<şekillendi>"
+	"şekillen" v iv ifi p3 sg @root
+"<.>"
+	"." sent @punct
+
+"<Qırımtatarlarnıñ>"
+	"qırımtatar" n pl gen
+"<memleketi>"
+	"memleket" n px3sp nom
+"<—>"
+	"—" guio
+"<Qırım>"
+	"Qırım" np top nom
+"<Hanlığı>"
+	"hanlıq" n px3sp nom
+"<1441>"
+	"1441" num
+"<senesinden>"
+	"sene" n px3sp abl
+"<1783>"
+	"1783" num
+"<senesine>"
+	"sene" n px3sp dat
+"<qadar>"
+	"qadar" post @case
+"<yaşadı>"
+	"yaşa" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Öz>"
+	"öz" prn ref
+"<tarihınıñ>"
+	"tarih" n px3sp gen
+"<ekseri>"
+	"ekseri" prn qnt px3sp nom
+"<devamında>"
+	"devam" n px3sp loc
+"<Qırım>"
+	"Qırım" np top nom
+"<hanlığı>"
+	"hanlıq" n px3sp nom
+"<Osmanlı>"
+	"Osmanlı" n nom
+"<Devletine>"
+	"devlet" n px3sp dat
+"<bağlı>"
+	"bağlı" adj
+"<olıp>"
+	"ol" v iv gna_perf
+"<onıñ>"
+	"o" prn dem gen
+"<ittifaqdaşı>"
+	"ittifaqdaş" n px3sp nom
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Qırımda>"
+	"Qırım" np top loc
+"<üküm>"
+	"üküm" n nom
+"<sürgen>"
+	"sür" v tv gpr_past
+"<sülâle>"
+	"sülâle" n nom
+"<Geraylar>"
+	"Geray" np cog mf pl nom
+"<sülâlesi>"
+	"sülâle" n px3sp nom
+"<edi>"
+	"e" cop ifi p3 sg
+"<,>"
+	"," cm @punct
+"<onıñ>"
+	"o" prn dem gen
+	"o" prn pers p3 sg gen
+"<temelcisi>"
+	"temelci" n px3sp nom
+"<ilk>"
+	"ilk" adj
+"<han>"
+	"han" n nom
+"<I>"
+	"I" num ord
+"<Hacı>"
+	"Hacı" np ant m nom
+"<Geray>"
+	"Geray" np cog mf nom
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Qırım>"
+	"Qırım" np top nom
+"<hanlığı>"
+	"hanlıq" n px3sp nom
+"<devri>"
+	"devir" n px3sp nom
+"<—>"
+	"—" guio
+"<qırımtatar>"
+	"qırımtatar" n nom
+"<medeniyeti>"
+	"medeniyet" n px3sp nom
+"<,>"
+	"," cm @punct
+"<sanatı>"
+	"sanat" n px3sp nom
+"<ve>"
+	"ve" cnjcoo @cc
+"<edebiyatı>"
+	"edebiyat" n px3sp nom
+"<inkişafınıñ>"
+	"inkişaf" n px3sp gen
+"<zamanı>"
+	"zaman" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent @punct
+
+"<O>"
+	"o" det dem
+"<devirdeki>"
+	"devir" n loc attr
+"<qırımtatar>"
+	"qırımtatar" n nom
+"<şiiriyetiniñ>"
+	"şiiriyet" n px3sp gen
+"<klassiki>"
+	"klassik" n px3sp nom
+"<—>"
+	"—" guio
+"<Aşıq>"
+	"aşıq" n attr
+"<Ümer>"
+	"Ümer" np ant m nom
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Diger>"
+	"diger" det ind
+"<şairlerden>"
+	"şair" n pl abl
+"<eñ>"
+	"eñ" adv
+"<ziyade>"
+	"ziyade" adj
+"<belli>"
+	"belli" adj
+"<olğanlar>"
+	"ol" v iv past p3 pl
+	"ol" v iv ger_past pl nom
+;	"ol" v iv ger_past nom
+;		"e" cop aor p3 pl REMOVE:21
+;	"ol" v iv ger_past pl nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Mahmud>"
+	"Mahmud" np ant m nom
+"<Qırımlı>"
+	"qırımlı" adj
+"<ve>"
+	"ve" cnjcoo @cc
+"<II>"
+	"II" num ord
+"<Ğazı>"
+	"ğazı" n nom
+"<Geray>"
+	"Geray" np cog mf nom
+"<han>"
+	"han" n nom
+"<ediler>"
+	"e" cop ifi p3 pl
+"<.>"
+	"." sent @punct
+
+"<O>"
+	"o" det dem
+"<zamandan>"
+	"zaman" n abl
+"<saqlanıp>"
+	"saqla" v tv pass prc_perf
+"<qalğan>"
+	"qal" vaux gpr_past
+"<mimarcılıq>"
+	"mimarcılıq" n nom
+"<abidelerinden>"
+	"abide" n pl px3sp abl
+"<eñ>"
+	"eñ" adv
+"<müimi>"
+	"müim" adj subst px3sp nom
+"<—>"
+	"—" guio
+"<Bağçasaraydaki>"
+	"Bağçasaray" np top loc attr
+"<Hansaraydır>"
+	"Hansaray" np top nom
+		"e" cop aor p3 frm sg
+"<.>"
+	"." sent @punct
+
+"<Qırım>"
+	"Qırım" np top nom
+"<Hanlığı>"
+	"hanlıq" n px3sp nom
+"<daima>"
+	"daima" adv
+"<Moskova>"
+	"Moskova" np top nom
+"<memleketi>"
+	"memleket" n px3sp nom
+"<ve>"
+	"ve" cnjcoo @cc
+"<Lehistan>"
+	"Lehistan" np top nom
+"<ile>"
+	"ile" post @case
+"<(>"
+	"(" lpar @punct
+"<XVIII>"
+	"XVIII" num ord
+"<asırğa>"
+	"asır" n dat
+"<qadar>"
+	"qadar" post @case
+"<ücüm>"
+	"ücüm" n nom
+	"ücüm" n attr
+"<etici>"
+	"*etici"
+"<cenkler>"
+	"cenk" n pl nom
+"<)>"
+	")" rpar @punct
+"<cenkleştı>"
+	"cenkleş" v iv ifi p3 sg
+"<,>"
+	"," cm @punct
+"<bunıñ>"
+	"bu" prn dem gen
+"<ile>"
+	"ile" post @case
+"<beraber>"
+	"beraber" adv
+"<barışıqlı>"
+	"barışıqlı" adj
+"<rus>"
+	"rus" n nom
+"<ve>"
+	"ve" cnjcoo @cc
+"<ukrain>"
+	"ukrain" n nom
+"<ealisinden>"
+	"eali" n px3sp abl
+"<çoq>"
+	"çoq" adv
+"<kişi>"
+	"kişi" n nom
+"<esir>"
+	"esir" n nom
+	"esir" n attr
+"<tüşer>"
+	"tüş" v iv gpr_fut
+	"tüş" v iv fut p3 sg
+"<ediler>"
+	"e" cop ifi p3 pl
+"<.>"
+	"." sent @punct
+
+"<Esir>"
+	"esir" n nom
+	"esir" n attr
+"<olaraq>"
+	"ol" v iv ger_pres nom
+	"ol" v iv gna_pres
+"<yaqalanğanlar>"
+	"yaqala" v tv pass past p3 pl
+	"yaqalan" v iv past p3 pl
+	"yaqala" v tv pass ger_past pl nom
+	"yaqalan" v iv ger_past pl nom
+;	"yaqala" v tv pass ger_past nom
+;		"e" cop aor p3 pl REMOVE:21
+;	"yaqalan" v iv ger_past nom
+;		"e" cop aor p3 pl REMOVE:21
+;	"yaqala" v tv pass ger_past pl nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"yaqalan" v iv ger_past pl nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Qırımdaki>"
+	"Qırım" np top loc attr
+"<esir>"
+	"esir" n nom
+	"esir" n attr
+"<çarşılarından>"
+	"çarşı" n pl px3sp abl
+"<Osmanlı>"
+	"Osmanlı" n nom
+	"Osmanlı" n attr
+"<Devletine>"
+	"devlet" n px3sp dat
+"<ve>"
+	"ve" cnjcoo @cc
+"<Yaqın>"
+	"yaqın" adj
+	"yaqın" adj subst nom
+"<Şarqqa>"
+	"şarq" n dat
+"<satılır>"
+	"sat" v tv pass gpr_fut
+	"sat" v tv pass fut p3 sg
+"<ediler>"
+	"e" cop ifi p3 pl
+"<,>"
+	"," cm @punct
+"<böyle>"
+	"böyle" adv
+"<çarşılardan>"
+	"çarşı" n pl abl
+"<eñ>"
+	"eñ" adv
+"<irisi>"
+	"iri" adj subst px3sp nom
+"<Kefede>"
+	"Kefe" np top loc
+"<bulundı>"
+	"bulun" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<1571>"
+	"1571" num
+"<senesi>"
+	"sene" n px3sp nom
+"<Qırım>"
+	"Qırım" np top nom
+"<40>"
+	"40" num
+"<biñlik>"
+	"biñlik" adj
+"<ordusı>"
+	"ordu" n px3sp nom
+"<I>"
+	"I" num ord
+"<Devlet>"
+	"devlet" n nom
+	"devlet" n attr
+"<Geray>"
+	"Geray" np cog mf nom
+;	"Geray" np cog mf nom
+;		"e" cop aor p3 sg REMOVE:21
+"<han>"
+	"han" n nom
+"<yolbaşçılığı>"
+	"yolbaşçılıq" n px3sp nom
+"<altında>"
+	"alt" n px3sp loc
+"<rus>"
+	"rus" n nom
+"<qalelerini>"
+	"qale" n pl px3sp acc
+"<dolanıp>"
+	"dolan" v tv gna_perf
+"<Moskvağa>"
+	"Moskva" np top dat
+"<yetip>"
+	"yet" v iv gna_perf
+"<onıñ>"
+	"o" prn dem gen
+	"o" prn pers p3 sg gen
+"<civarını>"
+	"civar" n px3sp acc
+"<yaqtı>"
+	"yaq" v tv ifi p3 sg
+"<,>"
+	"," cm @punct
+"<bundan>"
+	"bu" prn dem abl
+"<Kremlden>"
+	"Kreml" np top abl
+"<ğayrı>"
+	"ğayrı" post @case
+"<büs-bütün>"
+	"büs-bütün" adv
+"<şeer>"
+	"şeer" n nom
+"<yanıp>"
+	"yan" v iv prc_perf
+	"yan" v iv gna_perf
+"<kül>"
+	"kül" v iv imp p2 sg
+"<oldı>"
+	"ol" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Ancaq>"
+	"ancaq" cnjcoo @cc
+"<ertesi>"
+	"ertesi" adj
+"<sene>"
+	"sene" n nom
+"<Rusiye>"
+	"Rusiye" np top nom
+"<mustaqilliginden>"
+	"mustaqillik" n px3sp abl
+"<marum>"
+	"marum" adj
+"<etmek>"
+	"et" v tv ger nom
+"<niyeti>"
+	"niyet" n px3sp nom
+"<ile>"
+	"ile" post @case
+"<tekrar>"
+	"tekrar" adv
+	"tekrar" n nom
+	"tekrar" n attr
+"<kelgen>"
+	"kel" vaux ger_past nom
+	"kel" v iv ger_past nom
+	"kel" vaux past p3 sg
+	"kel" v iv past p3 sg
+	"kel" vaux gpr_past
+	"kel" v iv gpr_past
+;	"kel" vaux ger_past nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"kel" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:21
+"<120>"
+	"120" num
+"<biñlik>"
+	"biñlik" adj
+"<ordu>"
+	"ordu" n nom
+	"ordu" n attr
+"<Molodi>"
+	"Molodi" np top nom
+"<köyü>"
+	"köy" n px3sp nom
+"<yanındaki>"
+	"yan" n px3sp loc attr
+	"yan" n px3sp loc subst nom
+"<uruşında>"
+	"uruş" n px3sp loc
+"<mağlübiyetke>"
+	"mağlübiyet" n dat
+"<oğradı>"
+	"oğra" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Bu>"
+	"bu" det dem
+"<mağlübiyet>"
+	"mağlübiyet" n nom
+	"mağlübiyet" n attr
+"<hanlıqqa>"
+	"hanlıq" n dat
+"<ücümlerden>"
+	"ücüm" n pl abl
+"<vazgeçmekni>"
+	"vazgeç" v iv ger acc
+"<mecbur>"
+	"mecbur" adj
+"<etti>"
+	"et" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Lâkin>"
+	"lâkin" n nom
+	"lâkin" n attr
+;	"lâkin" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<formal>"
+	"formal" adj
+"<tarzda>"
+	"tarz" n loc
+"<Qırım>"
+	"Qırım" np top nom
+"<hanına>"
+	"han" n px3sp dat
+"<boysunğan>"
+	"boysun" v iv ger_past nom
+	"boysun" v iv past p3 sg
+	"boysun" v iv gpr_past
+;	"boysun" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:21
+"<,>"
+	"," cm @punct
+"<amma>"
+	"amma" cnjcoo @cc
+"<deyerlik>"
+	"deyerlik" adj
+"<mustaqil>"
+	"mustaqil" adj
+"<,>"
+	"," cm @punct
+"<Şimaliy>"
+	"şimaliy" adj
+"<Qara>"
+	"qara" adj
+"<deñiz>"
+	"deñiz" n nom
+"<yanında>"
+	"yan" n px3sp loc
+"<köçip>"
+	"köç" v iv prc_perf
+"<turğan>"
+	"tur" vaux gpr_past
+"<noğay>"
+	"noğay" n nom
+"<orduları>"
+	"ordu" n pl px3sp nom
+"<muntazam>"
+	"muntazam" adj
+"<tarzda>"
+	"tarz" n loc
+"<rus>"
+	"rus" n nom
+"<ve>"
+	"ve" cnjcoo @cc
+"<ukrain>"
+	"ukrain" n nom
+"<territoriyalarına>"
+	"territoriya" n pl px3sp dat
+"<esirler>"
+	"esir" n pl nom
+"<yaqalamaq>"
+	"yaqala" v tv ger nom
+"<ve>"
+	"ve" cnjcoo @cc
+"<çaypamaq>"
+	"çaypa" v tv ger nom
+"<içün>"
+	"içün" post @case
+	"iç" n px3sp nom
+"<arbiy>"
+	"arbiy" adj
+"<seferlerge>"
+	"sefer" n pl dat
+"<çıqar>"
+	"çıqar" v tv imp p2 sg
+"<ediler>"
+	"e" cop ifi p3 pl
+"<.>"
+	"." sent @punct
+
+"<Rusiye>"
+	"Rusiye" np top nom
+"<İmperiyasınıñ>"
+	"imperiya" n px3sp gen
+"<terkibinde>"
+	"terkip" n px3sp loc
+
+
+"<İsmail>"
+	"İsmail" np ant m nom
+"<Gasprinskiy>"
+	"Gasprinskiy" np cog m nom
+"<.>"
+	"." sent @punct
+
+"<1736>"
+	"1736" num
+"<senesi>"
+	"sene" n px3sp nom
+"<Rusiye>"
+	"Rusiye" np top nom
+"<orduları>"
+	"ordu" n pl px3sp nom
+"<feldmarşal>"
+	"feldmarşal" n attr
+"<Kristof>"
+	"Kristof" np ant m nom
+"<Minih>"
+	"Minih" np cog m nom
+"<yolbaşçılığı>"
+	"yolbaşçılıq" n px3sp nom
+"<altında>"
+	"alt" n px3sp loc
+"<Bağçasaraynı>"
+	"Bağçasaray" np top acc
+"<yaqıp>"
+	"yaq" v tv gna_perf
+"<Qırımnıñ>"
+	"Qırım" np top gen
+"<dağ>"
+	"dağ" n attr
+"<aldındaki>"
+	"ald" n px3sp loc attr
+"<yerlerini>"
+	"yer" n pl px3sp acc
+"<berbat>"
+	"berbat" adj
+"<ettiler>"
+	"et" v tv ifi p3 pl
+"<.>"
+	"." sent @punct
+
+"<1783>"
+	"1783" num
+"<senesi>"
+	"sene" n px3sp nom
+"<Rusiye>"
+	"Rusiye" np top nom
+"<Osmanlı>"
+	"Osmanlı" n nom
+"<Devletini>"
+	"devlet" n px3sp acc
+"<yeñgen>"
+	"yeñ" v tv ger_past nom
+"<soñ>"
+	"soñ" post @case
+"<Qırım>"
+	"Qırım" np top nom
+"<başta>"
+	"baş" n loc
+"<işğal>"
+	"işğal" n nom
+"<olundı>"
+	"ol" v iv pass ifi p3 sg
+"<,>"
+	"," cm @punct
+"<bundan>"
+	"bu" prn dem abl
+"<soñ>"
+	"soñ" post SELECT:28
+"<ise>"
+	"ise" cnjcoo @cc
+"<Rusiye>"
+	"Rusiye" np top nom
+"<tarafından>"
+	"taraf" n px3sp abl
+"<anneksirlendi>"
+	"anneksirle" v tv pass ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Bunıñ>"
+	"bu" prn dem gen
+"<ile>"
+	"ile" post @case
+"<qırımtatarlar>"
+	"qırımtatar" n pl nom
+"<tarihında>"
+	"tarih" n px3sp loc
+"<olar>"
+	"olar" prn pers p3 pl nom
+"<tarafından>"
+	"taraf" n px3sp abl
+"<“>"
+	"“" lquot
+"<Qara>"
+	"qara" adj
+"<asır>"
+	"asır" n nom
+"<”>"
+	"”" rquot
+"<denilgen>"
+	"denil" v iv gpr_past
+"<devir>"
+	"devir" n nom
+"<başlandı>"
+	"başla" v tv pass ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Rusiye>"
+	"Rusiye" np top nom
+"<memuriyeti>"
+	"memuriyet" n px3sp nom
+"<zulum>"
+	"zulum" n nom
+"<etkenleri>"
+	"et" v tv ger_past pl px3sp nom
+"<qırımtatarlar>"
+	"qırımtatar" n pl nom
+"<kütleviy>"
+	"kütleviy" adj
+"<tarzda>"
+	"tarz" n loc
+"<Osmanlı>"
+	"Osmanlı" n nom
+"<Devletine>"
+	"devlet" n px3sp dat
+"<(>"
+	"(" lpar @punct
+"<esasen>"
+	"esasen" adv
+"<Dobruca>"
+	"Dobruca" np top nom
+"<ve>"
+	"ve" cnjcoo @cc
+"<Anadoluğa>"
+	"Anadolu" np top dat
+"<)>"
+	")" rpar @punct
+"<icret>"
+	"icret" n nom
+"<etip>"
+	"et" v tv prc_perf
+"<başlağanlarınıñ>"
+	"başla" vaux ger_past pl px3sp gen
+"<sebebi>"
+	"sebep" n px3sp nom
+"<oldı>"
+	"ol" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<İcretniñ>"
+	"icret" n gen @nmod:poss #1->4
+"<eki>"
+	"eki" num @nummod #2->3
+"<esas>"
+	"esas" n nom @nmod:poss #3->4
+"<dalğası>"
+	"dalğa" n px3sp nom @nsubj #4->8
+"<1790>"
+	"1790" num @conj #5->7
+"<ve>"
+	"ve" cnjcoo @cc #6->7
+"<1850>"
+	"1850" num @amod #7->8
+"<seneleri>"
+	"sene" n pl px3sp nom @root #8->0
+"<edi>"
+	"e" cop ifi p3 sg @cop #9->8
+"<.>"
+	"." sent @punct #10->8
+
+"<Bazı>"
+	"bazı" det ind
+"<malümatlarğa>"
+	"malümat" n pl dat
+"<köre>"
+	"köre" post @case
+"<1790>"
+	"1790" num
+"<senesi>"
+	"sene" n px3sp nom
+"<icretçilerniñ>"
+	"icretçi" n pl gen
+"<sayısı>"
+	"sayı" n px3sp nom
+"<Qırımnıñ>"
+	"Qırım" np top gen
+"<qırımtatar>"
+	"qırımtatar" n nom
+"<ealisiniñ>"
+	"eali" n px3sp gen
+"<4>"
+	"4" num
+"</>"
+	"/" sym @punct
+"<5>"
+	"5" num
+"<qısmına>"
+	"qısım" n px3sp dat
+"<yetişti>"
+	"yet" v iv coop ifi p3 sg @root
+"<.>"
+	"." sent @punct
+
+"<İcretten>"
+	"icret" n abl
+"<evel>"
+	"evel" post @case
+"<yarımadada>"
+	"yarımada" n loc
+"<600>"
+	"600" num
+"<—>"
+	"—" guio
+"<700>"
+	"700" num
+"<biñge>"
+	"biñ" num subst dat
+"<yaqın>"
+	"yaqın" adj
+"<qırımtatar>"
+	"qırımtatar" n nom
+"<oturmaqta>"
+	"otur" v iv ger loc
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Hanlıqnıñ>"
+	"hanlıq" n gen
+"<ealisi>"
+	"eali" n px3sp nom
+"<ise>"
+	"ise" cnjcoo @cc
+"<1783>"
+	"1783" num
+"<senesine>"
+	"sene" n px3sp dat
+"<qadar>"
+	"qadar" post @case
+"<tahminen>"
+	"tahminen" adv
+"<1,5>"
+	"1,5" num
+"<million>"
+	"million" n nom
+"<kişiden>"
+	"kişi" n abl
+"<ibaret>"
+	"ibaret" adj
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<1850>"
+	"1850" num
+"<seneleri>"
+	"sene" n pl px3sp nom
+"<Qırımdan>"
+	"Qırım" np top abl
+"<300>"
+	"300" num
+"<biñge>"
+	"biñ" num subst dat
+"<yaqın>"
+	"yaqın" adj
+"<qırımtatar>"
+	"qırımtatar" n nom
+"<kettiler>"
+	"ket" v iv ifi p3 pl
+"<.>"
+	"." sent @punct
+
+"<Olarnıñ>"
+	"olar" prn pers p3 pl gen @nmod:poss #1->2
+"<balalarından>"
+	"bala" n pl px3sp abl @obl #2->11
+"<şimdi>"
+	"şimdi" adv @advmod #3->11
+"<Türkiyedeki>"
+	"Türkiye" np top loc attr @conj #4->8
+"<,>"
+	"," cm @punct #5->6
+"<Bulğaristandaki>"
+	"Bulğaristan" np top loc attr @conj #6->8
+"<ve>"
+	"ve" cnjcoo @cc #7->8
+"<Romaniyadaki>"
+	"Romaniya" np top loc attr @amod #8->9
+"<qırımtatar>"
+	"qırımtatar" n nom @nmod:poss #9->10
+"<diasporası>"
+	"diaspora" n px3sp nom @nsubj #10->11
+"<ibaret>"
+	"ibaret" adj @root #11->0
+		"e" cop aor p3 sg @cop #12->11
+"<.>"
+	"." sent @punct #13->11
+
+"<Neticesinde>"
+	"netice" n px3sp loc
+"<köy>"
+	"köy" n nom
+"<hocalığı>"
+	"hocalıq" n px3sp nom
+"<tüşkün>"
+	"tüşkün" adj
+"<alğa>"
+	"al" n dat
+"<oğradı>"
+	"oğra" v iv ifi p3 sg
+"<,>"
+	"," cm @punct
+"<Qırımnıñ>"
+	"Qırım" np top gen
+"<çölü>"
+	"çöl" n px3sp nom
+"<ise>"
+	"ise" cnjcoo @cc
+"<deyerli>"
+	"deyerli" adj
+"<taqır>"
+	"taqır" adj
+"<oldı>"
+	"ol" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<O>"
+	"o" det dem
+"<zamanda>"
+	"zaman" n loc
+"<Qırımdan>"
+	"Qırım" np top abl
+"<qırımtatar>"
+	"qırımtatar" n nom
+"<asılzadeleriniñ>"
+	"asılzade" n pl px3sp gen
+"<çoqusı>"
+	"çoqusı" n nom
+"<ketti>"
+	"ket" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Bunıñ>"
+	"bu" prn dem gen
+"<ile>"
+	"ile" post @case
+"<beraber>"
+	"beraber" adv
+"<Rusiye>"
+	"Rusiye" np top nom
+"<ükümeti>"
+	"ükümet" n px3sp nom
+"<metropoliya>"
+	"metropoliya" n nom
+"<territoriyasından>"
+	"territoriya" n px3sp abl
+"<icretçilerni>"
+	"icretçi" n pl acc
+"<celp etmeknen>"
+	"celp et" v tv ger ins
+"<Qırımnı>"
+	"Qırım" np top acc
+"<müstemleke>"
+	"müstemleke" n nom
+"<ete>"
+	"et" v tv aor p3 sg
+	"et" v tv prc_impf
+"<bermekte>"
+	"ber" vaux ger loc
+	"ber" v tv ger loc
+	"ber" vaux prog p3 sg
+	"ber" v tv prog p3 sg
+;	"ber" vaux ger loc
+;		"e" cop aor p3 sg REMOVE:21
+;	"ber" v tv ger loc
+;		"e" cop aor p3 sg REMOVE:21
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Neticesinde>"
+	"netice" n px3sp loc
+	"netice" n px3sp nom
+		"da" postadv
+;	"netice" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:21
+"<Rusiye>"
+	"Rusiye" np top nom
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Qırımnı>"
+	"qır" n px1sg acc
+	"Qırım" np top acc
+"<anneksirlegen>"
+	"anneksirle" v tv ger_past nom
+	"anneksirle" v tv past p3 sg
+	"anneksirle" v tv gpr_past
+;	"anneksirle" v tv ger_past nom
+;		"e" cop aor p3 sg REMOVE:21
+"<vaqıtta>"
+	"vaqıt" n loc
+;	"vaqıt" n loc
+;		"e" cop aor p3 sg REMOVE:21
+"<anda>"
+	"an" n loc
+	"anda" adv
+	"an" n nom
+		"da" postadv
+;	"an" n nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"an" n loc
+;		"e" cop aor p3 sg REMOVE:21
+"<oturğan>"
+	"otur" vaux ger_past nom
+	"otur" v iv ger_past nom
+	"otur" vaux past p3 sg
+	"otur" v iv past p3 sg
+	"otur" vaux gpr_past
+	"otur" v iv gpr_past
+;	"otur" vaux ger_past nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"otur" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:21
+"<bir>"
+	"bir" num
+	"bir" det ind
+	"bir" num subst nom
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:21
+"<million>"
+	"million" n nom
+	"million" n attr
+;	"million" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<qırımtatardan>"
+	"qırımtatar" n abl
+;	"qırımtatar" n abl
+;		"e" cop aor p3 sg REMOVE:21
+"<XIX>"
+	"XIX" num ord
+"<asır>"
+	"asır" n nom
+	"asır" n attr
+;	"asır" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<soñunda>"
+	"soñ" n px3sp loc
+	"soñ" n px3sp nom
+		"da" postadv
+;	"soñ" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"soñ" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:21
+"<200>"
+	"200" num
+	"200" num subst nom
+"<biñden>"
+	"biñ" num subst abl
+;	"biñ" num subst abl
+;		"e" cop aor p3 sg REMOVE:21
+"<az>"
+	"az" adj
+	"az" adv
+	"az" prn ind nom
+;	"az" adj
+;		"e" cop aor p3 sg REMOVE:21
+;	"az" prn ind nom
+;		"e" cop aor p3 sg REMOVE:21
+"<qaldı>"
+	"qal" vaux ifi p3 sg
+	"qal" v iv ifi p3 sg
+"<(>"
+	"(" lpar @punct
+"<Qırım>"
+	"Qırım" np top nom
+	"qır" n px1sg nom
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:21
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<bütün>"
+	"bütün" det ind
+"<ealisiniñ>"
+	"eali" n px3sp gen
+"<25>"
+	"25" num
+	"25" num subst nom
+"<faizidir>"
+	"faiz" n px3sp nom
+		"e" cop aor p3 frm sg
+	"faiz" n px3sp nom
+		"e" cop aor p3 frm pl
+	"faiz" n px3sp nom
+		"e" cop pres p3 frm sg
+"<)>"
+	")" rpar @punct
+"<..>"
+	".." sent @punct
+
+
+"<Qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<medeniyetiniñ>"
+	"medeniyet" n px3sp gen
+"<yañıdan>"
+	"yañıdan" adv
+"<yaratıluvı>"
+	"yarat" v tv pass ger_abst px3sp nom
+;	"yarat" v tv pass ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ulu>"
+	"ulu" adj
+;	"ulu" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<maarifçi>"
+	"maarifçi" n nom
+	"maarifçi" n attr
+;	"maarifçi" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<İsmail>"
+	"İsmail" np ant m nom
+;	"İsmail" np ant m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Gasprinskiy>"
+	"Gasprinskiy" np cog m nom
+;	"Gasprinskiy" np cog m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<adınen>"
+	"ad" n px3sp ins
+	"at²" n px3sp ins
+;	"ad" n px3sp ins
+;		"e" cop aor p3 sg REMOVE:21
+;	"at²" n px3sp ins
+;		"e" cop aor p3 sg REMOVE:21
+"<bağlı>"
+	"bağlı" adj
+;	"bağlı" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<.>"
+	"." sent @punct
+
+"<Aslında>"
+	"aslında" adv
+"<o>"
+	"o" det dem
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+"<yañı>"
+	"yañı" adj
+;	"yañı" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<edebiy>"
+	"edebiy" adj
+;	"edebiy" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<tilini>"
+	"til" n px3sp acc
+"<yarattı>"
+	"yarat" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Gasprinskiy>"
+	"Gasprinskiy" np cog m nom
+;	"Gasprinskiy" np cog m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<“>"
+	"“" lquot
+"<Terciman>"
+	"Terciman" np al nom
+;	"Terciman" np al nom
+;		"e" cop aor p3 sg REMOVE:21
+"<”>"
+	"”" rquot
+"<adlı>"
+	"adlı" adj
+;	"adlı" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<ilk>"
+	"ilk" adj
+;	"ilk" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<gazetasını>"
+	"gazeta" n px3sp acc
+"<neşir>"
+	"neşir" n nom
+	"neşir" n attr
+;	"neşir" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<etip>"
+	"et" v tv prc_perf
+	"et" v tv gna_perf
+"<başladı>"
+	"başla" vaux ifi p3 sg
+	"başla" v tv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Gasprinskiy>"
+	"Gasprinskiy" np cog m nom
+;	"Gasprinskiy" np cog m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<pantürkizm>"
+	"pantürkizm" n nom
+	"pantürkizm" n attr
+;	"pantürkizm" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<mefküresiniñ>"
+	"mefküre" n px3sp gen
+"<temelcilerinden>"
+	"temelci" n pl px3sp abl
+;	"temelci" n pl px3sp abl
+;		"e" cop aor p3 sg REMOVE:21
+"<biri>"
+	"bir" num subst px3sp nom
+;	"bir" num subst px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<olaraq>"
+	"ol" v iv ger_pres nom
+	"ol" v iv gna_pres
+;	"ol" v iv ger_pres nom
+;		"e" cop aor p3 sg REMOVE:21
+"<sayıla>"
+	"say" v tv pass aor p3 sg
+	"say" v tv pass prc_impf
+"<.>"
+	"." sent @punct
+
+
+
+"<Vatandaşlıq>"
+	"vatandaşlıq" n nom
+	"vatandaşlıq" n attr
+;	"vatandaşlıq" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<cenki>"
+	"cenk" n px3sp nom
+;	"cenk" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ve>"
+	"ve" cnjcoo @cc
+"<Qırım>"
+	"Qırım" np top nom
+	"qır" n px1sg nom
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:21
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<MŞSC>"
+	"MŞSC" np al nom
+;	"MŞSC" np al nom
+;		"e" cop aor p3 sg REMOVE:21
+"<.>"
+	"." sent @punct
+
+
+
+"<1939>"
+	"1939" num
+	"1939" num subst nom
+"<s.>"
+	"s." abbr
+"<cedvelge>"
+	"cedvel" n dat
+"<aluv>"
+	"al" vaux ger_abst nom
+	"al" v tv ger_abst nom
+	"aluv" n nom
+	"aluv" n attr
+;	"al" vaux ger_abst nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"al" v tv ger_abst nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"aluv" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<malümatına>"
+	"malümat" n px3sp dat
+"<köre>"
+	"köre" post @case
+	"kör" v tv aor p3 sg
+	"kör" v tv prc_impf
+"<Qırım>"
+	"Qırım" np top nom
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:21
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"qır" n px1sg nom REMOVE:25
+"<regionları>"
+	"region" n pl px3sp nom
+;	"region" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ealisinde>"
+	"eali" n px3sp loc
+	"eali" n px3sp nom
+		"da" postadv
+;	"eali" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"eali" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:21
+"<Qırımtatarlarnıñ>"
+	"qırımtatar" n pl gen
+"<faizi>"
+	"faiz" n px3sp nom
+;	"faiz" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<.>"
+	"." sent @punct
+
+
+
+"<1917>"
+	"1917" num
+	"1917" num subst nom
+"<senesi>"
+	"sene" n px3sp nom
+;	"sene" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<mart>"
+	"mart" n nom
+	"mart" n attr
+;	"mart" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<25-de>"
+	"25" num subst loc
+;	"25" num subst loc
+;		"e" cop aor p3 sg REMOVE:21
+"<Aqmescitte>"
+	"Aqmescit" np top loc
+;	"Aqmescit" np top loc
+;		"e" cop aor p3 sg REMOVE:21
+"<qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<qurultayı>"
+	"qurultay" n px3sp nom
+;	"qurultay" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ötkerildi>"
+	"ötker" v tv pass ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Anda>"
+	"an" n loc
+	"anda" adv
+	"an" n nom
+		"da" postadv
+;	"an" n nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"an" n loc
+;		"e" cop aor p3 sg REMOVE:21
+"<2000-den>"
+	"2000" num subst abl
+;	"2000" num subst abl
+;		"e" cop aor p3 sg REMOVE:21
+"<ziyade>"
+	"ziyade" adj
+;	"ziyade" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<delegat>"
+	"delegat" n nom
+	"delegat" n attr
+;	"delegat" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<keldi>"
+	"kel" vaux ifi p3 sg
+	"kel" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Qurultay>"
+	"qurultay" n nom
+	"qurultay" n attr
+	"Qurultay" np al nom
+;	"qurultay" n nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qurultay" np al nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Muvaqqat>"
+	"muvaqqat" adj
+;	"muvaqqat" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<Qırım>"
+	"Qırım" np top nom
+	"qır" n px1sg nom
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:21
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Musulman>"
+	"musulman" n nom
+	"musulman" n attr
+;	"musulman" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<İcra>"
+	"icra" n nom
+	"icra" n attr
+;	"icra" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Komitetini>"
+	"komitet" n px3sp acc
+"<(>"
+	"(" lpar @punct
+"<MQMİK>"
+	"MQMİK" np al nom
+;	"MQMİK" np al nom
+;		"e" cop aor p3 sg REMOVE:21
+"<)>"
+	")" rpar @punct
+"<sayladı>"
+	"sayla" v tv ifi p3 sg
+"<,>"
+	"," cm @punct
+"<Başı>"
+	"baş" n px3sp nom
+;	"baş" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<olaraq>"
+	"ol" v iv ger_pres nom
+	"ol" v iv gna_pres
+;	"ol" v iv ger_pres nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Noman>"
+	"Noman" np ant m nom
+;	"Noman" np ant m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Çelebicihan>"
+	"Çelebicihan" np cog m nom
+;	"Çelebicihan" np cog m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<saylandı>"
+	"sayla" v tv pass ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Bunıñ>"
+	"bu" prn dem gen
+"<ile>"
+	"ile" post @case
+"<qırımtatarlarnıñ>"
+	"qırımtatar" n pl gen
+"<medeniy>"
+	"medeniy" adj
+;	"medeniy" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<->"
+	"-" guio
+"<milliy>"
+	"milliy" adj
+;	"milliy" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<muhtariyetiniñ>"
+	"muhtariyet" n px3sp gen
+"<quruluvı>"
+	"qur" v tv pass ger_abst px3sp nom
+;	"qur" v tv pass ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<başlandı>"
+	"başla" vaux pass ifi p3 sg
+	"başla" v tv pass ifi p3 sg
+"<..>"
+	".." sent @punct
+
+
+"<Rusiye>"
+	"Rusiye" np top nom
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Vatandaşlıq>"
+	"vatandaşlıq" n nom
+	"vatandaşlıq" n attr
+;	"vatandaşlıq" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<cenki>"
+	"cenk" n px3sp nom
+;	"cenk" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<qırımtatarlar>"
+	"qırımtatar" n pl nom
+;	"qırımtatar" n nom
+;		"e" cop aor p3 pl REMOVE:21
+;	"qırımtatar" n pl nom
+;		"e" cop aor p3 sg REMOVE:21
+"<içün>"
+	"içün" post @case
+	"iç" n px3sp nom
+	"iç" v tv pass imp p2 sg
+;	"iç" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ağır>"
+	"ağır" v iv imp p2 sg
+"<müsibet>"
+	"müsibet" n nom
+	"müsibet" n attr
+;	"müsibet" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<oldı>"
+	"ol" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<1917>"
+	"1917" num
+	"1917" num subst nom
+"<senesindeki>"
+	"sene" n px3sp loc attr
+	"sene" n px3sp loc subst nom
+;	"sene" n px3sp loc subst nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Fevral>"
+	"fevral" n nom
+	"fevral" n attr
+;	"fevral" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<inqilâbından>"
+	"inqilâp" n px3sp abl
+;	"inqilâp" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:21
+"<soñ>"
+	"soñ" post SELECT:28
+;	"soñ" n nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"soñ" n nom SELECT:28
+;	"soñ" n attr SELECT:28
+"<qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<halqınıñ>"
+	"halq" n px3sp gen
+"<ilk>"
+	"ilk" adj
+;	"ilk" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<Qurultay>"
+	"qurultay" n nom
+	"qurultay" n attr
+	"Qurultay" np al nom
+;	"qurultay" n nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qurultay" np al nom
+;		"e" cop aor p3 sg REMOVE:21
+"<toplanğanınen>"
+	"topla" v tv pass ger_past px3sp ins
+;	"topla" v tv pass ger_past px3sp ins
+;		"e" cop aor p3 sg REMOVE:21
+"<Qırımnı>"
+	"qır" n px1sg acc
+	"Qırım" np top acc
+"<çoq>"
+	"çoq" adv
+"<milletli>"
+	"milletli" adj
+;	"milletli" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<mustaqil>"
+	"mustaqil" adj
+;	"mustaqil" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<bir>"
+	"bir" num
+	"bir" det ind
+	"bir" num subst nom
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:21
+"<devlet>"
+	"devlet" n nom
+	"devlet" n attr
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<etmege>"
+	"et" v tv ger dat
+"<qarar>"
+	"qarar" n nom
+	"qarar" n attr
+;	"qarar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<çıqarıldı>"
+	"çıqar" v tv pass ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<İlk>"
+	"ilk" adj
+;	"ilk" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<Qurultaynıñ>"
+	"qurultay" n gen
+	"Qurultay" np al gen
+"<reisi>"
+	"reis" n px3sp nom
+;	"reis" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Noman>"
+	"Noman" np ant m nom
+;	"Noman" np ant m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Çelebicihannıñ>"
+	"Çelebicihan" np cog m gen
+"<şiarı>"
+	"şiar" n px3sp nom
+;	"şiar" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<böyle>"
+	"böyle" adv
+"<edi>"
+	"e" cop ifi p3 sg
+"<–>"
+	"–" guio
+"<“>"
+	"“" lquot
+"<Qırım>"
+	"Qırım" np top nom
+	"qır" n px1sg nom
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:21
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<–>"
+	"–" guio
+"<qırımlılar>"
+	"qırımlı" adj subst pl nom
+;	"qırımlı" adj
+;		"e" cop aor p3 pl REMOVE:21
+;	"qırımlı" adj subst nom
+;		"e" cop aor p3 pl REMOVE:21
+;	"qırımlı" adj subst pl nom
+;		"e" cop aor p3 sg REMOVE:21
+"<içün>"
+	"içün" post @case
+	"iç" n px3sp nom
+	"iç" v tv pass imp p2 sg
+;	"iç" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<”>"
+	"”" rquot
+"<(>"
+	"(" lpar @punct
+"<yani>"
+	"yan" n px3sp nom
+;	"yan" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<milletke>"
+	"millet" n dat
+"<baqmadan>"
+	"baq" v tv ger abl
+;	"baq" v tv ger abl
+;		"e" cop aor p3 sg REMOVE:21
+"<bütün>"
+	"bütün" det ind
+"<yarımadanıñ>"
+	"yarımada" n gen
+"<ealisi>"
+	"eali" n px3sp nom
+;	"eali" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<közde>"
+	"köz" n loc
+	"köz" n nom
+		"da" postadv
+;	"köz" n nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"köz" n loc
+;		"e" cop aor p3 sg REMOVE:21
+"<tutula>"
+	"tut" v iv pass aor p3 sg
+	"tut" v iv pass prc_impf
+"<)>"
+	")" rpar @punct
+"<.>"
+	"." sent @punct
+
+"<Amma>"
+	"amma" cnjcoo @cc
+"<1918>"
+	"1918" num
+"<senesi>"
+	"sene" n px3sp nom
+"<Çelebicihan>"
+	"Çelebicihan" np cog m nom
+"<yaqalanıp>"
+	"yaqala" v tv pass gna_perf
+"<bolşevikler>"
+	"bolşevik" n pl nom
+"<tarafından>"
+	"taraf" n px3sp abl
+"<qatil>"
+	"qatil" n nom
+"<etildi>"
+	"et" v tv pass ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<1921>"
+	"1921" num
+	"1921" num subst nom
+"<—>"
+	"—" guio
+"<1922>"
+	"1922" num
+	"1922" num subst nom
+"<seneleri>"
+	"sene" n pl px3sp nom
+;	"sene" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<arasındaki>"
+	"ara" n px3sp loc attr
+	"ara" n px3sp loc subst nom
+;	"ara" n px3sp loc subst nom
+;		"e" cop aor p3 sg REMOVE:21
+"<açlıq>"
+	"açlıq" n nom
+	"açlıq" n attr
+;	"açlıq" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<neticesinde>"
+	"netice" n px3sp loc
+	"netice" n px3sp nom
+		"da" postadv
+;	"netice" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:21
+"<15 %-ge>"
+	"15" num percent subst dat
+"<yaqın>"
+	"yaqın" adj
+	"yaqın" adj subst nom
+	"yaq" v tv pass imp p2 sg
+;	"yaqın" adj
+;		"e" cop aor p3 sg REMOVE:21
+;	"yaqın" adj subst nom
+;		"e" cop aor p3 sg REMOVE:21
+"<qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<elâk oldı>"
+	"elâk ol" v iv ifi p3 sg
+"<..>"
+	".." sent @punct
+
+
+"<1921>"
+	"1921" num
+	"1921" num subst nom
+"<senesi>"
+	"sene" n px3sp nom
+;	"sene" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Rusiye>"
+	"Rusiye" np top nom
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Şuralar>"
+	"şura" n pl nom
+;	"şura" n nom
+;		"e" cop aor p3 pl REMOVE:21
+;	"şura" n pl nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Federativ>"
+	"federativ" adj
+;	"federativ" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<Sotsialistik>"
+	"sotsialistik" adj
+;	"sotsialistik" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<Cumhuriyeti>"
+	"cumhuriyet" n px3sp nom
+;	"cumhuriyet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<terkibinde>"
+	"terkip" n px3sp loc
+	"terkip" n px3sp nom
+		"da" postadv
+;	"terkip" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+;			"da" postadv
+;	"terkip" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:21
+"<Qırım>"
+	"Qırım" np top nom
+	"qır" n px1sg nom
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:21
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:21
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Muhtar>"
+	"muhtar" adj
+	"muhtar" n nom
+	"muhtar" n attr
+;	"muhtar" adj
+;		"e" cop aor p3 sg REMOVE:21
+;	"muhtar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Şuralar>"
+	"şura" n pl nom
+;	"şura" n nom
+;		"e" cop aor p3 pl REMOVE:21
+;	"şura" n pl nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Sotsialistik>"
+	"sotsialistik" adj
+;	"sotsialistik" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<Cumhuriyeti>"
+	"cumhuriyet" n px3sp nom
+;	"cumhuriyet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<meydanğa>"
+	"meydan" n dat
+"<keldi>"
+	"kel" vaux ifi p3 sg
+	"kel" v iv ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Onıñ>"
+	"o" prn dem gen
+	"on" num subst px2sg nom
+	"o" prn pers p3 sg gen
+;	"on" num subst px2sg nom
+;		"e" cop aor p3 sg REMOVE:21
+"<memleket>"
+	"memleket" n nom
+	"memleket" n attr
+;	"memleket" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<tilleri>"
+	"til" n pl px3sp nom
+;	"til" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<rus>"
+	"rus" n nom
+	"rus" n attr
+;	"rus" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ve>"
+	"ve" cnjcoo @cc
+"<qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<tilleri>"
+	"til" n pl px3sp nom
+;	"til" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ediler>"
+	"e" cop ifi p3 pl
+"<,>"
+	"," cm @punct
+"<aliy>"
+	"aliy" n nom
+	"aliy" n attr
+;	"aliy" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<başlıqları>"
+	"başlıq" n pl px3sp nom
+;	"başlıq" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<esasen>"
+	"esasen" adv
+"<qırımtatarlardan>"
+	"qırımtatar" n pl abl
+;	"qırımtatar" n pl abl
+;		"e" cop aor p3 sg REMOVE:21
+"<ibaret>"
+	"ibaret" adj
+;	"ibaret" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<edi>"
+	"e" cop ifi p3 sg
+"<.>"
+	"." sent @punct
+
+"<Lâkin>"
+	"lâkin" n nom
+	"lâkin" n attr
+;	"lâkin" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<soñ>"
+	"soñ" post @case
+	"soñ" n nom
+	"soñ" n attr
+;	"soñ" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<1937>"
+	"1937" num
+	"1937" num subst nom
+"<senesi>"
+	"sene" n px3sp nom
+;	"sene" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Stalin>"
+	"Stalin" np cog m nom
+;	"Stalin" np cog m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<repressiyaları>"
+	"repressiya" n pl px3sp nom
+;	"repressiya" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<başlandılar>"
+	"başla" vaux pass ifi p3 pl
+	"başla" v tv pass ifi p3 pl
+"<.>"
+	"." sent @punct
+
+"<Qırımtatar>"
+	"qırımtatar" n nom
+	"qırımtatar" n attr
+;	"qırımtatar" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<müneverleriniñ>"
+	"münever" n pl px3sp gen
+	"müneverler" n px3sp gen
+"<çoqusı>"
+	"çoqusı" n nom
+	"çoqusı" n attr
+;	"çoqusı" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<repressiyalarğa>"
+	"repressiya" n pl dat
+"<oğratıldı>"
+	"oğrat" v tv pass ifi p3 sg
+"<,>"
+	"," cm @punct
+"<bu>"
+	"bu" det dem
+	"bu" prn dem nom
+"<cümleden>"
+	"cümle" n abl
+;	"cümle" n abl
+;		"e" cop aor p3 sg REMOVE:21
+"<belli>"
+	"belli" adj
+;	"belli" adj
+;		"e" cop aor p3 sg REMOVE:21
+"<siyasetçi>"
+	"siyasetçi" n nom
+	"siyasetçi" n attr
+;	"siyasetçi" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Veli>"
+	"Veli" np ant m nom
+;	"Veli" np ant m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<İbraimov>"
+	"İbraimov" np cog m nom
+;	"İbraimov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ve>"
+	"ve" cnjcoo @cc
+"<alim>"
+	"al" n px1sg nom
+;	"al" n nom
+;		"e" cop aor p1 sg REMOVE:21
+;	"al" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Bekir>"
+	"Bekir" np ant m nom
+;	"Bekir" np ant m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<Çoban-zade>"
+	"Çobanzade" np cog m nom
+;	"Çobanzade" np cog m nom
+;		"e" cop aor p3 sg REMOVE:21
+"<.>"
+	"." sent @punct
+
+"<1939>"
+	"1939" num
+	"1939" num subst nom
+"<senesindeki>"
+	"sene" n px3sp loc attr
+	"sene" n px3sp loc subst nom
+;	"sene" n px3sp loc subst nom
+;		"e" cop aor p3 sg REMOVE:21
+"<cedvelge>"
+	"cedvel" n dat
+"<aluvnıñ>"
+	"al" vaux ger_abst gen
+	"al" v tv ger_abst gen
+	"aluv" n gen
+"<malümatına>"
+	"malümat" n px3sp dat
+"<köre>"
+	"köre" post @case
+"<Qırımdaki>"
+	"Qırım" np top loc attr
+"<qırımtatarlarnıñ>"
+	"qırımtatar" n pl gen
+"<sayısı>"
+	"sayı" n px3sp nom
+"<218179>"
+	"218179" num
+	"218179" num subst nom
+"<kişi>"
+	"kişi" n nom
+"<edi>"
+	"e" cop ifi p3 sg
+"<,>"
+	"," cm @punct
+"<yani>"
+	"yan" n px3sp nom
+;	"yan" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:21
+"<yarımadanıñ>"
+	"yarımada" n gen
+"<cümle>"
+	"cümle" det ind
+	"cümle" n nom
+	"cümle" n attr
+;	"cümle" n nom
+;		"e" cop aor p3 sg REMOVE:21
+"<ealisiniñ>"
+	"eali" n px3sp gen
+"<19,4 %>"
+	"19,4" num percent subst nom
+"<.>"
+	"." sent @punct
+
