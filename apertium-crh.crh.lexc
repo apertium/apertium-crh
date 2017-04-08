@@ -1124,6 +1124,7 @@ tekrar:tekrar N1 ; ! "repetition"
 baş:baş N1 ; ! "голова, председатель"
 rayon:rayon N1 ; ! "район"
 zümre:zümre N1 ;
+kül:kül N1 ; ! "ash"
 icra:icra N1 ; ! ""
 devlet:devlet N1 ; ! "государство"
 imperiya:imperiya N1 ; ! "империя"
