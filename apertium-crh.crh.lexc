@@ -87,6 +87,7 @@ Multichar_Symbols
 %<ref%>
 %<itg%>
 %<ind%>
+%<ord%>
 
 %<top%>           ! Toponym
 
@@ -329,10 +330,10 @@ LEXICON NUM
 %<num%>%<ord%>:%>%{i%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
-LEXICON NUM-ORD
-
-%<num%>%<ord%>: # ;
-%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} FULL-NOMINAL-INFLECTION ;
+!LEXICON NUM-ORD
+!
+!%<num%>%<ord%>: # ;
+!%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} FULL-NOMINAL-INFLECTION ;
 
 LEXICON NUM-COLL
 
@@ -854,8 +855,6 @@ angi:angi DET-INTERR ; ! ""
 
 
 LEXICON Numerals 
-
-ilk:ilk NUM-ORD ; ! ""
 
 bir:bir NUM ; ! "один"
 eki:eki  NUM ; ! ""
@@ -6666,6 +6665,9 @@ mümkün:mümkün A2 ; ! "possible/возможно"
 kerek:kerek A2 ; ! "necessary/должно"
 borçlu:borçlu A2 ; ! ""
 lâzim:lâzim A2 ; ! "нужен"
+
+!ilk:ilk NUM-ORD ; ! ""
+ilk:ilk A1 ; ! "первый"
 
 sabıq:sabıq A1 ; ! ""
 kök:kök A1 ; ! "синый"
