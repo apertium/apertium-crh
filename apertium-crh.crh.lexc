@@ -99,6 +99,8 @@ Multichar_Symbols
 %<al%>
 %<top%>           ! Toponym
 
+%<percent%>
+
 %<sent%>          ! Sentence marker
 %<guio%>          ! Hyphen
 %<cm%>            ! Comma
@@ -123,9 +125,19 @@ Multichar_Symbols
 %{j%}             !
 %{n%}             !
 
+%{e%}
+%{ö%}
+%{o%}
+%{ı%}
+%{b%}
+%{p%}
+
 %{☭%}
 %{ъ%}             ! force back-vowel harmony
 %{ь%}             ! force front-vowel harmony
+
+%-
+%% 
  
 %>                !
 %+
@@ -149,10 +161,131 @@ Interjections ;
 Verbs ;
 Punctuation ;
 Abbreviations ;
+Digits ;
 !Temp ;
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!
+!!!!                            N U M E R A L S 
+!!!!
+!!!! WARNING: This section should not be modified without consultation. 
+!!!!          Test cases are in dev/numerals.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON SQRD
+! This lexicon includes common ways of writing squared, cubed etc.
+
+²%<num%>:2 # ;  ! Dir/LR
+³%<num%>:3 # ;  ! Dir/LR
+²%<num%>:² # ;
+³%<num%>:³ # ;
+%<num%>: # ;
+
+LEXICON NUM-DIGIT
+
+%<num%>: # ;
+%<num%>%<subst%>%<nom%>: # ;
+%<num%>%<subst%>:%- SUBST-NONOM ;
+%<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
+
+%<num%>%<ord%>:%-%{i%}nc%{I%} # ;
+%<num%>%<ord%>%<subst%>%<nom%>:%-%{I%}nc%{I%} # ;
+%<num%>%<ord%>%<subst%>:%-%{I%}nc%{i%} SUBST-NONOM ;
+
+%<num%>%<abstr%>:%-l%{I%}k # ;
+
+!%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
+!%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
+!%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
+
+%<num%>%<percent%>:%% # ;
+%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
+%<num%>%<percent%>%<subst%>%<nom%>:% %% # ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{e%}%{p%}%- SUBST-NONOM ;
+%<num%>%<percent%>%<subst%>:% %%%{e%}%{p%}%- SUBST-NONOM ; ! Dir/LR
+
+
+!°С%<num%>:°С # ;
+!°С%<num%>%<subst%>%<nom%>:°С # ;
+!°С%<num%>%<subst%>:°С%{а%}%{с%}%- SUBST-NONOM ;
+!°С%<num%>%<subst%>:°С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>:ºС # ; ! Dir/LR
+!°С%<num%>%<subst%>%<nom%>:ºС # ; ! Dir/LR
+!°С%<num%>%<subst%>:ºС%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>%<subst%>:ºС%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>:С # ; ! Dir/LR
+!°С%<num%>%<subst%>%<nom%>:С # ; ! Dir/LR
+!°С%<num%>%<subst%>:С%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>%<subst%>:С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+
+! Measurement units
+
+km:km SQRD ;
+mm:mm SQRD ;
+sm:sm SQRD ;
+m:m SQRD ;
+
+LEXICON LASTDIGIT
+
+1:1%{e%}%{b%}           NUM-DIGIT ; ! "bir"
+2:2%{e%}                NUM-DIGIT ; ! "iki"
+3:3%{ö%}%{p%}           NUM-DIGIT ; ! "üç"
+4:4%{ö%}%{p%}           NUM-DIGIT ; ! "dört"
+5:5%{e%}%{p%}           NUM-DIGIT ; ! "beş"
+6:6%{ı%}                NUM-DIGIT ; ! "altı"
+7:7%{e%}                NUM-DIGIT ; ! "yedi"
+8:8%{e%}%{b%}           NUM-DIGIT ; ! "sekiz"
+9:9%{o%}%{b%}           NUM-DIGIT ; ! "dokuz"
+
+LEXICON LASTDIGIT-REST
+
+1%0:1%0%{o%}%{b%}       NUM-DIGIT ; ! "on"
+2%0:2%0%{e%}            NUM-DIGIT ; ! "yirmi"
+3%0:3%0%{o%}%{b%}       NUM-DIGIT ; ! "otuz"
+4%0:4%0%{ı%}%{p%}       NUM-DIGIT ; ! "kırk"
+5%0:5%0%{e%}            NUM-DIGIT ; ! "elli"
+6%0:6%0%{ı%}%{p%}       NUM-DIGIT ; ! "altmış"
+7%0:7%0%{e%}%{p%}       NUM-DIGIT ; ! "yetmiş"
+8%0:8%0%{e%}%{b%}       NUM-DIGIT ; ! "seksen"
+9%0:9%0%{ı%}%{b%}       NUM-DIGIT ; ! "doksan"
+
+LEXICON POWERS
+%0%0:%0%0%{ö%}%{b%}     NUM-DIGIT ; ! "yüz"
+%0%0%0:%0%0%0%{e%}%{b%} NUM-DIGIT ; ! "biñ"
+
+LEXICON LOOP
+
+%,:%, DIGITLEX ;
+%.:%. DIGITLEX ;
+%,:%, LASTDIGIT ;
+%.:%. LASTDIGIT ;
+%,:%, LASTDIGIT-REST ;
+%.:%. LASTDIGIT-REST ;
+%,:%, POWERS ;
+%.:%. POWERS ;
+      DIGITLEX ;
+      LASTDIGIT ;
+      LASTDIGIT-REST ;
+      POWERS ;
+
+LEXICON DIGITLEX
+
+%0:%0 LOOP ;
+1:1   LOOP ;
+2:2   LOOP ;
+3:3   LOOP ;
+4:4   LOOP ;
+5:5   LOOP ;
+6:6   LOOP ;
+7:7   LOOP ;
+8:8   LOOP ;
+9:9   LOOP ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!       N U M E R A L     L E X I C O N     E N D S     H E R E 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON CLIT-EMPH-CHI
 
@@ -245,6 +378,33 @@ PLURAL ;
 CASES-ETC ;
 POSSESSIVES ;
 
+LEXICON CASE-NONOM
+
+%<gen%>:%>n%{I%}ñ CLITICS-NO-COP ;
+%<dat%>:%>%{G%}%{A%} CLITICS-NO-COP ;
+%<acc%>:%>n%{I%} CLITICS-NO-COP ;
+%<abl%>:%>%{D%}%{A%}n CLITICS-INCL-COP ;
+%<loc%>:%>%{D%}%{A%} CLITICS-INCL-COP ;
+%<ins%>:%>nen CLITICS-INCL-COP ; ! FIXME: can take cop ?
+%<ins%>:%>n%{A%}n CLITICS-INCL-COP ; ! Dir/LR ! Dial/?
+CASES-COMMON ; 
+
+LEXICON CASE-ETC-NONOM
+
+CASE-NONOM ;
+!GENPOSS-ETC-NONOM ;
+
+LEXICON N-INFL-COMMON-NONOM
+
+POSSESSIVES ;
+CASE-ETC-NONOM ;
+!ABE-ETC ;
+
+LEXICON SUBST-NONOM
+
+N-INFL-COMMON-NONOM ; 
+!%<pl%>:%>l%{A%}r N-INFL-COMMON ;
+
 LEXICON N-COMPOUND-PX-COMMON
 
 :%>%{s%}%{I%}%{n%} CASES-ETC ;
@@ -266,7 +426,6 @@ LEXICON N5
 
 %<n%>:%{☭%} FULL-NOMINAL-INFLECTION ; 
 %<n%>%<attr%>: # ;
-
 
 
 LEXICON NP-TOP 
@@ -6711,6 +6870,8 @@ lâzim:lâzim A2 ; ! "нужен"
 !ilk:ilk NUM-ORD ; ! ""
 ilk:ilk A1 ; ! "первый"
 
+deyerlik:deyerlik A1 ; ! ""
+
 sabıq:sabıq A1 ; ! ""
 milletli:milletli A1 ; ! ""
 ertesi:ertesi A1 ; ! ""
@@ -8054,12 +8215,13 @@ LEXICON Punctuation
 %/%<sent%>:%/ # ;
 
 ! Temporary numeral lexicon
-<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+!<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
 
-LEXICON DIGITLEX
+LEXICON Digits ! Use/Circ
 
-%<num%>: # ;
-%<num%>%<percent%>:%% # ;
-%<num%>%<percent%>:% %% # ; ! Dir/LR
+%0:%0 NUM ;  ! Use/Circ
+№:№ DIGITLEX ;  ! Use/Circ
+DIGITLEX ; ! Use/Circ
+LASTDIGIT ; ! Use/Circ
+LASTDIGIT-REST ; ! Use/Circ
 
-!LEXICON Temp
