@@ -944,17 +944,9 @@
 "<müstemleke>"
 	"müstemleke" n nom
 "<ete>"
-	"et" v tv aor p3 sg
 	"et" v tv prc_impf
 "<bermekte>"
 	"ber" vaux ger loc
-	"ber" v tv ger loc
-	"ber" vaux prog p3 sg
-	"ber" v tv prog p3 sg
-;	"ber" vaux ger loc
-;		"e" cop aor p3 sg REMOVE:21
-;	"ber" v tv ger loc
-;		"e" cop aor p3 sg REMOVE:21
 "<edi>"
 	"e" cop ifi p3 sg
 "<.>"
@@ -962,97 +954,38 @@
 
 "<Neticesinde>"
 	"netice" n px3sp loc
-	"netice" n px3sp nom
-		"da" postadv
-;	"netice" n px3sp nom
-;		"e" cop aor p3 sg REMOVE:21
-;			"da" postadv
-;	"netice" n px3sp loc
-;		"e" cop aor p3 sg REMOVE:21
 "<Rusiye>"
 	"Rusiye" np top nom
-;	"Rusiye" np top nom
-;		"e" cop aor p3 sg REMOVE:21
 "<Qırımnı>"
-	"qır" n px1sg acc
 	"Qırım" np top acc
 "<anneksirlegen>"
-	"anneksirle" v tv ger_past nom
-	"anneksirle" v tv past p3 sg
 	"anneksirle" v tv gpr_past
-;	"anneksirle" v tv ger_past nom
-;		"e" cop aor p3 sg REMOVE:21
 "<vaqıtta>"
 	"vaqıt" n loc
-;	"vaqıt" n loc
-;		"e" cop aor p3 sg REMOVE:21
 "<anda>"
-	"an" n loc
 	"anda" adv
-	"an" n nom
-		"da" postadv
-;	"an" n nom
-;		"e" cop aor p3 sg REMOVE:21
-;			"da" postadv
-;	"an" n loc
-;		"e" cop aor p3 sg REMOVE:21
 "<oturğan>"
-	"otur" vaux ger_past nom
-	"otur" v iv ger_past nom
-	"otur" vaux past p3 sg
-	"otur" v iv past p3 sg
-	"otur" vaux gpr_past
 	"otur" v iv gpr_past
-;	"otur" vaux ger_past nom
-;		"e" cop aor p3 sg REMOVE:21
-;	"otur" v iv ger_past nom
-;		"e" cop aor p3 sg REMOVE:21
 "<bir>"
 	"bir" num
-	"bir" det ind
-	"bir" num subst nom
-;	"bir" num subst nom
-;		"e" cop aor p3 sg REMOVE:21
 "<million>"
 	"million" n nom
-	"million" n attr
-;	"million" n nom
-;		"e" cop aor p3 sg REMOVE:21
 "<qırımtatardan>"
 	"qırımtatar" n abl
-;	"qırımtatar" n abl
-;		"e" cop aor p3 sg REMOVE:21
 "<XIX>"
 	"XIX" num ord
 "<asır>"
 	"asır" n nom
-	"asır" n attr
-;	"asır" n nom
-;		"e" cop aor p3 sg REMOVE:21
 "<soñunda>"
 	"soñ" n px3sp loc
-	"soñ" n px3sp nom
-		"da" postadv
-;	"soñ" n px3sp nom
-;		"e" cop aor p3 sg REMOVE:21
-;			"da" postadv
-;	"soñ" n px3sp loc
-;		"e" cop aor p3 sg REMOVE:21
 "<200>"
 	"200" num
-	"200" num subst nom
 "<biñden>"
 	"biñ" num subst abl
-;	"biñ" num subst abl
-;		"e" cop aor p3 sg REMOVE:21
 "<az>"
 	"az" adj
 	"az" adv
 	"az" prn ind nom
-;	"az" adj
-;		"e" cop aor p3 sg REMOVE:21
-;	"az" prn ind nom
-;		"e" cop aor p3 sg REMOVE:21
 "<qaldı>"
 	"qal" vaux ifi p3 sg
 	"qal" v iv ifi p3 sg
