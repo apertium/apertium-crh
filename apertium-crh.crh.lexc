@@ -266,11 +266,11 @@ LEXICON NP-TOP
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<ant%>%<m%>:%{☭%} FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<ant%>%<f%>:%{☭%} FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON NP-COG-SKIY
 
