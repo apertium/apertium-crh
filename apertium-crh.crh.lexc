@@ -89,6 +89,13 @@ Multichar_Symbols
 %<ind%>
 %<ord%>
 
+%<m%>
+%<f%>
+%<mf%>
+
+%<cog%>           ! 
+%<ant%>
+%<al%>
 %<top%>           ! Toponym
 
 %<sent%>          ! Sentence marker
