@@ -739,6 +739,7 @@ LEXICON Conjunctions
 
 ve:ve CC ; ! "и"
 amma:amma CC ; ! "но"
+ancaq:ancaq CC ; ! "но"
 amma:ama CC ; ! "но" ! Dir/LR
 lakin:lakin CC ; ! ""
 ise:ise CC ; ! ""
@@ -872,6 +873,7 @@ qırq:qırq NUM ; ! ""
 yüz:yüz NUM ; ! ""
 
 biñ:biñ NUM ; ! ""
+biñlik:biñlik A1 ; ! "Der/lIk"
 
 milliard:milliard NUM ; ! ""
 
@@ -942,6 +944,7 @@ tekrar:tekrar N1 ; ! "repetition"
 baş:baş N1 ; ! "голова, председатель"
 rayon:rayon N1 ; ! "район"
 zümre:zümre N1 ;
+icra:icra N1 ; ! ""
 devlet:devlet N1 ; ! "государство"
 imperiya:imperiya N1 ; ! "империя"
 dünya:dünya N1 ; ! "мир"
@@ -4035,6 +4038,7 @@ Rusiye:Rusiye NP-TOP ; ! "Россия"
 Tataristan:Tataristan NP-TOP ; ! ""
 Tacikistan:Tacikistan NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
+Hansaray:Hansaray NP-TOP ; ! ""
 Meksika:Meksika NP-TOP ; ! ""
 Litvaniya:Litvaniya NP-TOP ; ! ""
 Kanada:Kanada NP-TOP ; ! ""
@@ -6329,6 +6333,7 @@ Züganov:Züganov NP-COG-OV ; ! ""
 Zurabov:Zurabov NP-COG-OV ; ! ""
 
 Boeing:Boeing NP-AL ; ! ""
+Terciman:Terciman NP-AL ; ! ""
 Çernomorneftegaz:Çernomorneftegaz NP-AL ; ! ""
 Charlie% Hebdo:Charlie% Hebdo NP-AL ; ! ""
 Facebook:Facebook NP-AL ; ! ""
@@ -6417,6 +6422,10 @@ GİBDD:GİBDD NP-AL-ABBR ; ! ""
 NATO:NATO NP-AL-ABBR ; ! ""
 OSCE:OSCE NP-AL-ABBR ; ! ""
 RİA:RİA NP-AL-ABBR ; ! ""
+
+MŞSC:MŞSC NP-AL-ABBR ; ! ""
+MQMİK:MQMİK NP-AL-ABBR ; ! ""
+
 
 ATO:ATO NP-AL-ABBR ; 
 ATR:ATR NP-AL-ABBR ; 
@@ -7931,12 +7940,13 @@ kompensirle:kompensirle V-TV ; ! "компенсувати"
 !yasa:yasa V-TD ; ! "виготовити"
 !yasa:yasa V-TD ; ! "зробити"
 !yasa:yasa V-TD ; ! "робити"
-!yeñ:yeñ V-TD ; ! "перемогти"
 !yetiş:yetiş V-TD ; ! "вистачати"
 !selâmla:selâmla V-TD ; ! "вітати"
 
 aydınla:aydınla V-IV ; ! ""
 aydınlat:aydınlat V-TV ; ! "" ! Der/Caus
+
+yeñ:yeñ V-TV ; ! "перемогти"
 
 yerleştir:yerleştir  V-TV ; ! "" Der/Caus
 sıqıştır:sıqıştır  V-TV ; ! "" Der/Caus
