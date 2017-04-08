@@ -87,6 +87,7 @@ Multichar_Symbols
 %<ref%>
 %<itg%>
 %<ind%>
+%<qnt%>
 %<ord%>
 
 %<m%>
@@ -374,6 +375,10 @@ LEXICON PRON-IND-BUTUN
 
 %<prn%>%<ind%>: POSSESSIVES ; 
 
+LEXICON PRON-QNT-BUTUN
+
+%<prn%>%<qnt%>: POSSESSIVES ; 
+
 LEXICON PRON-IND 
 
 %<prn%>%<ind%>: FULL-NOMINAL-INFLECTION ; ! FIXME
@@ -509,6 +514,11 @@ LEXICON PRON-PERS-OLAR
 LEXICON DET-INTERR
 
 %<det%>%<itg%>: # ;
+
+
+LEXICON DET-QNT
+
+%<det%>%<qnt%>: # ;
 
 
 LEXICON DET-IND
@@ -831,6 +841,8 @@ diger:digeri PRON-IND ; ! "" ! Dir/LR
 
 kimse:kimse PRON-IND ; ! ""
 
+ekseri:ekser PRON-QNT-BUTUN ; ! ""
+
 iç% bir:iç% bir PRON-IND ; 
 iç% bir% şey:iç% bir% şey PRON-IND ; ! ""
 
@@ -857,6 +869,8 @@ bütün:bütün DET-IND ;
 cümle:cümle DET-IND ; 
 diger:diger DET-IND ; ! ""
 bazı:bazı DET-IND ; ! ""
+
+ekser:ekser DET-QNT ; ! ""
 
 qaysı:qaysı DET-INTERR ; ! ""
 angi:angi DET-INTERR ; ! ""
