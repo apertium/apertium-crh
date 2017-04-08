@@ -6686,6 +6686,8 @@ LEXICON Adjectives
 
 yoq:yoq A2 ; ! "нет"
 bar:bar A2 ; ! "есть"
+ibaret:ibaret A2 ; ! ""
+
 
 mümkün:mümkün A2 ; ! "possible/возможно"
 kerek:kerek A2 ; ! "necessary/должно"
@@ -6696,6 +6698,7 @@ lâzim:lâzim A2 ; ! "нужен"
 ilk:ilk A1 ; ! "первый"
 
 sabıq:sabıq A1 ; ! ""
+ertesi:ertesi A1 ; ! ""
 marum:marum A1 ; ! ""
 berbat:berbat A1 ; ! ""
 kök:kök A1 ; ! "синый"
@@ -7471,7 +7474,7 @@ yabancı:yabancı A1 ; ! "чужий"
 yabancı:yabancı N1 ; ! "инностранец"
 sanat:sanat N1 ; ! "art"
 maarifçi:maarifçi N1 ; ! ""
-cenk:cenk N1 ; ! "war"
+cenk:cenk N5 ; ! "war"
 temelci:temelci N1 ; ! "founder"
 ğazı:ğazı N1 ; ! ""
 metropoliya:metropoliya N1 ; ! "city"
@@ -7607,6 +7610,7 @@ ol:bol V-IV ; ! "be/быть" ! Dial/North ! Dir/LR
 bitir:bitir V-TV ; ! ""                        ! AUX(?)
 anneksirle:anneksirle V-TV ; ! ""                     
 dolan:dolan V-TV ; ! ""                     
+çaypa:çaypa V-TV ; ! ""                     
 yarat:yarat V-TV ; ! "create"                     
 otur:otur V-IV ; ! "sit/"
 oğra:oğra V-IV ; ! "come across(?)/зазнавати"
