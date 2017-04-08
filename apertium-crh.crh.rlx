@@ -5,9 +5,12 @@ SUBREADINGS = LTR ;
 
 # We can define sets for common tag clusters
 LIST Cop = cop;
+LIST Post = post;
 LIST Px3sp = px3sp;
 LIST Px1sg = px1sg;
 LIST NOMEN = n np;
+LIST N = n;
+LIST Abl = abl;
 LIST Nom = nom;
 LIST V = vblex cop ;
 LIST Sg3 = (p3 sg) ;
@@ -22,6 +25,8 @@ REMOVE SUB:1 Cop IF (0 Nom)(1 Px3sp);
 REMOVE Px1sg IF (1 Px3sp);
 
 SELECT Cop IF (NOT 0* V);
+SELECT Post IF (0 Post OR N) (-1 Abl);
+
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
