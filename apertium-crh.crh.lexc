@@ -6871,6 +6871,7 @@ lâzim:lâzim A2 ; ! "нужен"
 ilk:ilk A1 ; ! "первый"
 
 deyerlik:deyerlik A1 ; ! ""
+tüşkün:tüşkün A3 ; ! ""
 
 sabıq:sabıq A1 ; ! ""
 milletli:milletli A1 ; ! ""
@@ -7802,7 +7803,7 @@ qal:qal V-IV-AR ; ! "stay/стоить"
 kel:kel V-IV-AR ; ! "come/прийти"
 yap:yap V-TV-AR ; ! "do/делать"
 yapıl:yapıl V-TV-AR ; ! "be done/" ! Der/Pass
-tüş:tüş V-IV ; ! "fall"
+tüş:tüş V-IV-AR ; ! "fall"
 qayt:qayt V-IV ; ! "return/вернуться"
 ber:ber V-TV ; ! "give"
 berdir:berdir V-TV ; ! "" ! Der/Caus
@@ -8157,6 +8158,8 @@ silâsızlandır:silâsızlandır  V-TV ; ! "" Der/Caus
 söndür:söndür V-TV ; ! "" Der/Caus
 
 ögret:ögret V-TV ; ! ""
+
+boysun:boysun V-IV ; ! ""
 
 inan:inan V-TV ; ! ""
 
