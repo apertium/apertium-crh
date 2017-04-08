@@ -7992,5 +7992,7 @@ LEXICON Punctuation
 LEXICON DIGITLEX
 
 %<num%>: # ;
+%<num%>%<percent%>:%% # ;
+%<num%>%<percent%>:% %% # ; ! Dir/LR
 
 !LEXICON Temp
