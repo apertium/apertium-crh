@@ -5326,12 +5326,13 @@ Meryem:Meryem NP-ANT-F ; ! ""
 
 Nikolayev:Nikolayev NP-COG-OV ; ! ""
 Siyabendov:Siyabendov NP-COG-OV ; ! ""
-Minih:Minih NP-COG-OV ; ! ""
-Bekirzade:Bekirzade NP-COG-OV ; ! ""
-Çelebicihan:Çelebicihan NP-COG-OV ; ! ""
-Bekirzade:Bekir%-zade NP-COG-OV ; ! ""
-Çobanzade:Çoban%-zade NP-COG-OV ; ! ""
-Çobanzade:Çobanzade NP-COG-OV ; ! ""
+
+Minih:Minih NP-COG-MF ; ! ""
+Bekirzade:Bekirzade NP-COG-MF ; ! ""
+Çelebicihan:Çelebicihan NP-COG-MF ; ! ""
+Bekirzade:Bekir%-zade NP-COG-MF ; ! ""
+Çobanzade:Çoban%-zade NP-COG-MF ; ! "" ! Dir/LR
+Çobanzade:Çobanzade NP-COG-MF ; ! ""
 
 Hacı:Hacı NP-ANT-M ; ! ""
 Mustafa:Mustafa NP-ANT-M ; ! ""
