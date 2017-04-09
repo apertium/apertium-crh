@@ -1,0 +1,73 @@
+Multichar_Symbols
+
+%{%"%}
+
+LEXICON Root
+
+Punctuation ;
+
+LEXICON Final
+
+0:%" # ;
+
+LEXICON Cop
+
+dir:dir Final ;
+dur:dur Final ;
+dır:dır Final ;
+dür:dür Final ;
+tir:tir Final ;
+tur:tur Final ;
+tır:tır Final ;
+tür:tür Final ;
+Final ; 
+
+LEXICON Case 
+
+niñ:niñ Cop ;
+nuñ:nuñ Cop ;
+nıñ:nıñ Cop ;
+nüñ:nüñ Cop ;
+iñ:iñ Cop ;
+uñ:uñ Cop ;
+ıñ:ıñ Cop ;
+üñ:üñ Cop ;
+ni:ni Cop ;
+nu:nu Cop ;
+nı:nı Cop ;
+nü:nü Cop ;
+ü:ü Cop ;
+i:i Cop ;
+u:u Cop ;
+ı:ı Cop ;
+a:a Cop ;
+e:e Cop ;
+ğa:ğa Cop ;
+qa:qa Cop ;
+ge:ge Cop ;
+ke:ke Cop ;
+ta:ta Cop ; 
+da:da Cop ; 
+te:te Cop ; 
+de:de Cop ; 
+tan:tan Cop ; 
+dan:dan Cop ; 
+ten:ten Cop ; 
+den:den Cop ; 
+nen:nen Cop ; 
+Cop ;
+
+LEXICON Poss
+
+n:n Case ;
+Case  ;
+
+LEXICON Number
+
+lar:lar Poss ;
+ler:ler Poss ;
+Poss ;
+
+LEXICON Punctuation
+
+%":0 Number ;

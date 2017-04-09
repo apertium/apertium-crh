@@ -18,6 +18,9 @@ dev/countstems.sh -text
 dev/crh_CYRL2LAT.lexc -text
 dev/crh_CYRL2LAT.sh -text
 dev/crh_CYRL2LAT.twol -text
+dev/tokenisation/Makefile -text
+dev/tokenisation/test.lexc -text
+dev/tokenisation/test.txt -text
 /modes.xml -text
 tests/cases.yaml -text
 tests/future.yaml -text
