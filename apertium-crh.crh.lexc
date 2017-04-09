@@ -60,6 +60,7 @@ Multichar_Symbols
 %<ger_abst%>      ! -Uv
 
 %<gpr_fut%>
+%<gpr_pot%>
 
 %<gna_while%>
 %<gna_perf%>
@@ -795,6 +796,8 @@ LEXICON V-NONFINITE
 %<gpr_past%>:%>%{G%}%{A%}n # ;
 
 %<gpr_fut2%>:%>%{E%}c%{A%}%{G%} # ;
+
+%<gpr_pot%>:%>%{I%}%>c%{I%} #  ;
 
 LEXICON V-COMMON 
 
