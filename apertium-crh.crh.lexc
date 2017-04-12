@@ -797,7 +797,7 @@ LEXICON V-NONFINITE
 
 %<gpr_fut2%>:%>%{E%}c%{A%}%{G%} # ;
 
-%<gpr_pot%>:%>%{I%}%>c%{I%} #  ;
+%<gpr_pot%>:%>%{j%}%{I%}%>c%{I%} #  ;
 
 LEXICON V-COMMON 
 
@@ -4258,6 +4258,42 @@ medeniyetlik:medeniyetlik N1 ; ! ""
 taqiqat:taqiqat N1 ; ! ""
 
 
+informatsion:informatsion N1 ; ! ""
+aviatsion:aviatsion N1 ; ! ""
+aktsioner:aktsioner N1 ; ! ""
+aeronavigatsion:aeronavigatsion N1 ; ! ""
+appelâtsion:appelâtsion N1 ; ! ""
+appelâtsion:apelâtsion N1 ; ! ""
+konstitutsion:konstitutsion N1 ; ! ""
+animatsion:animatsion N1 ; ! ""
+telekommunikatsion:telekommunikatsion N1 ; ! ""
+distantsion:distantsion N1 ; ! ""
+radiolokatsion:radiolokatsion N1 ; ! ""
+navigatsion:navigatsion N1 ; ! ""
+kollaboratsionizm:kollaboratsionizm N1 ; ! ""
+reanimatsion:reanimatsion N1 ; ! ""
+millitsioner:millitsioner N1 ; ! ""
+kommunikatsion:kommunikatsion N1 ; ! ""
+kollaboratsionist:kollaboratsionist N1 ; ! ""
+inauguratsion:inauguratsion N1 ; ! ""
+
+kollaboratsion:kollaboratsion N1 ; ! ""
+könditsioner:könditsioner N1 ; ! ""
+innovatsion:innovatsion N1 ; ! ""
+operatsion:operatsion N1 ; ! ""
+okkupatsion:okkupatsion N1 ; ! ""
+sensatsion:sensatsion N1 ; ! ""
+sanktsion:sanktsion N1 ; ! ""
+attraktsion:attraktsion N1 ; ! ""
+diskriminatsion:diskriminatsion N1 ; ! ""
+internatsionalist:internatsionalist N1 ; ! ""
+irrigatsion:irrigatsion N1 ; ! ""
+
+vefat:vefat N1 ; ! ""
+voyevodalıq:voyevodalıq N1 ; ! ""
+alman:alman N1 ; ! ""
+hristian:hristian N1 ; ! ""
+
 LEXICON ProperNouns 
 
 Afrika:Afrika NP-TOP ; ! ""
@@ -6581,6 +6617,10 @@ Zubov:Zubov NP-COG-OV ; ! ""
 Züganov:Züganov NP-COG-OV ; ! ""
 Zurabov:Zurabov NP-COG-OV ; ! ""
 
+Yedinaya% Rossiya:Yedinaya% Rossiya NP-AL ; ! ""
+Rossiya% segodnâ:Rossiya% segodnâ NP-AL ; ! ""
+Otkrıtaya% Rossiya:Otkrıtaya% Rossiya NP-AL ; ! ""
+Spravedlivaya% Rossiya:Spravedlivaya% Rossiya NP-AL ; ! ""
 Boeing:Boeing NP-AL ; ! ""
 Terciman:Terciman NP-AL ; ! ""
 Çernomorneftegaz:Çernomorneftegaz NP-AL ; ! ""
@@ -6923,6 +6963,31 @@ Zeytullayev:Zeytullayev NP-COG-OV ; ! ""
 Zuyev:Zuyev NP-COG-OV ; ! ""
 
 
+Aqmeçit:Aqmeçit NP-TOP ; ! ""
+Aqşeyh:Aqşeyh NP-TOP ; ! ""
+Seyitler:Seyitler NP-TOP ; ! ""
+Saq:Saq NP-TOP ; ! ""
+Qarasuvbazar:Qarasuvbazar NP-TOP ; ! ""
+Qurman:Qurman NP-TOP ; ! ""
+Qadıköy:Qadıköy NP-TOP ; ! ""
+Makaryev:Makaryev NP-TOP ; ! ""
+Harput:Harput NP-TOP ; ! ""
+dağlı:dağlı NP-TOP ; ! ""
+Çust:Çust NP-TOP ; ! ""
+Curçı:Curçı NP-TOP ; ! ""
+Buca:Buca NP-TOP ; ! ""
+Beyoğlu:Beyoğlu NP-TOP ; ! ""
+Aqqurğan:Aqqurğan NP-TOP ; ! ""
+Aluşta:Aluşta NP-TOP ; ! ""
+
+
+Kirovograd:Kirovograd NP-TOP ; ! ""
+Selim:Selim NP-ANT-M ; ! ""
+Meñli:Meñli NP-ANT-M ; ! ""
+Üsein:Üsein NP-ANT-M ; ! ""
+Amza:Amza NP-ANT-M ; ! ""
+Alâdin:Alâdin NP-ANT-M ; ! ""
+
 
 LEXICON Adjectives 
 
@@ -6941,6 +7006,7 @@ ilk:ilk A1 ; ! "первый"
 
 deyerlik:deyerlik A1 ; ! ""
 tüşkün:tüşkün A3 ; ! ""
+federal:federal A1 ; ! ""
 
 sabıq:sabıq A1 ; ! ""
 milletli:milletli A1 ; ! ""
@@ -8247,6 +8313,9 @@ ziyaret% et:ziyaret% et V-TV-AR ; ! ""
 aşkâr% et:aşkâr% et V-TV-AR ; ! ""
 teşkil% et:teşkil% et V-TV-AR ; ! "organise/организовать"
 yasaq% et:yasaq% et V-TV-AR ; ! ""
+
+tamamla:tamamla V-TV-AR ; ! ""
+bit:bit V-TV-AR ; ! "finish"
 
 LEXICON Abbreviations
 
