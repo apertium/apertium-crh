@@ -4253,6 +4253,10 @@ yüzsüzlik:yüzsüzlik N1 ; ! ""
 zamansızlıq:zamansızlıq N1 ; ! ""
 zemanesizlik:zemanesizlik N1 ; ! ""
 
+medeniyetlik:medeniyetlik N1 ; ! ""
+
+taqiqat:taqiqat N1 ; ! ""
+
 
 LEXICON ProperNouns 
 

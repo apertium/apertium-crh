@@ -1,0 +1,10 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../crh.autogen.hfst
+    Morph: ../crh.automorf.hfst
+
+Tests:
+  "Proper nouns -sk":
+    Omsk<np><top><dat> : Omskqa
+    Donetsk<np><top><dat> : Donetskke
