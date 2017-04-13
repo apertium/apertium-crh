@@ -8222,6 +8222,7 @@ lâzim:lâzim A2 ; ! "нужен"
 ilk:ilk A1 ; ! "первый"
 
 deyerlik:deyerlik A1 ; ! ""
+ertesi:ertesi A1 ; ! "following"
 tüşkün:tüşkün A3 ; ! ""
 federal:federal A1 ; ! ""
 
