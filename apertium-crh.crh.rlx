@@ -19,6 +19,8 @@ LIST Son = "soñ" ;
 LIST Sene = "sene";
 LIST Loc = loc ;
 LIST ADV = adv;
+LIST DET = det ;
+
 SECTION
 
 # Remove zero copula if it is third person singular [MT]
@@ -31,6 +33,7 @@ REMOVE Px1sg IF (1 Px3sp);
 SELECT Cop IF (NOT 0* V);
 SELECT Post IF (0 Post OR N) (-1 Abl);
 SELECT ADV IF (0 Son) (1 Num) (2 Sene + Loc);
+REMOVE ADV IF (0 DET) (NOT 1* V);
 
 
 # Resources:
