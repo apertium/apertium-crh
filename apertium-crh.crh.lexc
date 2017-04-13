@@ -52,6 +52,7 @@ Multichar_Symbols
 %<pass%>
 %<coop%>
 %<caus%>
+%<abil%>
 
 %<ger%>
 %<ger_pres%>
@@ -806,6 +807,8 @@ V-FINITE-REGULAR_NEGATIVE ;
 
 V-NONFINITE ; 
 %<neg%>:%>m%{A%} V-NONFINITE ; 
+
+%<abil%>%<neg%>:%>%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ; ! FIXME: CHECK 
 
 LEXICON V-DER
 
@@ -4293,6 +4296,7 @@ vefat:vefat N1 ; ! ""
 voyevodalıq:voyevodalıq N1 ; ! ""
 alman:alman N1 ; ! ""
 hristian:hristian N1 ; ! ""
+kamuflâj:kamuflâj N5 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -7119,6 +7123,7 @@ federativ:federativ A1 ; ! ""
 fenomenal:fenomenal A1 ; ! ""
 ferah:ferah A1 ; ! ""
 figuralı:figuralı A1 ; ! ""
+kamuflâjlı:kamuflâjlı A1 ; ! ""
 filtrlev:filtrlev A1 ; ! ""
 fin:fin A1 ; ! ""
 final:final A1 ; ! ""
