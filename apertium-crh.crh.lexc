@@ -1122,6 +1122,7 @@ soñ:soñ N1 ; ! ""
 !!
 
 feldmarşal:feldmarşal N1 ; ! "field marshal"
+diaspora:diaspora N1 ; ! "diaspora"
 muhtariyet:muhtariyet N1 ; ! ""
 asılzade:asılzade N1 ; ! "noble"
 krovat:krovat N1 ; ! "кроват"
@@ -9520,6 +9521,7 @@ inan:inan V-TV ; ! ""
 acı:acı V-IV ; ! ""
 
 qabul% et:qabul% et V-TV-AR ; ! ""
+qatil% et:qatil% et V-TV-AR ; ! "kill"
 celp% et:celp% et V-TV-AR ; ! "attract"
 elâk% ol:elâk% ol V-IV ; ! ""
 peyda% ol:peyda% ol V-IV ; ! ""
