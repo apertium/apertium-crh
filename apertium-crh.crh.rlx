@@ -20,6 +20,10 @@ LIST Sene = "sene";
 LIST Loc = loc ;
 LIST ADV = adv;
 LIST DET = det ;
+LIST Prc_perf = prc_perf;
+LIST Gna_perf = gna_perf;
+LIST Vaux = vaux ;
+
 
 SECTION
 
@@ -34,6 +38,7 @@ SELECT Cop IF (NOT 0* V);
 SELECT Post IF (0 Post OR N) (-1 Abl);
 SELECT ADV IF (0 Son) (1 Num) (2 Sene + Loc);
 REMOVE ADV IF (0 DET) (NOT 1* V);
+REMOVE Prc_perf IF (0 Gna_perf) (NOT 1* Vaux)
 
 
 # Resources:
