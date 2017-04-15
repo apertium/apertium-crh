@@ -370,6 +370,14 @@ LEXICON POSSESSIVES
 %<px1pl%>:%>%{i%}m%{I%}z CASES-ETC ;
 %<px2pl%>:%>%{i%}ñ%{I%}z CASES-ETC ;
 
+LEXICON ABESSIVE-POSTPOSITION
+
+%+sız%<post%>:%>s%{I%}z CLITICS-NO-COP ;
+
+LEXICON LI-POSTPOSITION
+
+%+lı%<post%>:%>l%{I%} CLITICS-NO-COP ;
+
 LEXICON PLURAL
 
 %<pl%>:%>l%{A%}r CASES-ETC ;
@@ -380,6 +388,8 @@ LEXICON FULL-NOMINAL-INFLECTION
 PLURAL ;
 CASES-ETC ;
 POSSESSIVES ;
+ABESSIVE-POSTPOSITION ;
+LI-POSTPOSITION ;
 
 LEXICON CASE-NONOM
 
@@ -7225,6 +7235,7 @@ zat:zat N1 ; ! "" ! Lex/tur
 ziyafet:ziyafet N1 ; ! "" ! Lex/tur
 zulüm:zulüm N1 ; ! "" ! Lex/tur
 
+litsey:litsey N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -11292,6 +11303,7 @@ London:London NP-TOP ; ! ""
 Pridnestrovye:Pridnestrovye NP-TOP ; ! ""
 
 Lopez:Lopez NP-COG-MF ; ! ""
+Abbas:Abbas NP-COG-MF ; ! ""
 
 
 LEXICON Adjectives 
