@@ -432,7 +432,7 @@ LEXICON N5
 
 LEXICON NP-TOP 
 
-%<np%>%<top%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<top%>:%{☭%} FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON NP-ANT-M
 
@@ -461,6 +461,12 @@ na%<np%>%<cog%>%<f%>:na FULL-NOMINAL-INFLECTION ; ! FIXME
 LEXICON NP-COG-MF 
 
 %<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+
+LEXICON NP-COG-ZADE
+
+%<np%>%<cog%>%<mf%>:%-zade FULL-NOMINAL-INFLECTION ; ! Dir/LR
+%<np%>%<cog%>%<mf%>:zade FULL-NOMINAL-INFLECTION ; 
+
 
 LEXICON NP-PAT-EVICH
 
@@ -6607,6 +6613,14 @@ tragediya:tragediya N1 ; ! ""
 türkiyatçı:türkiyatçı N1 ; ! ""
 versiya:versiya N1 ; ! ""
 
+diplom:diplom N1 ; ! ""
+uyezd:uyezd N5 ; ! ""
+tañrı:tañrı N1 ; ! ""
+qırımçaq:qırımçaq N1 ; ! ""
+qazaq:qazaq N1 ; ! ""
+etnogenez:etnogenez N5 ; ! ""
+esperanto:esperanto N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
@@ -6715,6 +6729,8 @@ Zimbabve:Zimbabve NP-TOP ; ! ""
 
 Cambridge:Cambridge NP-TOP ; ! ""
 Kiyev:Kiyev NP-TOP ; ! ""
+Kiyev:Kıyev NP-TOP ; ! "" ! Err/Orth ! Dir/LR
+Kiyev:Kiev NP-TOP ; ! "" ! Err/Orth ! Dir/LR
 Moskva:Moskva NP-TOP ; ! ""
 İstanbul:İstanbul NP-TOP ; ! ""
 Ankara:Ankara NP-TOP ; ! ""
@@ -6730,7 +6746,31 @@ Yalta:Yalta NP-TOP ; ! ""
 Şırnak:Şırnak NP-TOP ; ! ""
 Oslo:Oslo NP-TOP ; ! ""
 
-
+Çelebiyev:Çelebiyev NP-COG-OV ; ! ""
+Çergeev:Çergeev NP-COG-OV ; ! ""
+Çergeyev:Çergeyev NP-COG-OV ; ! ""
+Dogujiyev:Dogujiyev NP-COG-OV ; ! ""
+Ğaniyev:Ğaniyev NP-COG-OV ; ! ""
+Gecelev:Gecelev NP-COG-OV ; ! ""
+Görev:Görev NP-COG-OV ; ! ""
+Gözlev:Gözlev NP-COG-OV ; ! ""
+Guryev:Guryev NP-COG-OV ; ! ""
+Karsliyev:Karsliyev NP-COG-OV ; ! ""
+Korçev:Korçev NP-COG-OV ; ! ""
+Kuybışev:Kuybışev NP-COG-OV ; ! ""
+Makaryev:Makaryev NP-COG-OV ; ! ""
+Maliyev:Maliyev NP-COG-OV ; ! ""
+Menacıyev:Menacıyev NP-COG-OV ; ! ""
+Mogilev:Mogilev NP-COG-OV ; ! ""
+Musayev:Musayev NP-COG-OV ; ! ""
+Nazaryev:Nazaryev NP-COG-OV ; ! ""
+Pertev:Pertev NP-COG-OV ; ! ""
+Pisarev:Pisarev NP-COG-OV ; ! ""
+Pugaçev:Pugaçev NP-COG-OV ; ! ""
+Qadıyev:Qadıyev NP-COG-OV ; ! ""
+Qurtmollayev:Qurtmollayev NP-COG-OV ; ! ""
+Seyitveliyev:Seyitveliyev NP-COG-OV ; ! ""
+Veresayev:Veresayev NP-COG-OV ; ! ""
 
 Alçevsk:Alçevsk NP-TOP ; ! ""
 Almazna:Almazna NP-TOP ; ! ""
@@ -7760,11 +7800,20 @@ Siyabendov:Siyabendov NP-COG-OV ; ! ""
 
 Minih:Minih NP-COG-MF ; ! ""
 Servantes:Servantes NP-COG-MF ; ! ""
-Bekirzade:Bekirzade NP-COG-MF ; ! ""
 Çelebicihan:Çelebicihan NP-COG-MF ; ! ""
-Bekirzade:Bekir%-zade NP-COG-MF ; ! ""
-Çobanzade:Çoban%-zade NP-COG-MF ; ! "" ! Dir/LR
-Çobanzade:Çobanzade NP-COG-MF ; ! ""
+
+Bekirzade:Bekir NP-COG-ZADE ; ! ""
+Çobanzade:Çoban NP-COG-ZADE ; ! ""
+Emirzade:Emir NP-COG-ZADE ; ! ""
+Lâtifzade:Lâtif NP-COG-ZADE ; ! ""
+Müftizade:Müfti NP-COG-ZADE ; ! ""
+Qadrizade:Qadri NP-COG-ZADE ; ! ""
+Şem’izade:Şem’i NP-COG-ZADE ; ! ""
+Şemizade:Şemi NP-COG-ZADE ; ! ""
+Sofuzade:Sofu NP-COG-ZADE ; ! ""
+Necefzade:Necef NP-COG-ZADE ; ! ""
+Şehzade:Şeh NP-COG-ZADE ; ! ""
+
 
 Hacı:Hacı NP-ANT-M ; ! ""
 Mustafa:Mustafa NP-ANT-M ; ! ""
@@ -7836,6 +7885,7 @@ Abdulla:Abdulla NP-ANT-M ; ! ""
 Wilhelm:Wilhelm NP-ANT-M ; ! ""
 
 Anna:Anna NP-ANT-F ; ! ""
+Alla:Alla NP-ANT-F ; ! ""
 Maria:Maria NP-ANT-F ; ! ""
 
 Ayşe:Ayşe NP-ANT-F ; ! ""
@@ -8126,6 +8176,9 @@ Anatolyeviç:Anatolyev NP-PAT-EVICH ; ! ""
 Petroviç:Petrov NP-PAT-EVICH ; ! ""
 Aleksandroviç:Aleksandrov NP-PAT-EVICH ; ! ""
 Grigoryeviç:Grigoryev NP-PAT-EVICH ; ! ""
+Zagaykeviç:Zagaykev NP-PAT-EVICH ; ! ""
+Aliyeviç:Aliyev NP-PAT-EVICH ; ! ""
+Buhareviç:Buharev NP-PAT-EVICH ; ! ""
 Dmitriyeviç:Dmitriyev NP-PAT-EVICH ; ! ""
 Fedoroviç:Fedorov NP-PAT-EVICH ; ! ""
 Leonidoviç:Leonidov NP-PAT-EVICH ; ! ""
@@ -10620,6 +10673,8 @@ ertesi:ertesi A1 ; ! "following"
 tüşkün:tüşkün A3 ; ! ""
 federal:federal A1 ; ! ""
 
+ayırdı:ayırdı A1 ; ! ""
+
 sabıq:sabıq A1 ; ! ""
 milletli:milletli A1 ; ! ""
 ertesi:ertesi A1 ; ! ""
@@ -12000,6 +12055,7 @@ tacikçe:tacikçe ADV-LANG ;
 rusça:rusça ADV-LANG ;
 hırvatça:hırvatça ADV-LANG ;
 qazahça:qazahça ADV-LANG ;
+yunanca:yunanca ADV-LANG ;
 belarusça:belarusça ADV-LANG ;
 
 
