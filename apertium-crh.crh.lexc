@@ -162,6 +162,7 @@ Adverbs ;
 Interjections ;
 Verbs ;
 Punctuation ;
+Symbols ;
 Abbreviations ;
 Digits ;
 !Temp ;
@@ -903,9 +904,48 @@ LEXICON ABBR
 
 %<abbr%>: # ;
 
+LEXICON SYM
+
+%<sym%>: # ; 
+
+
 LEXICON INTERJ
 
 %<ij%>: # ; 
+
+LEXICON ABBR-INIT
+
+%<abbr%>: # ;
+
+%<abbr%>%+A%.:A%. ABBR ; ! ""
+%<abbr%>%+B%.:B%. ABBR-INIT ; ! ""
+%<abbr%>%+V%.:V%. ABBR-INIT ; ! ""
+%<abbr%>%+G%.:G%. ABBR-INIT ; ! ""
+%<abbr%>%+Ğ%.:Ğ%. ABBR-INIT ; ! ""
+%<abbr%>%+D%.:D%. ABBR-INIT ; ! ""
+%<abbr%>%+E%.:E%. ABBR-INIT ; ! ""
+%<abbr%>%+J%.:J%. ABBR-INIT ; ! ""
+%<abbr%>%+Z%.:Z%. ABBR-INIT ; ! ""
+%<abbr%>%+I%.:I%. ABBR-INIT ; ! ""
+%<abbr%>%+K%.:K%. ABBR-INIT ; ! ""
+%<abbr%>%+Q%.:Q%. ABBR-INIT ; ! ""
+%<abbr%>%+L%.:L%. ABBR-INIT ; ! ""
+%<abbr%>%+M%.:M%. ABBR-INIT ; ! ""
+%<abbr%>%+N%.:N%. ABBR-INIT ; ! ""
+%<abbr%>%+O%.:O%. ABBR-INIT ; ! ""
+%<abbr%>%+P%.:P%. ABBR-INIT ; ! ""
+%<abbr%>%+R%.:R%. ABBR-INIT ; ! ""
+%<abbr%>%+S%.:S%. ABBR-INIT ; ! ""
+%<abbr%>%+T%.:T%. ABBR-INIT ; ! ""
+%<abbr%>%+U%.:U%. ABBR-INIT ; ! ""
+%<abbr%>%+F%.:F%. ABBR-INIT ; ! ""
+%<abbr%>%+H%.:H%. ABBR-INIT ; ! ""
+%<abbr%>%+C%.:C%. ABBR-INIT ; ! ""
+%<abbr%>%+Ç%.:Ç%. ABBR-INIT ; ! ""
+%<abbr%>%+Ş%.:Ş%. ABBR-INIT ; ! ""
+%<abbr%>%+Y%.:Y%. ABBR-INIT ; ! ""
+%<abbr%>%+Ü%.:Ü%. ABBR-INIT ; ! ""
+%<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -6623,6 +6663,567 @@ esperanto:esperanto N1 ; ! ""
 
 taqım:taqım N1; ! ""
 uyğur:uyğur N1; ! ""
+assambleya:assambleya N1 ; ! ""
+vokzal:vokzal N1 ; ! ""
+avtovokzal:avtovokzal N1 ; ! ""
+muallimlik:muallimlik N1 ; ! ""
+
+qırım:qırım N1 ; ! ""
+bölge:bölge N1 ; ! ""
+kütle:kütle N1 ; ! ""
+
+!af:af N1 ; ! ""
+!ad:ad N1 ; ! ""
+!cm:cm N1 ; ! ""
+!im:im N1 ; ! ""
+!no:no N1 ; ! ""
+!su:su N1 ; ! ""
+!ün:ün N1 ; ! ""
+
+açık:açık N1 ; ! "" ! Lex/tur
+adem:adem N1 ; ! "" ! Lex/tur
+ademi:ademi N1 ; ! "" ! Lex/tur
+adliye:adliye N1 ; ! "" ! Lex/tur
+afyon:afyon N1 ; ! "" ! Lex/tur
+ahır:ahır N1 ; ! "" ! Lex/tur
+ahiret:ahiret N1 ; ! "" ! Lex/tur
+aks:aks N1 ; ! "" ! Lex/tur
+aksilik:aksilik N1 ; ! "" ! Lex/tur
+alay:alay N1 ; ! "" ! Lex/tur
+aldatma:aldatma N1 ; ! "" ! Lex/tur
+alışveriş:alışveriş N1 ; ! "" ! Lex/tur
+alyans:alyans N1 ; ! "" ! Lex/tur
+Amerikan:Amerikan N1 ; ! "" ! Lex/tur
+anıt:anıt N1 ; ! "" ! Lex/tur
+anons:anons N1 ; ! "" ! Lex/tur
+antilop:antilop N1 ; ! "" ! Lex/tur
+aralık:aralık N1 ; ! "" ! Lex/tur
+arazi:arazi N1 ; ! "" ! Lex/tur
+arkadaş:arkadaş N1 ; ! "" ! Lex/tur
+armut:armut N1 ; ! "" ! Lex/tur
+arsa:arsa N1 ; ! "" ! Lex/tur
+arz:arz N1 ; ! "" ! Lex/tur
+asa:asa N1 ; ! "" ! Lex/tur
+aşk:aşk N1 ; ! "" ! Lex/tur
+askerlik:askerlik N1 ; ! "" ! Lex/tur
+asma:asma N1 ; ! "" ! Lex/tur
+atmosfer:atmosfer N1 ; ! "" ! Lex/tur
+avuç:avuç N1 ; ! "" ! Lex/tur
+ayet:ayet N1 ; ! "" ! Lex/tur
+ayrım:ayrım N1 ; ! "" ! Lex/tur
+bagaj:bagaj N1 ; ! "" ! Lex/tur
+bağlama:bağlama N1 ; ! "" ! Lex/tur
+bağlantı:bağlantı N1 ; ! "" ! Lex/tur
+balans:balans N1 ; ! "" ! Lex/tur
+bale:bale N1 ; ! "" ! Lex/tur
+bası:bası N1 ; ! "" ! Lex/tur
+başvuru:başvuru N1 ; ! "" ! Lex/tur
+bayrak:bayrak N1 ; ! "" ! Lex/tur
+baytar:baytar N1 ; ! "" ! Lex/tur
+bel:bel N1 ; ! "" ! Lex/tur
+belediye:belediye N1 ; ! "" ! Lex/tur
+belge:belge N1 ; ! "" ! Lex/tur
+bellek:bellek N1 ; ! "" ! Lex/tur
+beşer:beşer N1 ; ! "" ! Lex/tur
+beşik:beşik N1 ; ! "" ! Lex/tur
+besleme:besleme N1 ; ! "" ! Lex/tur
+beter:beter N1 ; ! "" ! Lex/tur
+bey:bey N1 ; ! "" ! Lex/tur
+beyanname:beyanname N1 ; ! "" ! Lex/tur
+beylik:beylik N1 ; ! "" ! Lex/tur
+biçim:biçim N1 ; ! "" ! Lex/tur
+bildiri:bildiri N1 ; ! "" ! Lex/tur
+boğa:boğa N1 ; ! "" ! Lex/tur
+bölüm:bölüm N1 ; ! "" ! Lex/tur
+Bosnalı:Bosnalı N1 ; ! "" ! Lex/tur
+bot:bot N1 ; ! "" ! Lex/tur
+bronz:bronz N1 ; ! "" ! Lex/tur
+bucak:bucak N1 ; ! "" ! Lex/tur
+buhran:buhran N1 ; ! "" ! Lex/tur
+bükülgen:bükülgen N1 ; ! "" ! Lex/tur
+bülbül:bülbül N1 ; ! "" ! Lex/tur
+büyükçe:büyükçe N1 ; ! "" ! Lex/tur
+cadı:cadı N1 ; ! "" ! Lex/tur
+çadır:çadır N1 ; ! "" ! Lex/tur
+çağ:çağ N1 ; ! "" ! Lex/tur
+çağdaş:çağdaş N1 ; ! "" ! Lex/tur
+çam:çam N1 ; ! "" ! Lex/tur
+çapar:çapar N1 ; ! "" ! Lex/tur
+cariye:cariye N1 ; ! "" ! Lex/tur
+çarşamba:çarşamba N1 ; ! "" ! Lex/tur
+çatal:çatal N1 ; ! "" ! Lex/tur
+çayır:çayır N1 ; ! "" ! Lex/tur
+cazibe:cazibe N1 ; ! "" ! Lex/tur
+ceket:ceket N1 ; ! "" ! Lex/tur
+çekiç:çekiç N1 ; ! "" ! Lex/tur
+çekirdek:çekirdek N1 ; ! "" ! Lex/tur
+çember:çember N1 ; ! "" ! Lex/tur
+ceviz:ceviz N1 ; ! "" ! Lex/tur
+çeyrek:çeyrek N1 ; ! "" ! Lex/tur
+cihan:cihan N1 ; ! "" ! Lex/tur
+cihaz:cihaz N1 ; ! "" ! Lex/tur
+çıktı:çıktı N1 ; ! "" ! Lex/tur
+cin:cin N1 ; ! "" ! Lex/tur
+Çinli:Çinli N1 ; ! "" ! Lex/tur
+cisim:cisim N1 ; ! "" ! Lex/tur
+çivi:çivi N1 ; ! "" ! Lex/tur
+çizgi:çizgi N1 ; ! "" ! Lex/tur
+çocuk:çocuk N1 ; ! "" ! Lex/tur
+çöp:çöp N1 ; ! "" ! Lex/tur
+cumartesi:cumartesi N1 ; ! "" ! Lex/tur
+dahil:dahil N1 ; ! "" ! Lex/tur
+daire:daire N1 ; ! "" ! Lex/tur
+dakika:dakika N1 ; ! "" ! Lex/tur
+dana:dana N1 ; ! "" ! Lex/tur
+davetname:davetname N1 ; ! "" ! Lex/tur
+defin:defin N1 ; ! "" ! Lex/tur
+define:define N1 ; ! "" ! Lex/tur
+değişim:değişim N1 ; ! "" ! Lex/tur
+dekan:dekan N1 ; ! "" ! Lex/tur
+deli:deli N1 ; ! "" ! Lex/tur
+demokrat:demokrat N1 ; ! "" ! Lex/tur
+denge:denge N1 ; ! "" ! Lex/tur
+deniz:deniz N1 ; ! "" ! Lex/tur
+depo:depo N1 ; ! "" ! Lex/tur
+depozit:depozit N1 ; ! "" ! Lex/tur
+dergi:dergi N1 ; ! "" ! Lex/tur
+derman:derman N1 ; ! "" ! Lex/tur
+dershane:dershane N1 ; ! "" ! Lex/tur
+derya:derya N1 ; ! "" ! Lex/tur
+dest:dest N1 ; ! "" ! Lex/tur
+destek:destek N1 ; ! "" ! Lex/tur
+dikdörtgen:dikdörtgen N1 ; ! "" ! Lex/tur
+dil:dil N1 ; ! "" ! Lex/tur
+diplomat:diplomat N1 ; ! "" ! Lex/tur
+diyar:diyar N1 ; ! "" ! Lex/tur
+dizayn:dizayn N1 ; ! "" ! Lex/tur
+dizel:dizel N1 ; ! "" ! Lex/tur
+dizi:dizi N1 ; ! "" ! Lex/tur
+doğu:doğu N1 ; ! "" ! Lex/tur
+doğum:doğum N1 ; ! "" ! Lex/tur
+dolap:dolap N1 ; ! "" ! Lex/tur
+dolar:dolar N1 ; ! "" ! Lex/tur
+döşeme:döşeme N1 ; ! "" ! Lex/tur
+dram:dram N1 ; ! "" ! Lex/tur
+dramaturg:dramaturg N1 ; ! "" ! Lex/tur
+dudu:dudu N1 ; ! "" ! Lex/tur
+düdük:düdük N1 ; ! "" ! Lex/tur
+durum:durum N1 ; ! "" ! Lex/tur
+düş:düş N1 ; ! "" ! Lex/tur
+düşman:düşman N1 ; ! "" ! Lex/tur
+dut:dut N1 ; ! "" ! Lex/tur
+duvar:duvar N1 ; ! "" ! Lex/tur
+ecdat:ecdat N1 ; ! "" ! Lex/tur
+ece:ece N1 ; ! "" ! Lex/tur
+efendi:efendi N1 ; ! "" ! Lex/tur
+egemen:egemen N1 ; ! "" ! Lex/tur
+ehemmiyet:ehemmiyet N1 ; ! "" ! Lex/tur
+ek:ek N1 ; ! "" ! Lex/tur
+elbise:elbise N1 ; ! "" ! Lex/tur
+elem:elem N1 ; ! "" ! Lex/tur
+elli:elli N1 ; ! "" ! Lex/tur
+emanet:emanet N1 ; ! "" ! Lex/tur
+emekli:emekli N1 ; ! "" ! Lex/tur
+emniyet:emniyet N1 ; ! "" ! Lex/tur
+eşya:eşya N1 ; ! "" ! Lex/tur
+etik:etik N1 ; ! "" ! Lex/tur
+euro:euro N1 ; ! "" ! Lex/tur
+evlilik:evlilik N1 ; ! "" ! Lex/tur
+eziyet:eziyet N1 ; ! "" ! Lex/tur
+fa:fa N1 ; ! "" ! Lex/tur
+fabrika:fabrika N1 ; ! "" ! Lex/tur
+fal:fal N1 ; ! "" ! Lex/tur
+fiil:fiil N1 ; ! "" ! Lex/tur
+finans:finans N1 ; ! "" ! Lex/tur
+fırça:fırça N1 ; ! "" ! Lex/tur
+fırın:fırın N1 ; ! "" ! Lex/tur
+fırsat:fırsat N1 ; ! "" ! Lex/tur
+fırtına:fırtına N1 ; ! "" ! Lex/tur
+fizik:fizik N1 ; ! "" ! Lex/tur
+fon:fon N1 ; ! "" ! Lex/tur
+forma:forma N1 ; ! "" ! Lex/tur
+forvet:forvet N1 ; ! "" ! Lex/tur
+gala:gala N1 ; ! "" ! Lex/tur
+garaj:garaj N1 ; ! "" ! Lex/tur
+garnizon:garnizon N1 ; ! "" ! Lex/tur
+garson:garson N1 ; ! "" ! Lex/tur
+gecelik:gecelik N1 ; ! "" ! Lex/tur
+geçici:geçici N1 ; ! "" ! Lex/tur
+gelir:gelir N1 ; ! "" ! Lex/tur
+gen:gen N1 ; ! "" ! Lex/tur
+general:general N1 ; ! "" ! Lex/tur
+genetik:genetik N1 ; ! "" ! Lex/tur
+geri:geri N1 ; ! "" ! Lex/tur
+girdi:girdi N1 ; ! "" ! Lex/tur
+giriş:giriş N1 ; ! "" ! Lex/tur
+giysi:giysi N1 ; ! "" ! Lex/tur
+global:global N1 ; ! "" ! Lex/tur
+!gök:gök N1 ; ! "" ! Lex/tur
+!gökyüzü:gökyüzü N1 ; ! "" ! Lex/tur
+!gönül:gönül N1 ; ! "" ! Lex/tur
+!gösteri:gösteri N1 ; ! "" ! Lex/tur
+!gözlük:gözlük N1 ; ! "" ! Lex/tur
+grafik:grafik N1 ; ! "" ! Lex/tur
+gramofon:gramofon N1 ; ! "" ! Lex/tur
+granat:granat N1 ; ! "" ! Lex/tur
+granit:granit N1 ; ! "" ! Lex/tur
+grev:grev N1 ; ! "" ! Lex/tur
+!gücü:gücü N1 ; ! "" ! Lex/tur
+!gümrük:gümrük N1 ; ! "" ! Lex/tur
+!gün:gün N1 ; ! "" ! Lex/tur
+!günah:günah N1 ; ! "" ! Lex/tur
+haberdar:haberdar N1 ; ! "" ! Lex/tur
+hac:hac N1 ; ! "" ! Lex/tur
+hacet:hacet N1 ; ! "" ! Lex/tur
+hacı:hacı N1 ; ! "" ! Lex/tur
+hafıza:hafıza N1 ; ! "" ! Lex/tur
+hakim:hakim N1 ; ! "" ! Lex/tur
+hakimiyet:hakimiyet N1 ; ! "" ! Lex/tur
+halk:halk N1 ; ! "" ! Lex/tur
+ham:ham N1 ; ! "" ! Lex/tur
+harabe:harabe N1 ; ! "" ! Lex/tur
+hardal:hardal N1 ; ! "" ! Lex/tur
+hareket:hareket N1 ; ! "" ! Lex/tur
+harem:harem N1 ; ! "" ! Lex/tur
+harf:harf N1 ; ! "" ! Lex/tur
+haşhaş:haşhaş N1 ; ! "" ! Lex/tur
+hat:hat N1 ; ! "" ! Lex/tur
+hatır:hatır N1 ; ! "" ! Lex/tur
+hava:hava N1 ; ! "" ! Lex/tur
+hayalet:hayalet N1 ; ! "" ! Lex/tur
+hayat:hayat N1 ; ! "" ! Lex/tur
+hayır:hayır N1 ; ! "" ! Lex/tur
+hayret:hayret N1 ; ! "" ! Lex/tur
+hazine:hazine N1 ; ! "" ! Lex/tur
+helikopter:helikopter N1 ; ! "" ! Lex/tur
+heykel:heykel N1 ; ! "" ! Lex/tur
+hiciv:hiciv N1 ; ! "" ! Lex/tur
+hikmet:hikmet N1 ; ! "" ! Lex/tur
+hitap:hitap N1 ; ! "" ! Lex/tur
+hıyanet:hıyanet N1 ; ! "" ! Lex/tur
+hıyar:hıyar N1 ; ! "" ! Lex/tur
+holding:holding N1 ; ! "" ! Lex/tur
+hububat:hububat N1 ; ! "" ! Lex/tur
+hücüm:hücüm N1 ; ! "" ! Lex/tur
+hükümet:hükümet N1 ; ! "" ! Lex/tur
+hurma:hurma N1 ; ! "" ! Lex/tur
+hürmet:hürmet N1 ; ! "" ! Lex/tur
+hürriyet:hürriyet N1 ; ! "" ! Lex/tur
+husus:husus N1 ; ! "" ! Lex/tur
+hususiyet:hususiyet N1 ; ! "" ! Lex/tur
+hutbe:hutbe N1 ; ! "" ! Lex/tur
+huzur:huzur N1 ; ! "" ! Lex/tur
+iane:iane N1 ; ! "" ! Lex/tur
+ibadet:ibadet N1 ; ! "" ! Lex/tur
+ibadethane:ibadethane N1 ; ! "" ! Lex/tur
+iblis:iblis N1 ; ! "" ! Lex/tur
+icar:icar N1 ; ! "" ! Lex/tur
+idam:idam N1 ; ! "" ! Lex/tur
+idari:idari N1 ; ! "" ! Lex/tur
+iddia:iddia N1 ; ! "" ! Lex/tur
+ide:ide N1 ; ! "" ! Lex/tur
+ihanet:ihanet N1 ; ! "" ! Lex/tur
+ihtimal:ihtimal N1 ; ! "" ! Lex/tur
+ihtiyaç:ihtiyaç N1 ; ! "" ! Lex/tur
+ikna:ikna N1 ; ! "" ! Lex/tur
+ilan:ilan N1 ; ! "" ! Lex/tur
+ilçe:ilçe N1 ; ! "" ! Lex/tur
+ilmek:ilmek N1 ; ! "" ! Lex/tur
+iltica:iltica N1 ; ! "" ! Lex/tur
+ima:ima N1 ; ! "" ! Lex/tur
+imal:imal N1 ; ! "" ! Lex/tur
+imalat:imalat N1 ; ! "" ! Lex/tur
+imam:imam N1 ; ! "" ! Lex/tur
+imha:imha N1 ; ! "" ! Lex/tur
+inanç:inanç N1 ; ! "" ! Lex/tur
+inat:inat N1 ; ! "" ! Lex/tur
+incir:incir N1 ; ! "" ! Lex/tur
+indeks:indeks N1 ; ! "" ! Lex/tur
+intihar:intihar N1 ; ! "" ! Lex/tur
+ipek:ipek N1 ; ! "" ! Lex/tur
+irade:irade N1 ; ! "" ! Lex/tur
+işgal:işgal N1 ; ! "" ! Lex/tur
+iskele:iskele N1 ; ! "" ! Lex/tur
+islam:islam N1 ; ! "" ! Lex/tur
+işletme:işletme N1 ; ! "" ! Lex/tur
+ismet:ismet N1 ; ! "" ! Lex/tur
+istifa:istifa N1 ; ! "" ! Lex/tur
+istifade:istifade N1 ; ! "" ! Lex/tur
+istihbarat:istihbarat N1 ; ! "" ! Lex/tur
+istisna:istisna N1 ; ! "" ! Lex/tur
+itiraf:itiraf N1 ; ! "" ! Lex/tur
+ittifak:ittifak N1 ; ! "" ! Lex/tur
+janr:janr N1 ; ! "" ! Lex/tur
+jest:jest N1 ; ! "" ! Lex/tur
+jilet:jilet N1 ; ! "" ! Lex/tur
+jimnastik:jimnastik N1 ; ! "" ! Lex/tur
+jurnal:jurnal N1 ; ! "" ! Lex/tur
+kabul:kabul N1 ; ! "" ! Lex/tur
+kadın:kadın N1 ; ! "" ! Lex/tur
+kaide:kaide N1 ; ! "" ! Lex/tur
+kak:kak N1 ; ! "" ! Lex/tur
+kanser:kanser N1 ; ! "" ! Lex/tur
+kanun:kanun N1 ; ! "" ! Lex/tur
+kap:kap N1 ; ! "" ! Lex/tur
+kapı:kapı N1 ; ! "" ! Lex/tur
+karakter:karakter N1 ; ! "" ! Lex/tur
+karar:karar N1 ; ! "" ! Lex/tur
+karşılık:karşılık N1 ; ! "" ! Lex/tur
+kart:kart N1 ; ! "" ! Lex/tur
+kasaba:kasaba N1 ; ! "" ! Lex/tur
+kat:kat N1 ; ! "" ! Lex/tur
+katalog:katalog N1 ; ! "" ! Lex/tur
+Katolik:Katolik N1 ; ! "" ! Lex/tur
+kazan:kazan N1 ; ! "" ! Lex/tur
+kebap:kebap N1 ; ! "" ! Lex/tur
+kelepçe:kelepçe N1 ; ! "" ! Lex/tur
+keman:keman N1 ; ! "" ! Lex/tur
+kemer:kemer N1 ; ! "" ! Lex/tur
+kemirgen:kemirgen N1 ; ! "" ! Lex/tur
+kent:kent N1 ; ! "" ! Lex/tur
+kese:kese N1 ; ! "" ! Lex/tur
+keşif:keşif N1 ; ! "" ! Lex/tur
+keyif:keyif N1 ; ! "" ! Lex/tur
+kez:kez N1 ; ! "" ! Lex/tur
+kibir:kibir N1 ; ! "" ! Lex/tur
+kilogram:kilogram N1 ; ! "" ! Lex/tur
+kin:kin N1 ; ! "" ! Lex/tur
+kırım:kırım N1 ; ! "" ! Lex/tur
+kişilik:kişilik N1 ; ! "" ! Lex/tur
+kitle:kitle N1 ; ! "" ! Lex/tur
+klan:klan N1 ; ! "" ! Lex/tur
+klasik:klasik N1 ; ! "" ! Lex/tur
+klinik:klinik N1 ; ! "" ! Lex/tur
+kod:kod N1 ; ! "" ! Lex/tur
+köfte:köfte N1 ; ! "" ! Lex/tur
+kol:kol N1 ; ! "" ! Lex/tur
+kompozisyon:kompozisyon N1 ; ! "" ! Lex/tur
+komuta:komuta N1 ; ! "" ! Lex/tur
+konyak:konyak N1 ; ! "" ! Lex/tur
+köprü:köprü N1 ; ! "" ! Lex/tur
+kor:kor N1 ; ! "" ! Lex/tur
+korsan:korsan N1 ; ! "" ! Lex/tur
+koy:koy N1 ; ! "" ! Lex/tur
+kozak:kozak N1 ; ! "" ! Lex/tur
+küfür:küfür N1 ; ! "" ! Lex/tur
+kültür:kültür N1 ; ! "" ! Lex/tur
+kum:kum N1 ; ! "" ! Lex/tur
+kumar:kumar N1 ; ! "" ! Lex/tur
+kumaş:kumaş N1 ; ! "" ! Lex/tur
+küpe:küpe N1 ; ! "" ! Lex/tur
+kur:kur N1 ; ! "" ! Lex/tur
+kür:kür N1 ; ! "" ! Lex/tur
+kürek:kürek N1 ; ! "" ! Lex/tur
+kurgan:kurgan N1 ; ! "" ! Lex/tur
+kurultay:kurultay N1 ; ! "" ! Lex/tur
+kurum:kurum N1 ; ! "" ! Lex/tur
+kütüphane:kütüphane N1 ; ! "" ! Lex/tur
+kuyu:kuyu N1 ; ! "" ! Lex/tur
+kuzey:kuzey N1 ; ! "" ! Lex/tur
+lak:lak N1 ; ! "" ! Lex/tur
+liberalizm:liberalizm N1 ; ! "" ! Lex/tur
+liderlik:liderlik N1 ; ! "" ! Lex/tur
+lord:lord N1 ; ! "" ! Lex/tur
+lütfen:lütfen N1 ; ! "" ! Lex/tur
+maaş:maaş N1 ; ! "" ! Lex/tur
+magazin:magazin N1 ; ! "" ! Lex/tur
+mağlüp:mağlüp N1 ; ! "" ! Lex/tur
+mahkum:mahkum N1 ; ! "" ! Lex/tur
+mahsul:mahsul N1 ; ! "" ! Lex/tur
+mail:mail N1 ; ! "" ! Lex/tur
+makale:makale N1 ; ! "" ! Lex/tur
+malik:malik N1 ; ! "" ! Lex/tur
+malzeme:malzeme N1 ; ! "" ! Lex/tur
+mandıra:mandıra N1 ; ! "" ! Lex/tur
+mani:mani N1 ; ! "" ! Lex/tur
+manzara:manzara N1 ; ! "" ! Lex/tur
+marş:marş N1 ; ! "" ! Lex/tur
+maruz:maruz N1 ; ! "" ! Lex/tur
+master:master N1 ; ! "" ! Lex/tur
+maya:maya N1 ; ! "" ! Lex/tur
+mebus:mebus N1 ; ! "" ! Lex/tur
+mefruşat:mefruşat N1 ; ! "" ! Lex/tur
+mektup:mektup N1 ; ! "" ! Lex/tur
+melez:melez N1 ; ! "" ! Lex/tur
+menfaat:menfaat N1 ; ! "" ! Lex/tur
+mensup:mensup N1 ; ! "" ! Lex/tur
+merhamet:merhamet N1 ; ! "" ! Lex/tur
+merhum:merhum N1 ; ! "" ! Lex/tur
+merkeziyet:merkeziyet N1 ; ! "" ! Lex/tur
+mermi:mermi N1 ; ! "" ! Lex/tur
+meşale:meşale N1 ; ! "" ! Lex/tur
+meşgul:meşgul N1 ; ! "" ! Lex/tur
+mesleki:mesleki N1 ; ! "" ! Lex/tur
+meşrubat:meşrubat N1 ; ! "" ! Lex/tur
+mesuliyet:mesuliyet N1 ; ! "" ! Lex/tur
+metal:metal N1 ; ! "" ! Lex/tur
+metodik:metodik N1 ; ! "" ! Lex/tur
+metre:metre N1 ; ! "" ! Lex/tur
+metro:metro N1 ; ! "" ! Lex/tur
+meyil:meyil N1 ; ! "" ! Lex/tur
+mezat:mezat N1 ; ! "" ! Lex/tur
+mezhep:mezhep N1 ; ! "" ! Lex/tur
+mezun:mezun N1 ; ! "" ! Lex/tur
+mezuniyet:mezuniyet N1 ; ! "" ! Lex/tur
+minnet:minnet N1 ; ! "" ! Lex/tur
+mısra:mısra N1 ; ! "" ! Lex/tur
+mobil:mobil N1 ; ! "" ! Lex/tur
+mod:mod N1 ; ! "" ! Lex/tur
+moda:moda N1 ; ! "" ! Lex/tur
+mola:mola N1 ; ! "" ! Lex/tur
+monopol:monopol N1 ; ! "" ! Lex/tur
+montaj:montaj N1 ; ! "" ! Lex/tur
+mozaik:mozaik N1 ; ! "" ! Lex/tur
+mücadele:mücadele N1 ; ! "" ! Lex/tur
+müdafaa:müdafaa N1 ; ! "" ! Lex/tur
+muhalif:muhalif N1 ; ! "" ! Lex/tur
+mühür:mühür N1 ; ! "" ! Lex/tur
+mülk:mülk N1 ; ! "" ! Lex/tur
+mümin:mümin N1 ; ! "" ! Lex/tur
+müracaat:müracaat N1 ; ! "" ! Lex/tur
+mürettip:mürettip N1 ; ! "" ! Lex/tur
+müslüman:müslüman N1 ; ! "" ! Lex/tur
+mütercim:mütercim N1 ; ! "" ! Lex/tur
+müthiş:müthiş N1 ; ! "" ! Lex/tur
+müttefik:müttefik N1 ; ! "" ! Lex/tur
+muvazene:muvazene N1 ; ! "" ! Lex/tur
+muz:muz N1 ; ! "" ! Lex/tur
+müzakere:müzakere N1 ; ! "" ! Lex/tur
+müzik:müzik N1 ; ! "" ! Lex/tur
+nabız:nabız N1 ; ! "" ! Lex/tur
+nağme:nağme N1 ; ! "" ! Lex/tur
+nahiye:nahiye N1 ; ! "" ! Lex/tur
+namlu:namlu N1 ; ! "" ! Lex/tur
+nane:nane N1 ; ! "" ! Lex/tur
+nar:nar N1 ; ! "" ! Lex/tur
+narkotik:narkotik N1 ; ! "" ! Lex/tur
+nasihat:nasihat N1 ; ! "" ! Lex/tur
+nasip:nasip N1 ; ! "" ! Lex/tur
+nazım:nazım N1 ; ! "" ! Lex/tur
+nefret:nefret N1 ; ! "" ! Lex/tur
+nehir:nehir N1 ; ! "" ! Lex/tur
+nesir:nesir N1 ; ! "" ! Lex/tur
+nesne:nesne N1 ; ! "" ! Lex/tur
+net:net N1 ; ! "" ! Lex/tur
+niş:niş N1 ; ! "" ! Lex/tur
+norm:norm N1 ; ! "" ! Lex/tur
+not:not N1 ; ! "" ! Lex/tur
+nota:nota N1 ; ! "" ! Lex/tur
+nüfuz:nüfuz N1 ; ! "" ! Lex/tur
+nur:nur N1 ; ! "" ! Lex/tur
+ocak:ocak N1 ; ! "" ! Lex/tur
+öküz:öküz N1 ; ! "" ! Lex/tur
+olay:olay N1 ; ! "" ! Lex/tur
+onur:onur N1 ; ! "" ! Lex/tur
+otel:otel N1 ; ! "" ! Lex/tur
+pamuk:pamuk N1 ; ! "" ! Lex/tur
+paşa:paşa N1 ; ! "" ! Lex/tur
+patron:patron N1 ; ! "" ! Lex/tur
+pazartesi:pazartesi N1 ; ! "" ! Lex/tur
+perşembe:perşembe N1 ; ! "" ! Lex/tur
+peş:peş N1 ; ! "" ! Lex/tur
+pilot:pilot N1 ; ! "" ! Lex/tur
+polis:polis N1 ; ! "" ! Lex/tur
+popo:popo N1 ; ! "" ! Lex/tur
+portal:portal N1 ; ! "" ! Lex/tur
+post:post N1 ; ! "" ! Lex/tur
+potansiyel:potansiyel N1 ; ! "" ! Lex/tur
+profil:profil N1 ; ! "" ! Lex/tur
+program:program N1 ; ! "" ! Lex/tur
+rakı:rakı N1 ; ! "" ! Lex/tur
+refah:refah N1 ; ! "" ! Lex/tur
+reklam:reklam N1 ; ! "" ! Lex/tur
+restoran:restoran N1 ; ! "" ! Lex/tur
+roman:roman N1 ; ! "" ! Lex/tur
+rota:rota N1 ; ! "" ! Lex/tur
+saç:saç N1 ; ! "" ! Lex/tur
+sanatçı:sanatçı N1 ; ! "" ! Lex/tur
+sanayi:sanayi N1 ; ! "" ! Lex/tur
+şans:şans N1 ; ! "" ! Lex/tur
+sarsıntı:sarsıntı N1 ; ! "" ! Lex/tur
+şart:şart N1 ; ! "" ! Lex/tur
+saygı:saygı N1 ; ! "" ! Lex/tur
+seçim:seçim N1 ; ! "" ! Lex/tur
+şeftali:şeftali N1 ; ! "" ! Lex/tur
+şehir:şehir N1 ; ! "" ! Lex/tur
+sergi:sergi N1 ; ! "" ! Lex/tur
+sermaye:sermaye N1 ; ! "" ! Lex/tur
+servis:servis N1 ; ! "" ! Lex/tur
+sevda:sevda N1 ; ! "" ! Lex/tur
+seyahat:seyahat N1 ; ! "" ! Lex/tur
+seyir:seyir N1 ; ! "" ! Lex/tur
+sezon:sezon N1 ; ! "" ! Lex/tur
+sıcaklık:sıcaklık N1 ; ! "" ! Lex/tur
+şiddet:şiddet N1 ; ! "" ! Lex/tur
+sigorta:sigorta N1 ; ! "" ! Lex/tur
+sınır:sınır N1 ; ! "" ! Lex/tur
+şirket:şirket N1 ; ! "" ! Lex/tur
+sistem:sistem N1 ; ! "" ! Lex/tur
+slav:slav N1 ; ! "" ! Lex/tur
+solist:solist N1 ; ! "" ! Lex/tur
+sömürge:sömürge N1 ; ! "" ! Lex/tur
+son:son N1 ; ! "" ! Lex/tur
+sonuç:sonuç N1 ; ! "" ! Lex/tur
+sosyalizm:sosyalizm N1 ; ! "" ! Lex/tur
+sovyet:sovyet N1 ; ! "" ! Lex/tur
+sponsor:sponsor N1 ; ! "" ! Lex/tur
+stand:stand N1 ; ! "" ! Lex/tur
+şükür:şükür N1 ; ! "" ! Lex/tur
+taht:taht N1 ; ! "" ! Lex/tur
+takım:takım N1 ; ! "" ! Lex/tur
+tan:tan N1 ; ! "" ! Lex/tur
+tane:tane N1 ; ! "" ! Lex/tur
+tarak:tarak N1 ; ! "" ! Lex/tur
+tartışma:tartışma N1 ; ! "" ! Lex/tur
+tat:tat N1 ; ! "" ! Lex/tur
+tatil:tatil N1 ; ! "" ! Lex/tur
+tecrübe:tecrübe N1 ; ! "" ! Lex/tur
+tedavi:tedavi N1 ; ! "" ! Lex/tur
+tehdit:tehdit N1 ; ! "" ! Lex/tur
+teknoloji:teknoloji N1 ; ! "" ! Lex/tur
+telekom:telekom N1 ; ! "" ! Lex/tur
+telgraf:telgraf N1 ; ! "" ! Lex/tur
+tem:tem N1 ; ! "" ! Lex/tur
+tepe:tepe N1 ; ! "" ! Lex/tur
+ter:ter N1 ; ! "" ! Lex/tur
+terbiye:terbiye N1 ; ! "" ! Lex/tur
+terminal:terminal N1 ; ! "" ! Lex/tur
+teşekkür:teşekkür N1 ; ! "" ! Lex/tur
+teşkil:teşkil N1 ; ! "" ! Lex/tur
+tespit:tespit N1 ; ! "" ! Lex/tur
+tipi:tipi N1 ; ! "" ! Lex/tur
+titan:titan N1 ; ! "" ! Lex/tur
+toplu:toplu N1 ; ! "" ! Lex/tur
+toplum:toplum N1 ; ! "" ! Lex/tur
+tövbe:tövbe N1 ; ! "" ! Lex/tur
+trafik:trafik N1 ; ! "" ! Lex/tur
+transfer:transfer N1 ; ! "" ! Lex/tur
+tür:tür N1 ; ! "" ! Lex/tur
+tutar:tutar N1 ; ! "" ! Lex/tur
+üçlü:üçlü N1 ; ! "" ! Lex/tur
+uğur:uğur N1 ; ! "" ! Lex/tur
+ulaşım:ulaşım N1 ; ! "" ! Lex/tur
+utanç:utanç N1 ; ! "" ! Lex/tur
+uydu:uydu N1 ; ! "" ! Lex/tur
+uygulama:uygulama N1 ; ! "" ! Lex/tur
+vali:vali N1 ; ! "" ! Lex/tur
+vergi:vergi N1 ; ! "" ! Lex/tur
+veto:veto N1 ; ! "" ! Lex/tur
+virüs:virüs N1 ; ! "" ! Lex/tur
+vize:vize N1 ; ! "" ! Lex/tur
+yalancı:yalancı N1 ; ! "" ! Lex/tur
+yangın:yangın N1 ; ! "" ! Lex/tur
+yanlış:yanlış N1 ; ! "" ! Lex/tur
+yanlısı:yanlısı N1 ; ! "" ! Lex/tur
+yapı:yapı N1 ; ! "" ! Lex/tur
+yatırımcı:yatırımcı N1 ; ! "" ! Lex/tur
+yazar:yazar N1 ; ! "" ! Lex/tur
+yerleşim:yerleşim N1 ; ! "" ! Lex/tur
+yetki:yetki N1 ; ! "" ! Lex/tur
+yoldaş:yoldaş N1 ; ! "" ! Lex/tur
+zat:zat N1 ; ! "" ! Lex/tur
+ziyafet:ziyafet N1 ; ! "" ! Lex/tur
+zulüm:zulüm N1 ; ! "" ! Lex/tur
 
 
 LEXICON ProperNouns 
@@ -8153,6 +8754,17 @@ Smirnov:Smirnov NP-COG-OV ; ! ""
 Asanov:Asanov NP-COG-OV ; ! ""
 Kezlev:Kezlev NP-COG-OV ; ! ""
 Medvedev:Medvedev NP-COG-OV ; ! ""
+
+Yaitskiy:Yaitsk NP-COG-SKIY ; ! ""
+Yasinskiy:Yasinsk NP-COG-SKIY ; ! ""
+Voznesenskiy:Voznesensk NP-COG-SKIY ; ! ""
+Satanovskiy:Satanovsk NP-COG-SKIY ; ! ""
+Rimskiy:Rimsk NP-COG-SKIY ; ! ""
+Ostrovskiy:Ostrovsk NP-COG-SKIY ; ! ""
+Kamçatskiy:Kamçatsk NP-COG-SKIY ; ! ""
+Hmelnitskiy:Hmelnitsk NP-COG-SKIY ; ! ""
+Bankovskiy:Bankovsk NP-COG-SKIY ; ! ""
+Bahçisarayskiy:Bahçisaraysk NP-COG-SKIY ; ! ""
 
 Alminskiy:Alminsk NP-COG-SKIY ; ! ""
 Ayvazovskiy:Ayvazovsk NP-COG-SKIY ; ! ""
@@ -10671,6 +11283,16 @@ Eşref:Eşref NP-ANT-M; ! ""
 Cafer:Cafer NP-ANT-M; ! ""
 Sudaq:Sudaq NP-TOP; ! ""
 
+Lümyer:Lümyer NP-COG-MF ; ! ""
+
+Deşt%-i% Qıpçaq:Deşt%-i% Qıpçaq NP-TOP ; ! ""
+Lihtenşteyn:Lihtenşteyn  NP-TOP ; ! ""
+London:London NP-TOP ; ! ""
+Şri% Lanka:Şri% Lanka NP-TOP ; ! ""
+Pridnestrovye:Pridnestrovye NP-TOP ; ! ""
+
+Lopez:Lopez NP-COG-MF ; ! ""
+
 
 LEXICON Adjectives 
 
@@ -10693,6 +11315,7 @@ tüşkün:tüşkün A3 ; ! ""
 federal:federal A1 ; ! ""
 
 ayırdı:ayırdı A1 ; ! ""
+ortodoks:ortodoks A1 ; ! ""
 
 sabıq:sabıq A1 ; ! ""
 milletli:milletli A1 ; ! ""
@@ -12067,6 +12690,7 @@ artıq:artıq ADV ; ! "already/уже"
 !! Language
 
 arapça:arapça ADV-LANG ;
+qırımca:qırımca ADV-LANG ;
 türkçe:türkçe ADV-LANG ;
 frenkçe:frenkçe ADV-LANG ; 
 lehçe:lehçe ADV-LANG ;
@@ -12671,6 +13295,8 @@ yıqtır:yıqtır V-TV ; ! "" ! Der/Caus
 zevqlandır:zevqlandır V-TV ; ! "" ! Der/Caus
 ıstır:ıstır V-TV ; ! "" ! Der/Caus
 
+yasa:yasa V-TV ; ! ""
+
 
 qabul% et:qabul% et V-TV-AR ; ! ""
 qatil% et:qatil% et V-TV-AR ; ! "kill"
@@ -12690,6 +13316,37 @@ bit:bit V-TV-AR ; ! "finish"
 
 LEXICON Abbreviations
 
+A%.:A%. ABBR-INIT ; ! ""
+B%.:B%. ABBR-INIT ; ! ""
+V%.:V%. ABBR-INIT ; ! ""
+G%.:G%. ABBR-INIT ; ! ""
+Ğ%.:Ğ%. ABBR-INIT ; ! ""
+D%.:D%. ABBR-INIT ; ! ""
+E%.:E%. ABBR-INIT ; ! ""
+J%.:J%. ABBR-INIT ; ! ""
+Z%.:Z%. ABBR-INIT ; ! ""
+I%.:I%. ABBR-INIT ; ! ""
+K%.:K%. ABBR-INIT ; ! ""
+Q%.:Q%. ABBR-INIT ; ! ""
+L%.:L%. ABBR-INIT ; ! ""
+M%.:M%. ABBR-INIT ; ! ""
+N%.:N%. ABBR-INIT ; ! ""
+O%.:O%. ABBR-INIT ; ! ""
+P%.:P%. ABBR-INIT ; ! ""
+R%.:R%. ABBR-INIT ; ! ""
+S%.:S%. ABBR-INIT ; ! ""
+T%.:T%. ABBR-INIT ; ! ""
+U%.:U%. ABBR-INIT ; ! ""
+F%.:F%. ABBR-INIT ; ! ""
+H%.:H%. ABBR-INIT ; ! ""
+C%.:C%. ABBR-INIT ; ! ""
+Ç%.:Ç%. ABBR-INIT ; ! ""
+Ş%.:Ş%. ABBR-INIT ; ! ""
+Y%.:Y%. ABBR-INIT ; ! ""
+Ü%.:Ü%. ABBR-INIT ; ! ""
+Ä%.:Ä%. ABBR-INIT ; ! ""
+
+
 Dr%.:Dr%. ABBR ;
 km:km ABBR ; 
 mm:mm ABBR ; 
@@ -12703,6 +13360,10 @@ d%.:d%. ABBR ;
 LEXICON Interjections 
 
 tamam:tamam INTERJ ; ! ""
+
+LEXICON Symbols 
+
+°C:°C SYM ; ! ""
 
 LEXICON Punctuation
 
