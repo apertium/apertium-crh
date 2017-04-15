@@ -6621,6 +6621,9 @@ qazaq:qazaq N1 ; ! ""
 etnogenez:etnogenez N5 ; ! ""
 esperanto:esperanto N1 ; ! ""
 
+taqım:taqım N1; ! ""
+uyğur:uyğur N1; ! ""
+
 
 LEXICON ProperNouns 
 
@@ -10653,6 +10656,22 @@ Halil:Halil NP-ANT-M ; ! ""
 
 Atlantik:Atlantik NP-TOP ; ! "" Sem/Hyd
 
+Özenbaşlı:Özenbaşlı NP-COG-MF; ! ""
+Ülküsal:Ülküsal NP-COG-MF; ! ""
+Sultan:Sultan NP-COG-MF; ! ""
+Seydamet:Seydamet NP-COG-MF; ! ""
+Camala:Camala NP-ANT-F; ! ""
+Zıncırlı:Zıncırlı NP-AL; ! ""
+Gremmi:Gremmi NP-AL; ! ""
+Müstecib:Müstecib NP-ANT-M; ! ""
+Sahib:Sahib NP-ANT-M; ! ""
+Edige:Edige NP-ANT-M; ! ""
+Eşref:Eşref NP-ANT-M; ! ""
+Şamil:Şamil NP-ANT-M; ! ""
+Cafer:Cafer NP-ANT-M; ! ""
+Sudaq:Sudaq NP-TOP; ! ""
+
+
 LEXICON Adjectives 
 
 yoq:yoq A2 ; ! "нет"
@@ -11977,6 +11996,10 @@ ziyadesi:ziyadesi A3 ; ! "больший"
 zoologik:zoologik A3 ; ! "зоологический"
 zümreviy:zümreviy A3 ; ! "групповой"
 
+namlı:namlı A1; ! ""
+tamırlı:tamırlı A1; ! ""
+
+
 LEXICON Adverbs
 
 !! Interrogative
@@ -11995,9 +12018,11 @@ ne% içün:ne% içün ADV-ITG ;
 niçün:niçün ADV-ITG ;
 nege:nege ADV-ITG ;
 
+kene:kene ADV ; ! ""
+
 büs%-bütün:büs%-bütün ADV ; ! "абсолютно, совершенно"
-tamamen:tamamen ADV;
-esasen:esasen ADV;
+tamamen:tamamen ADV ;
+esasen:esasen ADV ;
 aslında:aslında ADV ; 
 tekrar:tekrar ADV ;
 çoq:çoq ADV ; ! "много, очень"
@@ -12668,9 +12693,11 @@ LEXICON Abbreviations
 Dr%.:Dr%. ABBR ;
 km:km ABBR ; 
 mm:mm ABBR ; 
+m:m ABBR ; 
 sm:sm ABBR ; 
 kg:kg ABBR ; 
 s%.:s%. ABBR ; 
+ss%.:ss%. ABBR ; 
 d%.:d%. ABBR ; 
 
 LEXICON Interjections 
