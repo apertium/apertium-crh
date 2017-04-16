@@ -7236,6 +7236,11 @@ ziyafet:ziyafet N1 ; ! "" ! Lex/tur
 zulüm:zulüm N1 ; ! "" ! Lex/tur
 
 litsey:litsey N1 ; ! ""
+affiks:affiks N1 ; ! ""
+antropolog:antropolog N1 ; ! ""
+balqar:balqar N1 ; ! ""
+muzıkant:muzıkant N5 ; ! ""
+
 
 LEXICON ProperNouns 
 
@@ -10117,7 +10122,6 @@ Bazarçıq:Bazarçıq NP-TOP ; ! ""
 Bek% Qazı:Bek% Qazı NP-TOP ; ! "" 
 Bel% Avuz% Qıpçaq:Bel% Avuz% Qıpçaq NP-TOP ; ! "" 
 Belbek:Belbek NP-TOP ; ! "" 
-Belgrad:Belgrad NP-TOP ; ! "" 
 Berdi% Bolat:Berdi% Bolat NP-TOP ; ! "" 
 Berezovka:Berezovka NP-TOP ; ! "" 
 Berşad:Berşad NP-TOP ; ! "" 
@@ -11305,6 +11309,30 @@ Pridnestrovye:Pridnestrovye NP-TOP ; ! ""
 Lopez:Lopez NP-COG-MF ; ! ""
 Abbas:Abbas NP-COG-MF ; ! ""
 
+Aşğabat:Aşğabat NP-TOP ; ! "" 
+Aşğabat:Ashkabat NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Aşğabat:Ashgabad NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Aşğabat:Aşhabad NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Aşğabat:Aşğabad NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+
+Belarus:Belarus NP-TOP ; ! ""
+Belgrad:Belgrad NP-TOP ; ! ""
+
+
+Qırımoğlu:Qırımoğlu NP-COG-MF ; ! ""
+Mısıroğlu:Mısıroğlu NP-COG-MF ; ! ""
+Gülümoğlu:Gülümoğlu NP-COG-MF ; ! ""
+Yaqupoğlu:Yaqupoğlu NP-COG-MF ; ! ""
+Saraçoğlu:Saraçoğlu NP-COG-MF ; ! ""
+Osmanoğlu:Osmanoğlu NP-COG-MF ; ! ""
+Malkoçoğlu:Malkoçoğlu NP-COG-MF ; ! ""
+Kırımoğlu:Kırımoğlu NP-COG-MF ; ! ""
+Kazancıoğlu:Kazancıoğlu NP-COG-MF ; ! ""
+Hacıoğlu:Hacıoğlu NP-COG-MF ; ! ""
+Gökçeoğlu:Gökçeoğlu NP-COG-MF ; ! ""
+Eyüboğlu:Eyüboğlu NP-COG-MF ; ! ""
+Boyacıoğlu:Boyacıoğlu NP-COG-MF ; ! ""
+Behramoğlu:Behramoğlu NP-COG-MF ; ! ""
 
 LEXICON Adjectives 
 
