@@ -68,7 +68,7 @@ LEXICON Exception
 LEXICON Exceptions 
 
 бульвар:бульвар Exception "weight: 0.1" ;
-пунктуация:пунктуатсия Exception "weight: 0.1" ;
+пунктуация:пунктуатси%{й%}я Exception "weight: 0.1" ;
 
 LEXICON Digits
 
