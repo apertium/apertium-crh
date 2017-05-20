@@ -39,7 +39,11 @@ Rules
 "Insert y for yot letters"
 %{й%}:y <=> .#. _ Yot: ;
             Vow:  _ Yot: ;
-            Cns: [ ь:0 | ъ:0 ] _ Yot: ;
+            Cns: [ ь:0 ] _ Yot: ;
+            Ambig: [ ъ:0 ] _ Yot: ;
+
+!! гонъюль:göñül
+!@ г:g о:ö н:ñ ъ:0 {й}:0 ю:ü л:l ь:0
 
 !! юзюни:yüzüni
 !@ {й}:y ю:ü з:z {й}:0 ю:ü н:n и:i
