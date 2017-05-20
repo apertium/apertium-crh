@@ -4,11 +4,13 @@ Multichar_Symbols
 
 %{İ%}
 %{й%}
+%{☭%}
 
 LEXICON Root 
 
 Alpha ; 
 Punct ; 
+Exceptions ;
 Digits ;
 
 LEXICON AlphaLoop 
@@ -58,6 +60,14 @@ LEXICON Alpha
 ё:%{й%}ё AlphaLoop "weight: 1.0" ; 
 
 И:%{İ%} AlphaLoop "weight: 0.5" ; 
+
+LEXICON Exception
+
+%{☭%}: AlphaLoop "weight: 0.1" ; 
+
+LEXICON Exceptions 
+
+пунктуация:пунктуация Exception "weight: 0.1" ;
 
 LEXICON Digits
 
