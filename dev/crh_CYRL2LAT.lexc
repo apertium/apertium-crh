@@ -37,7 +37,7 @@ LEXICON Alpha
 х:х AlphaLoop "weight: 1.0" ; 
 ч:ч AlphaLoop "weight: 1.0" ; 
 ш:ш AlphaLoop "weight: 1.0" ; 
-щ:щ AlphaLoop "weight: 1.0" ; 
+!щ:щ AlphaLoop "weight: 1.0" ; 
 ъ:ъ AlphaLoop "weight: 1.0" ; 
 ь:ь AlphaLoop "weight: 1.0" ; 
 
@@ -50,6 +50,7 @@ LEXICON Alpha
 о:о AlphaLoop "weight: 1.0" ; 
 
 ц:тс AlphaLoop "weight: 1.0" ;
+щ:шч AlphaLoop "weight: 1.0" ; 
 
 ю:%{й%}ю AlphaLoop "weight: 1.0" ; 
 я:%{й%}я AlphaLoop "weight: 1.0" ; 
