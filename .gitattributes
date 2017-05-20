@@ -14,6 +14,7 @@
 /configure.ac -text
 /crh.prob -text svneol=unset#unset
 dev/Makefile -text
+dev/annotate[!!-~]DK[!!-~]052017.txt -text
 dev/annotate.txt -text
 dev/countstems.sh -text
 dev/crh_CYRL2LAT.lexc -text
