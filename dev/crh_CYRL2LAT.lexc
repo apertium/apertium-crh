@@ -69,6 +69,21 @@ LEXICON Exceptions
 
 бульвар:бульвар Exception "weight: 0.1" ;
 пунктуация:пунктуатси%{й%}я Exception "weight: 0.1" ;
+меджуль:меджуль Exception "weight: 0.1" ;
+патруль:патруль Exception "weight: 0.1";
+сульх:сульх Exception "weight: 0.1";
+макъбуль:макъбуль Exception "weight: 0.1";
+сульфид:сульфид Exception "weight: 0.1";
+кульминацион:кульминацион Exception "weight: 0.1";
+хулья:хулья Exception "weight: 0.1";
+импульс:импульс Exception "weight: 0.1";
+эмульсия:эмульсия Exception "weight: 0.1";
+бульвар:бульвар Exception "weight: 0.1";
+факультет:факультет Exception "weight: 0.1";
+ультрамарин:ультрамарин Exception "weight: 0.1";
+ультиматум:ультиматум Exception "weight: 0.1";
+консультирлемек:консультирлемек Exception "weight: 0.1";
+хульяджы:хульяджы Exception "weight: 0.1";
 
 LEXICON Digits
 
