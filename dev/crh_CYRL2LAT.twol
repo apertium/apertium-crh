@@ -24,7 +24,7 @@ FrontVow = е э и
 BackVow = а у о ы
           А У О Ы ; ! non-first syllable only!
 
-Unspec = б в д ж з л й м н п р с т ф x ц ч ш щ
+Unspec = б в д ж з л й м н п р с т ф х ц ч ш щ
          Б В Д Ж З Л й М Н П Р С Т Ф Х Ц Ч Ш Щ ;
 
 Ambig = к г
