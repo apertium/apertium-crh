@@ -63,11 +63,11 @@ LEXICON Alpha
 
 LEXICON Exception
 
-%{☭%}: AlphaLoop "weight: 0.1" ; 
+:%{☭%} AlphaLoop "weight: 0.1" ; 
 
 LEXICON Exceptions 
 
-пунктуация:пунктуация Exception "weight: 0.1" ;
+пунктуация:пунктуатсия Exception "weight: 0.1" ;
 
 LEXICON Digits
 
