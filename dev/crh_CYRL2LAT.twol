@@ -110,17 +110,19 @@ Sx:Sy <=> Vow: ( %{й%}: ) _ Unspec:* [ BackVow: | [ Ambig: ъ: ] ] ;
 "Front vowels in front vowel contexts"
 Sx:Sy <=> _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] | ь: ] ;
           _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* ю:ü ;
+          Ambig: _ ; ! кок:kök кой:köy
+          _ [ Unspec: ь: ]+ :0* .#. ; ! уй:üy
       except
           ъ:0 _ ;
           _ [ Unspec: ]* %{й%}: ю: [ Unspec: | %{й%}: ]* [ BackVow: | [ Ambig: ъ: ] ] ;
           _ [ Unspec: | %{й%}: | [ н: ъ: ] ]* [ BackVow: | [ Ambig: ъ: ] ] ;
-          _ [ Unspec: ( ъ: ) ]* .#. ;
+          _ [ Unspec: ( ъ: ) ]* .#. ; ! рух:ruh, бу:bu
      ! lexical exceptions
           .#. _ н: %{й%}:0 е: н: .#. ;
           .#. б: _ г: у: н: ь: ;
           .#. %{й%}: е: _ д: и: й: ;
           .#. _ д: ж: %{й%}:0 ю: м: ;
-          _ [ :* - %{☭%}: ] %{☭%}: ;
+          _ [ : - [ %{☭%}: | ь: ] ]* %{☭%}: ;
       where Sx in ( о у О У )
             Sy in ( ö ü Ö Ü )
       matched ;
@@ -234,6 +236,7 @@ Sx:Sy <=> _ [ Unspec: | %{й%}: ]*/[ :0 - ъ: ]* [ FrontVow: | [ Ambig: \ъ: ] |
 !! лякин:lâkin
 
 !! рух:ruh
+!@ р:r у:u х:h
 
 !! уй:üy
 !@ у:ü й:y

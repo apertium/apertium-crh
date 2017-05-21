@@ -84,6 +84,8 @@ LEXICON Exceptions
 ультиматум:ультиматум Exception "weight: 0.1";
 консульт:консульт Exception "weight: 0.1";
 хульяджы:хуль%{й%}яджы Exception "weight: 0.1";
+уй:уйь Exception "weight: 0.1";
+кой:койь Exception "weight: 0.1";
 
 LEXICON Digits
 
