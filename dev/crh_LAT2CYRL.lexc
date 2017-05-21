@@ -97,6 +97,15 @@ bugün:bugun%{Ь%} Exception "weight: 0.1";
 baar:baar%{Ь%} Exception "weight: 0.1";
 baryer:bar%{Ь%}er Exception "weight: 0.1";
 asfalt:asfal%{Ь%}t Exception "weight: 0.1";
+palto:pal%{Ь%}to Exception "weight: 0.1";
+pavilyon:pavil%{Ь%}on Exception "weight: 0.1";
+peçenye:peçen%{Ь%}e Exception "weight: 0.1";
+perepis:perepis%{Ь%} Exception "weight: 0.1";
+plüralizm:plyuralizm Exception "weight: 0.1";
+plüs:plus%{Ь%} Exception "weight: 0.1";
+podyezd:pod%{Ь%}ezd Exception "weight: 0.1";
+porşen:porşen%{Ь%} Exception "weight: 0.1";
+povest:povest%{Ь%} Exception "weight: 0.1";
 
 !some common word beginnings
 ulti:ul%{Ь%}ti Exception "weight: 0.1";
