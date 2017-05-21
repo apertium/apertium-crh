@@ -1,0 +1,95 @@
+Alphabet 
+	а б в г д е ё ж з и й к л м н о п р с т у ф х ч ш щ ъ ы ь э ю я
+	А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ч Ш Щ Ъ Ы Ь Э Ю Я
+	
+	a:а â:я b:б c:0 ç:ч d:д e:э f:ф g:г ğ:г h:х i:и ı:ы j:ж k:к l:л m:м n:н ñ:н o:о ö:о p:п q:к r:р s:с ş:ш t:т u:у ü:у v:в w:в x:х y:й z:з
+   A:А Â:Я B:Б C:0 Ç:Ч D:Д E:Э F:Ф G:Г Ğ:Г H:Х İ:И I:Ы J:Ж K:К L:Л M:М N:Н Ñ:Н O:О Ö:О P:П Q:К R:Р S:С Ş:Ш T:Т U:У Ú:У V:В W:В X:Х Y:Й Z:З
+   %{ъ%}:ъ %{ь%}:0 ;
+
+
+Sets
+
+Cns = b c ç d f g ğ h j k l m n ñ p q r s ş t v w x y z
+      B C Ç D F G Ğ H J K L M N Ñ P Q R S Ş T V W X Y Z ;
+
+Vow = a â e i ı o ö u ü
+      A Â E İ I O Ö U Ü ;
+
+FrontVow = e i ö ü
+           E İ Ö Ü ;
+
+BackVow = a â ı o u
+          A Â I O U ;
+
+CyrBackVowNoYot = а о у
+                  А О У ;
+
+Rules
+
+"Use ь after front vowel realised as back vowel"
+%{ь%}:ь <=> FrontVow:CyrBackVowNoYot Cns: _ ;
+
+!! göñül:гонъюль
+!! keñez:кенъез
+!! yüzüni:юзюни
+!! yağya:ягъя
+!! dünyanı:дюньяны
+!! yaratqan:яраткъан
+!! qıyafetimizge:къыяфетимизге
+!! lânet:лянет
+!! yoq:ёкъ
+!! yer:ер
+!! yahşı:яхшы
+!! mahlüqlarğa:махлюкъларгъа
+!! yön:ёнь
+!! üç:учь
+!! kün:кунь
+!! ucüm:уджюм
+!! punktuatsiya:пунктуация
+!! bugünge:бугуньге
+!! yeudiyler:еудийлер
+!! sözüni:сёзюни
+!! soyundan:союндан
+!! İsrailge:Исраильге
+!! onen:онен
+!! soñ:сонъ
+!! olsun:олсун
+!! bu:бу
+!! boyunca:боюнджа
+!! büyük:буюк
+!! bütün:бутюн
+!! kök:кок
+!! ekinci:экинджи
+!! öz:озь
+!! özü:озю
+!! ürmet:урьмет
+!! ömür:омюр
+!! közü:козю
+!! köstergen:косьтерген
+!! öldürildi:ольдюрильди
+!! öldürilgen:ольдюрильген
+!! özüñni:озюнъни
+!! özü:озю
+!! quyunı:къуюны
+!! kördim:корьдим
+!! qorqqan:къоркъкъан
+!! künü:куню
+!! İbramğa:Ибрамгъа
+!! mümkün:мумкюн
+!! qoyulğan:къоюлгъан
+!! köyüne:коюне
+!! müşkül:мушкюль
+!! yüz:юзь
+!! oğlan:огълан
+!! oña:онъа
+!! oğluna:огълуна
+!! bugün:бугунь
+!! yol:ёл
+!! ğurbetlikte:гъурбетликте
+!! qasevetini:къасеветини
+!! evlâtlarıñ:эвлятларынъ
+!! lâkin:лякин
+!! ruh:рух
+!! üy:уй
+!! köy:кой
+
