@@ -18,6 +18,7 @@ dev/annotate[!!-~]DK[!!-~]052017.txt -text
 dev/annotate.trimmed.txt -text
 dev/annotate.txt -text
 dev/countstems.sh -text
+dev/crh_CYRL.txt -text
 dev/crh_CYRL2LAT.lexc -text
 dev/crh_CYRL2LAT.sh -text
 dev/crh_CYRL2LAT.twol -text
