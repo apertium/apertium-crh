@@ -112,6 +112,7 @@ pyesa:p%{Ь%}esa Exception "weight: 0.1";
 hulya:hul%{Ь%}ya Exception "weight: 0.1";
 ilk:i%{Ь%}lk Exception "weight: 0.1";
 isyan:is%{ь%}yan Exception "weight: 0.1";
+küç:küç%{Ь%} Exception "weight: 0.1";
 
 !some common word beginnings
 ulti:ul%{Ь%}ti Exception "weight: 0.1";
