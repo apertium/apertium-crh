@@ -15,7 +15,7 @@
 		"e" cop pres p3 frm sg
 
 "<yeñilmesinen>"
-	"yeñilme” n px3sp ins
+	"yeñilme" n px3sp ins
 
 "<tanımı>"
 	"tan" n px3sp nom
@@ -158,8 +158,8 @@
 		"e" cop aor p3 sg
 
 "<Kitab>"
-	“kitab" n nom
-	“kitab” n nom
+	"kitab" n nom
+	"kitab" n nom
 		"e" cop aor p3 sg
 
 "<qarşı>"
@@ -245,8 +245,9 @@
 	"yap" v tv neg prc_impf
 
 "<Kızıl>"
-	“kızıl" adj
+	"kızıl" adj
 		"e" cop aor p3 sg
+	"kızıl" adj
 		"e" cop aor p3 pl
 
 "<658>"
@@ -254,11 +255,11 @@
 	"658" num subst nom
 
 "<başlanğanı>"
-	"başlan” vaux pass ger_past px3sp nom
-	"başlan” v tv pass ger_past px3sp nom
-	"başlan” vaux pass ger_past px3sp nom
+	"başlan" vaux pass ger_past px3sp nom
+	"başlan" v tv pass ger_past px3sp nom
+	"başlan" vaux pass ger_past px3sp nom
 		"e" cop aor p3 sg
-	"başlan” v tv pass ger_past px3sp nom
+	"başlan" v tv pass ger_past px3sp nom
 		"e" cop aor p3 sg
 
 "<168>"
@@ -478,7 +479,7 @@
 	"1926" num subst nom
 
 "<Antarktidadır>"
-	“antarktida" np top nom
+	"antarktida" np top nom
 		"e" cop aor p3 frm sg
 	"antarktida" np top nom
 		"e" cop pres p3 frm sg
@@ -511,7 +512,7 @@
 	"1317" num subst nom
 
 "<varlığının>"
-	"varlık” n px3sg gen
+	"varlık" n px3sg gen
 
 "<513>"
 	"513" num
@@ -533,7 +534,7 @@
 	"seyaat" n px3sp dat
 
 "<atta>"
-	“at” cnjadv
+	"at" cnjadv
 	"at" n loc
 	"at" n loc
 		"e" cop aor p3 sg
@@ -550,7 +551,7 @@
 	"taşla" v tv prc_perf
 
 "<Folkloru>"
-	“folkloru" n poss
+	"folkloru" n poss
 
 "<qoymağa>"
 	"qoy" vaux ger dat
@@ -571,7 +572,7 @@
 		"e" cop aor p3 sg
 
 "<qulaçıqlar>"
-	"qulaçıq” n pl
+	"qulaçıq" n pl
 	"qulaçıq" n nom
 		"e" cop aor p3 pl
 
@@ -659,10 +660,10 @@
 	"oçerk" n pl abl
 
 "<hazarlar>"
-	“hazar" n nom
+	"hazar" n nom
 		"e" cop aor p3 pl
-	“hazar" n pl nom
-	“hazar" n pl nom
+	"hazar" n pl nom
+	"hazar" n pl nom
 		"e" cop aor p3 pl
 
 "<şeerde>"
