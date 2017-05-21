@@ -106,6 +106,8 @@ plüs:plus%{Ь%} Exception "weight: 0.1";
 podyezd:pod%{Ь%}ezd Exception "weight: 0.1";
 porşen:porşen%{Ь%} Exception "weight: 0.1";
 povest:povest%{Ь%} Exception "weight: 0.1";
+qalp:qal%{Ь%}p Exception "weight: 0.1";
+pyesa:p%{Ь%}esa Exception "weight: 0.1";
 
 !some common word beginnings
 ulti:ul%{Ь%}ti Exception "weight: 0.1";
