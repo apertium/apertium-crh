@@ -90,6 +90,7 @@ LEXICON Exception
 
 LEXICON Exceptions 
 
+! words with misc y or ь issues
 söz:syoz Exception "weight: 0.1" ;
 dünya:dün%{Ь%}ya Exception "weight: 0.1";
 bugün:bugun%{Ь%} Exception "weight: 0.1";
@@ -108,6 +109,8 @@ porşen:porşen%{Ь%} Exception "weight: 0.1";
 povest:povest%{Ь%} Exception "weight: 0.1";
 qalp:qal%{Ь%}p Exception "weight: 0.1";
 pyesa:p%{Ь%}esa Exception "weight: 0.1";
+hulya:hul%{Ь%}я Exception "weight: 0.1";
+ilk:i%{Ь%}lkк Exception "weight: 0.1";
 
 !some common word beginnings
 ulti:ul%{Ь%}ti Exception "weight: 0.1";
