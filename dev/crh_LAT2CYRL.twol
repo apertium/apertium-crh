@@ -124,6 +124,7 @@ Vx:Vy <=> y: _ Cns: :0* [ :ь | FrontVow: ] ;
 
 "e as э"
 e:э <=> .#. _ ;
+        e: _ ;
 
 "ts → ц the t part"
 t:0 <=> _ :0* s: ;
