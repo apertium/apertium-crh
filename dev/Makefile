@@ -1,4 +1,7 @@
-all: cyrl2lat lat2cyrl
+all: lat2cyrl cyrl2lat
+	hfst-compose-intersect -1 ../.deps/crh.LR.hfst -2 crh_LAT2CYRL.hfst -o crh.LR.cyrl.hfst
+	hfst-union -1 ../.deps/crh.LR.hfst -2 crh.LR.cyrl.hfst -o crh.LR.biscript.hfst
+	hfst-invert crh.LR.biscript.hfst | hfst-fst2fst -w -o crh.LR.biscript.hfstol
 
 cyrl2lat:
 	hfst-twolc -i crh_CYRL2LAT.twol -o crh_CYRL2LAT.twol.hfst

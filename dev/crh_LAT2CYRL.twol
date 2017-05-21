@@ -55,8 +55,8 @@ y:0 <=> _ :CyrYotVowels ;
 
 "Yot conversion for back vowels"
 Vx:Vy <=> y: _ ;
-      where Vx in ( o u a e )
-            Vy in ( ё ю я е )
+      where Vx in ( o u a ) ! e )
+            Vy in ( ё ю я ) ! е )
       matched ;
 
 !! yoq:ёкъ
@@ -66,6 +66,10 @@ Vx:Vy <=> y: _ ;
 !! yer:ер
 
 !! yahşı:яхшы
+
+!! şeer:шеэр
+
+!@ ş:ш {ь}:0 e:е e:э r:р {ь}:0
 
 "Front vowel yot conversion"
 Vx:Vy <=> y: _ Cns: :0* [ :ь | FrontVow: ] ;
