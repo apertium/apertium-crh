@@ -1,9 +1,9 @@
-Alphabet 
-	а б в г д е ё ж з и й к л м н о п р с т у ф х ч ш щ ъ ы ь э ю я
-	А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ч Ш Щ Ъ Ы Ь Э Ю Я
-	
-	a:а â:я b:б c:0 ç:ч d:д e:э f:ф g:г ğ:г h:х i:и ı:ы j:ж k:к l:л m:м n:н ñ:н o:о ö:о p:п q:к r:р s:с ş:ш t:т u:у ü:у v:в w:в x:х y:й z:з
-   A:А Â:Я B:Б C:0 Ç:Ч D:Д E:Э F:Ф G:Г Ğ:Г H:Х İ:И I:Ы J:Ж K:К L:Л M:М N:Н Ñ:Н O:О Ö:О P:П Q:К R:Р S:С Ş:Ш T:Т U:У Ú:У V:В W:В X:Х Y:Й Z:З
+Alphabet
+	а б в г д е ё ж з и й к л м н о п р с т у ф х ч ц ш щ ъ ы ь э ю я
+	А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ч Ц Ш Щ Ъ Ы Ь Э Ю Я
+
+	a:а â:я b:б c:0 ç:ч d:д e:е f:ф g:г ğ:г h:х i:и ı:ы j:ж k:к l:л m:м n:н ñ:н o:о ö:о p:п q:к r:р s:с ş:ш t:т u:у ü:у v:в w:в x:х y:й z:з
+   A:А Â:Я B:Б C:0 Ç:Ч D:Д E:Е F:Ф G:Г Ğ:Г H:Х İ:И I:Ы J:Ж K:К L:Л M:М N:Н Ñ:Н O:О Ö:О P:П Q:К R:Р S:С Ş:Ш T:Т U:У Ú:У V:В W:В X:Х Y:Й Z:З
    %{ъ%}:ъ %{ь%}:0 ;
 
 
@@ -24,12 +24,74 @@ BackVow = a â ı o u
 CyrBackVowNoYot = а о у
                   А О У ;
 
+CyrYotVowels = е ё ю я
+               Е Ё Ю Я ;
+
+CyrYotBackVowels = ё ю
+                   Ё Ю ;
+
+
 Rules
 
 "Use ь after front vowel realised as back vowel"
 %{ь%}:ь <=> FrontVow:CyrBackVowNoYot Cns: _ ;
+            .#. y: FrontVow:CyrYotBackVowels Cns: _ .#. ;
+            :ъ FrontVow: Cns: _ .#. ;
+        except
+            _ FrontVow: ;
+            [ k: | g: ] _ ;
+
+"Delete й in conversion to yot vowels"
+y:0 <=> _ :CyrYotVowels ;
+
+
+"Yot conversion for back vowels"
+Vx:Vy <=> y: _ ;
+      where Vx in ( o u a e )
+            Vy in ( ё ю я е )
+      matched ;
+
+!! yoq:ёкъ
+
+!! yol:ёл
+
+!! yer:ер
+
+!! yahşı:яхшы
+
+"Front vowel yot conversion"
+Vx:Vy <=> y: _ Cns: :0* [ :ь | FrontVow: ] ;
+          _ .#. ;
+          .#. y: _ ;
+          \[ y: | k: ] _ [ Cns: - [ z: | ç: | y: ] ] ; ! [ ñ: | n: | r: | l: ] ;
+      except
+          k: ( %{ь%}: ) _ ;
+          _ Cns: :ъ* FrontVow: ; ! göñül:гонъюль
+      where Vx in ( ö ü )
+            Vy in ( ё ю )
+      matched ;
+
+!! yüz:юзь
+!@ y:0 ü:ю z:з {ь}:ь
+
+!! yön:ёнь
 
 !! göñül:гонъюль
+
+!! üç:учь
+!! öz:озь
+!! üy:уй
+
+"e as э"
+e:э <=> .#. _ ;
+
+"ts → ц the t part"
+t:0 <=> _ :0* s: ;
+
+"ts → ц the s part"
+s:ц <=> t: :0* _ ;
+
+
 !! keñez:кенъез
 !! yüzüni:юзюни
 !! yağya:ягъя
@@ -37,12 +99,7 @@ Rules
 !! yaratqan:яраткъан
 !! qıyafetimizge:къыяфетимизге
 !! lânet:лянет
-!! yoq:ёкъ
-!! yer:ер
-!! yahşı:яхшы
 !! mahlüqlarğa:махлюкъларгъа
-!! yön:ёнь
-!! üç:учь
 !! kün:кунь
 !! ucüm:уджюм
 !! punktuatsiya:пунктуация
@@ -59,8 +116,9 @@ Rules
 !! büyük:буюк
 !! bütün:бутюн
 !! kök:кок
+!! köy:кой
+
 !! ekinci:экинджи
-!! öz:озь
 !! özü:озю
 !! ürmet:урьмет
 !! ömür:омюр
@@ -79,17 +137,13 @@ Rules
 !! qoyulğan:къоюлгъан
 !! köyüne:коюне
 !! müşkül:мушкюль
-!! yüz:юзь
 !! oğlan:огълан
 !! oña:онъа
 !! oğluna:огълуна
 !! bugün:бугунь
-!! yol:ёл
 !! ğurbetlikte:гъурбетликте
 !! qasevetini:къасеветини
 !! evlâtlarıñ:эвлятларынъ
 !! lâkin:лякин
 !! ruh:рух
-!! üy:уй
-!! köy:кой
 
