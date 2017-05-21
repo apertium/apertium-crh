@@ -42,7 +42,7 @@ Rules
 "Use ь after front vowel realised as back vowel and all front l"
 %{ь%}:ь <=> FrontVow:CyrBackVowNoYot Cns: _ ;
             .#. y: FrontVow:CyrYotBackVowels Cns: _ .#. ;
-            :ъ FrontVow: Cns: _ .#. ;
+            :ъ FrontRoundVow: Cns: _ .#. ;
             FrontVow: l: _ \Vow: ;
         except
             _ FrontVow: ;

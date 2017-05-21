@@ -88,3 +88,4 @@ LEXICON Exceptions
 
 söz:syoz Exception "weight: 0.1" ;
 dünya:dün%{Ь%}ya Exception "weight: 0.1";
+bugün:bugun%{Ь%} Exception "weight: 0.1";
