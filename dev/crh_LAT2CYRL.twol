@@ -46,7 +46,8 @@ Rules
             FrontVow: l: _ \Vow: ;
         except
             _ FrontVow: ;
-            l: _ l: ;
+            l: _ l: ; ! telli:телли
+            l: _ â: ; ! külâ:куля
             [ k: | g: ] _ ;
             \l: _ Cns: [ Cns: | :ъ | :0 ]* :CyrYotBackVowels ;
             _ Cns: %{ь%}: .#. ; ! üst:усть
