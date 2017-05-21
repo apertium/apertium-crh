@@ -46,8 +46,11 @@ Rules
             FrontVow: l: _ \Vow: ;
         except
             _ FrontVow: ;
+            l: _ l: ;
             [ k: | g: ] _ ;
             \l: _ Cns: [ Cns: | :ъ | :0 ]* :CyrYotBackVowels ;
+
+!! telli:телли
 
 "Delete й in conversion to yot vowels"
 y:0 <=> _ :CyrYotVowels ;
