@@ -93,3 +93,5 @@ söz:syoz Exception "weight: 0.1" ;
 dünya:dün%{Ь%}ya Exception "weight: 0.1";
 bugün:bugun%{Ь%} Exception "weight: 0.1";
 özgün:ozgun%{Ь%} Exception "weight: 0.1";
+baar:baar%{Ь%} Exception "weight: 0.1";
+baryer:bar%{Ь%}er Exception "weight: 0.1";
