@@ -40,7 +40,7 @@ CyrYotBackVowels = ё ю
 Rules
 
 "Use ь after front vowel realised as back vowel and all front l"
-%{ь%}:ь <=> FrontVow:CyrBackVowNoYot Cns: _ ;
+%{ь%}:ь <=> FrontVow:CyrBackVowNoYot Cns: ( %{ь%}: Cns: ) _ ;
             .#. y: FrontVow:CyrYotBackVowels Cns: _ .#. ;
             :ъ FrontRoundVow: Cns: _ .#. ;
             FrontVow: l: _ \Vow: ;
@@ -49,7 +49,10 @@ Rules
             l: _ l: ;
             [ k: | g: ] _ ;
             \l: _ Cns: [ Cns: | :ъ | :0 ]* :CyrYotBackVowels ;
+            _ Cns: %{ь%}: .#. ; ! üst:усть
 
+!! üst:усть
+!@ 
 !! telli:телли
 
 "Delete й in conversion to yot vowels"
