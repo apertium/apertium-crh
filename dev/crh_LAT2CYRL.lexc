@@ -6,6 +6,7 @@ Multichar_Symbols
 %{ъ%}
 %{☭%}
 %{Ь%}
+%{Ъ%}
 %{щ%}
 
 LEXICON Root 
@@ -96,3 +97,79 @@ bugün:bugun%{Ь%} Exception "weight: 0.1";
 baar:baar%{Ь%} Exception "weight: 0.1";
 baryer:bar%{Ь%}er Exception "weight: 0.1";
 asfalt:asfal%{Ь%}t Exception "weight: 0.1";
+
+!some common word beginnings
+ulti:ul%{Ь%}ti Exception "weight: 0.1";
+ultra:ul%{Ь%}tra Exception "weight: 0.1";
+urm:ur%{Ь%}m Exception "weight: 0.1";
+urk:ur%{Ь%}k Exception "weight: 0.1";
+url:ur%{Ь%}l Exception "weight: 0.1";
+
+!some words that end in ль
+aerozol:aerozol%{Ь%} Exception "weight: 0.1";
+aktual:aktual%{Ь%} Exception "weight: 0.1";
+alkogol:alkogol%{Ь%} Exception "weight: 0.1";
+ansambl:ansambl%{Ь%} Exception "weight: 0.1";
+arzual:arzual%{Ь%} Exception "weight: 0.1";
+detal:detal%{Ь%} Exception "weight: 0.1";
+diagonal:diagonal%{Ь%} Exception "weight: 0.1";
+düldül:düldül%{Ь%} Exception "weight: 0.1";
+embrional:embrional%{Ь%} Exception "weight: 0.1";
+faal:faal%{Ь%} Exception "weight: 0.1";
+fenomenal:fenomenal%{Ь%} Exception "weight: 0.1";
+fevral:fevral%{Ь%} Exception "weight: 0.1";
+formal:formal%{Ь%} Exception "weight: 0.1";
+frontal:frontal%{Ь%} Exception "weight: 0.1";
+ikmal:ikmal%{Ь%} Exception "weight: 0.1";
+işğal:işğal%{Ь%} Exception "weight: 0.1";
+istiqbal:istiqbal%{Ь%} Exception "weight: 0.1";
+istiqlâl:istiqlâl%{Ь%} Exception "weight: 0.1";
+ital:i%{Ъ%}tal%{Ь%} Exception "weight: 0.1";
+Kastropol:Kastropol%{Ь%} Exception "weight: 0.1";
+kinofestival:kinofestival%{Ь%} Exception "weight: 0.1";
+kommunal:kommunal%{Ь%} Exception "weight: 0.1";
+kontinental:kontinental%{Ь%} Exception "weight: 0.1";
+magistral:magistral%{Ь%} Exception "weight: 0.1";
+maqbul:maqbul%{Ь%} Exception "weight: 0.1";
+meal:meal%{Ь%} Exception "weight: 0.1";
+mecul:mecul%{Ь%} Exception "weight: 0.1";
+medal:medal%{Ь%} Exception "weight: 0.1";
+meşal:meş%{Ъ%}al%{Ь%} Exception "weight: 0.1";
+meşğul:meşğul%{Ь%} Exception "weight: 0.1";
+mineral:mineral%{Ь%} Exception "weight: 0.1";
+misal:misal%{Ь%} Exception "weight: 0.1";
+müçel:müçel%{Ь%} Exception "weight: 0.1";
+mükemmel:mükemmel%{Ь%} Exception "weight: 0.1";
+mütezil:mütezil%{Ь%} Exception "weight: 0.1";
+neytral:neytral%{Ь%} Exception "weight: 0.1";
+normal:normal%{Ь%} Exception "weight: 0.1";
+optimal:optimal%{Ь%} Exception "weight: 0.1";
+ornamental:ornamental%{Ь%} Exception "weight: 0.1";
+parol:parol%{Ь%} Exception "weight: 0.1";
+patrul:patrul%{Ь%} Exception "weight: 0.1";
+pedal:pedal%{Ь%} Exception "weight: 0.1";
+ratsional:ratsional%{Ь%} Exception "weight: 0.1";
+real:real%{Ь%} Exception "weight: 0.1";
+regional:regional%{Ь%} Exception "weight: 0.1";
+şimal:şimal%{Ь%} Exception "weight: 0.1";
+spiral:spiral%{Ь%} Exception "weight: 0.1";
+sual:sual%{Ь%} Exception "weight: 0.1";
+territorial:territorial%{Ь%} Exception "weight: 0.1";
+timsal:timsal%{Ь%} Exception "weight: 0.1";
+total:total%{Ь%} Exception "weight: 0.1";
+tütkel:tütkel%{Ь%} Exception "weight: 0.1";
+universal:universal%{Ь%} Exception "weight: 0.1";
+vertikal:vertikal%{Ь%} Exception "weight: 0.1";
+
+! Some words that have hard signs
+alyanaq:al%{Ъ%}yanaq Exception "weight: 0.1";
+demiryol:demir%{Ъ%}yol Exception "weight: 0.1";
+deral:der%{Ъ%}al Exception "weight: 0.1";
+havyar:hav%{Ъ%}yar Exception "weight: 0.1";
+italât:it%{Ъ%}alât Exception "weight: 0.1";
+küleryüz:küler%{Ъ%}yüz Exception "weight: 0.1";
+mefum:me%{Ъ%}fum Exception "weight: 0.1";
+meşalci:meş%{Ъ%}alci Exception "weight: 0.1";
+obyekt:ob%{Ъ%}yekt Exception "weight: 0.1";
+subyekt:sub%{Ъ%}yekt Exception "weight: 0.1";
+yamyam:yam%{Ъ%}yam Exception "weight: 0.1";
