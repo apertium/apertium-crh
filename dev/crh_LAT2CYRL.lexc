@@ -6,6 +6,7 @@ Multichar_Symbols
 %{ъ%}
 %{☭%}
 %{Ь%}
+%{щ%}
 
 LEXICON Root 
 
@@ -59,6 +60,8 @@ c:dj AlphaLoop "weight: 1.0" ;
 q:q%{ъ%} AlphaLoop "weight: 1.0" ;
 ğ:ğ%{ъ%} AlphaLoop "weight: 1.0" ;
 
+şç:%{щ%} AlphaLoop "weight: 0.5" ; ! should be same weight as шч?
+
 LEXICON Digits
 
 <[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+> # ;
@@ -89,3 +92,4 @@ LEXICON Exceptions
 söz:syoz Exception "weight: 0.1" ;
 dünya:dün%{Ь%}ya Exception "weight: 0.1";
 bugün:bugun%{Ь%} Exception "weight: 0.1";
+özgün:ozgun%{Ь%} Exception "weight: 0.1";
