@@ -81,13 +81,12 @@ Vx:Vy <=> y: _ Cns: :0* [ :ь | FrontVow: ] ;
 !          t: %{ь%}: _ n: ;
       except
           .#. [ k: | g: ] ( %{ь%}: ) _ ;
-          _ Cns: [ :ъ | :0 | Cns: ]* FrontRoundVow: ; ! göñül:г_о_нъюль, bütün:б_у_тюн EXCEPT sözüni:с_ё_зюни
+          \y: _ Cns: [ :ъ | :0 | Cns: ]* FrontRoundVow: ; ! göñül:г_о_нъюль, bütün:б_у_тюн EXCEPT sözüni:с_ё_зюни
           .#. _ Cns: [ :ъ | :0 | Cns: ]* FrontRoundVow: ; ! öldürildi:_о_льдюрильди
+          .#. _ Cns: :ь ; ! урьмет
       where Vx in ( ö ü )
             Vy in ( ё ю )
       matched ;
-
-
 
 ! Pattern A
 !! bütün:бутюн
@@ -135,6 +134,8 @@ s:ц <=> t: :0* _ ;
 
 !! keñez:кенъез
 !! yüzüni:юзюни
+!@ y:0 ü:ю z:з {ь}:0 ü:ю n:н {ь}:0 i:и
+
 !! yağya:ягъя
 !! dünyanı:дюньяны
 !! yaratqan:яраткъан
