@@ -176,6 +176,8 @@ total:total%{Ь%} Exception "weight: 0.1";
 tütkel:tütkel%{Ь%} Exception "weight: 0.1";
 universal:universal%{Ь%} Exception "weight: 0.1";
 vertikal:vertikal%{Ь%} Exception "weight: 0.1";
+mülk:mül%{Ь%}k Exception "weight: 0.1";
+plüs:plyus Exception "weight: 0.1";
 
 ! Some words that have hard signs
 alyanaq:al%{Ъ%}yanaq%{ъ%} Exception "weight: 0.1";
