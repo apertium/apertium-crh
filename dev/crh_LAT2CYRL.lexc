@@ -109,8 +109,9 @@ porşen:porşen%{Ь%} Exception "weight: 0.1";
 povest:povest%{Ь%} Exception "weight: 0.1";
 qalp:q%{ъ%}al%{Ь%}p Exception "weight: 0.1";
 pyesa:p%{Ь%}esa Exception "weight: 0.1";
-hulya:hul%{Ь%}я Exception "weight: 0.1";
-ilk:i%{Ь%}lkк Exception "weight: 0.1";
+hulya:hul%{Ь%}ya Exception "weight: 0.1";
+ilk:i%{Ь%}lk Exception "weight: 0.1";
+isyan:is%{ь%}yan Exception "weight: 0.1";
 
 !some common word beginnings
 ulti:ul%{Ь%}ti Exception "weight: 0.1";
