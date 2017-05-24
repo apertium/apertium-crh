@@ -1416,7 +1416,7 @@
 "<,>"
 	"," cm @punct #9->
 "<aliy>"
-	"aliy" n nom @nmod:poss #10->11
+	"aliy" adj @amod #10->11
 "<başlıqları>"
 	"başlıq" n pl px3sp nom @nsubj #11->14
 "<esasen>"
