@@ -1070,17 +1070,17 @@
 	"." sent @punct
 
 "<Vatandaşlıq>"
-	"vatandaşlıq" n nom @nmod:poss
+	"vatandaşlıq" n nom @nmod:poss #1->2
 "<cenki>"
-	"cenk" n px3sp nom 
+	"cenk" n px3sp nom @conj #2->5
 "<ve>"
-	"ve" cnjcoo @cc
+	"ve" cnjcoo @cc #3->5
 "<Qırım>"
-	"Qırım" np top nom
+	"Qırım" np top nom @flat:name #4->5
 "<MŞSC>"
-	"MŞSC" np al nom
+	"MŞSC" np al nom @root #5->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->5
 
 "<1939>"
 	"1939" num
@@ -1110,36 +1110,36 @@
 	"." sent @punct
 
 "<1917>"
-	"1917" num
+	"1917" num @amod
 "<senesi>"
 	"sene" n px3sp nom
 "<mart>"
 	"mart" n nom
 "<25-de>"
-	"25" num subst loc
+	"25" num subst loc @obl
 "<Aqmescitte>"
-	"Aqmescit" np top loc
+	"Aqmescit" np top loc @obl
 "<qırımtatar>"
 	"qırımtatar" n nom
 "<qurultayı>"
 	"qurultay" n px3sp nom
 "<ötkerildi>"
-	"ötker" v tv pass ifi p3 sg
+	"ötker" v tv pass ifi p3 sg @root
 "<.>"
 	"." sent @punct
 
 "<Anda>"
-	"anda" adv
+	"anda" adv @advmod #1->5
 "<2000-den>"
-	"2000" num subst abl
+	"2000" num subst abl @nmod #2->3
 "<ziyade>"
-	"ziyade" adj
+	"ziyade" adj @amod #3->4
 "<delegat>"
-	"delegat" n nom
+	"delegat" n nom @nsubj #4->5
 "<keldi>"
-	"kel" v iv ifi p3 sg
+	"kel" v iv ifi p3 sg @root #5->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->5
 
 "<Qurultay>"
 	"Qurultay" np al nom
@@ -1198,23 +1198,23 @@
 	"." sent @punct
 
 "<Rusiye>"
-	"Rusiye" np top nom
+	"Rusiye" np top nom @nmod:poss #1->3
 "<Vatandaşlıq>"
-	"vatandaşlıq" n nom
+	"vatandaşlıq" n nom @nmod:poss #2->3
 "<cenki>"
-	"cenk" n px3sp nom
+	"cenk" n px3sp nom @nsubj #3->7
 "<qırımtatarlar>"
-	"qırımtatar" n pl nom
+	"qırımtatar" n pl nom @obl #4->7
 "<içün>"
-	"içün" post @case
+	"içün" post @case #5->4
 "<ağır>"
-	"ağır" adj @amod
+	"ağır" adj @amod #6->7
 "<müsibet>"
-	"müsibet" n nom @root
+	"müsibet" n nom @root #7->0
 "<oldı>"
-	"ol" v iv ifi p3 sg @cop
+	"ol" v iv ifi p3 sg @cop #8->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #9->7
 
 "<1917>"
 	"1917" num @amod
@@ -1315,25 +1315,25 @@
 	"." sent @punct
 
 "<Amma>"
-	"amma" cnjcoo @cc
+	"amma" cnjcoo @cc #1->
 "<1918>"
-	"1918" num
+	"1918" num @amod #2->
 "<senesi>"
-	"sene" n px3sp nom
+	"sene" n px3sp nom @obl #3->
 "<Çelebicihan>"
-	"Çelebicihan" np cog m nom
+	"Çelebicihan" np cog m nom 
 "<yaqalanıp>"
 	"yaqala" v tv pass gna_perf
 "<bolşevikler>"
-	"bolşevik" n pl nom
+	"bolşevik" n pl nom @nmod:poss #6->7
 "<tarafından>"
-	"taraf" n px3sp abl
+	"taraf" n px3sp abl @obl:agent #7->
 "<qatil>"
-	"qatil" n nom
+	"qatil" n nom 
 "<etildi>"
-	"et" v tv pass ifi p3 sg
+	"et" v tv pass ifi p3 sg @root #9->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->9
 
 "<1921>"
 	"1921" num @conj
