@@ -3,6 +3,9 @@ DELIMITERS = "<.>" ;
 
 SUBREADINGS = LTR ;
 
+LIST EOS = <<< sent ; 
+LIST BOS = >>> sent ; 
+
 # We can define sets for common tag clusters
 LIST Cop = cop;
 LIST Post = post;
@@ -10,35 +13,78 @@ LIST Px3sp = px3sp;
 LIST Px1sg = px1sg;
 LIST NOMEN = n np;
 LIST N = n;
+LIST Cog = cog ; 
+LIST Ant = ant ; 
 LIST Abl = abl;
 LIST Nom = nom;
 LIST V = vblex cop ;
-LIST Sg3 = (p3 sg) ;
 LIST Num = num;
 LIST Son = "soñ" ;
 LIST Sene = "sene";
 LIST Loc = loc ;
-LIST ADV = adv;
-LIST DET = det ;
-LIST Prc_perf = prc_perf;
-LIST Gna_perf = gna_perf;
+LIST Adv = adv;
+LIST Det = det ;
+LIST Prc/perf = prc_perf ;
+LIST Prc/impf = prc_impf ;
+LIST Gna/perf = gna_perf;
 LIST Vaux = vaux ;
+LIST Imper = imp ; 
+
+LIST Attr = attr ;
+LIST Subst = subst ; 
+
+LIST Sg1 = (p1 sg);
+LIST Sg2 = (p2 sg) ;
+LIST Sg3 = (p3 sg) ;
+LIST Pl1 = (p1 pl);
+LIST Pl2 = (p2 pl) ;
+LIST Pl3 = (p3 pl) ;
+
+LIST Li = ".*l[ıüiu]"r ; 
+LIST Sız = ".*s[ıüiu]z"r ; 
+
+LIST Post/Li = ("lı" post) ;
+LIST Post/Sız = ("sız" post) ;
+
+LIST Meslek = ".*[çc][ıüiu]"r "alim" ; 
+
+SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
+
+SET Prc = Prc/perf | Prc/impf ; 
+
+SET Ant/Cog = Ant | Cog ; 
 
 
 SECTION
 
 # Remove zero copula if it is third person singular [MT]
-REMOVE SUB:1 Cop IF (0/* Sg3); 
+REMOVE SUB:1 Cop IF (0/* Sg3) (NOT 1 EOS) ; 
 
 REMOVE SUB:1 Cop IF (0 Nom)(1 Px3sp);
 
 REMOVE Px1sg IF (1 Px3sp);
 
 SELECT Cop IF (NOT 0* V);
+
 SELECT Post IF (0 Post OR N) (-1 Abl);
-SELECT ADV IF (0 Son) (1 Num) (2 Sene + Loc);
-REMOVE ADV IF (0 DET) (NOT 1* V);
-REMOVE Prc_perf IF (0 Gna_perf) (NOT 1* Vaux)
+
+SELECT Adv IF (0 Son) (1 Num) (2 Sene + Loc);
+
+REMOVE Adv IF (0 Det) (NOT 1* V);
+
+REMOVE Prc/perf IF (0 Gna/perf) (NOT 1* Vaux) ;
+
+REMOVE Imper IF (1C Cop) ;
+
+REMOVE Pers IF (1C Pers) ;
+
+REMOVE Vaux (NOT -1 Prc) ;
+
+REMOVE SUB:1 Post/Li (0/* Li) ;
+
+REMOVE SUB:1 Post/Sız (0/* Sız) ;
+
+SELECT Attr (0 Meslek) (1 Ant/Cog) ; 
 
 
 # Resources:

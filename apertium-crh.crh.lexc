@@ -557,6 +557,11 @@ LEXICON PRON-QNT-BUTUN
 
 %<prn%>%<qnt%>: POSSESSIVES ; 
 
+LEXICON PRON-QNT-ÇOQU
+
+%<prn%>%<qnt%>:%{n%} CASES ; 
+
+
 LEXICON PRON-IND 
 
 %<prn%>%<ind%>: FULL-NOMINAL-INFLECTION ; ! FIXME
@@ -1066,6 +1071,9 @@ kimse:kimse PRON-IND ; ! ""
 
 ekseri:ekser PRON-QNT-BUTUN ; ! ""
 
+çoqu:çoq%>%{s%}%{I%} PRON-QNT-ÇOQU ; ! ""
+çoqusı:çoqu%>%{s%}%{I%} PRON-QNT-ÇOQU ; ! ""
+
 iç% bir:iç% bir PRON-IND ; 
 iç% bir% şey:iç% bir% şey PRON-IND ; ! ""
 
@@ -1350,7 +1358,7 @@ ceza:ceza N1 ; ! "наказание"
 cıyıntıq:cıyıntıq N1 ; ! "сборник"
 çoban:çoban N1 ; ! "пастух, чабан"
 çöl:çöl N1 ; ! "пол, поле, степь"
-çoqusı:çoqusı N1 ; ! "большинство"
+!çoqusı:çoqusı N1 ; ! "большинство"
 cuma:cuma N1 ; ! "пятница"
 cümertlik:cümertlik N1 ; ! "щедрость"
 dağ:dağ N1 ; ! "гора, лес"
@@ -7243,6 +7251,7 @@ antropolog:antropolog N1 ; ! ""
 balqar:balqar N1 ; ! ""
 muzıkant:muzıkant N5 ; ! ""
 
+alim:alim N1 ; ! "учёный"
 
 LEXICON ProperNouns 
 
@@ -12824,7 +12833,7 @@ qoy:qoy V-TV ; ! ""
 yaz:yaz V-TV ; ! "write/писать"
 yırla:yırla V-TV ; ! ""
 oyna:oyna V-TV ; ! ""
-çıq:çıq V-IV ; ! ""
+çıq:çıq V-IV-AR ; ! "" 
 baq:baq V-TV ; ! "look at/смотреть"
 bas:bas V-TV ; ! ""
 yaq:yaq V-TV ; ! "burn"
