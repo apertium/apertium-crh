@@ -1,3 +1,7 @@
+! This file contains the twol error model for the transducer.
+! It should contain possible variations which are found in the 
+! wild but outside of the orthographic norm.
+
 Alphabet
 
  a â b c ç d e f g ğ h ı i j k l m n ñ o ö p q r s ş t u ü v y z
