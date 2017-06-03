@@ -48,12 +48,17 @@ LIST Post/Sız = ("sız" post) ;
 
 LIST Meslek = ".*[çc][ıüiu]"r "alim" ; 
 
+LIST Err/Orth = err_orth ;
+
 SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
 
 SET Prc = Prc/perf | Prc/impf ; 
 
 SET Ant/Cog = Ant | Cog ; 
 
+SECTION
+
+REMOVE Err/Orth ;
 
 SECTION
 

@@ -24,6 +24,9 @@ TARGETS_COMMON =			\
 ## Crimean Turkish transducer
 ###############################################################################
 
+.deps/$(LANG1).err.hfst: $(BASENAME).err.twol .deps/.d
+	hfst-twolc $< -o $@
+
 .deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol .deps/.d
 	hfst-twolc $< -o $@
 
@@ -42,14 +45,25 @@ TARGETS_COMMON =			\
 .deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).RL.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
+# We make an crh.LR.err.hfst by taking the transducer produced from the 
+# twol file with error rules (apertium-crh.err.twol), we then remove all the
+# strings from that which are in the normative orthography transducer.
+# After that we append <err_orth> to the tag string.
+.deps/$(LANG1).LR.err.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).err.hfst .deps/$(LANG1).LR.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).err.hfst -o .deps/$(LANG1).LR.err.hfst.tmp
+	hfst-subtract -1 .deps/$(LANG1).LR.err.hfst.tmp -2 .deps/$(LANG1).LR.hfst -o .deps/$(LANG1).LR.err.hfst.tmp2
+	echo "<err_orth>:0" | hfst-strings2fst -e 0 -S | hfst-concatenate -1 .deps/$(LANG1).LR.err.hfst.tmp2 -2 - -o $@
+
+# This is the normative transducer, using the standard lexc and the full twol file
 .deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
+# The final analyser is a combination of the normative analyser and the error analyser.
+$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).LR.err.hfst
+	hfst-union -1 .deps/$(LANG1).LR.hfst -2 .deps/$(LANG1).LR.err.hfst | hfst-invert | hfst-fst2fst -O -o $@
+
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
 	hfst-fst2fst -O $< -o $@
-
-$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
-	hfst-invert $< | hfst-fst2fst -O -o $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c -n > $@

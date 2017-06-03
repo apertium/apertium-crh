@@ -8,6 +8,7 @@
 /apertium-crh.crh.lexc -text
 /apertium-crh.crh.rlx -text
 /apertium-crh.crh.twol -text
+/apertium-crh.err.twol -text
 /apertium-crh.pc.in -text
 /apertium-crh.post-crh.dix -text
 /autogen.sh -text
