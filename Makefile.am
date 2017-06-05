@@ -21,7 +21,7 @@ TARGETS_COMMON =			\
 @ap_include@
 
 ###############################################################################
-## Crimean Turkish transducer
+## Crimean Tatar transducer
 ###############################################################################
 
 .deps/$(LANG1).err.hfst: $(BASENAME).err.twol .deps/.d
@@ -50,13 +50,15 @@ TARGETS_COMMON =			\
 # strings from that which are in the normative orthography transducer.
 # After that we append <err_orth> to the tag string.
 .deps/$(LANG1).LR.err.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).err.hfst .deps/$(LANG1).LR.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).err.hfst -o .deps/$(LANG1).LR.err.hfst.tmp
-	hfst-subtract -1 .deps/$(LANG1).LR.err.hfst.tmp -2 .deps/$(LANG1).LR.hfst -o .deps/$(LANG1).LR.err.hfst.tmp2
-	echo "<err_orth>:0" | hfst-strings2fst -e 0 -S | hfst-concatenate -1 .deps/$(LANG1).LR.err.hfst.tmp2 -2 - -o $@
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).err.hfst | hfst-minimise -o .deps/$(LANG1).LR.err.hfst.tmp
+	hfst-project -p output .deps/crh.LR.hfst | hfst-minimise -o .deps/$(LANG1).LR.corr.hfst.tmp
+	hfst-invert .deps/$(LANG1).LR.err.hfst.tmp | hfst-compose -1 .deps/$(LANG1).LR.corr.hfst.tmp -2 - | hfst-invert -o .deps/$(LANG1).LR.err.hfst.tmp2
+	hfst-subtract -1 .deps/$(LANG1).LR.err.hfst.tmp -2 .deps/$(LANG1).LR.err.hfst.tmp2 -o .deps/$(LANG1).LR.err.hfst.tmp3
+	echo "<err_orth>:0" | hfst-strings2fst -e 0 -S | hfst-concatenate -1 .deps/$(LANG1).LR.err.hfst.tmp3 -2 - -o $@
 
 # This is the normative transducer, using the standard lexc and the full twol file
 .deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst | hfst-minimise -o $@
 
 # The final analyser is a combination of the normative analyser and the error analyser.
 $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).LR.err.hfst
