@@ -120,7 +120,7 @@ Tests:
     ümüt<n><px3sp><acc> : ümütini
     ölüm<n><px3sp><acc> : ölümini
 
-  "Rounding stuffs":
+  "two-syllable rounding stuffs":
     qomşu<n><px3sp><nom> : qomşusı
     qomşu<n><px3sp><dat> : qomşusına
     qomşu<n><gen> : qomşunıñ
@@ -138,4 +138,6 @@ Tests:
     yolcu<n><px1sg><nom> : yolcum
     yolcu<n><abl> : yolcudan
     yolcu<n><dat> : yolcuğa
+
+  "one-syllable rounding stuff":
     yol<n><px3sp><acc> : yolunı
