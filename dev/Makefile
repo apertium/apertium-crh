@@ -21,7 +21,9 @@ lat2cyrl:
 	hfst-compose-intersect -1 crh_LAT2CYRL.lexc.hfst -2 crh_LAT2CYRL.twol.hfst -o crh_LAT2CYRL.hfst
 	#cat crh_CYRL.txt | hfst-strings2fst -j | hfst-minimise -o crh_CYRL.words.hfst
 	#hfst-compose -1 crh_LAT2CYRL.hfst -2 crh_CYRL.words.hfst -o crh_LAT2CYRL.words.hfst
+	cat ngrams/crh_CYRL.ngrams.5.tsv | hfst-strings2fst -j | hfst-repeat -f 1 -o crh_CYRL.ngrams.hfst
 	hfst-compose -1 crh_LAT2CYRL.hfst -2 crh_CYRL.ngrams.hfst | hfst-minimise -E -o crh_LAT2CYRL.ngrams.hfst
+	hfst-fst2fst -w crh_LAT2CYRL.ngrams.hfst -o crh_LAT2CYRL.hfstol
 	#hfst-union -1 crh_LAT2CYRL.hfst -2 crh_LAT2CYRL.words.hfst | hfst-fst2fst -w -o crh_LAT2CYRL.hfstol
 
 clean:
