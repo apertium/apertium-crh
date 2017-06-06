@@ -5077,6 +5077,7 @@ ihraccı:ihraccı N1 ; ! "экспортёр"
 ihtimallıq:ihtimallıq N1 ; ! "вероятность"
 ikâyeci:ikâyeci N1 ; ! "рассказчик"
 İlâh:İlâh N1 ; ! "бог"
+İlâh:Alla N1 ; ! "бог"
 ılay:ılay N1 ; ! ""
 ilhamcı:ilhamcı N1 ; ! "вдохновитель"
 iliçik:iliçik N1 ; ! "петелька"
@@ -7252,6 +7253,7 @@ balqar:balqar N1 ; ! ""
 muzıkant:muzıkant N5 ; ! ""
 
 alim:alim N1 ; ! "учёный"
+rabbi:rabbi N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -8767,6 +8769,7 @@ Putin:Putin NP-COG-IN ; ! ""
 Puşkin:Puşkin NP-COG-IN ; ! ""
 
 Ahmed:Ahmed NP-ANT-M ; ! ""
+Simon:Simon NP-ANT-M ; ! ""
 
 Atatürk:Atatürk NP-ANT-M ; ! ""
 
@@ -10035,6 +10038,9 @@ Aluşta:Aluşta NP-TOP ; ! ""
 
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Selim:Selim NP-ANT-M ; ! ""
+İsa:İsa NP-ANT-M ; ! ""
+İshaq:İshaq NP-ANT-M ; ! ""
+Musa:Musa NP-ANT-M ; ! ""
 Meñli:Meñli NP-ANT-M ; ! ""
 Üsein:Üsein NP-ANT-M ; ! ""
 Amza:Amza NP-ANT-M ; ! ""
@@ -12768,6 +12774,8 @@ yarın:yarın ADV ; ! ""
 tek:tek ADV ; ! ""
 eñ:eñ ADV ; ! "самый"
 böyle:böyle ADV ; ! "так"
+şöyle:şöyle ADV ; ! "так"
+öyle:öyle ADV ; ! "так"
 
 meger:meger ADV ; ! "apparently"
 çeşittürlü:çeşittürlü ADV ; ! ""

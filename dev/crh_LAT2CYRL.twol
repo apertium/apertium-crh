@@ -2,10 +2,18 @@ Alphabet
 	а б в г д е ё ж з и й к л м н о п р с т у ф х ч ц ш щ ъ ы ь э ю я
 	А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ч Ц Ш Щ Ъ Ы Ь Э Ю Я
 
-	a:а â:я b:б c:0 ç:ч d:д e:е f:ф g:г ğ:г h:х i:и ı:ы j:ж k:к l:л m:м n:н ñ:н o:о ö:о p:п q:к r:р s:с ş:ш t:т u:у ü:у v:в w:в x:х y:й z:з
-   A:А Â:Я B:Б C:0 Ç:Ч D:Д E:Е F:Ф G:Г Ğ:Г H:Х İ:И I:Ы J:Ж K:К L:Л M:М N:Н Ñ:Н O:О Ö:О P:П Q:К R:Р S:С Ş:Ш T:Т U:У Ú:У V:В W:В X:Х Y:Й Z:З
-   %{ъ%}:ъ %{ь%}:0 %{☭%}:0 %{Ъ%}:ъ %{Ь%}:ь %{щ%}:щ %{ц%}:ц ;
+	a:а â:я e:е i:и     ı:ы o:о ö:о ö:ё u:у ü:у
+        A:А Â:Я E:Е İ:И I:И I:Ы O:О Ö:О Ö:Ё U:У Ü:У 
 
+        b:б c:0 ç:ч d:д f:ф g:г ğ:г h:х j:ж k:к l:л m:м n:н ñ:н p:п q:к r:р s:с ş:ш t:т v:в w:в x:х y:й z:з
+        B:Б C:0 Ç:Ч D:Д F:Ф G:Г Ğ:Г H:Х J:Ж K:К L:Л M:М N:Н Ñ:Н P:П Q:К R:Р S:С Ş:Ш T:Т V:В W:В X:Х Y:Й Z:З
+
+        %{ъ%}:ъ %{ь%}:0 %{ь%}:ь
+ 
+        %{☭%}:0 %{Ъ%}:ъ %{Ь%}:ь %{щ%}:щ %{ц%}:ц 
+
+
+;
 
 Sets
 
@@ -40,7 +48,8 @@ CyrYotBackVowels = ё ю
 Rules
 
 "Use ь after front vowel realised as back vowel and all front l"
-%{ь%}:ь <=> FrontVow:CyrBackVowNoYot Cns: ( %{ь%}: Cns: ) _ ;
+!%{ь%}:ь <=> FrontVow:CyrBackVowNoYot Cns: ( %{ь%}: Cns: ) _ ;
+%{ь%}:ь => FrontVow:CyrBackVowNoYot Cns: ( %{ь%}: Cns: ) _ ;
             .#. y: FrontVow:CyrYotBackVowels Cns: _ .#. ;
             :ъ FrontRoundVow: Cns: _ .#. ;
             FrontVow: l: _ \Vow: ;
@@ -57,11 +66,11 @@ Rules
 !! telli:телли
 
 "Delete й in conversion to yot vowels"
-y:0 <=> _ :CyrYotVowels ;
-
+Cx:0 <=> _ :CyrYotVowels ;
+     where Cx in ( y Y ) ;
 
 "Yot conversion for back vowels"
-Vx:Vy <=> y: _ ;
+Vx:Vy <=> [ y: | Y: ] _ ;
       where Vx in ( o u a ) ! e )
             Vy in ( ё ю я ) ! е )
       matched ;
@@ -78,22 +87,22 @@ Vx:Vy <=> y: _ ;
 
 !@ ş:ш {ь}:0 e:е e:э r:р {ь}:0
 
-"Front vowel yot conversion"
-Vx:Vy <=> y: _ Cns: :0* [ :ь | FrontVow: ] ;
-          _ .#. ;
-          .#. y: _ ;
-          [ Cns: - [ y: | k: | g: ] ] _ [ Cns: - [ z: | ç: | y: ] ] ; ! [ ñ: | n: | r: | l: ] ; ! bütün:бут_ю_н
-          [ Vow: Cns: [ Cns: | :ъ | %{ь%}: ]* ]/:0* k: _ ;
-          _ Cns: [ :ъ | :0 | Cns: ]* FrontUnroundVow: ; ! öldürildi:ольд_ю_рильди, sözüni:сёз_ю_ни
+!"Front vowel yot conversion"
+!Vx:Vy <=> y: _ Cns: :0* [ :ь | FrontVow: ] ;
+!          _ .#. ;
+!          .#. y: _ ;
+!          [ Cns: - [ y: | k: | g: ] ] _ [ Cns: - [ ç: | y: ] ] ;   ! [ ñ: | n: | r: | l: ] ; ! bütün:бут_ю_н
+!          [ Vow: Cns: [ Cns: | :ъ | %{ь%}: ]* ]/:0* k: _ ;
+!          _ Cns: [ :ъ | :0 | Cns: ]* FrontUnroundVow: ;                 ! öldürildi:ольд_ю_рильди, sözüni:сёз_ю_ни
 !          t: %{ь%}: _ n: ;
-      except
-          .#. [ k: | g: ] ( %{ь%}: ) _ ;
-          \y: _ Cns: [ :ъ | :0 | Cns: ]* FrontRoundVow: ; ! göñül:г_о_нъюль, bütün:б_у_тюн EXCEPT sözüni:с_ё_зюни
-          .#. _ Cns: [ :ъ | :0 | Cns: ]* FrontRoundVow: ; ! öldürildi:_о_льдюрильди
-          .#. _ Cns: :ь ; ! урьмет
-      where Vx in ( ö ü )
-            Vy in ( ё ю )
-      matched ;
+!      except
+!          .#. [ k: | g: ] ( %{ь%}: ) _ ;
+!          \y: _ Cns: [ :ъ | :0 | Cns: ]* FrontRoundVow: ; ! göñül:г_о_нъюль, bütün:б_у_тюн EXCEPT sözüni:с_ё_зюни
+!          .#. _ Cns: [ :ъ | :0 | Cns: ]* FrontRoundVow: ; ! öldürildi:_о_льдюрильди
+!          .#. _ Cns: :ь ; ! урьмет
+!      where Vx in ( ö ü )
+!            Vy in ( ё ю )
+!      matched ;
 
 ! Pattern A
 !! bütün:бутюн
@@ -104,6 +113,7 @@ Vx:Vy <=> y: _ Cns: :0* [ :ь | FrontVow: ] ;
 
 ! Pattern B
 !! sözüni:сёзюни
+!! söz:сёз
 
 ! Pattern C
 !! özüñni:озюнъни
