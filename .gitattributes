@@ -22,6 +22,7 @@ dev/countstems.sh -text
 dev/crh_CYRL.txt -text
 dev/crh_CYRL2LAT.lexc -text
 dev/crh_CYRL2LAT.sh -text
+dev/crh_CYRL2LAT.tsv -text
 dev/crh_CYRL2LAT.twol -text
 dev/crh_LAT2CYRL.lexc -text
 dev/crh_LAT2CYRL.sh -text
@@ -30,7 +31,6 @@ dev/ngrams/crh_CYRL.ngrams.2.tsv -text
 dev/ngrams/crh_CYRL.ngrams.3.tsv -text
 dev/ngrams/crh_CYRL.ngrams.4.tsv -text
 dev/ngrams/crh_CYRL.ngrams.5.tsv -text
-dev/ngrams/crh_CYRL2LAT.tsv -text
 dev/tokenisation/Makefile -text
 dev/tokenisation/test.lexc -text
 dev/tokenisation/test.txt -text
