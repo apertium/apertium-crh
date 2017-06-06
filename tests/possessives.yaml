@@ -131,3 +131,10 @@ Tests:
     qomşu<n><px1pl><acc> : qomşumıznı
     qomşu<n><px1sg><nom> : qomşum
     qomşu<n><abl> : qomşudan
+    yolcu<n><acc> : yolcunı
+    yolcu<n><px3sp><nom> : yolcusı
+    yolcu<n><gen> : yolcunıñ
+    yolcu<n><px3sp><acc> : yolcusını
+    yolcu<n><px1sg><nom> : yolcum
+    yolcu<n><abl> : yolcudan
+    yolcu<n><dat> : yolcuğa
