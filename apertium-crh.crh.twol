@@ -4,16 +4,16 @@ Alphabet
  A Â B C Ç D E F G Ğ H I   J K L M N Ñ O Ö P Q R S Ş T U Ü V Y Z
 
 
- %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü
+ %{i%}:i ! %{i%}:ı %{i%}:u %{i%}:ü
  %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
- %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü
+ %{I%}:i ! %{I%}:ı %{I%}:u %{I%}:ü
  %{A%}:a
  %{C%}:c %{C%}:ç
  %{D%}:d ! %{D%}:t 
  %{G%}:g ! %{G%}:q %{G%}:ğ %{G%}:k
  %{E%}:a %{E%}:e %{E%}:y
- %{s%}:0 %{s%}:s
- %{n%}:0 %{n%}:n
+ %{s%}:0 ! %{s%}:s
+ %{n%}:0 ! %{n%}:n
  %{l%}:l %{l%}:n
  %{j%}:0 %{j%}:y
  %{U%}:u
@@ -134,6 +134,19 @@ Cx:Cy <=> :Vow _ .#. ;
 Vx:0 <=> :Vow/:0* _ ;
      where Vx in ( %{U%} %{i%} ) ;
 
+"Vowel harmony for {I}"
+%{I%}:Vy <=> :Vx :Cns+/:0* _ ;
+         where Vx in ( i e ü ö a ı o u )
+               Vy in ( i i i i ı ı ı ı )
+         matched ;
+
+"Vowel harmony for {i}"
+%{i%}:Vy <=> :Vx :Cns+/:0* _ ;
+         where Vx in ( i e ü ö a ı o u )
+               Vy in ( i i ü ü ı ı u u )
+         matched ;
+
+
 
 !!!!! DORSAL CONSONANTS !!!!!
 
@@ -158,4 +171,14 @@ Vx:0 <=> :Vow/:0* _ ;
             [ :FrontVow ]/[ :0 - %{ъ%}: ]* _ :Cns/:0 ;
         except
             [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
+
+
+!!!!! MORPHOLOGICAL STUFF !!!!!
+
+"{n} as n in certain possession + case combinations"
+%{n%}:n <=> _ %>: [ %{G%}: | %{D%}: ] ;
+
+"{s} after vowels"
+%{s%}:s <=> :Vow/:0* _ ;
+
 
