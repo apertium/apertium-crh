@@ -24,6 +24,8 @@ Tests:
     dost<n><dat> : dostqa
     dost<n><loc> : dostta
     dost<n><abl> : dosttan
+    yol<n><acc> : yolnı
+    yol<n><gen> : yolnıñ
 
   "Cases (plural)":
     bala<n><pl><nom> : balalar

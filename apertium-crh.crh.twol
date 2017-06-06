@@ -6,15 +6,16 @@ Alphabet
 
  %{i%}:i ! %{i%}:ı %{i%}:u %{i%}:ü
  %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
- %{I%}:i ! %{I%}:ı %{I%}:u %{I%}:ü
- %{A%}:a
+ %{I%}:i ! %{I%}:ı
+ %{Y%}:i ! %{Y%}:ı %{Y%}:u %{Y%}:ü
+ %{A%}:a ! %{A%}:e
  %{C%}:c %{C%}:ç
  %{D%}:d ! %{D%}:t 
  %{G%}:g ! %{G%}:q %{G%}:ğ %{G%}:k
- %{E%}:a %{E%}:e %{E%}:y
+ %{E%}:a ! %{E%}:e %{E%}:y
  %{s%}:0 ! %{s%}:s
  %{n%}:0 ! %{n%}:n
- %{l%}:l %{l%}:n
+ %{l%}:l ! %{l%}:n
  %{j%}:0 %{j%}:y
  %{U%}:u
 
@@ -53,11 +54,10 @@ FrontVow = e i ö ü
 BackVow = a â ı o u
           A Â I O U ;
 
+AbstractVow = %{ö%} %{o%} %{e%} %{ı%} ;
+
 
 Rules
-
-"{E} to y after vowel"
-%{E%}:y <=> :Vow :0* _ ;
 
 !"Voicing at morpheme boundary"
 !Cx:Cy <=>  Vow _ %>: %{s%}:0 :Vow ; 
@@ -129,12 +129,24 @@ Cx:Cy <=> :Vow _ .#. ;
 
 ! 1939{o}{b}>{G}{A}
 
+"Vowel harmony for {E}"
+%{E%}:e <=> [ :FrontVow :Cns :Cns* ]/[ :0 - %{ъ%}: ]* _ ;
+            [ :BackVow :Cns :Cns* %{ь%}:0 :Cns* ]/[ :0 ]* _ ;
+            [ %{e%}:0 | %{ö%}:0 ]/[ :0 | :Cns | %- | %% ]* _ ;
+
+
 "Vowel harmony for {U}"
 %{U%}:ü <=> [ :FrontVow :Cns :Cns* ]/:0* _ ;
 
 "No {U} or {i} after vowels"
 Vx:0 <=> :Vow/:0* _ ;
      where Vx in ( %{U%} %{i%} ) ;
+
+"Vowel harmony for {Y} in >2nd σ"
+%{Y%}:Vy <=> :Vx :Cns+/:0* _ ;
+         where Vx in ( i e ü ö a ı o u )
+               Vy in ( i i i i ı ı ı ı )
+         matched ;
 
 "Vowel harmony for {I} in >2nd σ"
 %{I%}:Vy <=> :Vx :Cns+/:0* _ ;
@@ -191,12 +203,19 @@ Vx:0 <=> :Vow/:0* _ ;
             [ %{I%}: | %{i%}: ] :NasalCns %>: _ %{A%}: .#. ;
 
 
+
 !!!!! MORPHOLOGICAL STUFF !!!!!
 
 "{n} as n in certain possession + case combinations"
 %{n%}:n <=> _ %>: [ %{G%}: | %{D%}: ] ;
 
 "{s} after vowels"
-%{s%}:s <=> :Vow/:0* _ ;
+%{s%}:s <=> :Vow :0* _ ;
+
+"{l} as n after l"
+%{l%}:n <=> :l :Vow/:0* _ ;
+
+"{E} to y after vowel"
+%{E%}:y <=> :Vow [ :0 - AbstractVow: ]* _ ;
 
 
