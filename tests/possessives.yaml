@@ -106,3 +106,16 @@ Tests:
     #dost<n><px1pl><loc> : dostuñızda
     #dost<n><px1pl><abl> : dostuñızdan
 
+
+  "Cases and posesssives with round vowel in 2nd σ":
+    nutuq<n><px3sp><abl> : nutuğından
+    qapu<n><px3sp><acc> : qapusını
+    durum<n><px3sp><gen> : durumınıñ
+    oğul<n><px2pl><ins> : oğluñıznen
+    oğul<n><px2pl><dat> : oğluñızğa
+    mülk<n><px2pl><acc> : mülküñizni
+    üküm<n><acc> : ükümni
+    ucüm<n><px3sp><acc> : ucümini
+    ucüm<n><px3sp><gen> : ucüminiñ
+    ümüt<n><px3sp><acc> : ümütini
+    ölüm<n><px3sp><acc> : ölümini

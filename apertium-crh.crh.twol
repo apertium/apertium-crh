@@ -79,7 +79,9 @@ Rules
 
 
 "Voicing of non-coronal stem-final voiceless consonants"
-Cx:Cy <=> _ %>: [ \:Cns ]/:0* ;
+!Cx:Cy <=> :Cns _ %>: [ \:Cns ]/:0* ;
+! changed this because cf. mülküñüz
+Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
       except
           _ %{☭%}: %>: ; 
       where Cx in ( p k q )
@@ -134,14 +136,30 @@ Cx:Cy <=> :Vow _ .#. ;
 Vx:0 <=> :Vow/:0* _ ;
      where Vx in ( %{U%} %{i%} ) ;
 
-"Vowel harmony for {I}"
+"Vowel harmony for {I} in >2nd σ"
 %{I%}:Vy <=> :Vx :Cns+/:0* _ ;
+         except
+             .#. :Cns* :Vx :Cns+/:0* _ ;
          where Vx in ( i e ü ö a ı o u )
                Vy in ( i i i i ı ı ı ı )
          matched ;
 
-"Vowel harmony for {i}"
+"Vowel harmony for {i} in >2nd σ"
 %{i%}:Vy <=> :Vx :Cns+/:0* _ ;
+         except
+             .#. :Cns* :Vx :Cns+/:0* _ ;
+         where Vx in ( i e ü ö a ı o u )
+               Vy in ( i i i i ı ı ı ı )
+         matched ;
+
+"Vowel harmony for {I} in ≤2nd σ"
+%{I%}:Vy <=> .#. :Cns* :Vx :Cns+/:0* _ ;
+         where Vx in ( i e ü ö a ı o u )
+               Vy in ( i i ü ü ı ı u u )
+         matched ;
+
+"Vowel harmony for {i} in ≤2nd σ"
+%{i%}:Vy <=> .#. :Cns* :Vx :Cns+/:0* _ ;
          where Vx in ( i e ü ö a ı o u )
                Vy in ( i i ü ü ı ı u u )
          matched ;
