@@ -5,7 +5,7 @@ Alphabet
 
 
  %{i%}:i ! %{i%}:ı %{i%}:u %{i%}:ü
- %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
+ %{y%}:0 ! %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
  %{I%}:i ! %{I%}:ı
  %{Y%}:i ! %{Y%}:ı %{Y%}:u %{Y%}:ü
  %{A%}:a ! %{A%}:e
@@ -172,6 +172,12 @@ Vx:0 <=> :Vow/:0* _ ;
 
 "Vowel harmony for {i} in ≤2nd σ"
 %{i%}:Vy <=> .#. :Cns* :Vx :Cns+/:0* _ ;
+         where Vx in ( i e ü ö a ı o u )
+               Vy in ( i i ü ü ı ı u u )
+         matched ;
+
+"Vowel harmony for {y} unless next C starts a syllable"
+%{y%}:Vy <=> .#. :Cns* :Vx :Cns+/:0* _ [ :Cns [ :Cns | .#. ] ]/:0* ;
          where Vx in ( i e ü ö a ı o u )
                Vy in ( i i ü ü ı ı u u )
          matched ;
