@@ -1038,6 +1038,7 @@ soñ:soñ POST ; ! "after/после"
 
 boyunca:boyunca POST ; ! "during/пока"
 itibaren:itibaren POST ; ! "from"
+qarşı:qarşı POST ; ! ""
 
 LEXICON Pronouns 
 
