@@ -39,6 +39,7 @@ dev/tokenisation/test.txt -text
 tests/cases.yaml -text
 tests/future.yaml -text
 tests/loanwords.yaml -text
+tests/phon-y.yaml -text
 tests/possessives.yaml -text
 tests/voicing.yaml -text
 texts/alfred_nobel.vislcg.txt -text
