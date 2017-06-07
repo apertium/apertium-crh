@@ -12,6 +12,7 @@ Alphabet
 
  %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü
  %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
+ %{Y%}:i %{Y%}:ı %{Y%}:u %{Y%}:ü              ! Can be either rounded or unrounded
  %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü
  %{A%}:a %{A%}:e
  %{C%}:c %{C%}:ç
