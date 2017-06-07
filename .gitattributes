@@ -41,6 +41,7 @@ tests/future.yaml -text
 tests/loanwords.yaml -text
 tests/phon-y.yaml -text
 tests/possessives.yaml -text
+tests/verbs.yaml -text
 tests/voicing.yaml -text
 texts/alfred_nobel.vislcg.txt -text
 texts/challenge.txt -text

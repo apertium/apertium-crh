@@ -1,0 +1,12 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../crh.autogen.hfst
+    Morph: ../crh.automorf.hfst
+
+Tests:
+  "-{j}ArA{G}":
+    ol<v><iv><gna_pres> : olaraq
+    çek<v><tv><gna_pres> : çekerek
+    iste<v><tv><gna_pres> : isteyerek
+    aqla<v><iv><gna_pres> : aqlayaraq
