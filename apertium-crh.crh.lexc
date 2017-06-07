@@ -311,6 +311,7 @@ LEXICON CLIT-QST-MI
 LEXICON CLIT-COP
 
 %+e%<cop%>%<pres%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%+e%<cop%>%<pres%>%<p3%>%<frm%>%<pl%>:%>%{D%}%{I%}r%>l%{A%}r # ;
 %+e%<cop%>%<aor%>: V-PERS-S1-COP ; 
 %+e%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-S1-COP ; 
 
@@ -766,7 +767,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{E%} V-PERS-AOR ;
 %<fut2%>:%>%{E%}c%{A%}%{G%} V-PERS-S1 ;
 
-%<nec%>:%>m%{A%}l%{I%} V-PERS-S1 ;
+%<nec%>:%>m%{A%}l%{I%} CLIT-COP ; ! V-PERS-S1 ;
 
 %<imp%>%<p2%>%<sg%>: CLITICS-AFTER-IMP ;
 %<imp%>%<p2%>%<pl%>:%>%{I%}ñ%{I%}z CLITICS-AFTER-IMP ;
@@ -5081,7 +5082,7 @@ ihraccı:ihraccı N1 ; ! "экспортёр"
 ihtimallıq:ihtimallıq N1 ; ! "вероятность"
 ikâyeci:ikâyeci N1 ; ! "рассказчик"
 İlâh:İlâh N1 ; ! "бог"
-İlâh:Alla N1 ; ! "бог"
+alla:alla N1 ; ! "бог" 
 ılay:ılay N1 ; ! ""
 ilhamcı:ilhamcı N1 ; ! "вдохновитель"
 iliçik:iliçik N1 ; ! "петелька"
