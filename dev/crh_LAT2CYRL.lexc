@@ -14,12 +14,14 @@ LEXICON Root
 
 Alpha ; 
 Punct ; 
-!@! Exceptions ;
+Exceptions ;
+Initial ;
 Digits ;
 
 LEXICON AlphaLoop 
 
 Alpha ;
+Exceptions ;
 %- Alpha ; 
  # ;
 
@@ -94,12 +96,23 @@ LEXICON Punct
 %):%) # ; 
 %–:%– # ; 
 
-!@!LEXICON Exception
+LEXICON Exception
 
-!@!:%{☭%} AlphaLoop "weight: 0.1" ; 
+:%{☭%} AlphaLoop "weight: 0.1" ; 
 
-!@!LEXICON Exceptions 
-!@!
+LEXICON Exceptions 
+
+tsiya:%{ц%}iya AlphaLoop "weight: 0.1" ;   !
+tsiz:tsiz AlphaLoop "weight: 0.1" ;   !
+tsız:tsız AlphaLoop "weight: 0.1" ;   !
+obye:ob%{Ъ%}ye Exception "weight: 0.1";
+subye:sub%{Ъ%}ye Exception "weight: 0.1";
+yabr:yabr%{Ь%} # "weight: 0.1";
+
+LEXICON Initial
+
+ts:%{ц%} AlphaLoop "weight: 0.1" ;   !
+
 !@!! words with misc y or ь issues
 !@!söz:syoz Exception "weight: 0.1" ;
 !@!dünya:dün%{Ь%}ya Exception "weight: 0.1";

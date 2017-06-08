@@ -357,7 +357,7 @@ LEXICON GENERAL-POSSESSIVE-ETC
 !%<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
 !%<px%>%<pl%>:%>н%{I%}к%{I%}%>л%{A%}р CASES ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
-!%<sim%>:%>%{D%}%{A%}й CLITICS-NO-COP ;
+%<sim%>:%>%{C%}%{A%} CLITICS-NO-COP ;
 
 LEXICON CASES-ETC 
 
@@ -674,6 +674,8 @@ LEXICON PRON-PERS-SIZ
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:nen # ; 
+%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:ce # ; 
+%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:iñce # ;  ! Dir/LR
 
 LEXICON PRON-PERS-SIZLER
 
@@ -2516,7 +2518,6 @@ el:el N1 ; ! ""
 elektron:elektron N1 ; ! ""
 faal:faal%{ь%} N1 ; ! ""
 faşist:faşist N1 ; ! ""
-fikirince:fikirince N1 ; ! ""
 firqas:firqas N1 ; ! ""
 fiyat:fiyat N1 ; ! ""
 forum:forum N1 ; ! ""
@@ -11587,6 +11588,8 @@ Pridnestrovye:Pridnestrovye NP-TOP ; ! ""
 Lopez:Lopez NP-COG-MF ; ! ""
 Abbas:Abbas NP-COG-MF ; ! ""
 
+Leninabad:Leninabad NP-TOP ; ! ""
+
 Aşğabat:Aşğabat NP-TOP ; ! "" 
 Aşğabat:Ashkabat NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
 Aşğabat:Ashgabad NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
@@ -12455,7 +12458,7 @@ ananeviy:ananeviy A3 ; ! "традиционный"
 antik:antik A3 ; ! "античный"
 aqıcı:aqıcı A3 ; ! "текучий"
 aqıl-baliğ:aqıl-baliğ A3 ; ! "зрелый"
-aqıl-fikirli:aqıl-fikirli A3 ; ! "здравомыслящий"
+aqıl%-fikirli:aqıl%-fikirli A3 ; ! "здравомыслящий"
 arabiy:arabiy A3 ; ! "арабский"
 ardısıra:ardısıra A3 ; ! "последовательный"
 areketleyici:areketleyici A3 ; ! "движущий"
@@ -13161,6 +13164,11 @@ hırvatça:hırvatça ADV-LANG ;
 qazahça:qazahça ADV-LANG ;
 yunanca:yunanca ADV-LANG ;
 belarusça:belarusça ADV-LANG ;
+qırımtatarca:qırımtatarca ADV-LANG ;
+almanca:almanca ADV-LANG ; 
+ukrainca:ukrainca ADV-LANG ; 
+inglizce:inglizce ADV-LANG ; 
+
 
 
 
@@ -13383,6 +13391,10 @@ cenkleş:cenkleş V-IV; ! ""
 doğ:doğ V-IV; ! ""
 planlaş:planlaş V-IV; ! ""
 resmiyleş:resmiyleş V-IV; ! ""
+resmiyleştir:resmiyleştir V-TV; ! "" ! Der/Caus
+resmiyleştir:remiyleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
+resmiyleştir:resmileştir V-TV ; ! "" ! Der/Caus ! Err/Orth
+resmiyleştir:reysmiyleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
 tanıl:tanıl V-IV; ! ""
 yaqalan:yaqalan V-IV; ! ""
 yaralan:yaralan V-IV; ! ""
@@ -13401,7 +13413,6 @@ planlaştır:planlaştır V-TV; ! ""
 qaldır:qaldır V-TV; ! ""
 qazan:qazan V-TV; ! ""
 qullan:qullan V-TV; ! ""
-resmiyleştir:resmiyleştir V-TV; ! ""
 saqla:saqla V-TV; ! ""
 say:say V-TV; ! ""
 sür:sür V-TV; ! ""
@@ -14159,8 +14170,84 @@ siy:siy V-IV ; ! ""
 toy:toy V-IV ; ! ""
 toz:toz V-IV ; ! ""
 
+adabanlaştır:adabanlaştır V-TV ; ! "" ! Der/Caus
+aktualleştır:aktuallaştır V-TV ; ! "" ! Der/Caus ! Err/Orth
+aktualleştir:aktualleştir V-TV ; ! "" ! Der/Caus
+arbiyleştir:arbiyleştir V-TV ; ! "" ! Der/Caus
+beraberleştir:beraberleştir V-TV ; ! "" ! Der/Caus
+beterleştir:beterleştir V-TV ; ! "" ! Der/Caus
+büyükleştir:büyükleştir V-TV ; ! "" ! Der/Caus
+çetleştir:çetleştir V-TV ; ! "" ! Der/Caus
+ciddiyleştir:ciddiyleştir V-TV ; ! "" ! Der/Caus
+çoqlaştır:çoqlaştır V-TV ; ! "" ! Der/Caus
+erleştir:erleştir V-TV ; ! "" ! Der/Caus
+eyileştir:eyileştir V-TV ; ! "" ! Der/Caus
+eyleştir:eyleştir V-TV ; ! "" ! Der/Caus
+faalleştir:faaleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
+faalleştir:faalleştir V-TV ; ! "" ! Der/Caus
+fenalaştır:fenalaştır V-TV ; ! "" ! Der/Caus
+finlândiyalaştır:finlândiyalaştır V-TV ; ! "" ! Der/Caus
+ğayeviyleştir:ğayeviyleştir V-TV ; ! "" ! Der/Caus
+hristianlaştır:hristianlaştır V-TV ; ! "" ! Der/Caus
+islâmlaştır:islâmlaştır V-TV ; ! "" ! Der/Caus
+keçleştir:keçleştir V-TV ; ! "" ! Der/Caus
+keñleştir:keñleştir V-TV ; ! "" ! Der/Caus
+kerçekleştir:kerçekleştir V-TV ; ! "" ! Der/Caus
+kergileştir:kergileştir V-TV ; ! "" ! Der/Caus
+kerginleştir:kerginleştir V-TV ; ! "" ! Der/Caus
+kerkeçleştir:kerkeçleştir V-TV ; ! "" ! Der/Caus
+kerleştir:kerleştir V-TV ; ! "" ! Der/Caus
+kitaplaştır:kitaplaştır V-TV ; ! "" ! Der/Caus
+kolhozlaştır:kolhozlaştır V-TV ; ! "" ! Der/Caus
+küçleştir:küçleştir V-TV ; ! "" ! Der/Caus
+kütleviyleştir:kütleviyleştir V-TV ; ! "" ! Der/Caus
+legalleştir:legalleştir V-TV ; ! "" ! Der/Caus
+litsenziyalaştır:litsenziyalaştır V-TV ; ! "" ! Der/Caus
+mahsuslaştır:mahsuslaştır V-TV ; ! "" ! Der/Caus
+merekezleştir:merekezleştir V-TV ; ! "" ! Der/Caus
+monopoliyalaştır:monopoliyalaştır V-TV ; ! "" ! Der/Caus
+musulmanlaştır:musulmanlaştır V-TV ; ! "" ! Der/Caus
+özelleştir:özelleştir V-TV ; ! "" ! Der/Caus
+pekinleştir:pekinleştir V-TV ; ! "" ! Der/Caus
+pişkinleştir:pişkinleştir V-TV ; ! "" ! Der/Caus
+plalaştır:plalaştır V-TV ; ! "" ! Der/Caus
+populârlaştır:populârlaştır V-TV ; ! "" ! Der/Caus
+putinleştir:putinleştir V-TV ; ! "" ! Der/Caus
+qanunlaştır:qanunlaştır V-TV ; ! "" ! Der/Caus
+qattılaştır:qattılaştır V-TV ; ! "" ! Der/Caus
+qırımtatarlaştır:qırımtatarlaştır V-TV ; ! "" ! Der/Caus
+qıyınlaştır:qıyınlaştır V-TV ; ! "" ! Der/Caus
+quvetleştir:quvetleştir V-TV ; ! "" ! Der/Caus
+qvetleştir:qvetleştir V-TV ; ! "" ! Der/Caus
+rağbetleştir:rağbetleştir V-TV ; ! "" ! Der/Caus
+ruslaştır:ruslaştır V-TV ; ! "" ! Der/Caus
+şahsiyleştir:şahsiyleştir V-TV ; ! "" ! Der/Caus
+saipleştir:saipleştir V-TV ; ! "" ! Der/Caus
+sakinleştir:sakinleştir V-TV ; ! "" ! Der/Caus
+sertleştir:sertleştir V-TV ; ! "" ! Der/Caus
+sınıflaştır:sınıflaştır V-TV ; ! "" ! Der/Caus
+siyasetleştir:siyasetleştir V-TV ; ! "" ! Der/Caus
+siyasiyleştir:siyasiyleştir V-TV ; ! "" ! Der/Caus
+şovinistleştir:şovinistleştir V-TV ; ! "" ! Der/Caus
+stabilleştir:stabilleştir V-TV ; ! "" ! Der/Caus
+teñleştir:teñleştir V-TV ; ! "" ! Der/Caus
+tertipleştir:tertipleştir V-TV ; ! "" ! Der/Caus
+türkleştir:türkleştir V-TV ; ! "" ! Der/Caus
+ucuzlaştır:ucuzlaştır V-TV ; ! "" ! Der/Caus
+ücüzlaştır:ücüzlaştır V-TV ; ! "" ! Der/Caus
+ukrainleştir:ukrainleştir V-TV ; ! "" ! Der/Caus
+uzaqlaştır:uzaqlaştır V-TV ; ! "" ! Der/Caus
+yaqlaştır:yaqlaştır V-TV ; ! "" ! Der/Caus
+yerleştir:yerşleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
+yileştir:yileştir V-TV ; ! "" ! Der/Caus
+zayıflaştır:zayıflaştır V-TV ; ! "" ! Der/Caus
+zemaneviyleştir:zemaneviyleştir V-TV ; ! "" ! Der/Caus
+zorlaştır:zorlaştır V-TV ; ! "" ! Der/Caus
+
+
 
 yasa:yasa V-TV ; ! ""
+aqla:aqla V-IV ; ! ""
 
 
 qabul% et:qabul% et V-TV-AR ; ! ""
