@@ -18,6 +18,11 @@ Exceptions ;
 Initial ;
 Digits ;
 
+LEXICON ExceptionLoop 
+
+Alpha ;
+ # ;
+
 LEXICON AlphaLoop 
 
 Alpha ;
@@ -98,16 +103,17 @@ LEXICON Punct
 
 LEXICON Exception
 
-:%{☭%} AlphaLoop "weight: 0.1" ; 
+:%{☭%} ExceptionLoop "weight: 0.1" ; 
 
 LEXICON Exceptions 
 
-tsiya:%{ц%}iya AlphaLoop "weight: 0.1" ;   !
-tsiz:tsiz AlphaLoop "weight: 0.1" ;   !
-tsız:tsız AlphaLoop "weight: 0.1" ;   !
+tsiya:%{ц%}iya Exception "weight: 0.1" ;   !
+tsiz:tsiz Exception "weight: 0.1" ;   !
+tsız:tsız Exception "weight: 0.1" ;   !
 obye:ob%{Ъ%}ye Exception "weight: 0.1";
 subye:sub%{Ъ%}ye Exception "weight: 0.1";
 yabr:yabr%{Ь%} # "weight: 0.1";
+âbr:yabr%{Ь%} # "weight: 0.1";
 
 LEXICON Initial
 
