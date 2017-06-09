@@ -406,7 +406,7 @@ ayartmaq
 ayat
 ayat-memat ayaz
 aybet
-aydamaq
+aydamaq
 aydı
 aydın
 aydıñ
@@ -437,7 +437,7 @@ ayrıca
 ayrılmaq
 aysa
 ayse
-ayşe
+ayşe
 ayşe
 aytmaq
 aytuv
@@ -472,7 +472,7 @@ azrail
 azret
 b
 baar
-baba
+baba
 baba-anası
 baba-dededen
 babalıq
@@ -498,7 +498,7 @@ bağırmaq
 bağışlamaq
 bağlamaq
 bağlı
-bahıt bahr
+bahıt bahr
 bahri
 bahşış
 bahşiş
@@ -581,7 +581,7 @@ bav
 bavur
 bay
 bayguş
-bayılmaq
+bayılmaq
 bayır
 bayır-maallede
 baylanmaq
@@ -610,7 +610,7 @@ bekir
 bekir-oğlu
 bekitmek
 beklemek
-bekmez
+bekmez
 bektaşiy
 bel
 bela
@@ -693,7 +693,7 @@ birşey
 bisinmek
 bismilla
 bismillâ
-bit
+bit
 bita
 bitay
 bitip-yandıq
@@ -781,7 +781,7 @@ burmaq
 burjuaziya
 burma
 burnuz
-bursa
+bursa
 burum-burum
 burun
 burünmek
@@ -869,7 +869,7 @@ cazibeli
 cealet
 !cebe
 cedid
-ceennem
+ceennem
 ceet
 cefa-i-cebri
 !cekirmek
@@ -988,7 +988,7 @@ cüyrik
 çal
 çalarmaq
 çalbaş
-çaldırmaq
+çaldırmaq
 çalğıcı
 çalıcı
 çalınmaq
@@ -1014,7 +1014,7 @@ cüyrik
 çapmaq
 çapqalamaq
 çapul
-çaqıl çaqıllı
+çaqıl çaqıllı
 çaqırmaq
 !çaqırlıdır
 çar
@@ -1156,7 +1156,7 @@ dağ
 dağılmaq
 dağınmaq
 dağıstan
-dağıstanlı
+dağıstanlı
 dağıtmaq
 dağlamaq
 !dağlane
@@ -1304,7 +1304,7 @@ dört-beş
 dramaturg
 dramaturgin
 dran dua
-dubürdi
+dubürdi
 dudaq
 dudu
 duhovnıylıq
@@ -1364,7 +1364,7 @@ egmek (eğmek)
 eger
 egilmek
 eglenmek
-egri
+egri
 !ehfaz
 ehil
 ehval
@@ -1427,7 +1427,7 @@ eñse
 ensesi
 ep
 eppi (epey) epsi
-er
+er
 erdem
 erek
 erem
@@ -1460,8 +1460,8 @@ esir
 esiremek
 eskence
 eskı eski
-eslemek
-esli
+eslemek
+esli
 esma
 esmek
 esmer
@@ -1522,7 +1522,7 @@ fadime
 fahişe
 faişe
 fal
-familiya
+familiya
 familya
 faniy
 faniylik
@@ -1637,7 +1637,7 @@ göñül
 granit
 gurur
 gurülti
-güdürdemek
+güdürdemek
 güdürdi
 gügüm
 gül
@@ -1695,7 +1695,7 @@ güzel
 ğururlanmaq
 
 haber haberdar
-!hacleme
+!hacleme
 hadim
 hafız
 hafıziy
@@ -1758,7 +1758,7 @@ hayırlı
 hayli
 hayriye
 hayruşa hazin
-hazine
+hazine
 haziran
 haznedar
 hazz
@@ -1845,7 +1845,7 @@ için
 içki
 içmek
 içre
-içtimaiy
+içtimaiy
 içün
 idare
 idarehane
@@ -2115,7 +2115,7 @@ keten (kumaş)
 ketirilmek
 ketirmek
 ketmek
-kevde
+kevde
 kevşemek
 kevşenmek
 keyif
@@ -2147,7 +2147,7 @@ kim
 kimdir
 kimer
 kimse
-kinaye
+kinaye
 kinostsenariy
 kinyaz
 kir
@@ -2175,7 +2175,7 @@ kiyik-kiyik
 kiyilmek
 kiyim
 kiyinmek
-kiyiz
+kiyiz
 kiyizci
 kiymek
 klassik
@@ -2184,7 +2184,7 @@ klumba
 koket
 !koletke
 kolhoz
-kolhozcı
+kolhozcı
 komandan
 komendant
 komissiya
@@ -2282,7 +2282,7 @@ külte-külte
 kültöbe
 kültüra
 külümsiremek
-kümes
+kümes
 kümüş
 kün
 !küncilik
@@ -2614,7 +2614,7 @@ musır
 mustabid
 mustafa
 mustesna
-musulman
+musulman
 musulmanlıq
 musülman
 muşavere
@@ -2800,7 +2800,7 @@ ormanlıq
 !orozlu
 !orqumaq
 orta
-ortalıq
+ortalıq
 ortaq
 ortülmek
 orus
@@ -2861,7 +2861,7 @@ oz
 öksürik
 öksürmek
 öksüz
-öksüzlik
+öksüzlik
 ökünmek
 ölçmek
 ölçüşmek
@@ -2923,7 +2923,7 @@ parlamaq
 parlanmaq
 parlaq
 parmaq
-parmaqlıq
+parmaqlıq
 parohod
 paşa
 pat
@@ -2981,7 +2981,7 @@ post
 prava
 problema
 proekt
-proletar
+proletar
 proyekti
 pud
 puhu
@@ -3071,7 +3071,7 @@ qapı
 qapıcı
 qaplamaq
 qaplanmaq
-qaplı
+qaplı
 qapmaq
 qap-qara
 qapu
@@ -3099,7 +3099,7 @@ qararmaq
 qarartı
 qaravul
 qaray
-qardaş
+qardaş
 qarğa
 qarğamaq
 qarğatmaq
@@ -3154,8 +3154,8 @@ qaveşekeri
 !qavete
 qavğa
 qavğasız
-qavi
-qaviy
+qavi
+qaviy
 qavramaq
 qavun
 qavuq
@@ -3238,7 +3238,7 @@ qısım
 qısmaq
 qısmet
 qısqa 
-qısqayaqlı
+qısqayaqlı
 qıstamaq
 qış
 qışlıq
@@ -3322,7 +3322,7 @@ qoydurmaq
 qoymaq
 qoyulmaq
 qoyun
-qoz
+qoz
 qozğalmaq
 qozğaltmaq
 qozğamaq
@@ -3472,7 +3472,7 @@ saadet
 saat
 saba
 sabah
-saban
+saban
 sabaq
 sabır
 sabıq
@@ -3562,7 +3562,7 @@ saqlamaq
 saqlanmaq
 saqt
 sararmaq
-saray
+saray
 sarf
 sarğoşlatmaq
 sarhoş
@@ -3590,7 +3590,7 @@ satır
 satirik
 satmaq
 sattırmaq
-sav
+sav
 savap
 savaş
 savdırmaq
@@ -3661,7 +3661,7 @@ serasker
 serbest
 serilmek
 serin
-serleva
+serleva
 sermaye
 sermek
 sernik
@@ -3977,14 +3977,14 @@ svoya
 şey
 şeyh
 şeyhulislam
-şeytan
+şeytan
 şıbalamaq
 şıñ
 şıñlamaq
 şıqırdatmaq
 şıqlama
 şiar
-şicaat
+şicaat
 şiddet
 şiddetli
 şifa
@@ -4052,9 +4052,9 @@ tair
 takdir
 talamaq
 talap
-talaq
+talaq
 talaş
-talaşmaq
+talaşmaq
 talay
 talçıqmaq
 taldalıq
@@ -4138,7 +4138,7 @@ tasalanmaq
 tasarlamaq
 tasdıq
 tasdıqlamaq
-tasil
+tasil
 tasvir 
 tasvirlemek
 taş
@@ -4274,7 +4274,7 @@ teslim
 tespi
 teşik
 teşilmek
-teşkermek
+teşkermek
 teşkil
 teşkilât
 teşmek
@@ -4295,9 +4295,9 @@ tınçlandırmaq
 tınçlıq
 tınıç
 tınıq
-tınışlamaq
+tınışlamaq
 tıñlamaq
-tınmaq
+tınmaq
 tıq
 tıqatılmaq
 tıqatmaq
@@ -4322,7 +4322,7 @@ tik
 tiken
 tikiç
 tikilmek
-tikiş
+tikiş
 tiklemek
 tikmek
 til
@@ -4409,7 +4409,7 @@ tostuqay
 tot
 totay
 toy
-toya-toya
+toya-toya
 toydurmaq
 toymaq
 toysatmaq
@@ -4646,7 +4646,7 @@ uzur
 üzeri
 üzmek
 üzülmek
-üzüm
+üzüm
 vaad
 vaaz
 vacip
@@ -4749,7 +4749,7 @@ yantaymaq
 yantıq
 yanvar
 yan-yana
-yapı
+yapı
 yapılı (kapalı)
 yapılmaq
 yapınmaq
@@ -4812,7 +4812,7 @@ yaşmamaq
 !yat
 yataq
 yataqhanede
-yatıq
+yatıq
 yatmaq
 yav
 yavaş
@@ -5004,7 +5004,7 @@ zan
 zaparta
 zar
 zarar
-zarur
+zarur
 zarzavat
 zar-zor
 zat
