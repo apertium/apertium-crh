@@ -501,7 +501,7 @@
 	"orta" adj
 		"e" cop aor p3 sg
 
-"<Kerek>" [also a modal word]
+"<Kerek>"
 	"kerek" adj
 	"kerek" adj
 		"e" cop aor p3 sg
