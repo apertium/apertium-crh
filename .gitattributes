@@ -44,6 +44,7 @@ tests/possessives.yaml -text
 tests/verbs.yaml -text
 tests/voicing.yaml -text
 texts/alfred_nobel.vislcg.txt -text
+texts/altintas.txt -text
 texts/challenge.txt -text
 texts/challenge.vislcg.txt -text
 texts/crh-feats.tsv -text
