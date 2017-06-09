@@ -124,7 +124,7 @@
 
 "<qaytarılıp>"
 	"qaytar" v tv pass prc_perf
-	"qayt” v iv caus pass prc_perf
+	"qayt" v iv caus pass prc_perf
 
 "<Qaraman>"
 	"qaraman" n nom
@@ -279,7 +279,7 @@
 	"muzıka" n px3sp dat
 
 "<özgünligi>"
-	"özgünliк” adj px3sp
+	"özgünliк" adj px3sp
 
 "<senelerge>"
 	"sene" n pl dat
@@ -514,7 +514,7 @@
 	"İlhan" np ant m nom
         	"e" cop aor p3 sg
 
-"<Abibe>”
+"<Abibe>"
 	“abibe" np ant f nom
 	“abibe" np ant f nom
         	"e" cop aor p3 sg
@@ -661,11 +661,11 @@
 		"e" cop aor p3 sg
 
 "<edilmektedir>"
-	“edil” v tv ger nom loc
+	“edil" v tv ger nom loc
 		"e" cop aor p3 sg
-	“edil” v tv ger nom loc
+	“edil" v tv ger nom loc
 		"e" cop aor p3 sg
-	“edil” v tv ger nom loc
+	“edil" v tv ger nom loc
 		"e" cop pres p3 sg
 
 "<cenübinden>"
@@ -1236,8 +1236,8 @@
 		"e" cop aor p3 sg
 
 "<mektebte>"
-	"mektep” n loc
-	"mektep” n loc
+	"mektep" n loc
+	"mektep" n loc
 		"e" cop aor p3 sg
 
 "<ağı>"
@@ -1550,7 +1550,7 @@
 	"çıta" n gen
 
 "<devleriniñ>"
-	"dev” n pl px3sp gen
+	"dev" n pl px3sp gen
 
 "<Tiflisniñ>"
 	"Tiflis" np top gen
