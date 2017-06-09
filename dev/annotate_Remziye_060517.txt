@@ -89,8 +89,8 @@
 		"e" cop aor p3 sg
 
 "<Confederazione>"
-	“confederazione" n nom
-	“confederazione" n nom
+	"confederazione" n nom
+	"confederazione" n nom
 		"e" cop aor p3 sg
 
 "<1444>"
@@ -150,8 +150,8 @@
 		"e" cop pres p3 frm sg
 
 "<Emirsaliyev>"
-	“emirsaliyev" np cog m nom
-	“emirsaliyev" np cog m nom
+	"emirsaliyev" np cog m nom
+	"emirsaliyev" np cog m nom
 		"e" cop aor p3 sg
 
 "<Şatsk>"
@@ -163,7 +163,7 @@
 	"devlet" n pl px3sp gen
 
 "<Raajjeyge>"
-	“raajjeyge" np cog m dat
+	"raajjeyge" np cog m dat
 
 "<yurtı>"
 	"yurt" n px3sp nom
@@ -171,8 +171,8 @@
 		"e" cop aor p3 sg
 
 "<Svitsın>"
-	“svitsın" np cog m nom
-	“svitsın" np cog m nom
+	"svitsın" np cog m nom
+	"svitsın" np cog m nom
 		"e" cop aor p3 sg
 
 "<karyerasınen>"
@@ -206,8 +206,8 @@
 		"e" cop aor p3 sg
 
 "<Harrytown>"
-	“harrytown" np top nom
-	“harrytown" np top nom
+	"harrytown" np top nom
+	"harrytown" np top nom
 		"e" cop aor p3 sg
 
 "<keçirmek>"
@@ -228,8 +228,8 @@
 		"e" cop aor p3 sg
 
 "<Belbek>"
-	“belbek" np top nom
-	“belbek" np top nom
+	"belbek" np top nom
+	"belbek" np top nom
 		"e" cop aor p3 sg
 
 "<">"
@@ -271,8 +271,8 @@
 		"e" cop aor p3 sg
 
 "<Abla>"
-	“abla" n nom
-	“abla" n nom
+	"abla" n nom
+	"abla" n nom
 		"e" cop aor p3 sg
 
 "<muzıkasına>"
@@ -291,8 +291,8 @@
 		"e" cop aor p3 sg
 
 "<Tatlıkuyu>"
-	“tatlıkuyu" np top nom
-	“tatlıkuyu" np top nom
+	"tatlıkuyu" np top nom
+	"tatlıkuyu" np top nom
 		"e" cop aor p3 sg
 
 "<750>"
@@ -352,8 +352,8 @@
 		"e" cop aor p3 sg
 
 "<Neapol>"
-	“neapol" np top nom
-	“neapol" np top nom
+	"neapol" np top nom
+	"neapol" np top nom
 		"e" cop aor p3 sg
 
 "<cebede>"
@@ -453,8 +453,8 @@
 	"celp et" v tv ifi p3 sg
 
 "<Ural>"
-	“ural" np top nom
-	“ural" np top nom
+	"ural" np top nom
+	"ural" np top nom
 		"e" cop aor p3 sg
 
 "<221>"
@@ -507,7 +507,7 @@
 		"e" cop aor p3 sg
 
 "<Ukrainanıñ>"
-	“ukraina" np top gen
+	"ukraina" np top gen
 
 "<İlhan>"
 	"İlhan" np ant m nom
@@ -515,13 +515,13 @@
         	"e" cop aor p3 sg
 
 "<Abibe>"
-	“abibe" np ant f nom
-	“abibe" np ant f nom
+	"abibe" np ant f nom
+	"abibe" np ant f nom
         	"e" cop aor p3 sg
 
 "<Karapınar>"
-	“karapınar" np cog m nom
-	“karapınar" np cog m nom
+	"karapınar" np cog m nom
+	"karapınar" np cog m nom
 		"e" cop aor p3 sg
 
 "<knâzları>"
@@ -603,8 +603,8 @@
 		"e" cop aor p3 sg
 
 "<Karlofça>"
-	“karlofça" np cog m nom
-	“karlofça" np cog m nom
+	"karlofça" np cog m nom
+	"karlofça" np cog m nom
 		"e" cop aor p3 sg
 
 "<ettirilgen>"
@@ -640,13 +640,13 @@
 	"esir" n dat
 
 "<Teşkilatında>"
-	“teşkilat" n px3sp loc
-	“teşkilat" n px3sp loc
+	"teşkilat" n px3sp loc
+	"teşkilat" n px3sp loc
 		"e" cop aor p3 sg
 
 "<Lehistandaki>"
-	“lehistandaki" adj
-	“lehistandaki" adj
+	"lehistandaki" adj
+	"lehistandaki" adj
 		"e" cop aor p3 sg
 
 "<144>"
@@ -661,11 +661,11 @@
 		"e" cop aor p3 sg
 
 "<edilmektedir>"
-	“edil" v tv ger nom loc
+	"edil" v tv ger nom loc
 		"e" cop aor p3 sg
-	“edil" v tv ger nom loc
+	"edil" v tv ger nom loc
 		"e" cop aor p3 sg
-	“edil" v tv ger nom loc
+	"edil" v tv ger nom loc
 		"e" cop pres p3 sg
 
 "<cenübinden>"
@@ -727,8 +727,8 @@
 		"e" cop aor p3 sg
 
 "<Novoaleksandrovka>"
-	“novoaleksandrovka" np top nom
-	“novoaleksandrovka" np top nom
+	"novoaleksandrovka" np top nom
+	"novoaleksandrovka" np top nom
 		"e" cop aor p3 sg
 
 "<etmesi>"
@@ -772,8 +772,8 @@
 		"e" cop aor p3 sg
 
 "<Antarktidadaki>"
-	“antarktidadaki" adj
-	“antarktidadaki" adj
+	"antarktidadaki" adj
+	"antarktidadaki" adj
 		"e" cop aor p3 sg
 
 "<noqtasınen>"
@@ -895,8 +895,8 @@
 	"türkçe" n dat
 
 "<Demirlibağça>"
-	“demirlibağça" np top nom
-	“demirlibağça" np top nom
+	"demirlibağça" np top nom
+	"demirlibağça" np top nom
 		"e" cop aor p3 sg
 
 "<Çelebicihan>"
@@ -1013,7 +1013,7 @@
 		"e" cop aor p3 sg
 
 "<Pantikapeyonğa>"
-	“pantikapeyon" n dat
+	"pantikapeyon" n dat
 
 "<Ğalip>"
 	"ğalip" n nom
@@ -1114,8 +1114,8 @@
 		"e" cop aor p3 sg
 
 "<Mazoviya>"
-	“mazoviya" np top nom
-	“mazoviya" np top nom
+	"mazoviya" np top nom
+	"mazoviya" np top nom
 		"e" cop aor p3 sg
 
 "<İsyanında>"
@@ -1150,8 +1150,8 @@
 	"1177" num subst nom
 
 "<Neolitik>"
-	“neolitik" adj
-	“neolitik" adj
+	"neolitik" adj
+	"neolitik" adj
 		"e" cop aor p3 sg
 
 "<deputatlıq>"
@@ -1179,8 +1179,8 @@
 	"at²" n px3sp acc
 
 "<Suğdeya>"
-	“Suğdeya" np top nom
-	“Suğdeya" np top nom
+	"Suğdeya" np top nom
+	"Suğdeya" np top nom
 		"e" cop aor p3 sg
 
 "<gazeta>"
@@ -1197,9 +1197,9 @@
 		"e" cop aor p3 sg
 
 "<Odisseya>"
-	“odisseya" n nom
-	“odisseya" n attr
-	“odisseya" n nom
+	"odisseya" n nom
+	"odisseya" n attr
+	"odisseya" n nom
 		"e" cop aor p3 sg
 
 "<qurumıdır>"
@@ -1346,8 +1346,8 @@
 	"(" lpar
 
 "<İstanbuldaki>"
-	“İstanbuldaki" adj
-	“İstanbuldaki" adj
+	"İstanbuldaki" adj
+	"İstanbuldaki" adj
 		"e" cop aor p3 sg
 
 "<Vıjnıtsâ>"
@@ -1361,8 +1361,8 @@
 		"e" cop aor p3 sg
 
 "<paytahtındaki>"
-	“paytahtındaki" adj
-	“paytahtındaki" adj
+	"paytahtındaki" adj
+	"paytahtındaki" adj
 		"e" cop aor p3 sg
 
 "<boyunun>"
@@ -1489,8 +1489,8 @@
 		"e" cop aor p3 sg
 
 "<andaki>"
-	“andaki" adj
-	“andaki" adj
+	"andaki" adj
+	"andaki" adj
 		"e" cop aor p3 sg
 
 "<bıraqtı>"
@@ -1556,8 +1556,8 @@
 	"Tiflis" np top gen
 
 "<Romaniyadaki>"
-	“romaniyadaki" adj
-	“romaniyadaki" adj
+	"romaniyadaki" adj
+	"romaniyadaki" adj
 		"e" cop aor p3 sg
 
 "<Padişa>"
@@ -1567,4 +1567,4 @@
 		"e" cop aor p3 sg
 
 "<Herakleya>"
-	“herakley" n dat
+	"herakley" n dat
