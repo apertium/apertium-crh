@@ -560,7 +560,7 @@
 	"taşla" v tv prc_perf
 
 "<Folkloru>"
-	"folkloru" n poss
+	"folklor" n px3sp nom
 
 "<qoymağa>"
 	"qoy" vaux ger dat
