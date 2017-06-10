@@ -722,8 +722,8 @@ LEXICON DET-DEM
 
 LEXICON V-PERS-S1-COP
 
-%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
-%<p3%>%<frm%>%<pl%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
+%<gno%>%<p3%>%<sg%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
+%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r CLITICS-NO-COP ;  ! Dir/LR
 V-PERS-S1 ;
 
 LEXICON V-PERS-S1 
