@@ -1830,6 +1830,10 @@
 
 "<türkçe>"
 	"türkçe" adv
+	"türkçe" n attr
+	"türkçe" n nom
+	"türkçe" n nom
+		"e" cop aor p3 sg
 
 "<arman>"
 	"arman" n nom
