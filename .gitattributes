@@ -16,6 +16,7 @@
 /crh.prob -text svneol=unset#unset
 dev/Makefile -text
 dev/annotate.all.txt -text
+dev/annotate.forms.txt -text
 dev/annotate.trimmed.txt -text
 dev/annotate.txt -text
 dev/annotate_DK_052017.txt -text
