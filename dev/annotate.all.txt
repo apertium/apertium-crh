@@ -543,9 +543,9 @@
 	"seyaat" n px3sp dat
 
 "<atta>"
-	"at" cnjadv
-	"at" n loc
-	"at" n loc
+	"atta" cnjadv
+	"at¹" n loc
+	"at¹" n loc
 		"e" cop aor p3 sg
 
 "<şiirlerniñ>"
