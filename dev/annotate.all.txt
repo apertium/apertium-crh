@@ -8,11 +8,11 @@
 
 "<emiyetlidir>"
 	"emiyetli" adj
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"emiyetli" adj
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"emiyetli" adj
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<yeñilmesinen>"
 	"yeñilme" n px3sp ins
@@ -47,7 +47,8 @@
 		"e" cop aor p3 sg
 
 "<qavray>"
-	"qavra" v pv pres p3 sg
+	"qavra" v tv aor p3 sg
+	"qavra" v tv prc_impf
 
 "<olğanları>"
 	"ol" v iv ger_past pl px3sp nom
@@ -224,11 +225,11 @@
 
 "<Aqmescittir>"
 	"Aqmescit" np top nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"Aqmescit" np top nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"Aqmescit" np top nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<avtomobil>"
 	"avtomobil" n nom
@@ -286,11 +287,11 @@
 
 "<abidedir>"
 	"abide" n nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"abide" n nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"abide" n nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<Aqyarnı>"
 	"Aqyar" np top acc
@@ -488,9 +489,9 @@
 
 "<Antarktidadır>"
 	"antarktida" np top nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"antarktida" np top nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<etnogenezi>"
 	"etnogenez" n px3sp nom
@@ -532,7 +533,7 @@
 
 "<beriledir>"
 	"ber" v tv pass prc_impf 
-       		"e" cop aor p3 frm sg
+       		"e" cop aor gno p3 sg
 
 "<1533>"
 	"1533" num
@@ -870,11 +871,11 @@
 
 "<adlandırğanlardır>" 
 	"adlandır" v tv ger_past pl nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"adlandır" v tv ger_past pl nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"adlandır" v tv ger_past pl nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<Emirsaliyev>"
 	"emirsaliyev" np cog m nom
@@ -1144,11 +1145,11 @@
 
 "<yığılışıdır>"
 	"yığılış" n px3sp nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"yığılış" n px3sp nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"yığılış" n px3sp nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<»>"
 	"»" rquot
@@ -1284,11 +1285,11 @@
 
 "<qurulğandır>"
 	"qur" v tv pass ger_past nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"qur" v tv pass ger_past nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"qur" v tv pass ger_past nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<signal>"
 	"signal" n nom
@@ -1416,11 +1417,11 @@
 
 "<fevraldir>"
 	"fevral" n nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"fevral" n nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"fevral" n nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<36>"
 	"36" num
@@ -1611,11 +1612,11 @@
 
 "<soyudır>"
 	"soy" n px3sp nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"soy" n px3sp nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"soy" n px3sp nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<Türkçege>"
 	"türkçe" n dat
@@ -1930,11 +1931,11 @@
 
 "<qurumıdır>"
 	"qurum" n px3sp nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"qurum" n px3sp nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"qurum" n px3sp nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<pilot>"
 	"pilot" n nom
@@ -2014,17 +2015,17 @@
 
 "<bergendir>"
 	"ber" vaux ger_past nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"ber" vaux ger_past nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"ber" v tv ger_past nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"ber" v tv ger_past nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"ber" vaux ger_past nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 	"ber" v tv ger_past nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<saylandı>"
 	"sayla" v tv pass ifi p3 sg
@@ -2118,11 +2119,11 @@
 
 "<türüdür>"
 	"tür" n px3sp nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"tür" n px3sp nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"tür" n px3sp nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<becerip>"
 	"becer" v tv pass prc_perf
@@ -2174,11 +2175,11 @@
 
 "<Belarustır>"
 	"Belarus" np top nom
-		"e" cop aor p3 frm sg
+		"e" cop aor gno p3 sg
 	"Belarus" np top nom
-		"e" cop aor p3 frm pl
+		"e" cop aor gno p3 pl
 	"Belarus" np top nom
-		"e" cop pres p3 frm sg
+		"e" cop aor gno p3 sg
 
 "<Oles>"
 	"Oles" np ant m nom

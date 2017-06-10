@@ -42,6 +42,7 @@ Multichar_Symbols
 %<nec%>
 %<imp%>
 %<aor%>
+%<gno%>
 %<fut%>
 %<fut2%>          ! -EcAG
 %<past%>
@@ -310,8 +311,9 @@ LEXICON CLIT-QST-MI
 
 LEXICON CLIT-COP
 
-%+e%<cop%>%<pres%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
-%+e%<cop%>%<pres%>%<p3%>%<frm%>%<pl%>:%>%{D%}%{I%}r%>l%{A%}r # ;
+%+e%<cop%>%<aor%>%<gno%>%<p3%>%<sg%>:%>%{D%}%{I%}r # ;
+%+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r # ; ! Dir/LR
+%+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r%>l%{A%}r # ;
 %+e%<cop%>%<aor%>: V-PERS-S1-COP ; 
 %+e%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-S1-COP ; 
 
