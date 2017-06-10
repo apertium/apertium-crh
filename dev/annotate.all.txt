@@ -1333,11 +1333,7 @@
 		"e" cop aor p3 sg
 
 "<ettirilgen>"
-	"et" v tv pass pass ger_past nom
-	"et" v tv pass pass past p3 sg
-	"et" v tv pas pass gpr_past
-	"et" v tv pass pass ger_past nom
-		"e" cop aor p3 sg"ettir" v tv pass ger_past nom
+	"ettir" v tv pass ger_past nom
 	"ettir" v tv pass past p3 sg
 	"ettir" v tv pass gpr_past
 	"ettir" v tv pass ger_past nom
