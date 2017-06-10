@@ -586,7 +586,7 @@
 		"e" cop aor p3 pl
 
 "<bozğunğa>"
-	"bozğun" adj dat
+	"bozğun" adj subst dat
 
 "<Koreya>"
 	"Koreya" np top nom
@@ -878,8 +878,8 @@
 		"e" cop aor gno p3 sg
 
 "<Emirsaliyev>"
-	"emirsaliyev" np cog m nom
-	"emirsaliyev" np cog m nom
+	"Emirsaliyev" np cog m nom
+	"Emirsaliyev" np cog m nom
 		"e" cop aor p3 sg
 
 "<Şatsk>"
@@ -891,7 +891,7 @@
 	"devlet" n pl px3sp gen
 
 "<Raajjeyge>"
-	"raajjeyge" np cog m dat
+	"Raajjey" np cog m dat
 
 "<yurtı>"
 	"yurt" n px3sp nom
@@ -899,8 +899,8 @@
 		"e" cop aor p3 sg
 
 "<Svitsın>"
-	"svitsın" np cog m nom
-	"svitsın" np cog m nom
+	"Svitsın" np cog m nom
+	"Svitsın" np cog m nom
 		"e" cop aor p3 sg
 
 "<karyerasınen>"
@@ -1110,8 +1110,8 @@
 	"qardaş" n pl px3sp acc
 
 "<Eldar>"
-	"eldar" np ant m nom
-	"eldar" np ant m nom
+	"Eldar" np ant m nom
+	"Eldar" np ant m nom
         	"e" cop aor p3 sg
 
 "<327>"
@@ -1243,13 +1243,13 @@
         	"e" cop aor p3 sg
 
 "<Abibe>"
-	"abibe" np ant f nom
-	"abibe" np ant f nom
+	"Abibe" np ant f nom
+	"Abibe" np ant f nom
         	"e" cop aor p3 sg
 
 "<Karapınar>"
-	"karapınar" np cog m nom
-	"karapınar" np cog m nom
+	"Karapınar" np cog m nom
+	"Karapınar" np cog m nom
 		"e" cop aor p3 sg
 
 "<knâzları>"
@@ -1328,8 +1328,8 @@
 		"e" cop aor p3 sg
 
 "<Karlofça>"
-	"karlofça" np cog m nom
-	"karlofça" np cog m nom
+	"Karlofça" np cog m nom
+	"Karlofça" np cog m nom
 		"e" cop aor p3 sg
 
 "<ettirilgen>"
@@ -1514,8 +1514,8 @@
 		"e" cop aor p3 sg
 
 "<Murtaza>"
-	"murtaza" np ant m nom
-	"murtaza" np ant m nom
+	"Murtaza" np ant m nom
+	"Murtaza" np ant m nom
 		"e" cop aor p3 sg
 
 "<Kefede>"
