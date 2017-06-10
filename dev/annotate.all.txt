@@ -1309,9 +1309,6 @@
 	"teşkilât" n gen
 
 "<içindeki>"
-	"içindeki" adj
-	"içindeki" adj
-		"e" cop aor p3 sg
 	"iç" n px3sp loc attr
 	"iç" n px3sp loc subst nom
 	"iç" n px3sp loc subst nom
@@ -1372,8 +1369,9 @@
 		"e" cop aor p3 sg
 
 "<Lehistandaki>"
-	"lehistandaki" adj
-	"lehistandaki" adj
+	"Lehistan" np top loc attr
+	"Lehistan" np top loc subst nom
+	"Lehistan" np top loc subst nom
 		"e" cop aor p3 sg
 
 "<144>"
@@ -1499,8 +1497,9 @@
 		"e" cop aor p3 sg
 
 "<Antarktidadaki>"
-	"antarktidadaki" adj
-	"antarktidadaki" adj
+	"Antarktida" np top loc attr
+	"Antarktida" np top loc subst nom
+	"Antarktida" np top loc subst nom
 		"e" cop aor p3 sg
 
 "<noqtasınen>"
@@ -2073,8 +2072,9 @@
 	"(" lpar
 
 "<İstanbuldaki>"
-	"İstanbuldaki" adj
-	"İstanbuldaki" adj
+	"İstanbul" np top loc attr
+	"İstanbul" np top loc subst nom
+	"İstanbul" np top loc subst nom
 		"e" cop aor p3 sg
 
 "<Vıjnıtsâ>"
@@ -2088,8 +2088,9 @@
 		"e" cop aor p3 sg
 
 "<paytahtındaki>"
-	"paytahtındaki" adj
-	"paytahtındaki" adj
+	"paytaht" n px3sp loc attr
+	"paytaht" n px3sp loc subst nom
+	"paytaht" n px3sp loc subst nom
 		"e" cop aor p3 sg
 
 "<boyunun>"
@@ -2216,8 +2217,9 @@
 		"e" cop aor p3 sg
 
 "<andaki>"
-	"andaki" adj
-	"andaki" adj
+	"an" n loc attr
+	"an" n loc subst nom
+	"an" n loc subst nom
 		"e" cop aor p3 sg
 
 "<bıraqtı>"
@@ -2283,8 +2285,9 @@
 	"Tiflis" np top gen
 
 "<Romaniyadaki>"
-	"romaniyadaki" adj
-	"romaniyadaki" adj
+	"Romaniya" np top loc attr
+	"Romaniya" np top loc subst nom
+	"Romaniya" np top loc subst nom
 		"e" cop aor p3 sg
 
 "<Padişa>"
