@@ -1009,7 +1009,7 @@
 	"muzıka" n px3sp dat
 
 "<özgünligi>"
-	"özgünliк" adj px3sp
+	"özgünlik" adj px3sp nom
 
 "<senelerge>"
 	"sene" n pl dat
