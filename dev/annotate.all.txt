@@ -488,9 +488,9 @@
 	"1926" num subst nom
 
 "<Antarktidadır>"
-	"antarktida" np top nom
+	"Antarktida" np top nom
 		"e" cop aor gno p3 sg
-	"antarktida" np top nom
+	"Antarktida" np top nom
 		"e" cop aor gno p3 sg
 
 "<etnogenezi>"
@@ -934,8 +934,8 @@
 		"e" cop aor p3 sg
 
 "<Harrytown>"
-	"harrytown" np top nom
-	"harrytown" np top nom
+	"Harrytown" np top nom
+	"Harrytown" np top nom
 		"e" cop aor p3 sg
 
 "<keçirmek>"
@@ -956,8 +956,8 @@
 		"e" cop aor p3 sg
 
 "<Belbek>"
-	"belbek" np top nom
-	"belbek" np top nom
+	"Belbek" np top nom
+	"Belbek" np top nom
 		"e" cop aor p3 sg
 
 "<">"
@@ -1019,8 +1019,8 @@
 		"e" cop aor p3 sg
 
 "<Tatlıkuyu>"
-	"tatlıkuyu" np top nom
-	"tatlıkuyu" np top nom
+	"Tatlıkuyu" np top nom
+	"Tatlıkuyu" np top nom
 		"e" cop aor p3 sg
 
 "<750>"
@@ -1080,8 +1080,8 @@
 		"e" cop aor p3 sg
 
 "<Neapol>"
-	"neapol" np top nom
-	"neapol" np top nom
+	"Neapol" np top nom
+	"Neapol" np top nom
 		"e" cop aor p3 sg
 
 "<cebede>"
@@ -1181,8 +1181,8 @@
 	"celp et" v tv ifi p3 sg
 
 "<Ural>"
-	"ural" np top nom
-	"ural" np top nom
+	"Ural" np top nom
+	"Ural" np top nom
 		"e" cop aor p3 sg
 
 "<221>"
@@ -1202,7 +1202,7 @@
 
 "<qızına>"
 	"qız" n px3sp dat
-	"qız" v iv pass aor p3 sg [is there a verb?]
+	"qız" v iv pass aor p3 sg
 	"qız" v iv pass prc_impf
 
 "<35>"
@@ -1235,7 +1235,7 @@
 		"e" cop aor p3 sg
 
 "<Ukrainanıñ>"
-	"ukraina" np top gen
+	"Ukraina" np top gen
 
 "<İlhan>"
 	"İlhan" np ant m nom
@@ -1433,9 +1433,9 @@
 		"e" cop aor p3 pl
 
 "<hristianlaştırma>"
-	"hristianlaştırma" n nom
-	"hristianlaştırma" n attr
-	"hristianlaştırma" n nom
+	"hristianlaştır" v tv ger nom
+	"hristianlaştır" v tv neg imp p2 sg
+	"hristianlaştır" v tv ger nom
 		"e" cop aor p3 sg
 
 "<mesül>"
@@ -1453,8 +1453,8 @@
 		"e" cop aor p3 sg
 
 "<Novoaleksandrovka>"
-	"novoaleksandrovka" np top nom
-	"novoaleksandrovka" np top nom
+	"Novoaleksandrovka" np top nom
+	"Novoaleksandrovka" np top nom
 		"e" cop aor p3 sg
 
 "<etmesi>"
@@ -1622,8 +1622,8 @@
 	"türkçe" n dat
 
 "<Demirlibağça>"
-	"demirlibağça" np top nom
-	"demirlibağça" np top nom
+	"Demirlibağça" np top nom
+	"Demirlibağça" np top nom
 		"e" cop aor p3 sg
 
 "<Çelebicihan>"
@@ -1841,8 +1841,8 @@
 		"e" cop aor p3 sg
 
 "<Mazoviya>"
-	"mazoviya" np top nom
-	"mazoviya" np top nom
+	"Mazoviya" np top nom
+	"Mazoviya" np top nom
 		"e" cop aor p3 sg
 
 "<İsyanında>"
