@@ -1101,7 +1101,7 @@
 		"e" cop aor p3 sg
 
 "<Vinklerge>"
-	"vinklerge" n dat
+	"vinkler" n dat
 
 "<cevapnı>"
 	"cevap" n acc
