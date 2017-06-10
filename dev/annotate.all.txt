@@ -581,9 +581,11 @@
 		"e" cop aor p3 sg
 
 "<qulaçıqlar>"
-	"qulaçıq" n pl
+	"qulaçıq" n pl nom
 	"qulaçıq" n nom
 		"e" cop aor p3 pl
+	"qulaçıq" n pl nom
+		"e" cop aor p3 sg
 
 "<bozğunğa>"
 	"bozğun" adj subst dat
@@ -1261,6 +1263,8 @@
 	"passaj" n pl nom
 	"passaj" n pl nom
 		"e" cop aor p3 sg
+	"passaj" n nom
+		"e" cop aor p3 pl
 
 "<gruppasına>"
 	"gruppa" n px3sp dat
@@ -1424,9 +1428,11 @@
 	"36" num subst nom
 
 "<Mişerler>"
-	"mişer" n pl
-	"mişer" n pl
+	"mişer" n pl nom
+	"mişer" n nom
 		"e" cop aor p3 pl
+	"mişer" n pl nom
+		"e" cop aor p3 sg
 
 "<hristianlaştırma>"
 	"hristianlaştır" v tv ger nom
