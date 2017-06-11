@@ -1745,8 +1745,9 @@
 	"topraq" n pl px3sp gen
 
 "<agitatsion>"
-	"agitatsion" adj
-	"agitatsion" adj
+	"agitatsion" n attr
+	"agitatsion" n nom
+	"agitatsion" n nom
 		"e" cop aor p3 sg
 
 "<1380>"
