@@ -245,20 +245,6 @@
 	"yap" v tv neg aor p3 sg
 	"yap" v tv neg prc_impf
 
-"<Kızıl>"
-	"kızıl" adj
-	"kızıl" adj
-		"e" cop aor p3 sg
-	"kızıl" adj
-		"e" cop aor p3 pl
-	"kızıl" adj subst nom
-		"e" cop aor p3 sg
-	"kızıl" adj subst nom
-		"e" cop aor p3 pl
-	"Kızıl" np top nom
-	"Kızıl" np top nom
-		"e" cop aor p3 sg
-
 "<658>"
 	"658" num
 	"658" num subst nom
