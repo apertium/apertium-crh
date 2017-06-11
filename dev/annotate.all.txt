@@ -381,14 +381,6 @@
 
 "<örneklerde>"
 	"örnek" n pl loc
-	"örnek" n nom
-		"e" cop aor p3 pl
-			"da" postadv
-	"örnek" n pl nom
-		"da" postadv
-	"örnek" n pl nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"örnek" n pl loc
 		"e" cop aor p3 sg
 
@@ -665,11 +657,6 @@
 
 "<şeerde>"
 	"şeer" n loc
-	"şeer" n nom
-		"da" postadv
-	"şeer" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"şeer" n loc
 		"e" cop aor p3 sg
 
@@ -790,11 +777,6 @@
 
 "<Fakultetinde>"
 	"fakultet" n px3sp loc
-	"fakultet" n px3sp nom
-		"da" postadv
-	"fakultet" n px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"fakultet" n px3sp loc
 		"e" cop aor p3 sg
 
@@ -830,11 +812,6 @@
 
 "<sırasıda>"
 	"sıra" n px3sp loc
-	"sıra" n px3sp nom
-		"da" postadv
-	"sıra" n px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"sıra" n px3sp loc
 		"e" cop aor p3 sg
 
@@ -898,11 +875,6 @@
 
 "<alda>"
 	"al" n loc
-	"al" n nom
-		"da" postadv
-	"al" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"al" n loc
 		"e" cop aor p3 sg
 
@@ -1074,11 +1046,6 @@
 
 "<cebede>"
 	"cebe" n loc
-	"cebe" n nom
-		"da" postadv
-	"cebe" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"cebe" n loc
 		"e" cop aor p3 sg
 
@@ -1108,11 +1075,6 @@
 
 "<Bölüminde>"
 	"bölüm" n px3sp loc
-	"bölüm" n px3sp nom
-		"da" postadv
-	"bölüm" n px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"bölüm" n px3sp loc
 		"e" cop aor p3 sg
 
@@ -1121,13 +1083,6 @@
 
 "<çıqqanda>"
 	"çıq" v iv ger_past loc
-	"çıq" v iv ger_past nom
-		"da" postadv
-	"çıq" v iv past p3 sg
-		"da" postadv
-	"çıq" v iv ger_past nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"çıq" v iv ger_past loc
 		"e" cop aor p3 sg
 
@@ -1144,11 +1099,6 @@
 
 "<İsrailde>"
 	"İsrail" np top loc
-	"İsrail" np top nom
-		"da" postadv
-	"İsrail" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"İsrail" np top loc
 		"e" cop aor p3 sg
 
@@ -1331,11 +1281,6 @@
 
 "<tarzda>"
 	"tarz" n loc
-	"tarz" n nom
-		"da" postadv
-	"tarz" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"tarz" n loc
 		"e" cop aor p3 sg
 
@@ -1508,11 +1453,6 @@
 
 "<Kefede>"
 	"Kefe" np top loc
-	"Kefe" np top nom
-		"da" postadv
-	"Kefe" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"Kefe" np top loc
 		"e" cop aor p3 sg
 
@@ -1584,11 +1524,6 @@
 
 "<vesiqalarında>"
 	"vesiqa" n pl px3sp loc
-	"vesiqa" n pl px3sp nom
-		"da" postadv
-	"vesiqa" n pl px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"vesiqa" n pl px3sp loc
 		"e" cop aor p3 sg
 
@@ -1699,11 +1634,6 @@
 
 "<deñizde>"
 	"deñiz" n loc
-	"deñiz" n nom
-		"da" postadv
-	"deñiz" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"deñiz" n loc
 		"e" cop aor p3 sg
 
@@ -1839,11 +1769,6 @@
 
 "<İsyanında>"
 	"isyan" n px3sp loc
-	"isyan" n px3sp nom
-		"da" postadv
-	"isyan" n px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"isyan" n px3sp loc
 		"e" cop aor p3 sg
 
@@ -1941,11 +1866,6 @@
 
 "<bölüginde>"
 	"bölük" n px3sp loc
-	"bölük" n px3sp nom
-		"da" postadv
-	"bölük" n px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"bölük" n px3sp loc
 		"e" cop aor p3 sg
 
@@ -1997,11 +1917,6 @@
 
 "<2-inde>"
 	"2" num subst px3sp loc
-	"2" num subst px3sp nom
-		"da" postadv
-	"2" num subst px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"2" num subst px3sp loc
 		"e" cop aor p3 sg
 
@@ -2091,11 +2006,6 @@
 
 "<çevresinde>"
 	"çevre" n px3sp loc
-	"çevre" n px3sp nom
-		"da" postadv
-	"çevre" n px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"çevre" n px3sp loc
 		"e" cop aor p3 sg
 
