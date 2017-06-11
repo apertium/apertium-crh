@@ -686,7 +686,9 @@
 	"soz" v tv pass ifi p3 sg
 
 "<çıqar>"
-	"çıqar" v iv fut p3 sg
+	"çıq" v iv gpr_fut
+	"çıq" v iv fut p3 sg
+	"çıqar" v tv imp p2 sg
 
 "<kelecegi>"
 	"kel" vaux ger_fut2 px3sp nom
@@ -701,6 +703,7 @@
 	"tañ" n attr
 	"tañ" n nom
 		"e" cop aor p3 sg
+
 "<yollamasınıñ>"
 	"yolla" v tv ger px3sp gen
 
@@ -968,6 +971,8 @@
 
 "<özgünligi>"
 	"özgünlik" adj px3sp nom
+	"özgünlik" adj px3sp nom
+		"e" cop aor p3 sg
 
 "<senelerge>"
 	"sene" n pl dat
