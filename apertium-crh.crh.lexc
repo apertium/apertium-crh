@@ -297,9 +297,9 @@ LEXICON CLIT-EMPH-CHI
 %+çı%<emph%>:%>ç%{I%} # ;
 # ;
 
-LEXICON CLIT-DA
+!LEXICON CLIT-DA
 
-%+da%<postadv%>:%>d%{A%} # ;
+!%+da%<postadv%>:%>d%{A%} # ;
 
 LEXICON CLIT-EMPH 
 
@@ -320,7 +320,7 @@ LEXICON CLIT-COP
 LEXICON CLITICS-NO-COP 
 
 CLIT-QST-MI ;
-CLIT-DA ;
+!CLIT-DA ;
 # ;
 
 LEXICON CLITICS-INCL-COP 
