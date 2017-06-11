@@ -250,11 +250,11 @@
 	"658" num subst nom
 
 "<başlanğanı>"
-	"başlan" vaux pass ger_past px3sp nom
-	"başlan" v tv pass ger_past px3sp nom
-	"başlan" vaux pass ger_past px3sp nom
+	"başla" vaux pass ger_past px3sp nom
+	"başla" v tv pass ger_past px3sp nom
+	"başla" vaux pass ger_past px3sp nom
 		"e" cop aor p3 sg
-	"başlan" v tv pass ger_past px3sp nom
+	"başla" v tv pass ger_past px3sp nom
 		"e" cop aor p3 sg
 
 "<168>"
