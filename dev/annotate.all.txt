@@ -2183,6 +2183,7 @@
 
 "<devleriniñ>"
 	"dev" n pl px3sp gen
+	"de" v tv ger_abst pl px3sp gen
 
 "<Tiflisniñ>"
 	"Tiflis" np top gen
