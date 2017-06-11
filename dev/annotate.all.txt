@@ -1881,7 +1881,13 @@
 
 "<ağı>"
 	"ağ" n px3sp nom
+	"aq" n px3sp nom
+	"aq" adj subst px3sp nom
 	"ağ" n px3sp nom
+		"e" cop aor p3 sg
+	"aq" n px3sp nom
+		"e" cop aor p3 sg
+	"aq" adj subst px3sp nom
 		"e" cop aor p3 sg
 
 "<tercimeialı>"
