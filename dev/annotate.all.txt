@@ -1163,6 +1163,10 @@
 		"e" cop aor p3 sg
 
 "<orta>"
+	"orta" n attr
+	"orta" n nom
+		"e" cop aor p3 sg
+	"orta" n nom
 	"orta" adj
 	"orta" adj
 		"e" cop aor p3 sg
