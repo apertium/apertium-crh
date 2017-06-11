@@ -18,6 +18,7 @@ Multichar_Symbols
 %<adv%>           ! Adverb                      !
 %<v%>             ! Verb                        !
 %<cnjcoo%>        ! Coordinating conjunction    !
+%<cnjsub%>        ! "subordinating conjunction" (ki)
 %<qst%>           ! Question word
 %<cop%>           ! Copula
 %<postadv%>       ! 
