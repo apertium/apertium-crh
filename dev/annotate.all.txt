@@ -180,8 +180,8 @@
 		"e" cop aor p3 sg
 
 "<slavânlar>"
-	"slavân" adj pl
-	"slavân" adj pl
+	"slavân" adj subst pl nom
+	"slavân" adj subst pl nom
 		"e" cop aor p3 pl
 
 "<Top>"
@@ -510,7 +510,7 @@
 	"596" num subst nom
 
 "<beriledir>"
-	"ber" v tv pass prc_impf 
+	"ber" v tv pass gpr_impf 
        		"e" cop aor gno p3 sg
 
 "<1533>"

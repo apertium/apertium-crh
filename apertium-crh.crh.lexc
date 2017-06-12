@@ -11094,6 +11094,8 @@ Qızıl% Körpe:Qızıl% Körpe NP-TOP ; ! ""
 Qızıltaş:Qızıltaş NP-TOP ; ! "" 
 Qızıltaş:Qızıltaş NP-TOP ; ! "" ! (Kefe şeer şurası)
 Qızıl% Terçek:Qızıl% Terçek NP-TOP ; ! "" 
+Qızıl:Kızıl NP-TOP ; ! ""  ! Err/Orth ! Dir/LR
+Qızıl:Qızıl NP-TOP ; ! ""  ! Err/Orth ! Dir/LR
 Qobazı:Qobazı NP-TOP ; ! "" 
 Qocalaq:Qocalaq NP-TOP ; ! "" 
 Qocambaq:Qocambaq NP-TOP ; ! "" 
