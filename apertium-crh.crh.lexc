@@ -7521,6 +7521,7 @@ muzıkant:muzıkant N5 ; ! ""
 
 alim:alim N1 ; ! "учёный"
 rabbi:rabbi N1 ; ! ""
+hit:hit N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -8699,6 +8700,8 @@ Meryem:Meryem NP-ANT-F ; ! ""
 Nikolayev:Nikolayev NP-COG-OV ; ! ""
 Siyabendov:Siyabendov NP-COG-OV ; ! ""
 
+Hitler:Hitler NP-COG-MF ; ! ""
+Gitler:Gitler NP-COG-MF ; ! ""
 Minih:Minih NP-COG-MF ; ! ""
 Servantes:Servantes NP-COG-MF ; ! ""
 Çelebicihan:Çelebicihan NP-COG-MF ; ! ""
