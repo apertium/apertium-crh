@@ -3,8 +3,8 @@
 	"çıq" v iv prc_impf
 
 "<5-inci>"
-	"5" num ord err_orth
-	"5" num ord subst nom err_orth
+	"5" num ord
+	"5" num ord subst nom
 
 "<emiyetlidir>"
 	"emiyetli" adj
@@ -15,14 +15,6 @@
 		"e" cop aor gno p3 pl
 	"emiyetli" adj subst nom
 		"e" cop aor gno p3 sg
-	"emiyetli" adj
-		"e" cop aor p3 frm pl
-	"emiyetli" adj
-		"e" cop aor p3 frm sg
-	"emiyetli" adj subst nom
-		"e" cop aor p3 frm pl
-	"emiyetli" adj subst nom
-		"e" cop aor p3 frm sg
 
 "<yeñilmesinen>"
 	"yeñ" v tv pass ger px3sp ins
@@ -90,10 +82,6 @@
 		"e" cop aor gno p3 pl
 	"Brüksel" np top loc
 		"e" cop aor gno p3 sg
-	"Brüksel" np top loc
-		"e" cop aor p3 frm pl
-	"Brüksel" np top loc
-		"e" cop aor p3 frm sg
 
 "<qavray>"
 	"*qavray"
@@ -336,7 +324,7 @@
 		"e" cop aor p3 sg
 
 "<Korsika>"
-	"kor" n px3sp dat err_orth
+	"kor" n px3sp dat
 
 "<Cünki>"
 	"*Cünki"
@@ -367,10 +355,6 @@
 		"e" cop aor gno p3 pl
 	"Aqmescit" np top nom
 		"e" cop aor gno p3 sg
-	"Aqmescit" np top nom
-		"e" cop aor p3 frm pl
-	"Aqmescit" np top nom
-		"e" cop aor p3 frm sg
 
 "<avtomobil>"
 	"avtomobil" n attr
@@ -395,9 +379,6 @@
 	"Gayevniki-Kolonya" np top nom
 	"Gayevniki-Kolonya" np top nom
 		"e" cop aor p3 sg
-
-"<Kızıl>"
-	"*Kızıl"
 
 "<658>"
 	"658" num
@@ -449,10 +430,6 @@
 		"e" cop aor gno p3 pl
 	"abide" n nom
 		"e" cop aor gno p3 sg
-	"abide" n nom
-		"e" cop aor p3 frm pl
-	"abide" n nom
-		"e" cop aor p3 frm sg
 
 "<Hülagu>"
 	"*Hülagu"
@@ -584,7 +561,7 @@
 		"e" cop aor p3 sg
 
 "<ONUKA>"
-	"on" num subst px3sp dat err_orth
+	"on" num subst px3sp dat
 
 "<edebiyatından>"
 	"edebiyat" n px3sp abl
@@ -600,14 +577,6 @@
 
 "<örneklerde>"
 	"örnek" n pl loc
-	"örnek" n nom
-		"e" cop aor p3 pl
-			"da" postadv
-	"örnek" n pl nom
-		"da" postadv
-	"örnek" n pl nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"örnek" n pl loc
 		"e" cop aor p3 sg
 
@@ -817,9 +786,9 @@
 	"taşla" v tv prc_perf
 
 "<Folkloru>"
-	"folklor" adj subst px3sp nom err_orth
 	"folklor" adj subst px3sp nom
-		"e" cop aor p3 sg err_orth
+	"folklor" adj subst px3sp nom
+		"e" cop aor p3 sg
 
 "<qoymağa>"
 	"qoy" vaux ger dat
@@ -851,7 +820,7 @@
 		"e" cop aor p3 sg
 
 "<Şurasınca>"
-	"şura" n px3sp sim err_orth
+	"şura" n px3sp sim
 
 "<Yavoriv>"
 	"Yavoriv" np top nom
@@ -875,7 +844,7 @@
 "<Burundi>"
 	"Burundi" np top nom
 	"burun" n nom
-		"e" cop ifi p3 sg err_orth
+		"e" cop ifi p3 sg
 	"Burundi" np top nom
 		"e" cop aor p3 sg
 
@@ -967,11 +936,6 @@
 
 "<şeerde>"
 	"şeer" n loc
-	"şeer" n nom
-		"da" postadv
-	"şeer" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"şeer" n loc
 		"e" cop aor p3 sg
 
@@ -1152,11 +1116,9 @@
 	"343" num subst nom
 
 "<sırasıda>"
-	"sıra" n px3sp nom
-		"da" postadv
-	"sıra" n px3sp nom
+	"sıra" n px3sp loc
+	"sıra" n px3sp loc
 		"e" cop aor p3 sg
-			"da" postadv
 
 "<qaytarılıp>"
 	"qaytar" v tv pass gna_perf
@@ -1182,10 +1144,6 @@
 		"e" cop aor gno p3 pl
 	"adlandır" v tv ger_past pl nom
 		"e" cop aor gno p3 sg
-	"adlandır" v tv ger_past pl nom
-		"e" cop aor p3 frm pl
-	"adlandır" v tv ger_past pl nom
-		"e" cop aor p3 frm sg
 
 "<Emirsaliyev>"
 	"Emirsaliyev" np cog m nom
@@ -1209,9 +1167,9 @@
 	"*Raajjeyge"
 
 "<yurtı>"
-	"yurt" n px3sp nom err_orth
 	"yurt" n px3sp nom
-		"e" cop aor p3 sg err_orth
+	"yurt" n px3sp nom
+		"e" cop aor p3 sg
 
 "<Svitsın>"
 	"*Svitsın"
@@ -1223,11 +1181,6 @@
 
 "<alda>"
 	"al" n loc
-	"al" n nom
-		"da" postadv
-	"al" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"al" n loc
 		"e" cop aor p3 sg
 
@@ -1410,11 +1363,6 @@
 
 "<cebede>"
 	"cebe" n loc
-	"cebe" n nom
-		"da" postadv
-	"cebe" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"cebe" n loc
 		"e" cop aor p3 sg
 
@@ -1452,13 +1400,6 @@
 
 "<çıqqanda>"
 	"çıq" v iv ger_past loc
-	"çıq" v iv ger_past nom
-		"da" postadv
-	"çıq" v iv past p3 sg
-		"da" postadv
-	"çıq" v iv ger_past nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"çıq" v iv ger_past loc
 		"e" cop aor p3 sg
 
@@ -1473,11 +1414,6 @@
 
 "<İsrailde>"
 	"İsrail" np top loc
-	"İsrail" np top nom
-		"da" postadv
-	"İsrail" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"İsrail" np top loc
 		"e" cop aor p3 sg
 
@@ -1490,7 +1426,7 @@
 		"e" cop aor p3 sg
 
 "<tarihına>"
-	"tarih" n px3sp dat err_orth
+	"tarih" n px3sp dat
 
 "<celp etti>"
 	"celp et" v tv ifi p3 sg
@@ -1612,10 +1548,6 @@
 		"e" cop aor gno p3 pl
 	"qur" v tv pass ger_past nom
 		"e" cop aor gno p3 sg
-	"qur" v tv pass ger_past nom
-		"e" cop aor p3 frm pl
-	"qur" v tv pass ger_past nom
-		"e" cop aor p3 frm sg
 
 "<Hanatski>"
 	"*Hanatski"
@@ -1637,7 +1569,7 @@
 		"e" cop aor p3 sg
 
 "<Teşkilâtnıñ>"
-	"teşkilât" n gen err_orth
+	"teşkilât" n gen
 
 "<içindeki>"
 	"iç" n px3sp loc attr
@@ -1650,7 +1582,7 @@
 	"723" num subst nom
 
 "<dekabrniñ>"
-	"dekabr" n gen err_orth
+	"dekabr" n gen
 
 "<ebediyleştirmek>"
 	"ebediyleştir" v tv ger nom
@@ -1669,11 +1601,6 @@
 
 "<tarzda>"
 	"tarz" n loc
-	"tarz" n nom
-		"da" postadv
-	"tarz" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"tarz" n loc
 		"e" cop aor p3 sg
 
@@ -1738,13 +1665,9 @@
 
 "<fevraldir>"
 	"fevral" n nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"fevral" n nom
-		"e" cop aor gno p3 sg err_orth
-	"fevral" n nom
-		"e" cop aor p3 frm pl err_orth
-	"fevral" n nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<36>"
 	"36" num
@@ -1843,16 +1766,11 @@
 
 "<Kefede>"
 	"Kefe" np top loc
-	"Kefe" np top nom
-		"da" postadv
-	"Kefe" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"Kefe" np top loc
 		"e" cop aor p3 sg
 
 "<olındı>"
-	"ol" v iv pass ifi p3 sg err_orth
+	"ol" v iv pass ifi p3 sg
 
 "<şiveleri>"
 	"şive" n pl px3sp nom
@@ -1899,8 +1817,8 @@
 	"baq" v tv imp p2 sg
 
 "<Tone>"
-	"ton" v iv aor p3 sg err_orth
-	"ton" v iv prc_impf err_orth
+	"ton" v iv aor p3 sg
+	"ton" v iv prc_impf
 
 "<inana>"
 	"inan" v tv aor p3 sg
@@ -2035,7 +1953,7 @@
 	"*Beylikahır"
 
 "<Taptık>"
-	"tap" v tv ifi p1 pl err_orth
+	"tap" v tv ifi p1 pl
 
 "<Çaçibaya>"
 	"*Çaçibaya"
@@ -2046,11 +1964,6 @@
 
 "<deñizde>"
 	"deñiz" n loc
-	"deñiz" n nom
-		"da" postadv
-	"deñiz" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"deñiz" n loc
 		"e" cop aor p3 sg
 
@@ -2246,13 +2159,9 @@
 
 "<qurumıdır>"
 	"qurum" n px3sp nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"qurum" n px3sp nom
-		"e" cop aor gno p3 sg err_orth
-	"qurum" n px3sp nom
-		"e" cop aor p3 frm pl err_orth
-	"qurum" n px3sp nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<pilot>"
 	"pilot" n attr
@@ -2306,9 +2215,9 @@
 	"Caylav Saray" np top nom
 		"e" cop aor p3 sg
 
-
 "<Hawthornden>"
 	"*Hawthornden"
+
 
 "<şekillene>"
 	"şekillen" v iv aor p3 sg
@@ -2325,14 +2234,9 @@
 		"e" cop aor p3 sg
 
 "<2-inde>"
-	"2" num subst px3sp loc err_orth
-	"2" num subst px3sp nom
-		"da" postadv err_orth
-	"2" num subst px3sp nom
-		"e" cop aor p3 sg
-			"da" postadv err_orth
 	"2" num subst px3sp loc
-		"e" cop aor p3 sg err_orth
+	"2" num subst px3sp loc
+		"e" cop aor p3 sg
 
 "<bergendir>"
 	"ber" vaux ger_past nom
@@ -2343,14 +2247,6 @@
 		"e" cop aor gno p3 pl
 	"ber" v tv ger_past nom
 		"e" cop aor gno p3 sg
-	"ber" vaux ger_past nom
-		"e" cop aor p3 frm pl
-	"ber" vaux ger_past nom
-		"e" cop aor p3 frm sg
-	"ber" v tv ger_past nom
-		"e" cop aor p3 frm pl
-	"ber" v tv ger_past nom
-		"e" cop aor p3 frm sg
 
 "<HARDKISS>"
 	"*HARDKISS"
@@ -2444,13 +2340,9 @@
 
 "<türüdür>"
 	"tür" n px3sp nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"tür" n px3sp nom
-		"e" cop aor gno p3 sg err_orth
-	"tür" n px3sp nom
-		"e" cop aor p3 frm pl err_orth
-	"tür" n px3sp nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<becerip>"
 	"*becerip"
@@ -2506,10 +2398,6 @@
 		"e" cop aor gno p3 pl
 	"Belarus" np top nom
 		"e" cop aor gno p3 sg
-	"Belarus" np top nom
-		"e" cop aor p3 frm pl
-	"Belarus" np top nom
-		"e" cop aor p3 frm sg
 
 "<Oles>"
 	"*Oles"
@@ -2598,9 +2486,9 @@
 		"e" cop aor p3 sg
 
 "<aktörlarınen>"
-	"aktör" n pl px3sp ins err_orth
 	"aktör" n pl px3sp ins
-		"e" cop aor p3 sg err_orth
+	"aktör" n pl px3sp ins
+		"e" cop aor p3 sg
 
 "<çıtanıñ>"
 	"çıta" n gen
@@ -2640,9 +2528,9 @@
 	"5718" num subst nom
 
 "<dağın>"
-	"dağ" n px3sp nom err_orth
 	"dağ" n px3sp nom
-		"e" cop aor p3 sg err_orth
+	"dağ" n px3sp nom
+		"e" cop aor p3 sg
 
 "<Romence>"
 	"*Romence"
@@ -2706,7 +2594,7 @@
 		"e" cop aor p3 sg
 
 "<qullanıldi>"
-	"qullan" v tv pass ifi p3 sg err_orth
+	"qullan" v tv pass ifi p3 sg
 
 "<sebepleri>"
 	"sebep" n pl px3sp nom
@@ -2917,7 +2805,7 @@
 		"e" cop aor p3 sg
 
 "<Ternı>"
-	"ter" n acc err_orth
+	"ter" n acc
 	"Ternı" np top nom
 	"Ternı" np top nom
 		"e" cop aor p3 sg
@@ -2944,14 +2832,6 @@
 
 "<apishanelerde>"
 	"apishane" n pl loc
-	"apishane" n nom
-		"e" cop aor p3 pl
-			"da" postadv
-	"apishane" n pl nom
-		"da" postadv
-	"apishane" n pl nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"apishane" n pl loc
 		"e" cop aor p3 sg
 
@@ -2965,10 +2845,6 @@
 		"e" cop aor gno p3 pl
 	"şive" n px3sp loc
 		"e" cop aor gno p3 sg
-	"şive" n px3sp loc
-		"e" cop aor p3 frm pl
-	"şive" n px3sp loc
-		"e" cop aor p3 frm sg
 
 "<900>"
 	"900" num
@@ -3121,14 +2997,6 @@
 		"e" cop aor gno p3 pl
 	"tolu" adj subst nom
 		"e" cop aor gno p3 sg
-	"tolu" adj
-		"e" cop aor p3 frm pl
-	"tolu" adj
-		"e" cop aor p3 frm sg
-	"tolu" adj subst nom
-		"e" cop aor p3 frm pl
-	"tolu" adj subst nom
-		"e" cop aor p3 frm sg
 
 "<etmesinen>"
 	"et" v tv ger px3sp ins
@@ -3238,14 +3106,6 @@
 
 "<uzunlıqlarda>"
 	"uzunlıq" n pl loc
-	"uzunlıq" n nom
-		"e" cop aor p3 pl
-			"da" postadv
-	"uzunlıq" n pl nom
-		"da" postadv
-	"uzunlıq" n pl nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"uzunlıq" n pl loc
 		"e" cop aor p3 sg
 
@@ -3254,11 +3114,6 @@
 
 "<Dağda>"
 	"dağ" n loc
-	"dağ" n nom
-		"da" postadv
-	"dağ" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"dağ" n loc
 		"e" cop aor p3 sg
 
@@ -3380,11 +3235,6 @@
 
 "<Cedvelde>"
 	"cedvel" n loc
-	"cedvel" n nom
-		"da" postadv
-	"cedvel" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"cedvel" n loc
 		"e" cop aor p3 sg
 
@@ -3468,10 +3318,6 @@
 		"e" cop aor gno p3 pl
 	"çağır" v tv ger_abst nom
 		"e" cop aor gno p3 sg
-	"çağır" v tv ger_abst nom
-		"e" cop aor p3 frm pl
-	"çağır" v tv ger_abst nom
-		"e" cop aor p3 frm sg
 
 "<işğal etkenden>"
 	"işğal et" v tv ger_past abl
@@ -3691,14 +3537,6 @@
 		"e" cop aor gno p3 pl
 	"etil" v iv ger loc
 		"e" cop aor gno p3 sg
-	"et" v tv pass ger loc
-		"e" cop aor p3 frm pl
-	"et" v tv pass ger loc
-		"e" cop aor p3 frm sg
-	"etil" v iv ger loc
-		"e" cop aor p3 frm pl
-	"etil" v iv ger loc
-		"e" cop aor p3 frm sg
 
 "<dünyadan>"
 	"dünya" n abl
@@ -3882,14 +3720,6 @@
 		"e" cop aor gno p3 pl
 	"al" v tv pass ger_past nom
 		"e" cop aor gno p3 sg
-	"al" vaux pass ger_past nom
-		"e" cop aor p3 frm pl
-	"al" vaux pass ger_past nom
-		"e" cop aor p3 frm sg
-	"al" v tv pass ger_past nom
-		"e" cop aor p3 frm pl
-	"al" v tv pass ger_past nom
-		"e" cop aor p3 frm sg
 
 "<malümatqa>"
 	"malümat" n dat
@@ -3925,10 +3755,6 @@
 		"e" cop aor gno p3 pl
 	"cıyıntıq" n nom
 		"e" cop aor gno p3 sg
-	"cıyıntıq" n nom
-		"e" cop aor p3 frm pl
-	"cıyıntıq" n nom
-		"e" cop aor p3 frm sg
 
 "<Taşkentteki>"
 	"Taşkent" np top loc attr
@@ -4156,11 +3982,6 @@
 
 "<Canköyde>"
 	"Canköy" np top loc
-	"Canköy" np top nom
-		"da" postadv
-	"Canköy" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"Canköy" np top loc
 		"e" cop aor p3 sg
 
@@ -4328,10 +4149,10 @@
 	"çar" n px3sp acc
 
 "<olarak>"
-	"ol" v iv ger_pres nom err_orth
-	"ol" v iv gna_pres err_orth
 	"ol" v iv ger_pres nom
-		"e" cop aor p3 sg err_orth
+	"ol" v iv gna_pres
+	"ol" v iv ger_pres nom
+		"e" cop aor p3 sg
 
 "<materialı>"
 	"material" n px3sp nom
@@ -4362,7 +4183,7 @@
 	"olar" prn pers p3 pl gen
 
 "<teşkilâtnıñ>"
-	"teşkilât" n gen err_orth
+	"teşkilât" n gen
 
 "<88>"
 	"88" num
@@ -4551,10 +4372,6 @@
 		"e" cop aor gno p3 pl
 	"noqta" n nom
 		"e" cop aor gno p3 sg
-	"noqta" n nom
-		"e" cop aor p3 frm pl
-	"noqta" n nom
-		"e" cop aor p3 frm sg
 
 "<Yarmolıntsi>"
 	"Yarmolıntsi" np top nom
@@ -4574,9 +4391,9 @@
 	"boğaz" n gen
 
 "<Ahmednen>"
-	"Ahmed" np ant m ins err_orth
 	"Ahmed" np ant m ins
-		"e" cop aor p3 sg err_orth
+	"Ahmed" np ant m ins
+		"e" cop aor p3 sg
 
 "<binalı>"
 	"bina" n
@@ -4606,9 +4423,9 @@
 "<Sinop>"
 	"*Sinop"
 
-
 "<Mabedi>"
 	"*Mabedi"
+
 
 "<ezgili>"
 	"ezgi" n
@@ -4729,10 +4546,6 @@
 		"e" cop aor gno p3 pl
 	"mezun" n nom
 		"e" cop aor gno p3 sg
-	"mezun" n nom
-		"e" cop aor p3 frm pl
-	"mezun" n nom
-		"e" cop aor p3 frm sg
 
 "<ekinci>"
 	"eki" num ord
@@ -4762,13 +4575,9 @@
 
 "<paytahtıdır>"
 	"paytaht" n px3sp nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"paytaht" n px3sp nom
-		"e" cop aor gno p3 sg err_orth
-	"paytaht" n px3sp nom
-		"e" cop aor p3 frm pl err_orth
-	"paytaht" n px3sp nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<imanğa>"
 	"iman" n dat
@@ -4891,11 +4700,6 @@
 
 "<qurultayda>"
 	"qurultay" n loc
-	"qurultay" n nom
-		"da" postadv
-	"qurultay" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"qurultay" n loc
 		"e" cop aor p3 sg
 
@@ -4962,8 +4766,8 @@
 		"e" cop aor p3 sg
 
 "<Körünip>"
-	"kör" v tv pass gna_perf err_orth
-	"kör" v tv pass prc_perf err_orth
+	"kör" v tv pass gna_perf
+	"kör" v tv pass prc_perf
 
 "<uruşqan>"
 	"uruş" v iv ger_past nom
@@ -5010,16 +4814,12 @@
 		"e" cop aor p3 sg
 
 "<adıda>"
-	"ad" n px3sp nom
-		"da" postadv
-	"at²" n px3sp nom
-		"da" postadv
-	"ad" n px3sp nom
+	"ad" n px3sp loc
+	"at²" n px3sp loc
+	"ad" n px3sp loc
 		"e" cop aor p3 sg
-			"da" postadv
-	"at²" n px3sp nom
+	"at²" n px3sp loc
 		"e" cop aor p3 sg
-			"da" postadv
 
 "<Alişer>"
 	"*Alişer"
@@ -5398,12 +5198,12 @@
 	"*Bağışlamalar"
 
 "<aksi>"
-	"ak" adj subst px3sp nom err_orth
-	"aks" n px3sp nom err_orth
 	"ak" adj subst px3sp nom
-		"e" cop aor p3 sg err_orth
 	"aks" n px3sp nom
-		"e" cop aor p3 sg err_orth
+	"ak" adj subst px3sp nom
+		"e" cop aor p3 sg
+	"aks" n px3sp nom
+		"e" cop aor p3 sg
 
 "<Edilniñ>"
 	"*Edilniñ"
@@ -5424,8 +5224,8 @@
 	"*avtotrassası"
 
 "<bile>"
-	"bil" v tv aor p3 sg
 	"bile" cnjsub
+	"bil" v tv aor p3 sg
 	"bil" v tv prc_impf
 
 "<meydan>"
@@ -5477,14 +5277,14 @@
 		"e" cop aor p3 sg
 
 "<ad>"
-	"ad" n attr err_orth
-	"ad" n nom err_orth
-	"at²" n attr err_orth
-	"at²" n nom err_orth
+	"ad" n attr
 	"ad" n nom
-		"e" cop aor p3 sg err_orth
+	"at²" n attr
 	"at²" n nom
-		"e" cop aor p3 sg err_orth
+	"ad" n nom
+		"e" cop aor p3 sg
+	"at²" n nom
+		"e" cop aor p3 sg
 
 "<1874>"
 	"1874" num
@@ -5685,9 +5485,9 @@
 	"*Ankermanğa"
 
 "<Gazi>"
-	"gaz" n px3sp nom err_orth
 	"gaz" n px3sp nom
-		"e" cop aor p3 sg err_orth
+	"gaz" n px3sp nom
+		"e" cop aor p3 sg
 
 "<Yeşeren>"
 	"*Yeşeren"
@@ -5720,10 +5520,6 @@
 		"e" cop aor gno p3 pl
 	"hristian" n nom
 		"e" cop aor gno p3 sg
-	"hristian" n nom
-		"e" cop aor p3 frm pl
-	"hristian" n nom
-		"e" cop aor p3 frm sg
 
 "<uruşları>"
 	"uruş" n pl px3sp nom
@@ -6032,10 +5828,6 @@
 		"e" cop aor gno p3 pl
 	"kerçekleştir" v tv pass ger_past nom
 		"e" cop aor gno p3 sg
-	"kerçekleştir" v tv pass ger_past nom
-		"e" cop aor p3 frm pl
-	"kerçekleştir" v tv pass ger_past nom
-		"e" cop aor p3 frm sg
 
 "<ruz>"
 	"*ruz"
@@ -6063,7 +5855,7 @@
 	"*Belozersk"
 
 "<kördi>"
-	"kör" v tv ifi p3 sg err_orth
+	"kör" v tv ifi p3 sg
 
 "<sebepler>"
 	"sebep" n nom
@@ -6114,9 +5906,9 @@
 		"e" cop aor p3 sg
 
 "<üstu>"
-	"üst" n px3sp nom err_orth
 	"üst" n px3sp nom
-		"e" cop aor p3 sg err_orth
+	"üst" n px3sp nom
+		"e" cop aor p3 sg
 
 "<Zelenodolsk>"
 	"Zelenodolsk" np top nom
@@ -6310,11 +6102,6 @@
 
 "<Türkmenistanda>"
 	"Türkmenistan" np top loc
-	"Türkmenistan" np top nom
-		"da" postadv
-	"Türkmenistan" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"Türkmenistan" np top loc
 		"e" cop aor p3 sg
 
@@ -6324,13 +6111,9 @@
 
 "<olğanıdır>"
 	"ol" v iv ger_past px3sp nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"ol" v iv ger_past px3sp nom
-		"e" cop aor gno p3 sg err_orth
-	"ol" v iv ger_past px3sp nom
-		"e" cop aor p3 frm pl err_orth
-	"ol" v iv ger_past px3sp nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<çükündir>"
 	"çükündir" n attr
@@ -6365,13 +6148,9 @@
 
 "<olmasıdır>"
 	"ol" v iv ger px3sp nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"ol" v iv ger px3sp nom
-		"e" cop aor gno p3 sg err_orth
-	"ol" v iv ger px3sp nom
-		"e" cop aor p3 frm pl err_orth
-	"ol" v iv ger px3sp nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<Daniela>"
 	"Daniela" np ant f nom
@@ -6434,7 +6213,7 @@
 	"evelden" adv
 
 "<mektepge>"
-	"mektep" n dat err_orth
+	"mektep" n dat
 
 "<Mamlaka>"
 	"*Mamlaka"
@@ -6543,25 +6322,12 @@
 		"e" cop aor gno p3 pl
 	"kel" v iv ger loc
 		"e" cop aor gno p3 sg
-	"kel" vaux ger loc
-		"e" cop aor p3 frm pl
-	"kel" vaux ger loc
-		"e" cop aor p3 frm sg
-	"kel" v iv ger loc
-		"e" cop aor p3 frm pl
-	"kel" v iv ger loc
-		"e" cop aor p3 frm sg
 
 "<areketlerge>"
 	"areket" n pl dat
 
 "<cedvelde>"
 	"cedvel" n loc
-	"cedvel" n nom
-		"da" postadv
-	"cedvel" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"cedvel" n loc
 		"e" cop aor p3 sg
 
@@ -6649,11 +6415,6 @@
 
 "<kilometrde>"
 	"kilometr" n loc
-	"kilometr" n nom
-		"da" postadv
-	"kilometr" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"kilometr" n loc
 		"e" cop aor p3 sg
 
@@ -6662,13 +6423,9 @@
 
 "<aletidir>"
 	"alet" n px3sp nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"alet" n px3sp nom
-		"e" cop aor gno p3 sg err_orth
-	"alet" n px3sp nom
-		"e" cop aor p3 frm pl err_orth
-	"alet" n px3sp nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<yerli>"
 	"yer" n
@@ -6689,9 +6446,9 @@
 		"e" cop aor p3 sg
 
 "<Hanların>"
-	"han" n pl px3sp nom err_orth
 	"han" n pl px3sp nom
-		"e" cop aor p3 sg err_orth
+	"han" n pl px3sp nom
+		"e" cop aor p3 sg
 
 "<boyundaki>"
 	"boy" n px3sp loc attr
@@ -6710,11 +6467,6 @@
 
 "<gazetada>"
 	"gazeta" n loc
-	"gazeta" n nom
-		"da" postadv
-	"gazeta" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"gazeta" n loc
 		"e" cop aor p3 sg
 
@@ -6919,10 +6671,10 @@
 	"1158" num subst nom
 
 "<körünme>"
-	"kör" v tv pass ger nom err_orth
-	"kör" v tv pass neg imp p2 sg err_orth
 	"kör" v tv pass ger nom
-		"e" cop aor p3 sg err_orth
+	"kör" v tv pass neg imp p2 sg
+	"kör" v tv pass ger nom
+		"e" cop aor p3 sg
 
 "<901>"
 	"901" num
@@ -6945,9 +6697,9 @@
 	"elyazma" n pl nom
 		"e" cop aor p3 sg
 
-
 "<talebelerniñ>"
 	"talebe" n pl gen
+
 
 "<topraqnı>"
 	"topraq" n acc
@@ -6991,9 +6743,9 @@
 	"*kubr"
 
 "<plâjları>"
-	"plâj" n pl px3sp nom err_orth
 	"plâj" n pl px3sp nom
-		"e" cop aor p3 sg err_orth
+	"plâj" n pl px3sp nom
+		"e" cop aor p3 sg
 
 "<vandallıqlarğa>"
 	"*vandallıqlarğa"
@@ -7083,9 +6835,9 @@
 	"qırım" n pl px3sp dat
 
 "<çoqusi>"
-	"çoqusı" prn qnt nom err_orth
 	"çoqusı" prn qnt nom
-		"e" cop aor p3 sg err_orth
+	"çoqusı" prn qnt nom
+		"e" cop aor p3 sg
 
 "<Lev>"
 	"*Lev"
@@ -7111,11 +6863,6 @@
 
 "<Türkiyede>"
 	"Türkiye" np top loc
-	"Türkiye" np top nom
-		"da" postadv
-	"Türkiye" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"Türkiye" np top loc
 		"e" cop aor p3 sg
 
@@ -7206,11 +6953,6 @@
 
 "<unisonda>"
 	"unison" n loc
-	"unison" n nom
-		"da" postadv
-	"unison" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"unison" n loc
 		"e" cop aor p3 sg
 
@@ -7259,17 +7001,9 @@
 	"*Pulat"
 
 "<paradlarda>"
-	"parad" n pl loc err_orth
-	"parad" n nom
-		"e" cop aor p3 pl
-			"da" postadv err_orth
-	"parad" n pl nom
-		"da" postadv err_orth
-	"parad" n pl nom
-		"e" cop aor p3 sg
-			"da" postadv err_orth
 	"parad" n pl loc
-		"e" cop aor p3 sg err_orth
+	"parad" n pl loc
+		"e" cop aor p3 sg
 
 "<77%>"
 	"77" num percent
@@ -7289,14 +7023,6 @@
 
 "<bölgelerde>"
 	"bölge" n pl loc
-	"bölge" n nom
-		"e" cop aor p3 pl
-			"da" postadv
-	"bölge" n pl nom
-		"da" postadv
-	"bölge" n pl nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"bölge" n pl loc
 		"e" cop aor p3 sg
 
@@ -7349,11 +7075,6 @@
 
 "<Ormanda>"
 	"orman" n loc
-	"orman" n nom
-		"da" postadv
-	"orman" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"orman" n loc
 		"e" cop aor p3 sg
 
@@ -7365,10 +7086,6 @@
 		"e" cop aor gno p3 pl
 	"insan" n pl nom
 		"e" cop aor gno p3 sg
-	"insan" n pl nom
-		"e" cop aor p3 frm pl
-	"insan" n pl nom
-		"e" cop aor p3 frm sg
 
 "<Kurılivka>"
 	"Kurılivka" np top nom
@@ -7430,11 +7147,6 @@
 
 "<Levhada>"
 	"levha" n loc
-	"levha" n nom
-		"da" postadv
-	"levha" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"levha" n loc
 		"e" cop aor p3 sg
 
@@ -7878,10 +7590,6 @@
 		"e" cop aor gno p3 pl
 	"quş" n pl nom
 		"e" cop aor gno p3 sg
-	"quş" n pl nom
-		"e" cop aor p3 frm pl
-	"quş" n pl nom
-		"e" cop aor p3 frm sg
 
 "<müfettişleri>"
 	"müfettiş" n pl px3sp nom
@@ -7962,7 +7670,7 @@
 
 "<Koyunum>"
 	"koy" n px3sp nom
-		"e" cop aor p1 sg err_orth
+		"e" cop aor p1 sg
 
 "<koya>"
 	"*koya"
@@ -8042,10 +7750,10 @@
 	"müddet" n px3sp dat
 
 "<Nuri>"
-	"nur" n px3sp nom err_orth
+	"nur" n px3sp nom
 	"Nuri" np ant m nom
 	"nur" n px3sp nom
-		"e" cop aor p3 sg err_orth
+		"e" cop aor p3 sg
 	"Nuri" np ant m nom
 		"e" cop aor p3 sg
 
@@ -8060,11 +7768,6 @@
 
 "<Moskovada>"
 	"Moskova" np top loc
-	"Moskova" np top nom
-		"da" postadv
-	"Moskova" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"Moskova" np top loc
 		"e" cop aor p3 sg
 
@@ -8101,13 +7804,9 @@
 
 "<temelidir>"
 	"temel" n px3sp nom
-		"e" cop aor gno p3 pl err_orth
+		"e" cop aor gno p3 pl
 	"temel" n px3sp nom
-		"e" cop aor gno p3 sg err_orth
-	"temel" n px3sp nom
-		"e" cop aor p3 frm pl err_orth
-	"temel" n px3sp nom
-		"e" cop aor p3 frm sg err_orth
+		"e" cop aor gno p3 sg
 
 "<50 %>"
 	"50" num percent subst nom
@@ -8198,24 +7897,11 @@
 
 "<Frenkistanda>"
 	"Frenkistan" np top loc
-	"Frenkistan" np top nom
-		"da" postadv
-	"Frenkistan" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"Frenkistan" np top loc
 		"e" cop aor p3 sg
 
 "<Rollerde>"
 	"rol" n pl loc
-	"rol" n nom
-		"e" cop aor p3 pl
-			"da" postadv
-	"rol" n pl nom
-		"da" postadv
-	"rol" n pl nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"rol" n pl loc
 		"e" cop aor p3 sg
 
@@ -8241,10 +7927,6 @@
 		"e" cop aor gno p3 pl
 	"memleket" n nom
 		"e" cop aor gno p3 sg
-	"memleket" n nom
-		"e" cop aor p3 frm pl
-	"memleket" n nom
-		"e" cop aor p3 frm sg
 
 "<bölünüv>"
 	"böl" v tv pass ger_abst nom
@@ -8265,10 +7947,6 @@
 		"e" cop aor gno p3 pl
 	"suvlu" adj
 		"e" cop aor gno p3 sg
-	"suvlu" adj
-		"e" cop aor p3 frm pl
-	"suvlu" adj
-		"e" cop aor p3 frm sg
 
 "<issesi>"
 	"isse" n px3sp nom
@@ -8387,11 +8065,6 @@
 
 "<azbarda>"
 	"azbar" n loc
-	"azbar" n nom
-		"da" postadv
-	"azbar" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"azbar" n loc
 		"e" cop aor p3 sg
 
@@ -8476,24 +8149,6 @@
 	"qır" n px1sg loc
 	"qırım" n loc
 	"Qırım" np top loc
-	"qır" n nom
-		"e" cop aor p1 sg
-			"da" postadv
-	"qır" n px1sg nom
-		"da" postadv
-	"qırım" n nom
-		"da" postadv
-	"Qırım" np top nom
-		"da" postadv
-	"qır" n px1sg nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"qırım" n nom
-		"e" cop aor p3 sg
-			"da" postadv
-	"Qırım" np top nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"qır" n px1sg loc
 		"e" cop aor p3 sg
 	"qırım" n loc
@@ -8534,7 +8189,7 @@
 		"e" cop aor p3 sg
 
 "<ayatiyatniñ>"
-	"ayatiyat" n gen err_orth
+	"ayatiyat" n gen
 
 "<Ruslarnıñ>"
 	"rus" n pl gen
@@ -8743,14 +8398,6 @@
 		"e" cop aor gno p3 pl
 	"gençler" n nom
 		"e" cop aor gno p3 sg
-	"genç" n pl nom
-		"e" cop aor p3 frm pl
-	"genç" n pl nom
-		"e" cop aor p3 frm sg
-	"gençler" n nom
-		"e" cop aor p3 frm pl
-	"gençler" n nom
-		"e" cop aor p3 frm sg
 
 "<1745>"
 	"1745" num
@@ -8854,11 +8501,6 @@
 
 "<rayonda>"
 	"rayon" n loc
-	"rayon" n nom
-		"da" postadv
-	"rayon" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"rayon" n loc
 		"e" cop aor p3 sg
 
@@ -8880,11 +8522,6 @@
 
 "<Bostanda>"
 	"bostan" n loc
-	"bostan" n nom
-		"da" postadv
-	"bostan" n nom
-		"e" cop aor p3 sg
-			"da" postadv
 	"bostan" n loc
 		"e" cop aor p3 sg
 
@@ -8968,14 +8605,6 @@
 		"e" cop aor gno p3 pl
 	"tüklü" adj subst nom
 		"e" cop aor gno p3 sg
-	"tüklü" adj
-		"e" cop aor p3 frm pl
-	"tüklü" adj
-		"e" cop aor p3 frm sg
-	"tüklü" adj subst nom
-		"e" cop aor p3 frm pl
-	"tüklü" adj subst nom
-		"e" cop aor p3 frm sg
 
 "<302>"
 	"302" num
@@ -8997,10 +8626,6 @@
 		"e" cop aor gno p3 pl
 	"efendi" n nom
 		"e" cop aor gno p3 sg
-	"efendi" n nom
-		"e" cop aor p3 frm pl
-	"efendi" n nom
-		"e" cop aor p3 frm sg
 
 "<çevirmek>"
 	"çevir" v iv ger nom

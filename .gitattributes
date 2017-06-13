@@ -15,6 +15,7 @@
 /configure.ac -text
 /crh.prob -text svneol=unset#unset
 dev/Makefile -text
+dev/annotate[!!-~]DK[!!-~]061217.txt -text
 dev/annotate.all.txt -text
 dev/annotate.forms.txt -text
 dev/annotate.trimmed.txt -text
