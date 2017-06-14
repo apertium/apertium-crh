@@ -34,10 +34,10 @@ TARGETS_COMMON =			\
 	cat $< | grep -v -e 'Dir/LR' -e 'Err/Orth' > $@
 
 .deps/$(LANG1).LR.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
-	cat $< | grep -v 'Dir/RL' > $@
+	cat $< | grep -v -e 'Dir/RL' > $@
 
 .deps/$(LANG1).EL.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
-	cat $< | grep -v -e 'Dir/RL' -e 'Err/Orth' > $@
+	cat $< | grep -v -e 'Err/Orth' > $@
 
 .deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
 	hfst-lexc --Werror $< -o $@ -v
@@ -55,13 +55,13 @@ TARGETS_COMMON =			\
 # twol file with error rules (apertium-crh.err.twol), we then remove all the
 # strings from that which are in the normative orthography transducer.
 # After that we append <err_orth> to the tag string.
-.deps/$(LANG1).LR.err.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).err.hfst .deps/$(LANG1).LR.hfst .deps/$(LANG1).RL.hfst
+.deps/$(LANG1).LR.err.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).err.hfst .deps/$(LANG1).LR.hfst
 # lexc + error model twol
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).err.hfst | hfst-minimise -o .deps/$(LANG1).LR.err.hfst.tmp
 # extract valid surface forms
-	hfst-project -p output .deps/crh.RL.hfst | hfst-minimise -o .deps/$(LANG1).RL.corr.hfst.tmp
+	hfst-project -p output .deps/crh.LR.hfst | hfst-minimise -o .deps/$(LANG1).LR.corr.hfst.tmp
 # get the valid surface forms that are in the error model
-	hfst-invert .deps/$(LANG1).LR.err.hfst.tmp | hfst-compose -1 .deps/$(LANG1).RL.corr.hfst.tmp -2 - | hfst-invert -o .deps/$(LANG1).LR.err.hfst.tmp2
+	hfst-invert .deps/$(LANG1).LR.err.hfst.tmp | hfst-compose -1 .deps/$(LANG1).LR.corr.hfst.tmp -2 - | hfst-invert -o .deps/$(LANG1).LR.err.hfst.tmp2
 # subtract the valid surface forms from the error model
 	hfst-subtract -1 .deps/$(LANG1).LR.err.hfst.tmp -2 .deps/$(LANG1).LR.err.hfst.tmp2 -o .deps/$(LANG1).LR.err.hfst.tmp3
 # append the error tag to the error model strings

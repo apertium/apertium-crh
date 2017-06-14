@@ -213,7 +213,9 @@ Vx:0 <=> :Vow/:0* _ ;
 !!!!! MORPHOLOGICAL STUFF !!!!!
 
 "{n} as n in certain possession + case combinations"
-%{n%}:n <=> _ %>: [ %{G%}: | %{D%}: ] ;
+%{n%}:n <=> _ %>: [ %{G%}: | %{D%}: | %{C%}: ] ;
+
+!@ f:f i:i k:k i:i r:r >:0 {s}:0 {I}:i {n}:n >:0 {C}:c {A}:e
 
 "{s} after vowels"
 %{s%}:s <=> :Vow :0* _ ;
