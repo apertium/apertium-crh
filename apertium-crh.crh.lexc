@@ -991,7 +991,7 @@ LEXICON Conjunctions
 ve:ve CC ; ! "и"
 amma:amma CC ; ! "но"
 ancaq:ancaq CC ; ! "но"
-amma:ama CC ; ! "но" ! Dir/LR
+amma:ama CC ; ! "но" ! Err/Orth
 lâkin:lakin CC ; ! ""
 lâkin:lâkin CC ; ! "но"
 ise:ise CC ; ! ""
@@ -1238,7 +1238,7 @@ söz:söz N1 ; ! ""
 
 
 havfsızlıq:havfsızlıq N1 ; ! "безопасность"
-havfsızlıq:hafsızlıq N1 ; ! "безопасность" ! Dir/LR ! Err/Orth
+havfsızlıq:hafsızlıq N1 ; ! "безопасность" ! Err/Orth
 red:red N5 ; ! "отказ"
 ümüt:ümüt N1 ; ! "надежда"
 bağ:bağ N5 ; ! "завязка"
@@ -2225,7 +2225,7 @@ oktava:oktava N1 ; ! "октава"
 ölü:ölü N1 ; ! "труп"
 oluv:oluv N1 ; ! "наличие"
 ömür:öm%{y%}r N1 ; ! "жизнь"
-ömür:ömür N1 ; ! "жизнь" ! Dir/LR ! Err/Orth
+ömür:ömür N1 ; ! "жизнь" ! Err/Orth
 optika:optika N1 ; ! "оптика"
 oqutuv:oqutuv N1 ; ! "обучение"
 oquv:oquv N1 ; ! "чтение"
@@ -4299,7 +4299,7 @@ eminsizlik:eminsizlik N1 ; ! ""
 favfsızlıq:favfsızlıq N1 ; ! ""
 habersizlik:habersizlik N1 ; ! ""
 hafvsızlıq:hafvsızlıq N1 ; ! ""
-hafvsızlıq:hvfsızlıq N1 ; ! "" ! Err/Orth ! Dir/LR
+hafvsızlıq:hvfsızlıq N1 ; ! "" ! Err/Orth 
 harsızlıq:harsızlıq N1 ; ! ""
 havsızlıq:havsızlıq N1 ; ! ""
 hayırsızlıq:hayırsızlıq N1 ; ! ""
@@ -4331,7 +4331,7 @@ suvsızlıq:suvsızlıq N1 ; ! ""
 tarafsızlıq:tarafsızlıq N1 ; ! ""
 tecribesizlik:tecribesizlik N1 ; ! ""
 ürmetsizlik:ürmetsizlik N1 ; ! ""
-yoqsuzlıq:yoqsızlıq N1 ; ! "" ! Err/Orth ! Dir/LR
+yoqsuzlıq:yoqsızlıq N1 ; ! "" ! Err/Orth
 yoqsuzlıq:yoqsuzlıq N1 ; ! ""
 yüzsüzlik:yüzsüzlik N1 ; ! ""
 zamansızlıq:zamansızlıq N1 ; ! ""
@@ -7560,7 +7560,7 @@ Estoniya:Estoniya NP-TOP ; ! ""
 Finlandiya:Finlandiya NP-TOP ; ! ""
 Çuvaşiya:Çuvaşiya NP-TOP ; ! ""
 Qırım:Qırım NP-TOP ; ! ""
-Qırım:Kırım NP-TOP ; ! "" ! Dir/LR ! Err/Orth
+Qırım:Kırım NP-TOP ; ! "" ! Err/Orth
 Strasburg:Strasburg NP-TOP ; ! ""
 Ukraina:Ukraina NP-TOP ; ! ""
 Lugansk:Lugansk NP-TOP ; ! ""
@@ -7630,8 +7630,8 @@ Zimbabve:Zimbabve NP-TOP ; ! ""
 
 Cambridge:Cambridge NP-TOP ; ! ""
 Kiyev:Kiyev NP-TOP ; ! ""
-Kiyev:Kıyev NP-TOP ; ! "" ! Err/Orth ! Dir/LR
-Kiyev:Kiev NP-TOP ; ! "" ! Err/Orth ! Dir/LR
+Kiyev:Kıyev NP-TOP ; ! "" ! Err/Orth
+Kiyev:Kiev NP-TOP ; ! "" ! Err/Orth
 Moskva:Moskva NP-TOP ; ! ""
 İstanbul:İstanbul NP-TOP ; ! ""
 Ankara:Ankara NP-TOP ; ! ""
@@ -9235,11 +9235,11 @@ Turkmenistan:Turkmenistan NP-TOP ; ! ""
 Turkestan:Turkestan NP-TOP ; ! ""
 Kürdistan:Kürdistan NP-TOP ; ! ""
 Gurcistan:Gurcistan NP-TOP ; ! ""
-Başkortostan:Başqortostan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
-Kırgızistan:Qırğızstan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
-Dagestan:Dağıstan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Başkortostan:Başqortostan NP-TOP ; ! ""  ! Err/Orth
+Kırgızistan:Qırğızstan NP-TOP ; ! ""  ! Err/Orth
+Dagestan:Dağıstan NP-TOP ; ! ""  ! Err/Orth
 Astana:Astana NP-TOP ; ! ""
-Kırgızistan:Qırgızistan NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Kırgızistan:Qırgızistan NP-TOP ; ! ""  ! Err/Orth
 
 Brüssel:Brüssel  NP-TOP ; ! ""
 Canköy:Canköy  NP-TOP ; ! ""
@@ -10026,7 +10026,7 @@ Tomas:Tomas NP-ANT-M ; ! ""
 
 
 AB:AB NP-TOP ; ! ""
-ŞSCB:SSCB NP-TOP ; ! "" ! Dir/LR ! Err/Orth
+ŞSCB:SSCB NP-TOP ; ! "" ! Err/Orth
 ŞSCB:ŞSCB%{ь%} NP-TOP ; ! ""
 AQŞ:AQŞ NP-TOP ; ! ""
 
@@ -11097,8 +11097,8 @@ Qızıl% Körpe:Qızıl% Körpe NP-TOP ; ! ""
 Qızıltaş:Qızıltaş NP-TOP ; ! "" 
 Qızıltaş:Qızıltaş NP-TOP ; ! "" ! (Kefe şeer şurası)
 Qızıl% Terçek:Qızıl% Terçek NP-TOP ; ! "" 
-Qızıl:Kızıl NP-TOP ; ! ""  ! Err/Orth ! Dir/LR
-Qızıl:Qızıl NP-TOP ; ! ""  ! Err/Orth ! Dir/LR
+Qızıl:Kızıl NP-TOP ; ! ""  ! Err/Orth 
+Qızıl:Qızıl NP-TOP ; ! ""  ! Err/Orth 
 Qobazı:Qobazı NP-TOP ; ! "" 
 Qocalaq:Qocalaq NP-TOP ; ! "" 
 Qocambaq:Qocambaq NP-TOP ; ! "" 
@@ -11602,10 +11602,10 @@ Abbas:Abbas NP-COG-MF ; ! ""
 Leninabad:Leninabad NP-TOP ; ! ""
 
 Aşğabat:Aşğabat NP-TOP ; ! "" 
-Aşğabat:Ashkabat NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
-Aşğabat:Ashgabad NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
-Aşğabat:Aşhabad NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
-Aşğabat:Aşğabad NP-TOP ; ! ""  ! Dir/LR ! Err/Orth
+Aşğabat:Ashkabat NP-TOP ; ! ""  ! Err/Orth
+Aşğabat:Ashgabad NP-TOP ; ! ""  ! Err/Orth
+Aşğabat:Aşhabad NP-TOP ; ! ""   ! Err/Orth
+Aşğabat:Aşğabad NP-TOP ; ! ""   ! Err/Orth
 
 Belarus:Belarus NP-TOP ; ! ""
 Belgrad:Belgrad NP-TOP ; ! ""
