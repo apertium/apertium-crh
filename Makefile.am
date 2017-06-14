@@ -31,15 +31,21 @@ TARGETS_COMMON =			\
 	hfst-twolc $< -o $@
 
 .deps/$(LANG1).RL.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
-	cat $< | grep -v 'Dir/LR' > $@
+	cat $< | grep -v -e 'Dir/LR' -e 'Err/Orth' > $@
 
 .deps/$(LANG1).LR.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
 	cat $< | grep -v 'Dir/RL' > $@
+
+.deps/$(LANG1).EL.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
+	cat $< | grep -v -e 'Dir/RL' -e 'Err/Orth' > $@
 
 .deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
 	hfst-lexc --Werror $< -o $@ -v
 
 .deps/$(LANG1).LR.lexc.hfst: .deps/$(LANG1).LR.lexc
+	hfst-lexc --Werror $< -o $@ -v
+
+.deps/$(LANG1).EL.lexc.hfst: .deps/$(LANG1).EL.lexc
 	hfst-lexc --Werror $< -o $@ -v
 
 .deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst
@@ -49,16 +55,21 @@ TARGETS_COMMON =			\
 # twol file with error rules (apertium-crh.err.twol), we then remove all the
 # strings from that which are in the normative orthography transducer.
 # After that we append <err_orth> to the tag string.
-.deps/$(LANG1).LR.err.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).err.hfst .deps/$(LANG1).LR.hfst
+.deps/$(LANG1).LR.err.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).err.hfst .deps/$(LANG1).LR.hfst .deps/$(LANG1).RL.hfst
+# lexc + error model twol
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).err.hfst | hfst-minimise -o .deps/$(LANG1).LR.err.hfst.tmp
-	hfst-project -p output .deps/crh.LR.hfst | hfst-minimise -o .deps/$(LANG1).LR.corr.hfst.tmp
-	hfst-invert .deps/$(LANG1).LR.err.hfst.tmp | hfst-compose -1 .deps/$(LANG1).LR.corr.hfst.tmp -2 - | hfst-invert -o .deps/$(LANG1).LR.err.hfst.tmp2
+# extract valid surface forms
+	hfst-project -p output .deps/crh.RL.hfst | hfst-minimise -o .deps/$(LANG1).RL.corr.hfst.tmp
+# get the valid surface forms that are in the error model
+	hfst-invert .deps/$(LANG1).LR.err.hfst.tmp | hfst-compose -1 .deps/$(LANG1).RL.corr.hfst.tmp -2 - | hfst-invert -o .deps/$(LANG1).LR.err.hfst.tmp2
+# subtract the valid surface forms from the error model
 	hfst-subtract -1 .deps/$(LANG1).LR.err.hfst.tmp -2 .deps/$(LANG1).LR.err.hfst.tmp2 -o .deps/$(LANG1).LR.err.hfst.tmp3
+# append the error tag to the error model strings
 	echo "<err_orth>:0" | hfst-strings2fst -e 0 -S | hfst-concatenate -1 .deps/$(LANG1).LR.err.hfst.tmp3 -2 - -o $@
 
 # This is the normative transducer, using the standard lexc and the full twol file
-.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst | hfst-minimise -o $@
+.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).EL.lexc.hfst .deps/$(LANG1).twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).EL.lexc.hfst -2 .deps/$(LANG1).twol.hfst | hfst-minimise -o $@
 
 # The final analyser is a combination of the normative analyser and the error analyser.
 $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).LR.err.hfst
