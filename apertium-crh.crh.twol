@@ -144,42 +144,42 @@ Vx:0 <=> :Vow/:0* _ ;
 
 "Vowel harmony for {Y} in >2nd σ"
 %{Y%}:Vy <=> :Vx :Cns+/:0* _ ;
-         where Vx in ( i e ü ö a ı o u )
-               Vy in ( i i i i ı ı ı ı )
+         where Vx in ( i e ü ö a â ı o u )
+               Vy in ( i i i i ı ı ı ı ı )
          matched ;
 
 "Vowel harmony for {I} in >2nd σ"
 %{I%}:Vy <=> :Vx :Cns+/:0* _ ;
          except
              .#. :Cns* :Vx :Cns+/:0* _ ;
-         where Vx in ( i e ü ö a ı o u )
-               Vy in ( i i i i ı ı ı ı )
+         where Vx in ( i e ü ö a â ı o u )
+               Vy in ( i i i i ı ı ı ı ı )
          matched ;
 
 "Vowel harmony for {i} in >2nd σ"
 %{i%}:Vy <=> :Vx :Cns+/:0* _ ;
          except
              .#. :Cns* :Vx :Cns+/:0* _ ;
-         where Vx in ( i e ü ö a ı o u )
-               Vy in ( i i i i ı ı ı ı )
+         where Vx in ( i e ü ö a â ı o u )
+               Vy in ( i i i i ı ı ı ı ı )
          matched ;
 
 "Vowel harmony for {I} in ≤2nd σ"
 %{I%}:Vy <=> .#. :Cns* :Vx :Cns+/:0* _ ;
-         where Vx in ( i e ü ö a ı o u )
-               Vy in ( i i ü ü ı ı u u )
+         where Vx in ( i e ü ö a â ı o u )
+               Vy in ( i i ü ü ı ı ı u u )
          matched ;
 
 "Vowel harmony for {i} in ≤2nd σ"
 %{i%}:Vy <=> .#. :Cns* :Vx :Cns+/:0* _ ;
-         where Vx in ( i e ü ö a ı o u )
-               Vy in ( i i ü ü ı ı u u )
+         where Vx in ( i e ü ö a â ı o u )
+               Vy in ( i i ü ü ı ı ı u u )
          matched ;
 
 "Vowel harmony for {y} unless next C starts a syllable"
 %{y%}:Vy <=> .#. :Cns* :Vx :Cns+/:0* _ [ :Cns [ :Cns | .#. ] ]/:0* ;
-         where Vx in ( i e ü ö a ı o u )
-               Vy in ( i i ü ü ı ı u u )
+         where Vx in ( i e ü ö a â ı o u )
+               Vy in ( i i ü ü ı ı ı u u )
          matched ;
 
 
