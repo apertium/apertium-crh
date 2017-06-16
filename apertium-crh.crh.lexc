@@ -1111,6 +1111,8 @@ bazı:bazı DET-IND ; ! ""
 
 ekser:ekser DET-QNT ; ! ""
 çoq:çoq DET-QNT ; ! ""
+qaç:qaç DET-INTERR ; ! "how much/many"
+bir% qaç:bir% qaç DET-IND ; ! "a few"
 
 qaysı:qaysı DET-INTERR ; ! ""
 angi:angi DET-INTERR ; ! ""
@@ -1175,6 +1177,7 @@ LEXICON Nouns
 ara:ara N1 ; ! "among"
 ast:ast N1 ; ! ""
 art:art N1 ; ! ""
+elektrik:elektrik N1 ; ! "electricity"
 yan:yan N1 ; ! "next to"
 taraf:taraf N1 ; ! "towards"
 etraf:etraf N1 ; ! "direction"
@@ -11766,6 +11769,7 @@ federal:federal A3 ; ! ""
 
 ayırdı:ayırdı A3 ; ! ""
 ortodoks:ortodoks A3 ; ! ""
+malüm:malüm A3 ; ! "known"
 
 sabıq:sabıq A1 ; ! ""
 yasaq:yasaq A1 ; ! ""
