@@ -11759,6 +11759,7 @@ lâzim:lâzim A2 ; ! "нужен"
 ilk:ilk A3 ; ! "первый"
 
 deyerlik:deyerlik A1 ; ! ""
+qıtaiy:qıtaiy A1 ; ! "continental"
 ertesi:ertesi A3 ; ! "following"
 tüşkün:tüşkün A3 ; ! ""
 federal:federal A3 ; ! ""
@@ -13233,6 +13234,7 @@ nege:nege ADV-ITG ;
 kene:kene ADV ; ! ""
 al%-azırda ADV ;  
 
+aman:aman ADV ; !"immediately"
 büs%-bütün:büs%-bütün ADV ; ! "абсолютно, совершенно"
 tamamen:tamamen ADV ;
 esasen:esasen ADV ;
