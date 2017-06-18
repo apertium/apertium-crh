@@ -11745,7 +11745,7 @@ Gökçeoğlu:Gökçeoğlu NP-COG-MF ; ! ""
 Eyüboğlu:Eyüboğlu NP-COG-MF ; ! ""
 Boyacıoğlu:Boyacıoğlu NP-COG-MF ; ! ""
 Behramoğlu:Behramoğlu NP-COG-MF ; ! ""
-
+Çiygoz:Çiygoz NP-COG-MF ; ! ""
 
 
 LEXICON Adjectives 
@@ -14393,6 +14393,7 @@ aqla:aqla V-IV ; ! ""
 
 
 qabul% et:qabul% et V-TV-AR ; ! ""
+takbih% et:takbih% et V-TV-AR ; ! "condemn/criticise"
 qatil% et:qatil% et V-TV-AR ; ! "kill"
 lâğu% et:lâğu% et V-TV-AR ; ! ""
 red% et:red% et V-TV-AR ; ! "reject"
