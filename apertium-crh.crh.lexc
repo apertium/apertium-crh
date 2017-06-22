@@ -12567,6 +12567,7 @@ cenk:cenk N5 ; ! "war"
 temelci:temelci N1 ; ! "founder"
 ğazı:ğazı N1 ; ! ""
 metropoliya:metropoliya N1 ; ! "city"
+müftiyat:müftiyat N1 ; 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
 yanğın:yanğın A3 ; ! "пожежний"
