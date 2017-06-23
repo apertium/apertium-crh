@@ -17,7 +17,7 @@ LIST Cog = cog ;
 LIST Ant = ant ; 
 LIST Abl = abl;
 LIST Nom = nom;
-LIST V = vblex cop ;
+LIST V = v cop ;
 LIST Num = num;
 LIST Son = "soñ" ;
 LIST Sene = "sene";
@@ -29,6 +29,10 @@ LIST Prc/impf = prc_impf ;
 LIST Gna/perf = gna_perf;
 LIST Vaux = vaux ;
 LIST Imper = imp ; 
+
+LIST Pass = pass ; 
+LIST Coop = coop ;
+LIST Caus = caus ;
 
 LIST Attr = attr ;
 LIST Subst = subst ; 
@@ -56,7 +60,10 @@ SET Prc = Prc/perf | Prc/impf ;
 
 SET Ant/Cog = Ant | Cog ; 
 
+
 SECTION
+
+REMOVE SUB:1 Err/Orth ;
 
 REMOVE Err/Orth ;
 
@@ -91,6 +98,7 @@ REMOVE SUB:1 Post/Sız (0/* Sız) ;
 
 SELECT Attr (0 Meslek) (1 Ant/Cog) ; 
 
+REMOVE Pass IF (0 Pass) (0 V - Pass) (0C V) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
