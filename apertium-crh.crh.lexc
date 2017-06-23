@@ -13360,7 +13360,7 @@ ol:ol V-IV ; ! "be/быть"
 ol:bol V-IV ; ! "be/быть" ! Dial/North ! Dir/LR
 bitir:bitir V-TV ; ! ""                        ! AUX(?)
 anneksirle:anneksirle V-TV ; ! ""                     
-dolan:dolan V-TV ; ! ""                     
+dolan:dolan V-IV ; ! ""                     
 çaypa:çaypa V-TV ; ! ""                     
 yarat:yarat V-TV ; ! "create"                     
 ötker:ötker V-TV ; ! "organize"
