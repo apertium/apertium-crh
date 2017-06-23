@@ -68,3 +68,7 @@ Tests:
     doğ<v><tv><ifi><p3><sg> : doğdı
     doğ<v><tv><past><p3><sg> : doğğan
     doğ<v><tv><imp><p2><sg> : doğ
+    maqsat<n><px3sp><nom> : maqsadı
+    maqsat<n><nom> : maqsat
+    maqsat<n><pl><nom> : maqsatlar
+    maqsat<n><loc> : maqsatta

@@ -98,10 +98,16 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
 
 "Devoicing of coronal stem-final voiceless consonants"
 Cx:Cy <=> :Vow _ .#. ;
-          _ %>: [ :Cns - %{D%}: ]/:0* ;
+!!          _ %>: [ :Cns - %{D%}: ]/:0* ;              !! FMT: See maqsatta
+          _ %>: [ :Cns :? - [ %{D%}: %{I%}: ] ]/:0* ;
+      except
+          _ %{☭%}: %>: ; 
       where Cx in ( d c j )
             Cy in ( t ç ş )
       matched ;
+
+! m a q s a d:t >:0 {D}:t {A}:a
+! m a q s a d:d >:0 {s}:0 {I}:ı {n}:0
 
 ! q a y d
 
