@@ -1013,7 +1013,7 @@ eger:eger CS ; ! "если"
 
 yoqsa:yoqsa CA ; ! ""
 yani:yani CA ; ! "meaning..."
-
+atta:atta CA ; ! "even..."
 
 LEXICON Postpositions
 
@@ -2058,6 +2058,7 @@ fazla:fazla N1 ; ! "излишек"
 felsefe:felsefe N1 ; ! "философия"
 felsefeci:felsefeci N1 ; ! "философ"
 fetih:fetih N1 ; ! "завоевание"
+fırqa:firqa N1 ;
 fırqa:fırqa N1 ; ! "партия"
 fizika:fizika N1 ; ! "физика"
 fizikacı:fizikacı N1 ; ! "физик"
@@ -4281,6 +4282,7 @@ zülmet:zülmet N1 ; ! "темрява"
 felâket:felâket N5 ; ! ""
 aqibet:aqibet N5 ; ! ""
 ait:ait A1 ; ! "" ! FIXME
+evelsi:evelsi A1 ;
 aktivist:aktivist N5 ; ! ""
 qaza:qaza N1 ; ! ""
 tuvğan:tuvğan N1 ; ! ""
@@ -13337,6 +13339,7 @@ nisbeten:nisbeten ADV ; ! "более или менее"
 ilâhre:ilâhre ADV ; ! ""
 
 tahminen:tahminen ADV ; ! ""
+keri:keri ADV ; ! ""
 
 LEXICON Verbs 
 
