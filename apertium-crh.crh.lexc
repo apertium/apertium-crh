@@ -19,6 +19,7 @@ Multichar_Symbols
 %<v%>             ! Verb                        !
 %<cnjcoo%>        ! Coordinating conjunction    !
 %<cnjsub%>        ! "subordinating conjunction" (ki)
+%<cnjadv%>        ! 
 %<qst%>           ! Question word
 %<cop%>           ! Copula
 %<postadv%>       ! 
@@ -14478,6 +14479,7 @@ LEXICON Interjections
 
 tamam:tamam INTERJ ; ! ""
 mına:mına INTERJ ; ! ""
+yani:yani INTERJ ; ! ""
 
 LEXICON Symbols 
 
