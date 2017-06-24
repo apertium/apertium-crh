@@ -6859,6 +6859,7 @@ duvar:duvar N1 ; ! "" ! Lex/tur
 ecdat:ecdat N1 ; ! "" ! Lex/tur
 ece:ece N1 ; ! "" ! Lex/tur
 efendi:efendi N1 ; ! "" ! Lex/tur
+sultan:sultan N1 ;
 egemen:egemen N1 ; ! "" ! Lex/tur
 ehemmiyet:ehemmiyet N1 ; ! "" ! Lex/tur
 ek:ek N1 ; ! "" ! Lex/tur
