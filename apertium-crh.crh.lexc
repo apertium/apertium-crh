@@ -712,6 +712,11 @@ LEXICON DET-QNT
 %<det%>%<qnt%>: # ;
 
 
+LEXICON DET-REF
+
+%<det%>%<ref%>: # ;
+
+
 LEXICON DET-IND
 
 %<det%>%<ind%>: # ;
@@ -1101,6 +1106,8 @@ bu:bu DET-DEM ;
 şu:şu DET-DEM ;
 o:o DET-DEM ;
 işbu:işbu DET-DEM ; 
+
+öz:öz DET-REF ; ! ""
 
 bir:bir DET-IND ; ! ""
 er:er DET-IND ; ! "every"
