@@ -21,6 +21,7 @@ LIST V = v cop ;
 LIST Num = num;
 LIST Son = "soñ" ;
 LIST Sene = "sene";
+LIST Ref = ref ;
 LIST Loc = loc ;
 LIST Adv = adv;
 LIST Det = det ;
@@ -99,6 +100,8 @@ REMOVE SUB:1 Post/Sız (0/* Sız) ;
 SELECT Attr (0 Meslek) (1 Ant/Cog) ; 
 
 REMOVE Pass IF (0 Pass) (0 V - Pass) (0C V) ;
+
+SELECT Det IF (0 Ref) (1 N) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
