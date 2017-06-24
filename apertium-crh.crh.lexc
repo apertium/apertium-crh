@@ -817,11 +817,11 @@ LEXICON V-NONFINITE
 %<ger_abst%>:%>%{U%}v FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 
 %<ger_past%>:%>%{G%}%{A%}n FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
-%<ger_pres%>:%>%{j%}%{A%}r%{A%}%{G%} FULL-NOMINAL-INFLECTION ;
+!%<ger_pres%>:%>%{j%}%{A%}r%{A%}%{G%} FULL-NOMINAL-INFLECTION ; ! inflected forms not found
 %<ger_fut2%>:%>%{E%}c%{A%}%{G%} FULL-NOMINAL-INFLECTION ;
 
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
-%<gna_pres%>:%>%{j%}%{A%}r%{A%}%{G%} # ;
+%<gna_impf%>:%>%{j%}%{A%}r%{A%}%{G%} # ;
 %<gna_perf%>:%>%{I%}p # ;
 
 %<gpr_past%>:%>%{G%}%{A%}n # ;
