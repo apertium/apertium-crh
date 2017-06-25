@@ -86,6 +86,7 @@ Multichar_Symbols
 
 %<attr%>          ! Attributive                 !
 %<subst%>         ! Substantive                 !
+%<advl%>          ! 
 
 %<pers%>          ! Personal                    !
 %<dem%>
@@ -514,6 +515,12 @@ LEXICON A4
 
 %<adj%>: CLITICS-INCL-COP ; 
 %<adj%>%<comp%>:%>%{C%}%{A%} CLITICS-INCL-COP ; 
+
+!LEXICON A5
+!
+!%<adj%>: CLITICS-INCL-COP ; 
+!%<adj%>%<advl%>: # ; 
+
 
 LEXICON NUM 
 
@@ -11778,7 +11785,6 @@ lâzim:lâzim A2 ; ! "нужен"
 !ilk:ilk NUM-ORD ; ! ""
 ilk:ilk A3 ; ! "первый"
 
-deyerlik:deyerlik A1 ; ! ""
 qıtaiy:qıtaiy A1 ; ! "continental"
 ertesi:ertesi A3 ; ! "following"
 tüşkün:tüşkün A3 ; ! ""
@@ -13275,6 +13281,7 @@ az:az ADV ; ! "мало"
 belki:belki ADV ; ! ""
 biraz:biraz ADV ; ! ""
 daima:daima ADV ; ! ""
+deyerlik:deyerlik ADV ; ! ""
 daa:daa ADV ; ! "more"
 soñ:soñ ADV ; ! "later"
 
