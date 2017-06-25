@@ -13258,6 +13258,7 @@ nege:nege ADV-ITG ;
 
 kene:kene ADV ; ! ""
 al%-azırda ADV ;  
+deyerlik:deyerlik ADV ;
 
 aman:aman ADV ; !"immediately"
 büs%-bütün:büs%-bütün ADV ; ! "абсолютно, совершенно"
