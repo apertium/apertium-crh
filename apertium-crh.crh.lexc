@@ -64,6 +64,7 @@ Multichar_Symbols
 %<ger_abst%>      ! -Uv
 
 %<gpr_fut%>
+%<gpr_fut2%>
 %<gpr_pot%>
 
 %<gna_while%>
