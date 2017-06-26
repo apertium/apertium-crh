@@ -17,6 +17,7 @@ LIST Cog = cog ;
 LIST Ant = ant ; 
 LIST Abl = abl;
 LIST Nom = nom;
+LIST Aux = vaux ;
 LIST V = v cop ;
 LIST Num = num;
 LIST Son = "soñ" ;
@@ -53,6 +54,8 @@ LIST Post/Sız = ("sız" post) ;
 
 LIST Meslek = ".*[çc][ıüiu]"r "alim" ; 
 
+LIST Dep = "<dep>"i ;
+
 LIST Err/Orth = err_orth ;
 
 SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
@@ -85,6 +88,8 @@ SELECT Adv IF (0 Son) (1 Num) (2 Sene + Loc);
 
 REMOVE Adv IF (0 Det) (NOT 1* V);
 
+SELECT Gna/perf IF (0 Dep) (NOT 1 Aux) ;
+
 REMOVE Prc/perf IF (0 Gna/perf) (NOT 1* Vaux) ;
 
 REMOVE Imper IF (1C Cop) ;
@@ -102,6 +107,7 @@ SELECT Attr (0 Meslek) (1 Ant/Cog) ;
 REMOVE Pass IF (0 Pass) (0 V - Pass) (0C V) ;
 
 SELECT Det IF (0 Ref) (1 N) ;
+
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
