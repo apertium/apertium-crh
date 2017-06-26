@@ -319,6 +319,7 @@ LEXICON CLIT-COP
 %+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r # ; ! Dir/LR
 %+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r%>l%{A%}r # ;
 %+e%<cop%>%<aor%>: V-PERS-S1-COP ; 
+%+e%<cop%>%<ger_past%>:%>ken FULL-NOMINAL-INFLECTION ; 
 %+e%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-S1-COP ; 
 
 LEXICON CLITICS-NO-COP 

@@ -16,6 +16,7 @@ LIST N = n;
 LIST Cog = cog ; 
 LIST Ant = ant ; 
 LIST Abl = abl;
+LIST Qst = qst ;
 LIST Nom = nom;
 LIST Aux = vaux ;
 LIST V = v cop ;
@@ -107,6 +108,8 @@ SELECT Attr (0 Meslek) (1 Ant/Cog) ;
 REMOVE Pass IF (0 Pass) (0 V - Pass) (0C V) ;
 
 SELECT Det IF (0 Ref) (1 N) ;
+
+REMOVE SUB:1 Qst IF (0 Px3sp) ;
 
 
 # Resources:
