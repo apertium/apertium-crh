@@ -11733,6 +11733,7 @@ Gustav:Gustav NP-ANT-M; ! ""
 Jay:Jay NP-ANT-M; ! ""
 Ray:Ray NP-ANT-M; ! ""
 Sidney:Sidney NP-ANT-M; ! ""
+Emel:Emel NP-ANT-F; ! ""
 Cuba:Cuba NP-TOP; ! ""
 Grenada:Grenada NP-TOP; ! ""
 Korea:Korea NP-TOP; ! ""
@@ -13245,6 +13246,7 @@ puslu:puslu  A1 ; ! ""
 qurtlu:qurtlu  A1 ; ! ""
 ekiyüzlü:ekiyüzlü  A1 ; ! ""
 üsnü:üsnü  A1 ; ! ""
+qoşma:qoşma A1 ; ! ""
 
 
 LEXICON Adverbs
