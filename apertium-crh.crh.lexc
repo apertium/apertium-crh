@@ -836,7 +836,7 @@ LEXICON V-NONFINITE
 
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_impf%>:%>%{j%}%{A%}r%{A%}%{G%} # ;
-%<gna_perf%>:%>%{I%}p # ;
+%<gna_perf%>:%>%{i%}p # ;
 
 %<gpr_past%>:%>%{G%}%{A%}n # ;
 
