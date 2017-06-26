@@ -14503,6 +14503,7 @@ LEXICON Punctuation
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;
 ...%<sent%>:... # ;
+…%<sent%>:… # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
