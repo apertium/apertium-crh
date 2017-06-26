@@ -13366,6 +13366,7 @@ ilâhre:ilâhre ADV ; ! ""
 
 tahminen:tahminen ADV ; ! ""
 keri:keri ADV ; ! ""
+ayrı:ayrı ADV ; ! ""
 
 LEXICON Verbs 
 
@@ -14428,6 +14429,8 @@ aqla:aqla V-IV ; ! ""
 
 
 qabul% et:qabul% et V-TV-AR ; ! ""
+tasdıq% et:tasdıq% et V-TV-AR ; ! ""
+
 takbih% et:takbih% et V-TV-AR ; ! "condemn/criticise"
 qatil% et:qatil% et V-TV-AR ; ! "kill"
 lâğu% et:lâğu% et V-TV-AR ; ! ""
