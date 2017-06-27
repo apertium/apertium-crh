@@ -13301,6 +13301,7 @@ anda:anda ADV ; ! ""
 uzaqta:uzaqta ADV ; ! ""
 aşağta:aşağta ADV ; ! ""
 yuqarıda:yuqarıda ADV ; ! ""
+yuqarı:yuqarı ADV ; 
 mundan:mundan ADV ; ! ""
 andan:andan ADV ; ! ""
 uzaqtan:uzaqtan ADV ; ! ""
@@ -14430,6 +14431,7 @@ aqla:aqla V-IV ; ! ""
 
 
 qabul% et:qabul% et V-TV-AR ; ! ""
+taqiq% et:taqiq% et V-TV-AR ; ! ""
 tasdıq% et:tasdıq% et V-TV-AR ; ! ""
 
 takbih% et:takbih% et V-TV-AR ; ! "condemn/criticise"
