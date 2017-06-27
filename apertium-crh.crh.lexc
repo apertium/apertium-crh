@@ -12583,6 +12583,7 @@ uryan:uryan A1 ; ! "голий"
 vatanperver:vatanperver A3 ; ! "патріотичний"
 yabancı:yabancı A3 ; ! "чужий"
 yabancı:yabancı N1 ; ! "инностранец"
+türkçe:türkçe N1 ;
 sanat:sanat N1 ; ! "art"
 maarifçi:maarifçi N1 ; ! ""
 cenk:cenk N5 ; ! "war"
