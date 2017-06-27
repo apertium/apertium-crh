@@ -551,7 +551,7 @@ CASES-ETC ;
 
 LEXICON PRON-REF 
 
-%<prn%>%<ref%>: # ;
+!%<prn%>%<ref%>: # ;
 %<prn%>%<ref%>%<px1sg%>:%>%{i%}m PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2sg%>:%>%{i%}ñ PRON-REF-ADV ;
 %<prn%>%<ref%>%<px3sg%>:%>%{i%}%{n%} PRON-REF-ADV ;

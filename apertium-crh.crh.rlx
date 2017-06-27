@@ -47,8 +47,8 @@ LIST Pl1 = (p1 pl);
 LIST Pl2 = (p2 pl) ;
 LIST Pl3 = (p3 pl) ;
 
-LIST Li = ".*l[ıüiu]"r ; 
-LIST Sız = ".*s[ıüiu]z"r ; 
+LIST Li = ".*l[ıüiu]"ri ; 
+LIST Sız = ".*s[ıüiu]z"ri ; 
 
 LIST Post/Li = ("lı" post) ;
 LIST Post/Sız = ("sız" post) ;
