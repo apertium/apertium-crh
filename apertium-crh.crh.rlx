@@ -16,6 +16,7 @@ LIST N = n;
 LIST Cog = cog ; 
 LIST Ant = ant ; 
 LIST Abl = abl;
+LIST Sim = sim ; 
 LIST Qst = qst ;
 LIST Nom = nom;
 LIST Aux = vaux ;
@@ -111,6 +112,7 @@ SELECT Det IF (0 Ref) (1 N) ;
 
 REMOVE SUB:1 Qst IF (0 Px3sp) ;
 
+REMOVE Sim IF (0C N) ; 
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
