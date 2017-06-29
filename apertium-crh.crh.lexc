@@ -13430,6 +13430,8 @@ yap:yap V-TV-AR ; ! "do/делать"
 yapıl:yapıl V-TV-AR ; ! "be done/" ! Der/Pass
 tüş:tüş V-IV-AR ; ! "fall"
 qayt:qayt V-IV ; ! "return/вернуться"
+tolqun:tolqun V-IV ;
+tolqunlan:tolqunlan V-IV ;
 ber:ber V-TV ; ! "give"
 berdir:berdir V-TV ; ! "" ! Der/Caus
 berdirt:berdirt V-TV ; ! "" ! Der/Caus
