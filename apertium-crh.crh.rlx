@@ -83,7 +83,9 @@ SECTION
 # Remove zero copula if it is third person singular [MT]
 REMOVE SUB:1 Cop IF (0/* Sg3) (NOT 1 EOS) ; 
 
-REMOVE SUB:1 Cop IF (0 Nom)(1 Px3sp);
+REMOVE SUB:1 Cop IF (0 Nom) (1 Px3sp);
+
+REMOVE SUB:1 Cop IF (0/* Post/Sız) ;
 
 REMOVE Px1sg IF (1 Px3sp);
 
