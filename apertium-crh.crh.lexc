@@ -13290,6 +13290,7 @@ büs%-bütün:büs%-bütün ADV ; ! "абсолютно, совершенно"
 tamamen:tamamen ADV ;
 esasen:esasen ADV ;
 aslında:aslında ADV ; 
+bile:bile ADV ;
 tekrar:tekrar ADV ;
 çoq:çoq ADV ; ! "много, очень"
 pek:pek ADV ; ! "очень"
@@ -13415,6 +13416,7 @@ yaşa:yaşa V-IV ; ! "live/жить"
 kör:kör V-TV ; ! "see/видеть"
 al:al V-TV ; ! "take"
 ket:ket V-IV-AR ; ! "go/идти"
+sus:sus V-IV-AR ; ! "fall silent"
 sev:sev V-TV-AR ; ! "love/любить"
 qal:qal V-IV-AR ; ! "stay/стоить"
 kel:kel V-IV-AR ; ! "come/прийти"
