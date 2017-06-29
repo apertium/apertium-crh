@@ -13418,7 +13418,7 @@ oğrat:oğrat V-TV ; ! "Der/Caus"
 tur:tur V-IV ; ! ""
 yaşa:yaşa V-IV ; ! "live/жить"
 şekillen:şekillen V-IV ; ! "take shape"
-kör:kör V-TV ; ! "see/видеть"
+kör:kör V-TV-AR ; ! "see/видеть"
 al:al V-TV ; ! "take"
 qopar:qopar V-TV ;
 ket:ket V-IV-AR ; ! "go/идти"

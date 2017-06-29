@@ -42,6 +42,9 @@ LIST Caus = caus ;
 LIST Attr = attr ;
 LIST Subst = subst ; 
 
+LIST Pl = pl ;
+LIST Sg = sg ;
+
 LIST Sg1 = (p1 sg);
 LIST Sg2 = (p2 sg) ;
 LIST Sg3 = (p3 sg) ;
@@ -88,6 +91,8 @@ REMOVE SUB:1 Cop IF (0 Nom) (1 Px3sp);
 REMOVE SUB:1 Cop IF (0/* Post/Sız) ;
 
 REMOVE Px1sg IF (1 Px3sp);
+
+REMOVE SUB:1 Cop IF (0/* Cop + Sg1) (0 Pl) ;
 
 SELECT Cop IF (NOT 0* V);
 
