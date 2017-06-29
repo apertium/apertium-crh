@@ -13431,6 +13431,7 @@ berdirt:berdirt V-TV ; ! "" ! Der/Caus
 ayt:ayt V-TV ; ! "tell"
 unut:unut V-TV ; ! "forget/забыть"
 oqu:oqu V-TV ; ! "learn/учить"
+oqut:oqut V-TV ; 
 iste:iste V-TV ; ! "want/хотеть"
 işle:işle V-TV ; ! "work/работать"
 bil:bil V-TV ; ! "know/знать"
