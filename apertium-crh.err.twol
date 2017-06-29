@@ -10,7 +10,7 @@ Alphabet
 ! For proper nouns, e.g. rusiye instead of Rusiye
 ! A:a Â:â B:b C:c Ç:ç D:d E:e F:f G:g Ğ:ğ H:h I:i J:j K:k L:l M:m N:n Ñ:ñ O:o Ö:ö P:p Q:q R:r S:s Ş:ş T:t U:u Ü:ü V:v Y:y Z:z
 
- %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü
+ %{i%}:i %{i%}:ı %{i%}:u %{i%}:ü %{i%}:0
  %{y%}:0 %{y%}:i %{y%}:ı %{y%}:u %{y%}:ü
  %{Y%}:i %{Y%}:ı %{Y%}:u %{Y%}:ü              ! Can be either rounded or unrounded
  %{I%}:i %{I%}:ı %{I%}:u %{I%}:ü

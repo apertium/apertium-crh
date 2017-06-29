@@ -71,6 +71,9 @@ Multichar_Symbols
 %<gna_perf%>
 
 %<prc_perf%>      ! -Ip 
+%<prc_fut%>       ! 
+%<prc_impf%>      ! 
+%<prc_cond%>      ! 
 
 %<px1sg%>         !
 %<px2sg%>         !
@@ -809,14 +812,19 @@ LEXICON V-FUT-COMMON
 
 LEXICON V-FUT-IR
 
-%<fut%>:%{I%}r V-PERS-S1 ;
-%<gpr_fut%>:%{I%}r # ;
+%<fut%>:%{i%}r V-PERS-S1 ;
+%<gpr_fut%>:%{i%}r # ;
+%<prc_fut%>:%{i%}r # ; 
+%<prc_fut%>%+e%<vaux%>%<ifi%>:%{i%}r%>d%{i%} V-PERS-S2 ;  ! Err/Orth
+
 V-FUT-COMMON ;
 
 LEXICON V-FUT-AR 
 
 %<fut%>:%{A%}r V-PERS-S1 ;
 %<gpr_fut%>:%{A%}r # ;
+%<prc_fut%>:%{A%}r # ;
+%<prc_fut%>%+e%<vaux%>%<ifi%>:%{A%}r%>d%{I%} V-PERS-S2 ;  ! Err/Orth
 V-FUT-COMMON ;
 
 LEXICON V-NONFINITE
@@ -11780,6 +11788,7 @@ LEXICON Adjectives
 
 yoq:yoq A3 ; ! "нет"
 bar:bar A3 ; ! "есть"
+bar:var A3 ; ! "есть" ! Err/Orth
 ibaret:ibaret A2 ; ! ""
 
 
@@ -13312,6 +13321,7 @@ yuqarıdan:yuqarıdan ADV ; ! ""
 
 !! Time
 şimdi:şimdi ADV ; ! "now/сейчас"
+şimdi:şindi ADV ; ! "now/сейчас" ! Err/Orth
 bazan:bazan ADV ; ! "sometimes/иногда"
 çoqtan:çoqtan ADV ; 
 bazı% bir:bazı% bir ADV ; ! "sometimes/иногда"

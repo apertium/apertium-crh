@@ -56,6 +56,8 @@ LIST Post/Sız = ("sız" post) ;
 
 LIST Meslek = ".*[çc][ıüiu]"r "alim" ; 
 
+LIST Title = "<[A-Z].*>"r ;
+
 LIST Dep = "<dep>"i ;
 
 LIST Err/Orth = err_orth ;
