@@ -12602,6 +12602,7 @@ temelci:temelci N1 ; ! "founder"
 ğazı:ğazı N1 ; ! ""
 metropoliya:metropoliya N1 ; ! "city"
 müftiyat:müftiyat N1 ; 
+qadı:qadı N1 ;
 noqtaiy% nazar:noqtaiy% nazar N1;
 
 yaban:yaban A1 ; ! "чужий"
