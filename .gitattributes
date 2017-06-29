@@ -54,5 +54,6 @@ texts/crh-feats.tsv -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
 texts/puupankki/puupankki.crh.conllu -text
+texts/qarilgaclar.txt -text
 texts/qarılğaç.vislcg.txt -text
 texts/wikipedia.vislcg.txt -text
