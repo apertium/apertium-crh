@@ -11873,6 +11873,7 @@ azğana:azğana A1 ; ! ""
 bay:bay A3 ; ! ""
 bayğuş:bayğuş A1 ; ! ""
 beyaz:beyaz A3 ; ! ""
+sarı:sarı A3 ;
 birtalay:birtalay A1 ; ! ""
 bitaraf:bitaraf A1 ; ! ""
 bulğar:bulğar A3 ; ! ""
@@ -12595,6 +12596,7 @@ vatanperver:vatanperver A3 ; ! "патріотичний"
 yabancı:yabancı A3 ; ! "чужий"
 yabancı:yabancı N1 ; ! "инностранец"
 türkçe:türkçe N1 ;
+uğultı:uğultu N1 ;
 sanat:sanat N1 ; ! "art"
 maarifçi:maarifçi N1 ; ! ""
 cenk:cenk N5 ; ! "war"
@@ -13257,6 +13259,7 @@ borlu:borlu  A1 ; ! ""
 çorlu:çorlu  A1 ; ! ""
 bürlü:bürlü  A1 ; ! ""
 puslu:puslu  A1 ; ! ""
+soluq:soluq A1;
 qurtlu:qurtlu  A1 ; ! ""
 ekiyüzlü:ekiyüzlü  A1 ; ! ""
 üsnü:üsnü  A1 ; ! ""
