@@ -354,6 +354,10 @@ CASES-COMMON ;
 %<loc%>:%>%{D%}%{A%} CLITICS-INCL-COP ;
 %<ins%>:%>nen CLITICS-INCL-COP ; ! FIXME: can take cop ?
 %<ins%>:%>n%{A%}n CLITICS-INCL-COP ; ! Dir/LR ! Dial/?
+%<ins%>:%>m%{A%}n CLITICS-INCL-COP ; ! Dir/LR ! Dial/?
+
+! başımla
+%<ins%>:%>l%{A%} # ; ! Err/Orth 
 
 LEXICON ATTR-SUBST 
 
@@ -1221,12 +1225,13 @@ yan:yan N1 ; ! ""
 orta:orta N1 ; ! ""
 tışarı:tışarı N1 ; ! ""
 qarşı:qarşı N1 ; ! ""
-Türk:Türk N1 ; ! ""
 aqq:aqq N5 ; ! ""
 soñ:soñ N1 ; ! ""
+içer:içer N1 ; ! ""
 
 !!
 
+Türk:Türk N1 ; ! ""
 feldmarşal:feldmarşal N1 ; ! "field marshal"
 diaspora:diaspora N1 ; ! "diaspora"
 muhtariyet:muhtariyet N1 ; ! ""
@@ -1433,7 +1438,8 @@ element:element N1 ; ! "элемент"
 emek:emek N1 ; ! "труд"
 emekçi:emekçi N1 ; ! "труженик"
 emen:emen N1 ; ! "дуб"
-emir:emir N1 ; ! "приказ, указ"
+emir:em%{y%}r N1 ; ! "приказ, указ"
+emir:emir N1 ; ! "приказ, указ" ! Err/Orth
 en:en N1 ; ! "клеймо, ширина"
 er:er N1 ; ! "мужчина"
 erkek:erkek N1 ; ! "мужчина"
@@ -1971,7 +1977,7 @@ trapetsiya:trapetsiya N1 ; ! ""
 
 açılış:açılış N1 ; ! "раскрытие"
 afu:afu N1 ; ! "извинение"
-ağız:ağız N1 ; ! "пасть"
+ağız:ağ%{y%}z N1 ; ! "пасть"
 ahlâq:ahlâq N1 ; ! "мораль"
 aht:aht N1 ; ! "обет, обещание, обязательство"
 akimiyet:akimiyet N1 ; ! "господство"
@@ -3093,6 +3099,7 @@ daça:daça N1 ; ! "дача"
 dal:dal N1 ; ! "гілка"
 dalğa:dalğa N1 ; ! "хвиля"
 damar:damar N1 ; ! "судина"
+damar:tamar N1 ; ! "судина" ! Dir/LR
 danışman:danışman N1 ; ! "консультант"
 darbe:darbe N1 ; ! "удар"
 darğınlıq:darğınlıq N1 ; ! "образа"
@@ -5162,6 +5169,7 @@ irinti:irinti N1 ; ! "раствор"
 irişim:irişim N1 ; ! "доступ"
 iritici:iritici N1 ; ! "растворитель"
 irmaq:irmaq N1 ; ! "ручей"
+irmaq:ırmaq N1 ; ! "ручей" ! Dir/LR
 ırqçı:ırqçı N1 ; ! "расист"
 isaiyat:isaiyat N1 ; ! "статистика"
 isal:isal N1 ; ! "понос"
@@ -6627,6 +6635,7 @@ yıldızname:yıldızname N1 ; ! "гороскоп"
 yılışma:yılışma N1 ; ! "сдвиг"
 yılqıcı:yılqıcı N1 ; ! "табунщик"
 yılqı:yılqı N1 ; ! "табун"
+cılqı:cılqı N1 ; ! "табун"
 yıltırav:yıltırav N1 ; ! "блеск"
 yımşaqlıq:yımşaqlıq N1 ; ! "мягкость"
 yımşatma:yımşatma N1 ; ! "разрядка"
@@ -7562,6 +7571,28 @@ muzıkant:muzıkant N5 ; ! ""
 alim:alim N1 ; ! "учёный"
 rabbi:rabbi N1 ; ! ""
 hit:hit N1 ; ! ""
+
+qunan:qunan N1 ; ! ""
+arqan:arqan N1 ; ! ""
+tobulğı:tobulğ N2 ; ! ""
+kelinçek:kelinçek N1 ; ! ""
+mondalaq:mondalaq N1 ; ! ""
+süre:süre N1 ; ! ""
+moñ:moñ N1 ; ! ""
+quşçıq:quşçıq N1 ; ! ""
+mınar:mınar N1 ; ! ""
+tavuş:tavuş N1 ; ! ""
+soy:soy N1 ; ! ""
+bor:bor N1 ; ! ""
+ışıq:ışıq N1 ; ! ""
+yengillik:yengillik N1 ; ! ""
+qozu:qozu N1 ; ! ""
+yavru:yavru N1 ; ! ""
+qaymaq:qaymaq N1 ; ! ""
+yağ:yağ N1 ; ! ""
+kiyiz:kiyiz N1 ; ! ""
+delik:delik N1 ; ! "" ! Dial/South
+
 
 LEXICON ProperNouns 
 
@@ -11804,12 +11835,18 @@ ilk:ilk A3 ; ! "первый"
 
 qıtaiy:qıtaiy A1 ; ! "continental"
 ertesi:ertesi A3 ; ! "following"
+asav:asav A3 ; ! "норовистый"
 tüşkün:tüşkün A3 ; ! ""
 federal:federal A3 ; ! ""
+qoñur:qoñur A3 ; ! "бурый"
 
 ayırdı:ayırdı A3 ; ! ""
 ortodoks:ortodoks A3 ; ! ""
 malüm:malüm A3 ; ! "known"
+
+dalğın:dalğın A3 ; ! "задумчивый"
+boğuq:boğuq A3 ; ! "сдавленный"
+qaba:qaba A3 ; ! "грубый"
 
 sabıq:sabıq A1 ; ! ""
 yasaq:yasaq A1 ; ! ""
@@ -12066,6 +12103,7 @@ vira:vira A1 ; ! ""
 vızlı:vızlı A1 ; ! ""
 yalpaq:yalpaq A3 ; ! ""
 yañı:yañı A3 ; ! ""
+yañı:yeñi A3 ; ! "" ! Dial/South
 yañlış:yañlış A3 ; ! ""
 yaramaz:yaramaz A3 ; ! ""
 yarıq:yarıq A3 ; ! ""
@@ -13289,15 +13327,18 @@ nege:nege ADV-ITG ;
 kene:kene ADV ; ! ""
 al%-azırda ADV ;  
 deyerlik:deyerlik ADV ;
+kimerde:kimerde ADV ; 
 
 aman:aman ADV ; !"immediately"
 büs%-bütün:büs%-bütün ADV ; ! "абсолютно, совершенно"
 tamamen:tamamen ADV ;
 esasen:esasen ADV ;
 aslında:aslında ADV ; 
+tiz:tiz ADV ; ! ""
 bile:bile ADV ;
 tekrar:tekrar ADV ;
 çoq:çoq ADV ; ! "много, очень"
+köp:köp ADV ; ! "" 
 pek:pek ADV ; ! "очень"
 çoq%-çoq:çoq%-çoq ADV ; ! "много, очень"
 ebediy:ebediy ADV ; ! "eternally/вечно"
@@ -13395,6 +13436,7 @@ tur:tur VAUX ; ! ""
 otur:otur VAUX ; ! ""
 al:al VAUX ; ! ""
 ber:ber VAUX ; ! ""
+ver:ver VAUX ; ! "" ! Dial/South
 qoy:qoy VAUX ; ! ""
 kel:kel VAUX ; ! ""
 bar:bar VAUX ; ! ""
@@ -13433,6 +13475,7 @@ qayt:qayt V-IV ; ! "return/вернуться"
 tolqun:tolqun V-IV ;
 tolqunlan:tolqunlan V-IV ;
 ber:ber V-TV ; ! "give"
+ver:ver V-TV ; ! "give" ! Dial/South
 berdir:berdir V-TV ; ! "" ! Der/Caus
 berdirt:berdirt V-TV ; ! "" ! Der/Caus
 ayt:ayt V-TV ; ! "tell"
@@ -13494,18 +13537,19 @@ eglen:eglen V-IV ; ! ""
 eriş:eriş V-IV ; ! ""
 esir:esir V-IV ; ! ""
 eşit:eşit V-TV ; ! "hear"
+eşit:işit V-TV ; ! "hear" ! Dir/LR
 eş:eş V-TV ; ! "scratch"
 gizle:gizle V-TV ; ! "hide"
 iriş:iriş V-IV ; ! "reach"
 keliş:keliş V-IV ; ! "fit"
 keliştir:keliştir V-TV ; ! "make fit" ! Der/Caus
-kir:kir V-IV ; ! "enter"
+kir:kir V-IV-AR ; ! "enter"
 kiriş:kiriş V-TV ; ! "interfere"
 köster:köster V-TV ; ! "show"
 köter:köter V-TV ; ! "lift"
-kül:kül V-IV ; ! "laugh"
-min:min V-IV ; ! "mount"
-denil:denil V-IV ; ! "Der/Pass"
+kül:kül V-IV-AR ; ! "laugh"
+min:min V-IV-AR ; ! "mount"
+denil:denil V-IV ; ! "" ! Der/Pass
 pekit:pekit V-TV ; ! "strengthen"
 qala:qala V-IV ; ! "build a wall"
 qara:qara V-TV ; ! "look at"
@@ -13514,9 +13558,9 @@ qaytar:qaytar V-TV ; ! "send back"
 qıdır:qıdır V-TV ; ! "seek/искать"
 qılın:qılın V-IV ; ! ""
 qır:qır V-TV ; ! "rub"
-qoş:qoş V-TV ; ! "add"
+qoş:qoş V-TV-AR ; ! "add"
 saldır:saldır V-TV ; ! "construct/создать"
-sal:sal V-TV ; ! "put"
+sal:sal V-TV-AR ; ! "put"
 sayla:sayla V-TV ; ! "select/выбрать"
 sıla:sıla V-TV ; ! "seal"
 sil:sil V-TV ; ! "delete"
@@ -13549,6 +13593,7 @@ yiber:yiber V-TV ; ! "send"
 yıqıl:yıqıl V-IV ; ! "fall down"
 yıq:yıq V-TV ; ! "knock over"
 yür:yür V-IV ; ! "walk/ходить"
+yür:cür V-IV ; ! "walk/ходить" ! Dial/?
 yuv:yuv V-TV ; ! "wash/мыть"
 
 sora:sora V-TV ; ! "ask/спросить"
@@ -13575,7 +13620,7 @@ kederlen:kederlen V-IV ; ! ""
 yorul:yorul V-IV ; ! "" ! Der/Pass
 tedaviylen:tedaviylen V-IV ; ! "" ! Der/Pass
 raatlan:raatlan V-IV ; ! "" 
-bez:bez V-IV ; ! ""
+bez:bez V-IV-AR ; ! "надоесть"
 ögren:ögren V-TV ; ! ""
 bildir:bildir V-TV ; ! "" ! Der/Caus
 keçir:keçir V-TV ; ! ""
@@ -13583,7 +13628,7 @@ keçiril:keçiril V-IV ; ! "" ! Der/Pass
 
 qur:qur V-TV ; ! ""
 quvan:quvan V-IV ; 
-tut:tut V-IV ; ! ""
+tut:tut V-IV-AR ; ! ""
 tutul:tutul V-IV ; ! "попасться"
 añla:añla V-TV ; ! ""
 ketir:ketir V-TV ; ! "" ! Der/Caus
@@ -13591,45 +13636,45 @@ ketir:ketir V-TV ; ! "" ! Der/Caus
 toqtat:toqtat V-TV ; ! "stop (tv)" ! Der/Caus
 belgile:belgile V-TV ; ! "indicate"
 
-beklen:beklen V-IV; ! ""
-cenkleş:cenkleş V-IV; ! ""
-doğ:doğ V-IV; ! ""
-planlaş:planlaş V-IV; ! ""
-resmiyleş:resmiyleş V-IV; ! ""
-resmiyleştir:resmiyleştir V-TV; ! "" ! Der/Caus
+beklen:beklen V-IV ; ! ""
+cenkleş:cenkleş V-IV ; ! ""
+doğ:doğ V-IV ; ! ""
+planlaş:planlaş V-IV ; ! ""
+resmiyleş:resmiyleş V-IV ; ! ""
+resmiyleştir:resmiyleştir V-TV ; ! "" ! Der/Caus
 resmiyleştir:remiyleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
 resmiyleştir:resmileştir V-TV ; ! "" ! Der/Caus ! Err/Orth
 resmiyleştir:reysmiyleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
-tanıl:tanıl V-IV; ! ""
-yaqalan:yaqalan V-IV; ! ""
-yaralan:yaralan V-IV; ! ""
-yollan:yollan V-IV; ! ""
-añlat:añlat V-TV; ! ""
-bağışlan:bağışlan V-IV; ! ""
-bekle:bekle V-TV; ! ""
-çağır:çağır V-TV; ! ""
-çek:çek V-TV; ! ""
-çıqar:çıqar V-TV; ! ""
-hatırla:hatırla V-TV; ! ""
-hatırlat:hatırlat V-TV; ! ""
-imzala:imzala V-TV; ! ""
-ötker:ötker V-TV; ! ""
-planlaştır:planlaştır V-TV; ! ""
-qaldır:qaldır V-TV; ! ""
-qazan:qazan V-TV; ! ""
-qullan:qullan V-TV; ! ""
-saqla:saqla V-TV; ! ""
-say:say V-TV; ! ""
-sür:sür V-TV; ! ""
-tanı:tanı V-TV; ! ""
-tint:tint V-TV; ! ""
-yaqala:yaqala V-IV; ! ""
-yolla:yolla V-TV; ! ""
+tanıl:tanıl V-IV ; ! ""
+yaqalan:yaqalan V-IV ; ! ""
+yaralan:yaralan V-IV ; ! ""
+yollan:yollan V-IV ; ! ""
+añlat:añlat V-TV ; ! ""
+bağışlan:bağışlan V-IV ; ! ""
+bekle:bekle V-TV ; ! ""
+çağır:çağır V-TV ; ! ""
+çek:çek V-TV ; ! ""
+çıqar:çıqar V-TV ; ! ""
+hatırla:hatırla V-TV ; ! ""
+hatırlat:hatırlat V-TV ; ! ""
+imzala:imzala V-TV ; ! ""
+ötker:ötker V-TV ; ! ""
+planlaştır:planlaştır V-TV ; ! ""
+qaldır:qaldır V-TV ; ! ""
+qazan:qazan V-TV ; ! ""
+qullan:qullan V-TV ; ! ""
+saqla:saqla V-TV ; ! ""
+say:say V-TV-AR ; ! ""
+sür:sür V-TV-AR ; ! ""
+tanı:tanı V-TV ; ! ""
+tint:tint V-TV ; ! ""
+yaqala:yaqala V-IV ; ! ""
+yolla:yolla V-TV ; ! ""
 öl:öl V-IV ; ! "die"
 öldür:öldür V-TV ; ! "kill"
 boz:boz V-TV ; ! ""
 doğ:doğ V-IV ; ! ""
-at:at V-TV ; ! "throw"
+at:at V-TV-AR ; ! "throw"
 toplaş:toplaş V-IV ; ! ""
 yerlȩs:yerlȩs V-IV ; ! ""
 
@@ -13686,9 +13731,9 @@ oylan:oylan V-TV ; ! "думати"
 qan:qan V-IV ; !
 qandır:qandır V-TV ; ! "запевнити" ! Der/Caus
 qaz:qaz V-TV ; ! "рити"
-qaç:qaç V-IV ; ! "бігти"
-qon:qon V-IV ; ! "зайти"
-qon:qon V-IV ; ! "ночувати"
+qaç:qaç V-IV-AR ; ! "бігти"
+qon:qon V-IV-AR ; ! "зайти"
+qon:qon V-IV-AR ; ! "ночувати"
 qorq:qorq V-IV ; !
 qoru:qoru V-TV ; ! "охороняти"
 qorçala:qorçala V-TV ; ! "охороняти"
@@ -14478,6 +14523,38 @@ qayd% et:qayd% et V-TV-AR ; ! "Report, note"
 
 tamamla:tamamla V-TV-AR ; ! ""
 bit:bit V-TV-AR ; ! "finish"
+qalq:qalq V-TV-AR ; ! ""
+in:in V-IV-AR ; ! ""      ! FIXME: CHECK
+sıçra:sıçra V-IV ; ! "прыгать"
+ürk:ürk V-IV-AR ; ! "пугаться"
+fışqır:fışqır V-IV ; ! "извергать"
+ezil:ezil V-IV ; ! "быть раздавленным"
+sol:sol V-TV-AR ; ! "вянуть"
+sezdir:sezdir V-TV ; ! "чувствовать"
+ezberle:ezberle V-IV ; ! "учить наизусть"
+ez:ez V-TV ; ! "давить"
+ur:ur V-TV ; ! "бить"
+devir:devir V-IV ; ! "вертеть"
+tök:tök V-IV ; ! "лить"
+aqıt:aqıt V-IV ; ! "лить"
+farı:farı V-IV ; ! "стареть"
+bağla:bağla V-TV ; ! "связывать"
+qapat:qapat V-TV ; ! "закрывать"
+öte:öte V-TV ; ! ""
+tep:tep V-IV-AR ; ! "лягать"
+sarıl:sarıl V-IV ; ! "виться"
+
+tıqan:tıqan V-IV ; ! ""
+qarğa:qarğa V-IV ; ! ""
+tasarlan:tasarlan V-IV ; ! ""
+sarar:sarar V-TV ; ! ""
+qaynaş:qaynaş V-IV ; ! ""
+taş:taş V-IV ; ! "выходить из берегов"
+oynat:oynat V-TV ; ! ""
+dağıt:dağıt V-TV ; ! "разобрать"
+aq:aq V-IV ; ! "протекать"
+qarar:qarar V-IV ; ! "чернеть"
+
 
 LEXICON Abbreviations
 
