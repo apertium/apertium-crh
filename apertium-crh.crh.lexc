@@ -1005,7 +1005,9 @@ da%<postadv%>:ta # ; ! Dir/LR
 da%<postadv%>:te # ; ! Dir/LR
 da%<postadv%>:%~da # ; ! Dir/RL
 
-degil%<postadv%>:degil CLIT-COP ; 
+degil%<adj%>:degil CLIT-COP ; 
+degil%<adj%>:tügül CLIT-COP ; ! Dir/LR ! Dial/?
+degil%<adj%>:dügül CLIT-COP ; ! Dir/LR ! Dial/?
 
 LEXICON Copula
 
@@ -13507,9 +13509,9 @@ bar:bar V-IV ; ! ""
 köç:köç V-IV ; ! ""
 et:et V-TV-AR ; ! ""
 etil:etil V-IV ; ! "" ! Der/Pass
-aç:aç V-TV ; ! ""
+aç:aç V-TV-AR ; ! ""
 uç:uç V-IV ; ! ""
-qorq:qorq V-TV-AR ; ! ""
+qorq:qorq V-IV-AR ; ! ""
 tüşün:tüşün V-TV ; ! ""
 yan:yan V-IV ; ! ""
 

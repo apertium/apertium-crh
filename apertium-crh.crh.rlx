@@ -19,7 +19,12 @@ LIST Abl = abl;
 LIST A = adj ;
 LIST Sim = sim ; 
 LIST Qst = qst ;
-LIST Nom = nom;
+LIST Nom = nom ;
+LIST Acc = acc ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Loc = loc ;
+LIST Ins = ins ;
 LIST Aux = vaux ;
 LIST V = v cop ;
 LIST Num = num;
@@ -32,6 +37,7 @@ LIST Adv = adv;
 LIST Det = det ;
 LIST Prc/perf = prc_perf ;
 LIST Prc/impf = prc_impf ;
+LIST Prc/fut = prc_fut ;
 LIST Gna/perf = gna_perf;
 LIST Vaux = vaux ;
 LIST Imper = imp ; 
@@ -67,14 +73,17 @@ LIST Terek = "Terek" ;
 
 LIST Dep = "<dep>"i ;
 
+LIST Qara = "<qara>"i ;
+
 LIST Err/Orth = err_orth ;
 
 SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
 
-SET Prc = Prc/perf | Prc/impf ; 
+SET Prc = Prc/perf | Prc/impf | Prc/fut ; 
 
 SET Ant/Cog = Ant | Cog ; 
 
+SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
 
 SECTION
 
@@ -109,6 +118,8 @@ SELECT Gna/perf IF (0 Dep) (NOT 1 Aux) ;
 
 REMOVE Prc/perf IF (0 Gna/perf) (NOT 1* Vaux) ;
 
+REMOVE Prc IF (NOT 1 Vaux) ;
+
 REMOVE Imper IF (1C Cop) ;
 
 REMOVE Pers IF (1C Pers) ;
@@ -130,6 +141,14 @@ REMOVE SUB:1 Qst IF (0 Px3sp) ;
 REMOVE Sim IF (0C N) ; 
 
 REMOVE Subst IF (0 Subst - Pl) (0 Subst + Nom) ;
+
+REMOVE Attr IF (0 Attr) (NOT 1 N) ;
+
+REMOVE A + Subst + $$NGADLAI IF (0 N + $$NGADLAI) ;
+
+SECTION
+
+REMOVE Imper IF (0 Qara) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
