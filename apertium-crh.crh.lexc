@@ -1029,6 +1029,7 @@ em% de:em% de CC ; ! ""
 ya:ya CC ; ! ""
 ya% da:ya% da CC ; ! ""
 ka:ka CC ; ! ""
+faqat:faqat CC ; 
 
 ki:ki CS ; ! ""
 çünki:çünki CS ; ! ""
@@ -2037,7 +2038,6 @@ böcek:böcek N1 ; ! "насекомое"
 bolşevik:bolşevik N5 ; ! "большевик"
 bölük:bölük N1 ; ! "отдел, раздел"
 boy:boy N1 ; ! "рост"
-böyleliknen:böyleliknen N1 ; ! "таким образом"
 burulış:burulış N1 ; ! "поворот"
 cail:cail N1 ; ! "невежда"
 çalğı:çalğı N1 ; ! "музыка"
@@ -3001,7 +3001,6 @@ boşluq:boşluq N1 ; ! "простір"
 bostan:bostan N1 ; ! "город"
 boya:boya N1 ; ! "барва"
 boya:boya N1 ; ! "фарба"
-böylelikle:böylelikle N1 ; ! "чин"
 boynuz:boynuz N1 ; ! "ріг"
 boyunbağ:boyunbağ N1 ; ! "краватка"
 brigada:brigada N1 ; ! "бригада"
@@ -13325,9 +13324,13 @@ niçün:niçün ADV-ITG ;
 nege:nege ADV-ITG ;
 
 kene:kene ADV ; ! ""
+mecburen:mecburen ADV ;
 al%-azırda ADV ;  
 deyerlik:deyerlik ADV ;
 kimerde:kimerde ADV ; 
+
+böylelikle:böylelikle ADV ; ! 
+böyleliknen:böyleliknen ADV ; ! 
 
 aman:aman ADV ; !"immediately"
 büs%-bütün:büs%-bütün ADV ; ! "абсолютно, совершенно"
