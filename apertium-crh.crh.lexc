@@ -12646,6 +12646,7 @@ metropoliya:metropoliya N1 ; ! "city"
 müftiyat:müftiyat N1 ; 
 qadı:qadı N1 ;
 noqtaiy% nazar:noqtaiy% nazar N1;
+imaye:imaye N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
@@ -13305,6 +13306,7 @@ ekiyüzlü:ekiyüzlü  A1 ; ! ""
 üsnü:üsnü  A1 ; ! ""
 qoşma:qoşma A1 ; ! ""
 tar%-mar:tar%-mar A1;
+gumanitar:gumanitar A1;
 
 
 LEXICON Adverbs
