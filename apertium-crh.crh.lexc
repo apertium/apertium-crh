@@ -13328,6 +13328,7 @@ niçün:niçün ADV-ITG ;
 nege:nege ADV-ITG ;
 
 kene:kene ADV ; ! ""
+hususan:hususan ADV ;
 mecburen:mecburen ADV ;
 al%-azırda ADV ;  
 deyerlik:deyerlik ADV ;
@@ -14510,6 +14511,8 @@ aqla:aqla V-IV ; ! ""
 qabul% et:qabul% et V-TV-AR ; ! ""
 taqiq% et:taqiq% et V-TV-AR ; ! ""
 tasdıq% et:tasdıq% et V-TV-AR ; ! ""
+
+qıymet% kes:qıymet% kes V-IV-AR ; ! ""
 
 takbih% et:takbih% et V-TV-AR ; ! "condemn/criticise"
 qatil% et:qatil% et V-TV-AR ; ! "kill"
