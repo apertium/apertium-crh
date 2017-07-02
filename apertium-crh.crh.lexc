@@ -1015,6 +1015,10 @@ e%<cop%>%<ifi%>:edi V-PERS-S2 ;
 e%<cop%>%<aor%>%<evid%>:eken V-PERS-S1 ;
 e%<cop%>%<ger_past%>:eken FULL-NOMINAL-INFLECTION ; 
 
+e%<vaux%>%<ifi%>:edi V-PERS-S2 ; 
+e%<vaux%>%<aor%>%<evid%>:eken V-PERS-S1 ;
+e%<vaux%>%<ger_past%>:eken FULL-NOMINAL-INFLECTION ; 
+
 LEXICON Conjunctions 
 
 ve:ve CC ; ! "и"

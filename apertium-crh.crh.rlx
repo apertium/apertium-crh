@@ -146,6 +146,8 @@ REMOVE Attr IF (0 Attr) (NOT 1 N) ;
 
 REMOVE A + Subst + $$NGADLAI IF (0 N + $$NGADLAI) ;
 
+SELECT Aux IF (0C Aux OR Cop) (-1 Prc) ;
+
 SECTION
 
 REMOVE Imper IF (0 Qara) ;
