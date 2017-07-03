@@ -363,7 +363,7 @@ LEXICON ATTR-SUBST
 
 %<attr%>: # ;
 %<subst%>: CASES ;
-%<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<subst%>%<pl%>:%>l%{A%}r CASES ;
 
 LEXICON GENERAL-POSSESSIVE-ETC
 
