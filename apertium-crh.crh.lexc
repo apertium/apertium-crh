@@ -74,6 +74,7 @@ Multichar_Symbols
 %<prc_fut%>       ! 
 %<prc_impf%>      ! 
 %<prc_cond%>      ! 
+%<prc_past%>      ! 
 
 %<px1sg%>         !
 %<px2sg%>         !
@@ -120,6 +121,7 @@ Multichar_Symbols
 %<rpar%>          ! Parenthetical marker (right hand side)
 %<lpar%>          ! Parenthetical marker (left hand side)
 
+%<err_orth%> 
 
 %{G%}             !
 %{D%}             !                             
@@ -838,10 +840,14 @@ LEXICON V-NONFINITE
 
 %<prc_cond%>:%>s%{A%} V-PERS-S2 ;
 
+%<prc_past%>:%>%{G%}%{A%}n # ;
+%<prc_past%>%+e%<vaux%>%<ifi%>:%{G%}%{A%}n%>d%{i%} V-PERS-S2 ;  ! Err/Orth
+
 %<ger%>:%>m%{A%}%{G%} FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 %<ger%>:%>m%{A%} FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 %<ger_abst%>:%>%{U%}v FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 
+%<ger_past%>:%>%{D%}%{I%}%{G%} FULL-NOMINAL-INFLECTION ; ! Dir/LR ! Err/Morf
 %<ger_past%>:%>%{G%}%{A%}n FULL-NOMINAL-INFLECTION ; ! FIXME: can only take limited
 !%<ger_pres%>:%>%{j%}%{A%}r%{A%}%{G%} FULL-NOMINAL-INFLECTION ; ! inflected forms not found
 %<ger_fut2%>:%>%{E%}c%{A%}%{G%} FULL-NOMINAL-INFLECTION ;
@@ -849,6 +855,7 @@ LEXICON V-NONFINITE
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_impf%>:%>%{j%}%{A%}r%{A%}%{G%} # ;
 %<gna_perf%>:%>%{i%}p # ;
+
 
 %<gpr_past%>:%>%{G%}%{A%}n # ;
 
