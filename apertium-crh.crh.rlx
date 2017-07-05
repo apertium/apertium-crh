@@ -39,8 +39,15 @@ LIST Prc/impf = prc_impf ;
 LIST Prc/fut = prc_fut ;
 LIST Prc/past = prc_past ;
 LIST Gna/perf = gna_perf;
-LIST Vaux = vaux ;
 LIST Imper = imp ; 
+
+LIST Gpr/fut = gpr_fut ;
+LIST Gpr/fut2 = gpr_fut2 ;
+LIST Gpr/past = gpr_past ;
+
+LIST Past = past ;
+LIST Fut2 = fut2 ;
+LIST Fut = fut ;
 
 LIST Pass = pass ; 
 LIST Coop = coop ;
@@ -81,6 +88,10 @@ SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
 
 SET Prc = Prc/perf | Prc/impf | Prc/fut | Prc/past ; 
 
+SET Gpr = Gpr/fut | Gpr/fut2 | Gpr/past ;
+
+SET Fin = Past | Fut | Fut2 ;
+
 SET Ant/Cog = Ant | Cog ; 
 
 SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
@@ -116,15 +127,15 @@ REMOVE Adv IF (0 Det) (NOT 1* V);
 
 SELECT Gna/perf IF (0 Dep) (NOT 1 Aux) ;
 
-REMOVE Prc/perf IF (0 Gna/perf) (NOT 1* Vaux) ;
+REMOVE Prc/perf IF (0 Gna/perf) (NOT 1* Aux) ;
 
-REMOVE Prc IF (NOT 1 Vaux) ;
+REMOVE Prc IF (NOT 1 Aux) ;
 
 REMOVE Imper IF (1C Cop) ;
 
 REMOVE Pers IF (1C Pers) ;
 
-REMOVE Vaux (NOT -1 Prc) ;
+REMOVE Aux (NOT -1 Prc) ;
 
 REMOVE SUB:1 Post/Li (0/* Li) ;
 
@@ -149,6 +160,10 @@ REMOVE A + Subst + $$NGADLAI IF (0 N + $$NGADLAI) ;
 SELECT Aux IF (0C Aux OR Cop) (-1 Prc) ;
 
 REMOVE Prc IF (1C N OR Prop) ; 
+
+REMOVE Gpr IF (1 EOS) ;
+
+SELECT Fin IF (0C V) (1 EOS) ;
 
 SECTION
 
