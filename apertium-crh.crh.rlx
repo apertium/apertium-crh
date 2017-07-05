@@ -38,7 +38,9 @@ LIST Prc/perf = prc_perf ;
 LIST Prc/impf = prc_impf ;
 LIST Prc/fut = prc_fut ;
 LIST Prc/past = prc_past ;
-LIST Gna/perf = gna_perf;
+LIST Gna/perf = gna_perf ;
+LIST Ger/past = ger_past ;
+LIST Gna/when = gna_when ;
 LIST Imper = imp ; 
 
 LIST Gpr/fut = gpr_fut ;
@@ -157,6 +159,8 @@ REMOVE Sim IF (0C N) ;
 
 REMOVE Sim IF (0C Prop) ; 
 
+REMOVE Sim IF (0 Gna/when) ;
+
 REMOVE Subst IF (0 Subst - Pl) (0 Subst + Nom) ;
 
 REMOVE Attr IF (0 Attr) (NOT 1 N) ;
@@ -174,6 +178,7 @@ SELECT Fin IF (0C V) (1 EOS) ;
 SELECT SUB:1 Cop + Sg1 IF (0C N) (0 Px1Sg) (-1* Pers + Sg1) ;
 
 REMOVE Imper IF (0 Gerek) ;
+
 
 SECTION
 
