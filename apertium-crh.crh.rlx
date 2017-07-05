@@ -10,7 +10,7 @@ LIST BOS = >>> sent ;
 LIST Cop = cop;
 LIST Post = post;
 LIST Px3sp = px3sp;
-LIST Px1sg = px1sg;
+LIST Px1Sg = px1sg;
 LIST N = n;
 LIST Cog = cog ; 
 LIST Ant = ant ; 
@@ -49,6 +49,8 @@ LIST Past = past ;
 LIST Fut2 = fut2 ;
 LIST Fut = fut ;
 
+LIST Pers = pers ; 
+
 LIST Pass = pass ; 
 LIST Coop = coop ;
 LIST Caus = caus ;
@@ -84,7 +86,7 @@ LIST Qara = "<qara>"i ;
 
 LIST Err/Orth = err_orth ;
 
-SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
+# SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
 
 SET Prc = Prc/perf | Prc/impf | Prc/fut | Prc/past ; 
 
@@ -111,7 +113,7 @@ REMOVE SUB:1 Cop IF (0 Nom) (1 Px3sp);
 
 REMOVE SUB:1 Cop IF (0/* Post/Sız) ;
 
-REMOVE Px1sg IF (1 Px3sp);
+REMOVE Px1Sg IF (1 Px3sp);
 
 REMOVE SUB:1 Cop IF (0/* Cop + Sg1) (0 Pl) ;
 
@@ -133,7 +135,7 @@ REMOVE Prc IF (NOT 1 Aux) ;
 
 REMOVE Imper IF (1C Cop) ;
 
-REMOVE Pers IF (1C Pers) ;
+# REMOVE Pers IF (1C Pers) ;
 
 REMOVE Aux (NOT -1 Prc) ;
 
@@ -164,6 +166,8 @@ REMOVE Prc IF (1C N OR Prop) ;
 REMOVE Gpr IF (1 EOS) ;
 
 SELECT Fin IF (0C V) (1 EOS) ;
+
+SELECT SUB:1 Cop + Sg1 IF (0C N) (0 Px1Sg) (-1* Pers + Sg1) ;
 
 SECTION
 
