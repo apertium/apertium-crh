@@ -80,6 +80,8 @@ LIST Title = "<[A-Z].*>"r ;
 
 LIST Terek = "Terek" ;
 
+LIST Gerek = "<gerek>"i ;
+
 LIST Dep = "<dep>"i ;
 
 LIST Qara = "<qara>"i ;
@@ -153,6 +155,8 @@ REMOVE SUB:1 Qst IF (0 Px3sp) ;
 
 REMOVE Sim IF (0C N) ; 
 
+REMOVE Sim IF (0C Prop) ; 
+
 REMOVE Subst IF (0 Subst - Pl) (0 Subst + Nom) ;
 
 REMOVE Attr IF (0 Attr) (NOT 1 N) ;
@@ -168,6 +172,8 @@ REMOVE Gpr IF (1 EOS) ;
 SELECT Fin IF (0C V) (1 EOS) ;
 
 SELECT SUB:1 Cop + Sg1 IF (0C N) (0 Px1Sg) (-1* Pers + Sg1) ;
+
+REMOVE Imper IF (0 Gerek) ;
 
 SECTION
 

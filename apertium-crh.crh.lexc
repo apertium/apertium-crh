@@ -13647,7 +13647,7 @@ keçiril:keçiril V-IV ; ! "" ! Der/Pass
 
 qur:qur V-TV ; ! ""
 quvan:quvan V-IV ; 
-tut:tut V-IV-AR ; ! ""
+tut:tut V-TV-AR ; ! ""
 tutul:tutul V-IV ; ! "попасться"
 añla:añla V-TV ; ! ""
 ketir:ketir V-TV ; ! "" ! Der/Caus
@@ -14544,7 +14544,7 @@ yasaq% et:yasaq% et V-TV-AR ; ! ""
 qayd% et:qayd% et V-TV-AR ; ! "Report, note"
 
 tamamla:tamamla V-TV-AR ; ! ""
-bit:bit V-TV-AR ; ! "finish"
+bit:bit V-IV-AR ; ! "finish"
 qalq:qalq V-TV-AR ; ! ""
 in:in V-IV-AR ; ! ""      ! FIXME: CHECK
 sıçra:sıçra V-IV ; ! "прыгать"
