@@ -11,7 +11,6 @@ LIST Cop = cop;
 LIST Post = post;
 LIST Px3sp = px3sp;
 LIST Px1sg = px1sg;
-LIST NOMEN = n np;
 LIST N = n;
 LIST Cog = cog ; 
 LIST Ant = ant ; 
@@ -38,6 +37,7 @@ LIST Det = det ;
 LIST Prc/perf = prc_perf ;
 LIST Prc/impf = prc_impf ;
 LIST Prc/fut = prc_fut ;
+LIST Prc/past = prc_past ;
 LIST Gna/perf = gna_perf;
 LIST Vaux = vaux ;
 LIST Imper = imp ; 
@@ -79,7 +79,7 @@ LIST Err/Orth = err_orth ;
 
 SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
 
-SET Prc = Prc/perf | Prc/impf | Prc/fut ; 
+SET Prc = Prc/perf | Prc/impf | Prc/fut | Prc/past ; 
 
 SET Ant/Cog = Ant | Cog ; 
 
@@ -147,6 +147,8 @@ REMOVE Attr IF (0 Attr) (NOT 1 N) ;
 REMOVE A + Subst + $$NGADLAI IF (0 N + $$NGADLAI) ;
 
 SELECT Aux IF (0C Aux OR Cop) (-1 Prc) ;
+
+REMOVE Prc IF (1C N OR Prop) ; 
 
 SECTION
 
