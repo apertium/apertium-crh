@@ -31,6 +31,7 @@ LIST Prop = np ;
 LIST Son = "soñ" ;
 LIST Sene = "sene";
 LIST Ref = ref ;
+LIST Nec = nec ;
 LIST Loc = loc ;
 LIST Adv = adv;
 LIST Det = det ;
@@ -82,7 +83,7 @@ LIST Title = "<[A-Z].*>"r ;
 
 LIST Terek = "Terek" ;
 
-LIST Gerek = "<gerek>"i ;
+LIST Kerek = "kerek" ;
 
 LIST Dep = "<dep>"i ;
 
@@ -109,6 +110,10 @@ REMOVE SUB:1 Err/Orth ;
 REMOVE Err/Orth ;
 
 SECTION
+
+REMOVE Imper IF (0 Kerek) ;
+
+REMOVE SUB:1 Post/Li IF (0 Nec) ;
 
 # Remove zero copula if it is third person singular [MT]
 REMOVE SUB:1 Cop IF (0/* Sg3) (NOT 1 EOS) ; 
@@ -176,9 +181,6 @@ REMOVE Gpr IF (1 EOS) ;
 SELECT Fin IF (0C V) (1 EOS) ;
 
 SELECT SUB:1 Cop + Sg1 IF (0C N) (0 Px1Sg) (-1* Pers + Sg1) ;
-
-REMOVE Imper IF (0 Gerek) ;
-
 
 SECTION
 
