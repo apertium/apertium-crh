@@ -39,6 +39,7 @@ dev/ngrams/crh_CYRL.ngrams.5.tsv -text
 dev/tokenisation/Makefile -text
 dev/tokenisation/test.lexc -text
 dev/tokenisation/test.txt -text
+dev/verbtrans.txt -text
 /modes.xml -text
 tests/cases.yaml -text
 tests/future.yaml -text
