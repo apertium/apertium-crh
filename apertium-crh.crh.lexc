@@ -1254,6 +1254,7 @@ qarşı:qarşı N1 ; ! ""
 aqq:aqq N5 ; ! ""
 soñ:soñ N1 ; ! ""
 içer:içer N1 ; ! ""
+yuqar:yuqar N1 ; ! "верховный"
 
 !!
 
@@ -12407,7 +12408,6 @@ yazlıq:yazlıq A1 ; ! "летний"
 yetişken:yetişken A3 ; ! "возмужалый"
 yetmegen:yetmegen A3 ; ! "отсутствующий"
 yüksek:yüksek A3 ; ! "высокий"
-yuqarı:yuqarı A3 ; ! "верховный"
 yürekli:yürekli A1 ; ! "отважный, смелый"
 yüzlü:yüzlü A3 ; ! "кроткий"
 zarur:zarur A1 ; ! "нужен"
