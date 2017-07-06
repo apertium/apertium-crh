@@ -446,7 +446,7 @@ POSSESSIVES ;       ! for stuff like "біздің ауа райымыз" and ev
 
 LEXICON N1 
 
-%<n%>%+laş:%>l%{A%}ş V-IV ; 
+!%<n%>%+laş:%>l%{A%}ş V-IV ; 
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>%<attr%>: # ;
 
@@ -13967,6 +13967,7 @@ qaptır:qaptır V-TV ; ! "" ! Der/Caus
 qaqıştır:qaqıştır V-TV ; ! "" ! Der/Caus
 qaranlıqlaştır:qaranlıqlaştır V-TV ; ! "" ! Der/Caus
 qararlaştır:qararlaştır V-TV ; ! "" ! Der/Caus
+qarşılaş:qarşılaş V-IV ; ! "" 
 qarşılaştır:qarşılaştır V-TV ; ! "" ! Der/Caus
 qolaylaştır:qolaylaştır V-TV ; ! "" ! Der/Caus
 quraştır:quraştır V-TV ; ! "" ! Der/Caus
@@ -14590,6 +14591,56 @@ oynat:oynat V-TV ; ! ""
 dağıt:dağıt V-TV ; ! "разобрать"
 aq:aq V-IV ; ! "протекать"
 qarar:qarar V-IV ; ! "чернеть"
+
+anlaş:anlaş V-IV ; ! ""
+antlaş:antlaş V-IV ; ! ""
+añlaş:añlaş V-IV ; ! ""
+beterleş:beterleş V-IV ; ! ""
+cenkleş:cenkleş V-IV ; ! ""
+cifsinleş:cifsinleş V-IV ; ! ""
+davalaş:davalaş V-IV ; ! ""
+dostlaş:dostlaş V-IV ; ! ""
+efsaneleş:efsaneleş V-IV ; ! ""
+erleş:erleş V-IV ; ! ""
+esaplaş:esaplaş V-IV ; ! ""
+faalleş:faalleş V-IV ; ! ""
+farqlaş:farqlaş V-IV ; ! ""
+fikirleş:fikirleş V-IV ; ! ""
+formatlaş:formatlaş V-IV ; ! ""
+ihtisaslaş:ihtisaslaş V-IV ; ! ""
+islamlaş:islamlaş V-IV ; ! ""
+kötekleş:kötekleş V-IV ; ! ""
+küçleş:küçleş V-IV ; ! ""
+litsenziyalaş:litsenziyalaş V-IV ; ! ""
+mahkemeleş:mahkemeleş V-IV ; ! ""
+makemeleş:makemeleş V-IV ; ! ""
+mektüpleş:mektüpleş V-IV ; ! ""
+mesleatlaş:mesleatlaş V-IV ; ! ""
+müstemlekeleş:müstemlekeleş V-IV ; ! ""
+nevbetleş:nevbetleş V-IV ; ! ""
+ortaqlaş:ortaqlaş V-IV ; ! ""
+qararlaş:qararlaş V-IV ; ! ""
+qırımtatarlaş:qırımtatarlaş V-IV ; ! ""
+qutuplaş:qutuplaş V-IV ; ! ""
+quvetleş:quvetleş V-IV ; ! ""
+ruslaş:ruslaş V-IV ; ! ""
+sağlıqlaş:sağlıqlaş V-IV ; ! ""
+sakinleş:sakinleş V-IV ; ! ""
+şaqalaş:şaqalaş V-IV ; ! ""
+selâmlaş:selâmlaş V-IV ; ! ""
+soyleş:soyleş V-IV ; ! ""
+sözleş:sözleş V-IV ; ! ""
+suvuqlaş:suvuqlaş V-IV ; ! ""
+tatlılaş:tatlılaş V-IV ; ! ""
+telefonlaş:telefonlaş V-IV ; ! ""
+temelleş:temelleş V-IV ; ! ""
+tertipleş:tertipleş V-IV ; ! ""
+tesirleş:tesirleş V-IV ; ! ""
+toplaş:toplaş V-IV ; ! ""
+yabancılaş:yabancılaş V-IV ; ! ""
+yardımlaş:yardımlaş V-IV ; ! ""
+yazılaş:yazılaş V-IV ; ! ""
+yerleş:yerleş V-IV ; ! ""
 
 
 LEXICON Abbreviations
