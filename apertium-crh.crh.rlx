@@ -89,6 +89,8 @@ LIST Dep = "<dep>"i ;
 
 LIST Qara = "<qara>"i ;
 
+LIST Laş = "laş" ;
+
 LIST Err/Orth = err_orth ;
 
 # SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
@@ -112,6 +114,8 @@ REMOVE Err/Orth ;
 SECTION
 
 REMOVE Imper IF (0 Kerek) ;
+
+REMOVE SUB:1 Laş ; 
 
 REMOVE SUB:1 Post/Li IF (0 Nec) ;
 

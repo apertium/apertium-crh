@@ -21,6 +21,7 @@ Multichar_Symbols
 %<cnjsub%>        ! "subordinating conjunction" (ki)
 %<cnjadv%>        ! 
 %<qst%>           ! Question word
+%<sym%>
 %<cop%>           ! Copula
 %<postadv%>       ! 
 %<det%>           ! 
@@ -111,7 +112,8 @@ Multichar_Symbols
 %<al%>
 %<top%>           ! Toponym
 
-%<percent%>
+%<percent%>       !
+%<hash%>          ! 
 
 %<sent%>          ! Sentence marker
 %<guio%>          ! Hyphen
@@ -965,6 +967,14 @@ LEXICON SYM
 
 %<sym%>: # ; 
 
+
+LEXICON SYM-HASH
+
+%<sym%>%<hash%>: # ;
+
+LEXICON SYM-HASH-TAG
+
+<[ a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z ]+>  SYM-HASH ;
 
 LEXICON INTERJ
 
@@ -7633,6 +7643,7 @@ Türkmenistan:Türkmenistan NP-TOP ; ! ""
 Ermenistan:Ermenistan NP-TOP ; ! ""
 
 Rusiye:Rusiye NP-TOP ; ! "Россия"
+Rusiye:rusiye NP-TOP ; ! "Россия" ! Err/Orth
 Tataristan:Tataristan NP-TOP ; ! ""
 Tacikistan:Tacikistan NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
@@ -13836,7 +13847,9 @@ aydınlat:aydınlat V-TV ; ! "" ! Der/Caus
 
 yeñ:yeñ V-TV ; ! "перемогти"
 
+yerleş:yerleş  V-IV ; ! "" Der/Caus
 yerleştir:yerleştir  V-TV ; ! "" Der/Caus
+yerleştir:yerşleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
 sıqıştır:sıqıştır  V-TV ; ! "" Der/Caus
 teñeştir:teñeştir  V-TV ; ! "" Der/Caus
 sadeleştir:sadeleştir  V-TV ; ! "" Der/Caus
@@ -14509,7 +14522,6 @@ ucuzlaştır:ucuzlaştır V-TV ; ! "" ! Der/Caus
 ukrainleştir:ukrainleştir V-TV ; ! "" ! Der/Caus
 uzaqlaştır:uzaqlaştır V-TV ; ! "" ! Der/Caus
 yaqlaştır:yaqlaştır V-TV ; ! "" ! Der/Caus
-yerleştir:yerşleştir V-TV ; ! "" ! Der/Caus ! Err/Orth
 yileştir:yileştir V-TV ; ! "" ! Der/Caus
 zayıflaştır:zayıflaştır V-TV ; ! "" ! Der/Caus
 zemaneviyleştir:zemaneviyleştir V-TV ; ! "" ! Der/Caus
@@ -14634,6 +14646,8 @@ LEXICON Symbols
 
 °C:°C SYM ; ! ""
 
+:%# SYM-HASH-TAG ; 
+
 LEXICON Punctuation
 
 .%<sent%>:. # ;
@@ -14663,6 +14677,8 @@ LEXICON Punctuation
 
 ! Temporary numeral lexicon
 !<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+
+
 
 LEXICON Digits ! Use/Circ
 
