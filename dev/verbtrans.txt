@@ -1,4 +1,6 @@
 dolan V-IV should be TV 
+bekle V-TV can be IV too
+ezberle V-IV should be TV
 bağır V-TV -IV probably
 satıl V-TV should be IV
 qonuş V-TV should be IV
@@ -13,8 +15,6 @@ başla V-TV sometimes also turkish-like IV
 tüşün V-TV should be both TV and IV
 
 kirset V-TV 
-tolqun V-IV 
-tolqunlan V-IV 
 yırla V-TV 
 oyna V-TV 
 baq V-TV 
@@ -41,14 +41,11 @@ cıyıştır V-TV
 cıy V-TV 
 coytul V-IV 
 coyt V-TV 
-deñiş V-IV 
-de V-TV 
 esir V-IV 
 eş V-TV 
 iriş V-IV 
 kir V-IV-AR 
 kiriş V-TV 
-köter V-TV 
 kül V-IV-AR 
 min V-IV-AR 
 pekit V-TV 
@@ -102,7 +99,6 @@ batır V-TV
 battır V-TV 
 qız V-IV 
 çezil V-IV 
-yağ V-IV-AR 
 coy V-TV 
 kederlen V-IV 
 yorul V-IV 
@@ -111,7 +107,6 @@ raatlan V-IV
 bez V-IV-AR 
 quvan V-IV 
 tanıl V-IV 
-bekle V-TV 
 çağır V-TV 
 çek V-TV 
 çıqar V-TV 
@@ -642,7 +637,6 @@ fışqır V-IV
 ezil V-IV 
 sol V-TV-AR 
 sezdir V-TV 
-ezberle V-IV 
 ez V-TV 
 ur V-TV 
 devir V-IV 
