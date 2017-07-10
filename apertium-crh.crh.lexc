@@ -7348,7 +7348,6 @@ ezbercilik:ezbercilik N1 ; ! ""
 demircilik:demircilik N1 ; ! ""
 yemişçilik:yemişçilik N1 ; ! ""
 tenqitçilik:tenqitçilik N1 ; ! ""
-şimdilik:şimdilik N1 ; ! ""
 efendilik:efendilik N1 ; ! ""
 ilik:ilik N1 ; ! ""
 kelirlilik:kelirlilik N1 ; ! ""
@@ -12672,6 +12671,8 @@ qadı:qadı N1 ;
 noqtaiy% nazar:noqtaiy% nazar N1;
 imaye:imaye N1 ;
 naqliye:naqliye N1 ;
+tintüv:tintüv N1 ;
+fayız:fayız N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
@@ -13358,6 +13359,7 @@ mecburen:mecburen ADV ;
 al%-azırda ADV ;  
 deyerlik:deyerlik ADV ;
 kimerde:kimerde ADV ; 
+şimdilik:şimdilik ADV; ! ""
 
 böylelikle:böylelikle ADV ; ! 
 böyleliknen:böyleliknen ADV ; ! 
@@ -14590,6 +14592,7 @@ qaynaş:qaynaş V-IV ; ! ""
 taş:taş V-IV ; ! "выходить из берегов"
 oynat:oynat V-TV ; ! ""
 dağıt:dağıt V-TV ; ! "разобрать"
+tasdıqla:tasdıqla V-TV ; 
 aq:aq V-IV ; ! "протекать"
 qarar:qarar V-IV ; ! "чернеть"
 

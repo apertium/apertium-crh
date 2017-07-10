@@ -30,6 +30,7 @@ LIST Num = num;
 LIST Prop = np ;
 LIST Son = "soñ" ;
 LIST Sene = "sene";
+LIST Perc = "fayız";
 LIST Ref = ref ;
 LIST Nec = nec ;
 LIST Loc = loc ;
@@ -106,6 +107,8 @@ SET Ant/Cog = Ant | Cog ;
 SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
 
 SECTION
+
+SELECT Subst IF (0 Num) (1 Perc);
 
 REMOVE SUB:1 Err/Orth ;
 
