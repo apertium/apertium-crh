@@ -12673,6 +12673,8 @@ imaye:imaye N1 ;
 naqliye:naqliye N1 ;
 tintüv:tintüv N1 ;
 fayız:fayız N1 ;
+cami:cami N1 ;
+eyyet:eyyet N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
@@ -13333,6 +13335,7 @@ ekiyüzlü:ekiyüzlü  A1 ; ! ""
 qoşma:qoşma A1 ; ! ""
 tar%-mar:tar%-mar A1;
 gumanitar:gumanitar A1;
+ticariy:ticariy A1;
 
 
 LEXICON Adverbs
@@ -13464,6 +13467,7 @@ ilâhre:ilâhre ADV ; ! ""
 tahminen:tahminen ADV ; ! ""
 keri:keri ADV ; ! ""
 ayrı:ayrı ADV ; ! ""
+binayen:binayen ADV ;
 
 LEXICON Verbs 
 
@@ -14570,6 +14574,7 @@ sıçra:sıçra V-IV ; ! "прыгать"
 fışqır:fışqır V-IV ; ! "извергать"
 ezil:ezil V-IV ; ! "быть раздавленным"
 sol:sol V-TV-AR ; ! "вянуть"
+qabaatla:qabaatla V-TV-AR ;
 sezdir:sezdir V-TV ; ! "чувствовать"
 ezberle:ezberle V-IV ; ! "учить наизусть"
 ez:ez V-TV ; ! "давить"
