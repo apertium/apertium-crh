@@ -349,6 +349,7 @@ LEXICON CASES-COMMON
 
 %<gen%>:%>n%{Y%}ñ CLITICS-NO-COP ;
 %<dat%>:%>%{G%}%{A%} CLITICS-NO-COP ;
+%<dat%>:%>%{j%}%{A%} CLITICS-NO-COP ; ! Err/Orth ! Err/Morf
 %<acc%>:%>n%{Y%} CLITICS-NO-COP ;
 
 LEXICON CASES 
@@ -1074,6 +1075,7 @@ LEXICON Postpositions
 doğru:doğru POST ; ! "straight to"
 qadar:qadar POST ; ! "until/до"
 köre:köre POST ; ! "according to"
+köre:kore POST ; ! "according to" ! Err/Orth
 taba:taba POST ; ! "towards"
 
 !! Genitive
@@ -1293,8 +1295,8 @@ müsibet:müsibet N1 ; ! "catastrophe"
 cumhuriyet:cumhuriyet N1 ; ! ""
 gazeta:gazeta N1 ; ! ""
 institut:institut N1 ; ! ""
-protektorat:protektorat N1 ; ! ""
-universitet:universitet N1 ; ! ""
+protektorat:protektorat N5 ; ! ""
+universitet:universitet N5 ; ! ""
 internet:internet N1 ; ! ""
 söz:söz N1 ; ! ""
 şey:şey N1 ; ! "вещь"
@@ -9268,7 +9270,6 @@ Oleksandr:Oleksandr NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
 Roman:Roman NP-ANT-M ; ! ""
 Aslan:Aslan NP-ANT-M ; ! ""
-Saharov:Saharov NP-ANT-M ; ! ""
 Ömer:Ömer NP-ANT-M ; ! ""
 Dmıtro:Dmıtro NP-ANT-M ; ! ""
 Pötr:Pötr NP-ANT-M ; ! ""
@@ -9386,6 +9387,7 @@ Stalin:Stalin NP-COG-IN ; ! ""
 Lenin:Lenin NP-COG-IN ; ! ""
 Gagarin:Gagarin NP-COG-IN ; ! ""
 Baharev:Baharev NP-COG-OV ; ! ""
+Saharov:Saharov NP-COG-OV ; ! ""
 Belaventsev:Belaventsev NP-COG-OV ; ! ""
 Mujdabayev:Mujdabayev NP-COG-OV ; ! ""
 Ablayev:Ablayev NP-COG-OV ; ! ""
@@ -11002,7 +11004,6 @@ Nıjnâ% Krınka:Nıjnâ% Krınka NP-TOP ; ! ""
 Nıjne:Nıjne NP-TOP ; ! "" 
 Nıjniy% Nagolçık:Nıjniy% Nagolçık NP-TOP ; ! "" 
 Nıkıforove:Nıkıforove NP-TOP ; ! "" 
-Nikita:Nikita NP-TOP ; ! "" 
 Nikolayevka:Nikolayevka NP-TOP ; ! "" 
 Nikolayevka:Nikolayevka NP-TOP ; ! "" ! (Sumı vilâyeti)
 Nikolske:Nikolske NP-TOP ; ! "" 
@@ -11595,6 +11596,8 @@ Abdennanov:Abdennanov NP-COG-OV ; ! ""
 Abdulğaniyev:Abdulğaniyev NP-COG-OV ; ! ""
 
 Abdal:Abdal NP-ANT-M ; ! ""
+Nikita:Nikita NP-ANT-M ; ! "" 
+Nikita:Nikita NP-ANT-F ; ! "" 
 Abdu:Abdu NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Abdulafat:Abdulafat NP-ANT-M ; ! ""
@@ -11905,6 +11908,7 @@ qart:qart A3 ; ! ""
 yaramay:yaramay A1 ; ! ""
 yavaş:yavaş A3 ; ! ""
 güzel:güzel A1 ; ! ""
+güzel:guzel A1 ; ! "" ! Err/Orth
 yaqın:yaqın A3 ; ! ""
 sıcaq:sıcaq A3 ; ! ""
 
@@ -13585,7 +13589,7 @@ iriş:iriş V-IV ; ! "reach"
 keliş:keliş V-IV ; ! "fit"
 keliştir:keliştir V-TV ; ! "make fit" ! Der/Caus
 kir:kir V-IV-AR ; ! "enter"
-kiriş:kiriş V-TV ; ! "interfere"
+kiriş:kiriş V-IV ; ! "interfere"
 köster:köster V-TV ; ! "show"
 köter:köter V-TV ; ! "lift"
 kül:kül V-IV-AR ; ! "laugh"
@@ -13593,7 +13597,7 @@ min:min V-IV-AR ; ! "mount"
 denil:denil V-IV ; ! "" ! Der/Pass
 pekit:pekit V-TV ; ! "strengthen"
 qala:qala V-IV ; ! "build a wall"
-qara:qara V-TV ; ! "look at"
+qara:qara V-IV ; ! "look at"
 qatna:qatna V-TV ; ! "visit"
 qaytar:qaytar V-TV ; ! "send back"
 qıdır:qıdır V-TV ; ! "seek/искать"
@@ -13612,14 +13616,14 @@ söyle:söyle V-TV ; ! "say"
 soy:soy V-TV ; ! ""
 soz:soz V-TV ; ! "lengthen"
 süy:süy V-TV ; ! "love/любить"
-tabış:tabış V-TV ; ! "come together" ! Der/?
+tabış:tabış V-IV ; ! "come together" ! Der/?
 tab:tab V-TV ; ! "bear"
 tala:tala V-IV ; ! "bark"
 tap:tap V-TV ; ! "find/найти"
 taşla:taşla V-TV ; ! "put"
 taşlan:taşlan V-TV ; ! "undress"
 tay:tay V-IV ; ! "ski"
-tırış:tırış V-TV ; ! "endeavour"
+tırış:tırış V-IV ; ! "endeavour"
 tırmaş:tırmaş V-IV ; ! "ascend"
 tiy:tiy V-TV ; ! "touch"
 ton:ton V-IV ; ! "feel cold"
@@ -13652,7 +13656,7 @@ içtir:içtir V-TV ; ! "" ! Der/Caus
 içtirt:içtirt V-TV ; ! "" ! Der/Caus ! Der/Caus
 
 sat:sat V-TV ; ! "sell/"
-satıl:satıl V-TV ; ! "sell/" ! Der/Pass
+satıl:satıl V-IV ; ! "sell/" ! Der/Pass
 qız:qız V-IV ; ! ""
 çezil:çezil V-IV ; ! "" ! Der/Pass
 yağ:yağ V-IV-AR ; ! "rain"
@@ -13731,7 +13735,7 @@ yaqınlaş:yaqınlaş V-IV ; ! ""
 vedalaş:vedalaş V-IV ; ! ""
 fenalaş:fenalaş V-IV ; ! ""
 
-qonuş:qonuş V-TV ; ! ""
+qonuş:qonuş V-IV ; ! ""
 azırla:azırla V-TV ; ! ""
 koru:koru V-TV ; ! ""
 ettir:ettir V-TV ; ! "" ! Der/Caus
@@ -14703,6 +14707,7 @@ tamam:tamam INTERJ ; ! ""
 mına:mına INTERJ ; ! ""
 yani:yani INTERJ ; ! ""
 evet:evet INTERJ ; ! "" EVET.
+evet:ebet INTERJ ; ! "" EVET.
 
 LEXICON Symbols 
 
