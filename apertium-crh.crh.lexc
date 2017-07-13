@@ -7630,6 +7630,7 @@ press%-konferentsiya:press%-konferentsiya N1 ; ! ""
 press%-merkez:press%-merkez N1 ; ! ""
 blank:blank N1 ; ! ""
 provokator:provokator N1 ; ! ""
+aşayt:aşayt N1 ; ! "пищевой"
 
 
 LEXICON ProperNouns 
@@ -12179,7 +12180,6 @@ aqlı:aqlı A3 ; ! "заслуженный"
 aqqan:aqqan A3 ; ! "текучий"
 arbiy:arbiy A3 ; ! "воинский"
 aşağı:aşağı A3 ; ! "нижний"
-aşayt:aşayt A3 ; ! "пищевой"
 askeriy:askeriy A1 ; ! "воинский"
 ayazlı:ayazlı A1 ; ! "морозный"
 aydın:aydın A1 ; ! "светлый"
