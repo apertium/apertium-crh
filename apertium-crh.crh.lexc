@@ -12689,6 +12689,7 @@ tintüv:tintüv N1 ;
 fayız:fayız N1 ;
 cami:cami N1 ;
 eyyet:eyyet N1 ;
+elektroteminlev:elektroteminlev N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
