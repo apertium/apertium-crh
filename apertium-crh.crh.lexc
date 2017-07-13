@@ -6972,7 +6972,7 @@ global:global N1 ; ! "" ! Lex/tur
 !gözlük:gözlük N1 ; ! "" ! Lex/tur
 grafik:grafik N1 ; ! "" ! Lex/tur
 gramofon:gramofon N1 ; ! "" ! Lex/tur
-granat:granat N1 ; ! "" ! Lex/tur
+granata:granata N1 ; ! "" ! Lex/tur
 granit:granit N1 ; ! "" ! Lex/tur
 grev:grev N1 ; ! "" ! Lex/tur
 !gücü:gücü N1 ; ! "" ! Lex/tur
@@ -7622,6 +7622,14 @@ delik:delik N1 ; ! "" ! Dial/South
 vertolet:vertolet N5 ; ! ""
 variant:variant N5 ; ! ""
 barış:barış N1 ; ! ""
+kontakt:kontakt N1 ; ! ""
+press%-slujba:press%-slujba N1 ; ! ""
+press%-hızmet:press%-hızmet N1 ; ! ""
+press%-konferentsiya:press%-konferentsiya N1 ; ! ""
+press%-merkez:press%-merkez N1 ; ! ""
+blank:blank N1 ; ! ""
+provokator:provokator N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
@@ -12034,7 +12042,6 @@ kompleks:kompleks A3 ; ! ""
 konkret:konkret A1 ; ! ""
 konspirativ:konspirativ A1 ; ! ""
 konsul:konsul A3 ; ! ""
-kontakt:kontakt A3 ; ! ""
 kontinental:kontinental A1 ; ! ""
 kooperativ:kooperativ A3 ; ! ""
 küçlü:küçlü A3 ; ! ""
@@ -13577,7 +13584,6 @@ deñiş:deñiş V-IV ; ! "change"
 deñiştir:deñiştir V-TV ; ! "change" ! Der/Caus
 de:de V-TV ; ! "say"
 doğur:doğur V-TV ; ! ""
-doğ:doğ%{☭%} V-TV ; ! ""
 eglen:eglen V-IV ; ! ""
 eriş:eriş V-IV ; ! ""
 esir:esir V-IV ; ! ""
@@ -13667,6 +13673,7 @@ tedaviylen:tedaviylen V-IV ; ! "" ! Der/Pass
 raatlan:raatlan V-IV ; ! "" 
 bez:bez V-IV-AR ; ! "надоесть"
 ögren:ögren V-TV ; ! ""
+ögren:ogren V-TV ; ! "" ! Err/Orth
 bildir:bildir V-TV ; ! "" ! Der/Caus
 keçir:keçir V-TV ; ! ""
 keçiril:keçiril V-IV ; ! "" ! Der/Pass
@@ -13683,7 +13690,7 @@ belgile:belgile V-TV ; ! "indicate"
 
 beklen:beklen V-IV ; ! ""
 cenkleş:cenkleş V-IV ; ! ""
-doğ:doğ V-IV ; ! ""
+doğ:doğ%{☭%} V-IV ; ! ""
 planlaş:planlaş V-IV ; ! ""
 resmiyleş:resmiyleş V-IV ; ! ""
 resmiyleştir:resmiyleştir V-TV ; ! "" ! Der/Caus
@@ -13718,7 +13725,6 @@ yolla:yolla V-TV ; ! ""
 öl:öl V-IV ; ! "die"
 öldür:öldür V-TV ; ! "kill"
 boz:boz V-TV ; ! ""
-doğ:doğ V-IV ; ! ""
 at:at V-TV-AR ; ! "throw"
 toplaş:toplaş V-IV ; ! ""
 yerlȩs:yerlȩs V-IV ; ! ""
