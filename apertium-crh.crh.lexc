@@ -1996,6 +1996,7 @@ konstitutsiya:konstitutsiya N1 ; ! ""
 konstruktsiya:konstruktsiya N1 ; ! ""
 lektsiya:lektsiya N1 ; ! ""
 militsiya:militsiya N1 ; ! ""
+militsiya:militsıya N1 ; ! "" ! Err/Orth
 politsiya:politsiya N1 ; ! ""
 redaktsiya:redaktsiya N1 ; ! ""
 rezidentsiya:rezidentsiya N1 ; ! ""
