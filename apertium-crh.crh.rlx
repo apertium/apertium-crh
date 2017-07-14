@@ -12,6 +12,9 @@ LIST Post = post;
 LIST Px3sp = px3sp;
 LIST Px1Sg = px1sg;
 LIST N = n;
+LIST CA = cnjadv ;
+LIST CS = cnjsub ;
+LIST CC = cnjcoo ; 
 LIST Cog = cog ; 
 LIST Ant = ant ; 
 LIST Abl = abl;
@@ -72,6 +75,8 @@ LIST Pl1 = (p1 pl);
 LIST Pl2 = (p2 pl) ;
 LIST Pl3 = (p3 pl) ;
 
+LIST Cm = "," ;
+
 LIST Li = ".*l[ıüiu]"ri ; 
 LIST Sız = ".*s[ıüiu]z"ri ; 
 
@@ -85,6 +90,8 @@ LIST Title = "<[A-Z].*>"r ;
 LIST Terek = "Terek" ;
 
 LIST Kerek = "kerek" ;
+
+LIST Faqat = "faqat" ; 
 
 LIST Dep = "<dep>"i ;
 
@@ -128,6 +135,10 @@ REMOVE SUB:1 Cop IF (0/* Sg3) (NOT 1 EOS) ;
 REMOVE SUB:1 Cop IF (0 Nom) (1 Px3sp);
 
 REMOVE SUB:1 Cop IF (0/* Post/Sız) ;
+
+REMOVE N IF (0 Faqat) (-1 BOS) ; 
+
+REMOVE N IF (0 Faqat) (1 Cm) ;
 
 REMOVE Px1Sg IF (1 Px3sp);
 
