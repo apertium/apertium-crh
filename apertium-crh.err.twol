@@ -49,7 +49,7 @@ NasalCns = m n ñ
            M N Ñ ; 
 
 VoicelessCns = ç f h k p q s ş t
-               Ç F H K P Q S Ş T ;
+               Ç F H K P Q S Ş T ;
 
 VoicedCns = c d g ğ j l m n ñ r v y z
             C D G Ğ J L M N Ñ R V Y Z ;
