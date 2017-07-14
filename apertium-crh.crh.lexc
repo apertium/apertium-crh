@@ -1268,6 +1268,10 @@ yuqar:yuqar N1 ; ! "верховный"
 
 !!
 
+ihtiyacı:ihtiyacı N1 ; ! ""
+
+!!
+
 Türk:Türk N1 ; ! ""
 feldmarşal:feldmarşal N1 ; ! "field marshal"
 diaspora:diaspora N1 ; ! "diaspora"
@@ -11852,6 +11856,7 @@ Edmonton:Edmonton NP-TOP; ! ""
 Monaco:Monaco NP-TOP; ! ""
 Chicago:Chicago NP-TOP; ! ""
 Iraq:Iraq NP-TOP; ! ""
+İraq:İraq NP-TOP; ! ""
 Qatar:Qatar NP-TOP; ! ""
 Tunis:Tunis NP-TOP; ! ""
 US:US NP-TOP; ! ""
@@ -14688,6 +14693,8 @@ yabancılaş:yabancılaş V-IV ; ! ""
 yardımlaş:yardımlaş V-IV ; ! ""
 yazılaş:yazılaş V-IV ; ! ""
 yerleş:yerleş V-IV ; ! ""
+
+öde:öde V-TV ; ! ""
 
 
 LEXICON Abbreviations
