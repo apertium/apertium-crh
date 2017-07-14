@@ -1941,7 +1941,9 @@ temmuz:temmuz N1 ; ! ""
 iyül:iyül N1 ; ! ""
 avgust:avgust N1 ; ! ""
 sentâbr:sentâbr%{ь%} N1 ; ! ""
+sentâbr:sentyabr%{ь%} N1 ; ! "" ! Err/Orth
 oktâbr:oktâbr N1 ; ! ""
+oktâbr:oktyabr N1 ; ! "" ! Err/Orth
 qasım:qasım N1 ; ! ""
 noyabr:noyabr%{ь%} N1 ; ! ""
 dekabr:dekabr N1 ; ! ""
@@ -7642,6 +7644,7 @@ provokator:provokator N1 ; ! ""
 aşayt:aşayt N1 ; ! "пищевой"
 ofitser:ofitser N1 ; ! ""
 podpolkovnik:podpolkovnik N1 ; ! ""
+diktator:diktator N1 ; ! ""
 
 
 LEXICON ProperNouns 
