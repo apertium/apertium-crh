@@ -7650,6 +7650,8 @@ diktator:diktator N1 ; ! ""
 LEXICON ProperNouns 
 
 Afrika:Afrika NP-TOP ; ! ""
+Afrika:afrika NP-TOP ; ! "африканський" ! Err/Orth     ! FIXME: np.top.attr should be lowercase?
+Amerika:amerika NP-TOP ; ! "американський" ! Err/Orth
 Asiya:Asiya NP-TOP ; ! ""
 Avropa:Avropa NP-TOP ; ! ""
 Avrasiya:Avrasiya NP-TOP ; ! ""
@@ -12508,13 +12510,11 @@ zemaneviy:zemaneviy  A1 ; ! ""
 abdıravıq:abdıravıq A1 ; ! "нервовий"
 adetiy:adetiy A1 ; ! "звичайний"
 adetiy:adetiy A1 ; ! "звичний"
-afrika:afrika A3 ; ! "африканський"
 ağırmaqlı:ağırmaqlı A3 ; ! "повільний"
 ahırki:ahırki A1 ; ! "кінцевий"
 ahlâqiy:ahlâqiy A1 ; ! "моральний"
 aman:aman A1 ; ! "добре"
 ameliy:ameliy A1 ; ! "практичний"
-amerika:amerika A3 ; ! "американський"
 anâneviy:anâneviy A1 ; ! "традиційний"
 aqırın:aqırın A1 ; ! "повільний"
 aqliy:aqliy A1 ; ! "розумовий"
