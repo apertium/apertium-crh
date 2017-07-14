@@ -3513,6 +3513,7 @@ kostüm:kostüm N1 ; ! "костюм"
 köterliş:köterliş N1 ; ! "узвіз"
 közetici:közetici N1 ; ! "спостерігач"
 kreditor:kreditor N1 ; ! "кредитор"
+kredit:kredit N1 ; ! "кредит"
 kreslo:kreslo N1 ; ! "крісло"
 kriteriy:kriteriy N1 ; ! "критерій"
 kübre:kübre N1 ; ! "добриво"
@@ -7649,6 +7650,7 @@ aşayt:aşayt N1 ; ! "пищевой"
 ofitser:ofitser N1 ; ! ""
 podpolkovnik:podpolkovnik N1 ; ! ""
 diktator:diktator N1 ; ! ""
+arbitraj:arbitraj N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -7659,6 +7661,8 @@ Amerika:amerika NP-TOP ; ! "американський" ! Err/Orth
 Asiya:Asiya NP-TOP ; ! ""
 Avropa:Avropa NP-TOP ; ! ""
 Avrasiya:Avrasiya NP-TOP ; ! ""
+
+Stockholm:Stockholm NP-TOP ; ! ""
 
 Norvegiya:Norvegiya NP-TOP ; ! ""
 Lehistan:Lehistan NP-TOP ; ! ""
