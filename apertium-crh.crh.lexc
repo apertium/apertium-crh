@@ -5519,6 +5519,7 @@ mebel:mebel N1 ; ! "мебель"
 meca:meca N1 ; ! "межа"
 mecburiyet:mecburiyet N1 ; ! "обязательство"
 medpunkt:medpunkt N1 ; ! ""
+punkt:punkt N1 ; ! ""
 mefa:mefa N1 ; ! "помилование"
 meğanim:meğanim N1 ; ! "трофей"
 mehanizator:mehanizator N1 ; ! "механизатор"
@@ -7640,6 +7641,7 @@ blank:blank N1 ; ! ""
 provokator:provokator N1 ; ! ""
 aşayt:aşayt N1 ; ! "пищевой"
 ofitser:ofitser N1 ; ! ""
+podpolkovnik:podpolkovnik N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -11883,6 +11885,9 @@ lâzim:lâzim A2 ; ! "нужен"
 
 !ilk:ilk NUM-ORD ; ! ""
 ilk:ilk A3 ; ! "первый"
+
+doğru:doğru A1 ; ! ""
+dos%-doğru:dos%-doğru A1 ; ! ""
 
 qıtaiy:qıtaiy A1 ; ! "continental"
 ertesi:ertesi A3 ; ! "following"
