@@ -1134,6 +1134,7 @@ birisi:bir PRON-IND-EP ; ! ""
 bütün:bütün PRON-IND-BUTUN ; ! ""
 cümle:cümle PRON-IND-BUTUN ; ! ""
 erkes:erkes PRON-IND ; ! "все люди"
+erkes:er% kes PRON-IND ; ! "все люди"
 birev:birev PRON-IND ; ! "someone/кто-нибудь"
 
 !! FIXME: Check these
@@ -11904,6 +11905,7 @@ doğru:doğru A1 ; ! ""
 dos%-doğru:dos%-doğru A1 ; ! ""
 
 qıtaiy:qıtaiy A1 ; ! "continental"
+keçici:keçici A1 ; ! "temporary"
 ertesi:ertesi A3 ; ! "following"
 asav:asav A3 ; ! "норовистый"
 vekâletli:vekâletli A3 ; ! "уполномоченный"
