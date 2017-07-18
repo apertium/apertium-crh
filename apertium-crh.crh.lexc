@@ -13664,7 +13664,7 @@ tab:tab V-TV ; ! "bear"
 tala:tala V-IV ; ! "bark"
 tap:tap V-TV ; ! "find/найти"
 taşla:taşla V-TV ; ! "put"
-taşlan:taşlan V-TV ; ! "undress"
+taşlan:taşlan V-IV ; ! "undress"
 tay:tay V-IV ; ! "ski"
 tırış:tırış V-IV ; ! "endeavour"
 tırmaş:tırmaş V-IV ; ! "ascend"
@@ -13961,7 +13961,7 @@ ballandır:ballandır V-TV ; ! "" ! Der/Caus
 barıştır:barıştır V-TV ; ! "" ! Der/Caus
 bastır:bastır V-TV ; ! "" ! Der/Caus
 bezdir:bezdir V-TV ; ! "" ! Der/Caus
-boldur:boldur V-TV ; ! "" ! Der/Caus
+boldur:boldur V-IV ; ! "" ! Der/Caus
 bulandır:bulandır V-TV ; ! "" ! Der/Caus
 bulaştır:bulaştır V-TV ; ! "" ! Der/Caus
 bürüştir:bürüştir V-TV ; ! "" ! Der/Caus
@@ -13972,7 +13972,7 @@ canlandır:canlandır V-TV ; ! "" ! Der/Caus
 çeldir:çeldir V-TV ; ! "" ! Der/Caus
 çiftleştir:çiftleştir V-TV ; ! "" ! Der/Caus
 coştur:coştur V-TV ; ! "" ! Der/Caus
-çıldır:çıldır V-TV ; ! "" ! Der/Caus
+çıldır:çıldır V-IV ; ! "" ! Der/Caus
 daldır:daldır V-TV ; ! "" ! Der/Caus
 dalğalandır:dalğalandır V-TV ; ! "" ! Der/Caus
 döndür:döndür V-TV ; ! "" ! Der/Caus
@@ -14124,7 +14124,7 @@ horla:horla V-IV ; ! ""
 çatla:çatla V-IV ; ! ""
 patla:patla V-IV ; ! ""
 qozula:qozula V-IV ; ! ""
-avla:avla V-IV ; ! ""
+avla:avla V-TV ; ! ""
 buzavla:buzavla V-IV ; ! ""
 qısqartılma:qısqartılma V-IV ; ! ""
 taypınma:taypınma V-IV ; ! ""
@@ -14499,7 +14499,7 @@ uruş:uruş V-IV ; ! ""
 qavuş:qavuş V-IV ; ! ""
 avuş:avuş V-IV ; ! ""
 uyuş:uyuş V-IV ; ! ""
-ilerilet:ilerilet V-IV ; ! ""
+ilerilet:ilerilet V-TV ; ! ""
 ğaday:ğaday V-IV ; ! ""
 cılmay:cılmay V-IV ; ! ""
 yılmay:yılmay V-IV ; ! ""
