@@ -97,6 +97,8 @@ LIST Dep = "<dep>"i ;
 
 LIST Qara = "<qara>"i ;
 
+LIST Anda = "<anda>"i ;
+
 LIST Laş = "laş" ;
 
 LIST Err/Orth = err_orth ;
@@ -122,6 +124,8 @@ REMOVE SUB:1 Err/Orth ;
 REMOVE Err/Orth ;
 
 SECTION
+
+SELECT Adv IF (0 Anda) (NOT -1 Det) ;
 
 REMOVE Imper IF (0 Kerek) ;
 
