@@ -30,7 +30,7 @@ Multichar_Symbols
 %<abbr%>          ! Abbreviation
 %<emph%> 
 %<ij%>
-
+%<pat%>           ! Patronymic
 %<nom%>           ! Nominative                  !
 %<gen%>           !
 %<dat%>           !
