@@ -30,7 +30,6 @@ Multichar_Symbols
 %<abbr%>          ! Abbreviation
 %<emph%> 
 %<ij%>
-%<pat%>           ! Patronymic
 %<nom%>           ! Nominative                  !
 %<gen%>           !
 %<dat%>           !
@@ -110,6 +109,7 @@ Multichar_Symbols
 
 %<cog%>           ! 
 %<ant%>
+%<pat%>           ! Patronymic
 %<al%>
 %<top%>           ! Toponym
 
@@ -510,6 +510,7 @@ LEXICON NP-COG-ZADE
 LEXICON NP-PAT-EVICH
 
 %<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<pat%>%<f%>:na FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON NP-AL
 
