@@ -509,6 +509,7 @@ LEXICON NP-COG-ZADE
 
 LEXICON NP-PAT-EVICH
 
+%<np%>%<pat%>%<m%>:ıç FULL-NOMINAL-INFLECTION ; ! FIXME ! Dir/LR
 %<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
 %<np%>%<pat%>%<f%>:na FULL-NOMINAL-INFLECTION ; ! FIXME
 
