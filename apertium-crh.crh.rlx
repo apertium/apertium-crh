@@ -117,6 +117,8 @@ SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
 
 SECTION
 
+SELECT Prop IF (0 Title) ;
+
 SELECT Subst IF (0 Num) (1 Perc);
 
 REMOVE SUB:1 Err/Orth ;
