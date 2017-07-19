@@ -11896,6 +11896,7 @@ ibaret:ibaret A2 ; ! ""
 
 
 mümkün:mümkün A2 ; ! "possible/возможно"
+mümkün:mumkün A2 ; ! "possible/возможно" ! Err/Orth
 kerek:kerek A2 ; ! "necessary/должно"
 borçlu:borçlu A2 ; ! ""
 lâzim:lâzim A2 ; ! "нужен"
