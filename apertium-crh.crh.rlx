@@ -109,11 +109,18 @@ SET Prc = Prc/perf | Prc/impf | Prc/fut | Prc/past ;
 
 SET Gpr = Gpr/fut | Gpr/fut2 | Gpr/past ;
 
-SET Fin = Past | Fut | Fut2 ;
+SET Gna = Gna/perf | Gna/when ; 
+
+SET Ger  = Ger/past ;
+# SET Fin = Past | Fut | Fut2 ;
 
 SET Ant/Cog = Ant | Cog ; 
 
 SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
+
+SET Nonfin = Prc | Gna | Gpr | Ger ;
+SET Fin = V - Nonfin ;
+
 
 SECTION
 
@@ -126,6 +133,8 @@ REMOVE SUB:1 Err/Orth ;
 REMOVE Err/Orth ;
 
 SECTION
+
+SELECT V IF (0 N OR V) (NOT -1* Fin) (1 BOS) ;
 
 SELECT Adv IF (0 Anda) (NOT -1 Det) ;
 
