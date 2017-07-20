@@ -47,6 +47,7 @@ LIST Gna/perf = gna_perf ;
 LIST Ger/past = ger_past ;
 LIST Gna/when = gna_when ;
 LIST Imper = imp ; 
+LIST Comma = "<,>" ;
 
 LIST Gpr/fut = gpr_fut ;
 LIST Gpr/fut2 = gpr_fut2 ;
@@ -123,6 +124,8 @@ SET Fin = V - Nonfin ;
 
 
 SECTION
+
+SELECT Prc IF (0 Prc OR Fin) (1* Fin BARRIER CC) (1* Fin BARRIER Comma);
 
 SELECT Prop IF (0 Title) ;
 
