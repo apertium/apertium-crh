@@ -58,5 +58,32 @@
     </pipeline>
   </mode>
 
+  <mode name="kir-disam" install="yes">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="kir.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="kir.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+    <mode name="crh-spell" install="yes">
+        <pipeline>
+            <program name="hfst-ospell -S -n 10">
+                <file name="crh.zhfst"/>
+            </program>
+        </pipeline>
+    </mode>
+
+    <mode name="crh-tokenise" install="yes">
+        <pipeline>
+            <program name="hfst-proc">
+                <file name=".deps/acceptor.default.hfst"/>
+            </program>
+        </pipeline>
+    </mode>
+
 </modes>
 

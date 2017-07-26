@@ -125,7 +125,7 @@ SET Fin = V - Nonfin ;
 
 SECTION
 
-SELECT Prc IF (0 Prc OR Fin) (1* Fin BARRIER CC) (1* Fin BARRIER Comma);
+SELECT Prc IF (0 Prc OR Fin) (NOT 0 N)(1* Fin BARRIER CC) (1* Fin BARRIER Comma);
 
 SELECT Prop IF (0 Title) ;
 
@@ -138,6 +138,8 @@ REMOVE Err/Orth ;
 SECTION
 
 SELECT V IF (0 N OR V) (NOT -1* Fin) (1 BOS) ;
+
+SELECT N IF (0 N OR V) (-1C A);
 
 SELECT Adv IF (0 Anda) (NOT -1 Det) ;
 
