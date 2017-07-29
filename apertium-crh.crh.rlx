@@ -127,9 +127,12 @@ SECTION
 
 SELECT Post IF (0 Post OR Prc/perf) (-1 Dat) (1* Fin);
 
-SELECT Prc IF (0 Prc OR Fin) (NOT 0 N)(1* Fin BARRIER CC) (1* Fin BARRIER Comma);
+SELECT Prc IF (0 Prc OR Fin) (NOT 0 N)(1* Fin BARRIER CC) (1* Fin BARRIER Cm);
 
+SELECT Gna/perf IF (0 Dep) (NOT 1 Aux) ;
 SELECT Prop IF (0 Title) ;
+
+SELECT Fin IF (0 Prc/impf OR Fin) (-1* Gna/perf BARRIER Comma);
 
 SELECT Subst IF (0 Num) (1 Perc);
 
@@ -176,7 +179,6 @@ SELECT Adv IF (0 Son) (1 Num) (2 Sene + Loc);
 
 REMOVE Adv IF (0 Det) (NOT 1* V);
 
-SELECT Gna/perf IF (0 Dep) (NOT 1 Aux) ;
 
 REMOVE Prc/perf IF (0 Gna/perf) (NOT 1* Aux) ;
 
