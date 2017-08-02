@@ -92,6 +92,8 @@ LIST Terek = "Terek" ;
 
 LIST Kerek = "kerek" ;
 
+LIST Bil = "bil";
+
 LIST Faqat = "faqat" ; 
 
 LIST Dep = "<dep>"i ;
@@ -124,6 +126,8 @@ SET Fin = V - Nonfin ;
 
 
 SECTION
+
+SELECT Prc/impf IF (1C Bil);
 
 SELECT Post IF (0 Post OR Prc/perf) (-1 Dat) (1* Fin);
 
