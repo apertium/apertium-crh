@@ -71,6 +71,7 @@ Multichar_Symbols
 %<gna_while%>
 %<gna_perf%>
 %<gna_when%>
+%<gna_neg%>
 
 %<prc_perf%>      ! -Ip 
 %<prc_fut%>       ! 
@@ -868,6 +869,7 @@ LEXICON V-NONFINITE
 
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_impf%>:%>%{j%}%{A%}r%{A%}%{G%} # ;
+%<gna_neg%>:%>m%{A%}d%{A%}n # ;
 %<gna_when%>:%>%{G%}%{A%}nc%{A%} # ;
 %<gna_perf%>:%>%{i%}p # ;
 
