@@ -130,7 +130,7 @@ SECTION
 
 SELECT Prop IF (0 Title) ;
 
-SELECT N IF (0 Post/Li OR N);
+SELECT N IF (0 Post/Li);
 
 SELECT Prc/impf IF (1C Bil);
 
