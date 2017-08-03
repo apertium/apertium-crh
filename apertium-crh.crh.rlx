@@ -128,6 +128,8 @@ SET Fin = V - Nonfin ;
 
 SECTION
 
+SELECT Prop IF (0 Title) ;
+
 SELECT N IF (0 Post/Li OR N);
 
 SELECT Prc/impf IF (1C Bil);
@@ -139,7 +141,6 @@ SELECT Post IF (0 Post OR Prc/perf) (-1 Dat) (1* Fin);
 SELECT Prc IF (0 Prc OR Fin) (NOT 0 N)(1* Fin BARRIER CC) (1* Fin BARRIER Cm);
 
 SELECT Gna/perf IF (0 Dep) (NOT 1 Aux) ;
-SELECT Prop IF (0 Title) ;
 
 SELECT Fin IF (0 Prc/impf OR Fin) (-1* Gna/perf BARRIER Comma);
 

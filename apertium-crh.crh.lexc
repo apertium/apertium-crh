@@ -1173,6 +1173,7 @@ işbu:işbu DET-DEM ;
 öz:öz DET-REF ; ! ""
 
 bir:bir DET-IND ; ! ""
+boyle:boyle DET-IND ; ! "such"
 er:er DET-IND ; ! "every"
 ep:ep DET-IND ; ! "all"
 iç% bir:iç% bir DET-IND ; 
@@ -7688,6 +7689,7 @@ Ermenistan:Ermenistan NP-TOP ; ! ""
 
 Rusiye:Rusiye NP-TOP ; ! "Россия"
 Rusiye:rusiye NP-TOP ; ! "Россия" ! Err/Orth
+Rusiye:Rusiya NP-TOP ; ! "Россия" ! Err/Orth
 Tataristan:Tataristan NP-TOP ; ! ""
 Tacikistan:Tacikistan NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
