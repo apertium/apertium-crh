@@ -45,6 +45,7 @@ LIST Prc/fut = prc_fut ;
 LIST Prc/past = prc_past ;
 LIST Gna/perf = gna_perf ;
 LIST Ger/past = ger_past ;
+LIST Ger/fut2 = ger_fut2 ;
 LIST Gna/when = gna_when ;
 LIST Imper = imp ; 
 LIST Comma = "<,>" ;
@@ -114,7 +115,7 @@ SET Gpr = Gpr/fut | Gpr/fut2 | Gpr/past ;
 
 SET Gna = Gna/perf | Gna/when ; 
 
-SET Ger  = Ger/past ;
+SET Ger  = Ger/past | Ger/fut2 ;
 # SET Fin = Past | Fut | Fut2 ;
 
 SET Ant/Cog = Ant | Cog ; 
@@ -127,7 +128,11 @@ SET Fin = V - Nonfin ;
 
 SECTION
 
+SELECT N IF (0 Post/Li OR N);
+
 SELECT Prc/impf IF (1C Bil);
+
+SELECT Fin IF (0C Bil) (-1 Prc/impf);
 
 SELECT Post IF (0 Post OR Prc/perf) (-1 Dat) (1* Fin);
 
