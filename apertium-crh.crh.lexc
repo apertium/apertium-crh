@@ -13592,7 +13592,7 @@ yaz:yaz V-TV ; ! "write/писать"
 yırla:yırla V-TV ; ! ""
 oyna:oyna V-TV ; ! ""
 çıq:çıq V-IV-AR ; ! "" 
-baq:baq V-TV ; ! "look at/смотреть"
+baq:baq V-IV-AR ; ! "look at/смотреть"
 bas:bas V-TV ; ! ""
 yaq:yaq V-TV ; ! "burn"
 rastkel:rastkel V-IV ;
