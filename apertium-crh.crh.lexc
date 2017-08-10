@@ -1203,8 +1203,14 @@ sekiz:sekiz NUM ; ! ""
 yedi:yedi  NUM ; ! ""
 doquz:doquz  NUM ; ! ""
 on:on NUM ; ! ""
-
+yetmiş:yetmiş NUM ; ! ""
 qırq:qırq NUM ; ! ""
+elli:elli NUM ; ! ""
+yigirmi:yigirmi NUM ; ! ""
+doqsan:doqsan NUM ; ! ""
+otuz:otuz NUM ; ! ""
+seksen:seksen NUM ; ! ""
+altmış:altmış NUM ; ! ""
 
 yüz:yüz NUM ; ! ""
 
