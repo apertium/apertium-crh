@@ -2535,6 +2535,7 @@ işğalcı:işğalcı N1 ; ! ""
 netice:netice N1 ; ! "вывод"
 yarımada:yarımada N1 ; ! "полуостров"
 işğal:işğal N1 ; ! ""
+işğal:işgal N1 ; ! ""
 
 cevap:cevap N1 ; ! ""
 lider:lider N1 ; ! ""
@@ -7071,7 +7072,6 @@ indeks:indeks N1 ; ! "" ! Lex/tur
 intihar:intihar N1 ; ! "" ! Lex/tur
 ipek:ipek N1 ; ! "" ! Lex/tur
 irade:irade N1 ; ! "" ! Lex/tur
-işgal:işgal N1 ; ! "" ! Lex/tur
 iskele:iskele N1 ; ! "" ! Lex/tur
 islam:islam N1 ; ! "" ! Lex/tur
 işletme:işletme N1 ; ! "" ! Lex/tur
@@ -13393,6 +13393,7 @@ qoşma:qoşma A1 ; ! ""
 tar%-mar:tar%-mar A1;
 gumanitar:gumanitar A1;
 ticariy:ticariy A1;
+yuqarı:yuqarı A1;
 
 
 LEXICON Adverbs
