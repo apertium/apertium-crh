@@ -7664,6 +7664,8 @@ podpolkovnik:podpolkovnik N1 ; ! ""
 diktator:diktator N1 ; ! ""
 arbitraj:arbitraj N1 ; ! ""
 
+rok:rok N1 ; ! ""
+menba:menba N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -13409,7 +13411,7 @@ tar%-mar:tar%-mar A1;
 gumanitar:gumanitar A1;
 ticariy:ticariy A1;
 yuqarı:yuqarı A1;
-
+muqaddes:muqaddes A3;
 
 LEXICON Adverbs
 
