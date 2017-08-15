@@ -79,10 +79,10 @@ LIST Pl3 = (p3 pl) ;
 
 LIST Cm = "," ;
 
-LIST Li = ".*l[ıüiu]"ri ; 
+LIST Lı = ".*l[ıüiu]"ri ; 
 LIST Sız = ".*s[ıüiu]z"ri ; 
 
-LIST Post/Li = ("lı" post) ;
+LIST Post/Lı = ("lı" post) ;
 LIST Post/Sız = ("sız" post) ;
 
 LIST Meslek = ".*[çc][ıüiu]"r "alim" ; 
@@ -125,8 +125,11 @@ SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
 SET Nonfin = Prc | Gna | Gpr | Ger ;
 SET Fin = V - Nonfin ;
 
+SET Deriv = Sız | Lı ; 
 
 SECTION
+
+REMOVE SUB:1 Deriv ;
 
 SELECT Prop IF (0C N OR Prop) ;
 
@@ -134,7 +137,7 @@ SELECT Adv IF (0 Adv OR A) (1 Adv) ;
 
 SELECT Prop IF (0 Title) ;
 
-SELECT N IF (0 Post/Li);
+SELECT N IF (0 Post/Lı);
 
 SELECT Prc/impf IF (1C Bil);
 
@@ -166,7 +169,7 @@ REMOVE Imper IF (0 Kerek) ;
 
 REMOVE SUB:1 Laş ; 
 
-REMOVE SUB:1 Post/Li IF (0 Nec) ;
+REMOVE SUB:1 Post/Lı IF (0 Nec) ;
 
 # Remove zero copula if it is third person singular [MT]
 REMOVE SUB:1 Cop IF (0/* Sg3) (NOT 1 EOS) ; 
@@ -204,7 +207,7 @@ REMOVE Imper IF (1C Cop) ;
 
 REMOVE Aux (NOT -1 Prc) ;
 
-REMOVE SUB:1 Post/Li (0/* Li) ;
+REMOVE SUB:1 Post/Lı (0/* Lı) ;
 
 REMOVE SUB:1 Post/Sız (0/* Sız) ;
 

@@ -7674,6 +7674,11 @@ Asiya:Asiya NP-TOP ; ! ""
 Avropa:Avropa NP-TOP ; ! ""
 Avrasiya:Avrasiya NP-TOP ; ! ""
 
+Jūrmala:Jūrmala NP-TOP ; ! ""
+Liepāja:Liepāja  NP-TOP ; ! ""
+Rēzekne:Rēzekne NP-TOP ; ! ""
+Jēkabpils:Jēkabpils NP-TOP ; ! ""
+
 Stockholm:Stockholm NP-TOP ; ! ""
 
 Norvegiya:Norvegiya NP-TOP ; ! ""
@@ -8829,7 +8834,10 @@ Feodosiya:Feodosiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
 Burâtiya:Burâtiya NP-TOP ; ! ""
 Antiohiya:Antiohiya NP-TOP ; ! ""
+Vitré:Vitré NP-TOP ; ! ""
 
+András:András NP-ANT-M ; ! ""
+Éamon:Éamon NP-ANT-M ; ! ""
 Amet:Amet NP-ANT-M ; ! ""
 Mahmud:Mahmud NP-ANT-M ; ! ""
 Noman:Noman NP-ANT-M ; ! ""
@@ -8852,6 +8860,7 @@ Meryem:Meryem NP-ANT-F ; ! ""
 Nikolayev:Nikolayev NP-COG-OV ; ! ""
 Siyabendov:Siyabendov NP-COG-OV ; ! ""
 
+Padó:Padó NP-COG-MF ; ! ""
 Hitler:Hitler NP-COG-MF ; ! ""
 Gitler:Gitler NP-COG-MF ; ! ""
 Minih:Minih NP-COG-MF ; ! ""
@@ -14802,6 +14811,8 @@ LEXICON Punctuation
 %»%<rquot%>:%» # ;
 %”%<rquot%>:%” # ;
 %“%<lquot%>:%“ # ;
+%‘%<lquot%>:%‘ # ;
+%’%<rquot%>:%’ # ;
 %(%<lpar%>:%( # ;
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
