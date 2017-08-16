@@ -43,6 +43,7 @@ LIST Prc/perf = prc_perf ;
 LIST Prc/impf = prc_impf ;
 LIST Prc/fut = prc_fut ;
 LIST Prc/past = prc_past ;
+LIST Prc/cond = prc_cond ;
 LIST Gna/perf = gna_perf ;
 LIST Ger/past = ger_past ;
 LIST Ger/fut2 = ger_fut2 ;
@@ -109,7 +110,7 @@ LIST Err/Orth = err_orth ;
 
 # SET Pers = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
 
-SET Prc = Prc/perf | Prc/impf | Prc/fut | Prc/past ; 
+SET Prc = Prc/perf | Prc/impf | Prc/fut | Prc/past | Prc/cond ; 
 
 SET Gpr = Gpr/fut | Gpr/fut2 | Gpr/past ;
 
@@ -242,6 +243,8 @@ REMOVE Gpr IF (1 EOS) ;
 SELECT Fin IF (0C V) (1 EOS) ;
 
 SELECT SUB:1 Cop + Sg1 IF (0C N) (0 Px1Sg) (-1* Pers + Sg1) ;
+
+REMOVE Prc IF (1 Cm) ;
 
 SECTION
 
