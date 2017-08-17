@@ -18,6 +18,7 @@ LIST CC = cnjcoo ;
 LIST Cog = cog ; 
 LIST Ant = ant ; 
 LIST Abl = abl;
+LIST Aor = aor ;
 LIST A = adj ;
 LIST Sim = sim ; 
 LIST Qst = qst ;
@@ -131,6 +132,8 @@ SET Deriv = Sız | Lı ;
 SECTION
 
 REMOVE SUB:1 Deriv ;
+
+SELECT Aor IF (0 Aor OR Prc/impf) (-1 Prc/impf);
 
 SELECT N IF (0C N OR Cop) (1* Fin);
 
