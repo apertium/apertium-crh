@@ -131,6 +131,8 @@ SET Deriv = Sız | Lı ;
 
 SECTION
 
+SELECT Post/Sız IF (1* Fin);
+
 REMOVE SUB:1 Deriv ;
 
 SELECT A IF (0 Dat) (1 Cop);
@@ -142,6 +144,7 @@ SELECT Aor IF (0 Aor OR Prc/impf) (-1 Prc/impf);
 SELECT N IF (0C N OR Cop) (1* Fin);
 
 SELECT Prop IF (0C N OR Prop) ;
+
 
 SELECT Adv IF (0 Adv OR A) (1 Adv) ;
 

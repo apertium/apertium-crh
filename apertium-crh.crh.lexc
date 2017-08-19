@@ -12753,6 +12753,7 @@ cami:cami N1 ;
 eyyet:eyyet N1 ;
 elektroteminlev:elektroteminlev N1 ;
 muessise:muessise N1 ;
+tama:tama N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
