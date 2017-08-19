@@ -4372,6 +4372,8 @@ felâket:felâket N5 ; ! ""
 aqibet:aqibet N5 ; ! ""
 ait:ait A1 ; ! "" ! FIXME
 evelsi:evelsi A1 ;
+adli:adli A1 ;
+uquqlu:uquqlu A1 ;
 aktivist:aktivist N5 ; ! ""
 qaza:qaza N1 ; ! ""
 tuvğan:tuvğan N1 ; ! ""
@@ -8863,6 +8865,7 @@ Nikolayev:Nikolayev NP-COG-OV ; ! ""
 Siyabendov:Siyabendov NP-COG-OV ; ! ""
 
 Padó:Padó NP-COG-MF ; ! ""
+Köprülü:Köprülü NP-COG-MF ; ! ""
 Hitler:Hitler NP-COG-MF ; ! ""
 Gitler:Gitler NP-COG-MF ; ! ""
 Minih:Minih NP-COG-MF ; ! ""
@@ -11862,6 +11865,7 @@ Charles:Charles NP-ANT-M; ! ""
 Jesus:Jesus NP-ANT-M; ! ""
 Milet:Milet NP-ANT-M; ! ""
 Gustav:Gustav NP-ANT-M; ! ""
+Çarli:Çarli NP-ANT-M; ! ""
 Jay:Jay NP-ANT-M; ! ""
 Ray:Ray NP-ANT-M; ! ""
 Sidney:Sidney NP-ANT-M; ! ""
@@ -13416,6 +13420,11 @@ oquvlı:oquvlı A1;
 aytuvlı:aytuvlı A1;
 uruvlı:uruvlı A1;
 borclu:borclu A1;
+kodlı:kodlı A1;
+tuzlı:tuzlı A1;
+tarihlı:tarihlı A1;
+namuslu:namuslu A1;
+adlı:adlı A1;
 kodlı:kodlı A1;
 muqaddes:muqaddes A3;
 başqa:başqa A3;
