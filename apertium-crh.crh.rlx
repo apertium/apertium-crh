@@ -133,6 +133,10 @@ SECTION
 
 REMOVE SUB:1 Deriv ;
 
+SELECT A IF (0 Dat) (1 Cop);
+
+SELECT A IF (0 Acc) (1 Cop);
+
 SELECT Aor IF (0 Aor OR Prc/impf) (-1 Prc/impf);
 
 SELECT N IF (0C N OR Cop) (1* Fin);

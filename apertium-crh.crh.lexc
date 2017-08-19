@@ -1113,6 +1113,7 @@ soñ:soñ POST ; ! "after/после"
 boyunca:boyunca POST ; ! "during/пока"
 itibaren:itibaren POST ; ! "from"
 qarşı:qarşı POST ; ! ""
+üzere:üzere POST ; ! ""
 
 LEXICON Pronouns 
 
@@ -7364,8 +7365,7 @@ köçebelik:köçebelik N1 ; ! ""
 eglencelik:eglencelik N1 ; ! ""
 fidelik:fidelik N1 ; ! ""
 yelelik:yelelik N1 ; ! ""
-üylelik:üylelik N1 ; ! ""
-yinelik:yinelik N1 ; ! ""
+üylelik:üylelik N1 ; ! ""yinelik:yinelik N1 ; ! ""
 vişnelik:vişnelik N1 ; ! ""
 sahtelik:sahtelik N1 ; ! ""
 aqıl-baliğlik:aqıl-baliğlik N1 ; ! ""
@@ -13415,7 +13415,11 @@ açuvlı:açuvlı A1;
 oquvlı:oquvlı A1;
 aytuvlı:aytuvlı A1;
 uruvlı:uruvlı A1;
+borclu:borclu A1;
+kodlı:kodlı A1;
 muqaddes:muqaddes A3;
+başqa:başqa A3;
+aynı:aynı A3;
 
 LEXICON Adverbs
 
@@ -13438,6 +13442,7 @@ nege:nege ADV-ITG ;
 ğayrıdan:ğayrıdan ADV ; 
 
 kene:kene ADV ; ! ""
+kene:ine ADV ; !
 hususan:hususan ADV ;
 mecburen:mecburen ADV ;
 al%-azırda ADV ;  
@@ -13551,7 +13556,9 @@ keri:keri ADV ; ! ""
 ayrı:ayrı ADV ; ! ""
 binayen:binayen ADV ;
 asılında:asılında ADV ;
+olduqça:olduqça ADV ;
 alâ:alâ ADV ; ! "still"
+
 
 LEXICON Verbs 
 
@@ -14733,6 +14740,7 @@ yabancılaş:yabancılaş V-IV ; ! ""
 yardımlaş:yardımlaş V-IV ; ! ""
 yazılaş:yazılaş V-IV ; ! ""
 yerleş:yerleş V-IV ; ! ""
+qızın:qızın V-IV ; ! ""
 esaslan:esaslan V-IV ; ! "be based on"
 
 öde:öde V-TV ; ! ""
