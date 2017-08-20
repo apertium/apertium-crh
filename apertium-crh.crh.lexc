@@ -809,7 +809,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<aor%>:%>%{E%} V-PERS-AOR ;
 %<fut2%>:%>%{E%}c%{A%}%{G%} V-PERS-S1 ;
-%<nec%>:%>m%{A%}l%{I%} V-PERS-S1 ;
+!%<nec%>:%>m%{A%}l%{I%} V-PERS-S1 ;
 
 %<nec%>:%>m%{A%}l%{I%} CLIT-COP ; ! V-PERS-S1 ;
 
