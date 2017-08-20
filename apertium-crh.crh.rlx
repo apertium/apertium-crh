@@ -139,6 +139,8 @@ REMOVE SUB:1 Laş ;
 
 REMOVE SUB:1 Post/Lı IF (0 Nec) ;
 
+SELECT N IF (0 Nonfin) ;
+
 SELECT Post/Sız IF (1* Fin);
 
 REMOVE SUB:1 Cop IF (1C N) ;
