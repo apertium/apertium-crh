@@ -12758,6 +12758,7 @@ elektroteminlev:elektroteminlev N1 ;
 muessise:muessise N1 ;
 tama:tama N1 ;
 kelecek:kelecek N1 ;
+Kezlevli:Kezlevli N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"

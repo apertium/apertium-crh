@@ -122,6 +122,8 @@ SET Gna = Gna/perf | Gna/when ;
 SET Ger  = Ger/past | Ger/fut2 ;
 # SET Fin = Past | Fut | Fut2 ;
 
+REMOVE Sim IF (0 Prop);
+
 SET Ant/Cog = Ant | Cog ; 
 
 SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
