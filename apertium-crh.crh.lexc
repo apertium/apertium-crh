@@ -421,6 +421,15 @@ POSSESSIVES ;
 ABESSIVE-POSTPOSITION ;
 LI-POSTPOSITION ;
 
+LEXICON FULL-NOMINAL-INFLECTION-PROP
+
+PLURAL ;
+CASES-ETC ;
+POSSESSIVES ;
+!ABESSIVE-POSTPOSITION ;
+!LI-POSTPOSITION ;
+
+
 LEXICON CASE-NONOM
 
 %<gen%>:%>n%{Y%}ñ CLITICS-NO-COP ;
@@ -473,55 +482,55 @@ LEXICON N5
 
 LEXICON NP-TOP 
 
-%<np%>%<top%>:%{☭%} FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<top%>:%{☭%} FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>:%{☭%} FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<ant%>%<m%>:%{☭%} FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>:%{☭%} FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<ant%>%<f%>:%{☭%} FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-COG-SKIY
 
-%<np%>%<cog%>%<m%>:iy FULL-NOMINAL-INFLECTION ; ! FIXME
-%<np%>%<cog%>%<f%>:aya FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<m%>:iy FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
+%<np%>%<cog%>%<f%>:aya FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-COG-IN
 
-%<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
-%<np%>%<cog%>%<f%>:a FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
+%<np%>%<cog%>%<f%>:a FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-COG-OV
 
-%<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
-%<np%>%<cog%>%<f%>:a FULL-NOMINAL-INFLECTION ; ! FIXME
-na%<np%>%<cog%>%<f%>:na FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
+%<np%>%<cog%>%<f%>:a FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
+na%<np%>%<cog%>%<f%>:na FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-COG-MF 
 
-%<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-COG-ZADE
 
-%<np%>%<cog%>%<mf%>:%-zade FULL-NOMINAL-INFLECTION ; ! Dir/LR
-%<np%>%<cog%>%<mf%>:zade FULL-NOMINAL-INFLECTION ; 
+%<np%>%<cog%>%<mf%>:%-zade FULL-NOMINAL-INFLECTION-PROP ; ! Dir/LR
+%<np%>%<cog%>%<mf%>:zade FULL-NOMINAL-INFLECTION-PROP ; 
 
 
 LEXICON NP-PAT-EVICH
 
-%<np%>%<pat%>%<m%>:ıç FULL-NOMINAL-INFLECTION ; ! FIXME ! Dir/LR
-%<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
-%<np%>%<pat%>%<f%>:na FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<pat%>%<m%>:ıç FULL-NOMINAL-INFLECTION-PROP ; ! FIXME ! Dir/LR
+%<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
+%<np%>%<pat%>%<f%>:na FULL-NOMINAL-INFLECTION-PROP ; ! FIXME
 
 LEXICON NP-AL
 
-%<np%>%<al%>: FULL-NOMINAL-INFLECTION ; 
+%<np%>%<al%>: FULL-NOMINAL-INFLECTION-PROP ; 
 
 LEXICON NP-AL-ABBR
 
-%<np%>%<al%>: FULL-NOMINAL-INFLECTION ; ! ""
+%<np%>%<al%>: FULL-NOMINAL-INFLECTION-PROP ; ! ""
 
 LEXICON A1
 
