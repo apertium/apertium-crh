@@ -13435,6 +13435,7 @@ kodlı:kodlı A1;
 biñli:biñli A1;
 üçlü:üçlü A1;
 ekili:ekili A1;
+milyonlı:milyonlı A1;
 muqaddes:muqaddes A3;
 başqa:başqa A3;
 aynı:aynı A3;
@@ -13574,6 +13575,7 @@ tahminen:tahminen ADV ; ! ""
 keri:keri ADV ; ! ""
 ayrı:ayrı ADV ; ! ""
 binayen:binayen ADV ;
+aytmaqçe:aytmaqçe ADV ;
 asılında:asılında ADV ;
 olduqça:olduqça ADV ;
 alâ:alâ ADV ; ! "still"
