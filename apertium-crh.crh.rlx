@@ -127,7 +127,7 @@ SET NGADLAI = Nom | Gen | Acc | Dat | Loc | Abl | Ins ;
 SET Nonfin = Prc | Gna | Gpr | Ger ;
 SET Fin = V - Nonfin ;
 
-SET Deriv = Sız | Lı | Cop ;  
+SET Deriv = Sız | Lı ;
 
 SECTION
 
@@ -136,7 +136,6 @@ SELECT Post/Sız IF (1* Fin);
 REMOVE SUB:1 Cop IF (1C N) ;
 
 REMOVE SUB:1 Deriv ;
-
 
 SELECT A IF (0 Dat) (1 Cop);
 
