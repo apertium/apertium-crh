@@ -153,6 +153,7 @@ SELECT N IF (0C N OR Cop) (1* Fin);
 
 SELECT Prop IF (0C N OR Prop) ;
 
+REMOVE Subst IF (0 Gpr) ;
 
 SELECT Adv IF (0 Adv OR A) (1 Adv) ;
 
