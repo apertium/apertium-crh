@@ -84,6 +84,8 @@ LIST Cm = "," ;
 LIST Lı = ".*l[ıüiu]"ri ; 
 LIST Sız = ".*s[ıüiu]z"ri ; 
 
+LIST Malı = ".*m[ae]l[iı]"ri ;
+
 LIST Post/Lı = ("lı" post) ;
 LIST Post/Sız = ("sız" post) ;
 
@@ -130,6 +132,10 @@ SET Fin = V - Nonfin ;
 SET Deriv = Sız | Lı ;
 
 SECTION
+
+REMOVE SUB:1 Laş ; 
+
+REMOVE SUB:1 Post/Lı IF (0 Nec) ;
 
 SELECT Post/Sız IF (1* Fin);
 
@@ -181,10 +187,6 @@ SELECT N IF (0 N OR V) (-1C A);
 SELECT Adv IF (0 Anda) (NOT -1 Det) ;
 
 REMOVE Imper IF (0 Kerek) ;
-
-REMOVE SUB:1 Laş ; 
-
-REMOVE SUB:1 Post/Lı IF (0 Nec) ;
 
 # Remove zero copula if it is third person singular [MT]
 REMOVE SUB:1 Cop IF (0/* Sg3) (NOT 1 EOS) ; 
