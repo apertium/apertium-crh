@@ -191,6 +191,8 @@ SELECT N IF (0 N OR V) (-1C A);
 
 SELECT Adv IF (0 Anda) (NOT -1 Det) ;
 
+REMOVE Det IF (1C Cop OR Aux) ;
+
 REMOVE Imper IF (0 Kerek) ;
 
 # Remove zero copula if it is third person singular [MT]
