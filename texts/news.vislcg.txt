@@ -185,8 +185,8 @@
 ;	"ötker" v tv pass ger_fut2 nom REMOVE:199
 ;		"e" cop aor p3 sg
 ;	"ötker" v tv pass gpr_fut2 REMOVE:277
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Qırım>"
@@ -871,8 +871,8 @@
 ;		"e" cop aor p3 sg REMOVE:214
 "<vazgeçti>"
 	"vazgeç" v iv ifi p3 sg
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Ukraina>"
@@ -1259,8 +1259,8 @@
 	"belgile" v tv neg ifi p3 pl
 	"belgile" v tv ger nom
 		"e" cop ifi p3 pl
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<AQŞ>"
@@ -1889,8 +1889,8 @@
 "<edi>"
 	"e" cop ifi p3 sg
 ;	"e" vaux ifi p3 sg REMOVE:247
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Slovânskta>"
@@ -2353,8 +2353,8 @@
 ;	"9" num subst nom REMOVE:267
 "<yaralandı>"
 	"yaralan" v iv ifi p3 sg
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Donetskte>"
@@ -2857,8 +2857,8 @@
 "<keçe>"
 	"keç" v iv prc_impf SELECT:185
 ;	"keç" v iv aor p3 sg SELECT:185
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Moskvada>"
@@ -3337,8 +3337,8 @@
 ;	"bil" v tv ger_fut2 nom SELECT:181
 ;	"bil" v tv ger_fut2 nom SELECT:181
 ;		"e" cop aor p3 sg
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Aksönovnıñ>"
@@ -3720,8 +3720,8 @@
 	"*nail"
 "<oldı>"
 	"ol" v iv ifi p3 sg err_orth
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<AQŞ>"
@@ -4400,8 +4400,8 @@
 ;	"belli" adj subst nom REMOVE:267
 "<digildir>"
 	"*digildir"
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Slavânskta>"
@@ -4922,8 +4922,8 @@
 "<keçe>"
 	"keç" v iv aor p3 sg
 ;	"keç" v iv prc_impf REMOVE:241
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<AQŞ>"
@@ -5350,8 +5350,8 @@
 	"departament" n px3sp nom
 	"departament" n px3sp nom
 		"e" cop aor p3 sg
-"<..>"
-	".." sent
+"<.>"
+	"." sent
 
 
 "<Bugün>"
@@ -5483,8 +5483,8 @@
 "<keçe>"
 	"keç" v iv aor p3 sg
 ;	"keç" v iv prc_impf REMOVE:241
-"<..>"
-	".." sent
+"<.>"
+	"." sent
  
 
 
