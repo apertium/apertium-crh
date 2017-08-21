@@ -135,6 +135,8 @@ SET Deriv = Sız | Lı ;
 
 SECTION
 
+#SELECT Prc/impf IF (1 Cop);
+
 REMOVE SUB:1 Laş ; 
 
 REMOVE SUB:1 Post/Lı IF (0 Nec) ;
