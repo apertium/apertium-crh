@@ -50,10 +50,12 @@ tests/verbs.yaml -text
 tests/voicing.yaml -text
 texts/alfred_nobel.vislcg.txt -text
 texts/altintas.txt -text
+texts/article.txt -text
 texts/challenge.vislcg.txt -text
 texts/crh-feats.tsv -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
+texts/news.txt -text
 texts/puupankki/puupankki.crh.conllu -text
 texts/qarilgaclar.txt -text
 texts/wikipedia.vislcg.txt -text
