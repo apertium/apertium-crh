@@ -168,6 +168,8 @@ SELECT Prop IF (0C N OR Prop) ;
 
 REMOVE Subst IF (0 Gpr) ;
 
+REMOVE SUB:1 Subst IF (0 Gpr) ;
+
 SELECT Adv IF (0 Adv OR A) (1 Adv) ;
 
 SELECT Prop IF (0 Title) ;

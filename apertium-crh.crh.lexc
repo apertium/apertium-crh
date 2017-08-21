@@ -37,6 +37,7 @@ Multichar_Symbols
 %<loc%>           ! Locative                    ! 
 %<abl%>           ! Ablative                    !
 %<ins%>           !
+%<sim%>
 
 %<iv%>            !
 %<tv%>            !
@@ -381,10 +382,23 @@ LEXICON GENERAL-POSSESSIVE-ETC
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 %<sim%>:%>%{C%}%{A%} CLITICS-NO-COP ;
 
+LEXICON GENERAL-POSSESSIVE-ETC-PROP
+
+!%<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
+!%<px%>%<pl%>:%>н%{I%}к%{I%}%>л%{A%}р CASES ;
+%<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
+!%<sim%>:%>%{C%}%{A%} CLITICS-NO-COP ;
+
 LEXICON CASES-ETC 
 
 CASES ;
 GENERAL-POSSESSIVE-ETC ;
+
+LEXICON CASES-ETC-PROP
+
+CASES ;
+GENERAL-POSSESSIVE-ETC-PROP ;
+
 
 LEXICON POSSESSIVES
 
@@ -393,6 +407,15 @@ LEXICON POSSESSIVES
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ;
 %<px1pl%>:%>%{i%}m%{I%}z CASES-ETC ;
 %<px2pl%>:%>%{i%}ñ%{I%}z CASES-ETC ;
+
+LEXICON POSSESSIVES-PROP
+
+%<px1sg%>:%>%{i%}m CASES-ETC-PROP ;
+%<px2sg%>:%>%{i%}ñ CASES-ETC-PROP ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC-PROP ;
+%<px1pl%>:%>%{i%}m%{I%}z CASES-ETC-PROP ;
+%<px2pl%>:%>%{i%}ñ%{I%}z CASES-ETC-PROP ;
+
 
 LEXICON ABESSIVE-POSTPOSITION
 
@@ -424,8 +447,8 @@ LI-POSTPOSITION ;
 LEXICON FULL-NOMINAL-INFLECTION-PROP
 
 PLURAL ;
-CASES-ETC ;
-POSSESSIVES ;
+CASES-ETC-PROP ;
+POSSESSIVES-PROP ;
 !ABESSIVE-POSTPOSITION ;
 !LI-POSTPOSITION ;
 
