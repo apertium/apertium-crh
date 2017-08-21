@@ -55,7 +55,9 @@ texts/challenge.vislcg.txt -text
 texts/crh-feats.tsv -text
 texts/grammar.crh.txt -text
 texts/grammar.vislcg.txt -text
+texts/ilyas.vislcg.txt -text
 texts/news.txt -text
+texts/news.vislcg.txt -text
 texts/puupankki/puupankki.crh.conllu -text
 texts/qarilgaclar.txt -text
 texts/wikipedia.vislcg.txt -text

@@ -1,0 +1,5532 @@
+"<Halqara>"
+	"halqara" adj
+;	"halqara" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"halqara" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"halqara" adj subst nom REMOVE:267
+"<cemaatı>"
+	"cemaat" n px3sp nom
+;	"cemaat" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Qırımnıñ>"
+	"Qırım" np top gen SELECT:167
+;	"qır" n px1sg gen SELECT:167
+;	"qırım" n gen SELECT:167
+"<Rusiyege>"
+	"Rusiye" np top dat
+;	"Rusiye" np top dat err_orth REMOVE:195
+"<qoşuluvını>"
+	"qoş" v tv pass ger_abst px3sp acc
+"<işğal>"
+	"işğal" n nom
+;	"işğal" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"işğal" n attr REMOVE:269
+"<olaraq>"
+	"ol" v iv gna_impf
+"<tanıy>"
+	"tanı" v tv aor p3 sg
+;	"tanı" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+
+"<Moskvanıñ>"
+	"Moskva" np top gen
+"<soñki>"
+	"soñki" adj
+;	"soñki" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"soñki" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"soñki" adj subst nom REMOVE:267
+"<areketleri>"
+	"areket" n pl px3sp nom
+;	"areket" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<arasında>"
+	"ara" n px3sp loc
+;	"ara" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<alâqalarnıñ>"
+	"alâqa" n pl gen
+"<kerginleşüvine>"
+	"kerginleş" v iv ger_abst px3sp dat
+"<ve>"
+	"ve" cnjcoo
+"<Rusiyeniñ>"
+	"Rusiye" np top gen
+;	"Rusiye" np top gen err_orth REMOVE:195
+"<halqara>"
+	"halqara" adj
+;	"halqara" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"halqara" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"halqara" adj subst nom REMOVE:267
+"<munasebetlerinden>"
+	"munasebet" n pl px3sp abl
+;	"munasebet" n pl px3sp abl
+;		"e" cop aor p3 sg REMOVE:214
+"<çetleşüvine>"
+	"çetle" v iv coop ger_abst px3sp dat
+"<ketire>"
+	"ketir" v tv aor p3 sg
+;	"ketir" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+
+"<NATO>"
+	"NATO" np al nom
+;	"NATO" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<AB>"
+	"AB" np top nom
+;	"AB" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<Avropa>"
+	"Avropa" np top nom
+;	"Avropa" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Birliginiñ>"
+	"birlik" n px3sp gen
+"<ayırı>"
+	"*ayırı"
+"<memleketleri>"
+	"memleket" n pl px3sp nom
+;	"memleket" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiyege>"
+	"Rusiye" np top dat
+;	"Rusiye" np top dat err_orth REMOVE:195
+"<qarşı>"
+	"qarşı" post SELECT:183
+;	"qarşı" n attr SELECT:183
+;	"qarşı" n nom SELECT:183
+;	"qarşı" n nom SELECT:183
+;		"e" cop aor p3 sg
+"<maliyeviy>"
+	"maliyeviy" adj
+;	"maliyeviy" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"maliyeviy" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"maliyeviy" adj subst nom REMOVE:267
+"<ve>"
+	"ve" cnjcoo
+"<vizalı>"
+	"*vizalı"
+"<cezalarnı>"
+	"ceza" n pl acc
+"<kirsetti>"
+	"kirset" v tv ifi p3 sg
+"<.>"
+	"." sent
+
+"<Moskva>"
+	"Moskva" np top nom
+;	"Moskva" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<«>"
+	"«" lquot
+"<G8>"
+	"*G8"
+"<»>"
+	"»" rquot
+"<terkibinden>"
+	"terkip" n px3sp abl
+;	"terkip" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:214
+"<çıqarıldı>"
+	"çıqar" v tv pass ifi p3 sg
+"<ve>"
+	"ve" cnjcoo
+"<Soçide>"
+	"*Soçide"
+"<keçirilecek>"
+	"keçiril" v iv ger_fut2 nom
+	"keçiril" v iv gpr_fut2
+	"keçiril" v iv fut2 p3 sg
+;	"keçir" v tv pass ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"keçiril" v iv ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"keçir" v tv pass gpr_fut2 REMOVE:255
+;	"keçir" v tv pass ger_fut2 nom REMOVE:255
+;	"keçir" v tv pass fut2 p3 sg REMOVE:255
+"<olğan>"
+	"ol" v iv prc_past SELECT:185
+;	"ol" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ol" v iv gpr_past SELECT:185
+;	"ol" v iv ger_past nom SELECT:185
+;	"ol" v iv past p3 sg SELECT:185
+"<dünyanıñ>"
+	"dünya" n gen
+"<eñ>"
+	"eñ" adv
+"<nufuzlı>"
+	"nufuzlı" adj
+;	"nufuzlı" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<memleketlerniñ>"
+	"memleket" n pl gen
+"<körüşüvini>"
+	"kör" v tv coop ger_abst px3sp acc
+	"körüşüv" n px3sp acc
+"<lâğu etildi>"
+	"lâğu et" v tv pass ifi p3 sg
+"<.>"
+	"." sent
+
+"<Bu>"
+	"bu" det dem
+	"bu" prn dem nom
+"<körüşüv>"
+	"kör" v tv coop ger_abst nom
+	"körüşüv" n nom
+;	"kör" v tv coop ger_abst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"körüşüv" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"körüşüv" n attr REMOVE:269
+"<Brüsselde>"
+	"Brüssel" np top loc
+;	"Brüssel" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<ötkerilecek>"
+	"ötker" v tv pass fut2 p3 sg
+;	"ötker" v tv pass ger_fut2 nom REMOVE:199
+;	"ötker" v tv pass ger_fut2 nom REMOVE:199
+;		"e" cop aor p3 sg
+;	"ötker" v tv pass gpr_fut2 REMOVE:277
+"<..>"
+	".." sent
+
+
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom SELECT:167
+;		"e" cop aor p1 sg
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+;	"qır" n px1sg nom SELECT:167
+;		"e" cop aor p3 sg
+;	"qırım" n nom SELECT:167
+;		"e" cop aor p3 sg
+;	"Qırım" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<toprağı>"
+	"topraq" n px3sp nom
+;	"topraq" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<olaraq>"
+	"ol" v iv gna_impf
+"<tanılsa>"
+	"tanıl" v iv gna_cond p3 sg
+;	"tanı" v tv pass prc_cond p3 sg REMOVE:241
+;	"tanıl" v iv prc_cond p3 sg REMOVE:241
+;	"tanı" v tv pass gna_cond p3 sg REMOVE:255
+"<,>"
+	"," cm
+"<o>"
+	"o" det dem
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+"<vaqıt>"
+	"vaqıt" n nom
+;	"vaqıt" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"vaqıt" n attr REMOVE:269
+"<RF>"
+	"RF" np al nom
+;	"RF" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukrainağa>"
+	"Ukraina" np top dat
+"<para>"
+	"para" n nom
+;	"para" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"para" n attr REMOVE:269
+"<berir>"
+	"ber" v tv prc_fut SELECT:185
+;	"ber" vaux gpr_fut SELECT:185
+;	"ber" v tv gpr_fut SELECT:185
+;	"ber" vaux fut p3 sg SELECT:185
+;	"ber" v tv fut p3 sg SELECT:185
+;	"ber" vaux prc_fut SELECT:185 REMOVE:247
+
+
+"<Rusiyeden>"
+	"Rusiye" np top abl
+;	"Rusiye" np top abl
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top abl
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"Rusiye" np top abl err_orth REMOVE:195
+"<maliye>"
+	"maliye" n attr
+	"maliye" n nom
+;	"maliye" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<yardımnı>"
+	"yardım" n acc
+"<almaq>"
+	"al" v tv ger nom
+;	"al" vaux ger nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"al" v tv ger nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"al" vaux ger nom REMOVE:247
+"<içün>"
+	"içün" post
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<Qırımnıñ>"
+	"Qırım" np top gen SELECT:167
+;	"qır" n px1sg gen SELECT:167
+;	"qırım" n gen SELECT:167
+"<RF>"
+	"RF" np al nom
+;	"RF" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<na>"
+	"*na"
+"<qoşuluvı>"
+	"qoş" v tv pass ger_abst px3sp nom
+;	"qoş" v tv pass ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<qanuniy>"
+	"qanuniy" adj
+;	"qanuniy" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<olğanını>"
+	"ol" v iv ger_past px3sp acc
+"<tanımalı>"
+	"tanı" v tv nec
+		"e" cop aor p3 sg
+;	"tanıma" n
+;		"lı" post REMOVE:149
+"<,>"
+	"," cm
+"<bundan>"
+	"bu" prn dem abl
+"<da>"
+	"da" postadv
+"<ğayrı>"
+	"ğayrı" post
+"<,>"
+	"," cm
+"<anayasa>"
+	"anayasa" n nom
+;	"anayasa" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"anayasa" n attr REMOVE:269
+"<islâatını>"
+	"*islâatını"
+"<,>"
+	"," cm
+"<saylavlarnı>"
+	"sayla" v tv ger_abst pl acc
+	"saylav" n pl acc
+"<keçirmek>"
+	"keçir" v tv ger nom
+;	"keçir" v tv ger nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<rusiyelilerni>"
+	"rusiyeli" adj subst pl acc
+"<ayırımamaq>"
+	"*ayırımamaq"
+"<kerek>"
+	"kerek" adj
+	"kerek" adj
+		"e" cop aor p3 sg
+;	"kerek" v iv imp p2 sg REMOVE:211
+"<.>"
+	"." sent
+
+"<Bunı>"
+	"bu" prn dem acc
+"<Washingtonda>"
+	"Washington" np top loc
+;	"Washington" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Almaniya>"
+	"Almaniya" np top nom SELECT:167
+;	"alman" n px3sp dat err_orth SELECT:167
+;	"Almaniya" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<maliyenaziri>"
+	"*maliyenaziri"
+"<Wolfgang>"
+	"*Wolfgang"
+"<Şoyble>"
+	"*Şoyble"
+"<ile>"
+	"ile" post
+"<körüşüv>"
+	"kör" v tv coop ger_abst nom
+	"körüşüv" n attr
+	"körüşüv" n nom
+;	"kör" v tv coop ger_abst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"körüşüv" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<çerçivesinde>"
+	"çerçive" n px3sp loc
+;	"çerçive" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<RF>"
+	"RF" np al nom
+;	"RF" np al nom
+;		"e" cop aor p3 sg REMOVE:155
+"<maliye>"
+	"maliye" n attr
+	"maliye" n nom
+;	"maliye" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<naziri>"
+	"nazir" n px3sp nom
+;	"nazir" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Anton>"
+	"Anton" np ant m nom
+;	"Anton" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Siluanov>"
+	"Siluanov" np cog m nom
+;	"Siluanov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bildirdi>"
+	"bildir" v tv ifi p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<«>"
+	"«" lquot
+"<Lew>"
+	"*Lew"
+"<ve>"
+	"ve" cnjcoo
+"<Şoyblege>"
+	"*Şoyblege"
+"<aytqan>"
+	"ayt" v tv prc_past SELECT:185
+;	"ayt" v tv gpr_past SELECT:185
+;	"ayt" v tv ger_past nom SELECT:185
+;	"ayt" v tv past p3 sg SELECT:185
+;	"ayt" v tv ger_past nom SELECT:185
+;		"e" cop aor p3 sg
+"<4>"
+	"4" num
+;	"4" num subst nom REMOVE:267
+"<noqtaiy>"
+	"*noqtaiy"
+"<->"
+	"-" guio
+"<nazarımız>"
+	"nazar" n px1pl nom
+;	"nazar" n nom
+;		"e" cop aor p1 pl REMOVE:214
+;	"nazar" n px3sp nom
+;		"e" cop aor p1 pl REMOVE:214
+;	"nazar" n px1pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bar>"
+	"bar" v iv imp p2 sg SELECT:203
+;	"bar" adj SELECT:203
+;	"bar" adj subst nom SELECT:203
+;	"bar" vaux imp p2 sg SELECT:203
+;	"bar" adj SELECT:203
+;		"e" cop aor p3 sg
+;	"bar" adj subst nom SELECT:203
+;		"e" cop aor p3 sg
+"<:>"
+	":" sent
+"<anayasa>"
+	"anayasa" n nom
+;	"anayasa" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"anayasa" n attr REMOVE:269
+"<islâatı>"
+	"*islâatı"
+"<,>"
+	"," cm
+"<prezidentniñ>"
+	"prezident" n gen
+"<qanuniy>"
+	"qanuniy" adj
+;	"qanuniy" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<saylavı>"
+	"saylav" n px3sp nom SELECT:205
+;	"sayla" v tv ger_abst px3sp nom SELECT:205
+;	"sayla" v tv ger_abst px3sp nom SELECT:205
+;		"e" cop aor p3 sg
+;	"saylav" n px3sp nom SELECT:205
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<añlaşmağa>"
+	"añla" v tv coop ger dat
+	"añlaş" v iv ger dat
+	"añlaşma" n dat
+"<mümkün>"
+	"mümkün" adj
+;	"mümkün" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<olğan>"
+	"ol" v iv prc_past SELECT:185
+;	"ol" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ol" v iv gpr_past SELECT:185
+;	"ol" v iv ger_past nom SELECT:185
+;	"ol" v iv past p3 sg SELECT:185
+"<ükümetniñ>"
+	"ükümet" n gen
+"<teşkil etüvi>"
+	"teşkil et" v tv ger_abst px3sp nom
+;	"teşkil et" v tv ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:155
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qırım" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+"<vaziyetiniñ>"
+	"vaziyet" n px3sp gen
+"<qanuniy>"
+	"qanuniy" adj
+;	"qanuniy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<tanuvı>"
+	"tanuv" n px3sp nom
+;	"tanuv" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<şarq>"
+	"şarq" n attr
+	"şarq" n nom
+;	"şarq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<regionlarında>"
+	"region" n pl px3sp loc
+;	"region" n pl px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<kergin>"
+	"kergin" adj
+;	"kergin" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"kergin" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"kergin" adj subst nom REMOVE:267
+"<meselelerniñ>"
+	"mesele" n pl gen
+"<çezilüvi>"
+	"çezil" v iv ger_abst px3sp nom
+;	"çez" v tv pass ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"çezil" v iv ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"çez" v tv pass ger_abst px3sp nom REMOVE:255
+"<,>"
+	"," cm
+"<–>"
+	"–" guio
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildire>"
+	"bildir" v tv aor p3 sg
+;	"bildir" v tv prc_impf REMOVE:241
+"<Siluanovanıñ>"
+	"Siluanov" np cog f gen
+"<sözlerini>"
+	"söz" n pl px3sp acc
+"<RİA>"
+	"RİA" np al nom
+;	"RİA" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Novosti>"
+	"*Novosti"
+"<.>"
+	"." sent
+
+"<–>"
+	"–" guio
+"<İdare>"
+	"idare" n nom
+;	"idare" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"idare" n attr REMOVE:269
+"<etüvni>"
+	"et" v tv ger_abst acc
+"<barışq>"
+	"*barışq"
+"<yollarnen>"
+	"yol" n pl ins
+;	"yol" n pl ins
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<qanunları>"
+	"qanun" n pl px3sp nom
+;	"qanun" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<boyunca>"
+	"boy" n px3sp sim
+	"boyun" n sim
+	"boyunca" post
+"<,>"
+	"," cm
+"<rus>"
+	"rus" n attr
+	"rus" n nom
+;	"rus" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<halqını>"
+	"halq" n px3sp acc
+"<ayırmayıp>"
+	"*ayırmayıp"
+"<,>"
+	"," cm
+"<qurban>"
+	"qurban" n nom
+;	"qurban" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qurban" n attr REMOVE:269
+"<ve>"
+	"ve" cnjcoo
+"<qırğınsız>"
+	"*qırğınsız"
+"<amelge>"
+	"amel" n dat
+"<keçirmek>"
+	"keçir" v tv ger nom
+;	"keçir" v tv ger nom
+;		"e" cop aor p3 sg REMOVE:214
+"<kerek>"
+	"kerek" adj
+	"kerek" adj
+		"e" cop aor p3 sg
+;	"kerek" v iv imp p2 sg REMOVE:211
+"<.>"
+	"." sent
+
+"<Böyle>"
+	"böyle" adv
+"<mevamıznı>"
+	"*mevamıznı"
+"<şart>"
+	"şart" n nom
+;	"şart" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"şart" n attr REMOVE:269
+"<olaraq>"
+	"ol" v iv gna_impf
+"<bildiremiz>"
+	"bildir" v tv aor p1 pl
+"<,>"
+	"," cm
+"<böyleliknen>"
+	"böyleliknen" adv
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<em>"
+	"em" cnjcoo
+"<bücet>"
+	"bücet" n nom
+;	"bücet" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"bücet" n attr REMOVE:269
+"<,>"
+	"," cm
+"<em>"
+	"em" cnjcoo
+"<gaz>"
+	"gaz" n attr
+	"gaz" n nom
+;	"gaz" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<meselelerinde>"
+	"mesele" n pl px3sp loc
+;	"mesele" n pl px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<maliyeviy>"
+	"maliyeviy" adj
+;	"maliyeviy" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"maliyeviy" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"maliyeviy" adj subst nom REMOVE:267
+"<yardımnı>"
+	"yardım" n acc
+"<köstere>"
+	"köster" v tv prc_impf SELECT:179
+;	"köster" v tv aor p3 sg SELECT:179
+"<bilecek>"
+	"bil" v tv fut2 p3 sg SELECT:181
+;	"bil" v tv gpr_fut2 SELECT:181
+;	"bil" v tv ger_fut2 nom SELECT:181
+;	"bil" v tv ger_fut2 nom SELECT:181
+;		"e" cop aor p3 sg
+"<»>"
+	"»" rquot
+"<.>"
+	"." sent
+ 
+
+
+"<Bıltır>"
+	"*Bıltır"
+"<RF>"
+	"RF" np al nom
+;	"RF" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukrainağa>"
+	"Ukraina" np top dat
+"<15>"
+	"15" num
+;	"15" num subst nom REMOVE:267
+"<mlrd>"
+	"*mlrd"
+"<doll>"
+	"*doll"
+"<.>"
+	"." sent
+
+"<miqdarında>"
+	"miqdar" n px3sp loc
+;	"miqdar" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<maliyeviy>"
+	"maliyeviy" adj
+;	"maliyeviy" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"maliyeviy" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"maliyeviy" adj subst nom REMOVE:267
+"<yardımnı>"
+	"yardım" n acc
+"<köstermege>"
+	"köster" v tv ger dat
+"<qarar>"
+	"qarar" n attr SELECT:151
+	"qarar" n nom SELECT:151
+;	"qara" vaux prc_fut SELECT:151
+;	"qara" vaux gpr_fut SELECT:151
+;	"qara" v iv prc_fut SELECT:151
+;	"qara" v iv gpr_fut SELECT:151
+;	"qara" vaux fut p3 sg SELECT:151
+;	"qara" v iv fut p3 sg SELECT:151
+;	"qarar" v iv imp p2 sg SELECT:151
+;	"qarar" n nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:214
+"<aldı>"
+	"ald" n px3sp nom
+	"ald" n px3sp nom
+		"e" cop aor p3 sg
+	"al" v tv ifi p3 sg
+	"al" n nom
+		"e" cop ifi p3 sg
+;	"al" vaux ifi p3 sg REMOVE:247
+"<.>"
+	"." sent
+
+"<Faqat>"
+	"faqat" cnjcoo
+;	"faqat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"faqat" n attr REMOVE:220
+;	"faqat" n nom REMOVE:220
+"<tek>"
+	"tek" adv
+"<3>"
+	"3" num
+;	"3" num subst nom REMOVE:267
+"<mlrd>"
+	"*mlrd"
+"<doll>"
+	"*doll"
+"<.>"
+	"." sent
+
+"<keçirmege>"
+	"keçir" v tv ger dat
+"<yetiştirdi>"
+	"yetiştir" v tv ifi p3 sg
+"<.>"
+	"." sent
+
+"<Bundan>"
+	"bu" prn dem abl
+"<soñraUkrainadaki>"
+	"*soñraUkrainadaki"
+"<siyasiy>"
+	"siyasiy" adj
+;	"siyasiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<buhran>"
+	"buhran" n attr
+	"buhran" n nom
+;	"buhran" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<mucadelesi>"
+	"mucadele" n px3sp nom
+;	"mucadele" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<neticesinde>"
+	"netice" n px3sp loc
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<ükümet de>"
+	"ükümet" n nom
+		"e" cop aor p3 sg
+			"da" postadv err_orth
+;	"ükümet" n nom
+;		"da" postadv err_orth REMOVE:193
+"<deñişti>"
+	"deñiş" v iv ifi p3 sg
+"<.>"
+	"." sent
+
+"<Bu>"
+	"bu" det dem
+	"bu" prn dem nom
+"<sebepten>"
+	"sebep" n abl
+;	"sebep" n abl
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<gaz>"
+	"gaz" n nom
+;	"gaz" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"gaz" n attr REMOVE:269
+"<içün>"
+	"içün" post
+"<endirim>"
+	"*endirim"
+"<bermeyip>"
+	"*bermeyip"
+"<,>"
+	"," cm
+"<ukrain>"
+	"ukrain" adj
+	"ukrain" n attr
+	"ukrain" n nom
+;	"ukrain" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" adj subst nom REMOVE:267
+"<iqtisadiyatnıñ>"
+	"iqtisadiyat" n gen
+"<teminlevinden>"
+	"teminlev" n px3sp abl
+;	"teminlev" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:214
+"<vazgeçti>"
+	"vazgeç" v iv ifi p3 sg
+"<..>"
+	".." sent
+
+
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<Ab>"
+	"*Ab"
+"<aprel>"
+	"aprel" n nom
+;	"aprel" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aprel" n attr REMOVE:269
+"<17>"
+	"17" num
+;	"17" num subst nom REMOVE:267
+"<künü>"
+	"kün" n px3sp nom
+;	"kün" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Jenevada>"
+	"Jeneva" np top loc
+;	"Jeneva" np top loc
+;		"e" cop aor p3 sg REMOVE:155
+"<muzakerelerni>"
+	"muzakere" n pl acc
+"<keçirecekler>"
+	"keçir" v tv fut2 p3 pl
+	"keçir" v tv ger_fut2 pl nom
+;	"keçir" v tv ger_fut2 nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"keçir" v tv ger_fut2 pl nom
+;		"e" cop aor p3 sg REMOVE:214
+
+
+"<Dört>"
+	"dört" num
+;	"dört" num subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"dört" num subst nom REMOVE:267
+"<taraflama>"
+	"*taraflama"
+"<muzakereler>"
+	"muzakere" n pl nom
+;	"muzakere" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"muzakere" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<aprel>"
+	"aprel" n nom
+;	"aprel" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aprel" n attr REMOVE:269
+"<17>"
+	"17" num
+;	"17" num subst nom REMOVE:267
+"<künü>"
+	"kün" n px3sp nom
+;	"kün" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Jenevada>"
+	"Jeneva" np top loc
+;	"Jeneva" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<olıp>"
+	"ol" v iv prc_perf err_orth SELECT:185
+;	"ol" v iv gna_perf err_orth SELECT:185
+"<keçecek>"
+	"keç" v iv fut2 p3 sg
+;	"keç" v iv ger_fut2 nom REMOVE:199
+;	"keç" v iv ger_fut2 nom REMOVE:199
+;		"e" cop aor p3 sg
+;	"keç" v iv gpr_fut2 REMOVE:277
+"<.>"
+	"." sent
+
+"<Mında>"
+	"mında" adv
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<AB>"
+	"AB" np top nom
+;	"AB" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<tışqı>"
+	"tışqı" adj
+;	"tışqı" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<siyasiy>"
+	"siyasiy" adj
+;	"siyasiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<bölükleri>"
+	"bölük" n pl px3sp nom
+;	"bölük" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<iştirak etecek>"
+	"iştirak et" v iv gpr_fut2
+	"iştirak et" v iv ger_fut2 nom
+	"iştirak et" v iv fut2 p3 sg
+;	"iştirak et" v iv ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildire>"
+	"bildir" v tv aor p3 sg
+;	"bildir" v tv prc_impf REMOVE:241
+"<Azatlıq>"
+	"azatlıq" n attr
+	"azatlıq" n nom
+;	"azatlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Radiosı>"
+	"radio" n px3sp nom
+	"radio" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Bunı>"
+	"bu" prn dem acc
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"AQŞ" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+"<devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<departamentiniñ>"
+	"departament" n px3sp gen
+"<matbuat>"
+	"matbuat" n nom
+;	"matbuat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"matbuat" n attr REMOVE:269
+"<->"
+	"-" guio
+"<kâtibi>"
+	"kâtip" n px3sp nom
+;	"kâtip" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Jen>"
+	"*Jen"
+"<Psaki>"
+	"*Psaki"
+"<bildirdi>"
+	"bildir" v tv ifi p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Evelleri>"
+	"*Evelleri"
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<buhranı>"
+	"buhran" n px3sp nom
+;	"buhran" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<sebebinden>"
+	"sebep" n px3sp abl
+;	"sebep" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:214
+"<olacaq>"
+	"ol" v iv gpr_fut2
+	"ol" v iv ger_fut2 nom
+	"ol" v iv fut2 p3 sg
+;	"ol" v iv ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+"<körüşüvni>"
+	"kör" v tv coop ger_abst acc
+	"körüşüv" n acc
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"AQŞ" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+"<devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<kâtibi>"
+	"kâtip" n px3sp nom
+;	"kâtip" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<John>"
+	"John" np ant m nom
+;	"John" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Kerry>"
+	"Kerry" np cog mf nom
+;	"Kerry" np cog mf nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<çetel>"
+	"çetel" adj
+	"çetel" n attr
+	"çetel" n nom
+;	"çetel" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom REMOVE:267
+"<işler>"
+	"iş" n pl nom SELECT:151
+;	"işle" v tv prc_fut SELECT:151
+;	"işle" v tv gpr_fut SELECT:151
+;	"işle" v tv fut p3 sg SELECT:151
+;	"iş" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:155
+;	"iş" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:155
+"<naziri>"
+	"nazir" n px3sp nom
+;	"nazir" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Sergey>"
+	"Sergey" np ant m nom
+;	"Sergey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Lavrov>"
+	"Lavrov" np cog m nom
+;	"Lavrov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<muzakerelerniñ>"
+	"muzakere" n pl gen
+"<diger>"
+	"diger" det ind
+	"diger" prn ind nom
+;	"diger" prn ind nom
+;		"e" cop aor p3 sg REMOVE:155
+"<iştirakçileri>"
+	"iştirakçi" n pl px3sp nom
+;	"iştirakçi" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<tasdıqladılar>"
+	"tasdıqla" v tv ifi p3 pl
+"<.>"
+	"." sent
+
+"<Toplaşuv>"
+	"topla" v tv coop ger_abst nom
+	"toplaş" v iv ger_abst nom
+	"toplaşuv" n attr
+	"toplaşuv" n nom
+;	"topla" v tv coop ger_abst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"toplaş" v iv ger_abst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"toplaşuv" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<kelecek>"
+	"kelecek" n attr SELECT:151
+	"kelecek" n nom SELECT:151
+;	"kel" vaux gpr_fut2 SELECT:151
+;	"kel" v iv gpr_fut2 SELECT:151
+;	"kel" vaux ger_fut2 nom SELECT:151
+;	"kel" v iv ger_fut2 nom SELECT:151
+;	"kel" vaux fut2 p3 sg SELECT:151
+;	"kel" v iv fut2 p3 sg SELECT:151
+;	"kel" vaux ger_fut2 nom SELECT:151
+;		"e" cop aor p3 sg
+;	"kel" v iv ger_fut2 nom SELECT:151
+;		"e" cop aor p3 sg
+;	"kelecek" n nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:155
+"<afta>"
+	"afta" n nom
+;	"afta" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"afta" n attr REMOVE:269
+"<olacağı>"
+	"ol" v iv ger_fut2 px3sp nom
+;	"ol" v iv ger_fut2 px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<aqqında>"
+	"aqq" n px3sp loc
+;	"aqq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<söz>"
+	"söz" n nom
+;	"söz" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"söz" n attr REMOVE:269
+"<yürsetile>"
+	"*yürsetile"
+"<edi>"
+	"e" cop ifi p3 sg
+;	"e" vaux ifi p3 sg REMOVE:247
+"<,>"
+	"," cm
+"<amma>"
+	"amma" cnjcoo
+"<o>"
+	"o" det dem
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+"<vaqıt>"
+	"vaqıt" n attr
+	"vaqıt" n nom
+;	"vaqıt" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<tarih>"
+	"tarih" n nom
+;	"tarih" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"tarih" n attr REMOVE:269
+"<ve>"
+	"ve" cnjcoo
+"<yerni>"
+	"yer" n acc
+"<belgilemediler>"
+	"belgile" v tv neg ifi p3 pl
+	"belgile" v tv ger nom
+		"e" cop ifi p3 pl
+"<..>"
+	".." sent
+
+
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<nıñ>"
+	"*nıñ"
+"<cezasına>"
+	"ceza" n px3sp dat
+"<daa>"
+	"daa" adj
+	"daa" adv
+;	"daa" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<yedi>"
+	"yedi" num
+	"ye" v tv ifi p3 sg
+;	"yedi" num subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yedi" num subst nom REMOVE:267
+"<qırımlı>"
+	"qırımlı" adj
+;	"qırım" n
+;		"lı" post REMOVE:157
+;	"qırımlı" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qırımlı" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"qırımlı" adj subst nom REMOVE:267
+"<ve>"
+	"ve" cnjcoo
+  
+"<«>"
+	"«" lquot
+"<Çernomorneftegaz>"
+	"Çernomorneftegaz" np al nom
+;	"Çernomorneftegaz" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<»>"
+	"»" rquot
+"<oğradı>"
+	"oğra" v iv ifi p3 sg
+
+
+"<Amerika>"
+	"Amerika" np top nom
+;	"Amerika" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Amerika" np top nom err_orth REMOVE:195
+;	"Amerika" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Qoşma>"
+	"qoşma" adj
+	"qoş" v tv ger nom
+	"qoş" v tv neg imp p2 sg
+;	"qoşma" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"qoş" v tv ger nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ştatalarınıñ>"
+	"*Ştatalarınıñ"
+"<maliye>"
+	"maliye" n attr
+	"maliye" n nom
+;	"maliye" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<nazirligi>"
+	"nazirlik" n px3sp nom
+;	"nazirlik" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Qırımnıñ>"
+	"Qırım" np top gen SELECT:167
+;	"qır" n px1sg gen SELECT:167
+;	"qırım" n gen SELECT:167
+"<qanunsız>"
+	"qanun" n
+		"sız" post
+;	"qanun" n nom
+;		"e" cop aor p2 pl REMOVE:155
+"<ükümeti>"
+	"ükümet" n px3sp nom
+;	"ükümet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<vekillerine>"
+	"vekil" n pl px3sp dat
+"<qarşı>"
+	"qarşı" post SELECT:183
+;	"qarşı" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qarşı" n attr SELECT:183
+;	"qarşı" n nom SELECT:183
+"<sanktsiyalar>"
+	"sanktsiya" n pl nom
+;	"sanktsiya" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"sanktsiya" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<belgiledi>"
+	"belgile" v tv ifi p3 sg
+"<.>"
+	"." sent
+ 
+  
+
+
+"<Azatlıq>"
+	"azatlıq" n attr
+	"azatlıq" n nom
+;	"azatlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Radiosı>"
+	"radio" n px3sp nom
+;	"radio" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bildirgeni>"
+	"bildir" v tv ger_past px3sp nom
+;	"bildir" v tv ger_past px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<kibi>"
+	"kibi" post
+"<,>"
+	"," cm
+"<cedvelge>"
+	"cedvel" n dat
+"<Kiyev>"
+	"Kiyev" np top nom SELECT:167
+;	"kiyev" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Kiyev" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"kiyev" n attr SELECT:167
+;	"kiyev" n nom SELECT:167
+"<tarafından>"
+	"taraf" n px3sp abl
+;	"taraf" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:155
+"<işten>"
+	"iş" n abl
+;	"iş" n abl
+;		"e" cop aor p3 sg REMOVE:214
+"<çıqarılğan>"
+	"çıqar" v tv pass gpr_past
+	"çıqar" v tv pass past p3 sg
+	"çıqar" v tv pass ger_past nom
+;	"çıqar" v tv pass ger_past nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"çıqar" v tv pass prc_past REMOVE:241
+"<mahsus>"
+	"mahsus" adj
+;	"mahsus" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmetlerniñ>"
+	"hızmet" n pl gen
+"<yolbaşçısı>"
+	"yolbaşçı" n px3sp nom
+;	"yolbaşçı" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Petr>"
+	"Petr" np ant m nom
+;	"Petr" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Zima>"
+	"*Zima"
+"<,>"
+	"," cm
+"<öz>"
+	"öz" det ref
+"<başına>"
+	"baş" n px3sp dat
+"<tayinlengen>"
+	"*tayinlengen"
+"<Aqyarnıñ>"
+	"Aqyar" np top gen
+"<meri>"
+	"*meri"
+"<Aleksey>"
+	"Aleksey" np ant m nom
+;	"Aleksey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Çalıy>"
+	"*Çalıy"
+"<,>"
+	"," cm
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom SELECT:167
+;		"e" cop aor p1 sg
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+;	"qır" n px1sg nom SELECT:167
+;		"e" cop aor p3 sg
+;	"qırım" n nom SELECT:167
+;		"e" cop aor p3 sg
+;	"Qırım" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<«>"
+	"«" lquot
+"<ükümet>"
+	"ükümet" n nom
+;	"ükümet" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ükümet" n attr REMOVE:269
+"<»>"
+	"»" rquot
+"<yolbaşçsı>"
+	"*yolbaşçsı"
+"<muavini>"
+	"muavin" n px3sp nom
+;	"muavin" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Rustam>"
+	"Rustam" np ant m nom
+;	"Rustam" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Temirgaliyev>"
+	"Temirgaliyev" np cog m nom
+;	"Temirgaliyev" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:155
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qırım" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+"<parlamenti>"
+	"parlament" n px3sp nom
+;	"parlament" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<spikeriniñ>"
+	"spiker" n px3sp gen
+"<mesleatçısı>"
+	"mesleatçı" n px3sp nom
+;	"mesleatçı" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Yuriy>"
+	"Yuriy" np ant m nom
+;	"Yuriy" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Jerebtsov>"
+	"Jerebtsov" np cog m nom
+;	"Jerebtsov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<«>"
+	"«" lquot
+"<referendum>"
+	"referendum" n nom
+;	"referendum" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"referendum" n attr REMOVE:269
+"<»>"
+	"»" rquot
+"<nıñ>"
+	"*nıñ"
+"<keçirilüvi>"
+	"keçiril" v iv ger_abst px3sp nom
+;	"keçir" v tv pass ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"keçiril" v iv ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"keçir" v tv pass ger_abst px3sp nom REMOVE:255
+"<boyunca>"
+	"boy" n px3sp sim
+	"boyun" n sim
+	"boyunca" post
+"<komissiya>"
+	"komissiya" n attr
+	"komissiya" n nom
+;	"komissiya" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<reisi>"
+	"reis" n px3sp nom
+;	"reis" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Mihail>"
+	"Mihail" np ant m nom
+;	"Mihail" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Malışev>"
+	"*Malışev"
+"<,>"
+	"," cm
+"<bu>"
+	"bu" det dem
+	"bu" prn dem nom
+"<kibi>"
+	"kibi" post
+"<Aqyardaki>"
+	"Aqyar" np top loc attr
+;	"Aqyar" np top loc subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Aqyar" np top loc subst nom REMOVE:267
+"<komissiyanıñ>"
+	"komissiya" n gen
+"<yolbaşçısı>"
+	"yolbaşçı" n px3sp nom
+;	"yolbaşçı" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Valeriy>"
+	"Valeriy" np ant m nom
+;	"Valeriy" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Medved>"
+	"*Medved"
+є
+"<v>"
+	"*v"
+"<ve>"
+	"ve" cnjcoo
+"<qırım>"
+	"qırım" n nom
+	"qırım" n attr
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:214
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qırım" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qır" n px1sg nom REMOVE:224
+"<Yuqarı>"
+	"yuqarı" adj
+	"yuqarı" adv
+	"yuqar" n px3sp nom
+;	"yuqarı" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yuqar" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Şurası>"
+	"şura" n px3sp nom
+;	"şura" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<sabıq>"
+	"sabıq" adj
+;	"sabıq" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<vitse>"
+	"*vitse"
+"<->"
+	"-" guio
+"<spikeri>"
+	"spiker" n px3sp nom
+;	"spiker" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Sergey>"
+	"Sergey" np ant m nom
+;	"Sergey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Tserkovnıñ>"
+	"Tserkov" np cog m gen
+"<soy>"
+	"soy" n attr
+	"soy" n nom
+	"soy" v tv imp p2 sg
+;	"soy" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<adları>"
+	"ad" n pl px3sp nom err_orth
+	"at²" n pl px3sp nom err_orth
+;	"ad" n pl px3sp nom
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"at²" n pl px3sp nom
+;		"e" cop aor p3 sg err_orth REMOVE:193
+"<kirsetildi>"
+	"kirset" v tv pass ifi p3 sg
+"<.>"
+	"." sent
+ 
+  
+
+
+"<Bu>"
+	"bu" det dem
+	"bu" prn dem nom
+"<kibi>"
+	"kibi" post
+"<areketler>"
+	"areket" n pl nom
+;	"areket" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"areket" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<şimdiki>"
+	"şimdiki" adj
+;	"şimdiki" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<vaqıtta>"
+	"vaqıt" n loc
+;	"vaqıt" n loc
+;		"e" cop aor p3 sg REMOVE:155
+"<separatistlerniñ>"
+	"separatist" n pl gen
+"<qoluna>"
+	"qol" n px3sp dat
+"<keçken>"
+	"keç" v iv prc_past SELECT:185
+;	"keç" v iv gpr_past SELECT:185
+;	"keç" v iv ger_past nom SELECT:185
+;	"keç" v iv past p3 sg SELECT:185
+;	"keç" v iv ger_past nom SELECT:185
+;		"e" cop aor p3 sg
+"<«>"
+	"«" lquot
+"<Çernomorneftegaz>"
+	"Çernomorneftegaz" np al nom
+;	"Çernomorneftegaz" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<»>"
+	"»" rquot
+"<şirketine de>"
+	"şirket" n px3sp dat
+		"da" postadv err_orth
+"<tesir>"
+	"tesir" n nom
+;	"tesir" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"tesir" n attr REMOVE:269
+"<etecek>"
+	"et" v tv fut2 p3 sg
+;	"et" v tv ger_fut2 nom REMOVE:199
+;	"et" v tv ger_fut2 nom REMOVE:199
+;		"e" cop aor p3 sg
+;	"et" v tv gpr_fut2 REMOVE:277
+"<.>"
+	"." sent
+ 
+  
+
+
+"<Sanktsiyalar>"
+	"sanktsiya" n pl nom
+;	"sanktsiya" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"sanktsiya" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<boyunca>"
+	"boy" n px3sp sim
+	"boyun" n sim
+	"boyunca" post
+"<,>"
+	"," cm
+"<yuqarıda>"
+	"yuqarıda" adv
+"<añılğan>"
+	"añıl" v iv prc_past SELECT:185
+;	"añıl" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"añıl" v iv gpr_past SELECT:185
+;	"añıl" v iv ger_past nom SELECT:185
+;	"añıl" v iv past p3 sg SELECT:185
+"<şahıslarnıñ>"
+	"şahıs" n pl gen
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<nıñ>"
+	"*nıñ"
+"<territoriyasında>"
+	"territoriya" n px3sp loc
+;	"territoriya" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<olğan>"
+	"ol" v iv prc_past SELECT:185
+;	"ol" v iv gpr_past SELECT:185
+;	"ol" v iv ger_past nom SELECT:185
+;	"ol" v iv past p3 sg SELECT:185
+;	"ol" v iv ger_past nom SELECT:185
+;		"e" cop aor p3 sg
+"<er>"
+	"er" det ind
+	"er" n nom
+;	"er" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"er" n attr REMOVE:269
+"<türlü>"
+	"türlü" adj
+;	"türlü" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"tür" n
+;		"lı" post REMOVE:157
+"<aktivlerniñ>"
+	"aktiv" n pl gen
+"<toqtatılması>"
+	"toqtat" v tv pass ger px3sp nom
+;	"toqtat" v tv pass ger px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<belgelene>"
+	"*belgelene"
+"<.>"
+	"." sent
+
+"<Em de>"
+	"em de" cnjcoo
+"<,>"
+	"," cm
+"<maliye>"
+	"maliye" n attr
+	"maliye" n nom
+;	"maliye" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<tedbirlerniñ>"
+	"tedbir" n pl gen
+"<ötkerilüvi da>"
+	"ötker" v tv pass ger_abst px3sp nom
+		"da" postadv
+;	"ötker" v tv pass ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+;			"da" postadv
+"<yasaqlana>"
+	"yasaqlan" v iv aor p3 sg
+;	"yasaqlan" v iv prc_impf REMOVE:241
+"<.>"
+	"." sent
+ 
+  
+
+
+"<Bundan>"
+	"bu" prn dem abl
+"<evel>"
+	"evel" post
+"<,>"
+	"," cm
+"<kirsetilgen>"
+	"kirset" v tv pass gpr_past
+	"kirset" v tv pass past p3 sg
+	"kirset" v tv pass ger_past nom
+;	"kirset" v tv pass ger_past nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"kirset" v tv pass prc_past REMOVE:241
+"<yasaqlar>"
+	"yasaq" adj
+		"e" cop aor p3 pl
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:155
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qırım" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+"<Devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Şurasınıñ>"
+	"şura" n px3sp gen
+"<yolbaşçısı>"
+	"yolbaşçı" n px3sp nom
+;	"yolbaşçı" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Vladimir>"
+	"Vladimir" np ant m nom
+;	"Vladimir" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Konstantinov>"
+	"Konstantinov" np cog m nom
+;	"Konstantinov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:155
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qırım" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+"<baş>"
+	"baş" n nom
+;	"baş" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"baş" n attr REMOVE:269
+"<->"
+	"-" guio
+"<naziri>"
+	"nazir" n px3sp nom
+;	"nazir" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Sergey>"
+	"Sergey" np ant m nom
+;	"Sergey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Aksenovnen>"
+	"Aksenov" np cog m ins
+;	"Aksenov" np cog m ins
+;		"e" cop aor p3 sg REMOVE:214
+"<bağlı>"
+	"bağlı" adj
+;	"bağ" n
+;		"lı" post REMOVE:157
+;	"bağlı" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<edi>"
+	"e" cop ifi p3 sg
+;	"e" vaux ifi p3 sg REMOVE:247
+"<..>"
+	".." sent
+
+
+"<Slovânskta>"
+	"*Slovânskta"
+"<ekstremistlerniñ>"
+	"ekstremist" n pl gen
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"bir" num subst nom REMOVE:267
+"<qısımnı>"
+	"qısım" n acc
+"<оligarh>"
+	"*оligarh"
+"<idare>"
+	"idare" n nom
+;	"idare" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"idare" n attr REMOVE:269
+"<ete>"
+	"et" v tv prc_impf SELECT:185
+;	"et" v tv aor p3 sg SELECT:185
+"<–>"
+	"–" guio
+"<Tımçuk>"
+	"*Tımçuk"
+
+
+"<Arbiy>"
+	"arbiy" adj
+;	"arbiy" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"arbiy" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"arbiy" adj subst nom REMOVE:267
+"<->"
+	"-" guio
+"<siyasiy>"
+	"siyasiy" adj
+;	"siyasiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<taqiqatlar>"
+	"taqiqat" n pl nom
+;	"taqiqat" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"taqiqat" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<merkeziniñ>"
+	"merkez" n px3sp gen
+"<yolbaşçısı>"
+	"yolbaşçı" n px3sp nom
+;	"yolbaşçı" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Dmıtro>"
+	"Dmıtro" np ant m nom
+;	"Dmıtro" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Tımçuk>"
+	"*Tımçuk"
+"<Slovânsk>"
+	"*Slovânsk"
+"<ile>"
+	"ile" post
+"<bağlı>"
+	"bağlı" adj
+;	"bağ" n
+;		"lı" post REMOVE:157
+;	"bağlı" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<tahminiy>"
+	"*tahminiy"
+"<neticelerni>"
+	"netice" n pl acc
+"<ketire>"
+	"ketir" v tv aor p3 sg
+;	"ketir" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+ 
+
+
+"<«>"
+	"«" lquot
+"<İnformatsion>"
+	"informatsion" n attr
+	"informatsion" n nom
+;	"informatsion" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<qarşılıq>"
+	"qarşılıq" n nom
+;	"qarşılıq" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qarşılıq" n attr REMOVE:269
+"<»>"
+	"»" rquot
+"<gruppasınıñ>"
+	"gruppa" n px3sp gen
+"<malümatı>"
+	"malümat" n px3sp nom
+	"malümat" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Slovânskta>"
+	"*Slovânskta"
+"<ekstremistlerniñ>"
+	"ekstremist" n pl gen
+"<esas>"
+	"esas" n attr
+	"esas" n nom
+;	"esas" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<qısmı>"
+	"qısım" n px3sp nom
+;	"qısım" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<600>"
+	"600" num
+;	"600" num subst nom REMOVE:267
+"<insandan>"
+	"insan" n abl
+;	"insan" n abl
+;		"e" cop aor p3 sg REMOVE:214
+"<ibaret>"
+	"ibaret" adj
+	"ibaret" adj
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<RF>"
+	"RF" np al nom
+;	"RF" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<SQ>"
+	"*SQ"
+"<BŞ>"
+	"*BŞ"
+"<Baş>"
+	"baş" n attr
+	"baş" n nom
+;	"baş" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<istihbarat>"
+	"istihbarat" n attr
+	"istihbarat" n nom
+;	"istihbarat" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<idaresiniñ>"
+	"idare" n px3sp gen
+"<spetsnazından>"
+	"*spetsnazından"
+"<ğayrı>"
+	"ğayrı" post
+"<,>"
+	"," cm
+"<şeerde>"
+	"şeer" n loc
+;	"şeer" n loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Donbassnıñ>"
+	"Donbass" np top gen
+"<çeşit>"
+	"çeşit" n attr
+	"çeşit" n nom
+;	"çeşit" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<areket>"
+	"areket" n nom
+;	"areket" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"areket" n attr REMOVE:269
+"<ve>"
+	"ve" cnjcoo
+"<teşkilâtlarnıñ>"
+	"teşkilât" n pl gen
+"<vekilleri de>"
+	"vekil" n pl px3sp nom
+		"da" postadv err_orth
+;	"vekil" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+;			"da" postadv err_orth
+"<faaliyet>"
+	"faaliyet" n nom
+;	"faaliyet" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"faaliyet" n attr REMOVE:269
+"<köstere>"
+	"köster" v tv aor p3 sg
+;	"köster" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+
+"<Olar>"
+	"olar" prn pers p3 pl nom
+"<2>"
+	"2" num
+;	"2" num subst nom REMOVE:267
+"<gruppağa>"
+	"gruppa" n dat
+"<bölündi>"
+	"böl" v tv pass ifi p3 sg
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<–>"
+	"–" guio
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<qayd ete>"
+	"qayd et" v tv aor p3 sg
+;	"qayd et" v tv prc_impf REMOVE:241
+"<o>"
+	"o" det dem
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+"<öz>"
+	"öz" det ref
+"<Fasebook>"
+	"*Fasebook"
+"<saifesinde>"
+	"saife" n px3sp loc
+	"saife" n px3sp loc
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<«>"
+	"«" lquot
+"<200>"
+	"200" num
+;	"200" num subst nom REMOVE:267
+"<insandan>"
+	"insan" n abl
+;	"insan" n abl
+;		"e" cop aor p3 sg REMOVE:214
+"<ibaret>"
+	"ibaret" adj
+;	"ibaret" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<olğan>"
+	"ol" v iv prc_past SELECT:185
+;	"ol" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ol" v iv gpr_past SELECT:185
+;	"ol" v iv ger_past nom SELECT:185
+;	"ol" v iv past p3 sg SELECT:185
+"<gruppağa>"
+	"gruppa" n dat
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"bir" num subst nom REMOVE:267
+"<оligarhnıñ>"
+	"*оligarhnıñ"
+"<müitinden>"
+	"müit" n px3sp abl
+;	"müit" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:155
+"<vekiller>"
+	"vekil" n pl nom
+;	"vekil" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"vekil" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<yolbaşçılıq>"
+	"yolbaşçılıq" n nom
+;	"yolbaşçılıq" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yolbaşçılıq" n attr REMOVE:269
+"<ete>"
+	"et" v tv aor p3 sg
+;	"et" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+
+"<Ekinci>"
+	"eki" num ord
+;	"eki" num ord subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"eki" num ord subst nom REMOVE:267
+"<gruppağa>"
+	"gruppa" n dat
+"<,>"
+	"," cm
+"<300>"
+	"300" num
+;	"300" num subst nom REMOVE:267
+"<insan>"
+	"insan" n nom
+;	"insan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"insan" n attr REMOVE:269
+"<,>"
+	"," cm
+"<belli>"
+	"belli" adj
+;	"bel" n
+;		"lı" post REMOVE:157
+;	"belli" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj subst nom REMOVE:267
+"<cinaiy>"
+	"cinaiy" adj
+;	"cinaiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<şahısnıñ>"
+	"şahıs" n gen
+"<müitinden>"
+	"müit" n px3sp abl
+;	"müit" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:155
+"<insanlar>"
+	"insan" n pl nom
+;	"insan" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"insan" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<başlıq>"
+	"başlıq" n nom
+;	"başlıq" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"başlıq" n attr REMOVE:269
+"<ete>"
+	"et" v tv aor p3 sg
+;	"et" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+
+"<Ekstermist>"
+	"*Ekstermist"
+"<areketlerniñ>"
+	"areket" n pl gen
+"<umumiy>"
+	"umumiy" adj
+;	"umumiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<idaresini>"
+	"idare" n px3sp acc
+"<ise>"
+	"ise" cnjcoo
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<Baş>"
+	"baş" n attr
+	"baş" n nom
+;	"baş" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<istihbarat>"
+	"istihbarat" n attr
+	"istihbarat" n nom
+;	"istihbarat" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<idaresi>"
+	"idare" n px3sp nom
+;	"idare" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<keçire>"
+	"keçir" v tv aor p3 sg
+;	"keçir" v tv prc_impf REMOVE:241
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<–>"
+	"–" guio
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<yaza>"
+	"yaz" v tv aor p3 sg
+;	"yaz" v tv prc_impf REMOVE:241
+"<arbiy>"
+	"arbiy" adj
+;	"arbiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"arbiy" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"arbiy" adj subst nom REMOVE:267
+"<ekspert>"
+	"ekspert" n nom
+		"e" cop aor p3 sg
+	"ekspert" n nom
+;	"ekspert" n attr REMOVE:269
+"<.>"
+	"." sent
+ 
+
+
+"<Donetsk>"
+	"Donetsk" np top nom
+;	"Donetsk" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+"<vilâyet>"
+	"vilâyet" n attr
+	"vilâyet" n nom
+;	"vilâyet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<memuriyetniñ>"
+	"memuriyet" n gen
+"<malümatına>"
+	"malümat" n px3sp dat
+"<köre>"
+	"köre" post SELECT:183
+;	"kör" v tv prc_impf SELECT:183
+;	"kör" v tv aor p3 sg SELECT:183
+"<,>"
+	"," cm
+"<bugün>"
+	"bugün" adv
+"<antiterroristik>"
+	"*antiterroristik"
+"<ameliyat>"
+	"ameliyat" n attr
+	"ameliyat" n nom
+;	"ameliyat" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<neticesinde>"
+	"netice" n px3sp loc
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Slavânskta>"
+	"Slavânsk" np top loc
+;	"Slavânsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"bir" num subst nom REMOVE:267
+"<insan>"
+	"insan" n nom
+;	"insan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"insan" n attr REMOVE:269
+"<elâk oldı>"
+	"elâk ol" v iv ifi p3 sg
+"<,>"
+	"," cm
+"<9>"
+	"9" num
+;	"9" num subst nom REMOVE:267
+"<yaralandı>"
+	"yaralan" v iv ifi p3 sg
+"<..>"
+	".." sent
+
+
+"<Donetskte>"
+	"Donetsk" np top loc
+;	"Donetsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<antiterroristik>"
+	"*antiterroristik"
+"<ameliyat>"
+	"ameliyat" n attr
+	"ameliyat" n nom
+;	"ameliyat" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<neticesinde>"
+	"netice" n px3sp loc
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"bir" num subst nom REMOVE:267
+"<insan>"
+	"insan" n nom
+;	"insan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"insan" n attr REMOVE:269
+"<elâk oldı>"
+	"elâk ol" v iv ifi p3 sg
+"<ve>"
+	"ve" cnjcoo
+"<9>"
+	"9" num
+;	"9" num subst nom REMOVE:267
+"<yaralandı>"
+	"yaralan" v iv ifi p3 sg
+"<–>"
+	"–" guio
+"<Vilâyet>"
+	"vilâyet" n attr
+	"vilâyet" n nom
+;	"vilâyet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<memuriyeti>"
+	"memuriyet" n px3sp nom
+;	"memuriyet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+
+
+"<Donetskte>"
+	"Donetsk" np top loc
+;	"Donetsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<antiterroristik>"
+	"*antiterroristik"
+"<ameliyat>"
+	"ameliyat" n attr
+	"ameliyat" n nom
+;	"ameliyat" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<neticesinde>"
+	"netice" n px3sp loc
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"bir" num subst nom REMOVE:267
+"<insan>"
+	"insan" n nom
+;	"insan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"insan" n attr REMOVE:269
+"<elâk oldı>"
+	"elâk ol" v iv ifi p3 sg
+"<ve>"
+	"ve" cnjcoo
+"<9>"
+	"9" num
+;	"9" num subst nom REMOVE:267
+"<yaralandı>"
+	"yaralan" v iv ifi p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Donetsk>"
+	"Donetsk" np top nom
+;	"Donetsk" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Vilâyet>"
+	"vilâyet" n attr
+	"vilâyet" n nom
+;	"vilâyet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<Devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<memuriyetiniñ>"
+	"memuriyet" n px3sp gen
+"<sağlıq>"
+	"sağlıq" n nom
+;	"sağlıq" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"sağlıq" n attr REMOVE:269
+"<saqlav>"
+	"saqla" v tv ger_abst nom
+;	"saqla" v tv ger_abst nom
+;		"e" cop aor p3 sg REMOVE:155
+"<departamentiniñ>"
+	"departament" n px3sp gen
+"<beyanatına>"
+	"beyanat" n px3sp dat
+"<köre>"
+	"köre" post SELECT:183
+;	"kör" v tv prc_impf SELECT:183
+;	"kör" v tv aor p3 sg SELECT:183
+"<,>"
+	"," cm
+"<Slavânsk>"
+	"Slavânsk" np top nom
+;	"Slavânsk" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<şe>"
+	"*şe"
+е
+"<rinde>"
+	"*rinde"
+"<antiterroristik>"
+	"*antiterroristik"
+"<ameliyat>"
+	"ameliyat" n attr
+	"ameliyat" n nom
+;	"ameliyat" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<devamında>"
+	"devam" n px3sp loc
+;	"devam" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<5>"
+	"5" num
+;	"5" num subst nom REMOVE:267
+"<insan>"
+	"insan" n nom
+;	"insan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"insan" n attr REMOVE:269
+"<yaralandı>"
+	"yaralan" v iv ifi p3 sg
+"<.>"
+	"." sent
+
+"<Bundan>"
+	"bu" prn dem abl
+"<da>"
+	"da" postadv
+"<ğayrı>"
+	"ğayrı" post
+"<,>"
+	"," cm
+"<al-azırda>"
+	"al-azırda" adv
+"<«>"
+	"«" lquot
+"<Rostov>"
+	"Rostov" np top nom
+;	"Rostov" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<Harkov>"
+	"Harkov" np top nom
+;	"Harkov" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<»>"
+	"»" rquot
+"<yolunda>"
+	"yol" n px3sp loc
+;	"yol" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Slavânsk>"
+	"Slavânsk" np top nom
+;	"Slavânsk" np top nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<Artemovsk>"
+	"Artemovsk" np top nom
+;	"Artemovsk" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+"<şeerleri>"
+	"şeer" n pl px3sp nom
+;	"şeer" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<arasında>"
+	"ara" n px3sp loc
+;	"ara" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<silâlı>"
+	"silâlı" adj
+;	"silâ" n
+;		"lı" post REMOVE:157
+;	"silâlı" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"silâlı" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"silâlı" adj subst nom REMOVE:267
+"<çatışma>"
+	"çatışma" n attr SELECT:205
+	"çatışma" n nom SELECT:205
+;	"çatış" v iv ger nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çatışma" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çatış" v iv ger nom SELECT:205
+;	"çatış" v iv neg imp p2 sg SELECT:205
+"<devam>"
+	"deva" n px1sg nom
+	"devam" n nom
+;	"deva" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"devam" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"devam" n attr REMOVE:269
+"<ete>"
+	"et" v tv aor p3 sg
+;	"et" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+
+"<Onıñ>"
+	"o" prn dem gen
+	"o" prn pers p3 sg gen
+"<neticesinde>"
+	"netice" n px3sp loc
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"bir" num subst nom REMOVE:267
+"<insan>"
+	"insan" n nom
+;	"insan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"insan" n attr REMOVE:269
+"<elâk oldı>"
+	"elâk ol" v iv ifi p3 sg
+"<,>"
+	"," cm
+"<4>"
+	"4" num
+;	"4" num subst nom REMOVE:267
+"<–>"
+	"–" guio
+"<zarar>"
+	"zarar" n nom
+;	"zarar" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"zarar" n attr REMOVE:269
+"<kördi>"
+	"kör" v tv ifi p3 sg err_orth
+"<.>"
+	"." sent
+ 
+
+
+"<Slavânskta>"
+	"Slavânsk" np top loc
+;	"Slavânsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<acele>"
+	"acele" adj
+;	"acele" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"acele" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"acele" adj subst nom REMOVE:267
+"<yardım>"
+	"yardım" n attr
+	"yardım" n nom
+;	"yardım" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<arabalarnıñ>"
+	"araba" n pl gen
+"<areket>"
+	"areket" n nom
+;	"areket" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"areket" n attr REMOVE:269
+"<etüvi>"
+	"et" v tv ger_abst px3sp nom
+;	"et" v tv ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<şimdi>"
+	"şimdi" adv
+"<sıñırlıdır>"
+	"sıñırlı" adj
+		"e" cop aor gno p3 pl
+	"sıñırlı" adj
+		"e" cop aor gno p3 sg
+"<,>"
+	"," cm
+"<amma>"
+	"amma" cnjcoo
+"<ekimler>"
+	"ekim" n pl nom
+;	"eki" num subst px1sg nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"ekim" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"ekim" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bütün>"
+	"bütün" det ind
+"<olğan>"
+	"ol" v iv gpr_past
+	"ol" v iv past p3 sg
+	"ol" v iv ger_past nom
+;	"ol" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ol" v iv prc_past REMOVE:241
+"<imkânlarnı>"
+	"imkân" n pl acc
+"<qullanıp>"
+	"qullan" v tv gna_perf
+;	"qullan" v tv prc_perf REMOVE:239
+"<,>"
+	"," cm
+"<acele>"
+	"acele" adj
+;	"acele" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"acele" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"acele" adj subst nom REMOVE:267
+"<yardımnı>"
+	"yardım" n acc
+"<köstermege>"
+	"köster" v tv ger dat
+"<ve>"
+	"ve" cnjcoo
+"<zararlanğan>"
+	"*zararlanğan"
+"<insanlarnıñ>"
+	"insan" n pl gen
+"<hastahanelerge>"
+	"hastahane" n pl dat
+"<ketirilmesi>"
+	"ketir" v tv pass ger px3sp nom
+;	"ketir" v tv pass ger px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<içün>"
+	"içün" post
+"<areket>"
+	"areket" n nom
+;	"areket" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"areket" n attr REMOVE:269
+"<ete>"
+	"et" v tv aor p3 sg
+;	"et" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+ 
+
+
+"<Taraflardan>"
+	"taraf" n pl abl
+;	"taraf" n pl abl
+;		"e" cop aor p3 sg REMOVE:214
+"<qaysı>"
+	"qaysı" det itg
+	"qaysı" n nom
+;	"qaysı" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qaysı" n attr REMOVE:269
+"<birisinde>"
+	"birisi" prn ind px3sp loc
+;	"birisi" prn ind px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<zarar>"
+	"zarar" n nom
+;	"zarar" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"zarar" n attr REMOVE:269
+"<körgenler>"
+	"kör" v tv past p3 pl
+	"kör" v tv ger_past pl nom
+;	"kör" v tv ger_past nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"kör" v tv ger_past pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+;	"bar" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"bar" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"bar" vaux imp p2 sg REMOVE:247
+;	"bar" adj subst nom REMOVE:267
+"<olğanı>"
+	"ol" v iv ger_past px3sp nom
+;	"ol" v iv ger_past px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<aqqında>"
+	"aqq" n px3sp loc
+;	"aqq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<malümat>"
+	"malümat" n nom
+;	"malümat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"malümat" n attr REMOVE:269
+"<al-azırda>"
+	"al-azırda" adv
+"<belli>"
+	"belli" adj
+;	"bel" n
+;		"lı" post REMOVE:157
+;	"belli" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj subst nom REMOVE:267
+"<degil>"
+	"degil" adj
+		"e" cop aor p3 sg
+"<,>"
+	"," cm
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildire>"
+	"bildir" v tv aor p3 sg
+;	"bildir" v tv prc_impf REMOVE:241
+"<Radio>"
+	"radio" n nom
+;	"radio" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"radio" n attr REMOVE:269
+"<Svoboda>"
+	"Svoboda" np al nom
+	"Svoboda" np al nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Bugün>"
+	"bugün" adv
+"<Slavânskta>"
+	"Slavânsk" np top loc
+;	"Slavânsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<havfsızlıq>"
+	"havfsızlıq" n attr
+	"havfsızlıq" n nom
+;	"havfsızlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmeti>"
+	"hızmet" n px3sp nom
+;	"hızmet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<yolbaşçılığında>"
+	"yolbaşçılıq" n px3sp loc
+;	"yolbaşçılıq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<antiterroristik>"
+	"*antiterroristik"
+"<ameliyat>"
+	"ameliyat" n nom
+;	"ameliyat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ameliyat" n attr REMOVE:269
+"<olıp>"
+	"ol" v iv prc_perf err_orth SELECT:185
+;	"ol" v iv gna_perf err_orth SELECT:185
+"<keçe>"
+	"keç" v iv prc_impf SELECT:185
+;	"keç" v iv aor p3 sg SELECT:185
+"<..>"
+	".." sent
+
+
+"<Moskvada>"
+	"Moskva" np top loc
+;	"Moskva" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<«>"
+	"«" lquot
+"<Aqiqat>"
+	"aqiqat" n nom
+;	"aqiqat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aqiqat" n attr REMOVE:269
+"<yürüşi>"
+	"*yürüşi"
+"<»>"
+	"»" rquot
+"<keçe>"
+	"keç" v iv aor p3 sg
+;	"keç" v iv prc_impf REMOVE:241
+
+
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<paytahtı>"
+	"paytaht" n px3sp nom
+;	"paytaht" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Moskvada>"
+	"Moskva" np top loc
+;	"Moskva" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Saharova>"
+	"Saharov" np cog f nom
+;	"Saharov" np cog f nom
+;		"e" cop aor p3 sg REMOVE:155
+"<caddesinde>"
+	"cadde" n px3sp loc
+;	"cadde" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<muhalifet>"
+	"muhalifet" n nom
+;	"muhalifet" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"muhalifet" n attr REMOVE:269
+"<«>"
+	"«" lquot
+"<Aqiqat>"
+	"aqiqat" n nom
+;	"aqiqat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aqiqat" n attr REMOVE:269
+"<yürüşni>"
+	"*yürüşni"
+"<»>"
+	"»" rquot
+"<keçire>"
+	"keçir" v tv aor p3 sg
+;	"keçir" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+ 
+
+
+"<Muhalifet>"
+	"muhalifet" n attr
+	"muhalifet" n nom
+;	"muhalifet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<firqalarnıñ>"
+	"fırqa" n pl gen
+"<ve>"
+	"ve" cnjcoo
+"<areketlerniñ>"
+	"areket" n pl gen
+"<aktivistleri>"
+	"aktivist" n pl px3sp nom
+;	"aktivist" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<«>"
+	"«" lquot
+"<Doğru>"
+	"doğru" post
+	"doğru" adj
+;	"doğru" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<mustaqil>"
+	"mustaqil" adj
+;	"mustaqil" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<matbuat>"
+	"matbuat" n attr
+	"matbuat" n nom
+;	"matbuat" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<vastaları>"
+	"vasta" n pl px3sp nom
+;	"vasta" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<içün>"
+	"içün" post
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<«>"
+	"«" lquot
+"<Teleekranlardaki>"
+	"*Teleekranlardaki"
+"<yalanğa>"
+	"yalan" n dat
+"<qarşı>"
+	"qarşı" post SELECT:183
+;	"qarşı" n attr SELECT:183
+;	"qarşı" n nom SELECT:183
+;	"qarşı" n nom SELECT:183
+;		"e" cop aor p3 sg
+"<»>"
+	"»" rquot
+"<kibi>"
+	"kibi" post
+"<şiarlernen>"
+	"şiar" n pl ins err_orth
+;	"şiar" n pl ins
+;		"e" cop aor p3 sg err_orth REMOVE:155
+"<çıqışta>"
+	"çıqış" n loc
+;	"çıqış" n loc
+;		"e" cop aor p3 sg REMOVE:214
+"<buluna>"
+	"bulun" v iv aor p3 sg
+;	"bulun" v iv prc_impf REMOVE:241
+"<,>"
+	"," cm
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildire>"
+	"bildir" v tv aor p3 sg
+;	"bildir" v tv prc_impf REMOVE:241
+"<Radio>"
+	"radio" n nom
+;	"radio" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"radio" n attr REMOVE:269
+"<Svoboda>"
+	"Svoboda" np al nom
+	"Svoboda" np al nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Mitingde>"
+	"miting" n loc
+;	"miting" n loc
+;		"e" cop aor p3 sg REMOVE:155
+"<aktrisa>"
+	"aktrisa" n nom
+;	"aktrisa" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aktrisa" n attr REMOVE:269
+"<Liya>"
+	"*Liya"
+"<Ahecakova>"
+	"*Ahecakova"
+"<,>"
+	"," cm
+"<animator>"
+	"*animator"
+"<Garri>"
+	"*Garri"
+"<Bardin>"
+	"*Bardin"
+"<,>"
+	"," cm
+"<şair>"
+	"şair" n nom
+;	"şair" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"şair" n attr REMOVE:269
+"<ve>"
+	"ve" cnjcoo
+"<jurnalist>"
+	"jurnalist" n nom
+;	"jurnalist" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"jurnalist" n attr REMOVE:269
+"<Dmitriy>"
+	"Dmitriy" np ant m nom
+;	"Dmitriy" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Bıkov>"
+	"Bıkov" np cog m nom
+;	"Bıkov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<aktör>"
+	"aktör" n nom
+;	"aktör" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aktör" n attr REMOVE:269
+"<Aleksey>"
+	"Aleksey" np ant m nom
+;	"Aleksey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Devotçenko>"
+	"Devotçenko" np cog mf nom
+;	"Devotçenko" np cog mf nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<yırcı>"
+	"yırcı" n attr SELECT:253
+;	"yırcı" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yırcı" n nom SELECT:253
+"<Aleksey>"
+	"Aleksey" np ant m nom
+;	"Aleksey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Kortnev>"
+	"*Kortnev"
+"<,>"
+	"," cm
+"<aktör>"
+	"aktör" n nom
+;	"aktör" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aktör" n attr REMOVE:269
+"<Aleksandr>"
+	"Aleksandr" np ant m nom
+;	"Aleksandr" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Filippenkonıñ>"
+	"*Filippenkonıñ"
+"<çıqışları da>"
+	"çıqış" n pl px3sp nom
+		"da" postadv
+;	"çıqış" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+;			"da" postadv
+"<beklenile>"
+	"beklen" v iv pass aor p3 sg
+;	"beklen" v iv pass prc_impf REMOVE:241
+"<.>"
+	"." sent
+ 
+
+
+"<Bundan>"
+	"bu" prn dem abl
+"<da>"
+	"da" postadv
+"<ğayrı>"
+	"ğayrı" post
+"<,>"
+	"," cm
+"<mitingde>"
+	"miting" n loc
+;	"miting" n loc
+;		"e" cop aor p3 sg REMOVE:214
+"<bir qaç>"
+	"bir qaç" det ind
+"<namzetlikte>"
+	"*namzetlikte"
+"<çeşit>"
+	"çeşit" n nom
+;	"çeşit" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"çeşit" n attr REMOVE:269
+"<«>"
+	"«" lquot
+"<mukâfatlar>"
+	"mukâfat" n pl nom
+;	"mukâfat" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"mukâfat" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<»>"
+	"»" rquot
+"<berilecektir>"
+	"ber" v tv pass ger_fut2 nom
+		"e" cop aor gno p3 pl
+	"ber" v tv pass ger_fut2 nom
+		"e" cop aor gno p3 sg
+;	"ber" vaux pass ger_fut2 nom REMOVE:247
+;		"e" cop aor gno p3 pl
+;	"ber" vaux pass ger_fut2 nom REMOVE:247
+;		"e" cop aor gno p3 sg
+"<–>"
+	"–" guio
+"<«>"
+	"«" lquot
+"<Utanmayıp>"
+	"*Utanmayıp"
+"<aldata>"
+	"*aldata"
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<«>"
+	"«" lquot
+"<Yüregimiz>"
+	"yürek" n px1pl nom
+;	"yürek" adj
+;		"e" cop aor p1 pl REMOVE:214
+;	"yürek" n nom
+;		"e" cop aor p1 pl REMOVE:214
+;	"yürek" adj subst nom
+;		"e" cop aor p1 pl REMOVE:214
+;	"yürek" n px3sp nom
+;		"e" cop aor p1 pl REMOVE:214
+;	"yürek" adj subst px3sp nom
+;		"e" cop aor p1 pl REMOVE:214
+;	"yürek" n px1pl nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yürek" adj subst px1pl nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yürek" adj subst px1pl nom REMOVE:267
+"<qarışa>"
+	"qarış" v iv aor p3 sg
+;	"qarış" v iv prc_impf REMOVE:241
+"<»>"
+	"»" rquot
+"<ve>"
+	"ve" cnjcoo
+"<digerleri>"
+	"diger" prn ind pl px3sp nom
+	"diger" prn ind pl px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Mukâfatlar>"
+	"mukâfat" n pl nom
+;	"mukâfat" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"mukâfat" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<belli>"
+	"belli" adj
+;	"bel" n
+;		"lı" post REMOVE:157
+;	"belli" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj subst nom REMOVE:267
+"<şahıslrğa>"
+	"*şahıslrğa"
+"<,>"
+	"," cm
+"<ilk>"
+	"ilk" adj
+;	"ilk" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"ilk" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ilk" adj subst nom REMOVE:267
+"<evelâ>"
+	"*evelâ"
+"<federal>"
+	"federal" adj
+;	"federal" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"federal" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"federal" adj subst nom REMOVE:267
+"<telekanalarnıñ>"
+	"*telekanalarnıñ"
+"<yolbaşçılarına>"
+	"yolbaşçı" n pl px3sp dat
+"<berilecektir>"
+	"ber" v tv pass ger_fut2 nom SELECT:203
+		"e" cop aor gno p3 pl
+	"ber" v tv pass ger_fut2 nom SELECT:203
+		"e" cop aor gno p3 sg
+;	"ber" vaux pass ger_fut2 nom SELECT:203
+;		"e" cop aor gno p3 pl
+;	"ber" vaux pass ger_fut2 nom SELECT:203
+;		"e" cop aor gno p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Numayış>"
+	"numayış" n nom
+;	"numayış" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"numayış" n attr REMOVE:269
+"<Moskva>"
+	"Moskva" np top nom
+;	"Moskva" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+"<akimiyeti>"
+	"akimiyet" n px3sp nom
+;	"akimiyet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ile>"
+	"ile" post
+"<uyğunlaştırıldı>"
+	"uyğunlaştır" v tv pass ifi p3 sg
+"<.>"
+	"." sent
+
+"<İştirakçilerniñ>"
+	"iştirakçi" n pl gen
+"<beklenilgen>"
+	"beklen" v iv pass gpr_past
+	"beklen" v iv pass past p3 sg
+	"beklen" v iv pass ger_past nom
+;	"beklen" v iv pass ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"beklen" v iv pass prc_past REMOVE:241
+"<sayısı>"
+	"sayı" n px3sp nom
+;	"sayı" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<–>"
+	"–" guio
+"<50>"
+	"50" num
+;	"50" num subst nom REMOVE:267
+"<biñ>"
+	"biñ" num
+;	"biñ" num subst nom REMOVE:267
+;	"biñ" num subst nom REMOVE:267
+;		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Böyle>"
+	"böyle" adv
+"<tedbirler>"
+	"tedbir" n pl nom
+;	"tedbir" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"tedbir" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<diger>"
+	"diger" det ind
+	"diger" prn ind nom
+;	"diger" prn ind nom
+;		"e" cop aor p3 sg REMOVE:155
+"<şeerlerde de>"
+	"şeer" n pl loc
+		"e" cop aor p3 sg
+			"da" postadv err_orth
+;	"şeer" n pl loc
+;		"da" postadv err_orth REMOVE:193
+"<keçirile>"
+	"keçiril" v iv prc_impf SELECT:179
+;	"keçir" v tv pass aor p3 sg SELECT:179
+;	"keçiril" v iv aor p3 sg SELECT:179
+;	"keçir" v tv pass prc_impf SELECT:179 REMOVE:255
+"<bilecek>"
+	"bil" v tv fut2 p3 sg SELECT:181
+;	"bil" v tv gpr_fut2 SELECT:181
+;	"bil" v tv ger_fut2 nom SELECT:181
+;	"bil" v tv ger_fut2 nom SELECT:181
+;		"e" cop aor p3 sg
+"<..>"
+	".." sent
+
+
+"<Aksönovnıñ>"
+	"Aksönov" np cog m gen
+"<«>"
+	"«" lquot
+"<halq>"
+	"halq" n attr
+	"halq" n nom
+;	"halq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<imayesı>"
+	"imaye" n px3sp nom err_orth
+;	"imaye" n px3sp nom
+;		"e" cop aor p3 sg err_orth REMOVE:193
+"<»>"
+	"»" rquot
+"<resmiy>"
+	"resmiy" adj
+;	"resmiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<statusnı>"
+	"status" n acc
+"<elde>"
+	"el" n loc
+;	"el" n loc
+;		"e" cop aor p3 sg REMOVE:214
+"<etecek>"
+	"et" v tv gpr_fut2
+	"et" v tv ger_fut2 nom
+	"et" v tv fut2 p3 sg
+;	"et" v tv ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+
+
+"<Öz>"
+	"öz" det ref
+"<başına>"
+	"baş" n px3sp dat
+"<taiynlengen>"
+	"*taiynlengen"
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:155
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qırım" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+"<baş>"
+	"baş" n attr
+	"baş" n nom
+;	"baş" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<naziri>"
+	"nazir" n px3sp nom
+;	"nazir" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Sergey>"
+	"Sergey" np ant m nom
+;	"Sergey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Aksönov>"
+	"Aksönov" np cog m nom
+;	"Aksönov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<eñ>"
+	"eñ" adv
+"<yaqın>"
+	"yaqın" adj
+;	"yaqın" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yaqın" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yaqın" adj subst nom REMOVE:267
+"<kelecekte>"
+	"kelecek" n loc SELECT:151
+;	"kel" vaux ger_fut2 loc SELECT:151
+;	"kel" v iv ger_fut2 loc SELECT:151
+;	"kel" vaux ger_fut2 loc SELECT:151
+;		"e" cop aor p3 sg
+;	"kel" v iv ger_fut2 loc SELECT:151
+;		"e" cop aor p3 sg
+;	"kelecek" n loc SELECT:151
+;		"e" cop aor p3 sg REMOVE:214
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom SELECT:167
+;		"e" cop aor p1 sg
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+;	"qır" n px1sg nom SELECT:167
+;		"e" cop aor p3 sg
+;	"qırım" n nom SELECT:167
+;		"e" cop aor p3 sg
+;	"Qırım" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<«>"
+	"«" lquot
+"<halq>"
+	"halq" n attr
+	"halq" n nom
+;	"halq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<imayesini>"
+	"imaye" n px3sp acc
+"<»>"
+	"»" rquot
+"<resmiyleştirmege>"
+	"resmiyleştir" v tv ger dat
+"<vade>"
+	"vade" n nom
+;	"vade" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"vade" n attr REMOVE:269
+"<ete>"
+	"et" v tv aor p3 sg
+;	"et" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+ 
+
+
+"<Bunı>"
+	"bu" prn dem acc
+"<o>"
+	"o" det dem
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+"<bazar>"
+	"bazar" n attr
+	"bazar" n nom
+;	"bazar" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<künü>"
+	"kün" n px3sp nom
+;	"kün" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<aprel>"
+	"aprel" n nom
+;	"aprel" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aprel" n attr REMOVE:269
+"<13-de>"
+	"13" num subst loc
+;	"13" num subst loc
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<yarımadanıñ>"
+	"yarımada" n gen
+"<«>"
+	"«" lquot
+"<halq>"
+	"halq" n attr
+	"halq" n nom
+;	"halq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<imayesi>"
+	"imaye" n px3sp nom
+;	"imaye" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<»>"
+	"»" rquot
+"<temsilcilerniñ>"
+	"temsilci" n pl gen
+"<taqdirlev>"
+	"*taqdirlev"
+"<tedbirinde>"
+	"tedbir" n px3sp loc
+;	"tedbir" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<ilân>"
+	"ilân" n nom
+;	"ilân" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ilân" n attr REMOVE:269
+"<etti>"
+	"et" v tv ifi p3 sg SELECT:203
+;	"et" n nom SELECT:203
+;		"e" cop ifi p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<«>"
+	"«" lquot
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<Federatsiyası>"
+	"federatsiya" n px3sp nom
+;	"federatsiya" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ile>"
+	"ile" post
+"<keçirilgen>"
+	"keçiril" v iv prc_past SELECT:185
+;	"keçir" v tv pass ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"keçiril" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"keçir" v tv pass gpr_past SELECT:185
+;	"keçiril" v iv gpr_past SELECT:185
+;	"keçir" v tv pass ger_past nom SELECT:185
+;	"keçiril" v iv ger_past nom SELECT:185
+;	"keçir" v tv pass past p3 sg SELECT:185
+;	"keçiril" v iv past p3 sg SELECT:185
+;	"keçir" v tv pass prc_past SELECT:185 REMOVE:255
+"<muzakeremiz>"
+	"muzakere" n px1pl nom
+;	"muzakere" n nom
+;		"e" cop aor p1 pl REMOVE:214
+;	"muzakere" n px1pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bizge>"
+	"biz" prn pers p1 pl dat
+"<eñ>"
+	"eñ" adv
+"<yaqın>"
+	"yaqın" adj
+;	"yaqın" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yaqın" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yaqın" adj subst nom REMOVE:267
+"<kelecekte>"
+	"kelecek" n loc SELECT:151
+;	"kel" vaux ger_fut2 loc SELECT:151
+;	"kel" v iv ger_fut2 loc SELECT:151
+;	"kel" vaux ger_fut2 loc SELECT:151
+;		"e" cop aor p3 sg
+;	"kel" v iv ger_fut2 loc SELECT:151
+;		"e" cop aor p3 sg
+;	"kelecek" n loc SELECT:151
+;		"e" cop aor p3 sg REMOVE:214
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom
+;		"e" cop aor p1 sg REMOVE:155
+;	"qır" n px1sg nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qırım" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Qırım" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+"<halq>"
+	"halq" n attr
+	"halq" n nom
+;	"halq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<imayesini>"
+	"imaye" n px3sp acc
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<Federatsiyasınıñ>"
+	"federatsiya" n px3sp gen
+"<uquqiy>"
+	"uquqiy" adj
+;	"uquqiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<alanında>"
+	"alan" n px3sp loc
+;	"alan" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<resmiyleştirmege>"
+	"resmiyleştir" v tv ger dat
+"<imkân>"
+	"imkân" n nom
+;	"imkân" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"imkân" n attr REMOVE:269
+"<berecek>"
+	"ber" v tv ger_fut2 nom
+	"ber" v tv gpr_fut2
+	"ber" v tv fut2 p3 sg
+;	"ber" vaux ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ber" v tv ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ber" vaux gpr_fut2 REMOVE:247
+;	"ber" vaux ger_fut2 nom REMOVE:247
+;	"ber" vaux fut2 p3 sg REMOVE:247
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<–>"
+	"–" guio
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildire>"
+	"bildir" v tv aor p3 sg
+;	"bildir" v tv prc_impf REMOVE:241
+"<Aksönovnıñ>"
+	"Aksönov" np cog m gen
+"<sözlerini>"
+	"söz" n pl px3sp acc
+"<İTAR>"
+	"İTAR" np al nom
+;	"İTAR" np al nom
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<TASS>"
+	"TASS" np al nom
+	"TASS" np al nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<«>"
+	"«" lquot
+"<Qırım>"
+	"Qırım" np top nom SELECT:167
+;	"qır" n nom SELECT:167
+;		"e" cop aor p1 sg
+;	"qır" n px1sg nom SELECT:167
+;	"qırım" n attr SELECT:167
+;	"qırım" n nom SELECT:167
+;	"qır" n px1sg nom SELECT:167
+;		"e" cop aor p3 sg
+;	"qırım" n nom SELECT:167
+;		"e" cop aor p3 sg
+;	"Qırım" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<qoruvı>"
+	"qoru" v tv ger_abst px3sp nom
+	"qoruv" n px3sp nom
+;	"qoru" v tv ger_abst px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qoruv" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<içün>"
+	"içün" post
+"<»>"
+	"»" rquot
+"<1375>"
+	"1375" num
+;	"1375" num subst nom REMOVE:267
+"<«>"
+	"«" lquot
+"<asker>"
+	"asker" n nom
+;	"asker" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"asker" n attr REMOVE:269
+"<»>"
+	"»" rquot
+"<medalge>"
+	"medal" n dat err_orth
+"<nail>"
+	"*nail"
+"<oldı>"
+	"ol" v iv ifi p3 sg err_orth
+"<..>"
+	".." sent
+
+
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"AQŞ" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+"<elçisi>"
+	"elçi" n px3sp nom
+	"elçi" n px3sp nom
+		"e" cop aor p3 sg
+"<:>"
+	":" sent
+"<«>"
+	"«" lquot
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<cenübiy>"
+	"cenübiy" adj
+;	"cenübiy" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<şarqında>"
+	"şarq" n px3sp loc
+;	"şarq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<aktivistler>"
+	"aktivist" n pl nom
+;	"aktivist" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"aktivist" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<silâsını>"
+	"silâ" n px3sp acc
+"<qullana>"
+	"qullan" v tv aor p3 sg
+;	"qullan" v tv prc_impf REMOVE:241
+"<»>"
+	"»" rquot
+
+
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<vekâletli>"
+	"vekâletli" adj
+;	"vekâletli" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"vekâletli" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"vekâletli" adj subst nom REMOVE:267
+"<elçisi>"
+	"elçi" n px3sp nom
+;	"elçi" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukrainada>"
+	"Ukraina" np top loc
+;	"Ukraina" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Geoffrey>"
+	"*Geoffrey"
+"<Pyatt>"
+	"*Pyatt"
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<şarqında>"
+	"şarq" n px3sp loc
+;	"şarq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<boyevikler>"
+	"*boyevikler"
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<silâsını>"
+	"silâ" n px3sp acc
+"<qullanğanlarına>"
+	"qullan" v tv ger_past pl px3sp dat
+"<diqqat>"
+	"diqqat" n nom
+;	"diqqat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"diqqat" n attr REMOVE:269
+"<ayıra>"
+	"*ayıra"
+"<.>"
+	"." sent
+ 
+
+
+"<«>"
+	"«" lquot
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<cenübiy>"
+	"cenübiy" adj
+;	"cenübiy" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<şarqında>"
+	"şarq" n px3sp loc
+;	"şarq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<boyeviklerde>"
+	"*boyeviklerde"
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<silâsı>"
+	"silâ" n px3sp nom
+;	"silâ" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+;	"bar" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"bar" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"bar" vaux imp p2 sg REMOVE:247
+;	"bar" adj subst nom REMOVE:267
+"<,>"
+	"," cm
+"<em de>"
+	"em de" cnjcoo
+"<olar>"
+	"olar" prn pers p3 pl nom
+"<Qırımnı>"
+	"Qırım" np top acc SELECT:167
+;	"qır" n px1sg acc SELECT:167
+;	"qırım" n acc SELECT:167
+"<zapt>"
+	"zapt" n nom
+;	"zapt" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"zapt" n attr REMOVE:269
+"<etken>"
+	"et" v tv prc_past SELECT:185
+;	"et" v tv gpr_past SELECT:185
+;	"et" v tv ger_past nom SELECT:185
+;	"et" v tv past p3 sg SELECT:185
+;	"et" v tv ger_past nom SELECT:185
+;		"e" cop aor p3 sg
+"<rusiye>"
+	"Rusiye" np top nom err_orth SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+"<ordularda>"
+	"ordu" n pl loc
+;	"ordu" n pl loc
+;		"e" cop aor p3 sg REMOVE:214
+"<olğan>"
+	"ol" v iv prc_past SELECT:185
+;	"ol" v iv ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ol" v iv gpr_past SELECT:185
+;	"ol" v iv ger_past nom SELECT:185
+;	"ol" v iv past p3 sg SELECT:185
+"<urbağa>"
+	"urba" n dat
+"<kiyingenler>"
+	"kiyin" v iv past p3 pl
+	"kiyin" v iv ger_past pl nom
+;	"kiyin" v iv ger_past nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"kiyin" v iv ger_past pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<->"
+	"-" guio
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<yazdı>"
+	"yaz" v tv ifi p3 sg
+;	"yaz" n nom
+;		"e" cop ifi p3 sg REMOVE:214
+"<o>"
+	"o" det dem
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+"<Twitterde>"
+	"Twitter" np al loc
+	"Twitter" np al loc
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Bunı>"
+	"bu" prn dem acc
+"<Radio>"
+	"radio" n nom
+;	"radio" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"radio" n attr REMOVE:269
+"<Svobada>"
+	"*Svobada"
+"<bildire>"
+	"bildir" v tv aor p3 sg
+;	"bildir" v tv prc_impf REMOVE:241
+"<.>"
+	"." sent
+ 
+
+
+"<Evelleri>"
+	"*Evelleri"
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"AQŞ" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+"<devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<kâtibi>"
+	"kâtip" n px3sp nom
+;	"kâtip" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<John>"
+	"John" np ant m nom
+;	"John" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Kerry>"
+	"Kerry" np cog mf nom
+;	"Kerry" np cog mf nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<çetel>"
+	"çetel" adj
+	"çetel" n attr
+	"çetel" n nom
+;	"çetel" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom REMOVE:267
+"<işler>"
+	"iş" n pl nom SELECT:151
+;	"işle" v tv prc_fut SELECT:151
+;	"işle" v tv gpr_fut SELECT:151
+;	"işle" v tv fut p3 sg SELECT:151
+;	"iş" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:155
+;	"iş" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:155
+"<nazirliginiñ>"
+	"nazirlik" n px3sp gen
+"<başı>"
+	"baş" n px3sp nom
+;	"baş" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Sergey>"
+	"Sergey" np ant m nom
+;	"Sergey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Lavrovnı>"
+	"Lavrov" np cog m acc
+"<yañı>"
+	"yañı" adj
+;	"yañı" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom REMOVE:267
+"<aqibetler>"
+	"aqibet" n pl nom
+;	"aqibet" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"aqibet" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<aqqında>"
+	"aqq" n px3sp loc
+;	"aqq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<tenbiyeledi>"
+	"*tenbiyeledi"
+"<.>"
+	"." sent
+
+"<Eger>"
+	"eger" cnjsub
+"<de>"
+	"da" postadv
+	"de" v tv imp p2 sg
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<Federatsiyası>"
+	"federatsiya" n px3sp nom
+;	"federatsiya" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<şarqındaki>"
+	"şarq" n px3sp loc attr
+;	"şarq" n px3sp loc subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"şarq" n px3sp loc subst nom REMOVE:267
+"<vaziyetni>"
+	"vaziyet" n acc
+"<kerginleştirmege>"
+	"kerginleştir" v tv ger dat
+"<toqtamasa>"
+	"toqta" v iv neg gna_cond p3 sg
+;	"toqta" v iv neg prc_cond p3 sg REMOVE:241
+"<,>"
+	"," cm
+"<onı>"
+	"o" prn dem acc
+	"o" prn pers p3 sg acc
+"<yañı>"
+	"yañı" adj
+;	"yañı" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom REMOVE:267
+"<cezalar>"
+	"ceza" n pl nom SELECT:151
+;	"cezala" v iv prc_fut SELECT:151
+;	"cezala" v iv gpr_fut SELECT:151
+;	"cezala" v iv fut p3 sg SELECT:151
+;	"ceza" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:214
+;	"ceza" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:214
+"<bekleycek>"
+	"bekle" v tv gpr_fut2
+	"bekle" v tv ger_fut2 nom
+	"bekle" v tv fut2 p3 sg
+;	"bekle" v tv ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildirdi>"
+	"bildir" v tv ifi p3 sg
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"AQŞ" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+"<devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<departamenti>"
+	"departament" n px3sp nom
+	"departament" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Lavrov>"
+	"Lavrov" np cog m nom
+;	"Lavrov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<öz>"
+	"öz" det ref
+"<nevbetinde>"
+	"nevbet" n px3sp loc
+;	"nevbet" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Kerryge>"
+	"Kerry" np cog mf dat
+"<şunı>"
+	"şu" prn dem acc
+"<ayttı>"
+	"ayt" v tv ifi p3 sg
+"<ki>"
+	"ki" cnjsub
+"<,>"
+	"," cm
+"<eger>"
+	"eger" cnjsub
+"<de>"
+	"da" postadv
+	"de" v tv imp p2 sg
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<cenübiy>"
+	"cenübiy" adj
+;	"cenübiy" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<->"
+	"-" guio
+"<şarqına>"
+	"şarq" n px3sp dat
+"<nisbeten>"
+	"nisbeten" adv
+"<küç>"
+	"küç" n nom
+;	"küç" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"küç" n attr REMOVE:269
+"<->"
+	"-" guio
+"<quvet>"
+	"quvet" n nom
+;	"quvet" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"quvet" n attr REMOVE:269
+"<qullansa>"
+	"qullan" v tv gna_cond p3 sg
+;	"qullan" v tv prc_cond p3 sg REMOVE:241
+"<,>"
+	"," cm
+"<aprel>"
+	"aprel" n nom
+;	"aprel" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aprel" n attr REMOVE:269
+"<17>"
+	"17" num
+;	"17" num subst nom REMOVE:267
+"<kününe>"
+	"kün" n px3sp dat
+"<planlaştırılğan>"
+	"planlaştır" v tv pass prc_past SELECT:185
+;	"planlaştır" v tv pass gpr_past SELECT:185
+;	"planlaştır" v tv pass ger_past nom SELECT:185
+;	"planlaştır" v tv pass past p3 sg SELECT:185
+;	"planlaştır" v tv pass ger_past nom SELECT:185
+;		"e" cop aor p3 sg
+"<dört>"
+	"dört" num
+;	"dört" num subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"dört" num subst nom REMOVE:267
+"<taraflama>"
+	"*taraflama"
+"<körüşüv>"
+	"kör" v tv coop ger_abst nom
+	"körüşüv" n nom
+;	"kör" v tv coop ger_abst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"körüşüv" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"körüşüv" n attr REMOVE:269
+"<keçmeycek>"
+	"keç" v iv neg gpr_fut2
+	"keç" v iv neg ger_fut2 nom
+	"keç" v iv neg fut2 p3 sg
+;	"keç" v iv neg ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+"<eken>"
+	"e" cop aor evid p3 sg
+	"e" cop ger_past nom
+;	"e" vaux ger_past nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"e" cop ger_past nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"e" vaux ger_past nom REMOVE:247
+;	"e" vaux aor evid p3 sg REMOVE:247
+"<,>"
+	"," cm
+"<qayd ete>"
+	"qayd et" v tv aor p3 sg
+;	"qayd et" v tv prc_impf REMOVE:241
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<çetel>"
+	"çetel" adj
+	"çetel" n attr
+	"çetel" n nom
+;	"çetel" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom REMOVE:267
+"<işler>"
+	"iş" n pl nom SELECT:151
+;	"işle" v tv prc_fut SELECT:151
+;	"işle" v tv gpr_fut SELECT:151
+;	"işle" v tv fut p3 sg SELECT:151
+;	"iş" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:155
+;	"iş" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:155
+"<nazirligi>"
+	"nazirlik" n px3sp nom
+	"nazirlik" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Aprel>"
+	"aprel" n nom
+;	"aprel" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aprel" n attr REMOVE:269
+"<17>"
+	"17" num
+;	"17" num subst nom REMOVE:267
+"<künü>"
+	"kün" n px3sp nom
+;	"kün" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Jenevada>"
+	"Jeneva" np top loc
+;	"Jeneva" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<Avropa>"
+	"Avropa" np top nom
+;	"Avropa" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+"<birliginiñ>"
+	"birlik" n px3sp gen
+"<temsilcileri>"
+	"temsilci" n pl px3sp nom
+;	"temsilci" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<arasında>"
+	"ara" n px3sp loc
+;	"ara" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:155
+"<muzakereler>"
+	"muzakere" n pl nom
+;	"muzakere" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"muzakere" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ötkerilmeli>"
+	"ötker" v tv pass nec
+		"e" cop aor p3 sg
+"<,>"
+	"," cm
+"<faqat>"
+	"faqat" cnjcoo
+	"faqat" n attr
+	"faqat" n nom
+;	"faqat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+"<körüşüvniñ>"
+	"kör" v tv coop ger_abst gen
+	"körüşüv" n gen
+"<tam>"
+	"tam" adj
+;	"tam" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"tam" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"tam" adj subst nom REMOVE:267
+"<şekli>"
+	"şekil" n px3sp nom SELECT:205
+;	"şekli" adj SELECT:205
+;	"şekli" adj subst nom SELECT:205
+;	"şekli" adj SELECT:205
+;		"e" cop aor p3 sg
+;	"şekli" adj subst nom SELECT:205
+;		"e" cop aor p3 sg
+;	"şekil" n px3sp nom SELECT:205
+;		"e" cop aor p3 sg REMOVE:214
+"<daa>"
+	"daa" adj
+	"daa" adv
+;	"daa" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<belli>"
+	"belli" adj
+;	"bel" n
+;		"lı" post REMOVE:157
+;	"belli" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj subst nom REMOVE:267
+"<digildir>"
+	"*digildir"
+"<..>"
+	".." sent
+
+
+"<Slavânskta>"
+	"Slavânsk" np top loc
+;	"Slavânsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<havfsızlıq>"
+	"havfsızlıq" n attr
+	"havfsızlıq" n nom
+;	"havfsızlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmetiniñ>"
+	"hızmet" n px3sp gen
+"<zabiti>"
+	"zabit" n px3sp nom
+;	"zabit" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<öldürildi>"
+	"öldür" v tv pass ifi p3 sg
+"<,>"
+	"," cm
+"<daa>"
+	"daa" adj
+	"daa" adv
+;	"daa" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<5>"
+	"5" num
+;	"5" num subst nom REMOVE:267
+"<uquq>"
+	"uquq" adj
+	"uquq" n attr
+	"uquq" n nom
+;	"uquq" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"uquq" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"uquq" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"uquq" adj subst nom REMOVE:267
+"<qoruyıcı>"
+	"qoru" v tv gpr_pot
+	"qoruyıcı" n nom
+;	"qoruyıcı" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qoruyıcı" n attr REMOVE:269
+"<zararlandı>"
+	"*zararlandı"
+"<–>"
+	"–" guio
+"<Avakov>"
+	"Avakov" np cog m nom
+;	"Avakov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+
+
+"<Donetsk>"
+	"Donetsk" np top nom
+;	"Donetsk" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+"<vilâyeti>"
+	"vilâyet" n px3sp nom
+;	"vilâyet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Slavânskta>"
+	"Slavânsk" np top loc
+;	"Slavânsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<keçirilgen>"
+	"keçiril" v iv prc_past SELECT:185
+;	"keçir" v tv pass gpr_past SELECT:185
+;	"keçiril" v iv gpr_past SELECT:185
+;	"keçir" v tv pass ger_past nom SELECT:185
+;	"keçiril" v iv ger_past nom SELECT:185
+;	"keçir" v tv pass past p3 sg SELECT:185
+;	"keçiril" v iv past p3 sg SELECT:185
+;	"keçir" v tv pass ger_past nom SELECT:185
+;		"e" cop aor p3 sg
+;	"keçiril" v iv ger_past nom SELECT:185
+;		"e" cop aor p3 sg
+;	"keçir" v tv pass prc_past SELECT:185 REMOVE:255
+"<antiterroristik>"
+	"*antiterroristik"
+"<ameliyatı>"
+	"ameliyat" n px3sp nom
+;	"ameliyat" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<neticesinde>"
+	"netice" n px3sp loc
+;	"netice" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<havfsızlıq>"
+	"havfsızlıq" n attr
+	"havfsızlıq" n nom
+;	"havfsızlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmetiniñ>"
+	"hızmet" n px3sp gen
+"<zabiti>"
+	"zabit" n px3sp nom
+;	"zabit" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<öldürildi>"
+	"öldür" v tv pass ifi p3 sg
+"<daa>"
+	"daa" adj
+	"daa" adv
+;	"daa" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<5>"
+	"5" num
+;	"5" num subst nom REMOVE:267
+"<uquq>"
+	"uquq" adj
+	"uquq" n attr
+	"uquq" n nom
+;	"uquq" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"uquq" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"uquq" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"uquq" adj subst nom REMOVE:267
+"<qoruyıcı>"
+	"qoru" v tv gpr_pot
+	"qoruyıcı" n nom
+;	"qoruyıcı" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"qoruyıcı" n attr REMOVE:269
+"<zararlandı>"
+	"*zararlandı"
+"<.>"
+	"." sent
+ 
+
+
+"<Bunı>"
+	"bu" prn dem acc
+"<içtimaiy>"
+	"içtimaiy" adj
+;	"içtimaiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<ağda>"
+	"ağ" n loc
+;	"ağ" n loc
+;		"e" cop aor p3 sg REMOVE:155
+"<içki>"
+	"içki" n attr
+	"içki" n nom
+;	"içki" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<işler>"
+	"iş" n pl nom SELECT:151
+;	"işle" v tv prc_fut SELECT:151
+;	"işle" v tv gpr_fut SELECT:151
+;	"işle" v tv fut p3 sg SELECT:151
+;	"iş" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:155
+;	"iş" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:155
+"<naziri>"
+	"nazir" n px3sp nom
+;	"nazir" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Arsen>"
+	"*Arsen"
+"<Avakov>"
+	"Avakov" np cog m nom
+;	"Avakov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<yazdı>"
+	"yaz" v tv ifi p3 sg
+;	"yaz" n nom
+;		"e" cop ifi p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildire>"
+	"bildir" v tv aor p3 sg
+;	"bildir" v tv prc_impf REMOVE:241
+"<Radio>"
+	"radio" n nom
+;	"radio" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"radio" n attr REMOVE:269
+"<Svoboda>"
+	"Svoboda" np al nom
+	"Svoboda" np al nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<«>"
+	"«" lquot
+"<Slavânsk>"
+	"Slavânsk" np top nom
+	"Slavânsk" np top nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Elâk olğanlar>"
+	"elâk ol" v iv past p3 pl
+	"elâk ol" v iv ger_past pl nom
+;	"elâk ol" v iv ger_past nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"elâk ol" v iv ger_past pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<zararlanğanlar>"
+	"*zararlanğanlar"
+"<eki>"
+	"eki" num
+;	"eki" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"eki" num subst nom REMOVE:267
+"<taraftan da>"
+	"taraf" n abl
+		"da" postadv
+;	"taraf" n abl
+;		"e" cop aor p3 sg REMOVE:214
+;			"da" postadv
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+	"bar" adj
+		"e" cop aor p3 sg
+;	"bar" vaux imp p2 sg REMOVE:247
+;	"bar" adj subst nom REMOVE:267
+;	"bar" adj subst nom REMOVE:267
+;		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Bizim>"
+	"biz" prn pers p1 pl gen
+"<tarafımızdan>"
+	"taraf" n px1pl abl
+;	"taraf" n px1pl abl
+;		"e" cop aor p3 sg REMOVE:214
+"<–>"
+	"–" guio
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<havfsızlıq>"
+	"havfsızlıq" n attr
+	"havfsızlıq" n nom
+;	"havfsızlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmetiniñ>"
+	"hızmet" n px3sp gen
+"<zabiti>"
+	"zabit" n px3sp nom
+	"zabit" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<havfsızlıq>"
+	"havfsızlıq" n attr
+	"havfsızlıq" n nom
+;	"havfsızlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmetiniñ>"
+	"hızmet" n px3sp gen
+"<ATM>"
+	"at¹" n px1sg nom err_orth
+;	"at¹" n px1sg nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+"<yolbaşçısı>"
+	"yolbaşçı" n px3sp nom
+;	"yolbaşçı" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ve>"
+	"ve" cnjcoo
+"<daa>"
+	"daa" adj
+	"daa" adv
+;	"daa" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<4>"
+	"4" num
+;	"4" num subst nom REMOVE:267
+"<insan>"
+	"insan" n attr
+	"insan" n nom
+;	"insan" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<zarar>"
+	"zarar" n nom
+;	"zarar" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"zarar" n attr REMOVE:269
+"<kördi>"
+	"kör" v tv ifi p3 sg err_orth
+"<.>"
+	"." sent
+
+"<Separatistler>"
+	"separatist" n pl nom
+;	"separatist" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"separatist" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<tarafından>"
+	"taraf" n px3sp abl
+;	"taraf" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:214
+"<–>"
+	"–" guio
+"<belli>"
+	"belli" adj
+;	"bel" n
+;		"lı" post REMOVE:157
+;	"belli" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"belli" adj subst nom REMOVE:267
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"bir" num subst nom REMOVE:267
+"<malümat>"
+	"malümat" n nom
+;	"malümat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"malümat" n attr REMOVE:269
+"<daa>"
+	"daa" adj
+	"daa" adv
+;	"daa" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<yoq>"
+	"yoq" adj
+;	"yoq" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"yoq" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yoq" adj subst nom REMOVE:267
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<–>"
+	"–" guio
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<yazdı>"
+	"yaz" v tv ifi p3 sg
+;	"yaz" n nom
+;		"e" cop ifi p3 sg REMOVE:214
+"<o>"
+	"o" det dem
+	"o" prn dem nom
+	"o" prn pers p3 sg nom
+"<.>"
+	"." sent
+ 
+
+
+"<Avakov>"
+	"Avakov" np cog m nom
+;	"Avakov" np cog m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<şunı>"
+	"şu" prn dem acc
+"<da>"
+	"da" postadv
+"<qayd etti>"
+	"qayd et" v tv ifi p3 sg
+"<ki>"
+	"ki" cnjsub
+"<,>"
+	"," cm
+"<«>"
+	"«" lquot
+"<separatistler>"
+	"separatist" n pl nom
+;	"separatist" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"separatist" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<yerli>"
+	"yerli" adj
+	"yerli" n nom
+	"yerli" n attr
+;	"yerli" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yerli" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yerli" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yer" n
+;		"lı" post REMOVE:157
+;	"yerli" adj subst nom REMOVE:267
+"<eali>"
+	"eali" n nom
+;	"eali" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"eali" n attr REMOVE:269
+"<qalğanınen>"
+	"qal" v iv ger_past px3sp ins
+;	"qal" vaux ger_past px3sp ins
+;		"e" cop aor p3 sg REMOVE:214
+;	"qal" v iv ger_past px3sp ins
+;		"e" cop aor p3 sg REMOVE:214
+;	"qal" vaux ger_past px3sp ins REMOVE:247
+"<qorçalanmağa>"
+	"qorçala" v tv pass ger dat
+"<başladılar>"
+	"başla" v tv ifi p3 pl
+;	"başla" vaux ifi p3 pl REMOVE:247
+"<…>"
+	"…" sent
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<havfsızlıq>"
+	"havfsızlıq" n attr
+	"havfsızlıq" n nom
+;	"havfsızlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmeti>"
+	"hızmet" n px3sp nom
+;	"hızmet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<quvetlerniñ>"
+	"quvet" n pl gen
+"<ğayrıdan>"
+	"ğayrıdan" adv
+"<teşkilüvini>"
+	"*teşkilüvini"
+"<ilân>"
+	"ilân" n nom
+;	"ilân" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ilân" n attr REMOVE:269
+"<etti>"
+	"et" v tv ifi p3 sg
+;	"et" n nom
+;		"e" cop ifi p3 sg REMOVE:214
+"<»>"
+	"»" rquot
+"<.>"
+	"." sent
+ 
+
+
+"<Bugün>"
+	"bugün" adv
+"<Slavânskta>"
+	"Slavânsk" np top loc
+;	"Slavânsk" np top loc
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<havfsızlıq>"
+	"havfsızlıq" n attr
+	"havfsızlıq" n nom
+;	"havfsızlıq" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<hızmeti>"
+	"hızmet" n px3sp nom
+;	"hızmet" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<yolbaşçılığında>"
+	"yolbaşçılıq" n px3sp loc
+;	"yolbaşçılıq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<antiterroristik>"
+	"*antiterroristik"
+"<ameliyat>"
+	"ameliyat" n nom
+;	"ameliyat" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"ameliyat" n attr REMOVE:269
+"<olıp>"
+	"ol" v iv prc_perf err_orth SELECT:185
+;	"ol" v iv gna_perf err_orth SELECT:185
+"<keçe>"
+	"keç" v iv aor p3 sg
+;	"keç" v iv prc_impf REMOVE:241
+"<..>"
+	".." sent
+
+
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+;	"AQŞ" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiyeni>"
+	"Rusiye" np top acc
+;	"Rusiye" np top acc err_orth REMOVE:195
+"<yañı>"
+	"yañı" adj
+;	"yañı" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom REMOVE:267
+"<cezalar>"
+	"ceza" n pl nom SELECT:151
+;	"cezala" v iv prc_fut SELECT:151
+;	"cezala" v iv gpr_fut SELECT:151
+;	"cezala" v iv fut p3 sg SELECT:151
+;	"ceza" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:155
+;	"ceza" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:155
+"<aqqında>"
+	"aqq" n px3sp loc
+;	"aqq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<tenbiyeley>"
+	"*tenbiyeley"
+
+
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"AQŞ" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+"<devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<kâtibi>"
+	"kâtip" n px3sp nom
+;	"kâtip" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<John>"
+	"John" np ant m nom
+;	"John" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Kerry>"
+	"Kerry" np cog mf nom
+;	"Kerry" np cog mf nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg err_orth REMOVE:193
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+;	"Rusiye" np top nom SELECT:167
+;		"e" cop aor p3 sg REMOVE:214
+"<çetel>"
+	"çetel" adj
+	"çetel" n attr
+	"çetel" n nom
+;	"çetel" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" n nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"çetel" adj subst nom REMOVE:267
+"<işler>"
+	"iş" n pl nom SELECT:151
+;	"işle" v tv prc_fut SELECT:151
+;	"işle" v tv gpr_fut SELECT:151
+;	"işle" v tv fut p3 sg SELECT:151
+;	"iş" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:155
+;	"iş" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:155
+"<nazirliginiñ>"
+	"nazirlik" n px3sp gen
+"<başı>"
+	"baş" n px3sp nom
+;	"baş" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Sergey>"
+	"Sergey" np ant m nom
+;	"Sergey" np ant m nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Lavrovnı>"
+	"Lavrov" np cog m acc
+"<yañı>"
+	"yañı" adj
+;	"yañı" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom REMOVE:267
+"<aqibetler>"
+	"aqibet" n pl nom
+;	"aqibet" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"aqibet" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<aqqında>"
+	"aqq" n px3sp loc
+;	"aqq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<tenbiyeledi>"
+	"*tenbiyeledi"
+"<.>"
+	"." sent
+
+"<Eger>"
+	"eger" cnjsub
+"<de>"
+	"da" postadv
+	"de" v tv imp p2 sg
+"<Rusiye>"
+	"Rusiye" np top nom SELECT:167
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"Rusiye" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+;	"rus" n px3sp dat err_orth SELECT:167
+;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+"<Federatsiyası>"
+	"federatsiya" n px3sp nom
+;	"federatsiya" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<şarqındaki>"
+	"şarq" n px3sp loc attr
+;	"şarq" n px3sp loc subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"şarq" n px3sp loc subst nom REMOVE:267
+"<vaziyetni>"
+	"vaziyet" n acc
+"<kerginleştirmege>"
+	"kerginleştir" v tv ger dat
+"<toqtamasa>"
+	"toqta" v iv neg gna_cond p3 sg
+;	"toqta" v iv neg prc_cond p3 sg REMOVE:241
+"<,>"
+	"," cm
+"<onı>"
+	"o" prn dem acc
+	"o" prn pers p3 sg acc
+"<yañı>"
+	"yañı" adj
+;	"yañı" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"yañı" adj subst nom REMOVE:267
+"<cezalar>"
+	"ceza" n pl nom SELECT:151
+;	"cezala" v iv prc_fut SELECT:151
+;	"cezala" v iv gpr_fut SELECT:151
+;	"cezala" v iv fut p3 sg SELECT:151
+;	"ceza" n nom SELECT:151
+;		"e" cop aor p3 pl REMOVE:214
+;	"ceza" n pl nom SELECT:151
+;		"e" cop aor p3 sg REMOVE:214
+"<bekleycek>"
+	"bekle" v tv gpr_fut2
+	"bekle" v tv ger_fut2 nom
+	"bekle" v tv fut2 p3 sg
+;	"bekle" v tv ger_fut2 nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<bildirdi>"
+	"bildir" v tv ifi p3 sg
+"<AQŞ>"
+	"AQŞ" np top nom SELECT:175
+;	"AQŞ" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"aq" v iv coop imp p2 sg err_orth SELECT:175
+"<devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<departamenti>"
+	"departament" n px3sp nom
+	"departament" n px3sp nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Eki>"
+	"eki" num
+;	"eki" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"eki" num subst nom REMOVE:267
+"<memleketniñ>"
+	"memleket" n gen
+"<tışqı>"
+	"tışqı" adj
+;	"tışqı" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<siyasiy>"
+	"siyasiy" adj
+;	"siyasiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<bölüklerniñ>"
+	"bölük" n pl gen
+"<nazirleri>"
+	"nazir" n pl px3sp nom
+;	"nazir" n pl px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<vaziyetiniñ>"
+	"vaziyet" n px3sp gen
+"<amerika>"
+	"Amerika" np top nom err_orth
+;	"Amerika" np top nom
+;		"e" cop aor p3 sg err_orth REMOVE:155
+"<tarafınıñ>"
+	"taraf" n px3sp gen
+"<teşebbüsi>"
+	"teşebbüs" n px3sp nom
+;	"teşebbüs" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ile>"
+	"ile" post
+"<qurulğan>"
+	"qur" v tv pass prc_past SELECT:185
+;	"qur" v tv pass ger_past nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"qur" v tv pass gpr_past SELECT:185
+;	"qur" v tv pass ger_past nom SELECT:185
+;	"qur" v tv pass past p3 sg SELECT:185
+"<telefon>"
+	"telefon" n attr
+	"telefon" n nom
+;	"telefon" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<vastası>"
+	"vasta" n px3sp nom
+;	"vasta" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ile>"
+	"ile" post
+"<muzakere>"
+	"muzakere" n attr
+	"muzakere" n nom
+;	"muzakere" n nom
+;		"e" cop aor p3 sg REMOVE:214
+"<ettiler>"
+	"et" v tv ifi p3 pl
+	"et" n nom
+		"e" cop ifi p3 pl
+"<,>"
+	"," cm
+"<dep>"
+	"de" v tv prc_perf SELECT:185
+;	"de" v tv gna_perf SELECT:185
+"<haber>"
+	"haber" n nom
+;	"haber" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"haber" n attr REMOVE:269
+"<ete>"
+	"et" v tv aor p3 sg
+;	"et" v tv prc_impf REMOVE:241
+"<BBC>"
+	"BBC" np al nom
+	"BBC" np al nom
+		"e" cop aor p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Kerry>"
+	"Kerry" np cog mf nom
+;	"Kerry" np cog mf nom
+;		"e" cop aor p3 sg REMOVE:214
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"Ukraina" np top nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+"<şarqında>"
+	"şarq" n px3sp loc
+;	"şarq" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<memuriy>"
+	"memuriy" adj
+;	"memuriy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<binalarnıñ>"
+	"bina" n pl gen
+"<zaptı>"
+	"zapt" n px3sp nom
+;	"zapt" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<tışqı>"
+	"tışqı" adj
+;	"tışqı" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<quvetler>"
+	"quvet" n pl nom
+;	"quvet" n nom
+;		"e" cop aor p3 pl REMOVE:155
+;	"quvet" n pl nom
+;		"e" cop aor p3 sg REMOVE:155
+"<tarafından>"
+	"taraf" n px3sp abl
+;	"taraf" n px3sp abl
+;		"e" cop aor p3 sg REMOVE:155
+"<idare>"
+	"idare" n nom
+;	"idare" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"idare" n attr REMOVE:269
+"<etilmesinen>"
+	"etil" v iv ger px3sp ins
+;	"et" v tv pass ger px3sp ins
+;		"e" cop aor p3 sg REMOVE:214
+;	"etil" v iv ger px3sp ins
+;		"e" cop aor p3 sg REMOVE:214
+;	"et" v tv pass ger px3sp ins REMOVE:255
+"<bağlı>"
+	"bağlı" adj
+;	"bağ" n
+;		"lı" post REMOVE:157
+;	"bağlı" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<öz>"
+	"öz" det ref
+"<fikirlerini>"
+	"fikir" n pl px3sp acc
+"<bildirdi>"
+	"bildir" v tv ifi p3 sg
+"<.>"
+	"." sent
+ 
+
+
+"<Aktivitlerniñ>"
+	"*Aktivitlerniñ"
+"<qolunda>"
+	"qol" n px3sp loc
+;	"qol" n px3sp loc
+;		"e" cop aor p3 sg REMOVE:214
+"<rusiyeniñ>"
+	"Rusiye" np top gen err_orth
+"<silâsı>"
+	"silâ" n px3sp nom
+;	"silâ" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<bar>"
+	"bar" adj
+	"bar" v iv imp p2 sg
+;	"bar" adj
+;		"e" cop aor p3 sg REMOVE:214
+;	"bar" adj subst nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"bar" vaux imp p2 sg REMOVE:247
+;	"bar" adj subst nom REMOVE:267
+"<,>"
+	"," cm
+"<em de>"
+	"em de" cnjcoo
+"<olar>"
+	"olar" prn pers p3 pl nom
+"<Qırımnı>"
+	"Qırım" np top acc SELECT:167
+;	"qır" n px1sg acc SELECT:167
+;	"qırım" n acc SELECT:167
+"<işğal etkenlerniñ>"
+	"işğal et" v tv ger_past pl gen
+"<arbiy>"
+	"arbiy" adj
+;	"arbiy" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"arbiy" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"arbiy" adj subst nom REMOVE:267
+"<urbasına>"
+	"urba" n px3sp dat
+"<kiyingenler>"
+	"kiyin" v iv past p3 pl
+	"kiyin" v iv ger_past pl nom
+;	"kiyin" v iv ger_past nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"kiyin" v iv ger_past pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<qayd ete>"
+	"qayd et" v tv aor p3 sg
+;	"qayd et" v tv prc_impf REMOVE:241
+"<Devlet>"
+	"devlet" n attr
+	"devlet" n nom
+;	"devlet" n nom
+;		"e" cop aor p3 sg REMOVE:155
+"<departamenti>"
+	"departament" n px3sp nom
+	"departament" n px3sp nom
+		"e" cop aor p3 sg
+"<..>"
+	".." sent
+
+
+"<Bugün>"
+	"bugün" adv
+"<pravoslav>"
+	"*pravoslav"
+"<ve>"
+	"ve" cnjcoo
+"<yunan>"
+	"yunan" n nom
+;	"yunan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yunan" n attr REMOVE:269
+"<->"
+	"-" guio
+"<katolikler>"
+	"*katolikler"
+"<Tal>"
+	"tal" v iv imp p2 sg
+"<bazarıkunüni>"
+	"*bazarıkunüni"
+"<qayd eteler>"
+	"qayd et" v tv aor p3 pl
+
+
+"<Ukraina>"
+	"Ukraina" np top nom SELECT:175
+;	"ukrain" n dat err_orth SELECT:175
+;	"ukrain" adj subst dat err_orth SELECT:175
+;	"Ukraina" np top nom SELECT:175
+;		"e" cop aor p3 sg REMOVE:214
+"<pravoslav>"
+	"*pravoslav"
+"<ve>"
+	"ve" cnjcoo
+"<yunan>"
+	"yunan" n nom
+;	"yunan" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"yunan" n attr REMOVE:269
+"<->"
+	"-" guio
+"<katolikleri>"
+	"*katolikleri"
+"<aprel>"
+	"aprel" n nom
+;	"aprel" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"aprel" n attr REMOVE:269
+"<13>"
+	"13" num
+;	"13" num subst nom REMOVE:267
+"<künü>"
+	"kün" n px3sp nom
+;	"kün" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:214
+"<,>"
+	"," cm
+"<Paşalyadan>"
+	"*Paşalyadan"
+"<bir>"
+	"bir" num
+	"bir" det ind
+;	"bir" num subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"bir" num subst nom REMOVE:267
+"<afta>"
+	"afta" n nom
+;	"afta" n nom
+;		"e" cop aor p3 sg REMOVE:214
+;	"afta" n attr REMOVE:269
+"<evel>"
+	"evel" post
+"<,>"
+	"," cm
+"<12>"
+	"12" num
+;	"12" num subst nom REMOVE:267
+"<müim>"
+	"müim" adj
+;	"müim" adj
+;		"e" cop aor p3 sg REMOVE:155
+;	"müim" adj subst nom
+;		"e" cop aor p3 sg REMOVE:155
+;	"müim" adj subst nom REMOVE:267
+"<bayramlardan>"
+	"bayram" n pl abl
+;	"bayram" n pl abl
+;		"e" cop aor p3 sg REMOVE:214
+"<birisisayılğan>"
+	"*birisisayılğan"
+"<Tal>"
+	"tal" v iv imp p2 sg
+"<bazarı>"
+	"bazar" n px3sp nom
+;	"bazar" n px3sp nom
+;		"e" cop aor p3 sg REMOVE:155
+"<kunüni>"
+	"kün" n px3sp acc err_orth
+"<qayd eteler>"
+	"qayd et" v tv aor p3 pl
+"<.>"
+	"." sent
+ 
+
+
+"<Bugün>"
+	"bugün" adv
+"<kilselerde>"
+	"kilse" n pl loc
+;	"kilse" n pl loc
+;		"e" cop aor p3 sg REMOVE:214
+"<tantanalı>"
+	"tantanalı" adj
+;	"tantana" n
+;		"lı" post REMOVE:157
+;	"tantanalı" adj
+;		"e" cop aor p3 sg REMOVE:214
+"<diniy>"
+	"diniy" adj
+;	"diniy" adj
+;		"e" cop aor p3 sg REMOVE:155
+"<merasimler>"
+	"merasim" n pl nom
+;	"merasim" n nom
+;		"e" cop aor p3 pl REMOVE:214
+;	"merasim" n pl nom
+;		"e" cop aor p3 sg REMOVE:214
+"<keçe>"
+	"keç" v iv aor p3 sg
+;	"keç" v iv prc_impf REMOVE:241
+"<..>"
+	".." sent
+ 
+
+
