@@ -3394,6 +3394,7 @@ illüstratsiya:illüstratsiya N1 ; ! "ілюстрація"
 imanet:imanet N1 ; ! "доручення"
 imdatçı:imdatçı N1 ; ! "помічник"
 imperializm:imperializm N1 ; ! "імперіалізм"
+imperializm:imperiolizm N1 ; ! "імперіалізм" ! Err/Orth ! Dir/LR
 impuls:impuls N1 ; ! "імпульс"
 ımtıluv:ımtıluv N1 ; ! "прагнення"
 ımtıluv:ımtıluv N1 ; ! "спроба"
