@@ -1,96 +1,54 @@
 "<Halqara>"
 	"halqara" adj
-;	"halqara" adj
-;		"e" cop aor p3 sg REMOVE:155
-;	"halqara" adj subst nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"halqara" adj subst nom REMOVE:267
 "<cemaatı>"
 	"cemaat" n px3sp nom
-;	"cemaat" n px3sp nom
-;		"e" cop aor p3 sg REMOVE:214
 "<Qırımnıñ>"
 	"Qırım" np top gen SELECT:167
-;	"qır" n px1sg gen SELECT:167
-;	"qırım" n gen SELECT:167
 "<Rusiyege>"
 	"Rusiye" np top dat
-;	"Rusiye" np top dat err_orth REMOVE:195
 "<qoşuluvını>"
 	"qoş" v tv pass ger_abst px3sp acc
 "<işğal>"
 	"işğal" n nom
-;	"işğal" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"işğal" n attr REMOVE:269
 "<olaraq>"
 	"ol" v iv gna_impf
 "<tanıy>"
 	"tanı" v tv aor p3 sg
-;	"tanı" v tv prc_impf REMOVE:241
 "<.>"
 	"." sent
 
 "<Moskvanıñ>"
-	"Moskva" np top gen
+	"Moskva" np top gen @nmod:poss #1->3
 "<soñki>"
-	"soñki" adj
-;	"soñki" adj
-;		"e" cop aor p3 sg REMOVE:155
-;	"soñki" adj subst nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"soñki" adj subst nom REMOVE:267
+	"soñki" adj @amod #2->3
 "<areketleri>"
-	"areket" n pl px3sp nom
-;	"areket" n pl px3sp nom
-;		"e" cop aor p3 sg REMOVE:214
+	"areket" n pl px3sp nom @dep #3->9
 "<Ukraina>"
-	"Ukraina" np top nom SELECT:175
-;	"ukrain" n dat err_orth SELECT:175
-;	"ukrain" adj subst dat err_orth SELECT:175
-;	"Ukraina" np top nom SELECT:175
-;		"e" cop aor p3 sg REMOVE:214
+	"Ukraina" np top nom @conj #4->6
 "<ve>"
-	"ve" cnjcoo
+	"ve" cnjcoo @cc #5->6
 "<Rusiye>"
-	"Rusiye" np top nom SELECT:167
-;	"Rusiye" np top nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"Rusiye" np top nom
-;		"e" cop aor p3 sg err_orth REMOVE:155
-;	"rus" n px3sp dat err_orth SELECT:167
-;	"Rusiye" np top nom err_orth SELECT:167 REMOVE:195
+	"Rusiye" np top nom @nmod:poss #6->7
 "<arasında>"
-	"ara" n px3sp loc
-;	"ara" n px3sp loc
-;		"e" cop aor p3 sg REMOVE:155
+	"ara" n px3sp loc @obl #7->9
 "<alâqalarnıñ>"
-	"alâqa" n pl gen
+	"alâqa" n pl gen @dep #8->9
 "<kerginleşüvine>"
-	"kerginleş" v iv ger_abst px3sp dat
+	"kerginleş" v iv ger_abst px3sp dat @conj #9->14
 "<ve>"
-	"ve" cnjcoo
+	"ve" cnjcoo @cc #10->14
 "<Rusiyeniñ>"
-	"Rusiye" np top gen
-;	"Rusiye" np top gen err_orth REMOVE:195
+	"Rusiye" np top gen @nmod:poss #11->13
 "<halqara>"
-	"halqara" adj
-;	"halqara" adj
-;		"e" cop aor p3 sg REMOVE:155
-;	"halqara" adj subst nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"halqara" adj subst nom REMOVE:267
+	"halqara" adj @amod #12->13
 "<munasebetlerinden>"
-	"munasebet" n pl px3sp abl
-;	"munasebet" n pl px3sp abl
-;		"e" cop aor p3 sg REMOVE:214
+	"munasebet" n pl px3sp abl @obl #13->14
 "<çetleşüvine>"
-	"çetle" v iv coop ger_abst px3sp dat
+	"çetle" v iv coop ger_abst px3sp dat @advcl #14->15
 "<ketire>"
-	"ketir" v tv aor p3 sg
-;	"ketir" v tv prc_impf REMOVE:241
+	"ketir" v tv aor p3 sg @root #15->0
 "<.>"
-	"." sent
+	"." sent @punct #16->15
 
 "<NATO>"
 	"NATO" np al nom

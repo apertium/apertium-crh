@@ -1453,3 +1453,28 @@
 24	i	e	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	23	cop	_	_
 25	.	.	PUNCT	sent	_	23	punct	_	_
 
+# sent_id = ilyas.vislcg.txt:1:0
+# text = İlyas Bahşış:
+1	İlyas	İlyas	PROPN	np	Case=Nom|Gender=Masc	2	flat:name	_	_
+2	Bahşış	Bahşış	PROPN	np	Case=Nom	0	root	_	_
+3	:	:	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = news.vislcg.txt:1:0
+# text = Moskvanıñ soñki areketleri Ukraina ve Rusiye arasında alâqalarnıñ kerginleşüvine ve Rusiyeniñ halqara munasebetlerinden çetleşüvine ketire.
+1	Moskvanıñ	Moskva	PROPN	np	Case=Gen	3	nmod:poss	_	_
+2	soñki	soñki	ADJ	adj	_	3	amod	_	_
+3	areketleri	areket	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	dep	_	_
+4	Ukraina	Ukraina	PROPN	np	Case=Nom	6	conj	_	_
+5	ve	ve	CCONJ	cnjcoo	_	6	cc	_	_
+6	Rusiye	Rusiye	PROPN	np	Case=Nom	7	nmod:poss	_	_
+7	arasında	ara	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
+8	alâqalarnıñ	alâqa	NOUN	n	Case=Gen|Number=Plur	9	dep	_	_
+9	kerginleşüvine	kerginleş	VERB	v	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	14	conj	_	_
+10	ve	ve	CCONJ	cnjcoo	_	14	cc	_	_
+11	Rusiyeniñ	Rusiye	PROPN	np	Case=Gen	13	nmod:poss	_	_
+12	halqara	halqara	ADJ	adj	_	13	amod	_	_
+13	munasebetlerinden	munasebet	NOUN	n	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	14	obl	_	_
+14	çetleşüvine	çetle	VERB	v	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|Voice=Coop	15	advcl	_	_
+15	ketire	ketir	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+16	.	.	PUNCT	sent	_	15	punct	_	_
+
