@@ -154,6 +154,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).lexc		\
 		$(BASENAME).$(LANG1).twol	\
 		$(BASENAME).$(LANG1).rlx	\
 		$(BASENAME).post-$(LANG1).dix	\
+		$(BASENAME).err.twol			\
 		$(LANG1).prob			\
 		modes.xml
 
