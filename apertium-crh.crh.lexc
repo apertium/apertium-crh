@@ -887,6 +887,8 @@ LEXICON V-NONFINITE
 %<prc_perf%>:%>%{i%}p # ;
 %<prc_impf%>:%>%{E%} # ;
 
+%<prc_impf%>%+bil%<v%>%<tv%>:%>%{E%}%>bil V-TV ;
+
 %<prc_cond%>:%>s%{A%} V-PERS-S2 ;
 
 %<prc_past%>:%>%{G%}%{A%}n # ;
