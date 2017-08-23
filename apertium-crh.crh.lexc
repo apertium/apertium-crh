@@ -12802,6 +12802,36 @@ muessise:muessise N1 ;
 tama:tama N1 ;
 kelecek:kelecek N1 ;
 Kezlevli:Kezlevli N1 ;
+konkurs:konkurs N1 ;
+boyevik:boyevik N1 ;
+ansambl:ansambl N1 ;
+radiokomitet:radiokomitet N1 ;
+klarnet:klarnet N1 ;
+kemane:kemane N1 ;
+diktor:diktor N1 ;
+qışlaq:qışlaq N1 ;
+estrada:estrada N1 ;
+yır:yır N1 ;
+deportatsiya:deportatsiya N1 ;
+orkestr:orkestr N1 ;
+direktor:direktor N1 ;
+cıyıntıq:cıyıntıq N1 ;
+umumtasil:umumtasil N1 ;
+zal:zal N1 ;
+çalğıcı:çalğıcı N1 ;
+spektakl:spektakl N1 ;
+uran:uran N1 ;
+pyesa:pyesa N1 ;
+truppa:truppa N1 ;
+kadr:kadr N1 ;
+zanaat:zanaat N1 ;
+qurucılıq:qurucılıq N1 ;
+dirijor:dirijor N1 ;
+ajiotaj:ajiotaj N1 ;
+yetişmemezlik:yetişmemezlik N1 ;
+abituryent:abituryent N1 ;
+informatika:informatika N1 ;
+
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
