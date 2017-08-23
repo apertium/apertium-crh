@@ -7707,6 +7707,10 @@ arbitraj:arbitraj N1 ; ! ""
 
 rok:rok N1 ; ! ""
 menba:menba N1 ; ! ""
+respublika:respublika N1 ; ! ""
+biznes:biznes N1 ; ! ""
+rezerv:rezerv N1 ; ! ""
+gorsovet:gorsovet N5 ; ! ""
 
 LEXICON ProperNouns 
 
