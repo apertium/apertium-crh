@@ -13568,7 +13568,7 @@ tabiiy:tabiiy A1;
 evelki:evelki A1;
 strategik:strategik A1;
 maküm:maküm A1;
-yaqlı:yaqlı A1;
+yaqlı:yaqlı N1;
 zayıf:zayıf A1;
 yekâne:yekâne A1;
 
@@ -13734,6 +13734,7 @@ bıltır:bıltır ADV ;
 niayet:niayet ADV ;
 aqiqaten:aqiqaten ADV ;
 bütünley:bütünley ADV ;
+şay:şay ADV ;
 
 
 
