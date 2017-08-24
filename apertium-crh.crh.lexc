@@ -12877,6 +12877,7 @@ qavehane:qavehane N1 ;
 loqsahane:loqsahane N1 ;
 serleva:serleva N1 ;
 poyezd:poyezd N1 ;
+esaplama:esaplama N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
