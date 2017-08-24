@@ -2725,6 +2725,7 @@ sistema:sistema N1 ; ! ""
 siyasetçi:siyasetçi N1 ; ! ""
 soqaq:soqaq N1 ; ! ""
 süret:süret N1 ; ! ""
+süret:suret N1 ;
 sürgünlik:sürgünlik N1 ; ! ""
 tahmin:tahmin N1 ; ! ""
 talap:talap N1 ; ! ""
@@ -4413,6 +4414,7 @@ ait:ait A1 ; ! "" ! FIXME
 evelsi:evelsi A1 ;
 adli:adli A1 ;
 uquqlu:uquqlu A1 ;
+mezkür:mezkür A1 ;
 aktivist:aktivist N5 ; ! ""
 qaza:qaza N1 ; ! ""
 tuvğan:tuvğan N1 ; ! ""
@@ -12831,7 +12833,50 @@ ajiotaj:ajiotaj N1 ;
 yetişmemezlik:yetişmemezlik N1 ;
 abituryent:abituryent N1 ;
 informatika:informatika N1 ;
-
+hayriye:hayriye N1 ;
+kündüz:kündüz N1 ;
+yarış:yarış N1 ;
+izaat:izaat N1 ;
+iştiraq:iştiraq N1 ;
+acet:acet N1 ;
+şarait:şarait N1 ;
+mahkemeci:mahkemeci N1 ;
+ciet:ciet N1 ;
+mütehassıs:mütehassıs N1 ;
+mesüliet:mesüliet N1 ;
+tahliye:tahliye N1 ;
+qoltutuv:qoltutuv N1 ;
+piket:piket N1 ;
+avto:avto N1 ;
+mudaafa:mudaafa N1 ;
+inkâr:inkâr N1 ;
+erzaq:erzaq N1 ;
+ayırım:ayırım N1 ;
+nezaretçi:nezaretçi N1 ;
+gümrük:gümrük N1 ;
+duma:duma N1 ;
+teleleyhası:teleleyhası N1 ;
+ziddiyet:ziddiyet N1 ;
+samooborona:samooborona N1 ;
+ketişat:ketişat N1 ;
+nefaqa:nefaqa N1 ;
+sermiya:sermiya N1 ;
+qaçaqlar:qaçaqlar N1 ;
+ıntıluv:ıntıluv N1 ;
+ştab:ştab N1 ;
+mesüliet:mesüliet N1 ;
+bloger:bloger N1 ;
+drujinnik:drujinnik N1 ;
+terakt:terakt N1 ;
+qabarcılıq:qabarcılıq N1 ;
+qabar:qabar N1 ;
+parom:parom N1 ;
+damartı:damartı N1 ;
+viza:viza N1 ;
+qavehane:qavehane N1 ;
+loqsahane:loqsahane N1 ;
+serleva:serleva N1 ;
+poyezd:poyezd N1 ;
 
 yaban:yaban A1 ; ! "чужий"
 yadrosız:yadrosız A1 ; ! "без"
@@ -13511,6 +13556,20 @@ ekili:ekili A1;
 millionlı:milyonlı A1; ! Err/Orth
 millionlı:millionlı A1; 
 kanunsuz:kanunsuz A1;
+işğalci:işğalci A1;
+müsbet:müsbet A1;
+ayırı:ayırı A1;
+mütenasip:mütenasip A1;
+ruhiy:ruhiy A1;
+ekstremistik:ekstremistik A1;
+tabiiy:tabiiy A1;
+evelki:evelki A1;
+strategik:strategik A1;
+maküm:maküm A1;
+yaqlı:yaqlı A1;
+zayıf:zayıf A1;
+yekâne:yekâne A1;
+
 muqaddes:muqaddes A3;
 başqa:başqa A3;
 aynı:aynı A3;
@@ -13653,6 +13712,28 @@ binayen:binayen ADV ;
 aytmaqçe:aytmaqçe ADV ;
 asılında:asılında ADV ;
 olduqça:olduqça ADV ;
+er% daim:er% daim ADV ;
+umumen:umumen ADV ;
+evelâ:evelâ ADV ;
+maniasız:maniasız ADV ;
+mıtlaqa:mıtlaqa ADV ;
+ğaliba:ğaliba ADV ;
+elbette:elbette ADV ;
+yarın:yarın ADV ;
+birazdan:birazdan ADV ;
+bugünde:bugünde ADV ;
+endiden:endiden ADV ;
+qısmen:qısmen ADV ;
+apansızdan:apansızdan ADV ;
+şahsen:şahsen ADV ;
+doğrudan:doğrudan ADV ;
+aselet:aselet ADV ;
+bıltır:bıltır ADV ;
+niayet:niayet ADV ;
+aqiqaten:aqiqaten ADV ;
+
+
+
 alâ:alâ ADV ; ! "still"
 
 
@@ -14879,6 +14960,8 @@ Dr%.:Dr%. ABBR ;
 km:km ABBR ; 
 mm:mm ABBR ; 
 m:m ABBR ; 
+mln:mln ABBR ; 
+mlrd:mlrd ABBR ; 
 sm:sm ABBR ; 
 kg:kg ABBR ; 
 ş%.:ş%. ABBR ; ! "şehir"
