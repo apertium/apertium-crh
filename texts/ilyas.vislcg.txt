@@ -94,7 +94,7 @@
 
 
 "<1913>"
-	"1913" num subst nom  @nmod:poss #1->2
+	"1913" num subst nom @nmod:poss #1->2
 "<senesi>"
 	"sene" n px3sp nom @nmod #->10
 "<quyumcı>"
@@ -149,26 +149,16 @@
 
 "<Birinci>"
 	"bir" num ord
-;	"bir" num ord subst nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"bir" num ord subst nom REMOVE:267
 "<muzıka>"
-	"muzıka" n attr
 	"muzıka" n nom
-;	"muzıka" n nom
-;		"e" cop aor p3 sg REMOVE:155
 "<derslerini>"
 	"ders" n pl px3sp acc
 "<tap>"
 	"tap" v tv imp p2 sg
 "<mektepte>"
 	"mektep" n loc
-;	"mektep" n loc
-;		"e" cop aor p3 sg REMOVE:214
 "<oquğanda>"
 	"oqu" v tv ger_past loc
-;	"oqu" v tv ger_past loc
-;		"e" cop aor p3 sg REMOVE:214
 "<alıp>"
 	"al" v tv gna_perf SELECT:185
 "<başlay>"
@@ -293,33 +283,33 @@
 	"." sent
 
 "<1932>"
-	"1932" num
+	"1932" num @nmod:poss #1->2
 "<senesinde>"
-	"sene" n px3sp loc
+	"sene" n px3sp loc @nmod #2->13
 "<İlyas>"
-	"İlyas" np ant m nom
+	"İlyas" np ant m nom @obj #3->13
 "<Bahşışnı>"
-	"Bahşış" np cog mf acc
+	"Bahşış" np cog mf acc @flat:name #4->3
 "<konkurs>"
-	"konkurs" n nom
+	"konkurs" n nom @nmod:poss #5->6
 "<esasında>"
-	"esas" n px3sp loc
+	"esas" n px3sp loc @nmod #6->13
 "<Qırım>"
-	"Qırım" np top nom 
+	"Qırım" np top nom @nsubj #7->13
 "<devlet>"
-	"devlet" n nom
+	"devlet" n nom @nmod:poss #8->9
 "<radiokomitetine>"
-	"radiokomitet" n px3sp dat
+	"radiokomitet" n px3sp dat @nmod #9->13
 "<diktor>"
-	"diktor" n nom
+	"diktor" n nom @xcomp #10->11
 "<olaraq>"
-	"ol" v iv gna_impf
+	"ol" v iv gna_impf @advcl #11->13
 "<işke>"
-	"iş" n dat
+	"iş" n dat @nmod #12->13
 "<qabul eteler>"
-	"qabul et" v tv aor p3 pl
+	"qabul et" v tv aor p3 pl @root #13->0
 "<.>"
-	"." sent
+	"." sent #14->13
 
 "<O>"
 	"o" det dem @det #1->2
@@ -392,204 +382,116 @@
 	"." sent @punct #17->15
 
 "<Radiokomitette>"
-	"radiokomitet" n loc
+	"radiokomitet" n loc @nmod #1->2
 "<çalışqan>"
-	"çalış" v iv gpr_past
-	"çalış" v iv past p3 sg
-	"çalış" v iv ger_past nom
-	"çalış" v iv ger_past nom
-;	"çalış" v iv prc_past REMOVE:241
+	"çalış" v iv prc_past @acl #2->3
 "<yılları>"
-	"yıl" n pl px3sp nom
-;	"yıl" n pl px3sp nom
-;		"e" cop aor p3 sg REMOVE:214
+	"yıl" n pl px3sp nom @nmod #3->
 "<çoqtan>"
-	"çoqtan" adv
+	"çoqtan" adv @adv #4->
 "<->"
-	"-" guio
+	"-" guio @punct #5->
 "<çoq>"
 	"çoq" adv
-	"çoq" det qnt
 "<meraqlı>"
-	"meraqlı" adj
-;	"meraqlı" adj
-;		"e" cop aor p3 sg REMOVE:155
-;	"meraqlı" adj subst nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"meraq" n
-;		"lı" post REMOVE:157
-;	"meraqlı" adj subst nom REMOVE:267
+	"meraqlı" adj @amod #7->8
 "<çalğıcılar>"
 	"çalğıcı" n pl nom
-;	"çalğıcı" n nom
-;		"e" cop aor p3 pl REMOVE:214
-;	"çalğıcı" n pl nom
-;		"e" cop aor p3 sg REMOVE:214
 "<,>"
 	"," cm
 "<yırcılar>"
 	"yırcı" n pl nom
-;	"yırcı" n nom
-;		"e" cop aor p3 pl REMOVE:214
-;	"yırcı" n pl nom
-;		"e" cop aor p3 sg REMOVE:214
 "<,>"
 	"," cm
 "<drama>"
-	"drama" n attr
 	"drama" n nom
-;	"drama" n nom
-;		"e" cop aor p3 sg REMOVE:155
 "<aktörlarınen>"
 	"aktör" n pl px3sp ins err_orth
-;	"aktör" n pl px3sp ins
-;		"e" cop aor p3 sg err_orth REMOVE:193
 "<körüşe>"
 	"kör" v tv coop aor p3 sg
-;	"kör" v tv coop prc_impf REMOVE:241
 "<ve>"
 	"ve" cnjcoo
 "<tanış>"
 	"tanış" adj
-	"tanı" v tv coop imp p2 sg
-;	"tanış" adj
-;		"e" cop aor p3 sg REMOVE:214
-;	"tanış" adj subst nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"tanış" adj subst nom REMOVE:267
 "<ola>"
 	"ol" v iv aor p3 sg
-;	"ol" v iv prc_impf REMOVE:241
 "<,>"
 	"," cm
 "<çünki>"
 	"çünki" cnjsub
 "<Qırım>"
-	"Qırım" np top nom SELECT:167
-;	"qır" n nom SELECT:167
-;		"e" cop aor p1 sg
-;	"qır" n px1sg nom SELECT:167
-;	"qırım" n attr SELECT:167
-;	"qırım" n nom SELECT:167
-;	"qır" n px1sg nom SELECT:167
-;		"e" cop aor p3 sg
-;	"qırım" n nom SELECT:167
-;		"e" cop aor p3 sg
-;	"Qırım" np top nom SELECT:167
-;		"e" cop aor p3 sg REMOVE:214
+	"Qırım" np top nom
 "<radiokomitetiniñ>"
-	"*radiokomitetiniñ"
+	"radiokomitet" n px3sp gen
 "<ştatları>"
 	"ştat" n pl px3sp nom
-;	"ştat" n pl px3sp nom
-;		"e" cop aor p3 sg REMOVE:214
 "<150>"
 	"150" num
-;	"150" num subst nom REMOVE:267
 "<adamdan>"
-	"ada" n px1sg abl
 	"adam" n abl
-;	"ada" n px1sg abl
-;		"e" cop aor p3 sg REMOVE:214
-;	"adam" n abl
-;		"e" cop aor p3 sg REMOVE:214
 "<ibaret>"
 	"ibaret" adj
-;	"ibaret" adj
-;		"e" cop aor p3 sg REMOVE:214
 "<edi>"
 	"e" cop ifi p3 sg
-;	"e" vaux ifi p3 sg REMOVE:247
 "<,>"
 	"," cm
 "<olarnıñ>"
 	"olar" prn pers p3 pl gen
 "<içinde de>"
 	"iç" n px3sp loc
-		"e" cop aor p3 sg
-			"da" postadv err_orth
-;	"iç" n px3sp loc
-;		"da" postadv err_orth REMOVE:193
+		"da" postadv err_orth
 "<:>"
 	":" sent
 "<Sabriye>"
-	"*Sabriye"
+	"Sabriye" np ant f nom
 "<Erecepova>"
-	"*Erecepova"
+	"Erecepova" np cog f nom
 "<,>"
 	"," cm
 "<Zeynep>"
-	"*Zeynep"
+	"Zeynep" np ant f nom
 "<Lümanova>"
-	"*Lümanova"
+	"Lümanova" np cog f nom
 "<,>"
 	"," cm
 "<Ediye>"
-	"ediye" n nom
-;	"ediye" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"ediye" n attr REMOVE:269
+	"Ediye" np ant f nom
 "<Topçı>"
 	"*Topçı"
 "<,>"
 	"," cm
 "<ressam>"
 	"ressam" n nom
-;	"ressam" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"ressam" n attr REMOVE:269
 "<Memet>"
 	"Memet" np ant m nom
-;	"Memet" np ant m nom
-;		"e" cop aor p3 sg REMOVE:214
 "<Abselâmov>"
 	"Abselâmov" np cog m nom
-;	"Abselâmov" np cog m nom
-;		"e" cop aor p3 sg REMOVE:214
 "<,>"
 	"," cm
 "<bestekârlar>"
 	"bestekâr" n pl nom
-;	"bestekâr" n nom
-;		"e" cop aor p3 pl REMOVE:155
-;	"bestekâr" n pl nom
-;		"e" cop aor p3 sg REMOVE:155
 "<Yağya>"
 	"yağ" n dat err_orth
 "<Şerfetdinov>"
 	"Şerfetdinov" np cog m nom
-;	"Şerfetdinov" np cog m nom
-;		"e" cop aor p3 sg REMOVE:214
 "<,>"
 	"," cm
 "<Asan>"
 	"Asan" np ant m nom
-;	"Asan" np ant m nom
-;		"e" cop aor p3 sg REMOVE:214
 "<Refatov>"
 	"Refatov" np cog m nom
-;	"Refatov" np cog m nom
-;		"e" cop aor p3 sg REMOVE:214
 "<ve>"
 	"ve" cnjcoo
 "<onıñ>"
-	"o" prn dem gen
 	"o" prn pers p3 sg gen
 "<qardaşı>"
 	"qardaş" n px3sp nom
-;	"qardaş" n px3sp nom
-;		"e" cop aor p3 sg REMOVE:155
 "<çalğıcı>"
 	"çalğıcı" n nom
-;	"çalğıcı" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"çalğıcı" n attr REMOVE:269
 "<Reşat>"
-	"*Reşat"
+	"Reşat" np ant m nom
 "<Refatov>"
 	"Refatov" np cog m nom
-	"Refatov" np cog m nom
-		"e" cop aor p3 sg
 "<.>"
 	"." sent
  
@@ -597,38 +499,27 @@
 
 "<1934>"
 	"1934" num
-;	"1934" num subst nom REMOVE:267
 "<–>"
 	"–" guio
 "<1937>"
 	"1937" num
-;	"1937" num subst nom REMOVE:267
 "<ss.>"
 	"ss." abbr
 "<Aqmescitteki>"
 	"Aqmescit" np top loc attr
-;	"Aqmescit" np top loc subst nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"Aqmescit" np top loc subst nom REMOVE:267
 "<muzıka>"
-	"muzıka" n attr
 	"muzıka" n nom
-;	"muzıka" n nom
-;		"e" cop aor p3 sg REMOVE:155
 "<tehnikumına>"
 	"tehnikum" n px3sp dat
 "<oqumağa>"
 	"oqu" v tv ger dat
 "<kire>"
 	"kir" v iv aor p3 sg
-;	"kir" v iv prc_impf REMOVE:241
 "<.>"
 	"." sent
 
 "<Ocaları>"
 	"oca" n pl px3sp nom
-	"oca" n pl px3sp nom
-		"e" cop aor p3 sg
 "<:>"
 	":" sent
 "<İ>"
@@ -640,7 +531,6 @@
 	"*İ"
 "<.>"
 	"." sent
-
 "<Çernov>"
 	"Çernov" np cog m nom
 ;	"Çernov" np cog m nom
@@ -685,18 +575,12 @@
 
 "<1937>"
 	"1937" num
-;	"1937" num subst nom REMOVE:267
 "<s.>"
 	"s." abbr
 "<İlyas>"
 	"İlyas" np ant m nom
-;	"İlyas" np ant m nom
-;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
-	"bahşış" n nom
-;	"bahşış" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"bahşış" n attr REMOVE:269
+	"Bahşış" np cog m nom
 "<Muzfondnı>"
 	"*Muzfondnı"
 "<(>"
@@ -705,40 +589,20 @@
 	"soñra" adv
 "<Qırım>"
 	"Qırım" np top nom SELECT:167
-;	"qır" n nom
-;		"e" cop aor p1 sg REMOVE:155
-;	"qır" n px1sg nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"qırım" n nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"Qırım" np top nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"qır" n px1sg nom SELECT:167
-;	"qırım" n attr SELECT:167
-;	"qırım" n nom SELECT:167
 "<bestekârlar>"
 	"bestekâr" n pl nom
-;	"bestekâr" n nom
-;		"e" cop aor p3 pl REMOVE:155
-;	"bestekâr" n pl nom
-;		"e" cop aor p3 sg REMOVE:155
 "<birligine>"
 	"birlik" n px3sp dat
 "<)>"
 	")" rpar
 "<reis>"
 	"reis" n nom
-;	"reis" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"reis" n attr REMOVE:269
 "<olıp>"
-	"ol" v iv prc_perf err_orth SELECT:185
-;	"ol" v iv gna_perf err_orth SELECT:185
+	"ol" v iv gna_perf err_orth SELECT:185
 "<tayin>"
-	"tay" v iv pass imp p2 sg err_orth
+	"tayin" n nom
 "<ola>"
 	"ol" v iv aor p3 sg
-;	"ol" v iv prc_impf REMOVE:241
 "<ve>"
 	"ve" cnjcoo
 "<bunıñnen>"
@@ -746,162 +610,92 @@
 "<beraber>"
 	"beraber" adv
 "<Qırım>"
-	"Qırım" np top nom SELECT:167
-;	"qır" n nom SELECT:167
-;		"e" cop aor p1 sg
-;	"qır" n px1sg nom SELECT:167
-;	"qırım" n attr SELECT:167
-;	"qırım" n nom SELECT:167
-;	"qır" n px1sg nom SELECT:167
-;		"e" cop aor p3 sg
-;	"qırım" n nom SELECT:167
-;		"e" cop aor p3 sg
-;	"Qırım" np top nom SELECT:167
-;		"e" cop aor p3 sg REMOVE:214
+	"Qırım" np top nom
 "<radiokomiteti>"
-	"*radiokomiteti"
+	"radiokomitet" n px3sp nom
 "<muzıka>"
-	"muzıka" n attr
 	"muzıka" n nom
-;	"muzıka" n nom
-;		"e" cop aor p3 sg REMOVE:155
 "<yayınlarınıñ>"
 	"yayın" n pl px3sp gen
 "<baş>"
 	"baş" n attr
-	"baş" n nom
-;	"baş" n nom
-;		"e" cop aor p3 sg REMOVE:155
 "<muarriri>"
 	"muarrir" n px3sp nom
-;	"muarrir" n px3sp nom
-;		"e" cop aor p3 sg REMOVE:155
 "<sıfatında>"
 	"sıfat" n px3sp loc
-;	"sıfat" n px3sp loc
-;		"e" cop aor p3 sg REMOVE:214
 "<tayinlene>"
-	"*tayinlene"
+	"tayinlen" v iv aor p3 sg
 "<.>"
 	"." sent
 
 "<O>"
-	"o" det dem
-	"o" prn dem nom
-	"o" prn pers p3 sg nom
+	"o" det dem @det #1->2
 "<devirde>"
-	"devir" n loc
-;	"devir" n loc
-;		"e" cop aor p3 sg REMOVE:155
+	"devir" n loc @nmod #2->
 "<Bahşış>"
-	"bahşış" n attr
-	"bahşış" n nom
-;	"bahşış" n nom
-;		"e" cop aor p3 sg REMOVE:155
+	"Bahşış" np cog mf nom @nsubj #3->
 "<Yağya>"
-	"yağ" n dat err_orth
+	"Yağya" np ant m nom @nmod #4->
 "<Şerfetdinovnen>"
-	"Şerfetdinov" np cog m ins
-;	"Şerfetdinov" np cog m ins
-;		"e" cop aor p3 sg REMOVE:155
+	"Şerfetdinov" np cog m ins @flat:name #5->4
 "<dramaturg>"
-	"dramaturg" n nom
-;	"dramaturg" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"dramaturg" n attr REMOVE:269
+	"dramaturg" n nom @f
 "<Yusuf>"
 	"Yusuf" np ant m nom
-;	"Yusuf" np ant m nom
-;		"e" cop aor p3 sg REMOVE:214
 "<Bolat>"
-	"*Bolat"
+	"Bolat" np cog mf nom
 "<ve>"
 	"ve" cnjcoo
 "<şair>"
 	"şair" n nom
-;	"şair" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"şair" n attr REMOVE:269
 "<İbraim>"
 	"İbraim" np ant m nom
-;	"İbraim" np ant m nom
-;		"e" cop aor p3 sg REMOVE:155
 "<Bahşışnıñ>"
-	"bahşış" n gen
+	"Bahşış" np cog mf gen
 "<">"
 	""" sent
 "<Arzı>"
-	"arz" n px3sp nom
-;	"arz" n px3sp nom
-;		"e" cop aor p3 sg REMOVE:214
+	"arzı" n attr
 "<qız>"
-	"qız" v iv imp p2 sg SELECT:203
-;	"qız" n attr SELECT:203
-;	"qız" n nom SELECT:203
-;	"qız" n nom SELECT:203
-;		"e" cop aor p3 sg
+	"qız" n nom
 "<">"
 	""" sent
 "<dramasına>"
 	"drama" n px3sp dat
 "<muzıka>"
-	"muzıka" n attr
 	"muzıka" n nom
-;	"muzıka" n nom
-;		"e" cop aor p3 sg REMOVE:214
 "<yazdılar>"
 	"yaz" v tv ifi p3 pl
-	"yaz" n nom
-		"e" cop ifi p3 pl
 "<.>"
 	"." sent
 
 "<Abibulla>"
-	"*Abibulla"
+	"Abibulla" np ant m nom
 "<Qavrinen>"
-	"*Qavrinen"
+	"Qavri" np cog mf nom
 "<ise>"
 	"ise" cnjcoo
 "<">"
 	""" sent
 "<Altın>"
-	"alt" n px3sp nom err_orth
-;	"alt" n px3sp nom
-;		"e" cop aor p3 sg err_orth REMOVE:155
+	"altın"
 "<beşik>"
 	"beşik" n nom
-		"e" cop aor p3 sg
-	"beşik" n nom
-;	"beşik" n attr REMOVE:269
 "<">"
 	""" sent
 "<ke>"
 	"*ke"
 "<muzıka>"
 	"muzıka" n nom
-;	"muzıka" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"muzıka" n attr REMOVE:269
 "<yazdılar>"
 	"yaz" v tv ifi p3 pl SELECT:203
-;	"yaz" n nom SELECT:203
-;		"e" cop ifi p3 pl
 "<.>"
 	"." sent
 
 "<Ondan>"
 	"o" prn dem abl
-	"on" num subst abl
-	"o" prn pers p3 sg abl
-;	"on" num subst abl
-;		"e" cop aor p3 sg REMOVE:214
 "<soñ>"
 	"soñ" post SELECT:230
-;	"soñ" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"soñ" adv SELECT:230
-;	"soñ" n attr SELECT:230
-;	"soñ" n nom SELECT:230
 "<biri>"
 	"bir" num subst px3sp nom
 ;	"bir" num subst px3sp nom
@@ -914,24 +708,14 @@
 ;		"e" cop aor p3 sg REMOVE:155
 "<artından>"
 	"art" n px3sp abl
-;	"art" n px3sp abl
-;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
-	"bahşış" n nom
-		"e" cop aor p3 sg
-	"bahşış" n nom
-;	"bahşış" n attr REMOVE:269
+	"Bahşış" np cog mf nom
 "<">"
 	""" sent
 "<Nasreddin>"
 	"Nasreddin" np ant m nom
-;	"Nasreddin" np ant m nom
-;		"e" cop aor p3 sg REMOVE:155
 "<oca>"
 	"oca" n nom
-		"e" cop aor p3 sg
-	"oca" n nom
-;	"oca" n attr REMOVE:269
 "<">"
 	""" sent
 "<,>"
@@ -940,37 +724,24 @@
 	""" sent
 "<Bağçasaray>"
 	"Bağçasaray" np top nom
-;	"Bağçasaray" np top nom
-;		"e" cop aor p3 sg REMOVE:155
 "<çeşmesi>"
 	"çeşme" n px3sp nom
-	"çeşme" n px3sp nom
-		"e" cop aor p3 sg
 "<">"
 	""" sent
 "<pyesalarına>"
 	"pyesa" n pl px3sp dat
 "<muzıka>"
 	"muzıka" n nom
-;	"muzıka" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"muzıka" n attr REMOVE:269
 "<yazdı>"
 	"yaz" v tv ifi p3 sg SELECT:203
-;	"yaz" n nom SELECT:203
-;		"e" cop ifi p3 sg
 "<.>"
 	"." sent
 
 "<Rus>"
 	"rus" n attr
 	"rus" n nom
-;	"rus" n nom
-;		"e" cop aor p3 sg REMOVE:155
 "<teatri>"
 	"teatr" n px3sp nom err_orth
-;	"teatr" n px3sp nom
-;		"e" cop aor p3 sg err_orth REMOVE:193
 "<içün>"
 	"içün" post
 "<–>"
@@ -1021,27 +792,18 @@
 
 "<1937>"
 	"1937" num
-;	"1937" num subst nom REMOVE:267
 "<->"
 	"-" guio
 "<38>"
 	"38" num
-;	"38" num subst nom REMOVE:267
 "<ss.>"
 	"ss." abbr
 "<tarihta>"
 	"tarih" n loc
-	"tarih" n loc
-		"e" cop aor p3 sg
 "<">"
 	""" sent
 "<Büyük>"
 	"büyük" adj
-;	"büyük" adj
-;		"e" cop aor p3 sg REMOVE:155
-;	"büyük" adj subst nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"büyük" adj subst nom REMOVE:267
 "<terror>"
 	"terror" n nom
 		"e" cop aor p3 sg
@@ -1050,40 +812,21 @@
 "<">"
 	""" sent
 "<adlandırılğan>"
-	"adlandır" v tv pass gpr_past
-	"adlandır" v tv pass past p3 sg
-	"adlandır" v tv pass ger_past nom
-;	"adlandır" v tv pass ger_past nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"adlandır" v tv pass prc_past REMOVE:241
+	"adlandır" v tv pass prc_past REMOVE:241
 "<devirniñ>"
 	"devir" n gen
 "<içinde>"
 	"iç" n px3sp loc
-;	"iç" n px3sp loc
-;		"e" cop aor p3 sg REMOVE:214
 "<Stalin>"
 	"Stalin" np cog m nom
-;	"Stalin" np cog m nom
-;		"e" cop aor p3 sg REMOVE:214
 "<bütün>"
 	"bütün" det ind
 "<SSCBde>"
 	"ŞSCB" np top loc err_orth
-;	"ŞSCB" np top loc
-;		"e" cop aor p3 sg err_orth REMOVE:193
 "<em>"
 	"em" cnjcoo
 "<Qırımda>"
 	"Qırım" np top loc SELECT:167
-;	"qır" n px1sg loc SELECT:167
-;	"qırım" n loc SELECT:167
-;	"qır" n px1sg loc SELECT:167
-;		"e" cop aor p3 sg
-;	"qırım" n loc SELECT:167
-;		"e" cop aor p3 sg
-;	"Qırım" np top loc SELECT:167
-;		"e" cop aor p3 sg REMOVE:214
 "<çoqtan>"
 	"çoqtan" adv
 "<çoq>"
@@ -1091,23 +834,18 @@
 	"çoq" det qnt
 "<ziyalılarnıñ>"
 	"ziyalı" n pl gen
-	"ziyalılar" n gen
 "<repressiyalarğa>"
 	"repressiya" n pl dat
 "<ograta>"
-	"*ograta"
+	"ograt" v tv aor p3 sg
 "<ve>"
 	"ve" cnjcoo
 "<,>"
 	"," cm
 "<şay>"
-	"şay" n nom
-;	"şay" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"şay" n attr REMOVE:269
+	"şay" adv
 "<etip>"
 	"et" v tv gna_perf
-;	"et" v tv prc_perf REMOVE:239
 "<,>"
 	"," cm
 "<coqusı>"
@@ -1137,43 +875,21 @@
 ;		"e" cop aor p3 sg REMOVE:214
 "<yoq>"
 	"yoq" adj
-;	"yoq" adj
-;		"e" cop aor p3 sg REMOVE:214
-;	"yoq" adj subst nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"yoq" adj subst nom REMOVE:267
 "<etile>"
 	"etil" v iv aor p3 sg
-;	"et" v tv pass prc_impf REMOVE:241
-;	"etil" v iv prc_impf REMOVE:241
-;	"et" v tv pass aor p3 sg REMOVE:255
 "<.>"
 	"." sent
 
 "<İlyas>"
-	"İlyas" np ant m nom
-;	"İlyas" np ant m nom
-;		"e" cop aor p3 sg REMOVE:155
+	"İlyas" np ant m nom @nsubj #1->4
 "<Bahşış>"
-	"bahşış" n nom
-;	"bahşış" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"bahşış" n attr REMOVE:269
+	"Bahşış" np cog mf nom @flat:name #2->1
 "<sağ>"
-	"sağ" adj
-;	"sağ" adj
-;		"e" cop aor p3 sg REMOVE:214
-;	"sağ" adj subst nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"sağ" adj subst nom REMOVE:267
+	"sağ" adj @xcomp #3->4
 "<qala>"
-	"qala" v iv imp p2 sg SELECT:203
-	"qal" v iv aor p3 sg SELECT:203
-;	"qal" vaux prc_impf SELECT:203
-;	"qal" vaux aor p3 sg SELECT:203
-;	"qal" v iv prc_impf SELECT:203 REMOVE:241
+	"qal" v iv aor p3 sg @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
  
 
 
@@ -1187,50 +903,22 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
-	"bahşış" n nom
-		"e" cop aor p3 sg
-	"bahşış" n nom
-;	"bahşış" n attr REMOVE:269
+	"Bahşış" np cog mf nom @flat:name 
 "<">"
 	""" sent
 "<Qırım>"
 	"Qırım" np top nom SELECT:167
-;	"qır" n nom SELECT:167
-;		"e" cop aor p1 sg
-;	"qır" n px1sg nom SELECT:167
-;	"qırım" n attr SELECT:167
-;	"qırım" n nom SELECT:167
-;	"qır" n px1sg nom SELECT:167
-;		"e" cop aor p3 sg
-;	"qırım" n nom SELECT:167
-;		"e" cop aor p3 sg
-;	"Qırım" np top nom SELECT:167
-;		"e" cop aor p3 sg REMOVE:214
 "<MŞSCde>"
 	"MŞSC" np al loc err_orth
-;	"MŞSC" np al loc
-;		"e" cop aor p3 sg err_orth REMOVE:155
 "<nam>"
 	"nam" n nom
-;	"nam" n nom
-;		"e" cop aor p3 sg REMOVE:214
-;	"nam" n attr REMOVE:269
 "<qazanğan>"
 	"qazan" v tv gpr_past
-	"qazan" v tv past p3 sg
-	"qazan" v tv ger_past nom
-;	"qazan" v tv ger_past nom
-;		"e" cop aor p3 sg REMOVE:155
-;	"qazan" v tv prc_past REMOVE:241
+	"qazan" v tv prc_past REMOVE:241
 "<sanat>"
-	"sanat" n attr
 	"sanat" n nom
-;	"sanat" n nom
-;		"e" cop aor p3 sg REMOVE:155
 "<erbabı>"
 	"erbap" n px3sp nom
-	"erbap" n px3sp nom
-		"e" cop aor p3 sg
 "<">"
 	""" sent
 "<unvanınen>"
@@ -1258,6 +946,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n attr
 	"bahşış" n nom
 ;	"bahşış" n nom
@@ -1372,6 +1061,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n nom
 ;	"bahşış" n nom
 ;		"e" cop aor p3 sg REMOVE:214
@@ -1516,6 +1206,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n nom
 ;	"bahşış" n nom
 ;		"e" cop aor p3 sg REMOVE:214
@@ -1584,6 +1275,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşışnı>"
+	"Bahşış" np cog mf acc @flat:name 
 	"bahşış" n acc
 "<idareci>"
 	"idareci" n nom
@@ -1670,6 +1362,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n attr
 	"bahşış" n nom
 ;	"bahşış" n nom
@@ -1859,6 +1552,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n attr
 	"bahşış" n nom
 ;	"bahşış" n nom
@@ -2096,6 +1790,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşışqa>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n dat
 "<Özbekistanda>"
 	"Özbekistan" np top loc
@@ -2213,6 +1908,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n nom
 ;	"bahşış" n nom
 ;		"e" cop aor p3 sg REMOVE:214
@@ -2491,6 +2187,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n attr
 	"bahşış" n nom
 ;	"bahşış" n nom
@@ -2712,6 +2409,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşışnıñ>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n gen
 "<100>"
 	"100" num
@@ -2758,6 +2456,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n nom
 ;	"bahşış" n nom
 ;		"e" cop aor p3 sg REMOVE:214
@@ -2898,6 +2597,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşışnıñ>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n gen
 "<qırımtatar>"
 	"qırımtatar" n attr
@@ -2985,6 +2685,7 @@
 "<Elzara>"
 	"*Elzara"
 "<Bahşış>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n nom
 ;	"bahşış" n nom
 ;		"e" cop aor p3 sg REMOVE:214
@@ -3069,6 +2770,7 @@
 ;	"İlyas" np ant m nom
 ;		"e" cop aor p3 sg REMOVE:155
 "<Bahşışnıñ>"
+	"Bahşış" np cog mf nom @flat:name 
 	"bahşış" n gen
 "<yazğan>"
 	"yaz" v tv prc_past SELECT:185

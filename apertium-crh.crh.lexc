@@ -13572,7 +13572,11 @@ yaqlı:yaqlı N1;
 ğazel:ğazel N1;
 beyit:beyit N1;
 göñülli:göñülli N1;
-zayıf:zayı A1;
+yasaq:yasaq N1;
+teleleyha:teleleyha N1;
+mabüs:mabüs N1;
+mırza:mırza N1;
+zayıf:zayıf A1;
 
 yekâne:yekâne A1;
 zaruriy:zaruriy A1;
@@ -14931,6 +14935,7 @@ qızın:qızın V-IV ; ! ""
 esaslan:esaslan V-IV ; ! "be based on"
 
 öde:öde V-TV ; ! ""
+izaatla:izaatla V-TV ; ! ""
 
 esapla:esapla V-IV ; ! ""
 
