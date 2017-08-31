@@ -248,11 +248,11 @@
 "<ocaları>"
 	"oca" n pl px3sp nom
 "<İ>"
-	"İ"
+	"İ" abbr
 "<.>"
 	"." sent
 "<İ>"
-	"İ"
+	"İ" abbr
 "<.>"
 	"." sent
 "<Çernov>"
@@ -264,7 +264,7 @@
 "<.>"
 	"." sent
 "<İ>"
-	"*İ"
+	"İ" abbr
 "<.>"
 	"." sent
 "<Bogoradovğa>"

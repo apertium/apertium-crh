@@ -1942,7 +1942,7 @@ zemin:zemin N1 ; ! "земля, фон"
 zenaat:zenaat N1 ; ! "специальность"
 zerdali:zerdali N1 ; ! "абрикос"
 zıddiyet:zıddiyet N1 ; ! "противоречие"
-ziyalılar:ziyalılar N1 ; ! "интеллигенция"
+!ziyalılar:ziyalılar N1 ; ! "интеллигенция"
 zorluq:zorluq N1 ; ! "трудность"
 zulum:zulum N1 ; ! "иго"
 
@@ -13581,6 +13581,7 @@ zayıf:zayıf A1;
 yekâne:yekâne A1;
 zaruriy:zaruriy A1;
 muayyen:muayyen A1;
+imkânsız:imkânsız A1;
 
 muqaddes:muqaddes A3;
 başqa:başqa A3;
@@ -14936,6 +14937,7 @@ esaslan:esaslan V-IV ; ! "be based on"
 
 öde:öde V-TV ; ! ""
 izaatla:izaatla V-TV ; ! ""
+adla:adla V-TV ; ! ""
 
 esapla:esapla V-IV ; ! ""
 
