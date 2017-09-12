@@ -13576,12 +13576,14 @@ yasaq:yasaq N1;
 teleleyha:teleleyha N1;
 mabüs:mabüs N1;
 mırza:mırza N1;
+müür:müür N1;
 zayıf:zayıf A1;
 
 yekâne:yekâne A1;
 zaruriy:zaruriy A1;
 muayyen:muayyen A1;
 imkânsız:imkânsız A1;
+tuvğan:tuvğan A1;
 
 muqaddes:muqaddes A3;
 başqa:başqa A3;
@@ -14938,8 +14940,11 @@ esaslan:esaslan V-IV ; ! "be based on"
 öde:öde V-TV ; ! ""
 izaatla:izaatla V-TV ; ! ""
 adla:adla V-TV ; ! ""
+tikle:tikle V-TV ; ! ""
 
 esapla:esapla V-IV ; ! ""
+tiklen:tiklen V-IV ; ! ""
+şekle:şekle V-IV ; ! ""
 
 
 LEXICON Abbreviations
