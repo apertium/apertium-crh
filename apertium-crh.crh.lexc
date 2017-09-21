@@ -1150,6 +1150,7 @@ boyunca:boyunca POST ; ! "during/пока"
 itibaren:itibaren POST ; ! "from"
 qarşı:qarşı POST ; ! ""
 üzere:üzere POST ; ! ""
+binaen:binaen POST ; ! ""
 
 LEXICON Pronouns 
 
@@ -13577,6 +13578,7 @@ teleleyha:teleleyha N1;
 mabüs:mabüs N1;
 mırza:mırza N1;
 müür:müür N1;
+rada:rada N1;
 zayıf:zayıf A1;
 
 yekâne:yekâne A1;
@@ -13584,6 +13586,7 @@ zaruriy:zaruriy A1;
 muayyen:muayyen A1;
 imkânsız:imkânsız A1;
 tuvğan:tuvğan A1;
+teşkiliy:teşkiliy A1;
 
 muqaddes:muqaddes A3;
 başqa:başqa A3;
@@ -13748,6 +13751,7 @@ niayet:niayet ADV ;
 aqiqaten:aqiqaten ADV ;
 bütünley:bütünley ADV ;
 şay:şay ADV ;
+ilâhre:ilâhre ADV ;
 
 
 
@@ -14945,6 +14949,7 @@ tikle:tikle V-TV ; ! ""
 esapla:esapla V-IV ; ! ""
 tiklen:tiklen V-IV ; ! ""
 şekle:şekle V-IV ; ! ""
+oşa:oşa V-IV ; ! ""
 
 
 LEXICON Abbreviations
