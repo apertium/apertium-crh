@@ -13880,7 +13880,7 @@ denil:denil V-IV ; ! "" ! Der/Pass
 pekit:pekit V-TV ; ! "strengthen"
 qala:qala V-IV ; ! "build a wall"
 qara:qara V-IV ; ! "look at"
-qatna:qatna V-TV ; ! "visit"
+qatna:qatna V-IV ; ! "visit"
 qaytar:qaytar V-TV ; ! "send back"
 qıdır:qıdır V-TV ; ! "seek/искать"
 qılın:qılın V-IV ; ! ""
@@ -14945,11 +14945,13 @@ esaslan:esaslan V-IV ; ! "be based on"
 izaatla:izaatla V-TV ; ! ""
 adla:adla V-TV ; ! ""
 tikle:tikle V-TV ; ! ""
+isbatla:isbatla V-TV ; ! ""
 
 esapla:esapla V-IV ; ! ""
 tiklen:tiklen V-IV ; ! ""
 şekle:şekle V-IV ; ! ""
 oşa:oşa V-IV ; ! ""
+qoltut:qoltut V-IV ; ! ""
 
 
 LEXICON Abbreviations
