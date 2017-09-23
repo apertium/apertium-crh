@@ -1239,6 +1239,7 @@ altı:altı NUM ; ! ""
 beş:beş NUM ; ! ""
 sekiz:sekiz NUM ; ! ""
 yedi:yedi  NUM ; ! ""
+yedi:edi  NUM ; ! ""
 doquz:doquz  NUM ; ! ""
 on:on NUM ; ! ""
 yetmiş:yetmiş NUM ; ! ""
@@ -13579,6 +13580,8 @@ mabüs:mabüs N1;
 mırza:mırza N1;
 müür:müür N1;
 rada:rada N1;
+timsal:timsal N1;
+energetika:energetika N1;
 zayıf:zayıf A1;
 
 yekâne:yekâne A1;
@@ -13756,6 +13759,7 @@ ilâhre:ilâhre ADV ;
 
 
 alâ:alâ ADV ; ! "still"
+bazıda:bazıda ADV ; ! "sometimes"
 
 
 LEXICON Verbs 

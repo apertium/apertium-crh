@@ -152,6 +152,8 @@ SELECT N IF (0 Nonfin) ;
 
 SELECT Post/Sız IF (1* Fin);
 
+SELECT Num IF (-1 Num) (0 Cop);
+
 REMOVE SUB:1 Cop IF (1C N) ;
 
 REMOVE SUB:1 Deriv ;
