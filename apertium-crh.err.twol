@@ -7,7 +7,13 @@ Alphabet
  a â b c ç d e f g ğ h ı i j k l m n ñ o ö p q r s ş t u ü v y z
  A Â B C Ç D E F G Ğ H I   J K L M N Ñ O Ö P Q R S Ş T U Ü V Y Z
 
+! For Cyrillic vowels:
+
  a:а o:о
+
+! For people from Eskişehir:
+
+ q:k ñ:n
  
 ! For proper nouns, e.g. rusiye instead of Rusiye
 ! A:a Â:â B:b C:c Ç:ç D:d E:e F:f G:g Ğ:ğ H:h I:i J:j K:k L:l M:m N:n Ñ:ñ O:o Ö:ö P:p Q:q R:r S:s Ş:ş T:t U:u Ü:ü V:v Y:y Z:z
