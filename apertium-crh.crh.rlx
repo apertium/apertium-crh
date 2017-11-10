@@ -91,6 +91,7 @@ LIST Ğan = ".*[ğgkq][ae]n"ri ;
 
 LIST Post/Lı = ("lı" post) ;
 LIST Post/Sız = ("sız" post) ;
+LIST Post/Soñ = ("soñ" post) ;
 
 LIST Meslek = ".*[çc][ıüiu]"r "alim" ; 
 
@@ -141,6 +142,10 @@ SET Fin = V - Nonfin | Aux - Nonfin ;
 SET Deriv = Sız | Lı ;
 
 SECTION
+
+SELECT Gpr/past IF (1 Post/Soñ);
+
+SELECT Post/Soñ IF (-1 Gpr/past);
 
 #SELECT Prc/impf IF (1 Cop);
 
@@ -201,6 +206,7 @@ SELECT Evid IF (-1 Prc) (0 Eken) (1 EOS) ;
 REMOVE Ger IF (0 Ger OR Fin) (1 EOS) ;
 
 SECTION
+
 
 SELECT V IF (0 N OR V) (NOT -1* Fin) (1 BOS) ;
 
