@@ -143,6 +143,8 @@ SET Deriv = Sız | Lı ;
 
 SECTION
 
+REMOVE Det IF (1 Cop);
+
 SELECT Gpr/past IF (1 Post/Soñ);
 
 SELECT Post/Soñ IF (-1 Gpr/past);
