@@ -1,0 +1,5 @@
+article.txt			Wikipedia Contributors	https://crh.wikipedia.org/wiki/%C4%B0lyas_Bah%C5%9F%C4%B1%C5%9F	CC-BY-SA
+grammar.crh.txt			Darya Kavitskaya	Sentences from grammar "Crimean Tatar"	CC-BY-SA
+qarilgaclar.txt			Noman Çelebicihan	http://kiriminsesigazetesi.com/qarilgaclar-duasi/	PD
+alfred_noble.txt		Wikipedia Contributors	https://crh.wikipedia.org/wiki/Alfred_Nobel	CC-BY-SA
+news.txt			
