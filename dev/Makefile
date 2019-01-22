@@ -1,5 +1,5 @@
 # Check ../.deps/crh.LR.hfst because error
-all: lat2cyrl cyrl2lat 
+all: lat2cyrl cyrl2lat combined
 	#hfst-compose-intersect -1 ../.deps/crh.LR.hfst -2 crh_LAT2CYRL.ngrams.hfst -o crh.LR.cyrl.hfst
 	hfst-compose -1 ../.deps/crh.LR.hfst -2 crh_LAT2CYRL.ngrams.hfst -o crh.LR.cyrl.hfst
 	hfst-union -1 ../.deps/crh.LR.hfst -2 crh.LR.cyrl.hfst -o crh.LR.biscript.hfst
@@ -24,10 +24,20 @@ lat2cyrl:
 	cat ngrams/crh_CYRL.ngrams.2.tsv | hfst-strings2fst -j | hfst-repeat -f 1 -o crh_CYRL.ngrams.hfst
 	#cat ngrams/crh_CYRL.ngrams.3.tsv | hfst-strings2fst -j | hfst-repeat -f 1 -o crh_CYRL.ngrams.hfst
 	##cat ngrams/crh_CYRL.ngrams.5.tsv | hfst-strings2fst -j | hfst-repeat -f 1 -o crh_CYRL.ngrams.hfst
+	#cat ngrams/crh_CYRL.ngrams.6.tsv | hfst-strings2fst -j | hfst-repeat -f 1 -o crh_CYRL.ngrams.hfst
 	hfst-compose -1 crh_LAT2CYRL.hfst -2 crh_CYRL.ngrams.hfst | hfst-minimise -E -o crh_LAT2CYRL.ngrams.hfst
 	#hfst-fst2fst -w crh_LAT2CYRL.ngrams.hfst -o crh_LAT2CYRL.hfstol
 	#hfst-union -1 crh_LAT2CYRL.hfst -2 crh_LAT2CYRL.words.hfst| hfst-fst2fst -w -o crh_LAT2CYRL.hfstol
 	hfst-union -1 crh_LAT2CYRL.ngrams.hfst -2 crh_LAT2CYRL.words.hfst | hfst-fst2fst -w -o crh_LAT2CYRL.hfstol
+	hfst-union -1 crh_LAT2CYRL.ngrams.hfst -2 crh_LAT2CYRL.words.hfst -o crh_LAT2CYRL.unioned.hfst
+
+combined: lat2cyrl
+	hfst-compose-intersect -1 ../.deps/crh.LR.hfst -2 crh_LAT2CYRL.unioned.hfst -o ../.deps/crh.LR.CYRL.hfst
+	hfst-invert ../.deps/crh.LR.CYRL.hfst > ../.deps/crh.automorf.CYRL.hfst
+	hfst-invert ../.deps/crh.LR.hfst | hfst-union -1 - -2 ../.deps/crh.automorf.CYRL.hfst > ../.deps/crh.automorf.CYRL+LAT.hfst
+	hfst-invert ../.deps/crh.LR.hfst | hfst-union -1 - -2 ../.deps/crh.automorf.CYRL.hfst | hfst-fst2fst -w > ../.deps/crh.automorf.CYRL+LAT.hfstol
+	#hfst-invert ../.deps/crh.LR.hfst | hfst-union -1 - -2 ../.deps/crh.automorf.CYRL.hfst | hfst-fst2fst -w > ../.deps/crh.automorf.CYRL+LAT.hfstol
+	hfst-fst2fst -w ../.deps/crh.automorf.CYRL+LAT.hfstol > ../.deps/crh.automorf.CYRL+LAT.hfstol
 
 clean:
 	rm *.hfst *.hfstol
