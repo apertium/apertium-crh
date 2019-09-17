@@ -145,9 +145,9 @@ SECTION
 
 REMOVE Det IF (1 Cop);
 
-SELECT Gpr/past IF (1 Post/Soñ);
+SELECT Ger/past IF (0 Gpr/past) (1 Post/Soñ);
 
-SELECT Post/Soñ IF (-1 Gpr/past);
+SELECT Post/Soñ IF (-1 Ger/past);
 
 #SELECT Prc/impf IF (1 Cop);
 
