@@ -59,7 +59,6 @@ Multichar_Symbols
 %<abl%>           ! Ablative
 %<loc%>           ! Locative
 %<ins%>           ! Instrumental=comitative 
-
 %<evid%>
 
 %<nec%>           ! Necessitive
@@ -71,8 +70,12 @@ Multichar_Symbols
 %<pass%>          ! Passive
 %<coop%>          ! Cooperative
 %<rec%>           ! Reciprocal (?)
-%<iver%>	  ! suffix conveying ease/speed of action
-%<eyaz%>	  ! suffix conveying the action *almost* happened
+%<iver%>	         ! suffix conveying ease/speed of action
+%<eyaz%>	         ! suffix conveying the action *almost* happened
+%<gno%>
+%<fut%>
+%<fut2%>
+%<sim%>
 
 %<dub%>           ! dubative -mIş
 %<abil%>          ! abilative
