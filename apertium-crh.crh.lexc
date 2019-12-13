@@ -15,183 +15,170 @@
 
 Multichar_Symbols 
 
-%<n%>             ! Noun                        
-%<np%>            ! Proper noun                 
-%<adj%>           ! Adjective                   
-%<prn%>           ! Pronoun                     
-%<post%>          ! Postposition                
-%<adv%>           ! Adverb                      
-%<v%>             ! Verb                        
-%<cnjcoo%>        ! Coordinating conjunction    
-%<cnjsub%>        ! Sub-ordinating conjunction
-%<cnjadv%>        ! Adverbial conjunction 
-%<qst%>           ! Question word
-%<sym%>           ! Symbol
-%<cop%>           ! Copula
-%<postadv%>       ! Post the adverb
-%<det%>           ! Determiner
-%<num%>           ! Numeral
-%<vaux%>          ! Auxiliary verb
-%<abbr%>          ! Abbreviation
-%<emph%>          ! Emphatic [imperative]
-%<ij%>		  ! Interjection
-%<part%>          ! Particle 
-
-! Proper noun types
-%<top%>           ! Toponym (place name)
-%<ant%>           ! Anthroponym (person name)
-%<cog%>           ! Cognomen (family name)
-%<org%>           ! Organisation
-%<pat%>           ! Patronymic
-%<al%>            ! Others
-
-! gender !
-%<m%>             ! Masculine    
-%<f%>             ! Feminine     
-%<mf%>            ! Either
-
-! Cases !
-
-%<nom%>           ! Nominative
-%<gen%>           ! Genitive
-%<dat%>           ! Dative
+%<n%>             ! Noun                        	
+%<np%>            ! Proper noun                 	
+%<adj%>           ! Adjective                   	
+%<prn%>           ! Pronoun                     	
+%<post%>          ! Postposition                	
+%<adv%>           ! Adverb                      	
+%<v%>             ! Verb                        	
+%<cnjcoo%>        ! Coordinating conjunction    	
+%<cnjsub%>        ! Sub-ordinating conjunction	
+%<cnjadv%>        ! Adverbial conjunction 	
+%<qst%>           ! Question word	
+%<sym%>           ! Symbol	
+%<cop%>           ! Copula	
+%<postadv%>       ! Post the adverb	
+%<det%>           ! Determiner	
+%<num%>           ! Numeral	
+%<vaux%>          ! Auxiliary verb	
+%<abbr%>          ! Abbreviation	
+%<emph%>          ! Emphatic [imperative]	
+%<ij%>		          ! Interjection
+%<nom%>           ! Nominative	
+%<gen%>           ! Genitive	
+%<dat%>           ! Dative	
 %<acc%>           ! Accusative
-%<abl%>           ! Ablative
 %<loc%>           ! Locative
+%<abl%>           ! Ablative		
 %<ins%>           ! Instrumental=comitative 
-
-
-%<nec%>           ! Necessitive
-%<aor%>           ! Aorist
-%<imp%>           ! Imperative
-%<emph%>          ! Emphatic [imperative]
-%<cond%>          ! Conditional  ! Шарт  ! Условное  !! -с{A}
-%<caus%>          ! Causative
-%<pass%>          ! Passive
-%<coop%>          ! Cooperative
-%<rec%>           ! Reciprocal (?)
-%<iver%>	         ! suffix conveying ease/speed of action
-%<eyaz%>	         ! suffix conveying the action *almost* happened
 %<sim%>           ! simile
-%<gno%>
-%<fut%>
-%<fut2%>
 
-%<dub%>           ! dubative -mIş
+%<iv%>            
+%<tv%>            
+	
+%<nec%>           ! Necessitive	
+%<imp%>           ! Imperative
+%<aor%>           ! Aorist
+%<gno%>	
+%<fut%>	
+%<fut2%>          ! -EcAG	
+
+%<neg%>           ! Negative
+
+%<pass%>          ! Passive	
+%<coop%>          ! Cooperative
+%<caus%>          ! Causative
 %<abil%>          ! abilative
-%<ger%>
-%<ger_pres%>
-%<ger_fut2%>
-%<ger_past%>
+%<evid%>
+
+%<ger%>	
+%<ger_pres%>	
+%<ger_fut2%>	
+%<ger_past%>	
 %<ger_abst%>      ! -Uv
 
 %<gpr_rsub%>      ! past-tense subject-relative verbal adjective 
-%<gpr_past%>      ! past-tense object-relative verbal adjective
-%<gpr_fut%>
+%<gpr_fut%>	
+%<gpr_past%>      ! past-tense object-relative verbal adjective	
 %<gpr_fut2%>
 %<gpr_pot%>
 
-%<gna_while%>
-%<gna_perf%>
-%<gna_when%>
-%<gna_neg%>
+%<gna_while%>	
+%<gna_perf%>	
+%<gna_when%>	
+%<gna_neg%>	
 
-%<prc_perf%>      ! -Ip 
-%<prc_fut%>       ! 
-%<prc_impf%>      ! 
-%<prc_cond%>      ! 
+%<prc_perf%>      ! -Ip 	
+%<prc_fut%>       ! 	
+%<prc_impf%>      ! 	
+%<prc_cond%>      ! 	
 %<prc_past%>      ! 
 
-! Possessives 
-%<px1sg%>         ! First person singular
-%<px2sg%>         ! Second person singular
-%<px3sg%>         ! Third person singular
-%<px3sp%>         ! Third person singular/plural
-%<px3pl%>         ! Third person plural
-%<px1pl%>         ! First person plural
-%<px2pl%>         ! Second person singular
+%<px1sg%>         ! First person singular	
+%<px2sg%>         ! Second person singular	
+%<px3sg%>         ! Third person singular	
+%<px3sp%>         ! Third person singular/plural	
+%<px3pl%>         ! Third person plural	
+%<px1pl%>         ! First person plural	
+%<px2pl%>         ! Second person plural
 
-! Number 
-%<sg%>            ! Singular  
-%<pl%>            ! Plural    
-
-
-%<p1%>            ! First person
-%<p2%>            ! Second person 
+%<p1%>            ! First person	
+%<p2%>            ! Second person 	
 %<p3%>            ! Third person
 
+%<sg%>            ! Singular  	
+%<pl%>            ! Plural 
 
-! Function tags. 
-%<attr%>          ! Attributive
-%<subst%>         ! Substantive
-%<advl%>          ! Adverbial
+%<attr%>          ! Attributive	
+%<subst%>         ! Substantive	
+%<advl%>          ! Adverbial	
 
-%<abstr%>         ! Abstract suffix
-
-%<nec%>           ! Necessitive
-
-! Pronoun types !
-%<pers%>          ! Personal
-%<dem%>           ! Demonstrative
-%<ind%>           ! Indefinite
-%<itg%>           ! Interrogative
+%<pers%>          ! Personal	
+%<dem%>           ! Demonstrative	
+%<ind%>           ! Indefinite	
+%<itg%>           ! Interrogative	
 %<qnt%>           ! Quantifier
-%<neg%>           ! Negative     
-%<ref%>           ! Reflexive
-%<recip%>         ! Reciprocal
+%<ord%>           ! Ordinal	
+
+%<m%>             ! Masculine    	
+%<f%>             ! Feminine     	
+%<mf%>            ! Either
+
+%<cog%>           ! Cognomen (family name)	
+%<ant%>           ! Anthroponym (person name)	
+%<pat%>           ! Patronymic	
+%<org%>           ! Organisation	
+%<al%>            ! Others
+%<top%>           ! Toponym (place name)
+
+%<percent%>       ! Percent(%)	
+%<hash%>          ! Hash(#)
+
+%<sent%>          ! Sentence marker	
+%<guio%>          ! Hyphen	
+%<cm%>            ! Comma	
+%<apos%>          ! Apostrophe	
+%<rquot%>         ! Quote marker (right hand side)	
+%<lquot%>         ! Quote marker (left hand side)	
+%<rpar%>          ! Parenthetical marker (right hand side)	
+%<lpar%>          ! Parenthetical marker (left hand side)	
+%<err_orth%> 	
+%{G%}             !	
+%{D%}             !                             	
+%{A%}             !	
+%{U%}             !	
+%{E%}	
+%{C%}             !	
+%{I%}             ! Can only be unrounded: i, ı	
+%{Y%}             ! Can be rounded or unrounded: i, ü, ı, u	
+%{i%}             !	
+%{l%}             !	
+%{s%}             !	
+%{y%}             !	
+%{j%}             !	
+%{n%}             !	
+%{e%}	
+%{ö%}	
+%{o%}	
+%{ı%}	
+%{b%}	
+%{p%}	
+%{☭%}	
+%{ъ%}             ! force back-vowel harmony	
+%{ь%}             ! force front-vowel harmony	
+%-	
+%% 	
+ 	
+%>                !	
+%+		              !
 
 
-! Numeral types !
-%<ord%>            ! Ordinal
-%<coll%>           ! Collective
-%<dist%>           ! Distibutive
-
-
-%<percent%>        ! Percent(%)
-%<hash%>           ! Hash(#)
-
-%<sent%>          ! Sentence marker
-%<guio%>          ! Hyphen
-%<cm%>            ! Comma
-%<apos%>          ! Apostrophe
-%<rquot%>         ! Quote marker (right hand side)
-%<lquot%>         ! Quote marker (left hand side)
-%<rpar%>          ! Parenthetical marker (right hand side)
-%<lpar%>          ! Parenthetical marker (left hand side)
-
-%<err_orth%> 
-
-%{G%}             !
-%{D%}             !                             
-%{A%}             !
-%{U%}             !
-%{E%}
-%{C%}             !
-%{I%}             ! Can only be unrounded: i, ı
-%{Y%}             ! Can be rounded or unrounded: i, ü, ı, u
-%{i%}             !
-%{l%}             !
-%{s%}             !
-%{y%}             !
-%{j%}             !
-%{n%}             !
-
-%{e%}
-%{ö%}
-%{o%}
-%{ı%}
-%{b%}
-%{p%}
-
-%{☭%}
-%{ъ%}             ! force back-vowel harmony
-%{ь%}             ! force front-vowel harmony
-
-%-
-%% 
- 
-%>                !
-%+		              !		
+%<part%>          ! Particle 	
+%<emph%>          ! Emphatic [imperative]	
+%<cond%>          ! Conditional  ! Шарт  ! Условное  !! -с{A}		
+%<rec%>           ! Reciprocal (?)	
+%<iver%>	         ! suffix conveying ease/speed of action	
+%<eyaz%>	         ! suffix conveying the action *almost* happened	
+%<dub%>           ! dubative -mIş	
+%<abstr%>         ! Abstract suffix	
+%<nec%>           ! Necessitive	
+%<ref%>           ! Reflexive	
+%<recip%>         ! Reciprocal	
+%<coll%>          ! Collective	
+%<dist%>          ! Distibutive	
+	
+			
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
