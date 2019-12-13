@@ -28,7 +28,7 @@ Multichar_Symbols
 %<qst%>           ! Question word
 %<sym%>           ! Symbol
 %<cop%>           ! Copula
-%<postadv%>       ! 
+%<postadv%>       ! Post the adverb
 %<det%>           ! Determiner
 %<num%>           ! Numeral
 %<vaux%>          ! Auxiliary verb
@@ -72,10 +72,10 @@ Multichar_Symbols
 %<rec%>           ! Reciprocal (?)
 %<iver%>	         ! suffix conveying ease/speed of action
 %<eyaz%>	         ! suffix conveying the action *almost* happened
+%<sim%>           ! simile
 %<gno%>
 %<fut%>
 %<fut2%>
-%<sim%>
 
 %<dub%>           ! dubative -mIş
 %<abil%>          ! abilative
