@@ -23,7 +23,7 @@ Multichar_Symbols
 %<adv%>           ! Adverb                      	
 %<v%>             ! Verb                        	
 %<cnjcoo%>        ! Coordinating conjunction    	
-%<cnjsub%>        ! Sub-ordinating conjunction	
+%<cnjsub%>        ! "subordinating conjunction" (ki)	
 %<cnjadv%>        ! Adverbial conjunction 	
 %<qst%>           ! Question word	
 %<sym%>           ! Symbol	
@@ -34,7 +34,7 @@ Multichar_Symbols
 %<vaux%>          ! Auxiliary verb	
 %<abbr%>          ! Abbreviation	
 %<emph%>          ! Emphatic [imperative]	
-%<ij%>		          ! Interjection
+%<ij%>		  ! Interjection
 %<nom%>           ! Nominative	
 %<gen%>           ! Genitive	
 %<dat%>           ! Dative	
@@ -161,15 +161,15 @@ Multichar_Symbols
 %% 	
  	
 %>                !	
-%+		              !
+%+		  !
 
 
 %<part%>          ! Particle 	
 %<emph%>          ! Emphatic [imperative]	
 %<cond%>          ! Conditional  ! Шарт  ! Условное  !! -с{A}		
 %<rec%>           ! Reciprocal (?)	
-%<iver%>	         ! suffix conveying ease/speed of action	
-%<eyaz%>	         ! suffix conveying the action *almost* happened	
+%<iver%>	  ! suffix conveying ease/speed of action	
+%<eyaz%>	  ! suffix conveying the action *almost* happened	
 %<dub%>           ! dubative -mIş	
 %<abstr%>         ! Abstract suffix	
 %<nec%>           ! Necessitive	
