@@ -69,8 +69,8 @@ Multichar_Symbols
 %<ger_abst%>      ! -Uv
 
 %<gpr_rsub%>      ! past-tense subject-relative verbal adjective 
-%<gpr_fut%>	  ! -{I}р/-{A}р
-%<gpr_past%>      ! past-tense object-relative verbal adjective
+%<gpr_fut%>       ! -{I}р/-{A}р
+%<gpr_past%>      ! -{G}{A}н
 
 %<gpr_fut2%>      ! -{A}ч{A}к
 %<gpr_pot%>       ! {U}ч{I}
@@ -81,10 +81,10 @@ Multichar_Symbols
 %<gna_neg%>       ! -м{A}ст{A}н
 
 %<prc_perf%>      ! -Ip
-%<prc_fut%>       !
-%<prc_impf%>      !	
-%<prc_cond%>      !	
-%<prc_past%>      !
+%<prc_fut%>       ! -{A}r
+%<prc_impf%>      ! -{E}	
+%<prc_cond%>      ! -с{A}	
+%<prc_past%>      ! {G}{A}n
 
 ! Possessives
 %<px1sg%>         ! First person singular	
