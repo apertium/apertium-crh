@@ -15,15 +15,15 @@
 
 Multichar_Symbols 
 
-%<n%>             ! Noun                        	
-%<np%>            ! Proper noun                 	
-%<adj%>           ! Adjective                   	
-%<prn%>           ! Pronoun                     	
-%<post%>          ! Postposition                	
-%<adv%>           ! Adverb                      	
-%<v%>             ! Verb                        	
-%<cnjcoo%>        ! Coordinating conjunction    	
-%<cnjsub%>        ! "subordinating conjunction" (ki)	
+%<n%>             ! Noun                        !
+%<np%>            ! Proper noun                 !
+%<adj%>           ! Adjective                   !
+%<prn%>           ! Pronoun                     !
+%<post%>          ! Postposition                !
+%<adv%>           ! Adverb                      !
+%<v%>             ! Verb                        !
+%<cnjcoo%>        ! Coordinating conjunction    !    	
+%<cnjsub%>        ! Subordinating conjunction (ki)	
 %<cnjadv%>        ! Adverbial conjunction 	
 %<qst%>           ! Question word	
 %<sym%>           ! Symbol	
@@ -34,7 +34,7 @@ Multichar_Symbols
 %<vaux%>          ! Auxiliary verb	
 %<abbr%>          ! Abbreviation	
 %<emph%>          ! Emphatic [imperative]	
-%<ij%>		  ! Interjection
+%<ij%>	          ! Interjection
 %<nom%>           ! Nominative	
 %<gen%>           ! Genitive	
 %<dat%>           ! Dative	
@@ -42,16 +42,16 @@ Multichar_Symbols
 %<loc%>           ! Locative
 %<abl%>           ! Ablative		
 %<ins%>           ! Instrumental=comitative 
-%<sim%>           ! simile
+%<sim%>           ! Similative
 
-%<iv%>            
-%<tv%>            
+%<iv%>            ! Transitive            
+%<tv%>            ! Intransitive        
 	
 %<nec%>           ! Necessitive	
 %<imp%>           ! Imperative
 %<aor%>           ! Aorist
 %<gno%>	
-%<fut%>	
+%<fut%>		  ! -{I}р
 %<fut2%>          ! -EcAG	
 
 %<neg%>           ! Negative
@@ -60,31 +60,33 @@ Multichar_Symbols
 %<coop%>          ! Cooperative
 %<caus%>          ! Causative
 %<abil%>          ! abilative
-%<evid%>
+%<evid%>          ! Evidential
 
-%<ger%>	
-%<ger_pres%>	
-%<ger_fut2%>	
-%<ger_past%>	
+%<ger%>	          ! -{U}
+%<ger_pres%>	  ! 
+%<ger_fut2%>	  ! -{A}ч{A}к
+%<ger_past%>	  ! -{G}{A}н
 %<ger_abst%>      ! -Uv
 
 %<gpr_rsub%>      ! past-tense subject-relative verbal adjective 
-%<gpr_fut%>	
-%<gpr_past%>      ! past-tense object-relative verbal adjective	
-%<gpr_fut2%>
-%<gpr_pot%>
+%<gpr_fut%>	  ! -{I}р/-{A}р
+%<gpr_past%>      ! past-tense object-relative verbal adjective
 
-%<gna_while%>	
-%<gna_perf%>	
-%<gna_when%>	
-%<gna_neg%>	
+%<gpr_fut2%>      ! -{A}ч{A}к
+%<gpr_pot%>       ! {U}ч{I}
 
-%<prc_perf%>      ! -Ip 	
-%<prc_fut%>       ! 	
-%<prc_impf%>      ! 	
-%<prc_cond%>      ! 	
-%<prc_past%>      ! 
+%<gna_while%>
+%<gna_perf%>      ! -{I}p
+%<gna_when%>      ! -{G}{A}nc{A}
+%<gna_neg%>       ! -м{A}ст{A}н
 
+%<prc_perf%>      ! -Ip
+%<prc_fut%>       !
+%<prc_impf%>      !	
+%<prc_cond%>      !	
+%<prc_past%>      !
+
+! Possessives
 %<px1sg%>         ! First person singular	
 %<px2sg%>         ! Second person singular	
 %<px3sg%>         ! Third person singular	
@@ -104,6 +106,7 @@ Multichar_Symbols
 %<subst%>         ! Substantive	
 %<advl%>          ! Adverbial	
 
+! Pronoun types
 %<pers%>          ! Personal	
 %<dem%>           ! Demonstrative	
 %<ind%>           ! Indefinite	
@@ -115,6 +118,7 @@ Multichar_Symbols
 %<f%>             ! Feminine     	
 %<mf%>            ! Either
 
+! Proper noun types
 %<cog%>           ! Cognomen (family name)	
 %<ant%>           ! Anthroponym (person name)	
 %<pat%>           ! Patronymic	
@@ -122,8 +126,8 @@ Multichar_Symbols
 %<al%>            ! Others
 %<top%>           ! Toponym (place name)
 
-%<percent%>       ! Percent(%)	
-%<hash%>          ! Hash(#)
+%<percent%>       ! Percent (%)	
+%<hash%>          ! Hash (#)
 
 %<sent%>          ! Sentence marker	
 %<guio%>          ! Hyphen	
@@ -132,12 +136,15 @@ Multichar_Symbols
 %<rquot%>         ! Quote marker (right hand side)	
 %<lquot%>         ! Quote marker (left hand side)	
 %<rpar%>          ! Parenthetical marker (right hand side)	
-%<lpar%>          ! Parenthetical marker (left hand side)	
+%<lpar%>          ! Parenthetical marker (left hand side)
+
 %<err_orth%> 	
+
 %{G%}             !	
 %{D%}             !                             	
 %{A%}             !	
 %{U%}             !	
+
 %{E%}	
 %{C%}             !	
 %{I%}             ! Can only be unrounded: i, ı	
@@ -153,32 +160,16 @@ Multichar_Symbols
 %{o%}	
 %{ı%}	
 %{b%}	
-%{p%}	
+%{p%}
+
 %{☭%}	
 %{ъ%}             ! force back-vowel harmony	
 %{ь%}             ! force front-vowel harmony	
 %-	
 %% 	
  	
-%>                !	
-%+		  !
-
-
-%<part%>          ! Particle 	
-%<emph%>          ! Emphatic [imperative]	
-%<cond%>          ! Conditional  ! Шарт  ! Условное  !! -с{A}		
-%<rec%>           ! Reciprocal (?)	
-%<iver%>	  ! suffix conveying ease/speed of action	
-%<eyaz%>	  ! suffix conveying the action *almost* happened	
-%<dub%>           ! dubative -mIş	
-%<abstr%>         ! Abstract suffix	
-%<nec%>           ! Necessitive	
-%<ref%>           ! Reflexive	
-%<recip%>         ! Reciprocal	
-%<coll%>          ! Collective	
-%<dist%>          ! Distibutive	
-	
-			
+%>                ! Morpheme boundary	
+%+		  ! Space
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
