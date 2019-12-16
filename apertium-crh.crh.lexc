@@ -34,7 +34,7 @@ Multichar_Symbols
 %<vaux%>          ! Auxiliary verb	
 %<abbr%>          ! Abbreviation	
 %<emph%>          ! Emphatic [imperative]	
-%<ij%>	          ! Interjection
+%<ij%>	    ! Interjection
 %<nom%>           ! Nominative	
 %<gen%>           ! Genitive	
 %<dat%>           ! Dative	
