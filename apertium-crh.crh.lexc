@@ -138,7 +138,7 @@ Multichar_Symbols
 %<rpar%>          ! Parenthetical marker (right hand side)	
 %<lpar%>          ! Parenthetical marker (left hand side)
 
-%<err_orth%> 	
+%<err_orth%>      ! For orthographic errors 	
 
 %{G%}             !	
 %{D%}             !                             	
