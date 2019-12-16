@@ -138,28 +138,28 @@ Multichar_Symbols
 %<rpar%>          ! Parenthetical marker (right hand side)	
 %<lpar%>          ! Parenthetical marker (left hand side)
 
-%<err_orth%>      ! For orthographic errors 	
+%<err_orth%>      ! For orthographic errors
 
-%{G%}             !	
-%{D%}             !                             	
-%{A%}             !	
-%{U%}             !	
+%{G%}             !
+%{D%}             !                             
+%{A%}             !
+%{U%}             !
 
-%{E%}	
-%{C%}             !	
-%{I%}             ! Can only be unrounded: i, ı	
-%{Y%}             ! Can be rounded or unrounded: i, ü, ı, u	
-%{i%}             !	
-%{l%}             !	
-%{s%}             !	
-%{y%}             !	
-%{j%}             !	
-%{n%}             !	
-%{e%}	
-%{ö%}	
-%{o%}	
-%{ı%}	
-%{b%}	
+%{E%}
+%{C%}             !
+%{I%}             ! Can only be unrounded:i,ı
+%{Y%}             ! Can be rounded or unrounded:i,ü,ı,u
+%{i%}             !
+%{l%}             !
+%{s%}             !
+%{y%}             !
+%{j%}             !
+%{n%}             !
+%{e%}
+%{ö%}
+%{o%}
+%{ı%}
+%{b%}
 %{p%}
 
 %{☭%}             ! Used to tell the phonology about a Russian word
