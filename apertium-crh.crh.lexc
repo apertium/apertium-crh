@@ -66,7 +66,7 @@ Multichar_Symbols
 %<ger_pres%>      ! 
 %<ger_fut2%>      ! -{A}ч{A}к
 %<ger_past%>	    ! -{G}{A}н
-%<ger_abst%>       ! -Uv
+%<ger_abst%>      ! -Uv
 
 %<gpr_rsub%>      ! past-tense subject-relative verbal adjective 
 %<gpr_fut%>       ! -{I}р/-{A}р
