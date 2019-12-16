@@ -162,7 +162,7 @@ Multichar_Symbols
 %{b%}	
 %{p%}
 
-%{☭%}            ! Used to tell the phonology about a Russian word
+%{☭%}             ! Used to tell the phonology about a Russian word
 %{ъ%}             ! force back-vowel harmony	
 %{ь%}             ! force front-vowel harmony	
 %-	
