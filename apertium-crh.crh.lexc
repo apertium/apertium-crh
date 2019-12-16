@@ -147,8 +147,8 @@ Multichar_Symbols
 
 %{E%}
 %{C%}             !
-%{I%}             ! Can only be unrounded:i,ı
-%{Y%}             ! Can be rounded or unrounded:i,ü,ı,u
+%{I%}             ! Can only be unrounded: i, ı
+%{Y%}             ! Can be rounded or unrounded: i, ü, ı, u
 %{i%}             !
 %{l%}             !
 %{s%}             !
