@@ -44,6 +44,7 @@ Multichar_Symbols
 %<ins%>           ! Instrumental=comitative
 %<sim%>           ! Similative
 
+! Transitivity
 %<iv%>            ! Transitive
 %<tv%>            ! Intransitive
 	
@@ -97,13 +98,16 @@ Multichar_Symbols
 %<px1pl%>         ! First person plural
 %<px2pl%>         ! Second person plural
 
+! Person
 %<p1%>            ! First person
 %<p2%>            ! Second person
 %<p3%>            ! Third person
 
+! Number
 %<sg%>            ! Singular
 %<pl%>            ! Plural
 
+! "Syntactic" tags
 %<attr%>          ! Attributive
 %<subst%>         ! Substantive	
 %<advl%>          ! Adverbial
@@ -124,7 +128,6 @@ Multichar_Symbols
 %<cog%>           ! Cognomen (family name)
 %<ant%>           ! Anthroponym (person name)
 %<pat%>           ! Patronymic
-%<org%>           ! Organisation
 %<al%>            ! Others
 %<top%>           ! Toponym (place name)
 
@@ -134,7 +137,7 @@ Multichar_Symbols
 ! Punctuation
 %<sent%>          ! Sentence marker
 %<guio%>          ! Hyphen
-%<cm%>            ! Comma	
+%<cm%>            ! Comma
 %<apos%>          ! Apostrophe
 %<rquot%>         ! Quote marker (right hand side)
 %<lquot%>         ! Quote marker (left hand side)
@@ -148,7 +151,6 @@ Multichar_Symbols
 %{D%}             ! Realised as
 %{A%}             ! Realised as 'a', 'ә'
 %{U%}             ! Realised as у, ү, в
-
 %{E%}
 %{C%}             ! Realised as
 %{I%}             ! Realised as 'ы', 'е'
@@ -159,8 +161,10 @@ Multichar_Symbols
 %{y%}             ! Becomes "y" after a vowel, otherwise null
 %{j%}             !
 %{n%}             ! Becomes "n" after a vowel, otherwise null
-%{o%}             ! Back round
+
+%{e%}
 %{ö%}             ! Front round
+%{o%}             ! Back round
 %{ı%}             ! Back unround
 %{b%}             ! Last consonant voiced
 %{p%}             ! Last consonant unvoiced (Cnsdev)
@@ -170,7 +174,7 @@ Multichar_Symbols
 %{ь%}             ! force front-vowel harmony
 %-
 %%
- 	
+
 %>                ! Morpheme boundary
 %+		    ! Space
 
