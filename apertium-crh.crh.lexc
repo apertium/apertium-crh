@@ -25,7 +25,8 @@ Multichar_Symbols
 %<cnjcoo%>        ! Coordinating conjunction    !
 %<cnjsub%>        ! Subordinating conjunction (ki)
 %<cnjadv%>        ! Adverbial conjunction
-%<qst%>           ! Question word
+%<qst%>           ! Modal question particle     !# м{I}
+                  
 %<sym%>           ! Symbol
 %<cop%>           ! Copula
 %<postadv%>       ! Post the adverb
@@ -33,7 +34,7 @@ Multichar_Symbols
 %<num%>           ! Numeral
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
-%<emph%>          ! Emphatic [imperative]
+%<emph%>          ! Emphasizing modal particle  !# -ч{I}, -с{A}н{A}, әле
 %<ij%>	    ! Interjection
 %<nom%>           ! Nominative
 %<gen%>           ! Genitive
