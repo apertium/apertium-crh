@@ -22,52 +22,54 @@ Multichar_Symbols
 %<post%>          ! Postposition                !
 %<adv%>           ! Adverb                      !
 %<v%>             ! Verb                        !
-%<cnjcoo%>        ! Coordinating conjunction    !    	
-%<cnjsub%>        ! Subordinating conjunction (ki)	
-%<cnjadv%>        ! Adverbial conjunction 	
-%<qst%>           ! Question word	
-%<sym%>           ! Symbol	
-%<cop%>           ! Copula	
-%<postadv%>       ! Post the adverb	
-%<det%>           ! Determiner	
-%<num%>           ! Numeral	
-%<vaux%>          ! Auxiliary verb	
-%<abbr%>          ! Abbreviation	
-%<emph%>          ! Emphatic [imperative]	
+%<cnjcoo%>        ! Coordinating conjunction    !
+%<cnjsub%>        ! Subordinating conjunction (ki)
+%<cnjadv%>        ! Adverbial conjunction
+%<qst%>           ! Question word
+%<sym%>           ! Symbol
+%<cop%>           ! Copula
+%<postadv%>       ! Post the adverb
+%<det%>           ! Determiner
+%<num%>           ! Numeral
+%<vaux%>          ! Auxiliary verb
+%<abbr%>          ! Abbreviation
+%<emph%>          ! Emphatic [imperative]
 %<ij%>	    ! Interjection
-%<nom%>           ! Nominative	
-%<gen%>           ! Genitive	
-%<dat%>           ! Dative	
+%<nom%>           ! Nominative
+%<gen%>           ! Genitive
+%<dat%>           ! Dative
 %<acc%>           ! Accusative
 %<loc%>           ! Locative
-%<abl%>           ! Ablative		
-%<ins%>           ! Instrumental=comitative 
+%<abl%>           ! Ablative
+%<ins%>           ! Instrumental=comitative
 %<sim%>           ! Similative
 
-%<iv%>            ! Transitive            
-%<tv%>            ! Intransitive        
+%<iv%>            ! Transitive
+%<tv%>            ! Intransitive
 	
-%<nec%>           ! Necessitive	
+%<nec%>           ! Necessitive
 %<imp%>           ! Imperative
 %<aor%>           ! Aorist
 %<gno%>	
 %<fut%>	    ! -{I}р
-%<fut2%>          ! -EcAG	
+%<fut2%>          ! -EcAG
 
 %<neg%>           ! Negative
 
-%<pass%>          ! Passive	
+%<pass%>          ! Passive
 %<coop%>          ! Cooperative
 %<caus%>          ! Causative
-%<abil%>          ! abilative
+%<abil%>          ! Abilative
 %<evid%>          ! Evidential
 
+! Gerunds (verbal nouns)
 %<ger%>	    ! -{U}
-%<ger_pres%>      ! 
+%<ger_pres%>      !
 %<ger_fut2%>      ! -{A}ч{A}к
 %<ger_past%>	    ! -{G}{A}н
 %<ger_abst%>      ! -Uv
 
+! Verbal adjectives
 %<gpr_rsub%>      ! past-tense subject-relative verbal adjective 
 %<gpr_fut%>       ! -{I}р/-{A}р
 %<gpr_past%>      ! -{G}{A}н
@@ -75,100 +77,101 @@ Multichar_Symbols
 %<gpr_fut2%>      ! -{A}ч{A}к
 %<gpr_pot%>       ! {U}ч{I}
 
+! Verbal adverbs
 %<gna_while%>
 %<gna_perf%>      ! -{I}p
 %<gna_when%>      ! -{G}{A}nc{A}
 %<gna_neg%>       ! -м{A}ст{A}н
 
+! Participles
 %<prc_perf%>      ! -Ip
 %<prc_fut%>       ! -{A}r
-%<prc_impf%>      ! -{E}	
-%<prc_cond%>      ! -с{A}	
+%<prc_impf%>      ! -{E}
+%<prc_cond%>      ! -с{A}
 %<prc_past%>      ! {G}{A}n
 
 ! Possessives
-%<px1sg%>         ! First person singular	
-%<px2sg%>         ! Second person singular	
-%<px3sg%>         ! Third person singular	
-%<px3sp%>         ! Third person singular/plural	
-%<px3pl%>         ! Third person plural	
-%<px1pl%>         ! First person plural	
+%<px1sg%>         ! First person singular
+%<px2sg%>         ! Second person singular
+%<px3sp%>         ! Third person singular/plural
+%<px1pl%>         ! First person plural
 %<px2pl%>         ! Second person plural
 
-%<p1%>            ! First person	
-%<p2%>            ! Second person 	
+%<p1%>            ! First person
+%<p2%>            ! Second person
 %<p3%>            ! Third person
 
-%<sg%>            ! Singular  	
-%<pl%>            ! Plural 
+%<sg%>            ! Singular
+%<pl%>            ! Plural
 
-%<attr%>          ! Attributive	
+%<attr%>          ! Attributive
 %<subst%>         ! Substantive	
-%<advl%>          ! Adverbial	
+%<advl%>          ! Adverbial
 
 ! Pronoun types
-%<pers%>          ! Personal	
-%<dem%>           ! Demonstrative	
-%<ind%>           ! Indefinite	
-%<itg%>           ! Interrogative	
+%<pers%>          ! Personal
+%<dem%>           ! Demonstrative
+%<ind%>           ! Indefinite
+%<itg%>           ! Interrogative
 %<qnt%>           ! Quantifier
-%<ord%>           ! Ordinal	
+%<ord%>           ! Ordinal
 
-%<m%>             ! Masculine    	
-%<f%>             ! Feminine     	
+%<m%>             ! Masculine
+%<f%>             ! Feminine
 %<mf%>            ! Either
 
 ! Proper noun types
-%<cog%>           ! Cognomen (family name)	
-%<ant%>           ! Anthroponym (person name)	
-%<pat%>           ! Patronymic	
-%<org%>           ! Organisation	
+%<cog%>           ! Cognomen (family name)
+%<ant%>           ! Anthroponym (person name)
+%<pat%>           ! Patronymic
+%<org%>           ! Organisation
 %<al%>            ! Others
 %<top%>           ! Toponym (place name)
 
-%<percent%>       ! Percent (%)	
+%<percent%>       ! Percent (%)
 %<hash%>          ! Hash (#)
 
-%<sent%>          ! Sentence marker	
-%<guio%>          ! Hyphen	
+! Punctuation
+%<sent%>          ! Sentence marker
+%<guio%>          ! Hyphen
 %<cm%>            ! Comma	
-%<apos%>          ! Apostrophe	
-%<rquot%>         ! Quote marker (right hand side)	
-%<lquot%>         ! Quote marker (left hand side)	
-%<rpar%>          ! Parenthetical marker (right hand side)	
+%<apos%>          ! Apostrophe
+%<rquot%>         ! Quote marker (right hand side)
+%<lquot%>         ! Quote marker (left hand side)
+%<rpar%>          ! Parenthetical marker (right hand side)
 %<lpar%>          ! Parenthetical marker (left hand side)
 
 %<err_orth%>      ! For orthographic errors
 
-%{G%}             !
-%{D%}             !                             
-%{A%}             !
-%{U%}             !
+! Archiphonemes and escaped symbols
+%{G%}             ! Realised as
+%{D%}             ! Realised as
+%{A%}             ! Realised as 'a', 'ә'
+%{U%}             ! Realised as у, ү, в
 
 %{E%}
-%{C%}             !
-%{I%}             ! Can only be unrounded: i, ı
-%{Y%}             ! Can be rounded or unrounded: i, ü, ı, u
+%{C%}             ! Realised as
+%{I%}             ! Realised as 'ы', 'е'
+%{Y%}             ! Realised as
 %{i%}             !
 %{l%}             !
 %{s%}             !
-%{y%}             !
+%{y%}             ! Becomes "y" after a vowel, otherwise null
 %{j%}             !
-%{n%}             !
-%{e%}
-%{ö%}
-%{o%}
-%{ı%}
-%{b%}
-%{p%}
+%{n%}             ! Becomes "n" after a vowel, otherwise null
+%{o%}             ! Back round
+%{ö%}             ! Front round
+%{ı%}             ! Back unround
+%{b%}             ! Last consonant voiced
+%{p%}             ! Last consonant unvoiced (Cnsdev)
 
 %{☭%}             ! Used to tell the phonology about a Russian word
-%{ъ%}             ! force back-vowel harmony	
-%{ь%}             ! force front-vowel harmony	
-%-	
-%% 	
+%{ъ%}             ! force back-vowel harmony
+%{ь%}             ! force front-vowel harmony
+%-
+%%
  	
-%>                ! Morpheme boundary	
+%>                ! Morpheme boundary
 %+		    ! Space
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
