@@ -29,7 +29,7 @@ Multichar_Symbols
                   
 %<sym%>           ! Symbol
 %<cop%>           ! Copula
-%<postadv%>       ! Post the adverb
+%<postadv%>       ! Post of Adverb
 %<det%>           ! Determiner
 %<num%>           ! Numeral
 %<vaux%>          ! Auxiliary verb
