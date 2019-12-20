@@ -52,7 +52,7 @@ Multichar_Symbols
 %<nec%>           ! Necessitive
 %<imp%>           ! Imperative
 %<aor%>           ! Aorist
-%<gno%>	
+%<gno%>           ! Gnomic tense
 %<fut%>	    ! -{I}р
 %<fut2%>          ! -EcAG
 
@@ -148,27 +148,27 @@ Multichar_Symbols
 %<err_orth%>      ! For orthographic errors
 
 ! Archiphonemes and escaped symbols
-%{G%}             ! Realised as к, қ, г, ғ
-%{D%}             ! Realised as д, т
-%{A%}             ! Realised as 'a', 'ә'
-%{U%}             ! Realised as у, ү, в
-%{E%}             ! Realised as ‘а‘, ‘е‘, ‘й‘ (={A}/й)
-%{C%}             ! Realised as
-%{I%}             ! Realised as 'ы', 'е'
-%{Y%}             ! Realised as ‘‘ or ‘{I}‘; only used in epenthesis for noun
-%{i%}             ! Becomes as "i" after a consonant, otherwise null
-%{l%}             ! Realised as ‘л‘ or ‘н‘; only used in passive -{I}{l}
-%{s%}             ! Becomes "s" after a vowel, otherwise null
-%{y%}             ! Becomes "y" after a vowel, otherwise null
+%{G%}             !
+%{D%}             !                             
+%{A%}             !
+%{U%}             !
+%{E%}
+%{C%}             !
+%{I%}             ! Can only be unrounded: i, ı
+%{Y%}             ! Can be rounded or unrounded: i, ü, ı, u
+%{i%}             !
+%{l%}             !
+%{s%}             !
+%{y%}             !
 %{j%}             !
-%{n%}             ! Becomes "n" after a vowel, otherwise null
+%{n%}             !
 
-%{e%}             ! Becomes as "a" after a consonant, otherwise "y"
-%{ö%}             ! Front round
-%{o%}             ! Back round
-%{ı%}             ! Back unround
-%{b%}             ! Last consonant voiced
-%{p%}             ! Last consonant unvoiced (Cnsdev)
+%{e%}
+%{ö%}
+%{o%}
+%{ı%}
+%{b%}
+%{p%}
 
 %{☭%}             ! Used to tell the phonology about a Russian word
 %{ъ%}             ! force back-vowel harmony
