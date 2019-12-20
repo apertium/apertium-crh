@@ -65,31 +65,31 @@ Multichar_Symbols
 %<evid%>          ! Evidential
 
 ! Gerunds (verbal nouns)
-%<ger%>	    ! -{U}
-%<ger_pres%>      !
-%<ger_fut2%>      ! -{A}ч{A}к
-%<ger_past%>	    ! -{G}{A}н
+%<ger%>	    ! -m{A}{G}
+%<ger_pres%>      ! -{j}{A}r{A}{G}
+%<ger_fut2%>      ! -{E}c{A}{G}
+%<ger_past%>	    ! -{D}{I}{G}
 %<ger_abst%>      ! -Uv
 
 ! Verbal adjectives
-%<gpr_rsub%>      ! past-tense subject-relative verbal adjective 
-%<gpr_fut%>       ! -{I}р/-{A}р
-%<gpr_past%>      ! -{G}{A}н
+%<gpr_rsub%>      !  
+%<gpr_fut%>       ! -{I}r/-{A}r
+%<gpr_past%>      ! -{G}{A}n
 
-%<gpr_fut2%>      ! -{A}ч{A}к
-%<gpr_pot%>       ! {U}ч{I}
+%<gpr_fut2%>      ! -{E}c{A}{G}
+%<gpr_pot%>       ! {j}{I}/-c{I}
 
 ! Verbal adverbs
 %<gna_while%>
 %<gna_perf%>      ! -{I}p
 %<gna_when%>      ! -{G}{A}nc{A}
-%<gna_neg%>       ! -м{A}ст{A}н
+%<gna_neg%>       ! -m{A}d{A}n
 
 ! Participles
-%<prc_perf%>      ! -Ip
-%<prc_fut%>       ! -{A}r
+%<prc_perf%>      ! -{I}p
+%<prc_fut%>       ! -{I}r/-{A}r
 %<prc_impf%>      ! -{E}
-%<prc_cond%>      ! -с{A}
+%<prc_cond%>      ! -s{A}
 %<prc_past%>      ! {G}{A}n
 
 ! Possessives
