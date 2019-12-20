@@ -72,7 +72,7 @@ Multichar_Symbols
 %<ger_abst%>      ! -Uv
 
 ! Verbal adjectives
-%<gpr_rsub%>      !  
+%<gpr_rsub%>      !
 %<gpr_fut%>       ! -{I}r/-{A}r
 %<gpr_past%>      ! -{G}{A}n
 
@@ -145,7 +145,7 @@ Multichar_Symbols
 %<rpar%>          ! Parenthetical marker (right hand side)
 %<lpar%>          ! Parenthetical marker (left hand side)
 
-%<err_orth%>      ! For orthographic errors
+%<err_orth%>	  ! For orthographic errors
 
 ! Archiphonemes and escaped symbols
 %{G%}             !
