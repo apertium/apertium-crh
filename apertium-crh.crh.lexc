@@ -35,7 +35,7 @@ Multichar_Symbols
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
 %<emph%>          ! Emphasizing modal particle  !# -ч{I}, -с{A}н{A}, әле
-%<ij%>	    ! Interjection
+%<ij%>	          ! Interjection
 %<nom%>           ! Nominative
 %<gen%>           ! Genitive
 %<dat%>           ! Dative
@@ -48,12 +48,12 @@ Multichar_Symbols
 ! Transitivity
 %<iv%>            ! Transitive
 %<tv%>            ! Intransitive
-	
+
 %<nec%>           ! Necessitive
 %<imp%>           ! Imperative
 %<aor%>           ! Aorist
 %<gno%>           ! Gnomic tense
-%<fut%>	    ! -{I}р
+%<fut%>	          ! -{I}р
 %<fut2%>          ! -EcAG
 
 %<neg%>           ! Negative
@@ -65,10 +65,10 @@ Multichar_Symbols
 %<evid%>          ! Evidential
 
 ! Gerunds (verbal nouns)
-%<ger%>	    ! -m{A}{G}
+%<ger%>	          ! -m{A}{G}
 %<ger_pres%>      ! -{j}{A}r{A}{G}
 %<ger_fut2%>      ! -{E}c{A}{G}
-%<ger_past%>	    ! -{D}{I}{G}
+%<ger_past%>      ! -{D}{I}{G}
 %<ger_abst%>      ! -Uv
 
 ! Verbal adjectives
@@ -170,14 +170,14 @@ Multichar_Symbols
 %{b%}
 %{p%}
 
-%{☭%}             ! Used to tell the phonology about a Russian word
+%{☭%}             
 %{ъ%}             ! force back-vowel harmony
 %{ь%}             ! force front-vowel harmony
 %-
 %%
 
 %>                ! Morpheme boundary
-%+                  ! Space
+%+                ! Space
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
