@@ -130,7 +130,7 @@ Multichar_Symbols
 %<ant%>           ! Anthroponym (person name)
 %<pat%>           ! Patronymic
 %<al%>            ! Others
-%<top%>           ! Toponym (place name)
+%<top%>           ! Toponym
 
 %<percent%>       ! Percent (%)
 %<hash%>          ! Hash (#)
@@ -170,7 +170,7 @@ Multichar_Symbols
 %{b%}
 %{p%}
 
-%{☭%}             
+%{☭%}
 %{ъ%}             ! force back-vowel harmony
 %{ь%}             ! force front-vowel harmony
 %-
