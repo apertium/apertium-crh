@@ -35,7 +35,7 @@ Multichar_Symbols
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
 %<emph%>          ! Emphasizing modal particle  !# -ч{I}, -с{A}н{A}, әле
-%<ij%>	          ! Interjection
+%<ij%>            ! Interjection
 %<nom%>           ! Nominative
 %<gen%>           ! Genitive
 %<dat%>           ! Dative
@@ -53,7 +53,7 @@ Multichar_Symbols
 %<imp%>           ! Imperative
 %<aor%>           ! Aorist
 %<gno%>           ! Gnomic tense
-%<fut%>	          ! -{I}р
+%<fut%>           ! -{I}р
 %<fut2%>          ! -EcAG
 
 %<neg%>           ! Negative
@@ -65,7 +65,7 @@ Multichar_Symbols
 %<evid%>          ! Evidential
 
 ! Gerunds (verbal nouns)
-%<ger%>	          ! -m{A}{G}
+%<ger%>           ! -m{A}{G}
 %<ger_pres%>      ! -{j}{A}r{A}{G}
 %<ger_fut2%>      ! -{E}c{A}{G}
 %<ger_past%>      ! -{D}{I}{G}
@@ -145,7 +145,7 @@ Multichar_Symbols
 %<rpar%>          ! Parenthetical marker (right hand side)
 %<lpar%>          ! Parenthetical marker (left hand side)
 
-%<err_orth%>	  ! For orthographic errors
+%<err_orth%>      ! For orthographic errors
 
 ! Archiphonemes and escaped symbols
 %{G%}             !
