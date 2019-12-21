@@ -55,6 +55,8 @@ Multichar_Symbols
 %<gno%>           ! Gnomic tense
 %<fut%>           ! -{I}р
 %<fut2%>          ! -EcAG
+%<past%>          ! -{G}{A}n
+%<ifi%>           ! -{D}{I}
 
 %<neg%>           ! Negative
 
@@ -116,8 +118,9 @@ Multichar_Symbols
 ! Pronoun types
 %<pers%>          ! Personal
 %<dem%>           ! Demonstrative
-%<ind%>           ! Indefinite
+%<ref%>           ! Reflexive
 %<itg%>           ! Interrogative
+%<ind%>           ! Indefinite
 %<qnt%>           ! Quantifier
 %<ord%>           ! Ordinal
 
