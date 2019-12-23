@@ -29,12 +29,12 @@ Multichar_Symbols
                   
 %<sym%>           ! Symbol
 %<cop%>           ! Copula
-%<postadv%>       ! Post of Adverb
+%<postadv%>       ! Postadverb
 %<det%>           ! Determiner
 %<num%>           ! Numeral
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
-%<emph%>          ! Emphasizing modal particle  !# -ч{I}, -с{A}н{A}, әле
+%<emph%>          ! Emphasizing modal particle
 %<ij%>            ! Interjection
 %<nom%>           ! Nominative
 %<gen%>           ! Genitive
@@ -53,7 +53,9 @@ Multichar_Symbols
 %<imp%>           ! Imperative
 %<aor%>           ! Aorist
 %<gno%>           ! Gnomic tense
-%<fut%>           ! -{I}р
+
+! Tense / finite forms
+%<fut%>           ! -{I}r
 %<fut2%>          ! -EcAG
 %<past%>          ! -{G}{A}n
 %<ifi%>           ! -{D}{I}
@@ -68,7 +70,7 @@ Multichar_Symbols
 
 ! Gerunds (verbal nouns)
 %<ger%>           ! -m{A}{G}
-%<ger_pres%>      ! -{j}{A}r{A}{G}
+%<ger_pres%>      ! 
 %<ger_fut2%>      ! -{E}c{A}{G}
 %<ger_past%>      ! -{D}{I}{G}
 %<ger_abst%>      ! -Uv
@@ -82,7 +84,7 @@ Multichar_Symbols
 %<gpr_pot%>       ! {j}{I}/-c{I}
 
 ! Verbal adverbs
-%<gna_while%>
+%<gna_while%>     !
 %<gna_perf%>      ! -{I}p
 %<gna_when%>      ! -{G}{A}nc{A}
 %<gna_neg%>       ! -m{A}d{A}n
@@ -180,7 +182,7 @@ Multichar_Symbols
 %%
 
 %>                ! Morpheme boundary
-%+                ! Space
+%+                !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
