@@ -55,10 +55,10 @@ Multichar_Symbols
 %<gno%>           ! Gnomic tense
 
 ! Tense / finite forms
-%<fut%>           ! Future                      !-{I}r
-%<fut2%>          ! Future perfect              !-EcAG
-%<past%>          ! Past                        !-{G}{A}n
-%<ifi%>           ! Infinite                    !-{D}{I}
+%<fut%>           ! Future Tense, -{I}r
+%<fut2%>          ! Future perfect, -EcAG
+%<past%>          ! Past Tense, -{G}{A}n
+%<ifi%>           ! Definite past,  -{D}{I}
 
 %<neg%>           ! Negative
 
