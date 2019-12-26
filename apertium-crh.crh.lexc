@@ -1,3 +1,4 @@
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                                                                         !!!
 !!!            M O R P H O L O G I C A L · T R A N S D U C E R              !!!
@@ -7,6 +8,10 @@
 !!!           Д Л Я  · К Р Ы М С К О Т А Т А Р С К О Г О · Я З Ы К А        !!!
 !!!                                                                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! See List of symbols http://wiki.apertium.org/wiki/List_of_symbols
+
+! See http://wiki.apertium.org/wiki/Crimean_Tatar and http://wiki.apertium.org/wiki/Category:Turkic_languages
 
 Multichar_Symbols 
 
@@ -18,107 +23,124 @@ Multichar_Symbols
 %<adv%>           ! Adverb                      !
 %<v%>             ! Verb                        !
 %<cnjcoo%>        ! Coordinating conjunction    !
-%<cnjsub%>        ! "subordinating conjunction" (ki)
-%<cnjadv%>        ! 
-%<qst%>           ! Question word
-%<sym%>
+%<cnjsub%>        ! Subordinating conjunction (ki)
+%<cnjadv%>        ! Adverbial conjunction
+%<qst%>           ! Modal question particle     !# м{I}
+                  
+%<sym%>           ! Symbol
 %<cop%>           ! Copula
-%<postadv%>       ! 
-%<det%>           ! 
-%<num%>           ! 
+%<postadv%>       ! Postadverb
+%<det%>           ! Determiner
+%<num%>           ! Numeral
 %<vaux%>          ! Auxiliary verb
 %<abbr%>          ! Abbreviation
-%<emph%> 
-%<ij%>
-%<nom%>           ! Nominative                  !
-%<gen%>           !
-%<dat%>           !
-%<acc%>           !
-%<loc%>           ! Locative                    ! 
-%<abl%>           ! Ablative                    !
-%<ins%>           !
-%<sim%>
+%<emph%>          ! Emphasizing modal particle
+%<ij%>            ! Interjection
+%<nom%>           ! Nominative
+%<gen%>           ! Genitive
+%<dat%>           ! Dative
+%<acc%>           ! Accusative
+%<loc%>           ! Locative
+%<abl%>           ! Ablative
+%<ins%>           ! Instrumental=comitative
+%<sim%>           ! Similative
 
-%<iv%>            !
-%<tv%>            !
+! Transitivity
+%<iv%>            ! Transitive
+%<tv%>            ! Intransitive
 
-%<nec%>
-%<imp%>
-%<aor%>
-%<gno%>
-%<fut%>
-%<fut2%>          ! -EcAG
-%<past%>
-%<ifi%>
+%<nec%>           ! Necessitive
+%<imp%>           ! Imperative
+%<aor%>           ! Aorist
+%<gno%>           ! Gnomic tense
 
-%<neg%>
+! Tense / finite forms
+%<fut%>           ! Future Tense, -{I}r
+%<fut2%>          ! Future perfect, -EcAG
+%<past%>          ! Past Tense, -{G}{A}n
+%<ifi%>           ! Definite past,  -{D}{I}
 
-%<pass%>
-%<coop%>
-%<caus%>
-%<abil%>
-%<evid%>
+%<neg%>           ! Negative
 
-%<ger%>
-%<ger_pres%>
-%<ger_fut2%>
-%<ger_past%>
+%<pass%>          ! Passive
+%<coop%>          ! Cooperative
+%<caus%>          ! Causative
+%<abil%>          ! Abilative
+%<evid%>          ! Evidential
+
+! Gerunds (verbal nouns)
+%<ger%>           ! -m{A}{G}
+%<ger_pres%>      ! 
+%<ger_fut2%>      ! -{E}c{A}{G}
+%<ger_past%>      ! -{D}{I}{G}
 %<ger_abst%>      ! -Uv
 
-%<gpr_fut%>
-%<gpr_past%>
-%<gpr_fut2%>
-%<gpr_pot%>
+! Verbal adjectives
+%<gpr_rsub%>      !
+%<gpr_fut%>       ! -{I}r/-{A}r
+%<gpr_past%>      ! -{G}{A}n
 
-%<gna_while%>
-%<gna_perf%>
-%<gna_when%>
-%<gna_neg%>
+%<gpr_fut2%>      ! -{E}c{A}{G}
+%<gpr_pot%>       ! {j}{I}/-c{I}
 
-%<prc_perf%>      ! -Ip 
-%<prc_fut%>       ! 
-%<prc_impf%>      ! 
-%<prc_cond%>      ! 
-%<prc_past%>      ! 
+! Verbal adverbs
+%<gna_while%>     !
+%<gna_perf%>      ! -{I}p
+%<gna_when%>      ! -{G}{A}nc{A}
+%<gna_neg%>       ! -m{A}d{A}n
 
-%<px1sg%>         !
-%<px2sg%>         !
-%<px3sp%>         !
-%<px1pl%>         !
-%<px2pl%>         !
+! Participles
+%<prc_perf%>      ! -{I}p
+%<prc_fut%>       ! -{I}r/-{A}r
+%<prc_impf%>      ! -{E}
+%<prc_cond%>      ! -s{A}
+%<prc_past%>      ! {G}{A}n
 
-%<p1%>            !
-%<p2%>            !
-%<p3%>            !
+! Possessives
+%<px1sg%>         ! First person singular
+%<px2sg%>         ! Second person singular
+%<px3sp%>         ! Third person singular/plural
+%<px1pl%>         ! First person plural
+%<px2pl%>         ! Second person plural
 
-%<sg%>            !
-%<pl%>            ! Plural                      !
+! Person
+%<p1%>            ! First person
+%<p2%>            ! Second person
+%<p3%>            ! Third person
 
-%<attr%>          ! Attributive                 !
-%<subst%>         ! Substantive                 !
-%<advl%>          ! 
+! Number
+%<sg%>            ! Singular
+%<pl%>            ! Plural
 
-%<pers%>          ! Personal                    !
-%<dem%>
-%<ref%>
-%<itg%>
-%<ind%>
-%<qnt%>
-%<ord%>
+! "Syntactic" tags
+%<attr%>          ! Attributive
+%<subst%>         ! Substantive	
+%<advl%>          ! Adverbial
 
-%<m%>
-%<f%>
-%<mf%>
+! Pronoun types
+%<pers%>          ! Personal
+%<dem%>           ! Demonstrative
+%<ref%>           ! Reflexive
+%<itg%>           ! Interrogative
+%<ind%>           ! Indefinite
+%<qnt%>           ! Quantifier
+%<ord%>           ! Ordinal
 
-%<cog%>           ! 
-%<ant%>
+%<m%>             ! Masculine
+%<f%>             ! Feminine
+%<mf%>            ! Either
+
+! Proper noun types
+%<cog%>           ! Cognomen (family name)
+%<ant%>           ! Anthroponym (person name)
 %<pat%>           ! Patronymic
-%<al%>
+%<al%>            ! Others
 %<top%>           ! Toponym
 
-%<percent%>       !
-%<hash%>          ! 
+%<percent%>       ! Percent (%)
+%<hash%>          ! Hash (#)
 
+! Punctuation
 %<sent%>          ! Sentence marker
 %<guio%>          ! Hyphen
 %<cm%>            ! Comma
@@ -128,8 +150,9 @@ Multichar_Symbols
 %<rpar%>          ! Parenthetical marker (right hand side)
 %<lpar%>          ! Parenthetical marker (left hand side)
 
-%<err_orth%> 
+%<err_orth%>      ! For orthographic errors
 
+! Archiphonemes and escaped symbols
 %{G%}             !
 %{D%}             !                             
 %{A%}             !
@@ -155,12 +178,11 @@ Multichar_Symbols
 %{☭%}
 %{ъ%}             ! force back-vowel harmony
 %{ь%}             ! force front-vowel harmony
-
 %-
-%% 
- 
-%>                !
-%+
+%%
+
+%>                ! Morpheme boundary
+%+                !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
