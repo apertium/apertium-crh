@@ -58,17 +58,6 @@
     </pipeline>
   </mode>
 
-  <mode name="kir-disam" install="yes">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kir.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="kir.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
     <mode name="crh-spell" install="yes">
         <pipeline>
             <program name="hfst-ospell -S -n 10">
