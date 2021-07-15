@@ -1,0 +1,166 @@
+[-1Ae9oDIdvnT#0] ^yolcunı/yolcu<n><acc>$
+[/-1Ae9oDIdvnT]
+[0b4X43FPCTVr#0] ^evim/ev<n><nom>+e<cop><aor><p1><sg>/ev<n><px1sg><nom>/ev<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/0b4X43FPCTVr]
+[0uV0oLHOVNv-#0] ^evinde/ev<n><px3sp><loc>/ev<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/0uV0oLHOVNv-]
+[1OUKR7iDcLCv#0] ^balaña/bala<n><px2sg><dat>$
+[/1OUKR7iDcLCv]
+[4KE9LutCGme4#0] ^evimni/ev<n><px1sg><acc>$
+[/4KE9LutCGme4]
+[5k0wC_hlFSN0#0] ^qomşusınıñ/qomşu<n><px3sp><gen>$
+[/5k0wC_hlFSN0]
+[7y-R3VjhYMGn#0] ^dostun/dost<n><px3sp><nom><err_orth>/dost<n><px2sg><nom><err_orth>/dost<n><px3sp><nom>+e<cop><aor><p3><sg><err_orth>/dost<n><px2sg><nom>+e<cop><aor><p3><sg><err_orth>$
+[/7y-R3VjhYMGn]
+[89vEMVCU28il#0] ^yolunı/yol<n><px3sp><acc>$
+[/89vEMVCU28il]
+[8pI69D5qOx54#0] ^yolcudan/yolcu<n><abl>/yolcu<n><abl>+e<cop><aor><p3><sg>$
+[/8pI69D5qOx54]
+[92F3_450g9F1#0] ^eviñni/ev<n><px2sg><acc>$
+[/92F3_450g9F1]
+[ADgsrFaZLUYi#0] ^oğluñıznen/oğul<n><px2pl><ins>/oğul<n><px2pl><ins>+e<cop><aor><p3><sg>$
+[/ADgsrFaZLUYi]
+[AmTuBxPfcwJK#0] ^balañnıñ/bala<n><px2sg><gen>$
+[/AmTuBxPfcwJK]
+[Ay3y-Ci2y5Lj#0] ^yolcunıñ/yolcu<n><gen>$
+[/Ay3y-Ci2y5Lj]
+[BfILb6RAxbsm#0] ^qomşusı/qomşu<n><px3sp><nom>/qomşu<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/BfILb6RAxbsm]
+[CUY897qj4Bsz#0] ^yolcum/yolcu<n><px1sg><nom>/yolcu<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/CUY897qj4Bsz]
+[DH-c5cxFtWpH#0] ^balamdan/bala<n><px1sg><abl>/bala<n><px1sg><abl>+e<cop><aor><p3><sg>$
+[/DH-c5cxFtWpH]
+[DVoVf3aVUfYk#0] ^balası/bala<n><px3sp><nom>/bala<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/DVoVf3aVUfYk]
+[ERYRZbHydQ9a#0] ^balañnı/bala<n><px2sg><acc>$
+[/ERYRZbHydQ9a]
+[GfOzjbWiDTbh#0] ^dostuñdan/dost<n><px2sg><abl>/dost<n><px2sg><abl>+e<cop><aor><p3><sg>$
+[/GfOzjbWiDTbh]
+[GriLKR97shbc#0] ^qapusını/qapu<n><px3sp><acc>$
+[/GriLKR97shbc]
+[GxSDl-LqNoie#0] ^evi/ev<n><px3sp><nom>/ev<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/GxSDl-LqNoie]
+[HE6euvD_dC3P#0] ^eviñden/ev<n><px2sg><abl>/ev<n><px2sg><abl>+e<cop><aor><p3><sg>$
+[/HE6euvD_dC3P]
+[HJXC6QMbG5Iz#0] ^evime/ev<n><px1sg><dat>$
+[/HJXC6QMbG5Iz]
+[IFKEaDkbYCr8#0] ^dostuñ/dost<n><px2sg><nom>/dost<n><px2sg><nom>+e<cop><aor><p3><sg>$
+[/IFKEaDkbYCr8]
+[IUB24Ax7m2DH#0] ^dostuna/dost<n><px3sp><dat>$
+[/IUB24Ax7m2DH]
+[KNEOf8-nzO1s#0] ^ükümni/üküm<n><acc>$
+[/KNEOf8-nzO1s]
+[KdVxbfMOX2fx#0] ^dostuña/dost<n><px2sg><dat>$
+[/KdVxbfMOX2fx]
+[MEyH_fBXIPpJ#0] ^dostum/dost<n><nom>+e<cop><aor><p1><sg>/dost<n><px1sg><nom>/dost<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/MEyH_fBXIPpJ]
+[NgQf8WXhaHcN#0] ^eviñde/ev<n><px2sg><loc>/ev<n><px2sg><loc>+e<cop><aor><p3><sg>$
+[/NgQf8WXhaHcN]
+[NlX97JYb6ta6#0] ^dostundan/dost<n><px3sp><abl>/dost<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/NlX97JYb6ta6]
+[OrSkzHB_x3MW#0] ^yolcusını/yolcu<n><px3sp><acc>$
+[/OrSkzHB_x3MW]
+[P7lV0qgKwlrG#0] ^qomşum/qomşu<n><px1sg><nom>/qomşu<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/P7lV0qgKwlrG]
+[PbAh7_jqFm7a#0] ^evimde/ev<n><px1sg><loc>/ev<n><px1sg><loc>+e<cop><aor><p3><sg>$
+[/PbAh7_jqFm7a]
+[PzAdIdvKUvHM#0] ^qomşusına/qomşu<n><px3sp><dat>$
+[/PzAdIdvKUvHM]
+[R4j8oETbDntN#0] ^balamda/bala<n><px1sg><loc>/bala<n><px1sg><loc>+e<cop><aor><p3><sg>$
+[/R4j8oETbDntN]
+[R9Wk4EIiIpUo#0] ^evinden/ev<n><px3sp><abl>/ev<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/R9Wk4EIiIpUo]
+[SzRORvzbeUei#0] ^durumınıñ/durum<n><px3sp><gen>$
+[/SzRORvzbeUei]
+[TgPCtMKBhn2E#0] ^balasından/bala<n><px3sp><abl>/bala<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/TgPCtMKBhn2E]
+[Tr4UYMVo9TsJ#0] ^ucüminiñ/ucüm<n><px3sp><gen>$
+[/Tr4UYMVo9TsJ]
+[TygvYvlCyEK7#0] ^evini/ev<n><px3sp><acc>$
+[/TygvYvlCyEK7]
+[WCT4vT5g7mAO#0] ^nutuğından/nutuq<n><px3sp><abl>/nutuq<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/WCT4vT5g7mAO]
+[X6G1RZZkZdUE#0] ^yolcusı/yolcu<n><px3sp><nom>/yolcu<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/X6G1RZZkZdUE]
+[XyawF1pjLfEF#0] ^balasınıñ/bala<n><px3sp><gen>$
+[/XyawF1pjLfEF]
+[YctLqwz426EJ#0] ^dostunıñ/dost<n><px3sp><gen>$
+[/YctLqwz426EJ]
+[ZaLzLQmcfSf3#0] ^dostumda/dost<n><px1sg><loc>/dost<n><px1sg><loc>+e<cop><aor><p3><sg>$
+[/ZaLzLQmcfSf3]
+[ZwQ1WNdVKWZs#0] ^balañ/bala<n><px2sg><nom>/bala<n><px2sg><nom>+e<cop><aor><p3><sg>$
+[/ZwQ1WNdVKWZs]
+[__H-aWqD29Ys#0] ^dostumnı/dost<n><px1sg><acc>$
+[/__H-aWqD29Ys]
+[_oJAvyf8rFMG#0] ^balasını/bala<n><px3sp><acc>$
+[/_oJAvyf8rFMG]
+[_x1-YN1y7JLp#0] ^qomşunıñ/qomşu<n><gen>$
+[/_x1-YN1y7JLp]
+[aG6Jr5G-hiAT#0] ^mülküñizni/mülk<n><px2pl><acc>$
+[/aG6Jr5G-hiAT]
+[aVh0a7DL3HAW#0] ^oğluñızğa/oğul<n><px2pl><dat>$
+[/aVh0a7DL3HAW]
+[abwAgaN-W8cH#0] ^dostuñnıñ/dost<n><px2sg><gen>$
+[/abwAgaN-W8cH]
+[b8zFOFqO-cqm#0] ^balam/bala<n><px1sg><nom>/bala<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/b8zFOFqO-cqm]
+[bRgFWSYnOsMC#0] ^ümütini/ümüt<n><px3sp><acc>$
+[/bRgFWSYnOsMC]
+[bXw29vjiv4uk#0] ^dostuñnı/dost<n><px2sg><acc>$
+[/bXw29vjiv4uk]
+[dSuK7s8xiSCU#0] ^yolcuğa/yolcu<n><dat>$
+[/dSuK7s8xiSCU]
+[eN4JkQ9xZMSf#0] ^dostuma/dost<n><px1sg><dat>$
+[/eN4JkQ9xZMSf]
+[fRoJqBenHtjS#0] ^balañdan/bala<n><px2sg><abl>/bala<n><px2sg><abl>+e<cop><aor><p3><sg>$
+[/fRoJqBenHtjS]
+[fn_mYUSUAJjo#0] ^qomşumnıñ/qomşu<n><px1sg><gen>$
+[/fn_mYUSUAJjo]
+[foUEHF_ZqO7R#0] ^eviniñ/ev<n><px3sp><gen>$
+[/foUEHF_ZqO7R]
+[gly1xnYag-gw#0] ^dostumnıñ/dost<n><px1sg><gen>$
+[/gly1xnYag-gw]
+[hH0iSo9RZucR#0] ^dostuñda/dost<n><px2sg><loc>/dost<n><px2sg><loc>+e<cop><aor><p3><sg>$
+[/hH0iSo9RZucR]
+[hb11pw8QHki7#0] ^balañda/bala<n><px2sg><loc>/bala<n><px2sg><loc>+e<cop><aor><p3><sg>$
+[/hb11pw8QHki7]
+[ihchU36bLa2k#0] ^qomşusını/qomşu<n><px3sp><acc>$
+[/ihchU36bLa2k]
+[iq6VS_l9FSLP#0] ^evine/ev<n><px3sp><dat>$
+[/iq6VS_l9FSLP]
+[jce8miBw5TxR#0] ^qomşudan/qomşu<n><abl>/qomşu<n><abl>+e<cop><aor><p3><sg>$
+[/jce8miBw5TxR]
+[k3Vxp3fApzPv#0] ^evimniñ/ev<n><px1sg><gen>$
+[/k3Vxp3fApzPv]
+[knrd9BBRz6wf#0] ^dostunı/dost<n><px3sp><acc>$
+[/knrd9BBRz6wf]
+[mJ5QzRCBdeSX#0] ^balasına/bala<n><px3sp><dat>$
+[/mJ5QzRCBdeSX]
+[n09TAweKmMDb#0] ^balama/bala<n><px1sg><dat>$
+[/n09TAweKmMDb]
+[nXovZhN6CAGn#0] ^balamnı/bala<n><px1sg><acc>$
+[/nXovZhN6CAGn]
+[oQInbwHLSsfr#0] ^eviñniñ/ev<n><px2sg><gen>$
+[/oQInbwHLSsfr]
+[osLUtocknGej#0] ^balasında/bala<n><px3sp><loc>/bala<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/osLUtocknGej]
+[quwaDs8bvZgZ#0] ^eviñe/ev<n><px2sg><dat>$
+[/quwaDs8bvZgZ]
+[sRQb2LfqBUii#0] ^balamnıñ/bala<n><px1sg><gen>$
+[/sRQb2LfqBUii]
+[tAy8AcDhhqEA#0] ^evimden/ev<n><px1sg><abl>/ev<n><px1sg><abl>+e<cop><aor><p3><sg>$
+[/tAy8AcDhhqEA]
+[tNXCYQvsLM2C#0] ^ölümini/ölüm<n><px3sp><acc>$
+[/tNXCYQvsLM2C]
+[tnbNleW4L7_X#0] ^qomşumıznı/qomşu<n><px1pl><acc>$
+[/tnbNleW4L7_X]
+[uJDglA-oCu3m#0] ^dostumdan/dost<n><px1sg><abl>/dost<n><px1sg><abl>+e<cop><aor><p3><sg>$
+[/uJDglA-oCu3m]
+[w-BC0iUykY5M#0] ^ucümini/ucüm<n><px3sp><acc>$
+[/w-BC0iUykY5M]
+[wCAIutsLxXYd#0] ^dostunda/dost<n><px3sp><loc>/dost<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/wCAIutsLxXYd]
+[yPvJMBS3w7Xs#0] ^qomşusından/qomşu<n><px3sp><abl>/qomşu<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/yPvJMBS3w7Xs]
+[ymc0dxS0-eUa#0] ^eviñ/ev<n><px2sg><nom>/ev<n><px2sg><nom>+e<cop><aor><p3><sg>$
+[/ymc0dxS0-eUa]

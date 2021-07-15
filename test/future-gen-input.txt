@@ -1,0 +1,5 @@
+# some future forms with E:y
+^ol<v><iv><neg><fut2><p3><sg>$
+^toqtat<v><tv><neg><fut2><p3><pl>$
+^başla<v><tv><fut2><p3><sg>$
+^belgile<v><tv><fut2><p3><sg>$

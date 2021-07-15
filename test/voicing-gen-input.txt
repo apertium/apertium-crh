@@ -1,0 +1,63 @@
+# Voicing alternations (no voicing, a)
+^tüs<n><nom>$
+^tüs<n><px3sp><nom>$
+^tüs<n><loc>$
+^baş<n><nom>$
+^baş<n><dat>$
+^baş<n><px3sp><dat>$
+^baş<n><px3sp><nom>$
+^baş<n><loc>$
+^tiş<n><nom>$
+^tiş<n><px3sp><nom>$
+^tiş<n><loc>$
+^at¹<n><nom>$
+^at¹<n><loc>$
+^at¹<n><px3sp><nom>$
+# Voicing alternations (voicing, b)
+^qas<n><nom>$
+^qas<n><px3sp><nom>$
+^qas<n><loc>$
+^uç<n><nom>$
+^uç<n><px3sp><nom>$
+^uç<n><loc>$
+^garaş<n><nom>$
+^garaş<n><px3sp><nom>$
+^garaş<n><loc>$
+^küs<n><nom>$
+^küs<n><px3sp><nom>$
+^küs<n><loc>$
+^at²<n><nom>$
+^at²<n><px3sp><nom>$
+^at²<n><loc>$
+# Voicing alternations (voicing, c)
+^tüp<n><nom>$
+^tüp<n><px3sp><nom>$
+^tüp<n><loc>$
+^kitap<n><nom>$
+^kitap<n><dat>$
+^kitap<n><px3sp><nom>$
+^kitap<n><loc>$
+^bilek<n><nom>$
+^bilek<n><px3sp><nom>$
+^bilek<n><loc>$
+^qulaq<n><nom>$
+^qulaq<n><px3sp><nom>$
+^qulaq<n><loc>$
+# Voicing alternations (voicing, d)
+^koy<n><nom>$
+^koy<n><px3sp><nom>$
+^koy<n><loc>$
+^araba<n><nom>$
+^araba<n><px3sp><nom>$
+^araba<n><loc>$
+# Miscellaneous
+^mektep<n><px3sp><loc>$
+^birlik<n><nom>$
+^birlik<n><px3sp><nom>$
+^doğ<v><tv><ifi><p3><sg>$
+^doğ<v><tv><past><p3><sg>$
+^doğ<v><tv><imp><p2><sg>$
+^maqsat<n><px3sp><nom>$
+^maqsat<n><nom>$
+^maqsat<n><pl><nom>$
+^maqsat<n><loc>$

@@ -1,0 +1,76 @@
+[0cmJU-h33Q0O#0] ^balalarğa/bala<n><pl><dat>$
+[/0cmJU-h33Q0O]
+[3UL5ekqkXEvP#0] ^dostlar/dost<n><nom>+e<cop><aor><p3><pl>/dost<n><pl><nom>/dost<n><pl><nom>+e<cop><aor><p3><sg>$
+[/3UL5ekqkXEvP]
+[60c95slufsMi#0] ^balalardan/bala<n><pl><abl>/bala<n><pl><abl>+e<cop><aor><p3><sg>$
+[/60c95slufsMi]
+[77JsZSZ54DU-#0] ^balalarnıñ/bala<n><pl><gen>$
+[/77JsZSZ54DU-]
+[8WnktPJHrxIX#0] ^yolnıñ/yol<n><gen>$
+[/8WnktPJHrxIX]
+[8m6TjTcD0-cI#0] ^balalarda/bala<n><pl><loc>/bala<n><pl><loc>+e<cop><aor><p3><sg>$
+[/8m6TjTcD0-cI]
+[8v3ViFbncVJG#0] ^bala/bala<n><attr>/bala<n><nom>/bala<n><nom>+e<cop><aor><p3><sg>$
+[/8v3ViFbncVJG]
+[AN5eDtewJ1R0#0] ^dostnı/dost<n><acc>$
+[/AN5eDtewJ1R0]
+[AkA1p75lBj1T#0] ^balanıñ/bala<n><gen>$
+[/AkA1p75lBj1T]
+[CVwKkxBwAF1i#0] ^evlerden/ev<n><pl><abl>/ev<n><pl><abl>+e<cop><aor><p3><sg>$
+[/CVwKkxBwAF1i]
+[EqYmBUsZbnjB#0] ^evge/ev<n><dat>$
+[/EqYmBUsZbnjB]
+[FzB1iWuGmBc0#0] ^dostqa/dost<n><dat>$
+[/FzB1iWuGmBc0]
+[HI8ILhu404iR#0] ^dostlarda/dost<n><pl><loc>/dost<n><pl><loc>+e<cop><aor><p3><sg>$
+[/HI8ILhu404iR]
+[LCeiMXNYQ1Hb#0] ^evlerde/ev<n><pl><loc>/ev<n><pl><loc>+e<cop><aor><p3><sg>$
+[/LCeiMXNYQ1Hb]
+[M3gENuD8iPEF#0] ^evler/ev<n><nom>+e<cop><aor><p3><pl>/ev<n><pl><nom>/ev<n><pl><nom>+e<cop><aor><p3><sg>$
+[/M3gENuD8iPEF]
+[OViMA5Mh9Xg6#0] ^dostnıñ/dost<n><gen>$
+[/OViMA5Mh9Xg6]
+[QHngWu4bLgj4#0] ^evlerni/ev<n><pl><acc>$
+[/QHngWu4bLgj4]
+[QsomSvipguKO#0] ^yolnı/yol<n><acc>$
+[/QsomSvipguKO]
+[SawcMBMA4SLM#0] ^baladan/bala<n><abl>/bala<n><abl>+e<cop><aor><p3><sg>$
+[/SawcMBMA4SLM]
+[X7kqcFJvZKPO#0] ^dostlardan/dost<n><pl><abl>/dost<n><pl><abl>+e<cop><aor><p3><sg>$
+[/X7kqcFJvZKPO]
+[Ym_1qtNuIUHo#0] ^evde/ev<n><loc>/ev<n><loc>+e<cop><aor><p3><sg>$
+[/Ym_1qtNuIUHo]
+[Z3-E-0JkLJVs#0] ^dost/dost<n><attr>/dost<n><nom>/dost<n><nom>+e<cop><aor><p3><sg>$
+[/Z3-E-0JkLJVs]
+[Z9NVVMH2BjjW#0] ^ev/ev<n><attr>/ev<n><nom>/ev<n><nom>+e<cop><aor><p3><sg>$
+[/Z9NVVMH2BjjW]
+[ZrtYouXlXv_7#0] ^dostlarnı/dost<n><pl><acc>$
+[/ZrtYouXlXv_7]
+[_vIcbUVTcnhD#0] ^balalar/bala<n><nom>+e<cop><aor><p3><pl>/bala<n><pl><nom>/bala<n><pl><nom>+e<cop><aor><p3><sg>$
+[/_vIcbUVTcnhD]
+[dGq4tSSqpVI9#0] ^dostta/dost<n><loc>/dost<n><loc>+e<cop><aor><p3><sg>$
+[/dGq4tSSqpVI9]
+[efXmypdAhZ_L#0] ^evden/ev<n><abl>/ev<n><abl>+e<cop><aor><p3><sg>$
+[/efXmypdAhZ_L]
+[er8QGTeczuwt#0] ^dosttan/dost<n><abl>/dost<n><abl>+e<cop><aor><p3><sg>$
+[/er8QGTeczuwt]
+[f5Nd_qGT6TfZ#0] ^balağa/bala<n><dat>$
+[/f5Nd_qGT6TfZ]
+[fBNmfUHj2pex#0] ^balada/bala<n><loc>/bala<n><loc>+e<cop><aor><p3><sg>$
+[/fBNmfUHj2pex]
+[fwadi51qnshK#0] ^evniñ/ev<n><gen>$
+[/fwadi51qnshK]
+[krNXNew2ay9X#0] ^evlerge/ev<n><pl><dat>$
+[/krNXNew2ay9X]
+[nm1zpa3VtEyj#0] ^evlerniñ/ev<n><pl><gen>$
+[/nm1zpa3VtEyj]
+[pbrQnogoyvrs#0] ^dostlarğa/dost<n><pl><dat>$
+[/pbrQnogoyvrs]
+[sEgULLYFqV8a#0] ^evni/ev<n><acc>$
+[/sEgULLYFqV8a]
+[ugYRSTQKQpkG#0] ^balanı/bala<n><acc>$
+[/ugYRSTQKQpkG]
+[yBdfgTiL7Xej#0] ^dostlarnıñ/dost<n><pl><gen>$
+[/yBdfgTiL7Xej]
+[z-b6XEZOBlFh#0] ^balalarnı/bala<n><pl><acc>$
+[/z-b6XEZOBlFh]

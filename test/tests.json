@@ -1,0 +1,58 @@
+{
+  "cases": {
+    "input": "cases-input.txt",
+    "mode": "crh-morph"
+  },
+  "cases-gen": {
+    "input": "cases-gen-input.txt",
+    "mode": "crh-gener"
+  },
+  "future": {
+    "input": "future-input.txt",
+    "mode": "crh-morph"
+  },
+  "future-gen": {
+    "input": "future-gen-input.txt",
+    "mode": "crh-gener"
+  },
+  "loanwords": {
+    "input": "loanwords-input.txt",
+    "mode": "crh-morph"
+  },
+  "loanwords-gen": {
+    "input": "loanwords-gen-input.txt",
+    "mode": "crh-gener"
+  },
+  "phon-y": {
+    "input": "phon-y-input.txt",
+    "mode": "crh-morph"
+  },
+  "phon-y-gen": {
+    "input": "phon-y-gen-input.txt",
+    "mode": "crh-gener"
+  },
+  "possessives": {
+    "input": "possessives-input.txt",
+    "mode": "crh-morph"
+  },
+  "possessives-gen": {
+    "input": "possessives-gen-input.txt",
+    "mode": "crh-gener"
+  },
+  "verbs": {
+    "input": "verbs-input.txt",
+    "mode": "crh-morph"
+  },
+  "verbs-gen": {
+    "input": "verbs-gen-input.txt",
+    "mode": "crh-gener"
+  },
+  "voicing": {
+    "input": "voicing-input.txt",
+    "mode": "crh-morph"
+  },
+  "voicing-gen": {
+    "input": "voicing-gen-input.txt",
+    "mode": "crh-gener"
+  }
+}

@@ -1,0 +1,114 @@
+[-obf2BwGvN5l#0] ^birligi/birlik<n><px3sp><nom>/birlik<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/-obf2BwGvN5l]
+[0pWazn9I0GI1#0] ^başına/baş<n><px3sp><dat>$
+[/0pWazn9I0GI1]
+[25FtQA5adsvT#0] ^tüs/tüs<n><attr>/tüs<n><nom>/tüs<n><nom>+e<cop><aor><p3><sg>$
+[/25FtQA5adsvT]
+[2J4tyBF1CHye#0] ^doğ/doğ<v><iv><imp><p2><sg>$
+[/2J4tyBF1CHye]
+[3NGYiB_Umn6g#0] ^tüpte/tüp<n><loc>/tüp<n><loc>+e<cop><aor><p3><sg>$
+[/3NGYiB_Umn6g]
+[4sRi4-HyYKkT#0] ^kitap/kitap<n><attr>/kitap<n><nom>/kitap<n><nom>+e<cop><aor><p3><sg>$
+[/4sRi4-HyYKkT]
+[5MwdwXrIxLLc#0] ^atı/at¹<n><px3sp><nom>/at¹<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/5MwdwXrIxLLc]
+[8I2Q0GM3K8fs#0] ^qazı/*qazı$
+[/8I2Q0GM3K8fs]
+[8Jx9R_WbTKNy#0] ^tüsü/tüs<n><px3sp><nom>/tüs<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/8Jx9R_WbTKNy]
+[9FDgCZjy_QHN#0] ^küzde/küz<n><loc>/küz<n><loc>+e<cop><aor><p3><sg>$
+[/9FDgCZjy_QHN]
+[9qbzsAIqm3hx#0] ^qulağı/qulaq<n><px3sp><nom>/qulaq<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/9qbzsAIqm3hx]
+[9utifKVRxCqO#0] ^garaş/garaş<n><attr>/garaş<n><nom>/garaj<n><attr>/garaj<n><nom>/garaş<n><nom>+e<cop><aor><p3><sg>/garaj<n><nom>+e<cop><aor><p3><sg>$
+[/9utifKVRxCqO]
+[A-ASE9ALS988#0] ^ucı/uç<n><px3sp><nom><err_orth>/uç<n><px3sp><nom>+e<cop><aor><p3><sg><err_orth>$
+[/A-ASE9ALS988]
+[F81lAvP6gXcx#0] ^tişi/tiş<n><px3sp><nom>/tiş<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/F81lAvP6gXcx]
+[FeGsydHYQ0Qh#0] ^tüste/tüs<n><loc>/tüs<n><loc>+e<cop><aor><p3><sg>$
+[/FeGsydHYQ0Qh]
+[I8vW8ZolMBUH#0] ^qas/*qas$
+[/I8vW8ZolMBUH]
+[KInYz1hjjtl8#0] ^qulaqta/qulaq<n><loc>/qulaq<n><loc>+e<cop><aor><p3><sg>$
+[/KInYz1hjjtl8]
+[LyBZmd4UssXW#0] ^bilek/bilek<n><attr>/bilek<n><nom>/bilek<n><nom>+e<cop><aor><p3><sg>$
+[/LyBZmd4UssXW]
+[N9sO3sUq2P5J#0] ^koyu/koy<n><px3sp><nom>/koy<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/N9sO3sUq2P5J]
+[NmZ8o8QfGsdw#0] ^koyda/koy<n><loc>/koy<n><loc>+e<cop><aor><p3><sg>$
+[/NmZ8o8QfGsdw]
+[O83v11c4f1HU#0] ^uç/uç<n><attr>/uç<n><nom>/uç<v><iv><imp><p2><sg>/uç<n><nom>+e<cop><aor><p3><sg>$
+[/O83v11c4f1HU]
+[P0Rij3WmfsZz#0] ^başqa/baş<n><dat>/başqa<post>/başqa<adj>/başqa<adj><subst><nom>/başqa<adj>+e<cop><aor><p3><sg>/başqa<adj><subst><nom>+e<cop><aor><p3><sg>$
+[/P0Rij3WmfsZz]
+[P3ygbXVsOu9B#0] ^maqsadı/maqsat<n><px3sp><nom>/maqsat<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/P3ygbXVsOu9B]
+[RcPNDV2o7t9w#0] ^tiş/tiş<n><attr>/tiş<n><nom>/tiş<n><nom>+e<cop><aor><p3><sg>$
+[/RcPNDV2o7t9w]
+[S0H4awPW7ur7#0] ^maqsat/maqsat<n><attr>/maqsat<n><nom>/maqsat<n><nom>+e<cop><aor><p3><sg>$
+[/S0H4awPW7ur7]
+[SEmmo2KuFJNT#0] ^araba/araba<n><attr>/araba<n><nom>/araba<n><nom>+e<cop><aor><p3><sg>$
+[/SEmmo2KuFJNT]
+[SgEPpJmWRvE3#0] ^başı/baş<n><px3sp><nom>/baş<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/SgEPpJmWRvE3]
+[V1w25U7Uj8jQ#0] ^maqsatta/maqsat<n><loc>/maqsat<n><loc>+e<cop><aor><p3><sg>$
+[/V1w25U7Uj8jQ]
+[V85-ma_TwDgT#0] ^atta/ad<n><loc>/at²<n><loc>/at¹<n><loc>/atta<cnjadv>/ad<n><loc>+e<cop><aor><p3><sg>/at²<n><loc>+e<cop><aor><p3><sg>/at¹<n><loc>+e<cop><aor><p3><sg>$
+[/V85-ma_TwDgT]
+[VHG2RaFkRK6B#0] ^koy/koy<n><attr>/koy<n><nom>/koy<n><nom>+e<cop><aor><p3><sg>$
+[/VHG2RaFkRK6B]
+[Vpf9s3ozZTR5#0] ^küs/*küs$
+[/Vpf9s3ozZTR5]
+[VpoQIzdDoPi3#0] ^adda/ad<n><loc><err_orth>/at²<n><loc><err_orth>/ad<n><loc>+e<cop><aor><p3><sg><err_orth>/at²<n><loc>+e<cop><aor><p3><sg><err_orth>$
+[/VpoQIzdDoPi3]
+[Vz9Z62SL7HM0#0] ^küzü/küz<n><px3sp><nom>/küz<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/Vz9Z62SL7HM0]
+[VzxAcuCGdbP7#0] ^doğdı/doğ<v><iv><ifi><p3><sg><err_orth>$
+[/VzxAcuCGdbP7]
+[WXsNIzzbT7s8#0] ^tüp/tüp<n><attr>/tüp<n><nom>/tüp<n><nom>+e<cop><aor><p3><sg>$
+[/WXsNIzzbT7s8]
+[XG4s_gfBdh5N#0] ^kitapta/kitap<n><loc>/kitap<n><loc>+e<cop><aor><p3><sg>$
+[/XG4s_gfBdh5N]
+[Xo_8_TWsfSto#0] ^maqsatlar/maqsat<n><nom>+e<cop><aor><p3><pl>/maqsat<n><pl><nom>/maqsat<n><pl><nom>+e<cop><aor><p3><sg>$
+[/Xo_8_TWsfSto]
+[ZF7EsTOSLLdf#0] ^tişte/tiş<n><loc>/tiş<n><loc>+e<cop><aor><p3><sg>$
+[/ZF7EsTOSLLdf]
+[ZZtE3VaslV-A#0] ^birlik/birlik<n><attr>/birlik<n><nom>/birlik<n><nom>+e<cop><aor><p3><sg>$
+[/ZZtE3VaslV-A]
+[eDciX9TnaPqY#0] ^adı/ad<n><px3sp><nom>/at²<n><px3sp><nom>/ad<n><px3sp><nom>+e<cop><aor><p3><sg>/at²<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/eDciX9TnaPqY]
+[g-Jdp8WvZeDB#0] ^mektebinde/mektep<n><px3sp><loc>/mektep<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/g-Jdp8WvZeDB]
+[g64am4odJ2P_#0] ^arabası/araba<n><px3sp><nom>/araba<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/g64am4odJ2P_]
+[jGEa1vTeJo4j#0] ^garajda/garaj<n><loc><err_orth>/garaş<n><loc><err_orth>/garaj<n><loc>+e<cop><aor><p3><sg><err_orth>/garaş<n><loc>+e<cop><aor><p3><sg><err_orth>$
+[/jGEa1vTeJo4j]
+[krp30gPdX6gq#0] ^ucda/uç<n><loc><err_orth>/uç<n><loc>+e<cop><aor><p3><sg><err_orth>$
+[/krp30gPdX6gq]
+[m7jR-EcarQ4Y#0] ^baş/baş<n><attr>/baş<n><nom>/baş<n><nom>+e<cop><aor><p3><sg>$
+[/m7jR-EcarQ4Y]
+[nAn59f3ZJ_sV#0] ^qulaq/qulaq<n><attr>/qulaq<n><nom>/qulaq<n><nom>+e<cop><aor><p3><sg>$
+[/nAn59f3ZJ_sV]
+[o3FxG12nXJ75#0] ^garajı/garaj<n><px3sp><nom>/garaş<n><px3sp><nom>/garaj<n><px3sp><nom>+e<cop><aor><p3><sg>/garaş<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/o3FxG12nXJ75]
+[peu2FZJyAxpm#0] ^bilekte/bilek<n><loc>/bilek<n><loc>+e<cop><aor><p3><sg>$
+[/peu2FZJyAxpm]
+[rBVKNSo_pu5N#0] ^bilegi/bilek<n><px3sp><nom>/bilek<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/rBVKNSo_pu5N]
+[sda5G2fCr6Xj#0] ^at/ad<n><attr>/ad<n><nom>/at²<n><attr>/at²<n><nom>/at¹<n><attr>/at¹<n><nom>/at<v><tv><imp><p2><sg>/ad<n><nom>+e<cop><aor><p3><sg>/at²<n><nom>+e<cop><aor><p3><sg>/at¹<n><nom>+e<cop><aor><p3><sg>$
+[/sda5G2fCr6Xj]
+[tysgvWSEfopL#0] ^tübü/tüp<n><px3sp><nom>/tüp<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/tysgvWSEfopL]
+[uAFl2X93j3wA#0] ^arabada/araba<n><loc>/araba<n><loc>+e<cop><aor><p3><sg>$
+[/uAFl2X93j3wA]
+[ugZL-Cpiaf5P#0] ^kitapqa/kitap<n><dat>$
+[/ugZL-Cpiaf5P]
+[wO5cYFOvnRrR#0] ^başta/baş<n><loc>/baş<n><loc>+e<cop><aor><p3><sg>$
+[/wO5cYFOvnRrR]
+[wOGJFdyugv0X#0] ^kitabı/kitap<n><px3sp><nom>/kitap<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/wOGJFdyugv0X]
+[zpkCVL0QTzlq#0] ^doğğan/doğ<v><iv><gpr_past>/doğ<v><iv><prc_past>/doğ<v><iv><ger_past><nom>/doğ<v><iv><past><p3><sg>/doğ<v><iv><ger_past><nom>+e<cop><aor><p3><sg>$
+[/zpkCVL0QTzlq]
+[zsOc1bTRgymC#0] ^qazda/*qazda$
+[/zsOc1bTRgymC]

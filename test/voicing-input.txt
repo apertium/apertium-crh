@@ -1,0 +1,63 @@
+# Voicing alternations (no voicing, a)
+tüs
+tüsü
+tüste
+baş
+başqa
+başına
+başı
+başta
+tiş
+tişi
+tişte
+at
+atta
+atı
+# Voicing alternations (voicing, b)
+qas
+qazı
+qazda
+uç
+ucı
+ucda
+garaş
+garajı
+garajda
+küs
+küzü
+küzde
+at
+adı
+adda
+# Voicing alternations (voicing, c)
+tüp
+tübü
+tüpte
+kitap
+kitapqa
+kitabı
+kitapta
+bilek
+bilegi
+bilekte
+qulaq
+qulağı
+qulaqta
+# Voicing alternations (voicing, d)
+koy
+koyu
+koyda
+araba
+arabası
+arabada
+# Miscellaneous
+mektebinde
+birlik
+birligi
+doğdı
+doğğan
+doğ
+maqsadı
+maqsat
+maqsatlar
+maqsatta

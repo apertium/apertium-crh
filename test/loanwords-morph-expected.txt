@@ -1,0 +1,4 @@
+[lpm6nosB-z81#0] ^Donetskke/Donetsk<np><top><dat>$
+[/lpm6nosB-z81]
+[zjMjgE5Yv3sg#0] ^Omskqa/Omsk<np><top><dat><err_orth>$
+[/zjMjgE5Yv3sg]

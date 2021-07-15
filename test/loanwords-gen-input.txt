@@ -1,0 +1,3 @@
+# Proper nouns -sk
+^Omsk<np><top><dat>$
+^Donetsk<np><top><dat>$

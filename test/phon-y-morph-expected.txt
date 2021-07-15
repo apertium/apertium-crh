@@ -1,0 +1,342 @@
+[-3ADAWJHD0kg#0] ^vaqıtları/vaqıt<n><pl><px3sp><nom>/vaqıt<n><pl><px3sp><nom>+e<cop><aor><p3><sg>$
+[/-3ADAWJHD0kg]
+[-BAmq3NaGcm6#0] ^oğullarını/oğul<n><pl><px3sp><acc>$
+[/-BAmq3NaGcm6]
+[-V8_MLfFiMDr#0] ^devirleri/devir<n><pl><px3sp><nom>/devir<n><pl><px3sp><nom>+e<cop><aor><p3><sg>$
+[/-V8_MLfFiMDr]
+[-XbYqGbNBZyT#0] ^devrindeki/devir<n><px3sp><loc><attr>/devir<n><px3sp><loc><subst><nom>/devir<n><px3sp><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/-XbYqGbNBZyT]
+[-aSybrTYnlMj#0] ^oğlunen/oğul<n><px3sp><ins>/oğul<n><px3sp><ins>+e<cop><aor><p3><sg>$
+[/-aSybrTYnlMj]
+[-c3RGqTc6Ja3#0] ^şekildeki/şekil<n><loc><attr>/şekil<n><loc><subst><nom>/şekil<n><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/-c3RGqTc6Ja3]
+[0F7cGKyD4R0U#0] ^fikriñiz/fikir<n><px2pl><nom>/fikir<n><px2pl><nom>+e<cop><aor><p3><sg>$
+[/0F7cGKyD4R0U]
+[13x6DuLNmPMj#0] ^qısmını/qısım<n><px3sp><acc>$
+[/13x6DuLNmPMj]
+[1YVIfYjJ9BsX#0] ^qısımdan/qısım<n><abl>/qısım<n><abl>+e<cop><aor><p3><sg>$
+[/1YVIfYjJ9BsX]
+[22WigSbFLkat#0] ^burnundaki/burun<n><px3sp><loc><attr>/burun<n><px3sp><loc><subst><nom>/burun<n><px3sp><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/22WigSbFLkat]
+[2zWdAA6NnR5l#0] ^vaqıtta/vaqıt<n><loc>/vaqıt<n><loc>+e<cop><aor><p3><sg>$
+[/2zWdAA6NnR5l]
+[30bH58hRZ5lz#0] ^qısmınıñ/qısım<n><px3sp><gen>$
+[/30bH58hRZ5lz]
+[30pR3OriZTXD#0] ^vaqıtlar/vaqıt<n><nom>+e<cop><aor><p3><pl>/vaqıt<n><pl><nom>/vaqıt<n><pl><nom>+e<cop><aor><p3><sg>$
+[/30pR3OriZTXD]
+[3HlEGhnj1Dyt#0] ^burnunda/burun<n><px3sp><loc>/burun<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/3HlEGhnj1Dyt]
+[3XoOspRO3c8w#0] ^devriniñ/devir<n><px3sp><gen>$
+[/3XoOspRO3c8w]
+[3YGD8nEHJfBw#0] ^fikirlerinde/fikir<n><pl><px3sp><loc>/fikir<n><pl><px3sp><loc>+e<cop><aor><p3><sg>$
+[/3YGD8nEHJfBw]
+[3g6Xlcw9cGY2#0] ^şekillerni/şekil<n><pl><acc>$
+[/3g6Xlcw9cGY2]
+[4Idje7QiUbBD#0] ^fikrimni/fikir<n><px1sg><acc>$
+[/4Idje7QiUbBD]
+[5yKG8lUZ8HRP#0] ^boynunı/boyun<n><px3sp><acc>$
+[/5yKG8lUZ8HRP]
+[63S7ooRD77iz#0] ^fikriñizge/fikir<n><px2pl><dat>$
+[/63S7ooRD77iz]
+[6Ncoi-jU4bHT#0] ^vaqtında/vaqıt<n><px3sp><loc>/vaqıt<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/6Ncoi-jU4bHT]
+[6O6xnx0cQoTZ#0] ^qısımlar/qısım<n><nom>+e<cop><aor><p3><pl>/qısım<n><pl><nom>/qısım<n><pl><nom>+e<cop><aor><p3><sg>$
+[/6O6xnx0cQoTZ]
+[6b-AevHvaLhe#0] ^burnu/burun<n><px3sp><nom>/burun<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/6b-AevHvaLhe]
+[6ystNqfsVpRh#0] ^qısımlarınıñ/qısım<n><pl><px3sp><gen>$
+[/6ystNqfsVpRh]
+[7m5-u1qO1zJ8#0] ^oğullarında/oğul<n><pl><px3sp><loc>/oğul<n><pl><px3sp><loc>+e<cop><aor><p3><sg>$
+[/7m5-u1qO1zJ8]
+[7oBEIYRvclMH#0] ^qısımlarını/qısım<n><pl><px3sp><acc>$
+[/7oBEIYRvclMH]
+[7tfuL2eu3Ul-#0] ^oğullarına/oğul<n><pl><px3sp><dat>$
+[/7tfuL2eu3Ul-]
+[7zOwXyEo_7a0#0] ^devirler/devir<n><nom>+e<cop><aor><p3><pl>/devir<n><pl><nom>/devir<n><pl><nom>+e<cop><aor><p3><sg>$
+[/7zOwXyEo_7a0]
+[8IkEUK4B-iBU#0] ^oğluñni/oğul<n><px2sg><acc><err_orth>$
+[/8IkEUK4B-iBU]
+[8T9-4MdzO-I6#0] ^qısmı/qısım<n><px3sp><nom>/qısım<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/8T9-4MdzO-I6]
+[997yoLH-igl8#0] ^qısımda/qısım<n><loc>/qısım<n><loc>+e<cop><aor><p3><sg>$
+[/997yoLH-igl8]
+[9AOIm7ZE3v-h#0] ^nutuqlar/nutuq<n><nom>+e<cop><aor><p3><pl>/nutuq<n><pl><nom>/nutuq<n><pl><nom>+e<cop><aor><p3><sg>$
+[/9AOIm7ZE3v-h]
+[9KJqtRn7vMlF#0] ^fikrim/fikir<n><nom>+e<cop><aor><p1><sg>/fikir<n><px1sg><nom>/fikir<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/9KJqtRn7vMlF]
+[9XidQDXrgSCv#0] ^şekilleri/şekil<n><pl><px3sp><nom>/şekil<n><pl><px3sp><nom>+e<cop><aor><p3><sg>$
+[/9XidQDXrgSCv]
+[9d290GIKWCKT#0] ^qısım/qısım<n><attr>/qısım<n><nom>/qısım<n><nom>+e<cop><aor><p3><sg>$
+[/9d290GIKWCKT]
+[A5AsqheCRvCZ#0] ^fikirleriñni/fikir<n><pl><px2sg><acc>$
+[/A5AsqheCRvCZ]
+[A8Wlp7xiSBV8#0] ^vaqtından/vaqıt<n><px3sp><abl>/vaqıt<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/A8Wlp7xiSBV8]
+[ADgsrFaZLUYi#0] ^oğluñıznen/oğul<n><px2pl><ins>/oğul<n><px2pl><ins>+e<cop><aor><p3><sg>$
+[/ADgsrFaZLUYi]
+[AndRxaAFcJ2A#0] ^devirniñ/devir<n><gen>$
+[/AndRxaAFcJ2A]
+[AslLLpnqljP6#0] ^vaqtını/vaqıt<n><px3sp><acc>$
+[/AslLLpnqljP6]
+[B3fPTrJbPup-#0] ^fikirge/fikir<n><dat>$
+[/B3fPTrJbPup-]
+[BRcy0oosl8cB#0] ^fikirlerge/fikir<n><pl><dat>$
+[/BRcy0oosl8cB]
+[CoRnxQlGP2Cz#0] ^devirni/devir<n><acc>$
+[/CoRnxQlGP2Cz]
+[Cpp9afj_rFVV#0] ^vaqıttaki/vaqıt<n><loc><attr>/vaqıt<n><loc><subst><nom>/vaqıt<n><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/Cpp9afj_rFVV]
+[CvRRLWTir6jx#0] ^burnuna/burun<n><px3sp><dat>$
+[/CvRRLWTir6jx]
+[CwkRsEUm-Ipa#0] ^burunğa/burun<n><dat>$
+[/CwkRsEUm-Ipa]
+[DfGvuARtVsIv#0] ^oğluñız/oğul<n><px2pl><nom>/oğul<n><px2pl><nom>+e<cop><aor><p3><sg>$
+[/DfGvuARtVsIv]
+[DiCEAcIkDjWw#0] ^şekline/şekil<n><px3sp><dat>$
+[/DiCEAcIkDjWw]
+[ErCxkMTP5K-A#0] ^oğlumızğa/oğul<n><px1pl><dat>$
+[/ErCxkMTP5K-A]
+[F1oTlcSUHVcW#0] ^fikirlerniñ/fikir<n><pl><gen>$
+[/F1oTlcSUHVcW]
+[FIsMcYhsnvF1#0] ^vaqıtlarda/vaqıt<n><pl><loc>/vaqıt<n><pl><loc>+e<cop><aor><p3><sg>$
+[/FIsMcYhsnvF1]
+[FLR8s1HbZBU7#0] ^fikrini/fikir<n><px3sp><acc>$
+[/FLR8s1HbZBU7]
+[Fb7g1h25NkGv#0] ^devirlerge/devir<n><pl><dat>$
+[/Fb7g1h25NkGv]
+[GKvvgdOKpfLf#0] ^qısımları/qısım<n><pl><px3sp><nom>/qısım<n><pl><px3sp><nom>+e<cop><aor><p3><sg>$
+[/GKvvgdOKpfLf]
+[Gr0xqfEHfGfT#0] ^oğulları/oğul<n><pl><px3sp><nom>/oğul<n><pl><px3sp><nom>+e<cop><aor><p3><sg>$
+[/Gr0xqfEHfGfT]
+[H2ZP70LNqOjQ#0] ^vaqtına/vaqıt<n><px3sp><dat>$
+[/H2ZP70LNqOjQ]
+[H7cKwRVGJR8_#0] ^qısmındaki/qısım<n><px3sp><loc><attr>/qısım<n><px3sp><loc><subst><nom>/qısım<n><px3sp><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/H7cKwRVGJR8_]
+[HIum_vpKlRmc#0] ^devirdeki/devir<n><loc><attr>/devir<n><loc><subst><nom>/devir<n><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/HIum_vpKlRmc]
+[HN0RH-G5HPQj#0] ^nutuqlarnı/nutuq<n><pl><acc>$
+[/HN0RH-G5HPQj]
+[Hg1Dl6szMqfB#0] ^qısımğa/qısım<n><dat>$
+[/Hg1Dl6szMqfB]
+[IsOr3ydNB_qI#0] ^vaqıttan/vaqıt<n><abl>/vaqıt<n><abl>+e<cop><aor><p3><sg>$
+[/IsOr3ydNB_qI]
+[IxMMZY-oGl86#0] ^qısımnıñ/qısım<n><gen>$
+[/IxMMZY-oGl86]
+[JLUjRqFaH08g#0] ^oğluñıznı/oğul<n><px2pl><acc>$
+[/JLUjRqFaH08g]
+[Jf-sid3SKeUn#0] ^qısmından/qısım<n><px3sp><abl>/qısım<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/Jf-sid3SKeUn]
+[JvhrczT0s4Iy#0] ^fikrimizge/fikir<n><px1pl><dat>$
+[/JvhrczT0s4Iy]
+[L4fCc5l1SCKv#0] ^fikirleri/fikir<n><pl><px3sp><nom>/fikir<n><pl><px3sp><nom>+e<cop><aor><p3><sg>$
+[/L4fCc5l1SCKv]
+[LGUjyZA46k0t#0] ^qısımlarında/qısım<n><pl><px3sp><loc>/qısım<n><pl><px3sp><loc>+e<cop><aor><p3><sg>$
+[/LGUjyZA46k0t]
+[LKvUzrjupoO5#0] ^devirlerini/devir<n><pl><px3sp><acc>$
+[/LKvUzrjupoO5]
+[M1nnVaLqQINa#0] ^fikirlerden/fikir<n><pl><abl>/fikir<n><pl><abl>+e<cop><aor><p3><sg>$
+[/M1nnVaLqQINa]
+[MJQ_bFeiopEB#0] ^fikirnen/fikir<n><ins>/fikir<n><ins>+e<cop><aor><p3><sg>$
+[/MJQ_bFeiopEB]
+[MQgN-fCnQ1C0#0] ^vaqtımıznı/vaqıt<n><px1pl><acc>$
+[/MQgN-fCnQ1C0]
+[Mh2nImLGRlWX#0] ^şeklinde/şekil<n><px3sp><loc>/şekil<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/Mh2nImLGRlWX]
+[N-ZdkYR257-0#0] ^devri/devir<n><px3sp><nom>/devir<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/N-ZdkYR257-0]
+[Nm8EzCRw8Lsf#0] ^burnunı/burun<n><px3sp><acc>$
+[/Nm8EzCRw8Lsf]
+[Ny7fs_9LfGdc#0] ^devrine/devir<n><px3sp><dat>$
+[/Ny7fs_9LfGdc]
+[ORgJJ3tUwwB4#0] ^vaqıt/vaqıt<n><attr>/vaqıt<n><nom>/vaqıt<n><nom>+e<cop><aor><p3><sg>$
+[/ORgJJ3tUwwB4]
+[OXLK-02vi7U2#0] ^fikrime/fikir<n><px1sg><dat>$
+[/OXLK-02vi7U2]
+[OqRLDexZ1LxV#0] ^nutuqta/nutuq<n><loc>/nutuq<n><loc>+e<cop><aor><p3><sg>$
+[/OqRLDexZ1LxV]
+[PMq8FkQzhFFG#0] ^boynu/boyun<n><px3sp><nom>/boyun<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/PMq8FkQzhFFG]
+[POTGz1mWlrTp#0] ^şekillerine/şekil<n><pl><px3sp><dat>$
+[/POTGz1mWlrTp]
+[Q2UWf2bf77li#0] ^vaqıtlarına/vaqıt<n><pl><px3sp><dat>$
+[/Q2UWf2bf77li]
+[QOmRoUEt2yuQ#0] ^vaqıtlarğa/vaqıt<n><pl><dat>$
+[/QOmRoUEt2yuQ]
+[RB0fprKmu7s4#0] ^devirlerinde/devir<n><pl><px3sp><loc>/devir<n><pl><px3sp><loc>+e<cop><aor><p3><sg>$
+[/RB0fprKmu7s4]
+[RGtHaF5OLo-X#0] ^oğlum/oğul<n><nom>+e<cop><aor><p1><sg>/oğul<n><px1sg><nom>/oğul<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/RGtHaF5OLo-X]
+[RPS0eUVBx-i8#0] ^qısmında/qısım<n><px3sp><loc>/qısım<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/RPS0eUVBx-i8]
+[RfMp-FnjjnmL#0] ^şekilden/şekil<n><abl>/şekil<n><abl>+e<cop><aor><p3><sg>$
+[/RfMp-FnjjnmL]
+[RtzKCUjkPlBE#0] ^şekillerde/şekil<n><pl><loc>/şekil<n><pl><loc>+e<cop><aor><p3><sg>$
+[/RtzKCUjkPlBE]
+[Ryg2-iqU6Ffj#0] ^oğlumız/oğul<n><nom>+e<cop><aor><p1><pl>/oğul<n><px3sp><nom>+e<cop><aor><p1><pl>/oğul<n><px1pl><nom>/oğul<n><px1pl><nom>+e<cop><aor><p3><sg>$
+[/Ryg2-iqU6Ffj]
+[Sk8cy_GEEQfr#0] ^oğul/oğul<n><attr>/oğul<n><nom>/oğul<n><nom>+e<cop><aor><p3><sg>$
+[/Sk8cy_GEEQfr]
+[T4PquIFz-vy2#0] ^boyun/boyun<n><attr>/boyun<n><nom>/boyun<n><nom>+e<cop><aor><p3><sg>$
+[/T4PquIFz-vy2]
+[TCU1Z299f9uu#0] ^fikirlerini/fikir<n><pl><px3sp><acc>$
+[/TCU1Z299f9uu]
+[TKcKUFhrjJNM#0] ^nutuqlarında/nutuq<n><pl><px3sp><loc>/nutuq<n><pl><px3sp><loc>+e<cop><aor><p3><sg>$
+[/TKcKUFhrjJNM]
+[ThWwr8QspWOc#0] ^qısımlardan/qısım<n><pl><abl>/qısım<n><pl><abl>+e<cop><aor><p3><sg>$
+[/ThWwr8QspWOc]
+[U3YT6_hf30_p#0] ^oğluma/oğul<n><px1sg><dat>$
+[/U3YT6_hf30_p]
+[UJXZDdaeGXfm#0] ^fikirlerine/fikir<n><pl><px3sp><dat>$
+[/UJXZDdaeGXfm]
+[UNl464teJXgz#0] ^qısımlarnı/qısım<n><pl><acc>$
+[/UNl464teJXgz]
+[Uxx0l3OZ4Bx4#0] ^oğluna/oğul<n><px3sp><dat>$
+[/Uxx0l3OZ4Bx4]
+[VFoFa3czU280#0] ^oğlu/oğul<n><px3sp><nom>/oğul<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/VFoFa3czU280]
+[VVmpsIbemVFL#0] ^şeklini/şekil<n><px3sp><acc>/şekli<adj><subst><acc>$
+[/VVmpsIbemVFL]
+[VXRsVQGhcsWn#0] ^fikirlerimiz/fikir<n><pl><nom>+e<cop><aor><p1><pl>/fikir<n><pl><px3sp><nom>+e<cop><aor><p1><pl>/fikir<n><pl><px1pl><nom>/fikir<n><pl><px1pl><nom>+e<cop><aor><p3><sg>$
+[/VXRsVQGhcsWn]
+[WJ7F0sH5UgYF#0] ^qısımlarından/qısım<n><pl><px3sp><abl>/qısım<n><pl><px3sp><abl>+e<cop><aor><p3><sg>$
+[/WJ7F0sH5UgYF]
+[WfvuP2hqBw6s#0] ^fikrine/fikir<n><px3sp><dat>$
+[/WfvuP2hqBw6s]
+[WwqXXy8zhUBs#0] ^vaqıtlarını/vaqıt<n><pl><px3sp><acc>$
+[/WwqXXy8zhUBs]
+[Y48RdhC2dfLj#0] ^fikirde/fikir<n><loc>/fikir<n><loc>+e<cop><aor><p3><sg>$
+[/Y48RdhC2dfLj]
+[YHTxjnIqd7ai#0] ^vaqıtlarnı/vaqıt<n><pl><acc>$
+[/YHTxjnIqd7ai]
+[YWbaOp5Mfht8#0] ^devir/devir<n><attr>/devir<n><nom>/devir<v><iv><imp><p2><sg>/devir<n><nom>+e<cop><aor><p3><sg>$
+[/YWbaOp5Mfht8]
+[YkzoihZn-ENd#0] ^boynunda/boyun<n><px3sp><loc>/boyun<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/YkzoihZn-ENd]
+[ZF7_jdhyv474#0] ^fikirden/fikir<n><abl>/fikir<n><abl>+e<cop><aor><p3><sg>$
+[/ZF7_jdhyv474]
+[_Lrae2gndbYQ#0] ^şekilde/şekil<n><loc>/şekil<n><loc>+e<cop><aor><p3><sg>$
+[/_Lrae2gndbYQ]
+[_Q4rD58CPhca#0] ^qısımlarda/qısım<n><pl><loc>/qısım<n><pl><loc>+e<cop><aor><p3><sg>$
+[/_Q4rD58CPhca]
+[aVh0a7DL3HAW#0] ^oğluñızğa/oğul<n><px2pl><dat>$
+[/aVh0a7DL3HAW]
+[amja_s5iMDGY#0] ^burnunıñ/burun<n><px3sp><gen>$
+[/amja_s5iMDGY]
+[awNZaFTq8VqX#0] ^şekil/şekil<n><attr>/şekil<n><nom>/şekil<n><nom>+e<cop><aor><p3><sg>$
+[/awNZaFTq8VqX]
+[b2_x2Qif9zW0#0] ^şeklindeki/şekil<n><px3sp><loc><attr>/şekil<n><px3sp><loc><subst><nom>/şekil<n><px3sp><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/b2_x2Qif9zW0]
+[b7-rv8EvD0zr#0] ^devirde/devir<n><loc>/devir<n><loc>+e<cop><aor><p3><sg>$
+[/b7-rv8EvD0zr]
+[bTNIMTMnfymn#0] ^boynuna/boyun<n><px3sp><dat>$
+[/bTNIMTMnfymn]
+[bbJTMFrcrCYe#0] ^şekilge/şekil<n><dat>$
+[/bbJTMFrcrCYe]
+[c2YSL_nT2CXM#0] ^nutuqları/nutuq<n><pl><px3sp><nom>/nutuq<n><pl><px3sp><nom>+e<cop><aor><p3><sg>$
+[/c2YSL_nT2CXM]
+[dG1sP9E6Rc8d#0] ^oğlunıñ/oğul<n><px3sp><gen>$
+[/dG1sP9E6Rc8d]
+[dcI8cftkPcuD#0] ^vaqıtnıñ/vaqıt<n><gen>$
+[/dcI8cftkPcuD]
+[dnSoTiBTw1uz#0] ^oğlumnen/oğul<n><px1sg><ins>/oğul<n><px1sg><ins>+e<cop><aor><p3><sg>$
+[/dnSoTiBTw1uz]
+[eH1XffJoGmiS#0] ^boynuma/boyun<n><px1sg><dat>$
+[/eH1XffJoGmiS]
+[hJWfy5erixXr#0] ^fikirlerinen/fikir<n><pl><px3sp><ins>/fikir<n><pl><px3sp><ins>+e<cop><aor><p3><sg>$
+[/hJWfy5erixXr]
+[hgCfYn8tMsIo#0] ^fikirleriñiz/fikir<n><pl><px2pl><nom>/fikir<n><pl><px2pl><nom>+e<cop><aor><p3><sg>$
+[/hgCfYn8tMsIo]
+[iP22u2vozIxj#0] ^vaqtı/vaqıt<n><px3sp><nom>/vaq<adj>+e<cop><ifi><p3><sg>/vaq<adj><subst><nom>+e<cop><ifi><p3><sg>/vaqıt<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/iP22u2vozIxj]
+[imW3ewldBqfJ#0] ^nutqını/nutuq<n><px3sp><acc><err_orth>$
+[/imW3ewldBqfJ]
+[j3FByqc6SpO1#0] ^qısımlarğa/qısım<n><pl><dat>$
+[/j3FByqc6SpO1]
+[jO8gHDI5VB5n#0] ^vaqtındaki/vaqıt<n><px3sp><loc><attr>/vaqıt<n><px3sp><loc><subst><nom>/vaqıt<n><px3sp><loc><subst><nom>+e<cop><aor><p3><sg>$
+[/jO8gHDI5VB5n]
+[jOUUwMoRl2q9#0] ^vaqtınıñ/vaqıt<n><px3sp><gen>$
+[/jOUUwMoRl2q9]
+[jSk_7J0pAnkY#0] ^qısımlarnen/qısım<n><pl><ins>/qısım<n><pl><ins>+e<cop><aor><p3><sg>$
+[/jSk_7J0pAnkY]
+[jhNuLfVOdnkk#0] ^fikirlerni/fikir<n><pl><acc>$
+[/jhNuLfVOdnkk]
+[jp5QXlAT8oGF#0] ^fikrimiz/fikir<n><nom>+e<cop><aor><p1><pl>/fikir<n><px3sp><nom>+e<cop><aor><p1><pl>/fikir<n><px1pl><nom>/fikir<n><px1pl><nom>+e<cop><aor><p3><sg>$
+[/jp5QXlAT8oGF]
+[k7SIpJu4X1ps#0] ^fikirni/fikir<n><acc>$
+[/k7SIpJu4X1ps]
+[kLdG3qWVglsM#0] ^vaqıtlarında/vaqıt<n><pl><px3sp><loc>/vaqıt<n><pl><px3sp><loc>+e<cop><aor><p3><sg>$
+[/kLdG3qWVglsM]
+[kxJPVQs30fYL#0] ^fikirleriniñ/fikir<n><pl><px3sp><gen>$
+[/kxJPVQs30fYL]
+[l1xXrKLBAdsq#0] ^vaqıtlarından/vaqıt<n><pl><px3sp><abl>/vaqıt<n><pl><px3sp><abl>+e<cop><aor><p3><sg>$
+[/l1xXrKLBAdsq]
+[lRnyks_pgAfq#0] ^vaqtım/vaqıt<n><nom>+e<cop><aor><p1><sg>/vaqıt<n><px1sg><nom>/vaqıt<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/lRnyks_pgAfq]
+[lUsx30qatTAP#0] ^fikri/fikir<n><px3sp><nom>/fikir<n><px3sp><nom>+e<cop><aor><p3><sg>$
+[/lUsx30qatTAP]
+[lXveQ1_1ugXV#0] ^oğlumnı/oğul<n><px1sg><acc>$
+[/lXveQ1_1ugXV]
+[mKDrpM0tMeCP#0] ^qısımlarnıñ/qısım<n><pl><gen>$
+[/mKDrpM0tMeCP]
+[mZYO2JrddGfG#0] ^vaqıtqa/vaqıt<n><dat>$
+[/mZYO2JrddGfG]
+[m_5zoyQj9tvg#0] ^vaqıtlarnıñ/vaqıt<n><pl><gen>$
+[/m_5zoyQj9tvg]
+[mbBDh7wWsZ52#0] ^qısımlarına/qısım<n><pl><px3sp><dat>$
+[/mbBDh7wWsZ52]
+[nGzeaqWEvyCI#0] ^devirlerde/devir<n><pl><loc>/devir<n><pl><loc>+e<cop><aor><p3><sg>$
+[/nGzeaqWEvyCI]
+[nzccm0-4tHtV#0] ^burunlarnı/burun<n><pl><acc>$
+[/nzccm0-4tHtV]
+[o-U6rZccVi02#0] ^boynumızğa/boyun<n><px1pl><dat>$
+[/o-U6rZccVi02]
+[oLUKK2YXewsq#0] ^fikir/fikir<n><attr>/fikir<n><nom>/fikir<n><nom>+e<cop><aor><p3><sg>$
+[/oLUKK2YXewsq]
+[ok6-QkE3wo5a#0] ^devrini/devir<n><px3sp><acc>$
+[/ok6-QkE3wo5a]
+[pnx7CMAkBNyj#0] ^oğlumnıñ/oğul<n><px1sg><gen>$
+[/pnx7CMAkBNyj]
+[qK9W5NtqCby2#0] ^fikirlernen/fikir<n><pl><ins>/fikir<n><pl><ins>+e<cop><aor><p3><sg>$
+[/qK9W5NtqCby2]
+[r4x6eCnha1z9#0] ^devrinden/devir<n><px3sp><abl>/devir<n><px3sp><abl>+e<cop><aor><p3><sg>$
+[/r4x6eCnha1z9]
+[rH6XmlMFie0W#0] ^devrim/devir<n><nom>+e<cop><aor><p1><sg>/devir<n><px1sg><nom>/devir<n><px1sg><nom>+e<cop><aor><p3><sg>$
+[/rH6XmlMFie0W]
+[tGh7LZKcN3YZ#0] ^qısmına/qısım<n><px3sp><dat>$
+[/tGh7LZKcN3YZ]
+[tXX2IkyG3oQh#0] ^fikirlerimni/fikir<n><pl><px1sg><acc>$
+[/tXX2IkyG3oQh]
+[tokovAXD3hkM#0] ^fikirniñ/fikir<n><gen>$
+[/tokovAXD3hkM]
+[tol4X2-eB5O3#0] ^şekillerge/şekil<n><pl><dat>$
+[/tol4X2-eB5O3]
+[vNd5sySsVoEG#0] ^oğullarından/oğul<n><pl><px3sp><abl>/oğul<n><pl><px3sp><abl>+e<cop><aor><p3><sg>$
+[/vNd5sySsVoEG]
+[vPF459-yLvid#0] ^oğlunı/oğul<n><px3sp><acc>$
+[/vPF459-yLvid]
+[vR9QKWUMeOs0#0] ^devrinde/devir<n><px3sp><loc>/devir<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/vR9QKWUMeOs0]
+[vT0dUnzD6hL0#0] ^vaqıtnı/vaqıt<n><acc>$
+[/vT0dUnzD6hL0]
+[vUbQsO__v5sj#0] ^devirlerden/devir<n><pl><abl>/devir<n><pl><abl>+e<cop><aor><p3><sg>$
+[/vUbQsO__v5sj]
+[voxF7ZR56-rG#0] ^fikirler/fikir<n><nom>+e<cop><aor><p3><pl>/fikir<n><pl><nom>/fikir<n><pl><nom>+e<cop><aor><p3><sg>$
+[/voxF7ZR56-rG]
+[vyV6CVn9PYSX#0] ^burunda/burun<n><loc>/burun<n><loc>+e<cop><aor><p3><sg>$
+[/vyV6CVn9PYSX]
+[wa82EeZIblx6#0] ^nutuqlarnıñ/nutuq<n><pl><gen>$
+[/wa82EeZIblx6]
+[xFPg296lNE1i#0] ^nutqunda/nutuq<n><px3sp><loc>/nutuq<n><px3sp><loc>+e<cop><aor><p3><sg>$
+[/xFPg296lNE1i]
+[xY4OgZAuyu9w#0] ^fikirlerim/fikir<n><pl><nom>+e<cop><aor><p1><sg>/fikir<n><pl><px1sg><nom>/fikir<n><pl><px1sg><nom>+e<cop><aor><p3><sg>$
+[/xY4OgZAuyu9w]
+[y7wUMIQHntjK#0] ^oğlumdan/oğul<n><px1sg><abl>/oğul<n><px1sg><abl>+e<cop><aor><p3><sg>$
+[/y7wUMIQHntjK]
+[yPlKj5K_Jd9L#0] ^şekillerini/şekil<n><pl><px3sp><acc>$
+[/yPlKj5K_Jd9L]
+[yiDd-gk6fD2X#0] ^qısımnı/qısım<n><acc>$
+[/yiDd-gk6fD2X]
+[zKx_4rIrYUi7#0] ^fikrimizni/fikir<n><px1pl><acc>$
+[/zKx_4rIrYUi7]
+[zudtYCkadY8n#0] ^şekilni/şekil<n><acc>$
+[/zudtYCkadY8n]

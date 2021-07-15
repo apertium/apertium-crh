@@ -1,0 +1,8 @@
+[8SJCeKGK_ZAY#0] ^toqtatmaycaqlar/toqtat<v><tv><neg><fut2><p3><pl>/toqtat<v><tv><neg><ger_fut2><nom>+e<cop><aor><p3><pl>/toqtat<v><tv><neg><ger_fut2><pl><nom>/toqtat<v><tv><neg><ger_fut2><pl><nom>+e<cop><aor><p3><sg>$
+[/8SJCeKGK_ZAY]
+[FFVEz2FVq4aU#0] ^olmaycaq/ol<v><iv><neg><gpr_fut2>/ol<v><iv><neg><ger_fut2><nom>/ol<v><iv><neg><fut2><p3><sg>/ol<v><iv><neg><ger_fut2><nom>+e<cop><aor><p3><sg>$
+[/FFVEz2FVq4aU]
+[N-zKROCJ5-k1#0] ^belgileycek/belgile<v><tv><gpr_fut2>/belgile<v><tv><ger_fut2><nom>/belgile<v><tv><fut2><p3><sg>/belgile<v><tv><ger_fut2><nom>+e<cop><aor><p3><sg>$
+[/N-zKROCJ5-k1]
+[qW2_knRm6nW-#0] ^başlaycaq/başla<vaux><gpr_fut2>/başla<v><tv><gpr_fut2>/başla<vaux><ger_fut2><nom>/başla<v><tv><ger_fut2><nom>/başla<vaux><fut2><p3><sg>/başla<v><tv><fut2><p3><sg>/başla<vaux><ger_fut2><nom>+e<cop><aor><p3><sg>/başla<v><tv><ger_fut2><nom>+e<cop><aor><p3><sg>$
+[/qW2_knRm6nW-]
