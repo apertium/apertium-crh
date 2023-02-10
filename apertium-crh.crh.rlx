@@ -41,6 +41,7 @@ LIST Nec = nec ;
 LIST Loc = loc ;
 LIST Adv = adv;
 LIST Det = det ;
+LIST Prn = prn ;
 LIST Prc/perf = prc_perf ;
 LIST Prc/impf = prc_impf ;
 LIST Prc/fut = prc_fut ;
@@ -79,6 +80,9 @@ LIST Sg3 = (p3 sg) ;
 LIST Pl1 = (p1 pl);
 LIST Pl2 = (p2 pl) ;
 LIST Pl3 = (p3 pl) ;
+
+LIST Prn/Dem = (prn dem) ;
+LIST Prn/Pers = (prn pers) ;
 
 LIST Cm = "," ;
 
@@ -207,6 +211,17 @@ SELECT Evid IF (-1 Prc) (0 Eken) (1 EOS) ;
 
 REMOVE Ger IF (0 Ger OR Fin) (1 EOS) ;
 
+SELECT Prn/Pers IF
+	(0 Prn/Dem OR Prn/Pers)
+	(0 Gen)
+	(1 (n px3sp))
+;
+
+REMOVE Imper IF
+	(1* V BARRIER EOS)
+;
+
+
 SECTION
 
 
@@ -282,6 +297,12 @@ REMOVE A + Subst + $$NGADLAI IF (0 N + $$NGADLAI) ;
 
 SELECT Aux IF (0C Aux OR Cop) (-1 Prc) ;
 
+SELECT Aux IF
+	(0C Aux OR V)
+	(0C ("tur"i))
+	(-1 Prc)
+;
+
 REMOVE Prc IF (1C N OR Prop) ; 
 
 REMOVE Gpr IF (1 EOS) ;
@@ -296,6 +317,13 @@ REMOVE Prc IF (1 Cm) ;
 SECTION
 
 REMOVE Imper IF (0 Qara) ;
+
+SECTION
+
+REMOVE Num IF
+	(0C Num OR Det)
+	(1 N)
+;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
