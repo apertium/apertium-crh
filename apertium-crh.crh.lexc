@@ -347,15 +347,8 @@ LEXICON CLIT-QST-MI
 
 LEXICON CLIT-COP
 
-%+e%<cop%>%<aor%>%<gno%>%<p1%>%<sg%>:%>%{j%}%{I%}m # ;
-%+e%<cop%>%<aor%>%<gno%>%<p1%>%<pl%>:%>m%{I%}z # ;
-%+e%<cop%>%<aor%>%<gno%>%<p2%>%<sg%>:%>s%{I%}ñ # ;
-%+e%<cop%>%<aor%>%<gno%>%<p2%>%<pl%>:%>s%{I%}ñ%{I%}z # ;
-%+e%<cop%>%<aor%>%<gno%>%<p3%>%<sg%>:%>%{D%}%{I%}r # ;
-%+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r # ; ! Dir/LR
-%+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r%>l%{A%}r # ;
 %+e%<cop%>%<aor%>: V-PERS-S1-COP ; 
-%+e%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-S1-COP ; 
+%+e%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
 
 LEXICON CLITICS-NO-COP 
 
@@ -820,15 +813,17 @@ LEXICON V-PERS-S1-COP
 
 %<gno%>%<p3%>%<sg%>:%>%{D%}%{I%}r CLITICS-NO-COP ; 
 %<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r CLITICS-NO-COP ;  ! Dir/LR
+%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r%>l%{A%}r # ;
 V-PERS-S1 ;
 
 LEXICON V-PERS-S1 
 
-%<p1%>%<sg%>:%>%{I%}m CLITICS-NO-COP ; 
+%<p1%>%<sg%>:%>%{j%}%{I%}m CLITICS-NO-COP ; 
 %<p2%>%<sg%>:%>s%{I%}ñ CLITICS-NO-COP ; 
 %<p3%>%<sg%>: CLITICS-NO-COP ; 
-%<p1%>%<pl%>:%>%{i%}m%{I%}z CLITICS-NO-COP ; 
-%<p2%>%<pl%>:%>s%{I%}z CLITICS-NO-COP ; 
+%<p1%>%<pl%>:%>%{i%}m%{I%}z CLITICS-NO-COP ;   ! Dir/LR
+%<p1%>%<pl%>:%>m%{I%}z CLITICS-NO-COP ;   ! Dir/LR
+%<p2%>%<pl%>:%>s%{I%}z CLITICS-NO-COP ;        ! Dir/LR
 %<p2%>%<pl%>:%>s%{I%}ñ%{I%}z CLITICS-NO-COP ;  ! FIXME: diff? -sIz/-sIñIz ?
 %<p3%>%<pl%>:%>l%{A%}r CLITICS-NO-COP ; 
 
