@@ -347,6 +347,10 @@ LEXICON CLIT-QST-MI
 
 LEXICON CLIT-COP
 
+%+e%<cop%>%<aor%>%<gno%>%<p1%>%<sg%>:%>%{j%}%{I%}m # ;
+%+e%<cop%>%<aor%>%<gno%>%<p1%>%<pl%>:%>m%{I%}z # ;
+%+e%<cop%>%<aor%>%<gno%>%<p2%>%<sg%>:%>s%{I%}ñ # ;
+%+e%<cop%>%<aor%>%<gno%>%<p2%>%<pl%>:%>s%{I%}ñ%{I%}z # ;
 %+e%<cop%>%<aor%>%<gno%>%<p3%>%<sg%>:%>%{D%}%{I%}r # ;
 %+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r # ; ! Dir/LR
 %+e%<cop%>%<aor%>%<gno%>%<p3%>%<pl%>:%>%{D%}%{I%}r%>l%{A%}r # ;
@@ -872,7 +876,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<imp%>%<p1%>%<sg%>:%>%{A%}y%{I%}m # ;
 %<imp%>%<p3%>%<sg%>:%>s%{I%}n # ;
 %<imp%>%<p1%>%<pl%>:%>%{A%}y%{I%}%{G%} # ;
-%<imp%>%<p3%>%<pl%>:%>s%{I%}nl%{A%}r # ;
+%<imp%>%<p3%>%<pl%>:%>s%{I%}n%>l%{A%}r # ;
 
 %<opt%>:%>%{G%}%{A%}y V-PERS-S2 ; 
 %<opt%>:%>%{G%}%{A%}y%{D%}%{I%} V-PERS-S2 ;  ! Dir/LR
