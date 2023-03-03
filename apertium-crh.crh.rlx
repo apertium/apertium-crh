@@ -242,6 +242,8 @@ REMOVE SUB:1 Cop IF (0 Nom) (1 Px3sp);
 
 REMOVE SUB:1 Cop IF (0/* Post/Sız) ;
 
+SELECT SUB:1 Cop IF (1 EOS) ;
+
 REMOVE N IF (0 Faqat) (-1 BOS) ; 
 
 REMOVE N IF (0 Faqat) (1 Cm) ;
