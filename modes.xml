@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="crh-twol" install="yes">
+  <mode name="crh-twol" install="no">
     <pipeline>
       <program name="hfst-strings2fst -S"/>
       <program name="hfst-compose-intersect">
@@ -19,7 +19,7 @@
     </pipeline>
   </mode>
 
-  <mode name="crh-lexc" install="yes">
+  <mode name="crh-lexc" install="no">
     <pipeline>
       <program name="hfst-lookup">
         <file name=".deps/crh.LR.lexc.hfst"/>
@@ -58,7 +58,7 @@
     </pipeline>
   </mode>
 
-    <mode name="crh-spell" install="yes">
+    <mode name="crh-spell" install="no">
         <pipeline>
             <program name="hfst-ospell -S -n 10">
                 <file name="crh.zhfst"/>
@@ -66,7 +66,7 @@
         </pipeline>
     </mode>
 
-    <mode name="crh-tokenise" install="yes">
+    <mode name="crh-tokenise" install="no">
         <pipeline>
             <program name="hfst-proc">
                 <file name=".deps/acceptor.default.hfst"/>

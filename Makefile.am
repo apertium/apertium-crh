@@ -2,8 +2,6 @@
 ## Makefile for apertium-crh
 ###############################################################################
 
-RELEASE=0.2
-VERSION=0.2.0
 LANG1=crh
 BASENAME=apertium-$(LANG1)
 
@@ -174,7 +172,9 @@ if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
 endif # HAVE_HFSTOSPELL
 
-apertium_crh_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) $(LANG1).prob
+apertium_crh_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) $(LANG1).prob \
+	$(BASENAME).$(LANG1).lexc $(BASENAME).$(LANG1).twol \
+	$(BASENAME).$(LANG1).rlx $(BASENAME).post-$(LANG1).dix
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -182,11 +182,6 @@ pkgconfig_DATA = $(BASENAME).pc
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_crh_srcdir) || mkdir -p $(DESTDIR)$(apertium_crh_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_crh_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_crh_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_crh_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_crh_srcdir)
 
 ###############################################################################
 ## Cleanup

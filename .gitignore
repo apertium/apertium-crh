@@ -20,3 +20,6 @@
 /tests/morphotactics/*.txt.gz
 /test/*-output.txt
 /*.hfst
+/*.zhfst
+/.DS_Store
+/*-*.prob
